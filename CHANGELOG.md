@@ -1,3 +1,10 @@
+## [1.16.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.16.0...v1.16.1-dev.1) (2026-03-03)
+
+
+### Bug Fixes
+
+* **YouTube - LithoFilterPatch:** Use an encoded native byte array for buffer searching ([#654](https://github.com/MorpheApp/morphe-patches/issues/654)) ([bb5cc01](https://github.com/MorpheApp/morphe-patches/commit/bb5cc0198ee87f292795c3b03127a6a82ef72647))
+
 # [1.16.0](https://github.com/MorpheApp/morphe-patches/compare/v1.15.0...v1.16.0) (2026-03-03)
 
 
