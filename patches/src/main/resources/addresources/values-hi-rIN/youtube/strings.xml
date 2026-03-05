@@ -641,15 +641,29 @@ Second \"item\" text"</string>
   <!-- 'Create' has no display name. Translate normally. -->
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays for the tab. -->
   <!-- 'Notifications' should be translated using the same localized wording YouTube displays for the tab. -->
-  <string name="morphe_show_search_button_title">खोज बटन दिखाएं</string>
+  <string name="morphe_show_search_button_title">खोज दिखाएँ</string>
   <string name="morphe_show_search_button_summary_on">खोज बटन दिखाया गया है</string>
   <string name="morphe_show_search_button_summary_off">खोज बटन दिखाया गया है नहीं</string>
   <string name="morphe_search_button_index_title">खोज बटन इंडेक्स</string>
   <string name="morphe_search_button_index_invalid">खोज बटन इंडेक्स %s से कम होना चाहिए</string>
+  <string name="morphe_show_settings_button_title">सेटिंग दिखाएँ</string>
+  <string name="morphe_show_settings_button_summary_on">सेटिंग्स बटन दिखाया गया है</string>
+  <string name="morphe_show_settings_button_summary_off">सेटिंग्स बटन नहीं दिखाया गया है</string>
+  <string name="morphe_settings_button_index_title">Settings button index</string>
+  <string name="morphe_settings_button_index_invalid">Settings button index must be less than %s</string>
   <string name="morphe_swap_create_with_notifications_button_title">स्वाप करें क्रिएट के साथ नोटिफिकेशन</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">क्रिएट बटन नोटिफिकेशन बटन के साथ स्वाप किया गया है</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">क्रिएट बटन नोटिफिकेशन बटन के साथ स्वाप नहीं किया गया है</string>
   <string name="morphe_swap_create_with_notifications_button_user_dialog_message">यदि इस सेटिंग को बदलने से कोई प्रभाव नहीं पड़ता है, तो इंकोग्नितो मोड में स्विच करने की कोशिश करें।</string>
+  <string name="morphe_hide_navigation_button_labels_summary_on">Navigation button labels are hidden</string>
+  <string name="morphe_hide_navigation_button_labels_summary_off">Navigation button labels are shown</string>
+  <string name="morphe_hide_navigation_bar_title">Hide navigation bar</string>
+  <string name="morphe_hide_navigation_bar_summary_on">Navigation bar is hidden</string>
+  <string name="morphe_hide_navigation_bar_summary_off">Navigation bar is shown</string>
+  <string name="morphe_hide_navigation_bar_user_dialog_message">"This hides the navigation bar entirely including You tab.
+
+To access Settings:
+Open any video → Open Quality menu → Tap 'Settings &gt; Video Quality Preferences' at the bottom."</string>
   <string name="morphe_narrow_navigation_buttons_title">नarrow नैविगेशन बटनें सक्षम करें</string>
   <string name="morphe_narrow_navigation_buttons_summary_on">नैविगेशन बटनें के बीच अंतर नarrow है</string>
   <string name="morphe_narrow_navigation_buttons_summary_off">नैविगेशन बटन के बीच अंतर सामान्य है</string>
@@ -659,18 +673,30 @@ Second \"item\" text"</string>
 • प्रणाली नavigation बार ट्रांज़्पेरेंट हो सकता है, और वीडियो पर टिप्पणी करना संभव नहीं हो सकता है।"</string>
   <string name="morphe_toolbar_screen_title">टूलबार</string>
   <string name="morphe_toolbar_screen_summary">टूलबार घटकों को छुपाएं या बदलें</string>
-  <string name="morphe_hide_toolbar_create_button_title">छुपाएं \'सृजना\' बटन</string>
+  <string name="morphe_hide_toolbar_create_button_title">Hide Create</string>
   <string name="morphe_hide_toolbar_create_button_summary_on">सृजना बटन छुपा हुआ है</string>
   <string name="morphe_hide_toolbar_create_button_summary_off">सृजना बटन दिखाया जाता है</string>
-  <string name="morphe_hide_toolbar_notification_button_title">छुपाएं \'सूचनाएं\' बटन</string>
+  <string name="morphe_hide_toolbar_microphone_button_title">Hide Microphone</string>
+  <string name="morphe_hide_toolbar_microphone_button_summary_on">Microphone button is hidden</string>
+  <string name="morphe_hide_toolbar_microphone_button_summary_off">Microphone button is shown</string>
+  <string name="morphe_hide_toolbar_notification_button_title">Hide Notifications</string>
   <string name="morphe_hide_toolbar_notification_button_summary_on">सूचनाएं बटन छुपा हुआ है</string>
   <string name="morphe_hide_toolbar_notification_button_summary_off">सूचनाएं बटन दिखाया जाता है</string>
-  <string name="morphe_hide_toolbar_search_button_title">छुपाएं \'खोज\' बटन</string>
+  <string name="morphe_hide_toolbar_search_button_title">Hide Search</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">खोज बटन छुपा हुआ है</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">सर्च बटन दिखाया गया है</string>
-  <string name="morphe_hide_toolbar_voice_search_button_title">वॉइस सर्च बटन छुपाएं</string>
-  <string name="morphe_hide_toolbar_voice_search_button_summary_on">वॉइस सर्च बटन छुपा हुआ है</string>
-  <string name="morphe_hide_toolbar_voice_search_button_summary_off">वॉइस सर्च बटन दिखाया जाता है</string>
+  <string name="morphe_replace_toolbar_create_button_title">Replace Create with Settings</string>
+  <string name="morphe_replace_toolbar_create_button_summary_on">Create button is replaced with Settings button</string>
+  <string name="morphe_replace_toolbar_create_button_summary_off">Create button is not replaced with Settings button</string>
+  <string name="morphe_replace_toolbar_create_button_user_dialog_message">The click behavior of the Settings button in You tab is also overridden.</string>
+  <string name="morphe_replace_toolbar_create_button_type_title">Settings button action</string>
+  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Tap to open Morphe settings
+Tap and hold to open YouTube settings"</string>
+  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Tap to open YouTube settings
+Tap and hold to open Morphe settings"</string>
+  <string name="morphe_rearrange_toolbar_buttons_title">Rearrange the replaced buttons</string>
+  <string name="morphe_rearrange_toolbar_buttons_summary_on">Buttons are rearranged</string>
+  <string name="morphe_rearrange_toolbar_buttons_summary_off">Buttons are not rearranged</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
   <!-- 'Additional settings / More' should be translated using the same localized wording YouTube displays for the menu item. -->

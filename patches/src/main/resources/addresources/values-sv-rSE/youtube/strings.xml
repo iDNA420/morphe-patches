@@ -646,7 +646,6 @@ Cookies sparas automatiskt om de är giltiga"</string>
   <string name="morphe_hide_notifications_button_title">Dölj Aviseringar</string>
   <string name="morphe_hide_notifications_button_summary_on">Knappen Aviseringar är dold</string>
   <string name="morphe_hide_notifications_button_summary_off">Knappen Aviseringar visas</string>
-  <string name="morphe_show_search_button_title">Visa knappen Sök</string>
   <string name="morphe_show_search_button_summary_on">Knappen Sök visas</string>
   <string name="morphe_show_search_button_summary_off">Knappen Sök visas inte</string>
   <string name="morphe_search_button_index_title">Index för knappen Sök</string>
@@ -656,8 +655,9 @@ Cookies sparas automatiskt om de är giltiga"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Knappen Skapa byts inte ut mot knappen Aviseringar</string>
   <string name="morphe_swap_create_with_notifications_button_user_dialog_message">Om den här inställningen inte träder i kraft kan du testa att byta till inkognitoläget.</string>
   <string name="morphe_hide_navigation_button_labels_title">Dölj etiketter för navigeringsknappar</string>
-  <string name="morphe_hide_navigation_button_labels_summary_on">Etiketter är dolda</string>
-  <string name="morphe_hide_navigation_button_labels_summary_off">Etiketter visas</string>
+  <string name="morphe_hide_navigation_bar_title">Dölj navigeringsfältet</string>
+  <string name="morphe_hide_navigation_bar_summary_on">Navigeringsfältet är dolt</string>
+  <string name="morphe_hide_navigation_bar_summary_off">Navigeringsfältet visas</string>
   <string name="morphe_narrow_navigation_buttons_title">Aktivera smala navigeringsknappar</string>
   <string name="morphe_narrow_navigation_buttons_summary_on">Avståndet mellan navigeringsknapparna är smalt</string>
   <string name="morphe_narrow_navigation_buttons_summary_off">Avståndet mellan navigeringsknapparna är normalt</string>
@@ -678,18 +678,14 @@ Cookies sparas automatiskt om de är giltiga"</string>
   <string name="morphe_disable_translucent_navigation_bar_dark_summary_off">Navigeringsfältet i mörkt läge är ogenomskinligt eller genomskinligt</string>
   <string name="morphe_toolbar_screen_title">Verktygsfält</string>
   <string name="morphe_toolbar_screen_summary">Dölj eller ändra komponenter i verktygsfältet</string>
-  <string name="morphe_hide_toolbar_create_button_title">Dölj knappen Skapa</string>
+  <string name="morphe_hide_toolbar_create_button_title">Dölj Skapa</string>
   <string name="morphe_hide_toolbar_create_button_summary_on">Knappen Skapa är dold</string>
   <string name="morphe_hide_toolbar_create_button_summary_off">Knappen Skapa visas</string>
-  <string name="morphe_hide_toolbar_notification_button_title">Dölj knappen Aviseringar</string>
+  <string name="morphe_hide_toolbar_notification_button_title">Dölj Aviseringar</string>
   <string name="morphe_hide_toolbar_notification_button_summary_on">Knappen Aviseringar är dold</string>
   <string name="morphe_hide_toolbar_notification_button_summary_off">Knappen Aviseringar visas</string>
-  <string name="morphe_hide_toolbar_search_button_title">Dölj knappen Sök</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Knappen Sök är dold</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Knappen Sök visas</string>
-  <string name="morphe_hide_toolbar_voice_search_button_title">Dölj knappen för röstsökning</string>
-  <string name="morphe_hide_toolbar_voice_search_button_summary_on">Knappen för röstsökning är dold</string>
-  <string name="morphe_hide_toolbar_voice_search_button_summary_off">Knappen för röstsökning visas</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Flyout-meny</string>
   <string name="morphe_hide_player_flyout_summary">Dölj eller visa objekt i spelarens flyout-meny</string>
