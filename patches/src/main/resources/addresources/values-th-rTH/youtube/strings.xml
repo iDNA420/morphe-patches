@@ -686,13 +686,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">แสดงการค้นหา</string>
   <string name="morphe_show_search_button_summary_on">แสดงปุ่มค้นหาแล้ว</string>
   <string name="morphe_show_search_button_summary_off">ปุ่มค้นหาไม่ได้แสดง</string>
-  <string name="morphe_search_button_index_title">คำสั่งค้นหา</string>
-  <string name="morphe_search_button_index_invalid">ค่าแท็บคำสั่งค้นหาไม่ควรเกิน %s</string>
+  <string name="morphe_show_search_button_index_title">ดัชนีปุ่มค้นหา</string>
   <string name="morphe_show_settings_button_title">แสดงการตั้งค่า</string>
   <string name="morphe_show_settings_button_summary_on">ปุ่มการตั้งค่าแสดง</string>
   <string name="morphe_show_settings_button_summary_off">ปุ่มการตั้งค่าไม่แสดง</string>
-  <string name="morphe_settings_button_index_title">ปุ่มตั้งค่า</string>
-  <string name="morphe_settings_button_index_invalid">ดัชนีปุ่มตั้งค่าต้องน้อยกว่า %s</string>
+  <string name="morphe_show_settings_button_index_title">ดัชนีปุ่มการตั้งค่า</string>
+  <string name="morphe_show_settings_button_type_title">การดำเนินการปุ่มการตั้งค่า</string>
+  <string name="morphe_show_settings_button_type_summary_on">แตะเพื่อเปิดการตั้งค่า Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">แตะเพื่อเปิดการตั้งค่า YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">สลับสร้างด้วยการแจ้งเตือน</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">ปุ่มสร้างถูกสลับกับปุ่มการแจ้งเตือนแล้ว</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">ปุ่มสร้างยังไม่ถูกสลับกับปุ่มการแจ้งเตือน</string>
@@ -739,18 +740,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">ซ่อนการค้นหา</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">ซ่อนปุ่มค้นหาแล้ว</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">แสดงปุ่มค้นหาแล้ว</string>
-  <string name="morphe_replace_toolbar_create_button_title">แทนที่สร้างด้วยการตั้งค่า</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">ปุ่มสร้างถูกแทนที่ด้วยปุ่มการตั้งค่า</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">ปุ่มสร้างไม่ถูกแทนที่ด้วยปุ่มการตั้งค่า</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">การคลิกของปุ่มการตั้งค่าในแท็บ You จะถูกยกเลิกด้วยเช่นกัน</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">การกระทำของปุ่มการตั้งค่า</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"แตะเพื่อเปิดการตั้งค่า Morphe
+  <string name="morphe_show_toolbar_settings_button_title">แสดงการตั้งค่า</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">ปุ่มการตั้งค่าจะแสดง</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">ปุ่มการตั้งค่าจะไม่แสดง</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">ดัชนีปุ่มการตั้งค่า</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">การดำเนินการปุ่มการตั้งค่า</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"แตะเพื่อเปิดการตั้งค่า Morphe
 แตะค้างเพื่อเปิดการตั้งค่า YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"แตะเพื่อเปิดการตั้งค่า YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"แตะเพื่อเปิดการตั้งค่า YouTube
 แตะค้างเพื่อเปิดการตั้งค่า Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">จัดเรียงปุ่มที่ถูกแทนที่</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">ปุ่มถูกจัดเรียงใหม่</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">ปุ่มไม่ถูกจัดเรียงใหม่</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">เมนูแบบเลื่อนลง</string>
   <string name="morphe_hide_player_flyout_summary">ซ่อนหรือแสดงรายการเมนูแบบเลื่อนลงของเครื่องเล่น</string>

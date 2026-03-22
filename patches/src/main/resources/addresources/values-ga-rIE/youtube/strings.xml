@@ -689,13 +689,14 @@ Sábhálfar fianáin go huathoibríoch má tá siad bailí"</string>
   <string name="morphe_show_search_button_title">Taispeáin cufsach</string>
   <string name="morphe_show_search_button_summary_on">Taispeántar an cnaipe cuardaigh</string>
   <string name="morphe_show_search_button_summary_off">Ní thaispeántar an cnaipe cuardaigh</string>
-  <string name="morphe_search_button_index_title">Innéacs na gcnaipí cuardaigh</string>
-  <string name="morphe_search_button_index_invalid">Ní mór innéacs na gcnaipe cuardaigh a bheith níos lú ná %s</string>
+  <string name="morphe_show_search_button_index_title">Innéacs na gcnaipí cuardaigh</string>
   <string name="morphe_show_settings_button_title">Taispeáin Socruithe</string>
   <string name="morphe_show_settings_button_summary_on">Tá an cnaipe Socruithe á taispeánadh</string>
   <string name="morphe_show_settings_button_summary_off">Ní féidir Socruithe a chhairgris</string>
-  <string name="morphe_settings_button_index_title">Innéacs na gcnaipí cuardaigh</string>
-  <string name="morphe_settings_button_index_invalid">Ní mór innéacs na gcnaipe cuardaigh a bheith níos lú ná %s</string>
+  <string name="morphe_show_settings_button_index_title">Íonad cnaipéad Settings</string>
+  <string name="morphe_show_settings_button_type_title">Gníomh cnaipéad Settings</string>
+  <string name="morphe_show_settings_button_type_summary_on">Bainisteoir le oscailt Socruithe Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Tap to open YouTube settings</string>
   <string name="morphe_swap_create_with_notifications_button_title">Athraigh Cruthaigh le Fógraí</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Tá an cnaipe Cruthaigh malartaithe leis an gcnaipe Fógraí</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Níl an cnaipe Cruthaigh malartaithe leis an gcnaipe Fógraí</string>
@@ -742,18 +743,15 @@ Fhail isteach ar fíolán arbhachaidh → Fhail isteach ar margaíocht → Tába
   <string name="morphe_hide_toolbar_search_button_title">Folaigh Comhroinn</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Tá cnaipe cuardaigh i bhfolach</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Taispeántar an cnaipe cuardaigh</string>
-  <string name="morphe_replace_toolbar_create_button_title">Nuair a theastaíonn ceannú, asgoigh an eitilt</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Tá an cnaipe Cruthaigh malartaithe leis an gcnaipe Fógraí</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Níl an cnaipe Cruthaigh malartaithe leis an gcnaipe Fógraí</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Is tairiscneadh athriall ar chomháineamh an cnaipéad Socruití sa tab You freisin.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Morphe</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Tap to open Morphe settings
+  <string name="morphe_show_toolbar_settings_button_title">Show Settings</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Taispeántar an cnaipe socruithe</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Ní thaispeántar an cnaipe socruithe</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Innéacs na gcnaipí socruithe</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Cnaipéad socruithe</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Tap to open Morphe settings
 Tap and hold to open YouTube settings"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Tap to open YouTube settings
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Tap to open YouTube settings
 Tap and hold to open Morphe settings"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">An práinneáil na cnaipeí suidéartha</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Tá na cnaipeí suidéartha déanta</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Níl na cnaipeí suidéartha déanta</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Roghchlár Flyout</string>
   <string name="morphe_hide_player_flyout_summary">Folaigh nó taispeáin míreanna roghchlár flyout an imreora</string>

@@ -690,13 +690,14 @@ Ciasteczka zostaną zapisane automatycznie, jeśli są poprawne"</string>
   <string name="morphe_show_search_button_title">Przycisk Szukaj</string>
   <string name="morphe_show_search_button_summary_on">Widoczny</string>
   <string name="morphe_show_search_button_summary_off">Ukryty</string>
-  <string name="morphe_search_button_index_title">Indeks przycisku wyszukiwania</string>
-  <string name="morphe_search_button_index_invalid">Indeks przycisku wyszukiwania musi być mniejszy niż %s</string>
+  <string name="morphe_show_search_button_index_title">Indeks przycisku wyszukiwania</string>
   <string name="morphe_show_settings_button_title">Przycisk Ustawienia</string>
   <string name="morphe_show_settings_button_summary_on">Widoczny</string>
   <string name="morphe_show_settings_button_summary_off">Ukryty</string>
-  <string name="morphe_settings_button_index_title">Indeks przycisku ustawień</string>
-  <string name="morphe_settings_button_index_invalid">Indeks przycisku ustawień musi być mniejszy niż %s</string>
+  <string name="morphe_show_settings_button_index_title">Indeks przycisku ustawień</string>
+  <string name="morphe_show_settings_button_type_title">Działanie przycisku ustawień</string>
+  <string name="morphe_show_settings_button_type_summary_on">Dotknij, aby otworzyć ustawienia Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Dotknij, aby otworzyć ustawienia YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Przyciski przesyłania i powiadomień</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Zamienione</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Niezamienione</string>
@@ -743,18 +744,15 @@ Otwórz dowolny film → Otwórz menu jakości → Stuknij \"Ustawienia &gt; Pre
   <string name="morphe_hide_toolbar_search_button_title">Przycisk Szukaj</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Ukryty</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Widoczny</string>
-  <string name="morphe_replace_toolbar_create_button_title">Przyciski Utwórz i Ustawienia</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Zamienione</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Niezamienione</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Działanie przycisku ustawień na stronie Ty również zostanie nadpisane.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Działanie przycisku ustawień</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Stuknij, aby otworzyć ustawienia Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Przycisk Ustawienia</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Widoczny</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Ukryty</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Indeks przycisku ustawień</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Działanie przycisku ustawień</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Stuknij, aby otworzyć ustawienia Morphe
 Przytrzymaj, aby otworzyć ustawienia YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Stuknij, aby otworzyć ustawienia YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Stuknij, aby otworzyć ustawienia YouTube
 Przytrzymaj, aby otworzyć ustawienia Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Kolejność zastąpionych przycisków</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Zmieniona</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Niezmieniona</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menu ustawień filmów</string>
   <string name="morphe_hide_player_flyout_summary">Ukryj lub pokazuj elementy menu ustawień filmów</string>

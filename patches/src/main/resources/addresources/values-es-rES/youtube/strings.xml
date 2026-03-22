@@ -688,13 +688,14 @@ Las cookies se guardarán automáticamente si son válidas"</string>
   <string name="morphe_show_search_button_title">Mostrar búsqueda</string>
   <string name="morphe_show_search_button_summary_on">El botón de búsqueda está visible</string>
   <string name="morphe_show_search_button_summary_off">El botón de búsqueda está oculto</string>
-  <string name="morphe_search_button_index_title">Índice del botón de búsqueda</string>
-  <string name="morphe_search_button_index_invalid">El índice del botón de búsqueda debe ser menor que %s</string>
+  <string name="morphe_show_search_button_index_title">Índice del botón de búsqueda</string>
   <string name="morphe_show_settings_button_title">Mostrar ajustes</string>
   <string name="morphe_show_settings_button_summary_on">El botón de ajustes está visible</string>
   <string name="morphe_show_settings_button_summary_off">El botón de ajustes está oculto</string>
-  <string name="morphe_settings_button_index_title">Índice del botón de búsqueda</string>
-  <string name="morphe_settings_button_index_invalid">El índice del botón de ajustes debe ser inferior a %s</string>
+  <string name="morphe_show_settings_button_index_title">Índice del botón de configuración</string>
+  <string name="morphe_show_settings_button_type_title">Acción del botón de configuración</string>
+  <string name="morphe_show_settings_button_type_summary_on">Toque para abrir la configuración de Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Pulsa para abrir la configuración de YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Intercambiar \"Crear\" con \"Notificaciones\"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">El botón \"Crear\" se ha intercambiado con el botón \"Notificaciones\"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">El botón \"Crear\" no se ha intercambiado con el botón \"Notificaciones\"</string>
@@ -741,18 +742,15 @@ Abrir cualquier vídeo → Abrir el menú Calidad → Pulsar en \"Configuración
   <string name="morphe_hide_toolbar_search_button_title">Ocultar búsqueda</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">El botón \"Buscar\" está oculto</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">El botón \"Buscar\" está visible</string>
-  <string name="morphe_replace_toolbar_create_button_title">Reemplazar \"Crear\" con \"Configuración\"</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">El botón \"Crear\" se reemplaza por el botón \"Configuración\"</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">El botón \"Crear\" no se reemplaza por el botón \"Configuración\"</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">El comportamiento de pulsación del botón \"Configuración\" en la pestaña \"Tú\" también se reemplaza.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Acción del botón \"Configuración\"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Pulsar para abrir los ajustes de Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Mostrar ajustes</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">El botón de ajustes está mostrado</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">El botón de ajustes está oculto</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Índice del botón de ajustes</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Acción del botón de ajustes</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Pulsar para abrir los ajustes de Morphe
 Mantener pulsado para abrir la configuración de YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Pulsar para abrir la configuración de YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Pulsar para abrir la configuración de YouTube
 Mantener pulsado para abrir los ajustes de Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Reorganizar los botones reemplazados</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Los botones están reorganizados</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Los botones no están reorganizados</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menú desplegable</string>
   <string name="morphe_hide_player_flyout_summary">Ocultar o mostrar elementos del menú desplegable del reproductor</string>

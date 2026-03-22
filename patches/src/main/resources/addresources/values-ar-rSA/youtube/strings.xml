@@ -688,13 +688,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">عرض البحث</string>
   <string name="morphe_show_search_button_summary_on">يتم عرض زر البحث</string>
   <string name="morphe_show_search_button_summary_off">لا يتم عرض زر البحث</string>
-  <string name="morphe_search_button_index_title">ترتيب زر البحث</string>
-  <string name="morphe_search_button_index_invalid">يجب أن يكون مؤشر زر البحث أقل من %s</string>
+  <string name="morphe_show_search_button_index_title">ترتيب زر البحث</string>
   <string name="morphe_show_settings_button_title">عرض الإعدادات</string>
   <string name="morphe_show_settings_button_summary_on">يتم عرض زر الإعدادات</string>
   <string name="morphe_show_settings_button_summary_off">لا يتم عرض زر الإعدادات</string>
-  <string name="morphe_settings_button_index_title">ترتيب زر البحث</string>
-  <string name="morphe_settings_button_index_invalid">يجب أن يكون مؤشر زر البحث أقل من %s</string>
+  <string name="morphe_show_settings_button_index_title">ترتيب زر الإعدادات</string>
+  <string name="morphe_show_settings_button_type_title">إجراء زر الإعدادات</string>
+  <string name="morphe_show_settings_button_type_summary_on">انقر لفتح إعدادات Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">انقر لفتح إعدادات YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">تبديل الإنشاء بالإشعارات</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">تم تبديل زر الإنشاء بزر الإشعارات</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">لا يتم تبديل زر الإنشاء بزر الإشعارات</string>
@@ -741,18 +742,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">إخفاء البحث</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">تم إخفاء زر البحث</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">يتم عرض زر البحث</string>
-  <string name="morphe_replace_toolbar_create_button_title">استبدال إنشاء بـ الإعدادات</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">يتم تبديل زر إنشاء بزر الإعدادات</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">لا يتم تبديل زر إنشاء بزر الإعدادات</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">يتجاوز سلوك النقر على زر الإعدادات في علامة التبويب أنت أيضًا.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">إجراء زر الإعدادات</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"اضغط لفتح إعدادات Morphe
+  <string name="morphe_show_toolbar_settings_button_title">إظهار الإعدادات</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">يتم عرض زر الإعدادات</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">لا يتم عرض زر الإعدادات</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">ترتيب زر الإعدادات</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">إجراء زر الإعدادات</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"اضغط لفتح إعدادات Morphe
 اضغط مع الاستمرار لفتح إعدادات YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"اضغط لفتح إعدادات YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"اضغط لفتح إعدادات YouTube
 اضغط مع الاستمرار لفتح إعدادات Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">إعادة ترتيب الأزرار المستبدلة</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">تم إعادة ترتيب الأزرار</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">لم تتم إعادة ترتيب الأزرار</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">القائمة المنبثقة</string>
   <string name="morphe_hide_player_flyout_summary">إخفاء أو عرض عناصر قائمة المشغل المنبثقة</string>

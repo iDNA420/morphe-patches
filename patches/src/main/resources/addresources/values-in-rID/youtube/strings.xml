@@ -686,13 +686,14 @@ Cookie akan disimpan secara otomatis jika sah"</string>
   <string name="morphe_show_search_button_title">Tampilkan Pencarian</string>
   <string name="morphe_show_search_button_summary_on">Tombol pencarian ditampilkan</string>
   <string name="morphe_show_search_button_summary_off">Tombol pencarian tidak ditampilkan</string>
-  <string name="morphe_search_button_index_title">Indeks tombol pencarian</string>
-  <string name="morphe_search_button_index_invalid">Indeks tombol pencarian harus kurang dari %s</string>
+  <string name="morphe_show_search_button_index_title">Indeks tombol pencarian</string>
   <string name="morphe_show_settings_button_title">Tampilkan Pengaturan</string>
   <string name="morphe_show_settings_button_summary_on">Tombol Pengaturan ditampilkan</string>
   <string name="morphe_show_settings_button_summary_off">Tombol Pengaturan tidak ditampilkan</string>
-  <string name="morphe_settings_button_index_title">Indeks tombol pengaturan</string>
-  <string name="morphe_settings_button_index_invalid">Indeks tombol pengaturan harus kurang dari %s</string>
+  <string name="morphe_show_settings_button_index_title">Indeks tombol pengaturan</string>
+  <string name="morphe_show_settings_button_type_title">Tindakan tombol pengaturan</string>
+  <string name="morphe_show_settings_button_type_summary_on">Ketuk untuk membuka pengaturan Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Ketuk untuk membuka pengaturan YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Tukar Buat dengan Pemberitahuan</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Tombol buat ditukar dengan tombol Pemberitahuan</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Tombol buat tidak ditukar dengan tombol Pemberitahuan</string>
@@ -739,18 +740,15 @@ Buka video apa pun → Buka menu Kualitas → Ketuk 'Pengaturan &gt; Preferensi 
   <string name="morphe_hide_toolbar_search_button_title">Sembunyikan Pencarian</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Tombol pencarian disembunyikan</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Tombol pencarian ditampilkan</string>
-  <string name="morphe_replace_toolbar_create_button_title">Ganti Buat dengan Pengaturan</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Tombol Buat diganti dengan tombol Pengaturan</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Tombol Buat tidak diganti dengan tombol Pengaturan</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Perilaku klik tombol Pengaturan di tab Anda juga ditimpa.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Tindakan tombol Pengaturan</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Ketuk untuk membuka pengaturan Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Tampilkan Pengaturan</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Tombol Pengaturan ditampilkan</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Tombol Pengaturan tidak ditampilkan</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Indeks tombol Pengaturan</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Tindakan tombol Pengaturan</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Ketuk untuk membuka pengaturan Morphe
 Ketuk dan tahan untuk membuka pengaturan YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Ketuk untuk membuka Pengaturan YouTube
-Ketuk dan tahan untuk membuka Pengaturan Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Atur ulang susunan tombol yang diganti</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Tombol disusun ulang</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Tombol tidak disusun ulang</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Ketuk untuk membuka pengaturan Morphe
+Ketuk dan tahan untuk membuka pengaturan YouTube"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menu flyout</string>
   <string name="morphe_hide_player_flyout_summary">Sembunyikan atau tampilkan item menu pemutar flyout</string>

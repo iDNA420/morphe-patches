@@ -688,13 +688,14 @@ Cookies werden automatisch gespeichert, wenn sie gültig sind"</string>
   <string name="morphe_show_search_button_title">Suche anzeigen</string>
   <string name="morphe_show_search_button_summary_on">Suchschaltfläche wird angezeigt</string>
   <string name="morphe_show_search_button_summary_off">Suchschaltfeld wird nicht angezeigt</string>
-  <string name="morphe_search_button_index_title">Suchschaltfeld-Index</string>
-  <string name="morphe_search_button_index_invalid">Suchschaltfeld-Index muss kleiner als %s sein</string>
+  <string name="morphe_show_search_button_index_title">Suchschaltfläche Index</string>
   <string name="morphe_show_settings_button_title">Einstellungen anzeigen</string>
   <string name="morphe_show_settings_button_summary_on">Einstellungen-Button wird angezeigt</string>
   <string name="morphe_show_settings_button_summary_off">Einstellungen-Button wird nicht angezeigt</string>
-  <string name="morphe_settings_button_index_title">Einstellungen Schaltfläche Index</string>
-  <string name="morphe_settings_button_index_invalid">Bestimmen Sie, ob der Index des Einstellungen-Buttons kleiner als %s ist</string>
+  <string name="morphe_show_settings_button_index_title">Einstellungen-Schaltfläche Index</string>
+  <string name="morphe_show_settings_button_type_title">Einstellungen-Schaltfläche Aktion</string>
+  <string name="morphe_show_settings_button_type_summary_on">Tippen zum Öffnen der Morphe-Einstellungen</string>
+  <string name="morphe_show_settings_button_type_summary_off">Tippen Sie, um die YouTube-Einstellungen zu öffnen</string>
   <string name="morphe_swap_create_with_notifications_button_title">Tausche \"Erstellen\" mit \"Benachrichtigungen\"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Erstellen-Button ist mit Benachrichtigungs-Button getauscht</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Erstellen-Button ist nicht mit Benachrichtigungs-Button getauscht</string>
@@ -741,18 +742,15 @@ Um Einstellungen aufzurufen:
   <string name="morphe_hide_toolbar_search_button_title">Suche ausblenden</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Suchschaltfläche wird ausgeblendet</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Suchschaltfläche wird angezeigt</string>
-  <string name="morphe_replace_toolbar_create_button_title">\'Erstellen\' durch \'Einstellungen\' ersetzen</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Der \'Erstellen\'-Button wird durch den \'Einstellungen\'-Button ersetzt</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Der \'Erstellen\'-Button wird nicht durch den \'Einstellungen\'-Button ersetzt</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Der Klickvorgang des \'Einstellungen\'-Buttons im Tab \'You\' wird ebenfalls überschrieben.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Aktion des Einstellungen-Buttons</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Tippen Sie, um die Morphe-Einstellungen zu öffnen
+  <string name="morphe_show_toolbar_settings_button_title">Einstellungen anzeigen</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Einstellungen-Schaltfläche wird angezeigt</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Einstellungen-Schaltfläche wird nicht angezeigt</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Einstellungen-Schaltflächenindex</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Einstellungen-Schaltflächenaktion</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Tippen Sie, um die Morphe-Einstellungen zu öffnen.
 Tippen und halten Sie, um die YouTube-Einstellungen zu öffnen"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Tippen Sie, um die YouTube-Einstellungen zu öffnen
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Tippen Sie, um die YouTube-Einstellungen zu öffnen.
 Tippen und halten Sie, um die Morphe-Einstellungen zu öffnen"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Ordnen Sie die ersetzten Schaltflächen neu an</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Schaltflächen wurden neu angeordnet</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Schaltflächen wurden nicht neu angeordnet</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Einstellungs-Menü</string>
   <string name="morphe_hide_player_flyout_summary">Einträge des Einstellungsmenüs ein- oder ausblenden</string>

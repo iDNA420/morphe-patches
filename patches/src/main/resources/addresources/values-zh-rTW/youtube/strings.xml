@@ -310,6 +310,7 @@ Second \"item\" text"</string>
 • 隱藏輪播項目可能會產生意想不到的副作用。
 • 如果所有輪播項目都被隱藏，整個評論區也會被隱藏。"</string>
   <string name="morphe_hide_comments_carousel_filter_strings_title">啟用評論輪播過濾器</string>
+  <string name="morphe_hide_comments_carousel_filter_strings_summary">輸入要篩選的頻道標籤名稱，每行一個</string>
   <string name="morphe_hide_comments_ai_chat_summary_title">隱藏 AI 聊天摘要</string>
   <string name="morphe_hide_comments_ai_chat_summary_summary_on">已隱藏 AI 聊天摘要</string>
   <string name="morphe_hide_comments_ai_chat_summary_summary_off">已顯示 AI 聊天摘要</string>
@@ -687,13 +688,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">顯示搜尋</string>
   <string name="morphe_show_search_button_summary_on">已顯示「搜尋」按鈕</string>
   <string name="morphe_show_search_button_summary_off">不顯示「搜尋」按鈕</string>
-  <string name="morphe_search_button_index_title">搜尋按鈕索引</string>
-  <string name="morphe_search_button_index_invalid">搜尋按鈕索引必須小於 %s</string>
+  <string name="morphe_show_search_button_index_title">搜尋按鈕索引</string>
   <string name="morphe_show_settings_button_title">顯示設定</string>
   <string name="morphe_show_settings_button_summary_on">設定按鈕已顯示</string>
   <string name="morphe_show_settings_button_summary_off">不顯示「設定」按鈕</string>
-  <string name="morphe_settings_button_index_title">設定按鈕索引</string>
-  <string name="morphe_settings_button_index_invalid">Settings 按鈕索引必須小於 %s</string>
+  <string name="morphe_show_settings_button_index_title">設定按鈕索引</string>
+  <string name="morphe_show_settings_button_type_title">設定按鈕動作</string>
+  <string name="morphe_show_settings_button_type_summary_on">點擊開啟 Morphe 設定</string>
+  <string name="morphe_show_settings_button_type_summary_off">點擊以開啟 YouTube 設定</string>
   <string name="morphe_swap_create_with_notifications_button_title">切換「建立」與「通知」按鈕</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">「建立」按鈕已與「通知」按鈕對調</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">「建立」按鈕未與「通知」按鈕對調</string>
@@ -740,18 +742,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">Hide Search</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">已隱藏「搜尋」按鈕</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">已顯示「搜尋」按鈕</string>
-  <string name="morphe_replace_toolbar_create_button_title">取代「建立」為「設定」</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">「建立」按鈕已替換為「設定」按鈕</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">「建立」按鈕不與「通知」按鈕對調</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">You 分頁中，設定按鈕的點擊行為也會被覆寫。</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">設定按鈕動作</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"輕觸以開啟 Morphe 設定
+  <string name="morphe_show_toolbar_settings_button_title">顯示設定</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">已顯示設定按鈕</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">不顯示「設定」按鈕</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">設定按鈕索引</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">設定按鈕動作</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"輕觸以開啟 Morphe 設定
 按住以開啟 YouTube 設定"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"輕觸以開啟 YouTube 設定
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"輕觸以開啟 YouTube 設定
 按住以開啟 Morphe 設定"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">重新排列已取代的按鈕</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">按鈕已重新排列</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">按鈕未重新排列</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">介面選單</string>
   <string name="morphe_hide_player_flyout_summary">隱藏或顯示播放器彈出式選單</string>

@@ -685,13 +685,14 @@ Cookie-urile vor fi salvate automatik daca sunt valide"</string>
   <string name="morphe_show_search_button_title">Afișează Căutare</string>
   <string name="morphe_show_search_button_summary_on">Butonul de căutare este afișat</string>
   <string name="morphe_show_search_button_summary_off">Butonul de căutare nu este arătat</string>
-  <string name="morphe_search_button_index_title">Butonul căutări</string>
-  <string name="morphe_search_button_index_invalid">Indexul butonului căutări trebuie să fie mai mic decăt %s</string>
+  <string name="morphe_show_search_button_index_title">Index buton de căutare</string>
   <string name="morphe_show_settings_button_title">Afișează Setări</string>
   <string name="morphe_show_settings_button_summary_on">Se afișează butonul Setări</string>
   <string name="morphe_show_settings_button_summary_off">Butonul Setări nu este afișat</string>
-  <string name="morphe_settings_button_index_title">Indexul butonului Setări</string>
-  <string name="morphe_settings_button_index_invalid">Indexul butonului Setări trebuie să fie mai mic decât %s</string>
+  <string name="morphe_show_settings_button_index_title">Index buton Setări</string>
+  <string name="morphe_show_settings_button_type_title">Acțiune buton Setări</string>
+  <string name="morphe_show_settings_button_type_summary_on">Atingeți pentru a deschide setările Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Atinge pentru a deschide setările YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Comuta Creare cu Notificări</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Butonul Creare a fost comutat cu butonul Notificări</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Butonul Creare nu este comutat cu butonul Notificări</string>
@@ -738,18 +739,15 @@ Deschideți orice videoclip → Deschideți meniul Calitate → Dați clic pe �
   <string name="morphe_hide_toolbar_search_button_title">Ascunde Cautare</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Butonul de căutare este ascuns</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Butonul de căutare este afișat</string>
-  <string name="morphe_replace_toolbar_create_button_title">Înlocuiește Crea cu Setări</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Butonul Crea este înlocuit cu butonul Setări</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Butonul Crea nu este înlocuit cu butonul Setări</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Acțiunea butonului Setări în tab-ul You este, de asemenea, suprascrisă.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Tipul butonului Setări</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Dați clic pentru a deschide Setările Morphe
-Dați clic și țineți apăsat pentru a deschide Setările YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Dați clic pentru a deschide Setările YouTube
-Dați clic și țineți apăsat pentru a deschide Setările Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Rearanjați butoanele înlocuite</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Butoanele sunt rearanjate</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Butoanele nu sunt rearanjate</string>
+  <string name="morphe_show_toolbar_settings_button_title">Afișează Setări</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Se afișează butonul Setări</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Butonul Setări nu este afișat</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Indexul butonului Setări</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Acțiunea butonului Setări</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Atinge pentru a deschide setările Morphe
+Apasă și menține apăsat pentru a deschide setările YouTube"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Atinge pentru a deschide setările YouTube
+Apasă și menține apăsat pentru a deschide setările Morphe"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Meniu flyout</string>
   <string name="morphe_hide_player_flyout_summary">Ascunde sau arată elementele de meniu Flyout ale jucătorului</string>

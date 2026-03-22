@@ -688,13 +688,14 @@ Os cookies serão salvos automaticamente se forem válidos"</string>
   <string name="morphe_show_search_button_title">Mostrar Pesquisa</string>
   <string name="morphe_show_search_button_summary_on">Botão de pesquisa está visível</string>
   <string name="morphe_show_search_button_summary_off">Botão de pesquisa não está visível</string>
-  <string name="morphe_search_button_index_title">Índice do botão de pesquisa</string>
-  <string name="morphe_search_button_index_invalid">O índice do botão de pesquisa deve ser menor que %s</string>
+  <string name="morphe_show_search_button_index_title">Índice do botão de pesquisa</string>
   <string name="morphe_show_settings_button_title">Mostrar Configurações</string>
   <string name="morphe_show_settings_button_summary_on">Botão de Configurações exibido</string>
   <string name="morphe_show_settings_button_summary_off">Botão de Configurações não exibido</string>
-  <string name="morphe_settings_button_index_title">Índice do botão de configurações</string>
-  <string name="morphe_settings_button_index_invalid">O índice do botão de Configurações deve ser menor que %s</string>
+  <string name="morphe_show_settings_button_index_title">Índice do botão de configurações</string>
+  <string name="morphe_show_settings_button_type_title">Ação do botão Configurações</string>
+  <string name="morphe_show_settings_button_type_summary_on">Toque para abrir as configurações do Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Toque para abrir as configurações do YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Trocar Criar por Notificações</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Botão criar está trocado com o botão notificações</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Botão criar não está trocado com o botão notificações</string>
@@ -741,18 +742,15 @@ Abra qualquer vídeo → Abra o menu de Qualidade → Toque em 'Configurações 
   <string name="morphe_hide_toolbar_search_button_title">Ocultar Busca</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Botão de pesquisa está oculto</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Botão de pesquisa está visível</string>
-  <string name="morphe_replace_toolbar_create_button_title">Substituir Criar por Configurações</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Botão criar foi substituído por Botão Configurações</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Botão criar não está substituído por botão Configurações</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">O comportamento de clique do botão Configurações na guia You também é substituído.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Ação do botão Configurações</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Toque para abrir as configurações do Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Mostrar Configurações</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">O botão Configurações está visível</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">O botão Configurações não está visível</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Índice do botão de configurações</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Ação do botão Configurações</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Toque para abrir as configurações do Morphe
 Toque e segure para abrir as configurações do YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Toque para abrir as configurações do YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Toque para abrir as configurações do YouTube
 Toque e segure para abrir as configurações do Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Organize os botões substituídos</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Os botões foram reorganizados</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Os botões não foram reorganizados</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menu suspenso</string>
   <string name="morphe_hide_player_flyout_summary">Ocultar ou mostrar itens no menu suspenso do player</string>

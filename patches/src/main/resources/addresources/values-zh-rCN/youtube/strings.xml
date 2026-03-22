@@ -688,13 +688,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">显示搜索</string>
   <string name="morphe_show_search_button_summary_on">搜索按钮已显示</string>
   <string name="morphe_show_search_button_summary_off">搜索按钮未显示</string>
-  <string name="morphe_search_button_index_title">搜索按钮索引</string>
-  <string name="morphe_search_button_index_invalid">搜索按钮索引必须小于 %s</string>
+  <string name="morphe_show_search_button_index_title">搜索按钮索引</string>
   <string name="morphe_show_settings_button_title">显示设置</string>
   <string name="morphe_show_settings_button_summary_on">设置按钮已显示</string>
   <string name="morphe_show_settings_button_summary_off">设置按钮未显示</string>
-  <string name="morphe_settings_button_index_title">设置按钮索引</string>
-  <string name="morphe_settings_button_index_invalid">设置按钮索引必须小于 %s</string>
+  <string name="morphe_show_settings_button_index_title">设置按钮索引</string>
+  <string name="morphe_show_settings_button_type_title">设置按钮操作</string>
+  <string name="morphe_show_settings_button_type_summary_on">轻触以打开 Morphe 设置</string>
+  <string name="morphe_show_settings_button_type_summary_off">点击打开 YouTube 设置</string>
   <string name="morphe_swap_create_with_notifications_button_title">切换「创作」为「通知」按钮</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">「创作」按钮已切换为「通知」按钮</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">「创作」按钮未切换为「通知」按钮</string>
@@ -741,18 +742,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">隐藏搜索</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">搜索按钮已隐藏</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">搜索按钮已显示</string>
-  <string name="morphe_replace_toolbar_create_button_title">将创建替换为设置</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">创建按钮已替换为设置按钮</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">创建按钮未替换为设置按钮</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">You 选项卡中设置按钮的点击行为也被覆盖。</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">设置按钮操作</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"点击打开 Morphe 设置
-长按点击打开 YouTube 设置"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"点击打开 YouTube 设置
-长按点击打开 Morphe 设置"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">重新排列替换后的按钮</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">按钮已重新排列</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">按钮未重新排列</string>
+  <string name="morphe_show_toolbar_settings_button_title">显示设置</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">显示设置按钮</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">未显示设置按钮</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">设置按钮索引</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">设置按钮操作</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"点击打开 Morphe 设置
+长按打开 YouTube 设置"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"点击打开 YouTube 设置
+长按打开 Morphe 设置"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">弹出菜单</string>
   <string name="morphe_hide_player_flyout_summary">隐藏或显示播放器弹出菜单项</string>

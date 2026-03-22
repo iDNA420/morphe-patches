@@ -690,13 +690,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">Показати \"Пошук\"</string>
   <string name="morphe_show_search_button_summary_on">Кнопка \"Пошук\" показується</string>
   <string name="morphe_show_search_button_summary_off">Кнопка \"Пошук\" не показується</string>
-  <string name="morphe_search_button_index_title">Індекс кнопки \"Пошук\"</string>
-  <string name="morphe_search_button_index_invalid">Індекс кнопки \"Пошук\" має бути меншим за %s</string>
+  <string name="morphe_show_search_button_index_title">Індекс кнопки \"Пошук\"</string>
   <string name="morphe_show_settings_button_title">Показати \"Налаштування\"</string>
   <string name="morphe_show_settings_button_summary_on">Кнопка \"Налаштування\" показується</string>
   <string name="morphe_show_settings_button_summary_off">Кнопку \"Налаштування\" приховано</string>
-  <string name="morphe_settings_button_index_title">Індекс кнопки \"Пошук\"</string>
-  <string name="morphe_settings_button_index_invalid">Індекс кнопки \"Пошук\" має бути меншим за %s</string>
+  <string name="morphe_show_settings_button_index_title">Індекс кнопки \"Пошук\"</string>
+  <string name="morphe_show_settings_button_type_title">Дія кнопки \"Налаштування\"</string>
+  <string name="morphe_show_settings_button_type_summary_on">Натисніть, щоб відкрити налаштування Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Натисніть, щоб відкрити налаштування YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Замінити \"Створити\" на \"Сповіщення\"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Кнопка \"Створити\" замінена на кнопку \"Сповіщення\"</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Кнопку \"Створити\" не замінено кнопкою \"Сповіщення\"</string>
@@ -743,18 +744,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">Приховати \"Пошук\"</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Кнопку \"Пошук\" приховано</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Кнопка \"Пошук\" показується</string>
-  <string name="morphe_replace_toolbar_create_button_title">Замінити \"Створити\" на \"Налаштування\"</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Кнопка \"Створити\" замінено кнопкою \"Налаштування\"</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Кнопка \"Створити\" не замінено кнопкою \"Налаштування\"</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Поведінку натискання кнопки \"Налаштування\" на вкладці \"Ви\" також перевизначено.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Дія кнопки \"Налаштування\"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Натиснути, щоб відкрити налаштування Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Показати \"Налаштування\"</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Кнопка \"Налаштування\" показується</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Кнопку \"Налаштування\" приховано</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Індекс кнопки \"Пошук\"</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Дія кнопки \"Налаштування\"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Натиснути, щоб відкрити налаштування Morphe
 Натиснути та утримувати, щоб відкрити налаштування YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Натиснути, щоб відкрити налаштування YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Натиснути, щоб відкрити налаштування YouTube
 Натиснути та утримувати, щоб відкрити налаштування Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Переставити місцями замінені кнопки</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Кнопки переставлені</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Кнопки не переставлені</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Висувне меню</string>
   <string name="morphe_hide_player_flyout_summary">Приховати або показувати пункти висувного меню плеєра</string>

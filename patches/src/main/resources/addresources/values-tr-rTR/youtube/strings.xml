@@ -689,13 +689,14 @@ Geçerli ise otomatik olarak kaydedilecek"</string>
   <string name="morphe_show_search_button_title">Ara\'yı Göster</string>
   <string name="morphe_show_search_button_summary_on">Arama düğmesi gösteriliyor</string>
   <string name="morphe_show_search_button_summary_off">Arama düğmesi gösterilmiyor</string>
-  <string name="morphe_search_button_index_title">Arama düğmesi dizini</string>
-  <string name="morphe_search_button_index_invalid">Arama düğmesi dizini %s\'den küçük olmalıdır</string>
+  <string name="morphe_show_search_button_index_title">Arama düğmesi dizini</string>
   <string name="morphe_show_settings_button_title">Ayarlar\'ı Göster</string>
   <string name="morphe_show_settings_button_summary_on">Ayarlar düğmesi gösteriliyor</string>
   <string name="morphe_show_settings_button_summary_off">Ayarlar düğmesi gösterilmiyor</string>
-  <string name="morphe_settings_button_index_title">Ayarlar düğmesi indeksi</string>
-  <string name="morphe_settings_button_index_invalid">Ayarlar düğmesinin indeksi %s\'den küçük olmalıdır</string>
+  <string name="morphe_show_settings_button_index_title">Ayarlar düğmesi indeksi</string>
+  <string name="morphe_show_settings_button_type_title">Ayarlar düğmesi işlevi</string>
+  <string name="morphe_show_settings_button_type_summary_on">Morphe ayarlarını açmak için dokunun</string>
+  <string name="morphe_show_settings_button_type_summary_off">YouTube ayarlarını açmak için dokunun</string>
   <string name="morphe_swap_create_with_notifications_button_title">Oluştur\'u Bildirimler ile değiştir</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Oluştur düğmesi, Bildirimler düğmesiyle değiştirildi</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Oluştur düğmesi, Bildirimler düğmesiyle değiştirilmedi</string>
@@ -742,18 +743,15 @@ Herhangi bir videoyu açın → Kalite menüsünü açın → Altta 'Ayarlar > V
   <string name="morphe_hide_toolbar_search_button_title">Ara\'yı Gizle</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Arama düğmesi gizli</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Arama düğmesi görünür</string>
-  <string name="morphe_replace_toolbar_create_button_title">Oluştur\'u Ayarlar ile değiştir</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Oluştur düğmesi Ayarlar düğmesi ile değiştirildi</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Oluştur düğmesi Ayarlar düğmesiyle değiştirilmedi</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Siz sekmesindeki Ayarlar düğmesinin tıklama davranışı da değiştirilmiştir.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Ayarlar düğmesi işlevi</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Morphe ayarlarını açmak için dokunun
+  <string name="morphe_show_toolbar_settings_button_title">Ayarlar\'ı Göster</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Ayarlar düğmesi gösteriliyor</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Ayarlar düğmesi gösterilmiyor</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Ayarlar düğmesi indeksi</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Ayarlar düğmesi işlevi</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Morphe ayarlarını açmak için dokunun
 YouTube ayarlarını açmak için basılı tutun"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"YouTube ayarlarını açmak için dokunun
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"YouTube ayarlarını açmak için dokunun
 Morphe ayarlarını açmak için basılı tutun"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Yer değiştirilen düğmeleri yeniden düzenle</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Düğmeler yeniden düzenlendi</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Düğmeler yeniden düzenlenmedi</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Açılır menü</string>
   <string name="morphe_hide_player_flyout_summary">Oynatıcı açılır menü öğelerini gizle veya göster</string>

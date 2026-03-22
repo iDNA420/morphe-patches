@@ -689,13 +689,14 @@ Cookie sẽ được tự động lưu nếu hợp lệ"</string>
   <string name="morphe_show_search_button_title">Hiện Tìm kiếm</string>
   <string name="morphe_show_search_button_summary_on">Nút tìm kiếm đã được hiển thị</string>
   <string name="morphe_show_search_button_summary_off">Nút tìm kiếm không được hiển thị</string>
-  <string name="morphe_search_button_index_title">Vị trí nút tìm kiếm</string>
-  <string name="morphe_search_button_index_invalid">Giá trị vị trí phải nhỏ hơn %s</string>
+  <string name="morphe_show_search_button_index_title">Vị trí nút tìm kiếm</string>
   <string name="morphe_show_settings_button_title">Hiện Cài đặt</string>
   <string name="morphe_show_settings_button_summary_on">Nút Cài đặt đã được hiển thị</string>
   <string name="morphe_show_settings_button_summary_off">Nút Cài đặt không được hiển thị</string>
-  <string name="morphe_settings_button_index_title">Vị trí nút cài đặt</string>
-  <string name="morphe_settings_button_index_invalid">Giá trị vị trí phải nhỏ hơn %s</string>
+  <string name="morphe_show_settings_button_index_title">Vị trí nút cài đặt</string>
+  <string name="morphe_show_settings_button_type_title">Thao tác nút cài đặt</string>
+  <string name="morphe_show_settings_button_type_summary_on">Bấm để mở cài đặt Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Bấm để mở cài đặt YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Đổi chỗ nút Tạo với nút Thông báo</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Nút Tạo đã được đổi chỗ với nút Thông báo</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Nút Tạo không đổi chỗ với nút Thông báo</string>
@@ -742,18 +743,15 @@ Mở video bất kỳ → Mở menu Chất lượng → Bấm vào 'Cài đặt 
   <string name="morphe_hide_toolbar_search_button_title">Ẩn Tìm kiếm</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Nút tìm kiếm đã bị ẩn</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Nút tìm kiếm được hiển thị</string>
-  <string name="morphe_replace_toolbar_create_button_title">Thay nút Tạo bằng Cài đặt</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Nút Tạo đã được đổi chỗ với nút Cài đặt</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Nút Tạo không đổi chỗ với nút Cài đặt</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Cách hoạt động của nút Cài đặt trong thẻ Bạn cũng sẽ bị thay đổi.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Thao tác nút Cài đặt</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Bấm để mở Cài đặt Morphe
-Bấm giữ để mở Cài đặt YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Bấm để mở Cài đặt YouTube
-Bấm giữ để mở Cài đặt Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Sắp xếp lại các nút đã bị thay thế</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Các nút đã được sắp xếp lại</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Các nút không được sắp xếp lại</string>
+  <string name="morphe_show_toolbar_settings_button_title">Hiện cài đặt</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Nút cài đặt đã được hiển thị</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Nút cài đặt không được hiển thị</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Vị trí nút cài đặt</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Thao tác nút cài đặt</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Bấm để mở cài đặt Morphe
+Bấm giữ để mở cài đặt YouTube"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Bấm để mở cài đặt YouTube
+Bấm giữ để mở cài đặt Morphe"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menu tuỳ chọn</string>
   <string name="morphe_hide_player_flyout_summary">Ẩn hoặc hiện các mục menu tuỳ chọn trên trình phát</string>

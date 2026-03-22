@@ -689,13 +689,14 @@ Cookies budou automaticky uloženy, pokud jsou platné."</string>
   <string name="morphe_show_search_button_title">Zobrazit vyhledávání</string>
   <string name="morphe_show_search_button_summary_on">Tlačítko vyhledávání je zobrazené</string>
   <string name="morphe_show_search_button_summary_off">Tlačítko vyhledávání není zobrazeno</string>
-  <string name="morphe_search_button_index_title">Index tlačítka vyhledávání</string>
-  <string name="morphe_search_button_index_invalid">Index tlačítka vyhledávání musí být menší než %s</string>
+  <string name="morphe_show_search_button_index_title">Index tlačítka vyhledávání</string>
   <string name="morphe_show_settings_button_title">Zobrazit nastavení</string>
   <string name="morphe_show_settings_button_summary_on">Nastavení je zobrazeno</string>
   <string name="morphe_show_settings_button_summary_off">Nastavení není zobrazeno</string>
-  <string name="morphe_settings_button_index_title">Nastavovací tlačítko index</string>
-  <string name="morphe_settings_button_index_invalid">Index nastavovacího tlačítka musí být menší než %s</string>
+  <string name="morphe_show_settings_button_index_title">Index tlačítka nastavení</string>
+  <string name="morphe_show_settings_button_type_title">Akce tlačítka nastavení</string>
+  <string name="morphe_show_settings_button_type_summary_on">Klepněte pro otevření nastavení Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Klepnutím otevřete nastavení YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Vyměňte Vytvořit s Oznámeními</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Tlačítko Vytvořit je vyměněno s tlačítkem Oznámení</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Tlačítko Vytvořit není vyměněno s tlačítkem Oznámení</string>
@@ -742,18 +743,15 @@ Otevřete jakékoli video → Otevřete nabídku Kvality → Klepněte na 'Nasta
   <string name="morphe_hide_toolbar_search_button_title">Skrýt Vyhledávání</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Tlačítko vyhledávání je skryté</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Tlačítko vyhledávání je zobrazené</string>
-  <string name="morphe_replace_toolbar_create_button_title">Nahradit Vytvořit nastavením</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Tlačítko Vytvořit je nahrazeno tlačítkem Nastavení</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Tlačítko Vytvořit není nahrazeno tlačítkem Nastavení</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Kliknutí na tlačítko Nastavení v záložce You je také přerušeno.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Akce tlačítka Nastavení</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Klepněte pro otevření nastavení Morphe
-Klepněte a podržte pro otevření nastavení YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Klepněte pro otevření nastavení YouTube
-Klepněte a podržte pro otevření nastavení Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Přesunout převedená tlačítka</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Tlačítka jsou uspořádána</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Tlačítka nejsou uspořádána</string>
+  <string name="morphe_show_toolbar_settings_button_title">Nastavení</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Tlačítko Nastavení je zobrazeno</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Tlačítko Nastavení není zobrazeno</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Index tlačítka Nastavení</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Akce tlačítka Nastavení</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Klepnutím otevřete nastavení Morphe
+Podržte prst a klepněte pro otevření nastavení YouTube"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Klepnutím otevřete nastavení YouTube
+Podržte prst a klepněte pro otevření nastavení Morphe"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Vyskakovací menu</string>
   <string name="morphe_hide_player_flyout_summary">Skrýt nebo zobrazit položky vyskakovacího menu přehrávače</string>

@@ -689,13 +689,14 @@ Cookies will be saved automatically if they are valid"</string>
   <string name="morphe_show_search_button_title">Prikaži Pretragu</string>
   <string name="morphe_show_search_button_summary_on">Dugme „Pretraga” je prikazano</string>
   <string name="morphe_show_search_button_summary_off">Dugme za pretragu nije prikazano</string>
-  <string name="morphe_search_button_index_title">Traka pretrage je sakrivena</string>
-  <string name="morphe_search_button_index_invalid">Traka pretrage mora biti manja od %s</string>
+  <string name="morphe_show_search_button_index_title">Indeks dugmeta za pretragu</string>
   <string name="morphe_show_settings_button_title">Prikaži Postavke</string>
   <string name="morphe_show_settings_button_summary_on">Postavke su prikazane</string>
   <string name="morphe_show_settings_button_summary_off">Postavke nisu prikazane</string>
-  <string name="morphe_settings_button_index_title">Indeks tipke Podešavanja</string>
-  <string name="morphe_settings_button_index_invalid">Indeks tipke Podešavanja mora biti manji od %s</string>
+  <string name="morphe_show_settings_button_index_title">Indeks dugmeta za podešavanja</string>
+  <string name="morphe_show_settings_button_type_title">Akcija dugmeta za podešavanja</string>
+  <string name="morphe_show_settings_button_type_summary_on">Dodirnite da biste otvorili podešavanja Morphea</string>
+  <string name="morphe_show_settings_button_type_summary_off">Dodirnite da biste otvorili podešavanja YouTubea</string>
   <string name="morphe_swap_create_with_notifications_button_title">Zameni dugme „Napravi” dugmetom „Obaveštenja”</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Dugme „Napravi” nije zamenjeno dugmetom „Obaveštenja”</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Dugme „Napravi” nije zamenjeno dugmetom „Obaveštenja”</string>
@@ -742,18 +743,15 @@ Otvorite bilo koji video → Otvorite izbornik Kvaliteta → Dodirnite ‘Podeš
   <string name="morphe_hide_toolbar_search_button_title">Sakrij Pretraživanje</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Dugme „Pretraga” je skriveno</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Dugme „Pretraga” je prikazano</string>
-  <string name="morphe_replace_toolbar_create_button_title">Zamijeni Kreiraj s Podešavanjima</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Dugme Kreiraj je zamijenjeno dugmetom Podešavanja</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Dugme Kreiraj nije zamijenjeno dugmetom Podešavanja</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Klik ponašanje tipki Podešavanja u kartici You je također prekinuto.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Tipak tipke Podešavanja</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Dodirnite kako biste otvorili Podešavanja Morphe
-Dodirnite i držite kako biste otvorili Postavke YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Dodirnite kako biste otvorili Postavke YouTube
-Dodirnite i držite kako biste otvorili Podešavanja Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Razvrstite zamijenjene tipke</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Tipke su razvrstene</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Tipke nisu razvrstene</string>
+  <string name="morphe_show_toolbar_settings_button_title">Prikaži podešavanja</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Dugme „Podešavanja” je prikazano</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Dugme „Podešavanja” nije prikazano</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Indeks dugmeta za podešavanja</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Akcija za dugme za podešavanja</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Dodirnite da biste otvorili podešavanja Morphea.
+Držite pritisnut da biste otvorili podešavanja YouTubea"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Dodirnite da biste otvorili podešavanja YouTubea.
+Držite pritisnut da biste otvorili podešavanja Morphea"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Padajući meni</string>
   <string name="morphe_hide_player_flyout_summary">Sakrijte ili prikažite predmete u padajućem meniju plejera</string>

@@ -690,13 +690,13 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">Εμφάνιση Αναζήτησης</string>
   <string name="morphe_show_search_button_summary_on">Εμφανίζεται</string>
   <string name="morphe_show_search_button_summary_off">Δεν εμφανίζεται κουμπί αναζήτησης</string>
-  <string name="morphe_search_button_index_title">Κουμπί αναζήτησης</string>
-  <string name="morphe_search_button_index_invalid">Ο δείκτης του κουμπιού αναζήτησης πρέπει να είναι μικρότερος από %s</string>
   <string name="morphe_show_settings_button_title">Εμφάνιση Ρυθμίσεων</string>
   <string name="morphe_show_settings_button_summary_on">Εμφανίζεται το κουμπί Ρυθμίσεων</string>
   <string name="morphe_show_settings_button_summary_off">Δεν εμφανίζεται το κουμπί Ρυθμίσεων</string>
-  <string name="morphe_settings_button_index_title">Δείκτης κουμπιού Ρυθμίσεων</string>
-  <string name="morphe_settings_button_index_invalid">Ο δείκτης κουπιού ρυθμίσεων πρέπει να είναι μικρότερος από %s</string>
+  <string name="morphe_show_settings_button_index_title">Δείκτης κουμπιού Ρυθμίσεων</string>
+  <string name="morphe_show_settings_button_type_title">Δείκτης κουμπιού Ρυθμίσεων</string>
+  <string name="morphe_show_settings_button_type_summary_on">Πατήστε για να ανοίξετε τις ρυθμίσεις Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Πάτημα για να ανοίξετε τις ρυθμίσεις YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Εναλλαγή κουμπιού «Δημιουργία» με κουμπί «Ειδοποιήσεις»</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Το κουμπί «Δημιουργία» έχει αλλάξει με το κουμπί «Ειδοποιήσεις»</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Το κουμπί «Δημιουργία» δεν έχει αλλάξει με το κουμπί «Ειδοποιήσεις»</string>
@@ -743,18 +743,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">Κουμπί \"Αναζήτηση\"</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Κρυμμένο</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Εμφανίζεται</string>
-  <string name="morphe_replace_toolbar_create_button_title">Αντικαταστήστε το Δημιουργία με Ρυθμίσεις</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Δημιουργία κουμπιού αντικαθίσταται με κουμπί Ρυθμίσεων</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Δε γίνεται εναλλαγή του κουμπιού δημιουργίας σε κουμπί ειδοποιήσεων</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Η συμπεριφορά κλικ του κουμπιού Ρυθμίσεις στην καρτέλα You αντικαταστέλλεται επίσης.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Δείκτης κουμπιού Ρυθμίσεων</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Πατήστε για να ανοίξετε τις ρυθμίσεις Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Εμφάνιση Ρυθμίσεων</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Εμφανίζεται το κουμπί των Ρυθμίσεων</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Το κουμπί των Ρυθμίσεων δεν εμφανίζεται</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Δείκτης κουμπιού Ρυθμίσεων</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Δείκτης κουμπιού Ρυθμίσεων</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Πατήστε για να ανοίξετε τις ρυθμίσεις Morphe
 Πατήστε και κρατήστε πατημένο για να ανοίξετε τις ρυθμίσεις YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Πατήστε για να ανοίξετε τις ρυθμίσεις YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Πατήστε για να ανοίξετε τις ρυθμίσεις YouTube
 Πατήστε και κράτηστε πατημένο για να ανοίξετε τις ρυθμίσεις Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Αναδιάταξη των αντικατεστημένων κουμπιών</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Τα κουμπιά έχουν αναδιαταχθεί</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Τα κουμπιά δεν έχουν αναδιαταχθεί</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Αναδυόμενο μενού ρυθμίσεων</string>
   <string name="morphe_hide_player_flyout_summary">Απόκρυψη ή εμφάνιση στοιχείων του αναδυόμενου μενού στην οθόνη αναπαραγωγής</string>

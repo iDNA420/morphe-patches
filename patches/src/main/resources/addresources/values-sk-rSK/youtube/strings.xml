@@ -330,6 +330,9 @@ Hlasitosť možno zmeniť vertikálnym potiahnutím v pravej časti obrazovky"</
   <string name="morphe_show_settings_button_title">Zobraziť tlačidlo Nastavenia</string>
   <string name="morphe_show_settings_button_summary_on">Tlačidlo Nastavenia sa zobrazuje</string>
   <string name="morphe_show_settings_button_summary_off">Tlačidlo Nastavenia sa nezobrazuje</string>
+  <string name="morphe_hide_navigation_bar_title">Skryť navigačný panel</string>
+  <string name="morphe_hide_navigation_bar_summary_on">Navigačný panel je skrytý</string>
+  <string name="morphe_hide_navigation_bar_summary_off">Navigačný panel sa zobrazuje</string>
   <string name="morphe_toolbar_screen_title">Panel nástrojov</string>
   <string name="morphe_hide_toolbar_create_button_title">Skryť tlačidlo Vytvoriť</string>
   <string name="morphe_hide_toolbar_create_button_summary_on">Tlačidlo Vytvoriť je skryté</string>
@@ -343,10 +346,10 @@ Hlasitosť možno zmeniť vertikálnym potiahnutím v pravej časti obrazovky"</
   <string name="morphe_hide_toolbar_search_button_title">Skryť tlačidlo Hľadať</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Tlačidlo Hľadať je skryté</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Tlačidlo Hľadať sa zobrazuje</string>
-  <string name="morphe_replace_toolbar_create_button_title">Nahradiť tlačidlo Vytvoriť tlačidlom Nastavenia</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Tlačidlo Vytvoriť je nahradené tlačidlom Nastavenia</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Tlačidlo Vytvoriť nie je nahradené tlačidlom Nastavenia</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Ťuknite pre otvorenie nastavení Morphe.
+  <string name="morphe_show_toolbar_settings_button_title">Zobraziť tlačidlo Nastavenia</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Tlačidlo Nastavenia sa zobrazuje</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Tlačidlo Nastavenia sa nezobrazuje</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Ťuknite pre otvorenie nastavení Morphe.
 Ťuknite a podržte na otvorenie nastavení YouTube"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
@@ -648,6 +651,7 @@ Ak ju neskôr vypnete, odporúča sa vymazať dáta aplikácie, aby sa predišlo
   <string name="morphe_miniplayer_disable_rounded_corners_summary_on">Rohy sú štvorcové</string>
   <string name="morphe_miniplayer_disable_rounded_corners_summary_off">Rohy sú zaoblené</string>
   <!-- layout.theme.themePatch -->
+  <string name="morphe_splash_screen_animation_style_entry_1">Vypnutý</string>
   <!-- layout.branding.customBrandingPatch -->
   <!-- layout.branding.header.changeHeaderPatch -->
   <string name="morphe_header_logo_entry_1">Predvolené</string>

@@ -689,13 +689,14 @@ I cookie verranno salvati automaticamente se sono validi"</string>
   <string name="morphe_show_search_button_title">Mostra Ricerca</string>
   <string name="morphe_show_search_button_summary_on">Il pulsante di ricerca è mostrato</string>
   <string name="morphe_show_search_button_summary_off">Pulsante di ricerca non mostrato</string>
-  <string name="morphe_search_button_index_title">Indice pulsante di ricerca</string>
-  <string name="morphe_search_button_index_invalid">L\'indice del pulsante di ricerca deve essere inferiore a %s</string>
+  <string name="morphe_show_search_button_index_title">Indice pulsante di ricerca</string>
   <string name="morphe_show_settings_button_title">Mostra Impostazioni</string>
   <string name="morphe_show_settings_button_summary_on">Il pulsante Impostazioni è visualizzato</string>
   <string name="morphe_show_settings_button_summary_off">Il pulsante Impostazioni non è visualizzato</string>
-  <string name="morphe_settings_button_index_title">Pulsante Imposta indice</string>
-  <string name="morphe_settings_button_index_invalid">L\'indice del pulsante Imposta deve essere inferiore a %s</string>
+  <string name="morphe_show_settings_button_index_title">Indice pulsante Impostazioni</string>
+  <string name="morphe_show_settings_button_type_title">Azione pulsante Impostazioni</string>
+  <string name="morphe_show_settings_button_type_summary_on">Tocca per aprire le impostazioni Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Toccare per aprire le impostazioni di YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Scambia Crea con Notifiche</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Il pulsante Crea è stato scambiato con il pulsante Notifiche</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Il pulsante Crea non è stato scambiato con il pulsante Notifiche</string>
@@ -742,18 +743,15 @@ Aprire qualsiasi video → Aprire il menu Qualità → Fare clic su 'Impostazion
   <string name="morphe_hide_toolbar_search_button_title">Nascondi Ricerca</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Il pulsante di ricerca è nascosto</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Il pulsante di ricerca è mostrato</string>
-  <string name="morphe_replace_toolbar_create_button_title">Sostituisci Crea con Imposta</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Il pulsante Crea è sostituito dal pulsante Imposta</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Il pulsante Crea non è sostituito dal pulsante Imposta</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">L\'azione del pulsante Imposta nella scheda You è inoltre sovrascritta.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Azione del pulsante Imposta</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Fare clic per aprire le Impostazioni di Morphe
-Fare clic e tenere premuto per aprire le Impostazioni di YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Fare clic per aprire le Impostazioni di YouTube
-Fare clic e tenere premuto per aprire le Impostazioni di Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Riorganizza i pulsanti sostituiti</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">I pulsanti sono riorganizzati</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">I pulsanti non sono riorganizzati</string>
+  <string name="morphe_show_toolbar_settings_button_title">Mostra impostazioni</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Il pulsante Impostazioni è visibile</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Il pulsante Impostazioni non è visibile</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Indice del pulsante Impostazioni</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Azione del pulsante Impostazioni</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Toccare per aprire le impostazioni di Morphe
+Tenere premuto per aprire le impostazioni di YouTube"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Toccare per aprire le impostazioni di YouTube
+Tenere premuto per aprire le impostazioni di Morphe"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menù a comparsa</string>
   <string name="morphe_hide_player_flyout_summary">Mostra o nascondi le voci del menu di flyout del player</string>

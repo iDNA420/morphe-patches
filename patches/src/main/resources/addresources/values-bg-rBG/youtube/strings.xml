@@ -682,13 +682,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">Покажи търсене</string>
   <string name="morphe_show_search_button_summary_on">Бутона за Търсене се показва</string>
   <string name="morphe_show_search_button_summary_off">Бутона за търсене не се показва</string>
-  <string name="morphe_search_button_index_title">Индекс на бутона за търсене</string>
-  <string name="morphe_search_button_index_invalid">Индексът на бутона за търсене трябва да е по-малък от %s</string>
+  <string name="morphe_show_search_button_index_title">Индекс на бутона за търсене</string>
   <string name="morphe_show_settings_button_title">Покажи настройки</string>
   <string name="morphe_show_settings_button_summary_on">Бутонът за настройки е показан</string>
   <string name="morphe_show_settings_button_summary_off">Бутонът за настройки не е показан</string>
-  <string name="morphe_settings_button_index_title">Показ на бутон</string>
-  <string name="morphe_settings_button_index_invalid">Индексът на бутона трябва да бъде по-малък от %s</string>
+  <string name="morphe_show_settings_button_index_title">Индекс на бутона за Настройки</string>
+  <string name="morphe_show_settings_button_type_title">Действие на бутона за Настройки</string>
+  <string name="morphe_show_settings_button_type_summary_on">Натиснете, за да отворите Настройките на Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Натиснете, за да отворите настройките на YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Размени бутона „Създаване“ с бутона „Известия“</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Бутона „Създаване“ е разменен с бутона „Известия“</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Бутона „Създаване“ не е разменен с бутона „Известия“</string>
@@ -735,18 +736,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">Скрий Търсене</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Бутона за Търсене е скрит</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Бутона за Търсене се показва</string>
-  <string name="morphe_replace_toolbar_create_button_title">Замени Създай с Настройки</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Бутонът «Създаване» е заменен с бутона «Настройки»</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Бутонът «Създаване» не е заменен с бутона «Настройки»</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Кликването на бутона «Настройки» в раздела «За вас» също се презаписва.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Действие на бутона «Настройки»</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Натиснете, за да отворите Настройките на Morphe
-Натиснете и задръжте, за да отворите Настройките на YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Натиснете, за да отворите Настройките на YouTube
-Натиснете и задръжте, за да отворите Настройките на Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Пренаредите заменените бутони</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Бутоните са пренаредени</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Бутоните не са пренаредени</string>
+  <string name="morphe_show_toolbar_settings_button_title">Показвай Настройки</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Бутонът за настройки се показва</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Бутонът за настройки не се показва</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Индекс на бутона за настройки</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Действие на бутона за настройки</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Натиснете, за да отворите настройките на Morphe
+Задръжте, за да отворите настройките на YouTube"</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Натиснете, за да отворите настройките на YouTube
+Задръжте, за да отворите настройките на Morphe"</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Бутонът за коментари се показва</string>
   <string name="morphe_hide_player_flyout_summary">Скрий дублиране на видеа</string>

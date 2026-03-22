@@ -121,9 +121,9 @@ Daxil olmaq üçün aşağıda davam et-i vurun"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <string name="morphe_force_original_audio_not_available">Bu xüsusiyyəti istifadə etmək üçün \"Video yayımların saxtalaşdır\"-ı Android Reel-ə və ya TV-yə dəyişdir</string>
   <!-- misc.privacy.sanitizeSharingLinksPatch -->
-  <string name="morphe_sanitize_sharing_links_title">Paylaşım linklərin təmizlə</string>
-  <string name="morphe_sanitize_sharing_links_summary_on">İzləmə sorğusu faktoru paylaşılan linklərdən silinir</string>
-  <string name="morphe_sanitize_sharing_links_summary_off">İzləmə sorğusu faktoru paylaşılan linklərdən silinmir</string>
+  <string name="morphe_sanitize_sharing_links_title">Paylaşım keçidlərin təmizlə</string>
+  <string name="morphe_sanitize_sharing_links_summary_on">İzlənmə sorğusu faktoru paylaşılan linklərdən silinir</string>
+  <string name="morphe_sanitize_sharing_links_summary_off">İzlənmə sorğusu faktoru paylaşılan linklərdən silinmir</string>
   <string name="morphe_replace_music_with_youtube_title">Paylaşma keçidlərini youtube.com-a dəyişdir</string>
   <string name="morphe_replace_music_with_youtube_summary_on">Paylaşılan keçidlər youtube.com istifadə edir</string>
   <string name="morphe_replace_music_with_youtube_summary_off">Paylaşılan keçidlər music.youtube.com istifadə edir</string>

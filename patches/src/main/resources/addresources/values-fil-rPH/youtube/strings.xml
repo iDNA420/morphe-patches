@@ -689,13 +689,14 @@ Awtomatikong ise-save ang cookies kung valid ang mga ito"</string>
   <string name="morphe_show_search_button_title">Ipakita ang Paghahanap</string>
   <string name="morphe_show_search_button_summary_on">Ipinapakita ang paghahanap na button</string>
   <string name="morphe_show_search_button_summary_off">Hindi ipinapakita ang search button</string>
-  <string name="morphe_search_button_index_title">Index ng button ng paghahanap</string>
-  <string name="morphe_search_button_index_invalid">Dapat mas mababa sa %s ang index</string>
+  <string name="morphe_show_search_button_index_title">Index ng button ng paghahanap</string>
   <string name="morphe_show_settings_button_title">Ipakita ang Mga Setting</string>
   <string name="morphe_show_settings_button_summary_on">Ipinapakita ang button ng mga setting</string>
   <string name="morphe_show_settings_button_summary_off">Hindi ipinapakita ang button ng mga setting</string>
-  <string name="morphe_settings_button_index_title">Index ng buton ng Mga Setting</string>
-  <string name="morphe_settings_button_index_invalid">Dapat mas mababa sa %s ang index ng Settings button</string>
+  <string name="morphe_show_settings_button_index_title">Index ng buton ng Mga Setting</string>
+  <string name="morphe_show_settings_button_type_title">Aksyon ng buton ng Mga Setting</string>
+  <string name="morphe_show_settings_button_type_summary_on">Pindutin para buksan ang mga setting ng Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">I-tap para buksan ang mga setting ng YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Swap Create with Notifications</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Ang button na lumikha ay pinalitan ng Notipikasyon na button</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Ang button na lumikha ay hindi pinalitan ng Notipikasyon na button</string>
@@ -742,18 +743,15 @@ Buksan ang anumang video → Buksan ang Quality menu → I-tap ang 'Settings &gt
   <string name="morphe_hide_toolbar_search_button_title">Itago ang Paghahanap</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Nakatago ang paghahanap na button</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Ipinapakita ang paghahanap na button</string>
-  <string name="morphe_replace_toolbar_create_button_title">Palitan ang Create ng Settings</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Ang button na Lumikha ay pinalitan ng Settings button</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Ang button na Lumikha ay hindi pinalitan ng Settings button</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Ang pag-uugali ng pag-click sa button ng Settings sa tab na You ay binabago rin.</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Aksyon ng buton ng Mga Setting</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"I-tap para buksan ang mga setting ng Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Ipakita ang Mga Setting</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Ipinapakita ang buton ng Mga Setting</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Hindi ipinapakita ang buton ng Mga Setting</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Index ng buton ng Mga Setting</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Aksyon ng buton ng Mga Setting</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"I-tap para buksan ang mga setting ng Morphe
 I-tap nang matagal para buksan ang mga setting ng YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"I-tap para buksan ang mga setting ng YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"I-tap para buksan ang mga setting ng YouTube
 I-tap nang matagal para buksan ang mga setting ng Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Ayusin muli ang mga pinapalitang button</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Inayos muli ang mga button</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Hindi inilipat-lipat ang mga button</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Flyout menu</string>
   <string name="morphe_hide_player_flyout_summary">Itago o ipakita ang mga item ng player flyout menu</string>

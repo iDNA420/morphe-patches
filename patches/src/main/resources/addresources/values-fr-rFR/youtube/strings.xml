@@ -690,13 +690,14 @@ Les cookies seront enregistrés automatiquement s'ils sont valides"</string>
   <string name="morphe_show_search_button_title">Afficher \'Rechercher\'</string>
   <string name="morphe_show_search_button_summary_on">Le bouton \'Rechercher\' est affiché</string>
   <string name="morphe_show_search_button_summary_off">Le bouton \'Rechercher\' n\'est pas affiché</string>
-  <string name="morphe_search_button_index_title">Index du bouton \'Rechercher\'</string>
-  <string name="morphe_search_button_index_invalid">L\'index du bouton \'Rechercher\' doit être inférieur à %s</string>
+  <string name="morphe_show_search_button_index_title">Index du bouton \'Rechercher\'</string>
   <string name="morphe_show_settings_button_title">Afficher \'Paramètres\'</string>
   <string name="morphe_show_settings_button_summary_on">Le bouton \'Paramètres\' est affiché</string>
   <string name="morphe_show_settings_button_summary_off">Le bouton \'Paramètres\' n\'est pas affiché</string>
-  <string name="morphe_settings_button_index_title">Index du bouton \'Paramètres\'</string>
-  <string name="morphe_settings_button_index_invalid">L\'index du bouton \'Paramètres\' doit être inférieur à %s</string>
+  <string name="morphe_show_settings_button_index_title">Index du bouton \'Paramètres\'</string>
+  <string name="morphe_show_settings_button_type_title">Action du bouton \'Paramètres\'</string>
+  <string name="morphe_show_settings_button_type_summary_on">Appuyez pour ouvrir les paramètres Morphe</string>
+  <string name="morphe_show_settings_button_type_summary_off">Appuyez pour ouvrir les paramètres YouTube</string>
   <string name="morphe_swap_create_with_notifications_button_title">Échanger \'Créer\' et \'Notifications\'</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">Le bouton \'Créer\' est échangé avec le bouton \'Notifications\'</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">Le bouton \'Créer\' n\'est pas échangé avec le bouton \'Notifications\'</string>
@@ -743,18 +744,15 @@ Ouvrez une vidéo → Ouvrez le menu 'Qualité' → Appuyez sur 'Paramètres &gt
   <string name="morphe_hide_toolbar_search_button_title">Masquer \'Rechercher\'</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">Le bouton \'Rechercher\' est masqué</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">Le bouton \'Rechercher\' est affiché</string>
-  <string name="morphe_replace_toolbar_create_button_title">Remplacer \'Créer par \'Paramètres\'</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">Le bouton \'Créer\' est remplacé par le bouton \'Paramètres\'</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">Le bouton \'Créer\' n\'est pas remplacé par le bouton \'Paramètres\'</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">Le comportement au clic du bouton \'Paramètres\' dans l’onglet \'Vous\' est également remplacé</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">Action du bouton \'Paramètres\'</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Appuyez pour ouvrir les paramètres Morphe
+  <string name="morphe_show_toolbar_settings_button_title">Afficher \'Paramètres\'</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">Le bouton \'Paramètres\' est affiché</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">Le bouton \'Paramètres\' n\'est pas affiché</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">Index du bouton \'Paramètres\'</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">Action du bouton \'Paramètres\'</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Appuyez pour ouvrir les paramètres Morphe
 Appuyez longuement pour ouvrir les paramètres YouTube"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"Appuyez pour ouvrir les paramètres YouTube
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"Appuyez pour ouvrir les paramètres YouTube
 Appuyez longuement pour ouvrir les paramètres Morphe"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">Réorganiser les boutons remplacés</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">Les boutons sont réorganisés</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">Les boutons ne sont pas réorganisés</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">Menu déroulant</string>
   <string name="morphe_hide_player_flyout_summary">Masquer ou afficher des éléments du menu déroulant du lecteur</string>

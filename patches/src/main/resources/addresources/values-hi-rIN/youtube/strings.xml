@@ -689,13 +689,14 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">खोज दिखाएँ</string>
   <string name="morphe_show_search_button_summary_on">खोज बटन दिखाया गया है</string>
   <string name="morphe_show_search_button_summary_off">खोज बटन दिखाया गया है नहीं</string>
-  <string name="morphe_search_button_index_title">खोज बटन इंडेक्स</string>
-  <string name="morphe_search_button_index_invalid">खोज बटन इंडेक्स %s से कम होना चाहिए</string>
+  <string name="morphe_show_search_button_index_title">खोज बटन इंडेक्स</string>
   <string name="morphe_show_settings_button_title">सेटिंग दिखाएँ</string>
   <string name="morphe_show_settings_button_summary_on">सेटिंग्स बटन दिखाया गया है</string>
   <string name="morphe_show_settings_button_summary_off">सेटिंग्स बटन नहीं दिखाया गया है</string>
-  <string name="morphe_settings_button_index_title">सेटिंग बटन इंडेक्स</string>
-  <string name="morphe_settings_button_index_invalid">सेटिंग्स बटन इंडेक्स %s से कम होना चाहिए</string>
+  <string name="morphe_show_settings_button_index_title">सेटिंग बटन इंडेक्स</string>
+  <string name="morphe_show_settings_button_type_title">सेटिंग बटन कार्रवाई</string>
+  <string name="morphe_show_settings_button_type_summary_on">Morphe सेटिंग्स खोलने के लिए टैप करें</string>
+  <string name="morphe_show_settings_button_type_summary_off">YouTube सेटिंग्स खोलने के लिए टैप करें</string>
   <string name="morphe_swap_create_with_notifications_button_title">स्वाप करें क्रिएट के साथ नोटिफिकेशन</string>
   <string name="morphe_swap_create_with_notifications_button_summary_on">क्रिएट बटन नोटिफिकेशन बटन के साथ स्वाप किया गया है</string>
   <string name="morphe_swap_create_with_notifications_button_summary_off">क्रिएट बटन नोटिफिकेशन बटन के साथ स्वाप नहीं किया गया है</string>
@@ -742,18 +743,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_toolbar_search_button_title">छिपाएं खोज</string>
   <string name="morphe_hide_toolbar_search_button_summary_on">खोज बटन छुपा हुआ है</string>
   <string name="morphe_hide_toolbar_search_button_summary_off">सर्च बटन दिखाया गया है</string>
-  <string name="morphe_replace_toolbar_create_button_title">\"सेटिंग\" के साथ \"बनाएँ\" बदलें</string>
-  <string name="morphe_replace_toolbar_create_button_summary_on">क्रिएट बटन को सेटिंग्स बटन से बदल दिया गया है।</string>
-  <string name="morphe_replace_toolbar_create_button_summary_off">क्रिएट बटन को सेटिंग्स बटन से बदल दिया गया है।</string>
-  <string name="morphe_replace_toolbar_create_button_user_dialog_message">आप टैब में सेटिंग्स बटन के क्लिक व्यवहार को भी ओवरराइड किया गया है।</string>
-  <string name="morphe_replace_toolbar_create_button_type_title">सेटिंग बटन कार्रवाई</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_on">"Morphe की सेटिंग्स खोलने के लिए टैप करें
+  <string name="morphe_show_toolbar_settings_button_title">सेटिंग्स दिखाएँ</string>
+  <string name="morphe_show_toolbar_settings_button_summary_on">सेटिंग्स बटन दिखाया गया है</string>
+  <string name="morphe_show_toolbar_settings_button_summary_off">सेटिंग्स बटन नहीं दिखाया गया है</string>
+  <string name="morphe_show_toolbar_settings_button_index_title">सेटिंग बटन इंडेक्स</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">सेटिंग बटन कार्रवाई</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary_on">"Morphe की सेटिंग्स खोलने के लिए टैप करें
 YouTube सेटिंग्स खोलने के लिए टैप और होल्ड करें"</string>
-  <string name="morphe_replace_toolbar_create_button_type_summary_off">"YouTube सेटिंग्स खोलने के लिए टैप करें
+  <string name="morphe_show_toolbar_settings_button_type_summary_off">"YouTube सेटिंग्स खोलने के लिए टैप करें
 Morphe सेटिंग्स खोलने के लिए टैप और होल्ड करें"</string>
-  <string name="morphe_rearrange_toolbar_buttons_title">बदले गए बटनों को पुनर्व्यवस्थित करें</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_on">बटन पुनर्व्यवस्थित नहीं हैं</string>
-  <string name="morphe_rearrange_toolbar_buttons_summary_off">बटन पुनर्व्यवस्थित नहीं हैं</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">फ्लायआउट मेनू</string>
   <string name="morphe_hide_player_flyout_summary">प्लेयर फ्लायआउट मेनू आइटम छिपाएं या दिखाएं</string>
