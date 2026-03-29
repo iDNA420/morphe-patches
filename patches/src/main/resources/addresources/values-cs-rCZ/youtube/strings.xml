@@ -455,9 +455,9 @@ Omezení:
   <string name="morphe_copy_video_url_title">Zobrazit tlačítko pro kopírování URL videa</string>
   <string name="morphe_copy_video_url_summary_on">Zobrazí se tlačítko. Klepnutím zkopírujete URL videa. Klepnutím a podržením zkopírujete s časovou značkou</string>
   <string name="morphe_copy_video_url_summary_off">Tlačítko pro hlasování segmentu není zobrazeno</string>
-  <string name="morphe_copy_video_url_timestamp_title">Zobrazit tlačítko pro kopírování URL videa s časovou značkou</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Zobrazí se tlačítko. Klepnutím zkopírujete URL videa s časovou značkou. Klepnutím a podržením zkopírujete bez časové značky</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Tlačítko pro hlasování segmentu není zobrazeno</string>
+  <string name="morphe_copy_video_url_timestamp_title">Zkopírovat časové razítko</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Tlačítko Zkopírovat video URL kopíruje s časovým razítkem. Dlouhým stiskem se kopíruje bez časového razítka</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Tlačítko Zkopírovat video URL kopíruje bez časového razítka. Dlouhým stiskem se kopíruje s časovým razítkem</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Odstranit dialog s upozorněním na věkové omezení</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialog bude odstraněn</string>
@@ -1520,6 +1520,10 @@ Klepnutím sem se dozvíte více o DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow je dočasně nedostupný (kód stavu: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow je dočasně nedostupný</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Obnovit starý styl tlačítek přehrávače</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Zobrazuje se tenký styl přehrávače</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Zobrazuje se tučný styl přehrávače</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Napodobovat rozměry zařízení</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Rozměry zařízení jsou zfalšovány

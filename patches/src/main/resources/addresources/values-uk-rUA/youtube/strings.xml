@@ -452,12 +452,12 @@ Second \"item\" text"</string>
   <!-- interaction.copyvideourl.copyVideoURLResourcePatch -->
   <string name="morphe_share_copy_url_success">URL-адресу скопійовано до буфера</string>
   <string name="morphe_share_copy_url_timestamp_success">URL-адресу з міткою часу скопійовано до буфера</string>
-  <string name="morphe_copy_video_url_title">Кнопка копіювання URL відео</string>
-  <string name="morphe_copy_video_url_summary_on">Кнопка показується. Натисніть, щоб скопіювати URL-адресу відео. Натисніть і утримуйте, щоб скопіювати з міткою часу</string>
-  <string name="morphe_copy_video_url_summary_off">Кнопка копіювання URL-адреси відео не показується в відеоплеєрі</string>
-  <string name="morphe_copy_video_url_timestamp_title">Кнопка копіювання URL із міткою часу</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Кнопка показується. Натисніть, щоб скопіювати URL-адресу відео з міткою часу. Натисніть і утримуйте, щоб скопіювати без мітки часу</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Кнопка копіювання URL-адреси відео з міткою часу не показується в відеоплеєрі</string>
+  <string name="morphe_copy_video_url_title">Кнопка копіювання URL-адреси відео</string>
+  <string name="morphe_copy_video_url_summary_on">Кнопка копіювання URL-адреси відео показується. Натисніть, щоб скопіювати URL-адресу відео. Натисніть і утримуйте, щоб скопіювати з позначкою часу</string>
+  <string name="morphe_copy_video_url_summary_off">Кнопка копіювання URL-адреси відео не показується</string>
+  <string name="morphe_copy_video_url_timestamp_title">Копіювати позначку часу</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Кнопка копіювання URL-адреси відео копіює позначку часу. Довге натискання копіює без позначки часу</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Кнопка копіювання URL-адреси відео копіює без позначки часу. Довге натискання копіює позначку часу</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Вилучити діалог про неприйнятний контент</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Діалогове вікно про неприйнятний контент буде видалено</string>
@@ -497,8 +497,8 @@ Second \"item\" text"</string>
   <string name="morphe_loop_video_summary_off">Відео не буде повторюватися</string>
   <!-- interaction.loop.loopVideoButtonPatch -->
   <string name="morphe_loop_video_button_title">Кнопка повторення відео</string>
-  <string name="morphe_loop_video_button_summary_on">Пункт меню \"Повторювати відео\" показується</string>
-  <string name="morphe_loop_video_button_summary_off">Пункт меню \"Повторювати відео\" не показується в відеоплеєрі</string>
+  <string name="morphe_loop_video_button_summary_on">Кнопка повторення відео показується</string>
+  <string name="morphe_loop_video_button_summary_off">Кнопка повторення відео не показується</string>
   <string name="morphe_loop_video_button_toast_on">Повторення відео ввімкнено</string>
   <string name="morphe_loop_video_button_toast_off">Повторення відео вимкнено</string>
   <!-- interaction.reload.reloadVideoPatch -->
@@ -1520,6 +1520,10 @@ Second \"item\" text"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow тимчасово недоступний (код статусу: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow тимчасово недоступний</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Відновити старий стиль кнопок плеєра</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Показується тонкий стиль іконок плеєра</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Показується товстий стиль іконок плеєра</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Підміняти розміри пристрою</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Розміри пристрою підмінено

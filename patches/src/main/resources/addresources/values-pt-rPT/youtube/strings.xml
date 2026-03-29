@@ -454,9 +454,9 @@ Limitações:
   <string name="morphe_copy_video_url_title">Mostrar botão de URL de vídeo copiado</string>
   <string name="morphe_copy_video_url_summary_on">Botão de cópia da URL do vídeo é mostrado. Toque para copiar a URL do vídeo. Toque e segure para copiar com a marca de data/hora</string>
   <string name="morphe_copy_video_url_summary_off">Botão de cópia da URL do vídeo não é mostrado</string>
-  <string name="morphe_copy_video_url_timestamp_title">Mostrar botão de copiar timestamp URL</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Botão de cópia da URL do vídeo com marca de data/hora é mostrado. Toque para copiar a URL do vídeo com a marca de data/hora. Toque e segure para copiar sem a marca de data/hora</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Botão de cópia da URL do vídeo com marca de data/hora não é mostrado</string>
+  <string name="morphe_copy_video_url_timestamp_title">Copiar carimbo de data/hora</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">O botão Copiar URL de vídeo copia com carimbo de data/hora. Pressionar e segurar copia sem carimbo de data/hora</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">O botão Copiar URL de vídeo copia sem carimbo de data/hora. Pressionar e segurar copia com carimbo de data/hora</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Remover diálogo discreto do visualizador</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">A caixa de diálogo será removida</string>
@@ -1519,6 +1519,10 @@ Toque aqui para saber mais sobre DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow não está disponível temporariamente (código de status: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow não está disponível temporariamente</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Restaurar estilo de botão do player antigo</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">O estilo fino do jogador está exibido</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">O estilo em negrito do jogador está exibido</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Dimensões do dispositivo Spoof</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimensões do dispositivo são falsificadas

@@ -455,9 +455,9 @@ Ograniczenia:
   <string name="morphe_copy_video_url_title">Przycisk kopiowania linku do filmu</string>
   <string name="morphe_copy_video_url_summary_on">Widoczny. Stuknij, aby skopiować link do filmu. Przytrzymaj, aby skopiować link do filmu z czasem</string>
   <string name="morphe_copy_video_url_summary_off">Ukryty</string>
-  <string name="morphe_copy_video_url_timestamp_title">Przycisk kopiowania linku z czasem</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Widoczny. Stuknij, aby skopiować link do filmu z czasem. Przytrzymaj, aby skopiować link do filmu bez czasu</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Ukryty</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopiuj znacznik czasu</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Przycisk Kopiuj adres URL wideo kopiuje z znacznikiem czasu. Przy długim naciśnięciu kopiuje bez znacznika czasu</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Przycisk Kopiuj adres URL wideo kopiuje bez znacznika czasu. Przy długim naciśnięciu kopiuje z znacznikiem czasu</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Ostrzeżenie o treściach wrażliwych</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Usunięte</string>
@@ -1520,6 +1520,10 @@ Stuknij tutaj, aby dowiedzieć się więcej o DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow jest niedostępny (kod statusu: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow jest niedostępny</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Przywróć stary styl przycisków odtwarzacza</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Wyświetlany jest cienki styl odtwarzacza</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Wyświetlany jest pogrubiony styl odtwarzacza</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Fałszowanie rozdzielczości urządzenia</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Włączone

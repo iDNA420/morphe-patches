@@ -453,9 +453,9 @@ Second \"item\" text"</string>
   <string name="morphe_copy_video_url_title">顯示複製影片網址按鈕</string>
   <string name="morphe_copy_video_url_summary_on">已顯示按鈕。輕觸以複製影片網址。按住以複製包含時間戳記的影片網址</string>
   <string name="morphe_copy_video_url_summary_off">不顯示「複製影片網址」按鈕</string>
-  <string name="morphe_copy_video_url_timestamp_title">顯示複製時間戳記網址按鈕</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">已顯示按鈕。輕觸以複製包含時間戳記的影片網址。按住以複製不包含時間戳記的影片網址</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">不顯示「複製時間戳記」按鈕</string>
+  <string name="morphe_copy_video_url_timestamp_title">複製時間戳記</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">複製影片網址按鈕會包含時間戳記。長按則不包含時間戳記</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">複製影片網址按鈕不包含時間戳記。長按則包含時間戳記</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">移除觀眾謹慎觀看對話方塊</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">將移除對話方塊</string>
@@ -1523,6 +1523,10 @@ Second \"item\" text"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow 暫時無法使用（狀態碼：%s）</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow 暫時無法使用</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">還原舊播放器按鈕樣式</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">玩家細框樣式已顯示</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">玩家粗框樣式已顯示</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">偽裝裝置尺寸</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"已偽裝裝置尺寸

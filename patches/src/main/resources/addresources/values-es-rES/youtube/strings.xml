@@ -454,9 +454,9 @@ Limitaciones:
   <string name="morphe_copy_video_url_title">Mostrar botón de copiar URL del vídeo</string>
   <string name="morphe_copy_video_url_summary_on">El botón de copiar la URL del vídeo está visible. Pulsa para copiar la URL del vídeo. Mantén pulsado para copiar con la marca de tiempo</string>
   <string name="morphe_copy_video_url_summary_off">El botón de copiar la URL del vídeo está oculto</string>
-  <string name="morphe_copy_video_url_timestamp_title">Mostrar botón de copiar URL con marca de tiempo</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">El botón de copiar la URL con marca de tiempo está visible. Pulsa para copiar la URL del vídeo con la marca de tiempo. Mantén pulsado para copiar sin la marca de tiempo</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">El botón de copiar la URL con marca de tiempo está oculto</string>
+  <string name="morphe_copy_video_url_timestamp_title">Copiar marca de tiempo</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">El botón Copiar URL de video copia con marca de tiempo. Mantener pulsado copia sin marca de tiempo</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">El botón Copiar URL de video copia sin marca de tiempo. Mantener pulsado copia con marca de tiempo</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Eliminar diálogo de discreción del espectador</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">El diálogo está eliminado</string>
@@ -1519,6 +1519,10 @@ Pulsa aquí para saber más sobre DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow no está disponible temporalmente (código de estado: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow no está disponible temporalmente</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Restaurar estilo de botón del reproductor anterior</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Se muestra el estilo de jugador delgado</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Se muestra el estilo de jugador en negrita</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Falsificar dimensiones del dispositivo</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Las dimensiones del dispositivo están falsificadas

@@ -450,9 +450,6 @@ Ograničenja:
   <string name="morphe_copy_video_url_title">Prikaz dugme za kopiranje URL-a</string>
   <string name="morphe_copy_video_url_summary_on">Tipka za kopiranje URL-a videa je prikazana. Tikni da kopiraš URL videa. Tikni i drži da kopiraš s time-stampom</string>
   <string name="morphe_copy_video_url_summary_off">Tipka za kopiranje URL-a videa nije prikazana</string>
-  <string name="morphe_copy_video_url_timestamp_title">Prikaz dugme za kopiranje vremenske oznake URL-a</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Tipka za kopiranje URL-a videa s time-stampom je prikazana. Tikni da kopiraš URL videa s time-stampom. Tikni i drži da kopiraš bez time-stampa</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Tipka za kopiranje URL-a videa s time-stampom nije prikazana</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Ukloni prozor za potvrdu o dozvoljenom prikazu</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Prozor će biti skriven</string>
@@ -1509,6 +1506,7 @@ Tapajte ovdje da saznajte više o DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow privremeno nije dostupan (status kod: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow privremeno nije dostupan</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Simuliraj dimenzije uređaja</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimenzije uređaja su lažirane

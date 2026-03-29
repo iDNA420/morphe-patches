@@ -455,9 +455,9 @@ Begränsningar:
   <string name="morphe_copy_video_url_title">Visa knapp för att kopiera videoadress</string>
   <string name="morphe_copy_video_url_summary_on">Knappen för att kopiera videoadress visas. Tryck för att kopiera videoadressen. Tryck länge för att kopiera med tidsstämpel</string>
   <string name="morphe_copy_video_url_summary_off">Knappen för att kopiera videoadress visas inte</string>
-  <string name="morphe_copy_video_url_timestamp_title">Visa knapp för att kopiera videoadress med tidsstämpel</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Knappen för att kopiera videoadress med tidsstämpel visas. Tryck för att kopiera videoadressen med tidsstämpel. Tryck länge för att kopiera utan tidsstämpel</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Knappen för att kopiera videoadress med tidsstämpel visas inte</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopiera tidsstämpel</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Kopieringsknapp för videolänk kopierar med tidsstämpel. Långtryck kopierar utan tidsstämpel</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Kopierar videouppladdningslänk utan tidsstämpel. Långtryck kopierar med tidsstämpel</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Ta bort dialogrutan Känsliga tittare varnas</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialogrutan tas bort</string>
@@ -1521,6 +1521,10 @@ Tryck här för att läsa mer om DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow är inte tillgängligt just nu (statuskod: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow är inte tillgängligt just nu</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Återställ gamla spelarbutton-stilen</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Spelar tunn stil visas</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Spelarens fetstil visas</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Förfalska enhetens mått</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Enhetens mått förfalskas

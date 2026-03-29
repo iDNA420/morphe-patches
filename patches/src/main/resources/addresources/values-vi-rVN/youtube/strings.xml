@@ -454,9 +454,9 @@ Hạn chế:
   <string name="morphe_copy_video_url_title">Hiện nút sao chép URL video</string>
   <string name="morphe_copy_video_url_summary_on">Nút đã được hiển thị. Bấm để sao chép URL video. Bấm và giữ để sao chép kèm dấu thời gian</string>
   <string name="morphe_copy_video_url_summary_off">Nút không được hiển thị</string>
-  <string name="morphe_copy_video_url_timestamp_title">Hiện nút sao chép URL kèm dấu thời gian</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Nút đã được hiển thị. Bấm để sao chép URL video kèm dấu thời gian. Bấm và giữ để sao chép không kèm dấu thời gian</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Nút không được hiển thị</string>
+  <string name="morphe_copy_video_url_timestamp_title">Sao chép dấu thời gian</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Nút sao chép URL video sẽ sao chép kèm dấu thời gian. Bấm giữ để sao chép không kèm dấu thời gian</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Nút sao chép URL video sẽ sao chép không kèm dấu thời gian. Bấm giữ để sao chép kèm dấu thời gian</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Loại bỏ hộp thoại cảnh báo trước khi xem</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Hộp thoại sẽ bị loại bỏ</string>
@@ -1518,6 +1518,10 @@ Bấm vào đây để tìm hiểu thêm về DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow tạm thời không khả dụng (mã trạng thái: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow tạm thời không khả dụng</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Khôi phục kiểu nút trình phát cũ</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Trình phát kiểu mỏng đã được hiển thị</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Trình phát kiểu đậm được hiển thị</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Giả mạo kích thước thiết bị</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Kích thước thiết bị đã được giả mạo

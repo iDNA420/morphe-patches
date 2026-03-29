@@ -454,9 +454,9 @@ Mga Limitasyon:
   <string name="morphe_copy_video_url_title">Ipakita ang button na kopyahin ang video URL</string>
   <string name="morphe_copy_video_url_summary_on">Ipinapakita ang button na Kopyahin ang video URL. Pindutin upang kopyahin ang video URL. Pindutin at pindutin nang matagal upang kopyahin na may kasamang timestamp</string>
   <string name="morphe_copy_video_url_summary_off">Hindi ipinapakita ang button na Kopyahin ang video URL</string>
-  <string name="morphe_copy_video_url_timestamp_title">Ipakita ang button na Kopyahin ang URL ng timestamp</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Ipinapakita ang button na Kopyahin ang URL ng timestamp. Pindutin upang kopyahin ang URL ng video na may timestamp. Pindutin at pindutin nang matagal upang kopyahin na walang kasamang timestamp</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Hindi ipinapakita ang button na Kopyahin ang timestamp ng URL</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopyahin ang timestamp</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Kinokopya ng button ng URL ng video kasama ang timestamp. Ang mahabang pagpindot ay kumokopya nang walang timestamp</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Kinokopya ng button ng URL ng video nang walang timestamp. Ang mahabang pagpindot ay kumokopya kasama ang timestamp</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Alisin ang diyalogo ng pagpapasya ng manonood</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Aalisin ang diyalogo</string>
@@ -1519,6 +1519,10 @@ I-tap dito upang matuto nang higit pa tungkol sa DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">Ang DeArrow ay pansamantalang hindi magagamit (status code: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">Ang DeArrow ay pansamantalang hindi magagamit</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Ibalik ang lumang estilo ng button ng player</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Ipinapakita ang estilo ng manlalaro na manipis</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Ipinapakita ang estilo ng manlalaro na matapang</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">I-spoof ang device dimensions</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Sine-spoof ang sukat ng device

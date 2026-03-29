@@ -455,9 +455,9 @@ Second \"item\" text"</string>
   <string name="morphe_copy_video_url_title">Εμφάνιση κουμπιού αντιγραφής URL του βίντεο</string>
   <string name="morphe_copy_video_url_summary_on">Το κουμπί εμφανίζεται. Πατήστε για να αντιγράψετε τη διεύθυνση URL του βίντεο. Πατήστε παρατεταμένα για να αντιγράψετε τη διεύθυνση URL με χρονική σήμανση</string>
   <string name="morphe_copy_video_url_summary_off">Δεν εμφανίζεται το κουμπί αντιγραφής διεύθυνσης βίντεο</string>
-  <string name="morphe_copy_video_url_timestamp_title">Εμφάνιση κουμπιού αντιγραφής URL με χρονική σήμανση</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Το κουμπί εμφανίζεται. Πατήστε για να αντιγράψετε τη διεύθυνση URL του βίντεο με χρονική σήμανση. Πατήστε παρατεταμένα για να αντιγράψετε τη διεύθυνση URL χωρίς χρονική σήμανση</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Δεν εμφανίζεται το κουμπί αντιγραφής χρονοσήμανσης URL βίντεο</string>
+  <string name="morphe_copy_video_url_timestamp_title">Αντιγραφή χρονοσήμανσης</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Το κουμπί Αντιγραφή διεύθυνσης URL βίντεο αντιγράφει με χρονοσήμανση. Το πατινέ αντιγράφει χωρίς χρονοσήμανση</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Το κουμπί Αντιγραφή διεύθυνσης URL βίντεο αντιγράφει χωρίς χρονοσήμανση. Το πατινέ αντιγράφει με χρονοσήμανση</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Παράθυρο ηλικιακού περιορισμού</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Κρυμμένο</string>
@@ -693,6 +693,7 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_title">Εμφάνιση Αναζήτησης</string>
   <string name="morphe_show_search_button_summary_on">Εμφανίζεται</string>
   <string name="morphe_show_search_button_summary_off">Δεν εμφανίζεται κουμπί αναζήτησης</string>
+  <string name="morphe_show_search_button_index_title">Ευρετήριο κουμπιού αναζήτησης</string>
   <string name="morphe_show_settings_button_title">Εμφάνιση Ρυθμίσεων</string>
   <string name="morphe_show_settings_button_summary_on">Εμφανίζεται το κουμπί Ρυθμίσεων</string>
   <string name="morphe_show_settings_button_summary_off">Δεν εμφανίζεται το κουμπί Ρυθμίσεων</string>
@@ -1517,6 +1518,10 @@ Second \"item\" text"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow προσωρινά μη διαθέσιμο (κωδικός: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow προσωρινά μη διαθέσιμο</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Επαναφορά στυλ κουμπιών παλαιού αναπαραγωγού</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Εμφανίζεται το λεπτό στυλ του παίκτη</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Εμφανίζεται το έντονο στυλ του παίκτη</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Παραποίηση διαστάσεων συσκευής</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Οι διαστάσεις συσκευής παραποιούνται

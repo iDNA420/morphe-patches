@@ -450,9 +450,9 @@ Limitări:
   <string name="morphe_copy_video_url_title">Afișare buton copie URL</string>
   <string name="morphe_copy_video_url_summary_on">Butonul de copiere a adresei URL a videoclipului este afișat. Atingeți pentru a copia adresa URL a videoclipului. Atingeți și mențineți apăsat pentru a copia cu marcaj temporal</string>
   <string name="morphe_copy_video_url_summary_off">Butonul de copiere a adresei URL a videoclipului nu este afișat</string>
-  <string name="morphe_copy_video_url_timestamp_title">Afișare buton copie marcaj URL</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Butonul de copiere a adresei URL a videoclipului cu marcaj temporal este afișat. Atingeți pentru a copia adresa URL a videoclipului cu marcaj temporal. Atingeți și mențineți apăsat pentru a copia fără marcaj temporal</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Butonul de copiere a adresei URL a videoclipului cu marcaj temporal nu este afișat</string>
+  <string name="morphe_copy_video_url_timestamp_title">Copiază marcajul temporal</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Butonul Copiază adresa URL a videoclipului copiază cu marcajul temporal. Apăsarea lungă copiază fără marcaj temporal</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Butonul Copiază adresa URL a videoclipului copiază fără marcaj temporal. Apăsarea lungă copiază cu marcaj temporal</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Eliminați dialogul discreționar al vizualizatorului</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialogul va fi șters</string>
@@ -1515,6 +1515,10 @@ Atingeți aici pentru a afla mai multe despre DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow nu este disponibil temporar (cod de stare: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow nu este disponibil temporar</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Restaurare stil butoane player vechi</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Stilul subțire al player-ului este afișat</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Stilul player-ului îngroșat este afișat</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Spoul dimensiunilor dispozitivului</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimensiunile dispozitivului falsificate

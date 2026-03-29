@@ -455,9 +455,9 @@ Einschränkungen:
   <string name="morphe_copy_video_url_title">Video-URL-Schaltfläche kopieren anzeigen</string>
   <string name="morphe_copy_video_url_summary_on">Kopier-Button für Video-URL ist angezeigt. Tippen, um die Video-URL zu kopieren. Tippen und halten, um mit Zeitstempel zu kopieren</string>
   <string name="morphe_copy_video_url_summary_off">Kopier-Button für Video-URL ist nicht angezeigt</string>
-  <string name="morphe_copy_video_url_timestamp_title">Kopiere Zeitstempel URL-Schaltfläche anzeigen</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Kopier-Button für Video-URL mit Zeitstempel ist angezeigt. Tippen, um die Video-URL mit Zeitstempel zu kopieren. Tippen und halten, um ohne Zeitstempel zu kopieren</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Kopier-Button für Video-URL mit Zeitstempel ist nicht angezeigt</string>
+  <string name="morphe_copy_video_url_timestamp_title">Zeitstempel kopieren</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Der Button zum Kopieren der Video-URL kopiert mit Zeitstempel. Durch langes Drücken wird ohne Zeitstempel kopiert</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Der Button zum Kopieren der Video-URL kopiert ohne Zeitstempel. Durch langes Drücken wird mit Zeitstempel kopiert</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Diskretion des Betrachters entfernen</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialog wird entfernt</string>
@@ -1518,6 +1518,10 @@ Tippen Sie hier, um mehr über DeArrow zu erfahren"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow ist vorübergehend nicht verfügbar (Statuscode: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow ist vorübergehend nicht verfügbar</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Alten Player-Button-Stil wiederherstellen</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Player wird im schlanken Stil angezeigt</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Player wird im fetten Stil angezeigt</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Spoof-Gerätegröße</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Gerätemessungen gefälscht

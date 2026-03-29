@@ -453,9 +453,9 @@ Second \"item\" text"</string>
   <string name="morphe_copy_video_url_title">הצג לחצן העתקת כתובת ה-URL של הסרטון</string>
   <string name="morphe_copy_video_url_summary_on">הלחצן מוצג. הקש כדי להעתיק את כתובת ה-URL של הסרטון. הקש והחזק כדי להעתיק עם חותמת זמן</string>
   <string name="morphe_copy_video_url_summary_off">לחצן העתקה של כתובת וידאו אינו מוצג</string>
-  <string name="morphe_copy_video_url_timestamp_title">הצג לחצן העתקת כתובת ה-URL של הסרטון עם חותמת זמן</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">הלחצן מוצג. הקש כדי להעתיק את כתובת ה-URL של הסרטון עם חותמת זמן. הקש והחזק כדי להעתיק ללא חותמת זמן</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">לחצן העתקה של כתובת טיימסטמפ אינו מוצג</string>
+  <string name="morphe_copy_video_url_timestamp_title">העתקת חותמת זמן</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">כפתור העתקת כתובת האתר יוצר העתקה עם חותמת זמן. לחיצה ארוכה יוצרת העתקה ללא חותמת זמן</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">כפתור העתקת כתובת האתר יוצר העתקה ללא חותמת זמן. לחיצה ארוכה יוצרת העתקה עם חותמת זמן</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">הסר דו-שיח שיקול דעת הצופים</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">דו-שיח יוסר</string>
@@ -1518,6 +1518,10 @@ Second \"item\" text"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">השירות DeArrow אינו זמין באופן זמני (קוד מצב: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">השירות DeArrow אינו זמין באופן זמני</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">שחזור סגנון כפתורי נגן ישן</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">סגנון דק של השחקן מוצג</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">סגנון מודגש של השחקן מוצג</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">זייף ממדי מכשיר</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"מימדי המכשיר מזויפים

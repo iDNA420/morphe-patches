@@ -455,9 +455,9 @@ Sînorgertî:
   <string name="morphe_copy_video_url_title">Nîşan bide lê gava serîna URL-yê </string>
   <string name="morphe_copy_video_url_summary_on">Butona URL-a vîdyoyê dest pê dike. Ji bo kopiya URL-a vîdyoyê têpandi. Ji bo kopiya vê rêzê bi demîkê, bi dirêjî bikepî</string>
   <string name="morphe_copy_video_url_summary_off">Butona URL-a vîdyoyê nêşerin</string>
-  <string name="morphe_copy_video_url_timestamp_title">Nîşan bide lê gava serîna URL-yê bi demname </string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Butona URL-a demîkê dest pê dike. Ji bo kopiya URL-a vîdyoyê bi demîkê têpandi. Ji bo kopiya vê rêzê bê demîkê, bi dirêjî bikepî</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Butona URL-a demîkê nêşerin</string>
+  <string name="morphe_copy_video_url_timestamp_title">کۆپی پێشێوازیەک</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">دەمەوه‌كه‌ بۆ كۆپی كردنی ڤیدیۆ URL، له‌گەڵ پێشێوازیك. دووركۆكه‌ بۆ كۆپی نه‌كردنی پێشێوازیك</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">دەمەوه‌كه‌ بۆ كۆپی نه‌كردنی ڤیدیۆ URL. دووركۆكه‌ بۆ كۆپی كردنی له‌گەڵ پێشێوازیك</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Dialoga îgaqê bikêrkirina sêwitan ji holê derxist</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialog dê bireve</string>
@@ -1513,6 +1513,10 @@ Li vir bitapîre ji bo bêtir hêsanîyê li ser DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow niha neyê (koda statû: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow niha neyê</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">گەڕێنه‌وه‌ بۆ شێوازی كه‌رتەسه‌كی خۆكه‌</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Stîleka biçakî lêwereyê nîşan tê dayîn</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Stîleka qalê lêwereyê nîşan tê dayîn</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Çalak bikin dimensiyonên alavê</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Pêşdizima alavê tê qelsekirin

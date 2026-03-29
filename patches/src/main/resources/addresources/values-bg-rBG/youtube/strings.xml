@@ -453,9 +453,9 @@ Second \"item\" text"</string>
   <string name="morphe_copy_video_url_title">Покажете бутона за копиране на URL</string>
   <string name="morphe_copy_video_url_summary_on">Бутона \'Копиране на URL на видеоклипа\' е показан. Натиснете, за да копирате URL на видеоклипа. Натиснете и задържете, за да копирате с времева отметка</string>
   <string name="morphe_copy_video_url_summary_off">Бутона \'Копиране на URL на видеоклипа\' не е показан</string>
-  <string name="morphe_copy_video_url_timestamp_title">Покажете бутона за копиране на времевамка</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Бутона \'Копиране на URL на видеоклипа с времева отметка\' е показан. Натиснете, за да копирате URL на видеоклипа с времева отметка. Натиснете и задържете, за да копирате без времева отметка</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Бутона \'Копиране на URL на видеоклипа с времева отметка\' не е показан</string>
+  <string name="morphe_copy_video_url_timestamp_title">Копиране на времеви печат</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Бутонът за копиране на видео URL копира с времеви печат. Дълго натискане копира без времеви печат</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Бутонът за копиране на видео URL копира без времеви печат. Дълго натискане копира с времеви печат</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Скриване на диалог за възраст</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Диалогът за възраст ще бъде скрити</string>
@@ -1508,6 +1508,10 @@ Second \"item\" text"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow временно не е наличен (код на състоянието: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow временно не е наличен</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Възстановяване на стария стил на бутоните на плейъра</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Показва се стил на играч с тънки линии</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Показва се стил на играч с удебелени линии</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">По подразбиране</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Размерите на устройството са подправени

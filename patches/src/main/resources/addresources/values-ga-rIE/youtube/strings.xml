@@ -454,9 +454,9 @@ Teorainneacha:
   <string name="morphe_copy_video_url_title">Taispeáin an cnaipe cóipeála URL an fhíseáin</string>
   <string name="morphe_copy_video_url_summary_on">Taispeántar an cnaipe Cóipeáil URL an fhíseáin. Tapáil chun URL an fhíseáin a chóipeáil. Tapáil agus coinnigh síos chun cóipeáil leis an stampa ama.</string>
   <string name="morphe_copy_video_url_summary_off">Ní thaispeántar an cnaipe Cóipeáil URL an fhíseáin</string>
-  <string name="morphe_copy_video_url_timestamp_title">Taispeáin cnaipe cóipeála URL stampa ama</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Taispeántar an cnaipe Cóipeáil URL stampa ama. Tapáil chun URL an fhíseáin a chóipeáil leis an stampa ama. Tapáil agus coinnigh síos chun cóipeáil gan stampa ama.</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Ní thaispeántar an cnaipe Cóipeáil URL stampa ama</string>
+  <string name="morphe_copy_video_url_timestamp_title">Cóip amMarc</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Copann url fideo ag úsáid ammarc. Brú fada chun copann gan ammarc</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Copann url fideo gan ammarc. Brú fada chun copann ag úsáid ammarc</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Bain an dialóg rogha lucht féachana</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Bainfear an dialóg</string>
@@ -1519,6 +1519,10 @@ Brúigh anseo chun tuilleadh eolais a fháil faoi DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">Níl DeArrow ar fáil go sealadach (cód stádais: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">Níl DeArrow ar fáil go sealadach</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Athshaoir stíle cnaipí an t-seicheamhóir seans</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Taispeántar stíl tanaí an imreoir</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Taispeántar stíl trom an imreoir</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Toisí gléas a fhalsú</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Toisí na ngléasanna falsaithe

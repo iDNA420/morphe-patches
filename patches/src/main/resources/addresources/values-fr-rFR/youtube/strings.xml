@@ -455,9 +455,9 @@ Limitations :
   <string name="morphe_copy_video_url_title">Afficher un bouton \'Copier l\'URL de la vidéo\'</string>
   <string name="morphe_copy_video_url_summary_on">Le bouton \'Copier l\'URL de la vidéo\' est affiché. Appuyez pour copier l\'URL de la vidéo. Appuyez longuement pour copier avec horodatage.</string>
   <string name="morphe_copy_video_url_summary_off">Le bouton \'Copier l\'URL de la vidéo\' n\'est pas affiché</string>
-  <string name="morphe_copy_video_url_timestamp_title">Afficher un bouton \'Copier l\'URL horodaté\'</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Le bouton \'Copier l\'URL horodaté\' est affiché. Appuyez pour copier l\'URL de la vidéo avec un horodatage. Appuyez longuement pour copier sans horodatage</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Le bouton \'Copier l\'URL horodaté\' n\'est pas affiché</string>
+  <string name="morphe_copy_video_url_timestamp_title">Copier l\'horodatage</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Le bouton Copier l\'URL vidéo copie avec l\'horodatage. Un appui long copie sans horodatage</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Le bouton Copier l\'URL vidéo copie sans l\'horodatage. Un appui long copie avec l\'horodatage</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Supprimer le message \'Confirmer votre âge\'</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Le message sera supprimé</string>
@@ -1520,6 +1520,10 @@ Appuyez ici pour en savoir plus sur DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow est temporairement indisponible (statut : %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow est temporairement indisponible</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Restaurer le style ancien des boutons lecteur</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Le style mince du lecteur est affiché</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Le style gras du lecteur est affiché</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Falsifier les dimensions de l\'appareil</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimensions de l’appareil falsifiées

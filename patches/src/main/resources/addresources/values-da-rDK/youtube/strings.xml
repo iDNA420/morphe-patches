@@ -454,9 +454,9 @@ Begrænsninger:
   <string name="morphe_copy_video_url_title">Vis kopiér video URL knap</string>
   <string name="morphe_copy_video_url_summary_on">Kopier video-URL knappen er vist. Tryk for at kopiere videoens URL. Tryk og hold for at kopiere med tidsstempel</string>
   <string name="morphe_copy_video_url_summary_off">Kopier video-URL knappen er ikke vist</string>
-  <string name="morphe_copy_video_url_timestamp_title">Vis kopi tidsstempel URL knap</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Kopier video-URL med tidsstempel knappen er vist. Tryk for at kopiere videoens URL med tidsstempel. Tryk og hold for at kopiere uden tidsstempel</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Kopier video-URL med tidsstempel knappen er ikke vist</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopiér tidsstempel</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Knappen til at kopiere videolink kopierer med tidsstempel. Langt tryk kopierer uden tidsstempel</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Knappen til at kopiere videolink kopierer uden tidsstempel. Langt tryk kopierer med tidsstempel</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Fjern visningsdialog</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialog vil blive fjernet</string>
@@ -1519,6 +1519,10 @@ Tryk her for at lære mere om DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow er midlertidigt ikke tilgængelig (statuskode: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow er midlertidigt ikke tilgængelig</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Gendan knapstil for den gamle afspiller</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Spillerens tynde stil vises</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Spillerens fede stil vises</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Spoof enhedens dimensioner</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Enhedens dimensioner er forfalsket

@@ -455,9 +455,9 @@ Rajoitukset:
   <string name="morphe_copy_video_url_title">Näytä videon URL-osoitteen kopiointipainike</string>
   <string name="morphe_copy_video_url_summary_on">Painike näytetään. Napauta kopioidaksesi videon URL-osoitteen. Napauta ja pidä pohjassa kopioidaksesi aikaleimattuna</string>
   <string name="morphe_copy_video_url_summary_off">Videon URL-osoitteen kopiointipainiketta ei näytetä</string>
-  <string name="morphe_copy_video_url_timestamp_title">Näytä videon aikaleimatun URL-osoitteen kopiointipainike</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Painike näytetään. Napauta kopioidaksesi videon URL-osoitteen aikaleimattuna. Napauta ja pidä pohjassa kopioidaksesi ilman aikaleimaa</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Aikaleimatun URL-osoitteen kopiointipainiketta ei näytetä</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopioi aikaleima</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Kopioi videon URL-osoite painikkeesta aikaleimalla. Pitkä painallus kopioi ilman aikaleimaa</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Kopioi videon URL-osoite painikkeesta ilman aikaleimaa. Pitkä painallus kopioi aikaleimalla</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Poista sisältövaroitusikkuna</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Valintaikkuna poistetaan</string>
@@ -1523,6 +1523,10 @@ Napauta tästä saadaksesi lisätietoja DeArrowista"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow ei ole tilapäisesti käytettävissä (tila: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow ei ole tilapäisesti käytettävissä</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Palauta vanha soitin painike tyyli</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Pelaajan ohut tyyli näytetään</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Pelaajan lihavoitu tyyli näytetään</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Naamioi laitteen mitat</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Laitteen mitat naamioidaan

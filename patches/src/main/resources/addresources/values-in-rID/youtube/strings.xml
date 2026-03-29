@@ -453,9 +453,9 @@ Keterbatasan
   <string name="morphe_copy_video_url_title">Tampilkan tombol salin URL video</string>
   <string name="morphe_copy_video_url_summary_on">Tombol salin URL video ditampilkan. Ketuk untuk menyalin URL video. Ketuk dan tahan untuk menyalin dengan stempel waktu</string>
   <string name="morphe_copy_video_url_summary_off">Tombol salin URL video tidak ditampilkan</string>
-  <string name="morphe_copy_video_url_timestamp_title">Tampilkan tombol salin penanda waktu URL</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Tombol salin URL stempel waktu ditampilkan. Ketuk untuk menyalin URL video dengan stempel waktu. Ketuk dan tahan untuk menyalin tanpa stempel waktu</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Tombol salin URL stempel waktu tidak ditampilkan</string>
+  <string name="morphe_copy_video_url_timestamp_title">Salin stempel waktu</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Tombol Salin URL video menyalin dengan stempel waktu. Tekan lama menyalin tanpa stempel waktu</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Tombol Salin URL video menyalin tanpa stempel waktu. Tekan lama menyalin dengan stempel waktu</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Hapus dialog pembatasan penonton</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dialog akan dihapus</string>
@@ -1518,6 +1518,10 @@ Ketuk di sini untuk mempelajari lebih lanjut tentang DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow sementara tidak tersedia (kode status: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow sementara tidak tersedia</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Pulihkan gaya tombol pemutar lama</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Gaya tipis pemain ditampilkan</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Gaya tebal pemain ditampilkan</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Palsukan dimensi perangkat</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimensi perangkat dipalsukan

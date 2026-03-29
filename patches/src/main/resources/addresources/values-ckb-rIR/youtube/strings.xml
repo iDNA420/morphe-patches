@@ -436,9 +436,6 @@ dەستەکان دەتوانن ناوی کەناڵ بێت یان هەر نووس
   <string name="morphe_copy_video_url_title">ناوەڕاستی کەرپەلکەی ڤیدۆی دەربخێن</string>
   <string name="morphe_copy_video_url_summary_on">دگمه‌ی کۆپی کردنی URL-ی ڤیدێۆ دەردەکەوێت. بۆ کۆپی کردنی URL-ی ڤیدێۆ پێشێڵ بکە. بۆ کۆپی کردنی لەگەڵ کاتژمێر پێشێڵ و ھەڵگیر بکە</string>
   <string name="morphe_copy_video_url_summary_off">دگمه‌ی کۆپی کردنی URL-ی ڤیدێۆ نەماوە</string>
-  <string name="morphe_copy_video_url_timestamp_title">ناوەڕاستی کەرپەلکەی ڤیدۆ و خولەکێک دەربخێن</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">دگمه‌ی کۆپی کردنی URL-ی کاتژمێر دەردەکەوێت. بۆ کۆپی کردنی URL-ی ڤیدێۆ لەگەڵ کاتژمێر پێشێڵ بکە. بۆ کۆپی کردنی بێ کاتژمێر پێشێڵ و ھەڵگیر بکە</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">دگمه‌ی کۆپی کردنی URL-ی کاتژمێر نەماوە</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">سروشتەیە دیالۆگە ڕاگهیشتنە ئەخێشێنەوە</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">دیالۆگە ڕاگهیشتنەکانی نمایش دەکرێت</string>
@@ -1473,6 +1470,7 @@ dەستەکان دەتوانن ناوی کەناڵ بێت یان هەر نووس
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow كاتێك بەربەست پێشكەش نەكراوە (كۆدی ڕوخسار: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow كاتێك بەربەست پێشكەش نەكراوە</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">بەڵكو لە ڕەوشتەوە پاشخانی كەشناسی دەربخە</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"ئاستی خاڵی دەوه‌شه‌نده‌. ته‌حه‌ملی باشنانی به‌رزی كه‌نه‌وه‌ تلنتتت بونكانه‌م باس بانه یدیمسم"</string>

@@ -256,9 +256,9 @@ YouTube Doodles göstermek, özel başlıkların görüntülenmesini engelleyebi
   <string name="morphe_hide_transcript_section_title">Transkripti gizle</string>
   <string name="morphe_hide_transcript_section_summary_on">Transkript kısmı gizli</string>
   <string name="morphe_hide_transcript_section_summary_off">Transkript kısmı görünür</string>
-  <string name="morphe_hide_quizzes_section_title">Hide Quizzes</string>
-  <string name="morphe_hide_quizzes_section_summary_on">Quizzes section is hidden</string>
-  <string name="morphe_hide_quizzes_section_summary_off">Quizzes section is shown</string>
+  <string name="morphe_hide_quizzes_section_title">Testler\'i gizle</string>
+  <string name="morphe_hide_quizzes_section_summary_on">Testler kısmı gizli</string>
+  <string name="morphe_hide_quizzes_section_summary_off">Testler kısmı görünür</string>
   <string name="morphe_hide_description_components_screen_title">Video açıklaması</string>
   <string name="morphe_hide_description_components_screen_summary">Video açıklamasındaki öğeleri gizle veya göster</string>
   <string name="morphe_hide_filter_bar_screen_title">Filtreleme çubuğu</string>
@@ -454,9 +454,9 @@ Sınırlamalar
   <string name="morphe_copy_video_url_title">Video URL\'sini kopyalama düğmesini göster</string>
   <string name="morphe_copy_video_url_summary_on">Video URL\'sini kopyalama düğmesi gösteriliyor. Video URL\'sini kopyalamak için dokunun. Zaman damgasıyla kopyalamak için basılı tutun</string>
   <string name="morphe_copy_video_url_summary_off">Video URL\'sini kopyalama düğmesi gösterilmiyor</string>
-  <string name="morphe_copy_video_url_timestamp_title">Zaman damgalı URL\'yi kopyalama düğmesini göster</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Zaman damgalı URL\'yi kopyalama düğmesi gösteriliyor. Zaman damgalı video URL\'sini kopyalamak için dokunun. Zaman damgasız kopyalamak için basılı tutun</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Zaman damgalı URL\'yi kopyalama düğmesi gösterilmiyor</string>
+  <string name="morphe_copy_video_url_timestamp_title">Zaman damgasını kopyala</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Kopyalama düğmesi zaman damgasıyla birlikte video URL\'sini kopyalar. Uzun basış zaman damgası olmadan kopyalar</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Kopyalama düğmesi zaman damgası olmadan video URL\'sini kopyalar. Uzun basış zaman damgasıyla birlikte kopyalar</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">İzleyici takdiri iletişim kutusunu kaldır</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">İletişim kutusu kaldırılacak</string>
@@ -1519,6 +1519,10 @@ DeArrow hakkında daha fazla bilgi edinmek için buraya dokunun"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow geçici olarak kullanılamıyor (durum kodu: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow geçici olarak kullanılamıyor</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Eski oynatıcı düğmesi stilini geri yükle</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Oyuncu ince tarzı gösterilir</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Oyuncu kalın tarzı gösterilir</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Cihaz boyutlarını taklit et</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Cihaz boyutları taklit edilir

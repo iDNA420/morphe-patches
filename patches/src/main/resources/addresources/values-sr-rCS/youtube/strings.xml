@@ -454,9 +454,9 @@ Ograničenja:
   <string name="morphe_copy_video_url_title">Prikaži dugme za kopiranje linka videa</string>
   <string name="morphe_copy_video_url_summary_on">Dugme je prikazano. Dodirnite da biste kopirali link videa. Dodirnite i zadržite da biste kopirali link s vremenskom oznakom</string>
   <string name="morphe_copy_video_url_summary_off">Dugme za glasanje za segment nije prikazano</string>
-  <string name="morphe_copy_video_url_timestamp_title">Prikaži dugme za kopiranje linka videa s vremenskom oznakom</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">Dugme je prikazano. Dodirnite da biste kopirali link videa s vremenskom oznakom. Dodirnite i zadržite da biste kopirali link bez vremenske oznake</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">Dugme za glasanje za segment nije prikazano</string>
+  <string name="morphe_copy_video_url_timestamp_title">Kopiraj vremensku oznaku</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">Dugme Kopiraj URL videa kopira sa vremenskom oznakom. Duži pritisak kopira bez vremenske oznake.</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">Dugme Kopiraj URL videa kopira bez vremenske oznake. Duži pritisak kopira sa vremenskom oznakom.</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Ukloni dijalog o diskreciji gledaoca</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">Dijalog o diskreciji gledaoca će biti uklonjen</string>
@@ -1519,6 +1519,10 @@ Dodirnite ovde da saznate više o DeArrowu"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow privremeno nije dostupan (kôd statusa: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow privremeno nije dostupan</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">Vraćanje starog stila dugmadi plejera</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">Prikazan je tanak stil igrača</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">Prikazan je podebljani stil igrača</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Lažirane dimenzije uređaja</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"Dimenzije uređaja su lažirane

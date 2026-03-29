@@ -454,9 +454,9 @@ YouTube Doodles दिखाने से कस्टम हेडर प्र
   <string name="morphe_copy_video_url_title">दर्शा करें वीडियो URL कॉपी बटन</string>
   <string name="morphe_copy_video_url_summary_on">वीडियो यूआरएल कॉपी बटन दिखाया गया है। टैप करके वीडियो यूआरएल कॉपी करें। लॉन्ग प्रेस करके टाइमस्टैम्प के साथ कॉपी करें</string>
   <string name="morphe_copy_video_url_summary_off">वीडियो यूआरएल कॉपी बटन नहीं दिखाया गया है</string>
-  <string name="morphe_copy_video_url_timestamp_title">दर्शा करें वीडियो URL कॉपी टाइमस्टैम्प बटन</string>
-  <string name="morphe_copy_video_url_timestamp_summary_on">वीडियो यूआरएल टाइमस्टैम्प कॉपी बटन दिखाया गया है। टैप करके वीडियो यूआरएल टाइमस्टैम्प के साथ कॉपी करें। लॉन्ग प्रेस करके टाइमस्टैम्प के बिना कॉपी करें</string>
-  <string name="morphe_copy_video_url_timestamp_summary_off">वीडियो यूआरएल टाइमस्टैम्प कॉपी बटन नहीं दिखाया गया है</string>
+  <string name="morphe_copy_video_url_timestamp_title">समय टिकट कॉपी करें</string>
+  <string name="morphe_copy_video_url_timestamp_summary_on">समय टिकट के साथ वीडियो URL कॉपी करने के लिए कॉपी वीडियो URL बटन। लंबे समय तक दबाने पर टिकट के बिना कॉपी किया जाता है।</string>
+  <string name="morphe_copy_video_url_timestamp_summary_off">समय टिकट के बिना वीडियो URL कॉपी करने के लिए कॉपी वीडियो URL बटन। लंबे समय तक दबाने पर टिकट के साथ कॉपी किया जाता है।</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">दर्शकों के लिए सावधानता डायलॉग हटाएं</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary_on">इस डायलॉग को हटा दिया जाएगा</string>
@@ -1515,6 +1515,10 @@ Settings → Playback (or Autoplay) → Autoplay next video"</string>
   <string name="morphe_alt_thumbnail_dearrow_error">DeArrow अस्थायी रूप से उपलब्ध नहीं है (स्थिति कोड: %s)</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow अस्थायी रूप से उपलब्ध नहीं है</string>
   <!-- misc.announcements.announcementsPatch -->
+  <!-- misc.playercontrols.playerControlsPatch -->
+  <string name="morphe_restore_old_player_buttons_title">पुराने प्लेयर बटन स्टाइल पुनर्स्थापित करें</string>
+  <string name="morphe_restore_old_player_buttons_summary_on">प्लेयर पतली शैली दिखाई जाती है</string>
+  <string name="morphe_restore_old_player_buttons_summary_off">प्लेयर बोल्ड शैली दिखाई जाती है</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">डिवाइस आयामों को स्पूफ करें</string>
   <string name="morphe_spoof_device_dimensions_summary_on">"डिवाइस डिमेंशन स्पॉफ किया जाता है
