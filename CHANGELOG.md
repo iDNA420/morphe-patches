@@ -1,3 +1,15 @@
+# [1.23.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.23.0-dev.2...v1.23.0-dev.3) (2026-04-02)
+
+
+### Bug Fixes
+
+* **YouTube:** Swiping back on home feed does not close the app ([74a5074](https://github.com/MorpheApp/morphe-patches/commit/74a5074991ec935d0588843b1067a084944c2e42))
+
+
+### Features
+
+* **YouTube Music:** Add experimental support for `9.13.50` ([bd462e5](https://github.com/MorpheApp/morphe-patches/commit/bd462e5ab274968878314295b7238ae9371564d0))
+
 # [1.23.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.23.0-dev.1...v1.23.0-dev.2) (2026-03-30)
 
 
