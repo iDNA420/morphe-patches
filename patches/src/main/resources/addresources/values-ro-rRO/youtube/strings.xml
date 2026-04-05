@@ -505,6 +505,10 @@ Verificați dacă numele pachetului este corect și dacă aplicația este instal
   <string name="morphe_disable_precise_seeking_gesture_title">Dezactivează gestul de căutare precis</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Gestul este dezactivat</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Gestul este activat</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">Activare DVR livestream</string>
+  <string name="morphe_livestream_dvr_summary_on">Căutarea este permisă la toate livestream-urile</string>
+  <string name="morphe_livestream_dvr_summary_off">Căutarea poate să nu fie disponibilă la livestream-uri</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Activează diapozitivul pentru a căuta</string>
   <string name="morphe_slide_to_seek_summary_on">Slide pentru căutare este activat</string>
@@ -1614,6 +1618,8 @@ Limitări:
 • Redarea video va utiliza mai multe date de internet decât VP9 sau AV1
 • Videoclipurile HDR nu vor utiliza AVC
 • Unele dispozitive nu pot forța AVC"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Pentru a utiliza această funcție, modificați \"Falsificare fluxuri video\" la Android VR sau Android Studio</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Afișează meniul avansat de calitate video</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Se afișează meniul avansat de calitate video</string>

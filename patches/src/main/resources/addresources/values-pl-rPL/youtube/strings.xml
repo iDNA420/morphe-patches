@@ -61,7 +61,7 @@ Zmiany obejmują:
 • Elementy menu ustawień filmów nie mogą zostać ukryte.
 • Przycisk przełączania konta może nie pojawiać się w zakładce Biblioteka."</string>
   <!-- layout.hide.general.hideLayoutComponentsPatch -->
-  <string name="morphe_hide_creator_store_shelf_title">Sekcja sklepu twórcy</string>
+  <string name="morphe_hide_creator_store_shelf_title">Półka ze sklepem twórcy</string>
   <string name="morphe_hide_creator_store_shelf_summary_on">Ukryta pod odtwarzaczem</string>
   <string name="morphe_hide_creator_store_shelf_summary_off">Widoczna pod odtwarzaczem</string>
   <string name="morphe_hide_album_cards_title">Karty albumów</string>
@@ -96,7 +96,7 @@ Zmiany obejmują:
 • Zakupy
 • Obejrzyj ponownie"</string>
   <string name="morphe_hide_horizontal_shelves_summary_off">Widoczne</string>
-  <string name="morphe_hide_image_shelf_title">Sekcja obrazków</string>
+  <string name="morphe_hide_image_shelf_title">Półka z obrazkami</string>
   <string name="morphe_hide_image_shelf_summary_on">Ukryta w wynikach wyszukiwania</string>
   <string name="morphe_hide_image_shelf_summary_off">Widoczna w wynikach wyszukiwania</string>
   <string name="morphe_hide_latest_posts_title">Najnowsze posty</string>
@@ -132,7 +132,7 @@ Zmiany obejmują:
   <string name="morphe_hide_surveys_title">Ankiety</string>
   <string name="morphe_hide_surveys_summary_on">Ukryte</string>
   <string name="morphe_hide_surveys_summary_off">Widoczne</string>
-  <string name="morphe_hide_ticket_shelf_title">Sekcja biletów</string>
+  <string name="morphe_hide_ticket_shelf_title">Półka z biletami</string>
   <string name="morphe_hide_ticket_shelf_summary_on">Ukryta</string>
   <string name="morphe_hide_ticket_shelf_summary_off">Widoczna</string>
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
@@ -294,7 +294,7 @@ Ich obecność może blokować widoczność własnych logo w nagłówku."</strin
   <string name="morphe_hide_links_preview_title">Podgląd linków</string>
   <string name="morphe_hide_links_preview_summary_on">Ukryty</string>
   <string name="morphe_hide_links_preview_summary_off">Widoczny</string>
-  <string name="morphe_hide_members_shelf_title">Sekcja wspierających kanał</string>
+  <string name="morphe_hide_members_shelf_title">Półka ze wspierającymi kanał</string>
   <string name="morphe_hide_members_shelf_summary_on">Ukryta</string>
   <string name="morphe_hide_members_shelf_summary_off">Widoczna</string>
   <!-- 'Store' should be translated using the same localized wording YouTube displays for the button. -->
@@ -510,6 +510,10 @@ Sprawdź, czy nazwa pakietu jest prawidłowa i czy aplikacja jest zainstalowana"
   <string name="morphe_disable_precise_seeking_gesture_title">Gest precyzyjnego przewijania</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Wyłączony</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Włączony</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">Przewijanie transmisji na żywo</string>
+  <string name="morphe_livestream_dvr_summary_on">Odblokowane</string>
+  <string name="morphe_livestream_dvr_summary_off">Domyślne</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Przesunięcie, aby przewinąć</string>
   <string name="morphe_slide_to_seek_summary_on">Włączone</string>
@@ -1619,6 +1623,8 @@ Ograniczenia:
 • Odtwarzanie filmów zużyje więcej danych internetowych niż VP9 lub AV1
 • Filmy HDR nie będą korzystać z AVC
 • Niektóre urządzenia nie pozwalają na wymuszenie AVC"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Aby użyć tej funkcji, zmień \"Fałszowanie strumieni filmów\" na Android VR lub Android Studio</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Zaawansowane menu jakości filmu</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Widoczne</string>

@@ -510,6 +510,10 @@ Doza navê pakkê rast be û sepan serdest be"</string>
   <string name="morphe_disable_precise_seeking_gesture_title">Tiliyê rovnêr a lêkirinê qut bikin</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Tiliyê rovnêr a lêkirinê qut kirî ye</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Tiliyê rovnêr a lêkirinê vekirî ye</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">Stêrkirina DVR-ya pêşandanê serdest bike</string>
+  <string name="morphe_livestream_dvr_summary_on">Li hemû pêşandanên zindî, lêgerîkê serdest e</string>
+  <string name="morphe_livestream_dvr_summary_off">Lêgerîkê li hin pêşandanên zindî nedibê</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Slide to seek çalak bike</string>
   <string name="morphe_slide_to_seek_summary_on">Slide to seek çalak e</string>
@@ -1616,6 +1620,8 @@ Sînergirên:
 • Lêxistina video dê daneyên interneta zêdetir bikar bîne mîna VP9 an AV1
 • Video yan HDR dê AVC bikar nebin
 • Hin alav nikarên AVC zor bike"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Bo ku evîna vê taybetmendê bikaribin, \'Spoof video streams\' bibe Android VR an Android Studio</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Menyûa advanced qualitya vîdyoyê nîşane bike</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Nivîsara mêjûlê ya kalîteya video tê nîşandin</string>

@@ -510,6 +510,10 @@ Vérifiez que le nom du package est correct et que l’application est bien inst
   <string name="morphe_disable_precise_seeking_gesture_title">Désactiver le geste de barre de progression précise</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Le geste est désactivé</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Le geste est activé</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">Activer l\'enregistrement différé en direct</string>
+  <string name="morphe_livestream_dvr_summary_on">La recherche est autorisée sur tous les directs</string>
+  <string name="morphe_livestream_dvr_summary_off">La recherche peut ne pas être disponible sur les directs</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Activer \'Faites glisser pour rechercher\'</string>
   <string name="morphe_slide_to_seek_summary_on">Faites glisser pour rechercher est activé</string>
@@ -1623,6 +1627,8 @@ Limitations :
 • Certains appareils ne permettent pas de forcer AVC
 
 "</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Pour utiliser cette fonctionnalité, changez \'Falsifier les flux vidéo\' vers VR Android ou Android Studio</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Afficher le menu de qualité vidéo avancé</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Le menu de qualité vidéo avancé est affiché</string>

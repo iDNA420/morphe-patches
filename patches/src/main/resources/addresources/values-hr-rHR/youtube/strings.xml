@@ -499,6 +499,7 @@ Potvrdite da naziv paketa je tačan i da je aplikacija instalirana."</string>
   <string name="morphe_disable_precise_seeking_gesture_title">Onemogu precizan pritisak</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Precizan pritisak je onemogu</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Precizan pritisak je omogućeno</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Omogu slide to seek</string>
   <string name="morphe_slide_to_seek_summary_on">Slide to seek je omogućeno</string>
@@ -1599,6 +1600,7 @@ Ograničenja:
 • Video playback će koristiti više internet podataka nego VP9 ili AV1
 • HDR video neće koristiti AVC
 • Neke uređaji ne mogu forceirati AVC"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Pokaži napredni video kvalitetni meni</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Napredni video kvalitetni meni je prikazan</string>

@@ -508,6 +508,10 @@ Verifikasi nama paket sudah benar dan aplikasi sudah terpasang"</string>
   <string name="morphe_disable_precise_seeking_gesture_title">Nonaktifkan gerakan pencarian presisi</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">Gerakan pencarian yang presisi dinonaktifkan</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">Gerakan pencarian yang presisi diaktifkan</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">Aktifkan DVR livestream</string>
+  <string name="morphe_livestream_dvr_summary_on">Mencari diperbolehkan di semua livestream</string>
+  <string name="morphe_livestream_dvr_summary_off">Mencari mungkin tidak tersedia di livestream</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Aktifkan geser untuk mencari</string>
   <string name="morphe_slide_to_seek_summary_on">Geser untuk mencari diaktifkan</string>
@@ -1617,6 +1621,8 @@ Batasan:
 • Pemutaran video akan menggunakan lebih banyak data internet dibandingkan VP9 atau AV1
 • Video HDR tidak akan menggunakan AVC
 • Beberapa perangkat tidak dapat memaksakan AVC"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">Untuk menggunakan fitur ini, ubah \'Palsukan aliran video\' ke Android VR atau Android Studio</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Tampilkan menu kualitas video lanjutan</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">Menu kualitas video lanjutan ditampilkan</string>

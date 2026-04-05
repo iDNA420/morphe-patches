@@ -509,6 +509,10 @@ YouTube Doodles दिखाने से कस्टम हेडर प्र
   <string name="morphe_disable_precise_seeking_gesture_title">प्रेसिस सीकिंग गेस्टर को अक्षम करना</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_on">प्रकृतिक खोज गेस्टर को अक्षम करना</string>
   <string name="morphe_disable_precise_seeking_gesture_summary_off">प्रकृतिक खोज गेस्टर को सक्षम करना</string>
+  <!-- interaction.seekbar.livestreamDvrPatch -->
+  <string name="morphe_livestream_dvr_title">लाइवस्ट्रीम DVR सक्षम करें</string>
+  <string name="morphe_livestream_dvr_summary_on">सभी लाइवस्ट्रीम पर खोजने की अनुमति है</string>
+  <string name="morphe_livestream_dvr_summary_off">लाइवस्ट्रीम पर खोजना उपलब्ध नहीं हो सकता है</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">स्लाइड टू सीक सक्षम करें</string>
   <string name="morphe_slide_to_seek_summary_on">स्लाइड टू सीक सक्षम है</string>
@@ -1614,6 +1618,8 @@ Settings → Playback (or Autoplay) → Autoplay next video"</string>
 • VP9 या AV1 की तुलना में VP1 प्लेबैक को अधिक इंटरनेट डेटा का उपयोग करना होगा
 • HDR वीडियो AVC का उपयोग नहीं करेंगे
 • कुछ डिवाइस AVC को बल नहीं लगा सकते"</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_force_avc_codec_not_available">इस सुविधा का उपयोग करने के लिए, \'Spoof video streams\' को Android VR या Android Studio में बदलें</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">उन्नत वीडियो गुणवत्ता मेनू दिखाएं</string>
   <string name="morphe_advanced_video_quality_menu_summary_on">उन्नत वीडियो गुणवत्ता मेनू दिखाया गया है</string>
