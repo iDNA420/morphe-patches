@@ -1,3 +1,10 @@
+# [1.24.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.23.0...v1.24.0-dev.1) (2026-04-09)
+
+
+### Features
+
+* **YouTube:** Add experimental support for `21.15.282` ([647911e](https://github.com/MorpheApp/morphe-patches/commit/647911ea660de94d771e4f9e97826ad4d28ffb89))
+
 # [1.23.0](https://github.com/MorpheApp/morphe-patches/compare/v1.22.0...v1.23.0) (2026-04-09)
 
 
