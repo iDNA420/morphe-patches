@@ -14,9 +14,10 @@ import app.morphe.extension.youtube.settings.Settings;
 @SuppressWarnings("unused")
 public final class HidePlayerOverlayButtonsPatch {
 
+    public static final int FULLSCREEN_HIDDEN_Y_OFFSET = 100000;
+
     private static final boolean HIDE_AUTOPLAY_BUTTON_ENABLED = Settings.HIDE_AUTOPLAY_BUTTON.get();
     private static final Boolean HIDE_FULLSCREEN_BUTTON_ENABLED = Settings.HIDE_FULLSCREEN_BUTTON.get();
-    public static final int FULLSCREEN_HIDDEN_Y_OFFSET = 100000;
 
     /**
      * Injection point.
@@ -110,12 +111,9 @@ public final class HidePlayerOverlayButtonsPatch {
         });
     }
 
-    private static final int PLAYER_OVERFLOW_BUTTON_CONTAINER_ID = getIdentifierOrThrow(
-            ResourceType.ID, "player_overflow_button_container");
 
     private static final int PLAYER_OVERFLOW_BUTTON_ID = getIdentifierOrThrow(
             ResourceType.ID, "player_overflow_button");
-
     /**
      * Injection point.
      */
@@ -125,7 +123,6 @@ public final class HidePlayerOverlayButtonsPatch {
         }
 
         Utils.runOnMainThread(() -> {
-            hideView(parentView, PLAYER_OVERFLOW_BUTTON_CONTAINER_ID);
             hideView(parentView, PLAYER_OVERFLOW_BUTTON_ID);
         });
     }
