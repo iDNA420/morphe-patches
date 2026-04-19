@@ -1,3 +1,16 @@
+# [1.24.0-dev.12](https://github.com/MorpheApp/morphe-patches/compare/v1.24.0-dev.11...v1.24.0-dev.12) (2026-04-19)
+
+
+### Bug Fixes
+
+* **YouTube Music - Permanent repeat:** Resolve repeat state not being permanent ([#1193](https://github.com/MorpheApp/morphe-patches/issues/1193)) ([ab5a914](https://github.com/MorpheApp/morphe-patches/commit/ab5a914eb6968a0cdb3de9c2c0f45d1cd42cce4e))
+
+
+### Features
+
+* **YouTube - Hide layout components:** Add "Hide Settings button" setting for player ([#1187](https://github.com/MorpheApp/morphe-patches/issues/1187)) ([c665a5c](https://github.com/MorpheApp/morphe-patches/commit/c665a5ce8e39ff2e7ac10286372918ce47c35c21))
+* **YouTube Music - Hide ads:** Add "Hide fullscreen ads" setting ([#1192](https://github.com/MorpheApp/morphe-patches/issues/1192)) ([b1d704d](https://github.com/MorpheApp/morphe-patches/commit/b1d704d3be325c257abd4acce96516ec9038bd03))
+
 # [1.24.0-dev.11](https://github.com/MorpheApp/morphe-patches/compare/v1.24.0-dev.10...v1.24.0-dev.11) (2026-04-18)
 
 
