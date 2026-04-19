@@ -22,10 +22,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
-private const val EXTENSION_CLASS =
-    "Lapp/morphe/extension/shared/patches/HideAdsPatch;"
-
 internal fun hideFullscreenAdsPatch(
+    extensionClass: String,
     preferenceScreen: BasePreferenceScreen.Screen
 ) = bytecodePatch(
     description = "Adds an option to hide fullscreen premium popup ads."
@@ -52,7 +50,7 @@ internal fun hideFullscreenAdsPatch(
                     insertIndex,
                     """
                         move-object/from16 v$freeRegister, p1
-                        invoke-static { v$insertRegister, v$freeRegister }, $EXTENSION_CLASS->closeFullscreenAd(Ljava/lang/Object;[B)V
+                        invoke-static { v$insertRegister, v$freeRegister }, $extensionClass->closeFullscreenAd(Ljava/lang/Object;[B)V
                     """
                 )
             }

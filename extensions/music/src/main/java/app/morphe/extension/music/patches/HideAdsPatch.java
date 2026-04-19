@@ -39,6 +39,7 @@ public class HideAdsPatch {
     /**
      * Injection point.
      */
+    // TODO: Extract this into a youtube-shared patch
     public static void closeFullscreenAd(Object customDialog, @Nullable byte[] buffer) {
         try {
             if (!SharedYouTubeSettings.HIDE_FULLSCREEN_ADS.get()) {

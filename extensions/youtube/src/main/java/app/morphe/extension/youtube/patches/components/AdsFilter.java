@@ -214,6 +214,7 @@ public final class AdsFilter extends Filter {
      * Injection point.
      * Called from a different place then the other filters.
      */
+    // TODO: Extract this into a youtube-shared patch
     public static void closeFullscreenAd(Object customDialog, @Nullable byte[] buffer) {
         try {
             if (!SharedYouTubeSettings.HIDE_FULLSCREEN_ADS.get()) {
@@ -225,8 +226,7 @@ public final class AdsFilter extends Filter {
                 return;
             }
 
-            if (fullscreenAd.check(buffer).isFiltered() &&
-                    customDialog instanceof Dialog dialog) {
+            if (customDialog instanceof Dialog dialog && fullscreenAd.check(buffer).isFiltered()) {
                 Logger.printDebug(() -> "Closing fullscreen ad");
 
                 Window window = dialog.getWindow();

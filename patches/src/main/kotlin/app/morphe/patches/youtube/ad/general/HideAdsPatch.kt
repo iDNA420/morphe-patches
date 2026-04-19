@@ -86,7 +86,7 @@ val hideAdsPatch = bytecodePatch(
 ) {
     dependsOn(
         hideAdsResourcePatch,
-        hideFullscreenAdsPatch(PreferenceScreen.ADS),
+        hideFullscreenAdsPatch(EXTENSION_CLASS, PreferenceScreen.ADS),
         elementProtoParserHookPatch,
         versionCheckPatch
     )
