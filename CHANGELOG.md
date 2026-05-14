@@ -1,3 +1,10 @@
+# [1.28.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.28.0-dev.1...v1.28.0-dev.2) (2026-05-14)
+
+
+### Bug Fixes
+
+* Update Crowdin translations ([b652e67](https://github.com/MorpheApp/morphe-patches/commit/b652e6731eebe67f1c20cb0e0d83ace9a94167cb))
+
 # [1.28.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.27.1-dev.2...v1.28.0-dev.1) (2026-05-14)
 
 
