@@ -55,20 +55,11 @@ Second \"item\" text"</string>
 
 सीमा: विजुअल स्पेसर छुपाएल ना जाएत"</string>
   <string name="morphe_remove_notification_dialog_title">सूचना सुझाव संवाद अक्षम करू</string>
-  <string name="morphe_remove_notification_dialog_summary">सबरेडिटमे जाएलावे समयमे स्वचालित रूपसँ खारिज करि के सूचना सुझाव संवाद अक्षम करेला</string>
-  <string name="morphe_show_view_count_title">देखब संख्या देखौ</string>
-  <string name="morphe_show_view_count_summary">"पोस्टक संख्या देखौ
-
-सीमा: ए पी आई प्रतिक्रियामे संख्या शामिल भए मात्र देखैल जाएत"</string>
   <string name="morphe_remove_nsfw_dialog_title">एनएसएफडब्ल्यू चेतावनी संवाद अक्षम करू</string>
-  <string name="morphe_remove_nsfw_dialog_summary">स्वचालित रूपसँ स्वीकृति दे के सबरेडिटमे जाएलावे समयमे एनएसएफडब्ल्यू चेतावनी संवाद अक्षम करेला</string>
   <string name="morphe_screen_miscellaneous_title">विविध</string>
   <string name="morphe_about_title">बारेमे</string>
   <string name="morphe_about_summary">पैच संस्करण एफ्क आधिकारिक लिंक</string>
   <string name="morphe_sanitize_sharing_links_title">साझा लिंकसँ स्वच्छता कराउ</string>
-  <string name="morphe_sanitize_sharing_links_summary">ट्र्याकिङ क्वेरी पैरामीटर हटा के साझा लिंकसँ स्वच्छता कराउवेला</string>
   <string name="morphe_open_links_directly_title">सीधा लिंक खोलू</string>
-  <string name="morphe_open_links_directly_summary">बाहरी लिंकमे रीडाइरेक्ट यूआरएल छलांगि केक ओकरा खोलल जाएत</string>
   <string name="morphe_open_links_externally_title">बाहर लिंक खोलू</string>
-  <string name="morphe_open_links_externally_summary">ऐप-इन ब्राउजरमे बजाय आपके ब्राउजरमे लिंक खोलूवेला</string>
 </resources>
