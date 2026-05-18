@@ -1,3 +1,14 @@
+## [1.29.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.28.0...v1.29.0-dev.1) (2026-05-18)
+
+### 🐛 Bug Fixes
+
+* **Reddit:** Spoof installation source ([e62b180](https://github.com/MorpheApp/morphe-patches/commit/e62b1803a34ffc3045b93ee5669e0d3441d0a8c1))
+* **YouTube - Open channel of live avatar:** Fixed null exception after tap on some shorts player buttons ([#1497](https://github.com/MorpheApp/morphe-patches/issues/1497)) ([6ec2fd4](https://github.com/MorpheApp/morphe-patches/commit/6ec2fd4f8d9e77b8adffb6b91da5ebb61413f58c))
+
+### ✨ New Features
+
+* **Reddit:** Add experimental support for `2026.20.0` ([0e6b305](https://github.com/MorpheApp/morphe-patches/commit/0e6b3054b011ac89d99dc7088dc983a1f95e99a4))
+
 ## [1.28.0](https://github.com/MorpheApp/morphe-patches/compare/v1.27.0...v1.28.0) (2026-05-17)
 
 ### 🐛 Bug Fixes
