@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">欺骗视频流</string>
   <string name="morphe_spoof_video_streams_screen_summary">配置客户端欺骗以防止播放问题</string>
   <string name="morphe_spoof_video_streams_title">伪造视频流</string>
-  <string name="morphe_spoof_video_streams_summary">"欺骗 YouTube 以发送兼容的视频流，从而修复大多数用户的问题
+  <string name="morphe_spoof_video_streams_summary">"通过请求兼容的视频流来修复大多数用户播放问题。
 
-如果您是 YouTube Premium 用户，则可能不需要此设置"</string>
+如果您是YouTube Premium用户，则可能不需要此设置。"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">无法获取任何客户端流</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">关闭此设置可能会导致播放问题。</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Second \"item\" text"</string>
   <string name="morphe_sanitize_sharing_links_title">净化分享链接</string>
   <string name="morphe_sanitize_sharing_links_summary">从共享链接中删除跟踪查询参数</string>
   <string name="morphe_replace_music_with_youtube_title">将分享链接更改为 youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">将共享链接中的music.youtube.com替换为youtube.com</string>
   <string name="morphe_replace_links_with_shortener_title">将分享链接更改为 youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">强制直播和 Shorts 使用缩短的 youtu.be URL 格式</string>
+  <string name="morphe_replace_links_with_shortener_summary">强制视频使用缩短的 youtu.be URL 格式</string>
 </resources>

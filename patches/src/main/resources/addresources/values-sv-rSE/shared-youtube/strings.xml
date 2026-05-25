@@ -28,7 +28,9 @@ Second \"item\" text"</string>
   <string name="morphe_custom_branding_icon_entry_3">Morphe – mörk</string>
   <string name="morphe_custom_branding_icon_entry_4">Morphe – ljus</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
+  <string name="morphe_custom_branding_icon_entry_5">Morphe – spela upp – ljus</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
+  <string name="morphe_custom_branding_icon_entry_6">Morphe – spela upp – svart</string>
   <!-- Translations of this should be identical to morphe_custom_branding_name_entry_5 -->
   <string name="morphe_custom_branding_icon_entry_7">Anpassad</string>
   <string name="morphe_custom_branding_notification_icon_title">Aviseringsikon</string>
@@ -39,17 +41,14 @@ Second \"item\" text"</string>
   <string name="morphe_check_watch_history_domain_name_dialog_message">Din visningshistorik sparas inte.&lt;br&gt;&lt;br&gt;Detta orsakas troligen av en DNS-annonsblockerare eller nätverksproxy.&lt;br&gt;&lt;br&gt;För att åtgärda detta, vitlista &lt;b&gt;s.youtube.com&lt;/b&gt; eller stäng av alla DNS-blockerare och proxyer.</string>
   <string name="morphe_check_watch_history_domain_name_dialog_ignore">Visa inte igen</string>
   <!-- misc.fix.playback.spoofVideoStreamsPatch -->
-  <string name="morphe_spoof_video_streams_screen_title">Förfalska videoströmmar</string>
+  <string name="morphe_spoof_video_streams_screen_title">Förfalska videostreamar</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurera klientförfalskning för att förhindra uppspelningsproblem</string>
-  <string name="morphe_spoof_video_streams_title">Förfalska videoströmmar</string>
-  <string name="morphe_spoof_video_streams_summary">"Lurar YouTube att skicka en kompatibel videostream, vilket åtgärdar uppspelningen för de flesta användare
-
-Om du är en YouTube Premium-användare kan det hända att den här inställningen inte krävs"</string>
+  <string name="morphe_spoof_video_streams_title">Förfalska videostreamar</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Det gick inte att hämta några klientströmmar</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Om du stänger av den här inställningen kan det leda till problem med uppspelning.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
          "Sign in to Android VR" must use the same translation as morphe_spoof_video_streams_sign_in_android_vr_about_title -->
-  <string name="morphe_spoof_video_streams_no_clients_suggest_vr_toast">Testa att aktivera: Förfalska videoströmmar &gt; Logga in i Android VR</string>
+  <string name="morphe_spoof_video_streams_no_clients_suggest_vr_toast">Testa att aktivera: Förfalska videostreamar &gt; Logga in i Android VR</string>
   <string name="morphe_spoof_video_streams_client_type_title">Standardklient</string>
   <!-- Ensure this translation matches the translation of morphe_spoof_video_streams_no_clients_suggest_vr_toast -->
   <string name="morphe_spoof_video_streams_sign_in_android_vr_about_title">Logga in i Android VR</string>
@@ -107,11 +106,11 @@ Tryck på Fortsätt nedan för att logga in"</string>
   <!-- ad.hideFullscreenAdsPatch -->
   <string name="morphe_hide_fullscreen_ads_title">Dölj helskärmsannonser</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_force_original_audio_not_available">Om du vill använda den här funktionen ändrar du Förfalska videoströmmar till Android Reel eller TV</string>
+  <string name="morphe_force_original_audio_not_available">Om du vill använda den här funktionen ändrar du Förfalska videostreamar till Android Reel eller TV</string>
   <!-- misc.privacy.sanitizeSharingLinksPatch -->
   <string name="morphe_sanitize_sharing_links_title">Rensa delningslänkar</string>
   <string name="morphe_sanitize_sharing_links_summary">Tar bort frågeparametrar för spårning från delade länkar</string>
   <string name="morphe_replace_music_with_youtube_title">Ändra delningslänkar till youtube.com</string>
   <string name="morphe_replace_links_with_shortener_title">Ändra delningslänkar till youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Tvingar livestreamar och Shorts-videor att använda det förkortade webbadressformatet youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Tvingar videor att använda det förkortade webbadressformatet youtu.be</string>
 </resources>

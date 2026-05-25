@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Videó streamek hamisítása</string>
   <string name="morphe_spoof_video_streams_screen_summary">A kliens videó streamek hamisítása a lejátszási problémák elkerülése érdekében</string>
   <string name="morphe_spoof_video_streams_title">Hamis videó stream</string>
-  <string name="morphe_spoof_video_streams_summary">"Trükközéssel arra készteti a YouTube-ot, hogy kompatibilis videó streamet küldjön, ami a legtöbb felhasználó számára megoldja a lejátszási problémákat
+  <string name="morphe_spoof_video_streams_summary">"Javítja a lejátszási problémákat a legtöbb felhasználó számára azáltal, hogy kompatibilis videostreamet kér
 
-Ha YouTube Premium előfizetője vagy, ez a beállítás nem feltétlenül szükséges."</string>
+Ha YouTube Premium-felhasználó vagy, ez a beállítás nem feltétlenül szükséges."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Nem találtunk ügyfelek által megosztott folyamokat</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Ennek a beállításnak a kikapcsolása lejátszási problémákat okozhat.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Belépéshez nyomd meg a folytatást alul"</string>
   <string name="morphe_sanitize_sharing_links_title">Megosztási linkek tisztítása</string>
   <string name="morphe_sanitize_sharing_links_summary">Eltávolítja a követési paramétereket a megosztott linkekből</string>
   <string name="morphe_replace_music_with_youtube_title">Módosítsa a megosztási linkeket youtube.com-ra</string>
+  <string name="morphe_replace_music_with_youtube_summary">A megosztott linkekben lecseréli a music.youtube.com-ot a youtube.com-ra</string>
   <string name="morphe_replace_links_with_shortener_title">Módosítsa a megosztási linkeket youtu.be-ra</string>
-  <string name="morphe_replace_links_with_shortener_summary">A videók és a Shorts mindig a rövidített youtu.be URL-formátumot használják</string>
+  <string name="morphe_replace_links_with_shortener_summary">Erősíti a videók használatát a rövidített youtu.be URL formátummal</string>
 </resources>

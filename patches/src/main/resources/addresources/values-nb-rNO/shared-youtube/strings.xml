@@ -44,7 +44,7 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Forfalske videostrømmer</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurer klient-spoofing for å unngå avspillingsproblemer</string>
   <string name="morphe_spoof_video_streams_title">Forfalske videostrømmer</string>
-  <string name="morphe_spoof_video_streams_summary">"Lurer YouTube til å sende en kompatibel videostrøm, noe som fikser avspillingen for de fleste brukere
+  <string name="morphe_spoof_video_streams_summary">"Fikser avspillingsproblemer for de fleste brukere ved å be om en kompatibel videostrøm
 
 Hvis du er en YouTube Premium-bruker, er kanskje ikke denne innstillingen nødvendig."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Kunne ikke hente noen klientstrømmer</string>
@@ -114,6 +114,7 @@ Trykk på Fortsett nedenfor for å logge på"</string>
   <string name="morphe_sanitize_sharing_links_title">Sanere delingslenker</string>
   <string name="morphe_sanitize_sharing_links_summary">Fjerner sporingsparametere fra delte lenker</string>
   <string name="morphe_replace_music_with_youtube_title">Endre delingslenker til youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Erstatter music.youtube.com med youtube.com i delte lenker</string>
   <string name="morphe_replace_links_with_shortener_title">Endre delingslenker til youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Tvinger direktesendinger og Shorts til å bruke den forkortede youtu.be URL-formatet</string>
+  <string name="morphe_replace_links_with_shortener_summary">Tvinger videoer til å bruke den forkortede youtu.be URL-formatet</string>
 </resources>

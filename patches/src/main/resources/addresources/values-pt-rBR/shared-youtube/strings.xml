@@ -44,7 +44,7 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Simular fluxos de vídeo</string>
   <string name="morphe_spoof_video_streams_screen_summary">Simular os fluxos de vídeo do cliente para evitar problemas de reprodução</string>
   <string name="morphe_spoof_video_streams_title">Spoofing do fluxo de vídeo</string>
-  <string name="morphe_spoof_video_streams_summary">"Engana o YouTube a enviar um fluxo de vídeo compatível, o que corrige a reprodução para a maioria dos usuários
+  <string name="morphe_spoof_video_streams_summary">"Corrige problemas de reprodução para a maioria dos usuários solicitando um fluxo de vídeo compatível
 
 Se você for um usuário do YouTube Premium, esta configuração pode não ser necessária"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Não foi possível obter nenhum fluxo de cliente</string>
@@ -114,6 +114,7 @@ Para entrar, pressione continuar abaixo"</string>
   <string name="morphe_sanitize_sharing_links_title">Higienizar links de compartilhamento</string>
   <string name="morphe_sanitize_sharing_links_summary">Remove parâmetros de consulta de rastreamento de links compartilhados</string>
   <string name="morphe_replace_music_with_youtube_title">Alterar links de compartilhamento para youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Substitui music.youtube.com por youtube.com em links compartilhados</string>
   <string name="morphe_replace_links_with_shortener_title">Alterar links de compartilhamento para youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Força transmissões ao vivo e Shorts a usar o formato de URL abreviado youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Força os vídeos a usar o formato de URL abreviado youtu.be</string>
 </resources>

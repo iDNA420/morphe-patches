@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Подправяне на видео потоци</string>
   <string name="morphe_spoof_video_streams_screen_summary">Подправете клиентските видео потоци, за да предотвратите проблеми с възпроизвеждането</string>
   <string name="morphe_spoof_video_streams_title">Подправяне на видео потоци</string>
-  <string name="morphe_spoof_video_streams_summary">"Заблуждава YouTube да изпрати съвместим видео поток, което оправя възпроизвеждането за повечето потребители
+  <string name="morphe_spoof_video_streams_summary">"Отстранява проблеми с възпроизвеждането за повечето потребители, като поиска съвместим видео поток.
 
-Ако сте потребител на YouTube Premium, тази настройка може да не е необходима"</string>
+Ако сте потребител на YouTube Premium, тази настройка може да не е необходима."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Не може да се изтеглят клиентски потоци</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Изключването на тази настройка може да причини проблеми при възпроизвеждане.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Second \"item\" text"</string>
   <string name="morphe_sanitize_sharing_links_title">Почистване на споделените връзки</string>
   <string name="morphe_sanitize_sharing_links_summary">Премахва параметрите за проследяване на заявките от споделени връзки</string>
   <string name="morphe_replace_music_with_youtube_title">Сменете споделяните връзки на youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Заменя music.youtube.com с youtube.com в споделени връзки</string>
   <string name="morphe_replace_links_with_shortener_title">Сменете споделяните връзки на youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Принуждава потоците на живо и Shorts да използват съкратения URL формат youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Принудително използва съкратения URL формат youtu.be за видеа</string>
 </resources>

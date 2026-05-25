@@ -132,7 +132,7 @@ MicroG üçün batareya optimallaşdırmaların qapatmaq batareya istifadəsinə
 
 Davam et düyməsinə toxun və optimallaşdırma dəyişikliklərinə razı ol"</string>
   <string name="gms_core_dialog_continue_text">Davam et</string>
-  <string name="morphe_gms_core_battery_optimization_dialog_title">Batareya optimallaşması dialoqun göstər</string>
+  <string name="morphe_gms_core_battery_optimization_dialog_title">MicroG-nin batareya optimallaşması dialoqun göstər</string>
   <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Bunu qapatmaq MicroG batareya optimallaşması icazəsin gizlədəcək.
 
 Batareya optimallaşmaları dəyişdirilməsə, görə bilərsiniz:
@@ -141,7 +141,7 @@ Batareya optimallaşmaları dəyişdirilməsə, görə bilərsiniz:
 • Fon oynatması işləməyə bilər"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <string name="morphe_link_handling_title">Tətbiq linkini idarəetmə</string>
-  <string name="morphe_link_handling_summary">Linkləri hansı tətbiq açır təyin et</string>
+  <string name="morphe_link_handling_summary">Bu tətbiqdə açmaq üçün linkləri təyin et</string>
   <string name="morphe_link_handling_step1_title">Mərhələ 1: Əsil tətbiq linklərini qapat</string>
   <string name="morphe_link_handling_step1_message">Əsil tətbiq tənzimləmələrin aç və bütün domen linklərini qapat</string>
   <string name="morphe_link_handling_step2_title">Mərhələ 2: Yamaqlanan tətbiq linklərini aktivləşdir</string>

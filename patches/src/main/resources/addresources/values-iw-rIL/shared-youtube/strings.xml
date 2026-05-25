@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">זיוף זרמי וידאו</string>
   <string name="morphe_spoof_video_streams_screen_summary">הגדר העלמת זהות לקוח כדי למנוע בעיות בהשמעה</string>
   <string name="morphe_spoof_video_streams_title">זייף זרמי וידאו</string>
-  <string name="morphe_spoof_video_streams_summary">"מרמה את YouTube לשלוח זרם וידאו תואם, מה שתוקן את ההשמעה עבור רוב המשתמשים
+  <string name="morphe_spoof_video_streams_summary">"מתקן בעיות בהשמעה עבור רוב המשתמשים על ידי בקשת זרם וידאו תואם
 
-אם אתה משתמש ב-YouTube Premium, ייתכן שהגדרת אפשרות זו לא תהיה נחוצה"</string>
+אם אתה משתמש YouTube Premium, ייתכן שהגדרת אפשרות זו לא תהיה נחוצה"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Не удалось получить доступ к потокам клиента</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">כיבוי הגדרה זו עלול לגרום לבעיות השמעה.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Second \"item\" text"</string>
   <string name="morphe_sanitize_sharing_links_title">טיהור קישורי שיתוף</string>
   <string name="morphe_sanitize_sharing_links_summary">מסיר פרמטרים של שאילתות מעקב מקישורי שיתוף</string>
   <string name="morphe_replace_music_with_youtube_title">שנה קישורי שיתוף ל-youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">מחליף את music.youtube.com ל-youtube.com בקישורים משותפים</string>
   <string name="morphe_replace_links_with_shortener_title">שנה קישורי שיתוף ל-youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">מאפשר לשידורים חיים ול-Shorts להשתמש בפורמט הכתובת המקוצר youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">כופה על סרטונים להשתמש בפורמט הקיצור youtu.be</string>
 </resources>

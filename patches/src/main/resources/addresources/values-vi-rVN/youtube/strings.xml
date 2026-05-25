@@ -29,7 +29,7 @@ Second \"item\" text"</string>
   <string name="morphe_settings_screen_08_swipe_controls_title">Cử chỉ vuốt</string>
   <string name="morphe_settings_screen_11_misc_title">Khác</string>
   <string name="morphe_settings_screen_12_video_title">Video</string>
-  <string name="morphe_restore_old_settings_menus_title">Khôi phục menu cài đặt cũ</string>
+  <string name="morphe_restore_old_settings_menus_title">Khôi phục menu cài đặt cũ của YouTube</string>
   <!-- misc.backgroundplayback.backgroundPlaybackPatch -->
   <string name="morphe_remove_background_playback_restrictions_title">Bỏ hạn chế phát nền</string>
   <string name="morphe_shorts_disable_background_playback_title">Tắt phát nền</string>
@@ -75,7 +75,7 @@ Ví dụ:
   <string name="morphe_hide_floating_microphone_button_title">Ẩn nút micrô</string>
   <string name="morphe_hide_floating_microphone_button_summary">Ẩn nút micro nổi ở góc dưới bên phải của màn hình gợi ý tìm kiếm</string>
   <string name="morphe_hide_horizontal_shelves_title">Ẩn kệ cá nhân hoá</string>
-  <string name="morphe_hide_horizontal_shelves_summary">Các kệ ngang đã bị ẩn như Tin nổi bật, Bài đăng bạn có thể thích, Tiếp tục xem, Khám phá các kênh khác, Khám phá các chủ đề khác, Dành cho bạn, Mới nhất, Phù hợp nhất, Bài đăng từ cộng đồng của nhà sáng tạo, Mua sắm và Xem lại</string>
+  <string name="morphe_hide_horizontal_shelves_summary">Ẩn các kệ ngang như Tin nổi bật, Bài đăng bạn có thể thích, Tiếp tục xem, Khám phá các kênh khác, Khám phá các chủ đề khác, Dành cho bạn, Mới nhất, Phù hợp nhất, Bài đăng từ cộng đồng của nhà sáng tạo, Mua sắm, và Xem lại</string>
   <string name="morphe_hide_hyped_label_title">Ẩn nhãn nổi bật</string>
   <string name="morphe_hide_image_shelf_title">Ẩn kệ hình ảnh</string>
   <string name="morphe_hide_image_shelf_summary">Ẩn các kệ hình ảnh trong kết quả tìm kiếm</string>
@@ -88,7 +88,7 @@ Ví dụ:
   <!-- 'Notify me' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the Subscriptions feed for future livestreams or unreleased videos. -->
   <string name="morphe_hide_notify_me_button_title">Ẩn nút \"Thông báo cho tôi\"</string>
-  <string name="morphe_hide_notify_me_button_summary">Ẩn nút nhắc các buổi phát trực tiếp và video công chiếu sắp diễn ra</string>
+  <string name="morphe_hide_notify_me_button_summary">Ẩn nút thông báo các buổi phát trực tiếp và video sắp diễn ra</string>
   <string name="morphe_hide_playables_title">Ẩn Chơi game trên Youtube</string>
   <string name="morphe_hide_playables_summary">Ẩn tính năng cho phép bạn chơi trò chơi</string>
   <string name="morphe_hide_search_term_thumbnails_title">Ẩn hình thu nhỏ của từ khóa tìm kiếm</string>
@@ -99,11 +99,13 @@ Ví dụ:
   <string name="morphe_hide_show_more_button_summary">Ẩn nút mở rộng dưới video trong kết quả tìm kiếm</string>
   <string name="morphe_hide_subscribed_channels_bar_title">Ẩn thanh kênh đã đăng ký</string>
   <string name="morphe_hide_surveys_title">Ẩn khảo sát</string>
+  <string name="morphe_hide_surveys_summary">Ẩn khảo sát ​​và đánh giá độ phù hợp của đề xuất trang video</string>
   <string name="morphe_hide_ticket_shelf_title">Ẩn kệ vé</string>
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_video_recommendation_labels_title">Ẩn nhãn video đề xuất</string>
   <string name="morphe_hide_video_recommendation_labels_summary">Ẩn nhãn \"Mọi người cũng xem video này\" và \"Có thể bạn cũng thích nội dung này\" trong kết quả tìm kiếm</string>
   <string name="morphe_hide_web_search_results_title">Ẩn kết quả tìm kiếm trên web</string>
+  <string name="morphe_hide_web_search_results_summary">Ẩn phần \'Kết quả từ trang web\' khỏi kết quả tìm kiếm</string>
   <string name="morphe_hide_you_may_like_section_title">Ẩn phần \"Bạn có thể thích\"</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">Ẩn YouTube Doodles</string>
@@ -207,7 +209,7 @@ Hiển thị YouTube Doodles có thể ngăn chặn các tiêu đề tùy chỉn
   <string name="morphe_sanitize_comments_category_bar_title">Thu gọn thanh danh mục</string>
   <string name="morphe_sanitize_comments_category_bar_summary">Ẩn tất cả các tùy chọn sắp xếp bình luận ngoại trừ \'Nổi bật nhất\' và \'Mới nhất\'</string>
   <string name="morphe_custom_filter_screen_title">Bộ lọc tùy chỉnh</string>
-  <string name="morphe_custom_filter_screen_summary">Chọn những thành phần muốn ẩn bằng bộ lọc tùy chỉnh</string>
+  <string name="morphe_custom_filter_screen_summary">Cấu hình bộ lọc tùy chỉnh để ẩn bất kỳ thành phần nào</string>
   <string name="morphe_custom_filter_title">Bật bộ lọc tùy chỉnh</string>
   <string name="morphe_custom_filter_strings_title">Bộ lọc tùy chỉnh</string>
   <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
@@ -231,7 +233,11 @@ Hiển thị YouTube Doodles có thể ngăn chặn các tiêu đề tùy chỉn
   <string name="morphe_hide_keyword_content_phrases_title">Từ khóa để ẩn</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
-  <string name="morphe_hide_keyword_content_phrases_summary">Nhập từ khóa hoặc tên kênh, mỗi dòng một từ. Từ viết hoa ở giữa phải chính xác (ví dụ: iPhone, TikTok, LeBlanc)</string>
+  <string name="morphe_hide_keyword_content_phrases_summary">"Nhập từ khóa và cụm từ cần ẩn, mỗi dòng một từ/cụm từ
+
+Từ khóa ở đây là bất kỳ văn bản nào mà bạn thấy trong tiêu đề video hoặc tên kênh
+
+Từ có chữ in hoa ở giữa phải được nhập chính xác (ví dụ: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Giới thiệu về bộ lọc từ khóa</string>
   <string name="morphe_hide_keyword_content_about_summary">"Trang chủ/Kênh đăng ký/Kết quả tìm kiếm được lọc để ẩn nội dung khớp với cụm từ khóa
 
@@ -253,7 +259,8 @@ Hạn chế:
   <string name="morphe_hide_end_screen_store_banner_title">Ẩn biểu ngữ cửa hàng trên màn hình kết thúc</string>
   <string name="morphe_hide_general_ads_title">Ẩn quảng cáo chung</string>
   <string name="morphe_hide_merchandise_banners_title">Ẩn biểu ngữ sản phẩm</string>
-  <string name="morphe_hide_paid_promotion_label_title">Ẩn nhãn quảng cáo trả phí</string>
+  <!-- 'Includes paid promotion' should be translated using the same localized wording YouTube displays for the label. -->
+  <string name="morphe_hide_paid_promotion_label_title">Ẩn nhãn \'Nội dung được trả tiền để quảng cáo\'</string>
   <string name="morphe_hide_player_popup_ads_title">Ẩn quảng cáo bật lên trên trình phát</string>
   <string name="morphe_hide_self_sponsor_ads_title">Ẩn thẻ tự tài trợ</string>
   <string name="morphe_hide_shopping_links_title">Ẩn liên kết mua sắm</string>
@@ -266,8 +273,8 @@ Hạn chế:
   <string name="morphe_share_copy_url_button_timestamp_success">Đã sao chép URL cùng dấu thời gian vào bảng nhớ tạm</string>
   <string name="morphe_copy_video_url_button_title">Hiện nút Sao chép URL video</string>
   <string name="morphe_copy_video_url_button_summary">Bấm để sao chép URL video, bấm giữ để sao chép kèm dấu thời gian</string>
-  <string name="morphe_copy_video_url_button_timestamp_title">Sao chép dấu thời gian</string>
-  <string name="morphe_copy_video_url_button_timestamp_summary">Khi bật, bấm sẽ sao chép URL kèm dấu thời gian và giữ sẽ sao chép không có dấu thời gian. Khi tắt, kết quả sẽ ngược lại</string>
+  <string name="morphe_copy_video_url_button_timestamp_title">Sao chép dấu thời gian theo mặc định</string>
+  <string name="morphe_copy_video_url_button_timestamp_summary">Đảo chức năng giữa bấm và bấm giữ của nút “Sao chép URL video”</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Loại bỏ hộp thoại cảnh báo trước khi xem</string>
   <string name="morphe_remove_viewer_discretion_dialog_user_dialog_message">Tuỳ chọn này chỉ tự động chấp nhận mà không bỏ qua giới hạn độ tuổi.</string>
@@ -275,14 +282,15 @@ Hạn chế:
   <string name="morphe_disable_sign_in_to_tv_popup_title">Tắt cửa sổ Đăng nhập vào TV</string>
   <!-- interaction.doubletap.disableDoubleTapActionsPatch -->
   <string name="morphe_disable_chapter_skip_double_tap_title">Tắt chạm hai lần để bỏ qua chương</string>
-  <string name="morphe_disable_chapter_skip_double_tap_summary">Ngăn chạm hai lần vô tình chuyển đến chương tiếp theo hoặc chương trước</string>
+  <string name="morphe_disable_chapter_skip_double_tap_summary">Tắt cử chỉ chạm bằng hai ngón để chuyển chương, tránh vô tình kích hoạt bằng một ngón</string>
   <!-- interaction.downloads.downloadsPatch -->
   <string name="morphe_external_downloader_screen_title">Tải xuống bên ngoài</string>
-  <string name="morphe_external_downloader_screen_summary">Chọn ứng dụng bên ngoài để xử lý tác vụ tải xuống</string>
+  <string name="morphe_external_downloader_screen_summary">Tải video bằng ứng dụng tải xuống bên thứ ba</string>
   <string name="morphe_external_downloader_title">Hiện nút tải xuống bên ngoài</string>
+  <string name="morphe_external_downloader_summary">Hiện nút mở ứng dụng trình tải xuống bên ngoài trong trình phát video</string>
   <!-- 'Download action button' should match the language used in 'morphe_hide_download_button_title'. -->
   <string name="morphe_external_downloader_action_button_title">Ghi đè nút Tải xuống</string>
-  <string name="morphe_external_downloader_action_button_summary">Thay chức năng tải xuống tích hợp của YouTube bằng ứng dụng tải xuống của bên thứ ba mà bạn chọn</string>
+  <string name="morphe_external_downloader_action_button_summary">Thay thế chức năng tải xuống được tích hợp trong YouTube bằng ứng dụng tải xuống bên ngoài của bạn</string>
   <string name="morphe_external_downloader_name_title">Tên gói trình tải xuống</string>
   <string name="morphe_external_downloader_name_summary">Tên gói ứng dụng trình tải xuống bên ngoài đã cài đặt của bạn</string>
   <string name="morphe_external_downloader_other_item_hint">Nhập tên gói</string>
@@ -301,9 +309,9 @@ Vui lòng kiểm tra lại tên gói và đảm bảo ứng dụng đã được
   <string name="morphe_loop_video_button_toast_off">Lặp lại video đang tắt</string>
   <!-- interaction.playall.playAllButtonPatch -->
   <string name="morphe_play_all_button_title">Hiện nút Phát tất cả</string>
-  <string name="morphe_play_all_button_summary">"Bấm để tạo danh sách phát, bấm giữ để hoàn tác
+  <string name="morphe_play_all_button_summary">"Chạm để tạo danh sách phát của tất cả các video từ kênh, nhấn giữ để hoàn tác
 
-Lưu ý: Có thể không hoạt động đối với các video phát trực tiếp"</string>
+Lưu ý: Có thể không hoạt động với video phát trực tiếp"</string>
   <string name="morphe_play_all_button_type_title">Chế độ tạo danh sách phát</string>
   <string name="morphe_play_all_button_type_entry_0">Tất cả nội dung (Theo thời gian, cũ nhất)</string>
   <string name="morphe_play_all_button_type_entry_1">Tất cả nội dung (Theo thời gian)</string>
@@ -328,11 +336,11 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_save_to_watch_later_already_exists_toast">Video này đã được lưu trong danh sách xem sau</string>
   <string name="morphe_save_to_watch_later_error_toast">Không thể lưu video này vào danh sách xem sau</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
-  <string name="morphe_open_channel_of_live_avatar_title">Tùy chỉnh khi bấm vào ảnh đại diện có sự kiện trực tiếp</string>
-  <string name="morphe_open_channel_of_live_avatar_summary">Mở trang kênh khi bật, hoặc mở luồng trực tiếp khi tắt</string>
+  <string name="morphe_open_channel_of_live_avatar_title">Mở kênh khi bấm vào ảnh đại diện có sự kiện trực tiếp</string>
+  <string name="morphe_open_channel_of_live_avatar_summary">Không mở video phát trực tiếp khi bấm vào ảnh đại diện của kênh</string>
   <!-- interaction.seekbar.disablePreciseSeekingGesturePatch -->
   <string name="morphe_disable_precise_seeking_gesture_title">Tắt cử chỉ tua chính xác</string>
-  <string name="morphe_disable_precise_seeking_gesture_summary">Tắt chế độ tua chính xác được bật khi giữ vị trí tua</string>
+  <string name="morphe_disable_precise_seeking_gesture_summary">Tắt chế độ tua chính xác được bật khi vuốt thanh tiến trình lên</string>
   <!-- interaction.seekbar.livestreamDvrPatch -->
   <string name="morphe_livestream_dvr_title">Bật DVR phát trực tiếp</string>
   <string name="morphe_livestream_dvr_summary">Cho phép tua trên mọi các buổi phát trực tiếp, kể cả khi bình thường không được phép</string>
@@ -340,8 +348,10 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_livestream_dvr_user_dialog_message">Bật cài đặt này có thể gây ra lỗi khi tua video phát trực tiếp nếu bạn chưa bật \"Giả lập luồng phát video\".</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Bật vuốt để tua</string>
+  <string name="morphe_slide_to_seek_summary">Bật vuốt để tua thay vì phát video 2x khi bấm giữ trong trình phát</string>
   <!-- interaction.seekbar.enableTapToSeekPatch -->
   <string name="morphe_tap_to_seek_title">Bật chạm để tua</string>
+  <string name="morphe_tap_to_seek_summary">Chỉ cần chạm vào thanh tiến trình để tua tới vị trí đó chứ không cần kéo</string>
   <!-- interaction.swipecontrols.swipeControlsPatch -->
   <string name="morphe_swipe_brightness_title">Bật cử chỉ độ sáng</string>
   <string name="morphe_swipe_brightness_summary">Vuốt lên/xuống bên trái trong chế độ toàn màn hình để điều chỉnh độ sáng</string>
@@ -370,7 +380,7 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_swipe_threshold_title">Độ rộng ngưỡng vuốt</string>
   <string name="morphe_swipe_threshold_summary">Đặt khoảng cách tối thiếu để vuốt có ý nghĩa</string>
   <string name="morphe_swipe_volume_sensitivity_title">Độ nhạy vuốt âm lượng</string>
-  <string name="morphe_swipe_volume_sensitivity_summary">Điều chỉnh độ nhạy thay đổi âm lượng khi vuốt</string>
+  <string name="morphe_swipe_volume_sensitivity_summary">Điều chỉnh mức âm lượng thay đổi mỗi khi vuốt</string>
   <string name="morphe_swipe_overlay_style_title">Kiểu lớp phủ vuốt</string>
   <string name="morphe_swipe_overlay_style_entry_1">Lớp phủ ngang</string>
   <string name="morphe_swipe_overlay_style_entry_2">Lớp phủ ngang (tối giản - trên cùng)</string>
@@ -444,12 +454,14 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_auto_captions_style_legacy_entry_1">Hiển thị phụ đề tự động</string>
   <string name="morphe_auto_captions_style_legacy_entry_2">Ẩn phụ đề tự động</string>
   <!-- layout.captions.captionCookiesPatch -->
-  <string name="morphe_set_caption_cookies_title">Bật cookie phụ đề</string>
-  <string name="morphe_set_caption_cookies_summary">Bắt buộc để tự động dịch phụ đề hoạt động chính xác</string>
+  <string name="morphe_set_caption_cookies_title">Thiết lập cookie phụ đề</string>
+  <string name="morphe_set_caption_cookies_summary">"Sửa lỗi không dịch tự động phụ đề do thiếu cookie trên ứng dụng Youtube gốc
+
+Cần cung cấp \"Cookie phụ đề\""</string>
   <string name="morphe_caption_cookies_title">Cookie phụ đề</string>
-  <string name="morphe_caption_cookies_summary">Cookies dùng để xác thực các yêu cầu Timed Text API cho phụ đề</string>
+  <string name="morphe_caption_cookies_summary">Cookie dùng cho các yêu cầu tới API Timed Text (API dữ liệu phụ đề)</string>
   <string name="morphe_get_caption_cookies_title">Lấy cookie phụ đề</string>
-  <string name="morphe_get_caption_cookies_summary">Tự động tải và lưu cookie nếu chúng hợp lệ</string>
+  <string name="morphe_get_caption_cookies_summary">Bấm vào đây để lấy cookie</string>
   <string name="morphe_get_caption_cookies_failed">Không thể lấy cookie</string>
   <string name="morphe_get_caption_cookies_duplicate">Cookie đã tồn tại</string>
   <string name="morphe_get_caption_cookies_success">Cookie đã được cập nhật thành công</string>
@@ -580,13 +592,13 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_disable_rolling_number_animations_summary">Dừng hiệu ứng đếm số của lượt thích và lượt xem</string>
   <!-- layout.hide.seekbar.hideSeekbarPatch -->
   <string name="morphe_hide_seekbar_title">Ẩn thanh tiến trình video</string>
-  <!-- Seekbar shown inside video thumbnails found on the Home / Subscriptions / Search / History.  The seekbar shows the prior watch progress from when the video was last opened. -->
   <string name="morphe_hide_seekbar_thumbnail_title">Ẩn thanh tiến trình trong hình thu nhỏ</string>
-  <string name="morphe_hide_seekbar_thumbnail_summary">Ẩn thanh tiến trình hình thu nhỏ video trong trang video và kết quả tìm kiếm</string>
+  <string name="morphe_hide_seekbar_thumbnail_summary">Ẩn thanh tiến trình xem trên hình thu nhỏ ở các video đã xem</string>
   <string name="morphe_fullscreen_large_seekbar_title">Phóng to thanh tiến trình khi bật toàn màn hình</string>
   <!-- layout.hide.shorts.hideShortsComponentsPatch -->
   <string name="morphe_shorts_player_screen_title">Trình phát Shorts</string>
   <string name="morphe_shorts_player_screen_summary">Chọn những thành phần sẽ hiển thị trên trình phát Shorts</string>
+  <string name="morphe_hide_shorts_category_title">Ẩn Shorts</string>
   <string name="morphe_hide_shorts_channel_title">Ẩn trong trang kênh</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_hide_shorts_home_title">Ẩn trong Trang chủ và video liên quan</string>
@@ -635,6 +647,7 @@ Lưu ý: Có thể không hoạt động đối với các video phát trực ti
   <string name="morphe_hide_shorts_navigation_bar_title">Ẩn thanh điều hướng</string>
   <!-- layout.hide.endscreensuggestedvideo.hideEndScreenSuggestedVideoPatch -->
   <string name="morphe_hide_end_screen_suggested_video_title">Ẩn video được đề xuất ở màn hình kết thúc</string>
+  <string name="morphe_hide_end_screen_suggested_video_summary">Ẩn lớp phủ video gợi ý xuất hiện sau khi video kết thúc</string>
   <string name="morphe_hide_end_screen_suggested_video_user_dialog_message">"Cài đặt này chỉ có hiệu lực khi \"Tự động phát video tiếp theo\" đang tắt.
 
 Cách tắt \"Tự động phát video tiếp theo\":
@@ -642,8 +655,8 @@ Cài đặt → Phát (hoặc Tự động phát) → Tự động phát video t
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">Ẩn video liên quan</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
-  <string name="morphe_hide_player_related_videos_overlay_title">Ẩn lớp phủ video liên quan</string>
-  <string name="morphe_hide_player_related_videos_overlay_summary">Ẩn các video đề xuất hiển thị trong chế độ toàn màn hình</string>
+  <string name="morphe_hide_player_related_videos_overlay_title">Ẩn lớp phủ \'Thêm video\'</string>
+  <string name="morphe_hide_player_related_videos_overlay_summary">Ẩn lớp phủ \"Video khác\' hiển thị khi vuốt lên ở chế độ toàn màn hình</string>
   <!-- layout.hide.time.hideTimestampPatch -->
   <string name="morphe_hide_timestamp_title">Ẩn dấu thời gian video</string>
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
@@ -654,7 +667,7 @@ Cài đặt → Phát (hoặc Tự động phát) → Tự động phát video t
   <string name="morphe_exit_fullscreen_entry_1">Tắt</string>
   <string name="morphe_exit_fullscreen_entry_2">Chỉ dọc</string>
   <string name="morphe_exit_fullscreen_entry_3">Chỉ ngang</string>
-  <string name="morphe_exit_fullscreen_entry_4">Cả hai</string>
+  <string name="morphe_exit_fullscreen_entry_4">Chế độ dọc và ngang</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Mở video trong chế độ toàn màn hình dọc</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
@@ -737,13 +750,13 @@ Cài đặt → Phát (hoặc Tự động phát) → Tự động phát video t
   <string name="morphe_sb_create_segment_category">Tạo phân đoạn mới</string>
   <string name="morphe_sb_enable_create_segment">Hiện nút \'Tạo phân đoạn mới\'</string>
   <string name="morphe_sb_enable_create_segment_summary">Thêm nút vào trình phát video cho phép bạn gửi các phân đoạn SponsorBlock mới</string>
-  <string name="morphe_sb_general_adjusting">Điều chỉnh bước tua của phân đoạn mới</string>
-  <string name="morphe_sb_general_adjusting_summary">Đặt số mili giây cho các nút điều chỉnh thời gian khi tạo các phân đoạn mới</string>
+  <string name="morphe_sb_general_adjusting">Bước tua thời gian</string>
+  <string name="morphe_sb_general_adjusting_summary">Mức tua của các nút tua thời gian (tính bằng mili giây)</string>
   <string name="morphe_sb_general_adjusting_invalid">Giá trị phải là một số dương</string>
   <string name="morphe_sb_guidelines_preference_title">Hướng dẫn sử dụng</string>
   <string name="morphe_sb_guidelines_preference_summary">Hướng dẫn bao gồm các quy tắc và mẹo về cách tạo phân đoạn mới</string>
   <string name="morphe_sb_guidelines_popup_title">Thực hiện theo các hướng dẫn</string>
-  <string name="morphe_sb_guidelines_popup_content">Xem các quy tắc và mẹo để tạo các phân đoạn mới</string>
+  <string name="morphe_sb_guidelines_popup_content">Đọc hướng dẫn SponsorBlock trước khi tạo phân đoạn mới</string>
   <string name="morphe_sb_guidelines_popup_already_read">Đã đọc</string>
   <string name="morphe_sb_guidelines_popup_open">Hiện cho tôi</string>
   <string name="morphe_sb_general">Chung</string>
@@ -752,7 +765,7 @@ Cài đặt → Phát (hoặc Tự động phát) → Tự động phát video t
   <string name="morphe_sb_general_skipcount">Bật theo dõi số lần bỏ qua</string>
   <string name="morphe_sb_general_skipcount_summary">Gửi số lượt bỏ qua đến bảng xếp hạng SponsorBlock để theo dõi lượng thời gian tiết kiệm được</string>
   <string name="morphe_sb_general_min_duration">Thời lượng phân đoạn tối thiểu</string>
-  <string name="morphe_sb_general_min_duration_summary">Đặt thời lượng tối thiểu để một phân đoạn được bỏ qua, tính bằng giây</string>
+  <string name="morphe_sb_general_min_duration_summary">Các phân đoạn ngắn hơn giá trị này (tính bằng giây) sẽ bị ẩn hoặc bỏ qua</string>
   <string name="morphe_sb_general_min_duration_invalid">Thời lượng không hợp lệ</string>
   <string name="morphe_sb_general_uuid">Mã người dùng riêng tư</string>
   <string name="morphe_sb_general_uuid_summary">Không nên chia sẻ mã này với bất kỳ ai. Nó hoạt động như một mật khẩu và có thể được dùng để mạo danh nếu ai đó có nó</string>
@@ -765,9 +778,9 @@ Cài đặt → Phát (hoặc Tự động phát) → Tự động phát video t
   <string name="morphe_sb_settings_ie">Nhập hoặc Xuất cài đặt</string>
   <string name="morphe_sb_settings_copy">Sao chép</string>
   <string name="morphe_sb_settings_ie_summary">Cấu hình JSON SponsorBlock của bạn có thể dùng để nhập/xuất vào Morphe và các nền tảng SponsorBlock khác</string>
-  <string name="morphe_sb_settings_ie_summary_warning">"Đây là tệp cấu hình JSON của SponsorBlock mà bạn có thể dùng để nhập hoặc xuất vào Morphe hoặc các nền tảng SponsorBlock khác
-    
-Tệp này chứa cả mã riêng tư của bạn, vì vậy hãy cân nhắc trước khi chia sẻ"</string>
+  <string name="morphe_sb_settings_ie_summary_warning">"Tệp cấu hình JSON của SponsorBlock của bạn có thể được nhập / xuất vào Morphe và các nền tảng SponsorBlock khác
+
+Điều này bao gồm ID người dùng riêng tư của bạn. Hãy đảm bảo chia sẻ điều này một cách khôn ngoan"</string>
   <string name="morphe_sb_settings_import_successful">Cài đặt đã được nhập thành công</string>
   <string name="morphe_sb_settings_import_failed">Nhập thất bại: %s</string>
   <string name="morphe_sb_settings_export_failed">Xuất thất bại: %s</string>
@@ -944,7 +957,7 @@ Nếu tắt đi sau đó, bạn nên xóa dữ liệu ứng dụng để tránh 
   <string name="morphe_spoof_app_version_target_title">Mục tiêu phiên bản giả mạo</string>
   <string name="morphe_spoof_app_version_target_entry_20_39">20.39.41 - Khôi phục ‘Lưu vào danh sách phát’ kiểu cũ</string>
   <string name="morphe_spoof_app_version_target_entry_20_28">20.28.41 - Vô hiệu hóa biểu tượng đậm</string>
-  <string name="morphe_spoof_app_version_target_entry_20_13">20.13.41 - Khôi phục thanh thao tác video mở rộng</string>
+  <string name="morphe_spoof_app_version_target_entry_20_13">20.13.41 - Khôi phục tên kênh bên dưới trình phát video</string>
   <!-- misc.sharesheet.openSystemShareSheetPatch -->
   <string name="morphe_open_system_share_sheet_title">Mở bảng chia sẻ hệ thống</string>
   <string name="morphe_open_system_share_sheet_summary">Mở bảng chia sẻ của hệ thống thay vì bảng chia sẻ của ứng dụng khi chia sẻ</string>
@@ -1088,7 +1101,7 @@ Bấm vào đây để tìm hiểu thêm về DeArrow"</string>
   <string name="morphe_restore_old_player_buttons_summary">Khôi phục giao diện điều khiển trình phát kiểu cũ, mỏng hơn</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Giả mạo kích thước thiết bị</string>
-  <string name="morphe_spoof_device_dimensions_summary">Đánh lừa máy chủ bằng cách giả mạo kích thước thiết bị để mở khóa các tùy chọn chất lượng cao hơn</string>
+  <string name="morphe_spoof_device_dimensions_summary">Bật tính năng này có thể mở khóa chất lượng video cao hơn</string>
   <string name="morphe_spoof_device_dimensions_user_dialog_message">Bật tính năng này có thể làm giật lag khi phát video, hao pin, và các sự cố không xác định.</string>
   <!-- misc.hapticfeedback.disableHapticFeedbackPatch -->
   <string name="morphe_disable_haptic_feedback_title">Phản hồi xúc giác</string>
@@ -1109,17 +1122,17 @@ Bấm vào đây để tìm hiểu thêm về DeArrow"</string>
   <string name="microg_offline_account_login_error">Nếu gần đây bạn đã cập nhật thông tin đăng nhập tài khoản của mình, hãy gỡ và cài đặt lại microG.</string>
   <!-- misc.links.bypassURLRedirectsPatch -->
   <string name="morphe_bypass_url_redirects_title">Bỏ qua chuyển hướng URL</string>
-  <string name="morphe_bypass_url_redirects_summary">Mở trực tiếp URL đích, bỏ qua các liên kết theo dõi chuyển hướng</string>
+  <string name="morphe_bypass_url_redirects_summary">Mở URL gốc trực tiếp, bỏ qua liên kết theo dõi (youtube.com/redirect)</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <string name="morphe_external_browser_title">Mở liên kết trong trình duyệt</string>
-  <string name="morphe_external_browser_summary">Mở các liên kết trong trình duyệt của bạn thay vì trình duyệt của ứng dụng</string>
+  <string name="morphe_external_browser_summary">Mở liên kết trong trình duyệt bên ngoài thay vì trình duyệt trong ứng dụng</string>
   <!-- video.quality.rememberVideoQualityPatch -->
   <!-- Translations should match the language used in 'morphe_custom_playback_speeds_auto'. -->
   <string name="morphe_video_quality_default_entry_1">Tự động</string>
   <string name="morphe_remember_video_quality_last_selected_title">Ghi nhớ chất lượng video</string>
   <string name="morphe_remember_video_quality_last_selected_summary">Áp dụng chất lượng video mà bạn đã chọn cho tất cả các video trong tương lai</string>
   <string name="morphe_remember_video_quality_last_selected_toast_title">Thông báo thay đổi chất lượng</string>
-  <string name="morphe_remember_video_quality_last_selected_toast_summary">Hiển thị thông báo khi chất lượng video mặc định thay đổi</string>
+  <string name="morphe_remember_video_quality_last_selected_toast_summary">Hiển thị thông báo khi lưu chất lượng video mặc định mới</string>
   <string name="morphe_video_quality_default_wifi_title">Chất lượng mặc định trên mạng Wi-Fi</string>
   <string name="morphe_video_quality_default_mobile_title">Chất lượng mặc định trên mạng di động</string>
   <string name="morphe_remember_shorts_quality_last_selected_title">Ghi nhớ chất lượng Shorts</string>
@@ -1150,7 +1163,7 @@ Bấm vào đây để tìm hiểu thêm về DeArrow"</string>
   <string name="morphe_remember_playback_speed_last_selected_title">Ghi nhớ tốc độ phát</string>
   <string name="morphe_remember_playback_speed_last_selected_summary">Áp dụng tốc độ phát mà bạn đã chọn cho tất cả các video trong tương lai</string>
   <string name="morphe_remember_playback_speed_last_selected_toast_title">Thông báo thay đổi tốc độ</string>
-  <string name="morphe_remember_playback_speed_last_selected_toast_summary">Hiển thị thông báo khi tốc độ phát mặc định thay đổi</string>
+  <string name="morphe_remember_playback_speed_last_selected_toast_summary">Hiển thị thông báo khi lưu tốc độ phát mặc định mới</string>
   <string name="morphe_playback_speed_default_title">Tốc độ phát mặc định</string>
   <string name="morphe_remember_playback_speed_toast">Đã đổi tốc độ phát mặc định thành: %s</string>
   <!-- video.codecs.disableVideoCodecsPatch -->

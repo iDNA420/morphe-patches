@@ -17,7 +17,7 @@ Second \"item\" text"</string>
 -->
 <resources>
   <!-- misc.initialization.initializationPatch -->
-  <string name="morphe_restart_first_run">Ayarları tamamlamak için yeniden başlatın</string>
+  <string name="morphe_restart_first_run">Kurulumu tamamlamak için yeniden başlatın</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
   <string name="morphe_custom_branding_name_title">Uygulama adı</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
@@ -35,7 +35,7 @@ Second \"item\" text"</string>
   <string name="morphe_custom_branding_icon_entry_7">Özel</string>
   <string name="morphe_custom_branding_notification_icon_title">Bildirim simgesi</string>
   <string name="morphe_custom_branding_notification_icon_entry_1">Uygulama simgesini takip et</string>
-  <string name="morphe_custom_branding_notification_icon_entry_3">Morphe Play</string>
+  <string name="morphe_custom_branding_notification_icon_entry_3">Morphe play</string>
   <!-- misc.dns.checkWatchHistoryDomainNameResolutionPatch -->
   <string name="morphe_check_watch_history_domain_name_dialog_title">Morphe Bildirimi</string>
   <string name="morphe_check_watch_history_domain_name_dialog_message">İzleme geçmişiniz kaydedilmiyor.&lt;br&gt;&lt;br&gt;Bu büyük ihtimalle bir reklam engelleyici DNS\'den veya proxy\'den kaynaklanıyor.&lt;br&gt;&lt;br&gt;Bunu düzeltmek için, &lt;b&gt;s.youtube.com&lt;/b&gt; adresini beyaz listeye ekleyin veya bütün engelleyici DNSleri ve proxy\'leri kapatın.</string>
@@ -44,7 +44,7 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Video akışlarını taklit et</string>
   <string name="morphe_spoof_video_streams_screen_summary">Oynatma sorunlarını önlemek için istemci video akışlarını taklit et</string>
   <string name="morphe_spoof_video_streams_title">Video akışlarını taklit et</string>
-  <string name="morphe_spoof_video_streams_summary">"YouTube'u uyumlu bir video akışı göndermesi için kandırır, bu da çoğu kullanıcı için oynatmayı düzeltir
+  <string name="morphe_spoof_video_streams_summary">"Çoğu kullanıcı için oynatma sorunlarını uyumlu bir video akışı isteyerek düzeltir
 
 YouTube Premium kullanıcısıysanız, bu ayar gerekli olmayabilir"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Hiçbir istemci akışı alınamadı</string>
@@ -114,6 +114,7 @@ Oturum açmak için, devam et butonuna basın."</string>
   <string name="morphe_sanitize_sharing_links_title">Paylaşım bağlantılarını temizle</string>
   <string name="morphe_sanitize_sharing_links_summary">Paylaşılan bağlantılardan izleme sorgu parametrelerini kaldırır</string>
   <string name="morphe_replace_music_with_youtube_title">Paylaşım bağlantılarını youtube.com olarak değiştir</string>
+  <string name="morphe_replace_music_with_youtube_summary">Paylaşılan bağlantılarda music.youtube.com adresini youtube.com ile değiştirir</string>
   <string name="morphe_replace_links_with_shortener_title">Paylaşım bağlantılarını youtu.be olarak değiştir</string>
-  <string name="morphe_replace_links_with_shortener_summary">Canlı yayınları ve Shorts\'u kısaltılmış youtu.be URL formatını kullanmaya zorlar</string>
+  <string name="morphe_replace_links_with_shortener_summary">Videoları kısaltılmış youtu.be URL formatını kullanmaya zorlar</string>
 </resources>

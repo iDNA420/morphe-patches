@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Подмена видеопотоков</string>
   <string name="morphe_spoof_video_streams_screen_summary">Настройте подмену клиента, чтобы предотвратить проблемы с воспроизведением</string>
   <string name="morphe_spoof_video_streams_title">Поддельные видео потоки</string>
-  <string name="morphe_spoof_video_streams_summary">"Обманывает YouTube, чтобы он отправлял совместимый видеопоток, что исправляет воспроизведение для большинства пользователей
+  <string name="morphe_spoof_video_streams_summary">"Устраняет проблемы с воспроизведением для большинства пользователей, запрашивая совместимый видеопоток.
 
-Если вы являетесь пользователем YouTube Premium, эта настройка может не потребоваться"</string>
+Если вы являетесь пользователем YouTube Premium, эта настройка может не потребоваться."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Не удалось получить никаких клиентских потоков</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Выключение этой настройки может привести к возникновению проблем с воспроизведением.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Second \"item\" text"</string>
   <string name="morphe_sanitize_sharing_links_title">Очищать ссылки для обмена</string>
   <string name="morphe_sanitize_sharing_links_summary">Удаляет параметры отслеживания запросов из общих ссылок</string>
   <string name="morphe_replace_music_with_youtube_title">Изменить ссылки для обмена на youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Заменяет music.youtube.com на youtube.com в общих ссылках.</string>
   <string name="morphe_replace_links_with_shortener_title">Изменить ссылки для обмена на youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Заставляет прямые трансляции и Shorts использовать сокращенный формат URL youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Принудительно использует сокращенный формат URL youtu.be для видео</string>
 </resources>

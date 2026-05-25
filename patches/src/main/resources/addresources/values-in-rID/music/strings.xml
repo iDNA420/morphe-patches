@@ -34,7 +34,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_video_ads_title">Sembunyikan iklan video</string>
   <!-- interaction.crossfade.crossfadePatch -->
   <string name="morphe_music_crossfade_screen_title">Pudar silang</string>
-  <string name="morphe_music_crossfade_screen_summary">Sesuaikan cara trek berpadu secara mulus satu sama lain</string>
+  <string name="morphe_music_crossfade_screen_summary">Padukan trek satu sama lain dengan mulus</string>
   <string name="morphe_music_crossfade_enabled_title">Aktifkan pudar silang</string>
   <string name="morphe_music_crossfade_curve_title">Kurva pemudaran</string>
   <string name="morphe_music_crossfade_curve_entry_equal_power">Daya yang sama</string>
@@ -103,7 +103,7 @@ Implementasi fitur oleh VazerOG"</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Mencegah pemutar otomatis membesar ke layar penuh saat trek baru dimulai</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Bilah navigasi</string>
-  <string name="morphe_music_navigation_bar_screen_summary">Pilih tombol mana yang muncul di bilah navigasi</string>
+  <string name="morphe_music_navigation_bar_screen_summary">Pilih tombol mana yang akan ditampilkan di bilah navigasi bawah</string>
   <!-- 'Home' should be translated using the same localized wording YouTube Music displays for the tab. -->
   <string name="morphe_music_hide_navigation_bar_home_button_title">Sembunyikan tombol Beranda</string>
   <!-- 'Samples' should be translated using the same localized wording YouTube Music displays for the tab. -->

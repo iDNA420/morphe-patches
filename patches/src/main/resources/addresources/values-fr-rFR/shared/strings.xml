@@ -135,7 +135,7 @@ Appuyez sur le bouton Continuer et autorisez la modification des optimisations.
 
 "</string>
   <string name="gms_core_dialog_continue_text">Continuer</string>
-  <string name="morphe_gms_core_battery_optimization_dialog_title">Afficher la boîte de dialogue d’optimisation de la batterie</string>
+  <string name="morphe_gms_core_battery_optimization_dialog_title">Afficher la boîte de dialogue d’optimisation de la batterie pour MicroG</string>
   <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Désactiver cela masquera l'invite d'optimisation de la batterie de MicroG.
 
 Si les optimisations de la batterie ne sont pas modifiées, vous pourriez rencontrer les problèmes suivants :
@@ -144,7 +144,7 @@ Si les optimisations de la batterie ne sont pas modifiées, vous pourriez rencon
 • La lecture en arrière-plan peut ne pas fonctionner"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <string name="morphe_link_handling_title">Gestion des liens d\'application</string>
-  <string name="morphe_link_handling_summary">Configurer l\'application qui ouvre les liens</string>
+  <string name="morphe_link_handling_summary">Configurer les liens pour qu’ils s’ouvrent dans cette application</string>
   <string name="morphe_link_handling_step1_title">Étape 1 : Désactiver les liens de l’application originale</string>
   <string name="morphe_link_handling_step1_message">Ouvrez les paramètres de l’application originale et désactivez tous les liens de domaine</string>
   <string name="morphe_link_handling_step2_title">Étape 2 : Activer les liens de l\'application patchée</string>

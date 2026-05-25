@@ -34,7 +34,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_video_ads_title">Dölj videoannonser</string>
   <!-- interaction.crossfade.crossfadePatch -->
   <string name="morphe_music_crossfade_screen_title">Övertoningar</string>
-  <string name="morphe_music_crossfade_screen_summary">Anpassa hur låtarna smidigt övergår i varandra</string>
+  <string name="morphe_music_crossfade_screen_summary">Smidiga övertoningar mellan låtar</string>
   <string name="morphe_music_crossfade_enabled_title">Aktivera övertoningar</string>
   <string name="morphe_music_crossfade_curve_title">Övertoningskurva</string>
   <string name="morphe_music_crossfade_curve_entry_equal_power">Lika effekt</string>
@@ -103,7 +103,7 @@ Funktionen implementerades av VazerOG"</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Förhindrar att spelaren automatiskt växlar till helskärmsläge när en ny låt startar</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigeringsfält</string>
-  <string name="morphe_music_navigation_bar_screen_summary">Välj vilka knappar som visas i navigeringsfältet</string>
+  <string name="morphe_music_navigation_bar_screen_summary">Välj vilka knappar som visas i navigeringsfältet längst ned</string>
   <!-- 'Home' should be translated using the same localized wording YouTube Music displays for the tab. -->
   <string name="morphe_music_hide_navigation_bar_home_button_title">Dölj knappen Hem</string>
   <!-- 'Samples' should be translated using the same localized wording YouTube Music displays for the tab. -->

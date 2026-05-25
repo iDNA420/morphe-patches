@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Naamioi videovirrat</string>
   <string name="morphe_spoof_video_streams_screen_summary">Asiakasohjelman videovirtojen naamiointi toisto-ongelmien estämiseksi</string>
   <string name="morphe_spoof_video_streams_title">Naamioi videovirrat</string>
-  <string name="morphe_spoof_video_streams_summary">"Huijaa YouTube lähettämään yhteensopiva videovirta, mikä korjaa toiston useimmille käyttäjille
+  <string name="morphe_spoof_video_streams_summary">"Korjaa toistoon liittyviä ongelmia useimmille käyttäjille pyytämällä yhteensopivaa videovirtaa.
 
-Jos olet YouTube Premium -käyttäjä, tämä asetus ei ehkä ole tarpeen"</string>
+Jos olet YouTube Premium -käyttäjä, tämä asetus ei välttämättä ole tarpeen."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Asiakasvirtoja ei voitu hakea</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Tämän asetuksen poistaminen käytöstä voi aiheuttaa toisto-ongelmia.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Kirjaudu sisään painamalla alta Jatka-painiketta."</string>
   <string name="morphe_sanitize_sharing_links_title">Puhdista jakamislinkit</string>
   <string name="morphe_sanitize_sharing_links_summary">Poistaa seuranta-kyselyparametrit jaetuista linkeistä</string>
   <string name="morphe_replace_music_with_youtube_title">Muuta jakolinkit youtube.com-sivustoksi</string>
+  <string name="morphe_replace_music_with_youtube_summary">Korvaa music.youtube.com osoitteella youtube.com jaetuissa linkeissä</string>
   <string name="morphe_replace_links_with_shortener_title">Muuta jakolinkit youtu.be-sivustoksi</string>
-  <string name="morphe_replace_links_with_shortener_summary">Pakottaa suoratoistot ja Shorts-videot käyttämään lyhennettyä youtu.be-URL-muotoa</string>
+  <string name="morphe_replace_links_with_shortener_summary">Pakottaa videot käyttämään lyhennettyä youtu.be-URL-muotoa</string>
 </resources>

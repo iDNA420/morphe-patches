@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Falšovanie toku videa</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurácia falšovania klienta na zabránenie problémom s prehrávaním</string>
   <string name="morphe_spoof_video_streams_title">Falšovať tok videa</string>
-  <string name="morphe_spoof_video_streams_summary">"Oklame YouTube, aby poslal kompatibilný tok videa, čo opravuje prehrávanie pre väčšinu používateľov
+  <string name="morphe_spoof_video_streams_summary">"Opravy problémov s prehrávaním pre väčšinu používateľov požiadaním o kompatibilný videostream.
 
-Ak ste používateľ služby YouTube Premium, toto nastavenie nemusí byť potrebné"</string>
+Ak ste používateľ YouTube Premium, toto nastavenie nemusí byť potrebné."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Nebolo možné načítať žiadne toky klientov</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Vypnutie tohto nastavenia môže spôsobiť problémy s prehrávaním.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Ak sa chcete prihlásiť, stlačte tlačidlo Pokračovať"</string>
   <string name="morphe_sanitize_sharing_links_title">Vyčistiť odkazy na zdieľanie</string>
   <string name="morphe_sanitize_sharing_links_summary">Odstráni parametre sledovania dotazov zo zdieľaných odkazov</string>
   <string name="morphe_replace_music_with_youtube_title">Zmeniť odkazy na zdieľanie na youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Nahrádza music.youtube.com na youtube.com v zdieľaných odkazoch.</string>
   <string name="morphe_replace_links_with_shortener_title">Zmeniť odkazy na zdieľanie na youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Vynucuje používanie skráteného formátu URL youtu.be pre živé prenosy a Shorts</string>
+  <string name="morphe_replace_links_with_shortener_summary">Prinúti videá používať skrátený formát URL youtu.be</string>
 </resources>

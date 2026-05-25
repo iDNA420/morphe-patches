@@ -29,7 +29,6 @@ Second \"item\" text"</string>
   <string name="morphe_settings_screen_08_swipe_controls_title">کۆنتڕۆڵەکانی لێڕاندن</string>
   <string name="morphe_settings_screen_11_misc_title">تشتەکان</string>
   <string name="morphe_settings_screen_12_video_title">ڤیدێۆ</string>
-  <string name="morphe_restore_old_settings_menus_title">Menu oldên dananê vegerîne</string>
   <!-- misc.backgroundplayback.backgroundPlaybackPatch -->
   <!-- misc.debugging.enableDebuggingPatch -->
   <string name="morphe_debug_protobuffer_user_dialog_message">"Zavtana vê sazkariyê dê datexistina zêde ya qeydanan log bike, di nav de nivîsên ekranê ji bo hin komên UI.
@@ -164,7 +163,7 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <string name="morphe_hide_end_screen_store_banner_title">شاردنەوەی بانەری فرۆشگای شاشەی کۆتایی</string>
   <string name="morphe_hide_general_ads_title">شاردنەوەی ڕێکلامە گشتیەکان</string>
   <string name="morphe_hide_merchandise_banners_title">شاردنەوەی بانەری کاڵاکان</string>
-  <string name="morphe_hide_paid_promotion_label_title">شاردنەوەی ناوی پلە بەرزکردنەوەی پارەدار</string>
+  <!-- 'Includes paid promotion' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_self_sponsor_ads_title">کارتی خۆ سپۆنسەرکراو بشارەوە</string>
   <string name="morphe_hide_shopping_links_title">بەستەرەکانی بازاڕکردن بشارەوە</string>
   <!-- ad.video.videoAdsPatch -->
@@ -264,7 +263,6 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays for the tab. -->
   <!-- 'Notifications' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_show_settings_button_type_title">کرداری دوگمەی ڕێکخستن\"</string>
-  <string name="morphe_swap_create_with_notifications_button_title">گۆڕینی دروستکردن بۆ ئاگادارکردنەوەکان</string>
   <string name="morphe_swap_create_with_notifications_button_user_dialog_message">ئەگەر گۆڕینی ئەم ڕێکخستنە کاریگەری نەبوو، هەوڵبدە بگۆڕیت بۆ دۆخی نادیار.</string>
   <string name="morphe_hide_navigation_button_labels_title">شاردنەوەی ناوەکانی دوگمەی گەشتکردن</string>
   <string name="morphe_hide_navigation_bar_title">شاردنەوەی پەڕەکانی گەشتکردن</string>
@@ -311,7 +309,6 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <string name="morphe_disable_rolling_number_animations_title">ئەنگێستەکانی ژمارە هەڵسا لە کار دە کەون</string>
   <!-- layout.hide.seekbar.hideSeekbarPatch -->
   <string name="morphe_hide_seekbar_title">بەکەیەو ڕا دەگەیەنە سەر شەشێک</string>
-  <!-- Seekbar shown inside video thumbnails found on the Home / Subscriptions / Search / History.  The seekbar shows the prior watch progress from when the video was last opened. -->
   <string name="morphe_hide_seekbar_thumbnail_title">بەکەیەو ڕا دەگەیەنە سەر نەخشبەکان</string>
   <string name="morphe_fullscreen_large_seekbar_title">وێیەکباری زستان دەرهەقە دەیت</string>
   <!-- layout.hide.shorts.hideShortsComponentsPatch -->
@@ -359,7 +356,6 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">خه‌مه‌كانی ڕێخه‌ڵه‌ت خه‌مه‌كان ڕه‌نگ ده‌كه‌ن.</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
-  <string name="morphe_hide_player_related_videos_overlay_title">خەڵه‌ت کردنه‌وه‌ی پشتکۆی ڤیدۆی پەیوه‌ندیار</string>
   <!-- layout.hide.time.hideTimestampPatch -->
   <string name="morphe_hide_timestamp_title">خەڵه‌ت کردنه‌وه‌ی نێوچه‌که‌ی خولیایه‌کان</string>
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
@@ -413,7 +409,6 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <string name="morphe_sb_duration_10s">10 سكاكەت</string>
   <string name="morphe_sb_general_time_without">نشانەن زده سە دە بـê بʸਰੀی بـه ως لاṭe</string>
   <string name="morphe_sb_create_segment_category">درووشتین سێگمنتی نوێ</string>
-  <string name="morphe_sb_general_adjusting">هەنگاوی بەشی نوێ ڕێکبخە</string>
   <string name="morphe_sb_general_adjusting_invalid">هۆكاری ئەبێتە جۆرێك ژمارەیە</string>
   <string name="morphe_sb_guidelines_popup_title">ڕێنماییەكان ڕاكوێب</string>
   <string name="morphe_sb_guidelines_popup_already_read">خۆم پێشتر خوێندرۆتە</string>
@@ -421,6 +416,7 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <string name="morphe_sb_general">ئاسماني</string>
   <string name="morphe_sb_general_skipcount">بەدواداچوونی ژمارەی پەڕینەوە چالاک بکە</string>
   <string name="morphe_sb_general_min_duration">ئاستی خوولي خاك</string>
+  <string name="morphe_sb_general_min_duration_summary">خۆڵەکان کەمتر لەم ڕێژەیە (لە چاوسێکدانە) نمایش ناکەین یان نادەین بەربەست</string>
   <string name="morphe_sb_general_min_duration_invalid">هۆكار لە پێشكەش كردن</string>
   <string name="morphe_sb_general_uuid">ناسنامەی تایبەتی تۆ</string>
   <string name="morphe_sb_general_uuid_invalid">ناسنامەی بەکارهێنەری تایبەت دەبێت لانیکەم ٣٠ پیت بێت</string>
@@ -576,7 +572,6 @@ Lêbelê, zavtana vê dê dane yên bikarhêner jî log bike, wek IP-a we."</str
   <string name="morphe_spoof_app_version_target_title">ئامانجی وێنۆ کردنی ئەپ</string>
   <string name="morphe_spoof_app_version_target_entry_20_39">20.39.41 - باشدانی دۆزینەوەی خەمینەڵ نیگاتە</string>
   <string name="morphe_spoof_app_version_target_entry_20_28">20.28.41 - کۆدی ڕەوا نەخۆش هاتبون</string>
-  <string name="morphe_spoof_app_version_target_entry_20_13">20.13.41 - دەستەبەر کردنی پەیوەستەکان نەکراون</string>
   <!-- misc.sharesheet.openSystemShareSheetPatch -->
   <string name="morphe_open_system_share_sheet_title">كرنەوەی لۆمەی بەڵگە پێشكێش كردنی سیستەم</string>
   <!-- layout.music.overrideYouTubeMusicButtonsPatch -->

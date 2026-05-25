@@ -132,7 +132,7 @@ MicroG için pil optimizasyonunu devre dışı bırakmak pil kullanımını olum
 
 Devam düğmesine dokunun ve optimizasyon değişikliklerine izin verin."</string>
   <string name="gms_core_dialog_continue_text">Devam et</string>
-  <string name="morphe_gms_core_battery_optimization_dialog_title">Pil optimizasyonu iletişim kutusunu göster</string>
+  <string name="morphe_gms_core_battery_optimization_dialog_title">MicroG pil optimizasyonu iletişim kutusunu göster</string>
   <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Bunu devre dışı bırakmak MicroG pil optimizasyonu istemini gizleyecektir.
 
 Pil optimizasyonu değiştirilmezse şu durumlarla karşılaşabilirsiniz:
@@ -141,7 +141,7 @@ Pil optimizasyonu değiştirilmezse şu durumlarla karşılaşabilirsiniz:
 • Arka planda oynatma çalışmayabilir"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <string name="morphe_link_handling_title">Uygulama bağlantısı yönetimi</string>
-  <string name="morphe_link_handling_summary">Bağlantıları hangi uygulamanın açacağını yapılandırın</string>
+  <string name="morphe_link_handling_summary">Bu uygulamada açılacak bağlantıları yapılandırın</string>
   <string name="morphe_link_handling_step1_title">Adım 1: Orijinal uygulama bağlantılarını devre dışı bırakın</string>
   <string name="morphe_link_handling_step1_message">Orijinal uygulamanın ayarlarını açın ve tüm alan adı bağlantılarını devre dışı bırakın</string>
   <string name="morphe_link_handling_step2_title">Adım 2: Yamalanmış uygulama bağlantılarını etkinleştirin</string>

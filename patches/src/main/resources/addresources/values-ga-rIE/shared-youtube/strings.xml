@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Sruthanna físe bréige</string>
   <string name="morphe_spoof_video_streams_screen_summary">Cumraigh spoofáil cliant chun fadhbanna athsheinm a chosc</string>
   <string name="morphe_spoof_video_streams_title">Sruthanna físe bréige</string>
-  <string name="morphe_spoof_video_streams_summary">"Meallann sé YouTube chun sruth físe comhoiriúnach a sheoladh, rud a shocraíonn athsheinm do fhormhór na n-úsáideoirí
+  <string name="morphe_spoof_video_streams_summary">"Ceartaíonn sé sainmhidirí seachadta do chuid mór úsáideoirí trí iarratas a dhéanamh ar shruth fídeo comhoiriúnach
 
-Mura bhfuil tú i do úsáideoir YouTube Premium, b'fhéidir nach mbeidh an socrú seo ag teastáil"</string>
+Má tá tú mar úsáideoir YouTube Premium, b’fhéidir nach mbeidh an socruithe seo riachtanach"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Níorbh fhéidir aon sruthanna cliant a fháil</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">D’fhéadfadh fadhbanna athsheinm a bheith mar thoradh ar an socrú seo a mhúchadh.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Chun síniú isteach, brúigh lean ar aghaidh thíos"</string>
   <string name="morphe_sanitize_sharing_links_title">Glanadh naisc chomhroinnte</string>
   <string name="morphe_sanitize_sharing_links_summary">Baintear paraiméadair fiosrúcháin rianaithe as naisc chomhroinnte</string>
   <string name="morphe_replace_music_with_youtube_title">Athraigh naisc chomhroinnte chuig youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Cuireann sé youtube.com in ionad music.youtube.com in naisc roinnte</string>
   <string name="morphe_replace_links_with_shortener_title">Athraigh naisc chomhroinnte chuig youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Éilíonn sé sruthanna beo agus Gearrscannáin chun an fhormáid URL giorraithe youtu.be a úsáid</string>
+  <string name="morphe_replace_links_with_shortener_summary">Éilíonn sé físeáin chun an fhormáid URL giorraithe youtu.be a úsáid</string>
 </resources>

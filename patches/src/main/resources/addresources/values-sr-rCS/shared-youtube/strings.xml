@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Lažirani video strimovi</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurišite lažiranje klijenta kako biste sprečili probleme sa reprodukcijom</string>
   <string name="morphe_spoof_video_streams_title">Lažirani video strimovi</string>
-  <string name="morphe_spoof_video_streams_summary">"Prevari YouTube da pošalje kompatibilan video strim, što rešava probleme sa reprodukcijom za većinu korisnika
+  <string name="morphe_spoof_video_streams_summary">"Исправља проблеме са репродукцијом за већину корисника захтевањем компатибилног видео тока
 
-Ako ste YouTube Premium korisnik, ova postavka možda nije potrebna"</string>
+Ако сте корисник YouTube Premium-а, ова опција вам можда неће бити потребна"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Nije moguće učitati streame za klijente</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Isključivanje ovog podešavanja može izazvati probleme sa reprodukcijom.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Da bi se prijavili, pritisnite nastavi ispod"</string>
   <string name="morphe_sanitize_sharing_links_title">Očisti deljene linkove</string>
   <string name="morphe_sanitize_sharing_links_summary">Uklanja parametre upita za praćenje iz deljenih linkova</string>
   <string name="morphe_replace_music_with_youtube_title">Promeni linkove za deljenje na youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Замењује music.youtube.com са youtube.com у дељеним линковима</string>
   <string name="morphe_replace_links_with_shortener_title">Promeni linkove za deljenje na youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Forsira live strimove i Shorts da koriste skraćeni URL format youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Forsira video zapise da koriste skraćeni format URL-a youtu.be</string>
 </resources>

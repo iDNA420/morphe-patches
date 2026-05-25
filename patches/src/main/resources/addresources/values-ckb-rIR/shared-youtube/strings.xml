@@ -41,9 +41,6 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">گەڕانەوە سەر ڕاستەقینەی ڕاستگۆ</string>
   <string name="morphe_spoof_video_streams_screen_summary">شێوەپێدانی spoofing کلایەنت بۆ ڕێگرتن لە کێشەکانی پەخش کردنەوە</string>
   <string name="morphe_spoof_video_streams_title">گەڕانەوە سەر ڕاستەقینەی ڕاستگۆ</string>
-  <string name="morphe_spoof_video_streams_summary">"YouTube Premium فێڵ دەکات بۆ ناردنی تەوژمێکی ڤیدیۆیی گونجاو، کە پەخش کردن بۆ زۆربەی بەکارهێنەران چارەسەر دەکات
-
-ئەگەر تۆ بەکارهێنەرێکی YouTube Premium بیت، رەنگە ئەم ڕێکخستنە پێویست نەبێت"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">هیچ ڕاستگۆیەکی ئەندازی نەیادەخرێت</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">خەڵادانەوەی ئەم ناسنامەیە دەبێتە هۆی کێشە لە پەرباسەدا.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -112,5 +109,4 @@ Da te'îl bikin, li ser berdewam bikin xwarê"</string>
   <string name="morphe_sanitize_sharing_links_summary">پارامیتەرەکانی بەدواکەوتنی پرس لە لینکە هاوبەشەکان لادەبات</string>
   <string name="morphe_replace_music_with_youtube_title">گۆڕینەوەی سیستەمەکانی هەڵواسە بۆ youtube.com</string>
   <string name="morphe_replace_links_with_shortener_title">گۆڕینی لینکەکانی هاوبەشکردن بۆ youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">تەوژمی ڕاستەوخۆ و Shorts ناچار دەکات بۆ بەکارهێنانی فۆرماتی کورتکراوەی youtu.be URL</string>
 </resources>

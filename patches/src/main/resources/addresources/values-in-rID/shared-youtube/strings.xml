@@ -28,9 +28,9 @@ Second \"item\" text"</string>
   <string name="morphe_custom_branding_icon_entry_3">Morphe gelap</string>
   <string name="morphe_custom_branding_icon_entry_4">Morphe terang</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
-  <string name="morphe_custom_branding_icon_entry_5">Morphe mainkan cahaya</string>
+  <string name="morphe_custom_branding_icon_entry_5">Morphe play terang</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
-  <string name="morphe_custom_branding_icon_entry_6">Morphe mainkan hitam</string>
+  <string name="morphe_custom_branding_icon_entry_6">Morphe play hitam</string>
   <!-- Translations of this should be identical to morphe_custom_branding_name_entry_5 -->
   <string name="morphe_custom_branding_icon_entry_7">Kustom</string>
   <string name="morphe_custom_branding_notification_icon_title">Ikon pemberitahuan</string>
@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Palsukan aliran video</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurasikan pemalsuan klien untuk mencegah masalah pemutaran</string>
   <string name="morphe_spoof_video_streams_title">Palsukan aliran video</string>
-  <string name="morphe_spoof_video_streams_summary">"Menipu YouTube untuk mengirim aliran video yang kompatibel, yang memperbaiki pemutaran bagi sebagian besar pengguna
+  <string name="morphe_spoof_video_streams_summary">"Memperbaiki masalah pemutaran untuk sebagian besar pengguna dengan meminta aliran video yang kompatibel
 
-Jika Anda adalah pengguna YouTube Premium, pengaturan ini mungkin tidak diperlukan"</string>
+Jika Anda pengguna YouTube Premium, pengaturan ini mungkin tidak diperlukan"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Tidak dapat mengambil aliran klien apa pun</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Mematikan pengaturan ini dapat menyebabkan masalah pemutaran.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Untuk masuk, tekan lanjutkan di bawah ini"</string>
   <string name="morphe_sanitize_sharing_links_title">Bersihkan tautan berbagi</string>
   <string name="morphe_sanitize_sharing_links_summary">Menghapus parameter kueri pelacakan dari tautan yang dibagikan</string>
   <string name="morphe_replace_music_with_youtube_title">Ubah tautan berbagi ke youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Mengganti music.youtube.com dengan youtube.com di tautan yang dibagikan</string>
   <string name="morphe_replace_links_with_shortener_title">Ubah tautan berbagi ke youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Memaksa siaran langsung dan Shorts untuk menggunakan format URL pendek youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Memaksa video untuk menggunakan format pemendek URL youtu.be</string>
 </resources>

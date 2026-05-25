@@ -28,12 +28,14 @@ Second \"item\" text"</string>
   <string name="morphe_custom_branding_icon_entry_3">Morphe qaranlıq</string>
   <string name="morphe_custom_branding_icon_entry_4">Morphe işıqlı</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
+  <string name="morphe_custom_branding_icon_entry_5">İşıqlı Morphe oynat</string>
   <!-- Translation should match morphe_custom_branding_notification_icon_entry_3 -->
+  <string name="morphe_custom_branding_icon_entry_6">Qara Morphe oynat</string>
   <!-- Translations of this should be identical to morphe_custom_branding_name_entry_5 -->
   <string name="morphe_custom_branding_icon_entry_7">Fərdi</string>
   <string name="morphe_custom_branding_notification_icon_title">Bildiriş simvolu</string>
   <string name="morphe_custom_branding_notification_icon_entry_1">Uyğun tətbiq simvolu</string>
-  <string name="morphe_custom_branding_notification_icon_entry_3">Morphe oyunu</string>
+  <string name="morphe_custom_branding_notification_icon_entry_3">Morphe oynat</string>
   <!-- misc.dns.checkWatchHistoryDomainNameResolutionPatch -->
   <string name="morphe_check_watch_history_domain_name_dialog_title">Morphe Bildirişi</string>
   <string name="morphe_check_watch_history_domain_name_dialog_message">Baxış tarixçəniz saxlanılmır.&lt;br&gt;&lt;br&gt;Bu çox güman ki, DNS reklam əngəlləyici və ya şəbəkə proksisinə görədir.&lt;br&gt;&lt;br&gt;Bunu düzəltmək üçün s.youtube.com-u&lt;/b&gt; &lt;b&gt;ağ siyahıya salın və ya bütün DNS əngəlləyiciləri və proksiləri bağlayın.</string>
@@ -42,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Video yayımların saxtalaşdır</string>
   <string name="morphe_spoof_video_streams_screen_summary">Oynatma problemlərin önləmək üçün qəbuledici saxtakarlığını tənzimlə</string>
   <string name="morphe_spoof_video_streams_title">Video yayımların saxtalaşdır</string>
-  <string name="morphe_spoof_video_streams_summary">"YouTube-u uyğun video yayımı göndərmək məqsədilə aldadır, bununla da əksər istifadəçilər üçün oynatmanı düzəldir.
+  <string name="morphe_spoof_video_streams_summary">"Uyğun video yayımı istəməklə əksər istifadəçilər üçün oynatma problemlərini düzəldir
 
-​Əgər YouTube Premium istifadəçisisinizsə, bu tənzimləmə tələb olunmaya bilər."</string>
+YouTube Premium istifadəçisisinizsə, bu tənzimləmə tələb olunmaya bilər"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Hər hansı qəbuledici yayımları əldə etmək olmadı</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Bu tənzimləməni qapatmaq oynatma problemlərinə səbəb ola bilər.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -112,6 +114,7 @@ Daxil olmaq üçün aşağıda davam et-i vurun"</string>
   <string name="morphe_sanitize_sharing_links_title">Paylaşım keçidlərin təmizlə</string>
   <string name="morphe_sanitize_sharing_links_summary">Paylaşılan keçidlərdən izlənmə sorğusu faktorların silir</string>
   <string name="morphe_replace_music_with_youtube_title">Paylaşma keçidlərini youtube.com-a dəyişdir</string>
+  <string name="morphe_replace_music_with_youtube_summary">Paylaşılan linklərdə music.youtube.com- u youtube.com- a dəyişir</string>
   <string name="morphe_replace_links_with_shortener_title">Paylaşma keçidlərini youtu.be-yə dəyişdir</string>
-  <string name="morphe_replace_links_with_shortener_summary">Canlı yayımları və Shorts-ları qısaldılan youtu.be URL formatın istifadə etməyə zorlayır</string>
+  <string name="morphe_replace_links_with_shortener_summary">Videoları qısaldılan youtu.be URL formatın istifadə etməyə zorlayır</string>
 </resources>

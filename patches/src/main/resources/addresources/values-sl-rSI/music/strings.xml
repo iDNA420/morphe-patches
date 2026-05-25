@@ -34,7 +34,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_video_ads_title">Skrij video oglase</string>
   <!-- interaction.crossfade.crossfadePatch -->
   <string name="morphe_music_crossfade_screen_title">Prehod</string>
-  <string name="morphe_music_crossfade_screen_summary">Prilagodite, kako skladbe gladko prehajajo druga v drugo</string>
+  <string name="morphe_music_crossfade_screen_summary">Gladko prehajate skladbe druga v drugo</string>
   <string name="morphe_music_crossfade_enabled_title">Omogoči prehod</string>
   <string name="morphe_music_crossfade_curve_title">Kriva prehoda</string>
   <string name="morphe_music_crossfade_curve_entry_equal_power">Enaka moč</string>
@@ -103,7 +103,7 @@ Implementacija funkcije s strani VazerOG"</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Preprečuje, da bi se predvajalnik samodejno povečal na celoten zaslon, ko se začne nova skladba</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Vrstica za navigacijo</string>
-  <string name="morphe_music_navigation_bar_screen_summary">Izberite, kateri gumbi se pojavijo na navigacijski vrstici</string>
+  <string name="morphe_music_navigation_bar_screen_summary">Izberite, kateri gumbi se pojavijo v spodnji navigacijski vrstici</string>
   <!-- 'Home' should be translated using the same localized wording YouTube Music displays for the tab. -->
   <string name="morphe_music_hide_navigation_bar_home_button_title">Skrij gumb Domov</string>
   <!-- 'Samples' should be translated using the same localized wording YouTube Music displays for the tab. -->

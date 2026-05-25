@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Falsifier les flux vidéo</string>
   <string name="morphe_spoof_video_streams_screen_summary">Configurer la falsification du client afin d’éviter les problèmes de lecture</string>
   <string name="morphe_spoof_video_streams_title">Falsifier les flux vidéo</string>
-  <string name="morphe_spoof_video_streams_summary">"Fait croire à YouTube qu’il envoie un flux vidéo compatible, ce qui corrige la lecture pour la plupart des utilisateurs.
+  <string name="morphe_spoof_video_streams_summary">"Corrige les problèmes de lecture pour la plupart des utilisateurs en demandant un flux vidéo compatible
 
-Si vous êtes un utilisateur de YouTube Premium, ce paramètre peut ne pas être nécessaire"</string>
+Si vous êtes un utilisateur YouTube Premium, ce paramètre peut ne pas être nécessaire"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Impossible de récupérer les flux du client.</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">La désactivation de ce paramètre peut entraîner des problèmes de lecture.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Pour vous connecter, appuyez sur 'Continuer' ci-dessous."</string>
   <string name="morphe_sanitize_sharing_links_title">Nettoyer les liens partagés</string>
   <string name="morphe_sanitize_sharing_links_summary">Supprime les paramètres de suivi des liens partagés</string>
   <string name="morphe_replace_music_with_youtube_title">Rediriger les liens de partage vers youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Remplace music.youtube.com par youtube.com dans les liens partagés</string>
   <string name="morphe_replace_links_with_shortener_title">Modifier les liens de partage vers youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Force les diffusions en direct et les Shorts à utiliser le format d’URL raccourci youtu.be</string>
+  <string name="morphe_replace_links_with_shortener_summary">Force les vidéos à utiliser le format d’URL raccourcie youtu.be</string>
 </resources>

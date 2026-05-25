@@ -34,7 +34,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_video_ads_title">隐藏视频广告</string>
   <!-- interaction.crossfade.crossfadePatch -->
   <string name="morphe_music_crossfade_screen_title">淡入淡出</string>
-  <string name="morphe_music_crossfade_screen_summary">自定义曲目之间平滑过渡的方式</string>
+  <string name="morphe_music_crossfade_screen_summary">平滑地将曲目混合在一起</string>
   <string name="morphe_music_crossfade_enabled_title">启用淡入淡出</string>
   <string name="morphe_music_crossfade_curve_title">淡入曲线</string>
   <string name="morphe_music_crossfade_curve_entry_equal_power">平均功率</string>
@@ -103,7 +103,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">防止播放器在新曲目开始时自动扩展到全屏</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">导航栏</string>
-  <string name="morphe_music_navigation_bar_screen_summary">选择导航栏中显示哪些按钮</string>
+  <string name="morphe_music_navigation_bar_screen_summary">选择在底部导航栏中显示哪些按钮</string>
   <!-- 'Home' should be translated using the same localized wording YouTube Music displays for the tab. -->
   <string name="morphe_music_hide_navigation_bar_home_button_title">隐藏主页按钮</string>
   <!-- 'Samples' should be translated using the same localized wording YouTube Music displays for the tab. -->

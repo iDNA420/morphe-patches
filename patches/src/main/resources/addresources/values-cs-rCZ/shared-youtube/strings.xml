@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Falšovat video streamy</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigurace maskování klienta pro prevenci problémů s přehráváním</string>
   <string name="morphe_spoof_video_streams_title">Falšovat video streamy</string>
-  <string name="morphe_spoof_video_streams_summary">"Oklame YouTube, aby zaslal kompatibilní video stream, což vyřeší přehrávání pro většinu uživatelů
+  <string name="morphe_spoof_video_streams_summary">"Opravuje problémy s přehráváním pro většinu uživatelů požadavkem na kompatibilní video stream.
 
-Pokud jste uživatelem YouTube Premium, toto nastavení nemusí být potřeba."</string>
+Pokud jste uživatel YouTube Premium, toto nastavení nemusí být potřeba."</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Nepodařilo se načíst žádné streamy klientů</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Vypnutí tohoto nastavení může způsobit problémy s přehráváním</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Pro přihlášení stiskněte pokračovat níže"</string>
   <string name="morphe_sanitize_sharing_links_title">Vyčistit sdílené odkazy</string>
   <string name="morphe_sanitize_sharing_links_summary">Odstraňuje sledovací parametry dotazů ze sdílených odkazů</string>
   <string name="morphe_replace_music_with_youtube_title">Změnit odkazy pro sdílení na youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Nahrazuje music.youtube.com za youtube.com v sdílených odkazech.</string>
   <string name="morphe_replace_links_with_shortener_title">Změnit odkazy pro sdílení na youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Vždy používá zkrácený formát URL adresy youtu.be pro živé přenosy a Shorts</string>
+  <string name="morphe_replace_links_with_shortener_summary">Nutí videa používat zkrácený formát URL youtu.be</string>
 </resources>

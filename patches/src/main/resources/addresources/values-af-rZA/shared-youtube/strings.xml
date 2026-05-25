@@ -44,9 +44,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_screen_title">Verfraai videostrome</string>
   <string name="morphe_spoof_video_streams_screen_summary">Konfigureer kliënt-voorgee om speelprobleme te voorkom</string>
   <string name="morphe_spoof_video_streams_title">Verfraai videostrome</string>
-  <string name="morphe_spoof_video_streams_summary">"Bedrieg YouTube om 'n versoenbare videostroom te stuur, wat speel vir die meeste gebruikers regstel
+  <string name="morphe_spoof_video_streams_summary">"Los probleme met video-weergawe vir die meeste gebruikers op deur 'n versoenbare videostroom aan te vra
 
-As jy 'n YouTube Premium-gebruiker is, is hierdie instelling dalk nie nodig nie."</string>
+As jy 'n YouTube Premium-gebruiker is, is hierdie instelling dalk nie vereis nie"</string>
   <string name="morphe_spoof_video_streams_no_clients_toast">Kon nie enige kliëntstrome ophaal nie</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">Om hierdie instelling af te skakel, kan dit speelprobleme veroorsaak.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
@@ -114,6 +114,7 @@ Om aan te meld, druk voort hieronder"</string>
   <string name="morphe_sanitize_sharing_links_title">Ontsmet deel skakels</string>
   <string name="morphe_sanitize_sharing_links_summary">Verwyder dopnavraagparameters van gedeelde skakels</string>
   <string name="morphe_replace_music_with_youtube_title">Verander deel skakels na youtube.com</string>
+  <string name="morphe_replace_music_with_youtube_summary">Vervang music.youtube.com met youtube.com in gedeelde skakels</string>
   <string name="morphe_replace_links_with_shortener_title">Verander deel skakels na youtu.be</string>
-  <string name="morphe_replace_links_with_shortener_summary">Dwing lewendige strome en Shorts om die verkorte youtu.be URL-formaat te gebruik</string>
+  <string name="morphe_replace_links_with_shortener_summary">Dwing video\'s om die verkorte youtu.be URL-formaat te gebruik</string>
 </resources>

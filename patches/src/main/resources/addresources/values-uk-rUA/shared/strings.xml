@@ -132,7 +132,7 @@ Second \"item\" text"</string>
 
 Натисніть кнопку \"Продовжити\" та вимкніть оптимізацію."</string>
   <string name="gms_core_dialog_continue_text">Продовжити</string>
-  <string name="morphe_gms_core_battery_optimization_dialog_title">Показувати вікно оптимізації батареї</string>
+  <string name="morphe_gms_core_battery_optimization_dialog_title">Показати діалог оптимізації батареї MicroG</string>
   <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Якщо вимкнути цю функцію, запит на оптимізацію батареї MicroG буде приховано.
 
 Якщо оптимізацію батареї не змінити, ви можете зіткнутися з такими проблемами:
@@ -141,7 +141,7 @@ Second \"item\" text"</string>
 • Фонове відтворення може не працювати"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <string name="morphe_link_handling_title">Керування відкриттям посилань</string>
-  <string name="morphe_link_handling_summary">Налаштування застосунку для відкриття посилань</string>
+  <string name="morphe_link_handling_summary">Налаштувати відкриття посилань у цьому застосунку</string>
   <string name="morphe_link_handling_step1_title">Крок 1: Вимкніть посилання оригінального застосунку</string>
   <string name="morphe_link_handling_step1_message">Відкрийте налаштування оригінального застосунку та вимкніть усі прив’язані домени</string>
   <string name="morphe_link_handling_step2_title">Крок 2: Увімкніть посилання патченого застосунку</string>

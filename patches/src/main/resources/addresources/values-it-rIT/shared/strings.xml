@@ -132,7 +132,7 @@ Disabilitare le ottimizzazioni della batteria non influirà negativamente sull'u
 
 Clicca \"Continua\" per consentire le modifiche."</string>
   <string name="gms_core_dialog_continue_text">Continua</string>
-  <string name="morphe_gms_core_battery_optimization_dialog_title">Mostra la finestra di dialogo di ottimizzazione della batteria</string>
+  <string name="morphe_gms_core_battery_optimization_dialog_title">Mostra la finestra di dialogo di ottimizzazione della batteria MicroG</string>
   <string name="morphe_gms_core_battery_optimization_dialog_user_dialog_message">"Disabilitando questa opzione, verrà nascosto l'avviso di disattivazione dell'ottimizzazione della batteria per MicroG.
 
 Se le ottimizzazioni della batteria non vengono modificate, potrebbero verificarsi i seguenti problemi:
@@ -141,7 +141,7 @@ Se le ottimizzazioni della batteria non vengono modificate, potrebbero verificar
 • La riproduzione in background potrebbe non funzionare"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <string name="morphe_link_handling_title">Gestione dei link dell\'app</string>
-  <string name="morphe_link_handling_summary">Scegli con quale app verranno aperti i link</string>
+  <string name="morphe_link_handling_summary">Configura i link per aprirli in questa app</string>
   <string name="morphe_link_handling_step1_title">Passaggio 1: disabilita i link delle app originali</string>
   <string name="morphe_link_handling_step1_message">Apri le impostazioni dell\'app originale e disabilita tutti i link di dominio</string>
   <string name="morphe_link_handling_step2_title">Passaggio 2: abilita i link delle app patchate</string>

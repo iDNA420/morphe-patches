@@ -34,7 +34,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_video_ads_title">動画広告を非表示</string>
   <!-- interaction.crossfade.crossfadePatch -->
   <string name="morphe_music_crossfade_screen_title">クロスフェード</string>
-  <string name="morphe_music_crossfade_screen_summary">前後のトラックを重ね合わせてなめらかにつなぐクロスフェードの設定をカスタマイズします</string>
+  <string name="morphe_music_crossfade_screen_summary">前後のトラックを重ね合わせてなめらかにつなぎます</string>
   <string name="morphe_music_crossfade_enabled_title">クロスフェードを有効化</string>
   <string name="morphe_music_crossfade_curve_title">フェードカーブ</string>
   <string name="morphe_music_crossfade_curve_entry_equal_power">等電力（全体音量一定）</string>
@@ -103,7 +103,7 @@ Second \"item\" text"</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">新しいトラックが自動的にフルスクリーン プレーヤーで再生されるのを防ぎます</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">ナビゲーション バー</string>
-  <string name="morphe_music_navigation_bar_screen_summary">ナビゲーション バーに表示するボタンを設定します</string>
+  <string name="morphe_music_navigation_bar_screen_summary">画面最下部のバーであるナビゲーション バーに表示するボタンを設定します</string>
   <!-- 'Home' should be translated using the same localized wording YouTube Music displays for the tab. -->
   <string name="morphe_music_hide_navigation_bar_home_button_title">ホームボタンを非表示</string>
   <!-- 'Samples' should be translated using the same localized wording YouTube Music displays for the tab. -->
