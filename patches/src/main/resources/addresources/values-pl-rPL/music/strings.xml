@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekund</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekund</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekund</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekund</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekund</string>
   <string name="morphe_music_crossfade_on_skip_title">Przenikanie przy ręcznym pominięciu</string>
   <string name="morphe_music_crossfade_on_skip_summary">Stosuje efekt przenikania podczas ręcznego przejścia do następnego utworu</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Przenikanie przy automatycznym przejściu</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Przenikanie wznowione</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Tryb teledysku niedostępny podczas przenikania</string>
   <string name="morphe_music_crossfade_about_title">Informacje</string>
-  <string name="morphe_music_crossfade_about_summary">"Przenikanie jest dostępne od wersji YouTube Music 8.x
-
-Przytrzymaj przycisk losowania, aby włączyć lub wyłączyć
+  <string name="morphe_music_crossfade_about_summary">"Przytrzymaj przycisk losowania, aby włączyć lub wyłączyć
 
 Implementacja funkcji przez VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Włącz ciągłe zapętlanie</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Ukryj przycisk Przesyłaj</string>
   <string name="morphe_music_hide_history_button_title">Ukryj przycisk Historia</string>
   <string name="morphe_music_hide_notification_button_title">Ukryj przycisk Powiadomienia</string>
@@ -92,17 +92,20 @@ Implementacja funkcji przez VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Playlisty</string>
   <string name="morphe_change_start_page_entry_search">Wyszukiwanie</string>
   <string name="morphe_change_start_page_entry_subscriptions">Subskrypcje</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Ukryj pasek kategorii</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Zmień kolor miniodtwarzacza</string>
   <string name="morphe_music_change_miniplayer_color_summary">Dopasowuje kolor miniodtwarzacza do odtwarzacza pełnoekranowego</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Pokaż przycisk Następny w miniodtwarzaczu</string>
   <string name="morphe_music_miniplayer_previous_button_title">Pokaż przycisk Poprzedni w miniodtwarzaczu</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Włącz wymuszony miniodtwarzacz</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Zapobiega automatycznemu rozwijaniu odtwarzacza do trybu pełnoekranowego po rozpoczęciu nowego utworu</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Włącz zamykanie miniodtwarzacza gestem przesuwania</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Umożliwia zamknięcie miniodtwarzacza przesunięciem w dół</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Pasek nawigacji</string>
   <string name="morphe_music_navigation_bar_screen_summary">Zdecyduj, które przyciski będą wyświetlane na dolnym pasku nawigacji</string>

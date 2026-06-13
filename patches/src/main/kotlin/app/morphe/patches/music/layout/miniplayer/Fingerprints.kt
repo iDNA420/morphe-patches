@@ -3,7 +3,9 @@ package app.morphe.patches.music.layout.miniplayer
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
 import app.morphe.patcher.InstructionLocation.MatchAfterWithin
+import app.morphe.patcher.OpcodesFilter.Companion.opcodesToFilters
 import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.literal
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.opcode
 import app.morphe.patcher.string
@@ -60,8 +62,139 @@ internal object MinimizedPlayerFingerprint : Fingerprint(
  */
 internal object MppWatchWhileLayoutFingerprint : Fingerprint(
     definingClass = "WatchWhileLayout;",
-    name = "onFinishInflate",
-    accessFlags = listOf(AccessFlags.PROTECTED, AccessFlags.FINAL),
     returnType = "V",
     parameters = listOf(),
+    filters = listOf(
+        resourceLiteral(ResourceType.ID, "mini_player_play_pause_replay_button"),
+        opcode(Opcode.INVOKE_VIRTUAL)
+    ),
+    custom = { method, _ ->
+        !AccessFlags.STATIC.isSet(method.accessFlags)
+    }
+)
+
+internal object InteractionLoggingEnumFingerprint : Fingerprint(
+    returnType = "V",
+    filters = listOf(
+        string("INTERACTION_LOGGING_GESTURE_TYPE_SWIPE"),
+        fieldAccess(
+            opcode = Opcode.SPUT_OBJECT,
+            definingClass = "this"
+        )
+    )
+)
+
+internal object MusicActivityWidgetFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/music/activities/MusicActivity;",
+    name = "onCreate",
+    filters = listOf(
+        string("widget_key"),
+        fieldAccess(
+            opcode = Opcode.IGET_OBJECT,
+            location = MatchAfterWithin(5)
+        ),
+        methodCall(
+            opcode = Opcode.INVOKE_INTERFACE,
+            parameters = listOf(),
+            returnType = "Ljava/lang/Object;",
+            location = MatchAfterWithin(3)
+        ),
+        opcode(
+            opcode = Opcode.CHECK_CAST,
+            location = MatchAfterWithin(3)
+        ),
+        fieldAccess(
+            opcode = Opcode.SGET_OBJECT,
+            location = MatchAfterWithin(3)
+        ),
+        opcode(
+            opcode = Opcode.NEW_INSTANCE,
+            location = MatchAfterWithin(3)
+        ),
+        literal(
+            literal = 79500L,
+            location = MatchAfterWithin(3)
+        ),
+        methodCall(
+            opcode = Opcode.INVOKE_STATIC,
+            parameters = listOf("I"),
+            location = MatchAfterWithin(3)
+        ),
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>",
+            parameters = listOf("L"),
+            location = MatchAfterWithin(3)
+        ),
+        methodCall(
+            opcode = Opcode.INVOKE_INTERFACE,
+            parameters = listOf("L", "L", "L"),
+            returnType = "V",
+            location = MatchAfterWithin(3)
+        ),
+    )
+)
+
+/**
+ * 9.03+
+ */
+internal object MiniPlayerDefaultTextFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    parameters = listOf(),
+    returnType = "V",
+    filters = listOf(
+        resourceLiteral(ResourceType.STRING, "mini_player_default_text")
+    )
+)
+
+/**
+ * 9.02 and lower.
+ */
+internal object MiniPlayerDefaultTextLegacyFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    parameters = listOf("Ljava/lang/Object;"),
+    returnType = "V",
+    filters = listOf(
+        opcode(Opcode.IF_NE),
+        resourceLiteral(ResourceType.STRING, "mini_player_default_text")
+    )
+)
+
+/**
+ * 9.02+
+ */
+internal object PlayerPageBehaviorFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/music/watchpage/ui/PlayerPageBehavior;",
+    accessFlags = listOf(AccessFlags.FINAL),
+    parameters = listOf(),
+    returnType = "V",
+    filters = opcodesToFilters(
+        Opcode.CONST_4,
+        Opcode.IPUT_BOOLEAN,
+        Opcode.RETURN_VOID
+    )
+)
+
+/**
+ * Matches the watch-while layout's onFinishInflate() method.
+ * definingClass uses a contains match, covering class renames across builds:
+ *   <= 8.x: MppWatchWhileLayout
+ *   >= 9.x: WatchWhileLayout
+ */
+internal object WatchWhileLayoutFingerprint : Fingerprint(
+    definingClass = "WatchWhileLayout;",
+    name = "onFinishInflate",
+    returnType = "V",
+    filters = listOf(
+        // <= 8.x: MppPlayerPageBehavior
+        // >= 9.x: PlayerPageBehavior
+        fieldAccess(
+            opcode = Opcode.IPUT_OBJECT,
+            definingClass = "PlayerPageBehavior;"
+        ),
+        opcode(
+            opcode = Opcode.NEW_INSTANCE,
+            location = MatchAfterWithin(3)
+        )
+    )
 )

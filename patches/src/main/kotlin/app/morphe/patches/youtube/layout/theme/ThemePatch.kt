@@ -4,21 +4,20 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.resourcePatch
-import app.morphe.patcher.patch.stringOption
 import app.morphe.patches.all.misc.resources.resourceMappingPatch
-import app.morphe.patches.shared.layout.theme.THEME_COLOR_OPTION_DESCRIPTION
 import app.morphe.patches.shared.layout.theme.THEME_DEFAULT_DARK_COLOR_NAMES
 import app.morphe.patches.shared.layout.theme.THEME_DEFAULT_LIGHT_COLOR_NAMES
 import app.morphe.patches.shared.layout.theme.baseThemePatch
 import app.morphe.patches.shared.layout.theme.baseThemeResourcePatch
+import app.morphe.patches.shared.layout.theme.createNotifDrawable
 import app.morphe.patches.shared.layout.theme.darkThemeBackgroundColorOption
-import app.morphe.patches.shared.misc.settings.overrideThemeColors
+import app.morphe.patches.shared.layout.theme.lightThemeBackgroundColorOption
+import app.morphe.patches.shared.layout.theme.patchCountTextColor
 import app.morphe.patches.shared.misc.settings.preference.InputType
 import app.morphe.patches.shared.misc.settings.preference.ListPreference
-import app.morphe.patches.shared.misc.settings.preference.PreferenceCategory
-import app.morphe.patches.shared.misc.settings.preference.PreferenceScreenPreference.Sorting
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.patches.shared.misc.settings.preference.TextPreference
+import app.morphe.patches.shared.misc.settings.preference.noTitleUnsortedPreferenceCategory
 import app.morphe.patches.youtube.layout.seekbar.seekbarColorPatch
 import app.morphe.patches.youtube.misc.extension.sharedExtensionPatch
 import app.morphe.patches.youtube.misc.playservice.is_21_06_or_greater
@@ -37,37 +36,16 @@ private const val EXTENSION_CLASS = "Lapp/morphe/extension/youtube/patches/theme
 
 val themePatch = baseThemePatch(
     extensionClassDescriptor = EXTENSION_CLASS,
-
+    includeLightThemeOption = true,
     block = {
-        val lightThemeBackgroundColor by stringOption(
-            key = "lightThemeBackgroundColor",
-            default = "@android:color/white",
-            values =  mapOf(
-                "White" to "@android:color/white",
-                "Material You (Neutral)" to "@android:color/system_neutral1_100",
-                "Material You - Primary" to "@android:color/system_accent1_200",
-                "Material You - Secondary" to "@android:color/system_accent2_200",
-                "Material You - Tertiary" to "@android:color/system_accent3_200",
-                "Catppuccin (Latte)" to "#E6E9EF",
-                "Light pink" to "#FCCFF3",
-                "Light blue" to "#D1E0FF",
-                "Light green" to "#CCFFCC",
-                "Light yellow" to "#FDFFCC",
-                "Light orange" to "#FFE6CC",
-                "Light red" to "#FFD6D6",
-            ),
-            title = "Light theme background color",
-            description = THEME_COLOR_OPTION_DESCRIPTION
-        )
-
         val themeResourcePatch = resourcePatch {
+            lightThemeBackgroundColorOption()
+            darkThemeBackgroundColorOption()
             dependsOn(resourceMappingPatch)
 
             execute {
-                overrideThemeColors(
-                    lightThemeBackgroundColor!!,
-                    darkThemeBackgroundColorOption.value!!
-                )
+                val lightThemeBackgroundColor = lightThemeBackgroundColorOption.value!!
+                val darkThemeBackgroundColor = darkThemeBackgroundColorOption.value!!
 
                 fun addColorResource(
                     resourceFile: String,
@@ -75,8 +53,7 @@ val themePatch = baseThemePatch(
                     colorValue: String,
                 ) {
                     document(resourceFile).use { document ->
-                        val resourcesNode =
-                            document.getElementsByTagName("resources").item(0) as Element
+                        val resourcesNode = document.getElementsByTagName("resources").item(0) as Element
 
                         resourcesNode.appendChild(
                             document.createElement("color").apply {
@@ -93,12 +70,12 @@ val themePatch = baseThemePatch(
                 addColorResource(
                     "res/values/colors.xml",
                     splashBackgroundColorKey,
-                    lightThemeBackgroundColor!!
+                    lightThemeBackgroundColor
                 )
                 addColorResource(
                     "res/values-night/colors.xml",
                     splashBackgroundColorKey,
-                    darkThemeBackgroundColorOption.value!!
+                    darkThemeBackgroundColor
                 )
 
                 // Edit splash screen files and change the background color.
@@ -107,9 +84,7 @@ val themePatch = baseThemePatch(
                     "res/drawable-sw600dp/quantum_launchscreen_youtube.xml",
                 ).forEach editSplashScreen@{ resourceFileName ->
                     document(resourceFileName).use { document ->
-                        document.getElementsByTagName(
-                            "layer-list"
-                        ).item(0).forEachChildElement { node ->
+                        document.getElementsByTagName("layer-list").item(0).forEachChildElement { node ->
                             if (node.hasAttribute("android:drawable")) {
                                 node.setAttribute(
                                     "android:drawable",
@@ -147,8 +122,7 @@ val themePatch = baseThemePatch(
                         style.appendChild(styleItem)
                     }
 
-                    val resourcesNode =
-                        document.getElementsByTagName("resources").item(0) as Element
+                    val resourcesNode = document.getElementsByTagName("resources").item(0) as Element
                     resourcesNode.appendChild(style)
                 }
 
@@ -195,79 +169,51 @@ val themePatch = baseThemePatch(
                     }
                 }
 
-                val isMaterialYouDark = darkThemeBackgroundColorOption.value!!.startsWith("@android:color/system_")
-                val isMaterialYouLight = lightThemeBackgroundColor!!.startsWith("@android:color/system_")
+                val isMaterialYouLight = lightThemeBackgroundColor.startsWith("@android:color/system_")
 
-                // YouTube applies CairoLightThemeUpdates/CairoDarkThemeUpdates to the context theme
-                // before Cairo renders, so ?ytRedIndicator in Cairo drawables resolves
-                // from the style - not from night mode resource qualifiers.
-                if (isMaterialYouDark || isMaterialYouLight) {
-                    fun createNotifDrawable(
-                        resPath: String,
-                        color: String,
-                        shape: String,
-                        hasCorners: Boolean = false,
-                    ) {
-                        val file = get("res").resolve(resPath)
-                        file.parentFile?.mkdirs()
-                        val cornersLine = if (hasCorners)
-                            "\n    <corners android:radius=\"@dimen/new_content_count_radius\" />"
-                        else ""
-                        file.writeText(
-                            "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-                            "<shape android:shape=\"$shape\"\n" +
-                            "  xmlns:android=\"http://schemas.android.com/apk/res/android\">\n" +
-                            "    <solid android:color=\"$color\" />$cornersLine\n" +
-                            "</shape>"
-                        )
-                    }
+                if (isMaterialYouLight) {
+                    val resDir = get("res")
+                    val lightDotColor = "@android:color/system_accent1_200"
+                    val lightCountBgColor = "@android:color/system_accent1_100"
+                    val lightCountTextColor = "@android:color/system_neutral1_900"
 
-                    if (isMaterialYouDark) {
-                        createNotifDrawable("drawable/morphe_notif_dot_dark.xml", "@android:color/system_accent1_100", "oval")
-                        createNotifDrawable("drawable/morphe_notif_count_dark.xml", "@android:color/system_accent1_100", "rectangle", hasCorners = true)
-                    }
-                    if (isMaterialYouLight) {
-                        createNotifDrawable("drawable/morphe_notif_dot_light.xml", "@android:color/system_accent1_200", "oval")
-                        createNotifDrawable("drawable/morphe_notif_count_light.xml", "@android:color/system_accent1_100", "rectangle", hasCorners = true)
-                    }
+                    createNotifDrawable(resDir, "drawable/morphe_notif_dot_light.xml", lightDotColor, "oval")
+                    createNotifDrawable(resDir, "drawable/morphe_notif_count_light.xml", lightCountBgColor, "rectangle", hasCorners = true)
+                    patchCountTextColor(resDir, lightCountTextColor)
 
-                    document("res/values/styles.xml").use { doc ->
-                        val resources = doc.getElementsByTagName("resources").item(0) as? Element ?: return@use
+                    val stylesFile = "res/values/styles.xml"
+                    if (get(stylesFile).exists()) {
+                        document(stylesFile).use { document ->
+                            val resources = document.getElementsByTagName("resources").item(0) as? Element ?: return@use
 
-                        resources.forEachChildElement { style ->
-                            if (style.nodeName != "style") return@forEachChildElement
+                            resources.forEachChildElement { style ->
+                                if (style.nodeName != "style") return@forEachChildElement
 
-                            val overrides: Map<String, String> = when (style.getAttribute("name")) {
-                                "PivotBar.Dark" -> if (isMaterialYouDark) mapOf(
-                                    "dotBackground" to "@drawable/morphe_notif_dot_dark",
-                                    "countBackground" to "@drawable/morphe_notif_count_dark"
-                                ) else return@forEachChildElement
-                                "PivotBar.Default" -> if (isMaterialYouLight) mapOf(
-                                    "dotBackground" to "@drawable/morphe_notif_dot_light",
-                                    "countBackground" to "@drawable/morphe_notif_count_light"
-                                ) else return@forEachChildElement
-                                "CairoLightThemeUpdates" -> if (isMaterialYouLight) mapOf(
-                                    "ytRedIndicator" to "@android:color/system_accent1_200"
-                                ) else return@forEachChildElement
-                                "CairoDarkThemeUpdates" -> if (isMaterialYouDark) mapOf(
-                                    "ytRedIndicator" to "@android:color/system_accent1_100"
-                                ) else return@forEachChildElement
-                                else -> return@forEachChildElement
-                            }
-
-                            overrides.forEach { (attrName, attrValue) ->
-                                var found = false
-                                style.forEachChildElement { item ->
-                                    if (item.nodeName == "item" && item.getAttribute("name") == attrName) {
-                                        item.textContent = attrValue
-                                        found = true
-                                    }
+                                val overrides: Map<String, String> = when (style.getAttribute("name")) {
+                                    "PivotBar.Default" -> mapOf(
+                                        "dotBackground" to "@drawable/morphe_notif_dot_light",
+                                        "countBackground" to "@drawable/morphe_notif_count_light"
+                                    )
+                                    "CairoLightThemeUpdates" -> mapOf(
+                                        "ytRedIndicator" to lightDotColor
+                                    )
+                                    else -> return@forEachChildElement
                                 }
-                                if (!found) {
-                                    style.appendChild(doc.createElement("item").apply {
-                                        setAttribute("name", attrName)
-                                        textContent = attrValue
-                                    })
+
+                                overrides.forEach { (attrName, attrValue) ->
+                                    var found = false
+                                    style.forEachChildElement { item ->
+                                        if (item.nodeName == "item" && item.getAttribute("name") == attrName) {
+                                            item.textContent = attrValue
+                                            found = true
+                                        }
+                                    }
+                                    if (!found) {
+                                        style.appendChild(document.createElement("item").apply {
+                                            setAttribute("name", attrName)
+                                            textContent = attrValue
+                                        })
+                                    }
                                 }
                             }
                         }
@@ -282,7 +228,7 @@ val themePatch = baseThemePatch(
             seekbarColorPatch,
             versionCheckPatch,
             baseThemeResourcePatch(
-                lightColorReplacement = { lightThemeBackgroundColor!! },
+                lightColorReplacement = { lightThemeBackgroundColorOption.value!! },
                 darkColorNames = {
                     THEME_DEFAULT_DARK_COLOR_NAMES + if (is_21_06_or_greater)
                         setOf(
@@ -293,22 +239,15 @@ val themePatch = baseThemePatch(
                             "yt_sys_color_baseline_dark_static_black",
                             "yt_sys_color_baseline_dark_raised_background",
                             "yt_sys_color_baseline_dark_base_background",
-                            "yt_sys_color_baseline_dark_static_black",
                             "yt_sys_color_baseline_light_inverted_background",
-                            "yt_sys_color_baseline_light_static_black",
-                            // 21.17+
-                            "yt_sys_color_baseline_mobile_dark_default_base_background",
-                            "yt_sys_color_baseline_mobile_dark_default_raised_background"
-                            ) else emptySet()
+                            "yt_sys_color_baseline_light_static_black"
+                        ) else emptySet()
                 },
                 lightColorNames = {
                     THEME_DEFAULT_LIGHT_COLOR_NAMES + if (is_21_06_or_greater)
                         setOf(
                             "yt_sys_color_baseline_light_base_background",
-                            "yt_sys_color_baseline_light_raised_background",
-                            // 21.17+
-                            "yt_sys_color_baseline_mobile_light_default_base_background",
-                            "yt_sys_color_baseline_mobile_light_default_raised_background",
+                            "yt_sys_color_baseline_light_raised_background"
                         )
                     else emptySet()
                 }
@@ -321,11 +260,11 @@ val themePatch = baseThemePatch(
 
     executeBlock = {
         PreferenceScreen.GENERAL.addPreferences(
-            SwitchPreference("morphe_gradient_loading_screen")
+            SwitchPreference("morphe_gradient_loading_screen", summary = true)
         )
 
         val preferences = mutableSetOf(
-            SwitchPreference("morphe_seekbar_custom_color", summaryKey = null),
+            SwitchPreference("morphe_seekbar_custom_color"),
             TextPreference(
                 "morphe_seekbar_custom_color_primary",
                 tag = "app.morphe.extension.shared.settings.preference.ColorPickerPreference",
@@ -339,12 +278,7 @@ val themePatch = baseThemePatch(
         )
 
         PreferenceScreen.SEEKBAR.addPreferences(
-            PreferenceCategory(
-                titleKey = null,
-                sorting = Sorting.UNSORTED,
-                tag = "app.morphe.extension.shared.settings.preference.NoTitlePreferenceCategory",
-                preferences = preferences
-            )
+            noTitleUnsortedPreferenceCategory(preferences)
         )
 
         PreferenceScreen.GENERAL.addPreferences(

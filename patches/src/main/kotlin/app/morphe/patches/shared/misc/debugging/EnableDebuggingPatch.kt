@@ -13,7 +13,7 @@ import app.morphe.patches.shared.misc.settings.preference.PreferenceScreenPrefer
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.util.ResourceGroup
 import app.morphe.util.cloneMutable
-import app.morphe.util.cloneMutableAndPreserveParameters
+import app.morphe.util.cloneParameters
 import app.morphe.util.copyResources
 
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/shared/patches/EnableDebuggingPatch;"
@@ -61,15 +61,15 @@ internal fun enableDebuggingPatch(
         executeBlock()
 
         val preferences = mutableSetOf<BasePreference>(
-            SwitchPreference("morphe_debug", summaryKey = null),
+            SwitchPreference("morphe_debug"),
         )
 
         preferences.addAll(additionalDebugPreferences)
 
         preferences.addAll(
             listOf(
-                SwitchPreference("morphe_debug_stacktrace"),
-                SwitchPreference("morphe_debug_toast_on_error", summaryKey = null),
+                SwitchPreference("morphe_debug_stacktrace", summary = true),
+                SwitchPreference("morphe_debug_toast_on_error"),
                 NonInteractivePreference(
                     "morphe_debug_export_logs",
                     tag = "app.morphe.extension.shared.settings.preference.ExportLogToClipboardPreference",
@@ -123,7 +123,7 @@ internal fun enableDebuggingPatch(
 
         if (hookDoubleFeatureFlag()) ExperimentalDoubleFeatureFlagFingerprint.let {
             // 21.06+ doesn't have enough registers and needs to also clone.
-            it.method.cloneMutableAndPreserveParameters().apply {
+            it.method.cloneParameters().apply {
                 val helperMethod = cloneMutable(name = "patch_getDoubleFeatureFlag")
 
                 it.classDef.methods.add(helperMethod)
@@ -150,7 +150,7 @@ internal fun enableDebuggingPatch(
         }
 
         if (hookLongFeatureFlag()) ExperimentalLongFeatureFlagFingerprint.let {
-            it.method.cloneMutableAndPreserveParameters().apply {
+            it.method.cloneParameters().apply {
                 // Copy the method.
                 val helperMethod = cloneMutable(name = "patch_getLongFeatureFlag")
 

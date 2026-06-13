@@ -8,9 +8,8 @@ import app.morphe.patcher.patch.BytecodePatchContext
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.shared.misc.settings.preference.BasePreference
 import app.morphe.patches.shared.misc.settings.preference.BasePreferenceScreen
-import app.morphe.patches.shared.misc.settings.preference.PreferenceCategory
-import app.morphe.patches.shared.misc.settings.preference.PreferenceScreenPreference.Sorting
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
+import app.morphe.patches.shared.misc.settings.preference.noTitleUnsortedPreferenceCategory
 import app.morphe.util.addInstructionsAtControlFlowLabel
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
@@ -36,24 +35,26 @@ internal fun sanitizeSharingLinksPatch(
     execute {
         executeBlock()
 
-        val sanitizePreference = SwitchPreference("morphe_sanitize_sharing_links")
+        val sanitizePreference = SwitchPreference("morphe_sanitize_sharing_links", summary = true)
 
         preferenceScreen.addPreferences(
             if (replaceMusicLinksWithYouTube || replaceLinksWithShortener) {
                 val preferences = mutableSetOf<BasePreference>(sanitizePreference)
-                if (replaceMusicLinksWithYouTube) preferences += SwitchPreference("morphe_replace_music_with_youtube")
-                if (replaceLinksWithShortener) preferences += SwitchPreference("morphe_replace_links_with_shortener")
+                if (replaceMusicLinksWithYouTube) preferences += SwitchPreference("morphe_replace_music_with_youtube", summary = true)
+                if (replaceLinksWithShortener) preferences += SwitchPreference("morphe_replace_links_with_shortener", summary = true)
 
-                PreferenceCategory(
-                    titleKey = null,
-                    sorting = Sorting.UNSORTED,
-                    tag = "app.morphe.extension.shared.settings.preference.NoTitlePreferenceCategory",
-                    preferences = preferences
-                )
+                noTitleUnsortedPreferenceCategory(preferences)
             } else {
                 sanitizePreference
             }
         )
+
+        fun patchLogic(urlStringRegister: Int): String {
+            return """
+                invoke-static { v$urlStringRegister }, $EXTENSION_CLASS->sanitize(Ljava/lang/String;)Ljava/lang/String;
+                move-result-object v$urlStringRegister
+            """
+        }
 
         fun Fingerprint.hookUrlString(matchIndex: Int) {
             val index = instructionMatches[matchIndex].index
@@ -61,10 +62,7 @@ internal fun sanitizeSharingLinksPatch(
 
             method.addInstructions(
                 index + 1,
-                """
-                    invoke-static { v$urlRegister }, $EXTENSION_CLASS->sanitize(Ljava/lang/String;)Ljava/lang/String;
-                    move-result-object v$urlRegister
-                """
+                patchLogic(urlRegister)
             )
         }
 
@@ -74,10 +72,7 @@ internal fun sanitizeSharingLinksPatch(
 
             method.addInstructionsAtControlFlowLabel(
                 index,
-                """
-                    invoke-static { v$urlRegister }, $EXTENSION_CLASS->sanitize(Ljava/lang/String;)Ljava/lang/String;
-                    move-result-object v$urlRegister
-                """
+                patchLogic(urlRegister)
             )
         }
 

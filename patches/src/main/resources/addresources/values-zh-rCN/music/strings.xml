@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 秒</string>
   <string name="morphe_crossfade_duration_9000ms">9 秒</string>
   <string name="morphe_crossfade_duration_10000ms">10 秒</string>
+  <string name="morphe_crossfade_duration_11000ms">11 秒</string>
+  <string name="morphe_crossfade_duration_12000ms">12 秒</string>
   <string name="morphe_music_crossfade_on_skip_title">手动跳过时启用淡入</string>
   <string name="morphe_music_crossfade_on_skip_summary">手动跳到下一曲目时应用淡入淡出效果</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">自动播放时启用淡入</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">交叉淡入已恢复</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">启用交叉淡入时，视频模式不可用</string>
   <string name="morphe_music_crossfade_about_title">关于</string>
-  <string name="morphe_music_crossfade_about_summary">"YouTube Music 8.x版本支持淡入
+  <string name="morphe_music_crossfade_about_summary">"长按洗牌按钮可禁用/启用
 
-长按随机播放按钮启用/禁用
-
-由VazerOG实现"</string>
+功能实现者：VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">启用永久重复播放</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">隐藏投屏按钮</string>
   <string name="morphe_music_hide_history_button_title">隐藏历史记录按钮</string>
   <string name="morphe_music_hide_notification_button_title">隐藏通知按钮</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">播放列表</string>
   <string name="morphe_change_start_page_entry_search">搜索</string>
   <string name="morphe_change_start_page_entry_subscriptions">订阅</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">隐藏类别栏</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">更改迷你播放器颜色</string>
   <string name="morphe_music_change_miniplayer_color_summary">迷你播放器颜色与全屏播放器一致</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">在迷你播放器中显示下一按钮</string>
   <string name="morphe_music_miniplayer_previous_button_title">显示上一首按钮在迷你播放器</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">启用强制最小播放器</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">防止播放器在新曲目开始时自动扩展到全屏</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">启用滑动以关闭迷你播放器</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">允许通过在迷你播放器上向下滑动来关闭它</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">导航栏</string>
   <string name="morphe_music_navigation_bar_screen_summary">选择在底部导航栏中显示哪些按钮</string>

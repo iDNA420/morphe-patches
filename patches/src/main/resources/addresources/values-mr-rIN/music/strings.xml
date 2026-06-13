@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 सेकंद</string>
   <string name="morphe_crossfade_duration_9000ms">9 सेकंद</string>
   <string name="morphe_crossfade_duration_10000ms">10 सेकंद</string>
+  <string name="morphe_crossfade_duration_11000ms">11 सेकंद</string>
+  <string name="morphe_crossfade_duration_12000ms">12 सेकंद</string>
   <string name="morphe_music_crossfade_on_skip_title">मॅन्युअल Skip वर क्रॉसफेड</string>
   <string name="morphe_music_crossfade_on_skip_summary">तुम्ही व्यक्तिचलितपणे पुढील ट्रॅकवर स्विच केल्यावर क्रॉसफेड प्रभाव लागू होतो</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">ऑटो-एडव्हान्सवर क्रॉसफेड</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">क्रॉसफेड पुन्हा सुरू झाले</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">क्रॉसफेड सक्षम असताना व्हिडिओ मोड उपलब्ध नाही</string>
   <string name="morphe_music_crossfade_about_title">बद्दल</string>
-  <string name="morphe_music_crossfade_about_summary">"YouTube Music 8.x मध्ये क्रॉसफेड उपलब्ध आहे.
+  <string name="morphe_music_crossfade_about_summary">"शफल बटण दाबून ठेवा, ज्यामुळे ते अक्षम/सक्षम होईल
 
-अक्षम/सक्षम करण्यासाठी शफल बटण दाबा आणि धरून ठेवा
-
-VazerOG द्वारे फीचर अंमलबजावणी"</string>
+हे वैशिष्ट्य VazerOG द्वारे लागू केले गेले आहे"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">कायमची पुनरावृत्ती सक्षम करा</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">कास्ट बटण लपवा</string>
   <string name="morphe_music_hide_history_button_title">इतिहास बटण लपवा</string>
   <string name="morphe_music_hide_notification_button_title">सूचना बटण लपवा</string>
@@ -92,17 +92,20 @@ VazerOG द्वारे फीचर अंमलबजावणी"</string>
   <string name="morphe_change_start_page_entry_playlists">प्लेलिस्ट्स</string>
   <string name="morphe_change_start_page_entry_search">शोध</string>
   <string name="morphe_change_start_page_entry_subscriptions">सबस्क्रिप्शन</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">श्रेणी बार लपवा</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">मिनीप्लेअर रंग बदला</string>
   <string name="morphe_music_change_miniplayer_color_summary">मिनीप्लेअरचा रंग फुलस्क्रीन प्लेअरशी जुळवतो</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">मिनीप्लेअरमध्ये पुढील बटण दर्शवा</string>
   <string name="morphe_music_miniplayer_previous_button_title">मिनीप्लेअरमध्ये मागील बटण दर्शवा</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">फोर्स केलेले मिनीप्लेअर सक्षम करा</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">नवीन ट्रॅक सुरू झाल्यावर प्लेअर आपोआप फुलस्क्रीनमध्ये विस्तारणे प्रतिबंधित करते</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">मिनीप्लेअरला स्वाइप करून बंद करा</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">मिनीप्लेअरवर खाली स्वाइप करून तो बंद करण्याची परवानगी देते</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">नेव्हिगेशन बार</string>
   <string name="morphe_music_navigation_bar_screen_summary">तळाशी नेव्हिगेशन बारमध्ये कोणते बटणे दिसणे निवडायचे</string>

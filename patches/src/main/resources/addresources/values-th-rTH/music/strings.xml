@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 วินาที</string>
   <string name="morphe_crossfade_duration_9000ms">9 วินาที</string>
   <string name="morphe_crossfade_duration_10000ms">10 วินาที</string>
+  <string name="morphe_crossfade_duration_11000ms">11 วินาที</string>
+  <string name="morphe_crossfade_duration_12000ms">12 วินาที</string>
   <string name="morphe_music_crossfade_on_skip_title">Fade เมื่อข้ามเพลงด้วยตนเอง</string>
   <string name="morphe_music_crossfade_on_skip_summary">ใช้เอฟเฟกต์การผสมผสานเสียงเมื่อคุณข้ามไปยังแทร็กถัดไปด้วยตนเอง</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Fade เมื่อเปิดใช้งาน Auto-Advance</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">การเปลี่ยนเพลงแบบค่อยๆ จางหายกลับมาทำงานต่อ</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">โหมดวิดีโอไม่สามารถใช้ได้ขณะเปิดใช้งานการเปลี่ยนเพลงแบบค่อยๆ จางหาย</string>
   <string name="morphe_music_crossfade_about_title">เกี่ยวกับ</string>
-  <string name="morphe_music_crossfade_about_summary">"Fade พร้อมใช้งานกับ YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"กดแบบยาวที่ปุ่มสุ่มเพื่อปิด/เปิด
 
-กดค้างที่ปุ่ม Shuffle เพื่อปิด/เปิดใช้งาน
-
-Feature implementation by VazerOG"</string>
+การพัฒนาคุณสมบัตินี้โดย VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">เปิดใช้งานเล่นซ้ำถาวร</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">ซ่อนปุ่มแคสต์</string>
   <string name="morphe_music_hide_history_button_title">ซ่อนปุ่มประวัติ</string>
   <string name="morphe_music_hide_notification_button_title">ซ่อนปุ่มการแจ้งเตือน</string>
@@ -92,17 +92,20 @@ Feature implementation by VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">แพล่งของ</string>
   <string name="morphe_change_start_page_entry_search">ค้นหา</string>
   <string name="morphe_change_start_page_entry_subscriptions">สมัครสมาชิก</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">ซ่อนแถบหมวดหมู่</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">เปลี่ยนสีมินิเพลเยอร์</string>
   <string name="morphe_music_change_miniplayer_color_summary">สีมินิเพลเยอร์ตรงกับเครื่องเล่นแบบเต็มหน้าจอ</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">แสดงปุ่มถัดไปในมินิเพลเยอร์</string>
   <string name="morphe_music_miniplayer_previous_button_title">แสดงปุ่ม ย้อนกลับใน miniplayer</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">เปิดใช้งานมินิเพลเยอร์แบบบังคับ</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">ป้องกันไม่ให้เครื่องเล่นขยายเป็นแบบเต็มหน้าจอโดยอัตโนมัติเมื่อเริ่มแทร็กใหม่</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">เปิดใช้งานการปัดเพื่อปิดมินิเพลเยอร์</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">ช่วยให้สามารถปิดมินิเพลเยอร์ได้โดยการปัดลง</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">แถบนำทาง</string>
   <string name="morphe_music_navigation_bar_screen_summary">เลือกปุ่มที่จะแสดงในแถบนำทางด้านล่าง</string>

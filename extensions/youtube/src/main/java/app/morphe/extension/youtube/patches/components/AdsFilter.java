@@ -20,6 +20,7 @@ import app.morphe.extension.shared.ByteTrieSearch;
 import app.morphe.extension.shared.Logger;
 import app.morphe.extension.shared.StringTrieSearch;
 import app.morphe.extension.shared.Utils;
+import app.morphe.extension.youtube.patches.components.LithoFilterPatch.BufferAsciiStrings;
 import app.morphe.extension.youtube.settings.Settings;
 import app.morphe.extension.youtube.shared.ConversionContext.ContextInterface;
 
@@ -175,6 +176,7 @@ public final class AdsFilter extends Filter {
                        String accessibility,
                        String path,
                        byte[] buffer,
+                       BufferAsciiStrings asciiStrings,
                        StringFilterGroup matchedGroup,
                        FilterContentType contentType,
                        int contentIndex) {
@@ -273,5 +275,12 @@ public final class AdsFilter extends Filter {
     public static boolean hidePlayerPopupAds(String panelId) {
         return Settings.HIDE_PLAYER_POPUP_ADS.get()
                 && Utils.containsAny(panelId, PLAYER_POPUP_AD_PANEL_IDS);
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideMiniplayerPaidPromotionLabelView(View view) {
+        Utils.hideViewBy0dpUnderCondition(Settings.HIDE_PAID_PROMOTION_LABEL, view);
     }
 }

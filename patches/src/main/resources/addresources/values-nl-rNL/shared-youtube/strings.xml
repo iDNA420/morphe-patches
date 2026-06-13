@@ -86,11 +86,14 @@ Om in te loggen, druk je op 'doorgaan' onderaan"</string>
   <string name="morphe_oauth2_toast_reset">Uitgelogd van Android VR</string>
   <string name="morphe_oauth2_toast_invalid">Ongeldig VR aanmeldtoken, probeer opnieuw aan te melden bij VR</string>
   <string name="morphe_spoof_video_streams_disable_player_js_update_title">Speler JavaScript-update uitschakelen</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_summary">"Blokkeert de JavaScript van de speler op een lokale hash in plaats van updates op te halen
+  <string name="morphe_spoof_video_streams_disable_player_js_update_summary">"Blokkeert de player JavaScript op een specifieke versie
 
-• Er is een geldige hash van JavaScript van de speler vereist
-• Het afspelen mislukt als de hash van JavaScript van de speler wordt ingetrokken in GVS"</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_user_dialog_message">JavaScript-hashes van spelers zijn ongeveer een maand geldig, en verouderde hashes kunnen door GVS worden ingetrokken.</string>
+• Er is een geldige player JavaScript hash vereist
+• Player JavaScript hashes zijn ongeveer een maand geldig, en verouderde hashes worden ingetrokken door GVS
+• Het afspelen mislukt als de hash is ingetrokken"</string>
+  <string name="morphe_spoof_video_streams_disable_player_js_update_user_dialog_message">"U moet een geldige player JavaScript hash opgeven.
+
+Het afspelen mislukt als de Player JavaScript hash verouderd is."</string>
   <string name="morphe_spoof_video_streams_player_js_hash_value_title">Speler JavaScript hash</string>
   <string name="morphe_spoof_video_streams_player_js_hash_value_summary">Voer een geldige speler JavaScript hash in</string>
   <!-- misc.quic.disableQUICProtocolPatch -->

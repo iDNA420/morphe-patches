@@ -7,35 +7,39 @@
 
 package app.morphe.extension.youtube.patches.components;
 
-import app.morphe.extension.youtube.patches.OpenSystemShareSheetPatch;
-import app.morphe.extension.youtube.settings.Settings;
+import static app.morphe.extension.youtube.patches.OpenSystemShareSheetPatch.openSystemShareSheet;
+import static app.morphe.extension.youtube.patches.OpenSystemShareSheetPatch.systemSheetOpened;
+import static app.morphe.extension.youtube.settings.Settings.OPEN_SYSTEM_SHARE_SHEET;
+
+import app.morphe.extension.youtube.patches.components.LithoFilterPatch.BufferAsciiStrings;
 import app.morphe.extension.youtube.shared.ConversionContext.ContextInterface;
 
-/**
- * LithoFilter for {@link OpenSystemShareSheetPatch}.
- */
+@SuppressWarnings("unused")
 public final class SystemShareSheetFilter extends Filter {
-
-    public static volatile boolean isShareSheetVisible;
 
     public SystemShareSheetFilter() {
         addPathCallbacks(new StringFilterGroup(
-                Settings.OPEN_SYSTEM_SHARE_SHEET,
+                OPEN_SYSTEM_SHARE_SHEET,
                 "share_sheet_container."
         ));
     }
 
+    /**
+     * Replaces YouTube's in-app share sheet with the system share sheet.
+     */
     @Override
     boolean isFiltered(ContextInterface contextInterface,
                        String identifier,
                        String accessibility,
                        String path,
                        byte[] buffer,
+                       BufferAsciiStrings asciiStrings,
                        StringFilterGroup matchedGroup,
                        FilterContentType contentType,
                        int contentIndex) {
-
-        isShareSheetVisible = true;
-        return false;
+        if (!systemSheetOpened && openSystemShareSheet(asciiStrings.getStrings())) {
+            systemSheetOpened = false;
+        }
+        return true;
     }
 }

@@ -42,6 +42,8 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_curve_entry_ease_out_quad">Xəfif yüngülləşmə</string>
   <string name="morphe_music_crossfade_curve_entry_smoothstep">Hamar S-əyrisi</string>
   <!-- Empty string because custom preference handles the title itself -->
+  <string name="morphe_music_crossfade_curve_preview_outgoing">Azalan</string>
+  <string name="morphe_music_crossfade_curve_preview_incoming">Artan</string>
   <string name="morphe_music_crossfade_duration_title">Çarpaz soldurma müddəti</string>
   <string name="morphe_crossfade_duration_250ms">250 millisaniyə</string>
   <string name="morphe_crossfade_duration_500ms">500 millisaniyə</string>
@@ -56,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 saniyə</string>
   <string name="morphe_crossfade_duration_9000ms">9 saniyə</string>
   <string name="morphe_crossfade_duration_10000ms">10 saniyə</string>
+  <string name="morphe_crossfade_duration_11000ms">11 saniyə</string>
+  <string name="morphe_crossfade_duration_12000ms">12 saniyə</string>
   <string name="morphe_music_crossfade_on_skip_title">Əl ilə ötürmədə çarpaz soldurma</string>
   <string name="morphe_music_crossfade_on_skip_summary">Növbəti trekə əl ilə keçdiyinizdə çarpaz solma effektin tətbiq edir</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Birbaşa irəliləmədə çarpaz soldurma</string>
@@ -66,15 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Çarpaz Soldurma yenidən başladı</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Çarpaz Soldurma işlək olduqda video rejimi əlçatan deyil</string>
   <string name="morphe_music_crossfade_about_title">Haqqında</string>
-  <string name="morphe_music_crossfade_about_summary">"Çarpaz soldurma YouTube Music 8.x ilə əlçatandır.
+  <string name="morphe_music_crossfade_about_summary">"Qapatmaq/aktivləşdirmək üçün qarışdırma düyməsini uzun bas
 
-Qapatmaq/aktivləşdirmək üçün qarışdırma düyməsini uzun basın
-
-VazerOG tərəfindən xüsusiyyətin tətbiqi
-"</string>
+VazerOG tərəfindən xüsusiyyətin tətbiqi"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Daimi təkrarlamanı aktivləşdir</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Yayım düyməsini gizlət</string>
   <string name="morphe_music_hide_history_button_title">Tarixçə düyməsini gizlət</string>
   <string name="morphe_music_hide_notification_button_title">Bildiriş düyməsini gizlət</string>
@@ -91,17 +92,20 @@ VazerOG tərəfindən xüsusiyyətin tətbiqi
   <string name="morphe_change_start_page_entry_playlists">Pleylistlər</string>
   <string name="morphe_change_start_page_entry_search">Axtarış</string>
   <string name="morphe_change_start_page_entry_subscriptions">Abunəliklər</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Kateqoriya cizgisin gizlət</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Kiçik səsləndirici rəngini dəyişdir</string>
   <string name="morphe_music_change_miniplayer_color_summary">Kiçik səsləndirici rəngini tam ekran səsləndiriciyə uyuşdurur</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Kiçik səsləndiricidə növbəti düyməsin göstər</string>
   <string name="morphe_music_miniplayer_previous_button_title">Kiçik səsləndiricidə əvvəlki düyməsin göstər</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Məcburi kiçik səsləndiricini aktivləşdir</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Yeni trek başlayanda səsləndiricini birbaşa tam ekrana genişləndirməsin əngəlləyir</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Kiçik səsləndiricini ləğv etmək üçün sürüşdürməni aktivləşdir</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Kiçik səsləndirici üzərində aşağı sürüşdürərək onu ləğv etməyə imkan verir</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Fəaliyyət cizgisi</string>
   <string name="morphe_music_navigation_bar_screen_summary">Aşağı fəaliyyət cərgəsində hansı düymələr görünür seç</string>

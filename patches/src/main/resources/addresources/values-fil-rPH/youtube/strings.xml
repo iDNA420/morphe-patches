@@ -59,6 +59,9 @@ Kasama sa mga pagbabago ang:
   <string name="morphe_hide_feed_flyout_menu_title">Paganahin ang feed flyout menu filter</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_title">Feed flyout menu filter</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_summary">Ilagay ang mga pangalan ng flyout menu na ifi-filter by, na pinaghihiwalay ng mga bagong linya</string>
+  <string name="morphe_hide_account_menu_title">Paganahin ang Library / Filter ng iyong menu sa ibaba</string>
+  <string name="morphe_hide_account_menu_filter_strings_title">Library / Filter ng iyong menu sa ibaba</string>
+  <string name="morphe_hide_account_menu_filter_strings_summary">Ilagay ang mga pangalan ng Library / filter ng iyong menu sa ibaba, na pinaghihiwalay ng mga bagong linya</string>
   <string name="morphe_hide_album_cards_title">Itago ang mga album card</string>
   <string name="morphe_hide_album_cards_summary">Itinatago ang mga album card sa ilalim ng paglalarawan ng artist</string>
   <string name="morphe_hide_artist_cards_title">Itago ang mga artist card</string>
@@ -111,9 +114,7 @@ Kasama sa mga pagbabago ang:
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">Itago ang YouTube Doodles</string>
   <string name="morphe_hide_youtube_doodles_summary">Itinatago ang mga seasonal at event-based na animation sa logo ng YouTube</string>
-  <string name="morphe_hide_youtube_doodles_user_dialog_message">"Ang mga YouTube Doodle ay ipinapakita ng ilang araw bawat taon sa iba't ibang panig ng mundo.
-
-Ang pagpapakita ng mga YouTube Doodle ay maaaring pigilan ang pagpapakita ng mga pasadyang header."</string>
+  <string name="morphe_hide_youtube_doodles_user_dialog_message">Ang pagpapakita ng mga Doodle ng YouTube ay maaaring pumigil sa pagpapakita ng mga custom header.</string>
   <string name="morphe_hide_channel_bar_title">Itago ang channel bar</string>
   <string name="morphe_hide_channel_watermark_title">Itago ang watermark sa channel</string>
   <string name="morphe_hide_crowdfunding_box_title">Itago ang kahon ng crowdfunding</string>
@@ -123,13 +124,14 @@ Ang pagpapakita ng mga YouTube Doodle ay maaaring pigilan ang pagpapakita ng mga
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the video player for certain videos. -->
   <string name="morphe_hide_join_membership_button_title">Itago ang button na Sumali</string>
-  <string name="morphe_hide_live_chat_donators_bar_title">Itago ang live chat donators bar</string>
   <!-- 'Live chat replay' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears when in fullscreen for live streamed videos after opening live chat. -->
   <string name="morphe_hide_live_chat_replay_button_title">Itago ang button na \'Live chat replay\'</string>
   <string name="morphe_hide_live_chat_replay_button_summary">Itinatago ang button ng pag-replay ng chat sa fullscreen mode</string>
   <string name="morphe_hide_medical_panels_title">Itago ang mga panel ng medikal</string>
+  <string name="morphe_hide_snackbar_title">Itago ang snackbar</string>
   <string name="morphe_hide_subscribers_community_guidelines_title">Itago ang mga alituntunin ng mga subscriber</string>
+  <string name="morphe_hide_sync_button_title">Itago ang button na \'I-sync sa video\'</string>
   <string name="morphe_hide_timed_reactions_title">Itago ang mga nakatakdang reaksyon</string>
   <string name="morphe_hide_timed_reactions_summary">Itinatago ang feature na nagbibigay-daan sa mga user na mag-react gamit ang mga emoji sa seksyon ng mga komento at live chat</string>
   <string name="morphe_hide_video_title_title">Itago ang pamagat ng video</string>
@@ -188,9 +190,8 @@ Ang pagpapakita ng mga YouTube Doodle ay maaaring pigilan ang pagpapakita ng mga
   <string name="morphe_comments_screen_title">Mga Komento</string>
   <string name="morphe_comments_screen_summary">Pumili kung aling mga component ang lalabas sa seksyon ng mga komento</string>
   <string name="morphe_hide_comments_carousel_title">Paganahin ang filter carousel ng komento</string>
-  <string name="morphe_hide_comments_carousel_user_dialog_message">"Paalala:
-• Tiyaking ilagay ang eksaktong pangalan ng carousel item (hal. Tanong, Hype sa bidyong ito, Makinig sa YouTube Music, atbp.).
-• Ang pagtatago ng mga carousel item ay maaaring magdulot ng hindi inaasahang epekto.
+  <string name="morphe_hide_comments_carousel_summary">"• Tiyaking ilagay ang eksaktong pangalan ng carousel item (hal. Tanong, Hype ang bidyong ito, Makinig sa YouTube Music, atbp.)
+• Ang pagtatago ng mga carousel item ay maaaring magdulot ng hindi inaasahang epekto
 • Kung lahat ng carousel item ay nakatago, ang buong seksyon ng komento ay itatago rin."</string>
   <string name="morphe_hide_comments_carousel_filter_strings_title">Filter ng carousel ng komento</string>
   <string name="morphe_hide_comments_carousel_filter_strings_summary">Ilagay ang mga pangalan ng comments carousel na ifi-filter by, na pinaghihiwalay ng mga bagong linya</string>
@@ -205,6 +206,7 @@ Ang pagpapakita ng mga YouTube Doodle ay maaaring pigilan ang pagpapakita ng mga
   <string name="morphe_hide_comments_create_a_short_button_title">Itago ang button na \'Gumawa ng Short\'</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">Itago ang mga button na Emoji at Timestamp</string>
   <string name="morphe_hide_comments_info_button_title">Itago ang button na Impormasyon</string>
+  <string name="morphe_hide_comments_live_chat_donators_bar_title">Itago ang live chat donators bar</string>
   <string name="morphe_hide_comments_preview_comment_title">Itago ang pasilip na komento</string>
   <string name="morphe_hide_comments_preview_comment_summary">Itinatago ang preview ng komento sa ilalim ng video bago buksan ang buong seksyon ng mga komento</string>
   <string name="morphe_hide_comments_thanks_button_title">Itago ang button na Salamat</string>
@@ -218,13 +220,13 @@ Ang pagpapakita ng mga YouTube Doodle ay maaaring pigilan ang pagpapakita ng mga
   <string name="morphe_custom_filter_strings_summary">Listahan ng mga string ng component path builder upang i-filter, na pinaghihiwalay ng mga bagong linya</string>
   <string name="morphe_custom_filter_toast_invalid_syntax">Imbalido na pasadyang filter: %s</string>
   <string name="morphe_hide_view_count_title">Itago ang bilang ng panonood</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_user_dialog_message'. -->
-  <string name="morphe_hide_view_count_user_dialog_message">"Mga Limitasyon:
-• Maaari pa ring magpakita ng mga bilang ng panonood ang mga Short shelf, mga pahina ng channel, at mga resulta sa paghahanap.
-• Ang tampok na ito ay hindi gumagana sa automotive layout."</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"Mga Limitasyon:
+• Maaari pa ring magpakita ng mga bilang ng panonood ang mga Short shelf, mga pahina ng channel, at mga resulta sa paghahanap
+• Ang tampok na ito ay hindi gumagana sa automotive layout"</string>
   <string name="morphe_hide_upload_time_title">Itago ang oras ng pag-upload</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_user_dialog_message'. -->
-  <string name="morphe_hide_upload_time_user_dialog_message">"Mga Limitasyon:
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"Mga Limitasyon:
 • Maaari pa ring magpakita ng mga oras ng pag-upload ang mga Short shelf, mga pahina ng channel, at mga resulta ng paghahanap.
 • Ang tampok na ito ay hindi gumagana sa automotive form factor."</string>
   <string name="morphe_hide_keyword_content_screen_title">Filter ng keyword</string>
@@ -270,16 +272,16 @@ Mga Limitasyon:
   <!-- ad.video.videoAdsPatch -->
   <string name="morphe_hide_video_ads_title">Itago ang mga patalastas sa video</string>
   <!-- interaction.doubletap.doubleTapLengthPatch -->
-  <!-- interaction.copyvideourlbutton.copyVideoURLButtonPatch -->
-  <string name="morphe_share_copy_url_button_success">Nakopya ang URL sa clipboard</string>
-  <string name="morphe_share_copy_url_button_timestamp_success">Nakopya ang URL na may timestamp sa clipboard</string>
-  <string name="morphe_copy_video_url_button_title">Ipakita ang button na Kopyahin ang video URL</string>
-  <string name="morphe_copy_video_url_button_summary">I-tap upang kopyahin ang video URL, i-tap at pindutin upang kopyahin gamit ang timestamp</string>
-  <string name="morphe_copy_video_url_button_timestamp_title">Kopyahin ang timestamp bilang default</string>
-  <string name="morphe_copy_video_url_button_timestamp_summary">Binabaligtad ang pag-tap at pag-tap-at-hawak na mga aksyon ng button na \'Kopyahin ang URL ng video\'</string>
+  <!-- interaction.copyvideolink.copyVideoLinkButtonPatch -->
+  <string name="morphe_share_copy_link_button_success">Nakalink sa clipboard</string>
+  <string name="morphe_share_copy_link_with_timestamp_button_success">Nakalink na may timestamp sa clipboard</string>
+  <string name="morphe_copy_video_link_button_title">Ipakita ang kopyahin ang video link button</string>
+  <string name="morphe_copy_video_link_button_summary">I-tap para kopyahin ang link ng video, i-tap at pindutin nang matagal para kopyahin kasama ang timestamp</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_title">Kopyahin ang timestamp bilang default</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">Binabaligtad ang tap at tap-and-hold na pagkilos ng \'Kopyahin ang link ng video\' button</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Alisin ang diyalogo ng pagpapasya ng manonood</string>
-  <string name="morphe_remove_viewer_discretion_dialog_user_dialog_message">Hindi nito nilalampasan ang paghihigpit sa edad. Awtomatiko lang itong tinatanggap.</string>
+  <string name="morphe_remove_viewer_discretion_dialog_summary">Hindi nito nilalampasan ang paghihigpit sa edad. Awtomatiko lang itong tinatanggap</string>
   <!-- layout.hide.signintotv.disableSignInToTVPopupPatch -->
   <string name="morphe_disable_sign_in_to_tv_popup_title">Patayin ang popup na \'Mag-sign in sa TV\'</string>
   <!-- interaction.doubletap.disableDoubleTapActionsPatch -->
@@ -345,9 +347,37 @@ Impormasyon: Maaaring hindi gumana sa mga live stream"</string>
   <string name="morphe_dismiss_player_not_available_toast">Hindi available ang Video ID. Pakisuyong i-reload nang manu-mano ang video</string>
   <!-- interaction.savetowatchlater.saveToWatchLaterPatch -->
   <string name="morphe_save_to_watch_later_button_title">Ipakita ang button na \'I-save para mapanood mamaya\'</string>
+  <string name="morphe_save_to_watch_later_button_summary">I-tap para i-save para mapanood mamaya, i-tap at pindutin para sa mga opsyon sa pila</string>
   <string name="morphe_save_to_watch_later_success_toast">Matagumpay na naisave ang video sa playlist na I-save para manood mamaya</string>
   <string name="morphe_save_to_watch_later_already_exists_toast">Naisave na ang videong ito sa playlist na I-save para manood mamaya</string>
   <string name="morphe_save_to_watch_later_error_toast">Hindi ma-save ang videong ito sa playlist na I-save para manood mamaya</string>
+  <string name="morphe_queue_restore_title">Panatilihin ang pila sa pagitan ng mga sesyon</string>
+  <string name="morphe_queue_restore_summary">Ang pila ay nananatili kahit i-restart ang app</string>
+  <string name="morphe_swap_save_and_queue_actions_title">Palitan ang Save at Queue na aksyon</string>
+  <string name="morphe_swap_save_and_queue_actions_summary">I-tap para sa mga opsyon sa queue, i-tap at pindutin nang matagal para i-save para mapanood mamaya</string>
+  <string name="morphe_queue_manager_check_failed_auth">Hindi naka-log in</string>
+  <string name="morphe_queue_manager_check_failed_playlist_id">Walang ID ng playlist</string>
+  <string name="morphe_queue_manager_check_failed_queue">Walang laman ang queue</string>
+  <string name="morphe_queue_manager_check_failed_video_id">Walang ID ng video</string>
+  <string name="morphe_queue_manager_check_failed_generic">Nabigo: %s</string>
+  <string name="morphe_queue_manager_fetch_failed_add">Nabigong idagdag sa queue</string>
+  <string name="morphe_queue_manager_fetch_failed_create">Nabigong gumawa ng queue</string>
+  <string name="morphe_queue_manager_fetch_failed_remove">Nabigong alisin sa queue</string>
+  <string name="morphe_queue_manager_fetch_failed_save">Nabigong i-save ang queue</string>
+  <string name="morphe_queue_manager_fetch_succeeded_add">Idinagdag sa queue</string>
+  <string name="morphe_queue_manager_fetch_succeeded_create">Nagawa ang queue</string>
+  <string name="morphe_queue_manager_fetch_succeeded_remove">Inalis sa queue</string>
+  <string name="morphe_queue_manager_fetch_succeeded_save">Na-save ang queue sa %s</string>
+  <string name="morphe_queue_manager_playlist_title">Pilang Morphe</string>
+  <string name="morphe_queue_manager_add_to_queue">Idagdag sa queue</string>
+  <string name="morphe_queue_manager_add_to_queue_and_open_queue">Idagdag sa queue at buksan</string>
+  <string name="morphe_queue_manager_add_to_queue_and_play_video">Idagdag sa queue at i-play</string>
+  <string name="morphe_queue_manager_add_to_queue_and_reload_video">Idagdag at i-reload ang video</string>
+  <string name="morphe_queue_manager_remove_from_queue">Alisin sa queue</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_open_queue">Alisin at buksan ang queue</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_reload_video">Alisin at i-reload ang video</string>
+  <string name="morphe_queue_manager_open_queue">Buksan ang queue</string>
+  <string name="morphe_queue_manager_save_queue">I-save ang queue sa playlist</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
   <string name="morphe_open_channel_of_live_avatar_title">Buksan ang channel mula sa live avatar</string>
   <string name="morphe_open_channel_of_live_avatar_summary">Pinipigilan ang live stream na magbukas kapag tina-tap ang avatar ng channel</string>
@@ -356,9 +386,15 @@ Impormasyon: Maaaring hindi gumana sa mga live stream"</string>
   <string name="morphe_disable_precise_seeking_gesture_summary">Hindi pinapagana ang precise seeking mode na nag-a-activate kapag hinihila pataas ang seekbar</string>
   <!-- interaction.seekbar.livestreamDvrPatch -->
   <string name="morphe_livestream_dvr_title">I-enable ang livestream DVR</string>
-  <string name="morphe_livestream_dvr_summary">Pinapayagan ang paghahanap sa lahat ng live stream, kahit na ang mga normal na naghihigpit dito</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_livestream_dvr_user_dialog_message">Ang pag-e-enable nito ay maaaring magdulot ng hindi inaasahang paghahanap sa livestream kung hindi naka-enable ang \'Spoof video streams\'.</string>
+  <string name="morphe_livestream_dvr_summary">"Pinapayagan ang paglundag sa lahat ng livestream, kahit na sa mga normal na naghihigpit nito.
+
+Paalala: Kung ang 'Spoof video streams' ay hindi pinagana, ang pagpapagana nito ay maaaring magdulot ng hindi inaasahang paglundag sa livestream."</string>
+  <string name="morphe_expand_livestream_dvr_duration_title">Palawakin ang tagal ng livestream DVR</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_expand_livestream_dvr_duration_summary">"Pinapayagan kang paurongin ang mga live broadcast hanggang 7 araw sa nakaraan.
+
+Paalala: Kung ang 'Spoof video streams' ay hindi pinagana, ang pagpapagana nito ay maaaring magdulot ng hindi inaasahang paglundag sa livestream."</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Paganahin ang slide to seek</string>
   <string name="morphe_slide_to_seek_summary">Pinapagana ang slide to seek sa halip na magpatugtog sa 2x speed kapag pinipindot at hinahawakan ang video player</string>
@@ -453,7 +489,7 @@ Impormasyon: Maaaring hindi gumana sa mga live stream"</string>
   <string name="morphe_hide_ask_button_title">Itago ang Ask button</string>
   <!-- 'Clip' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_clip_button_title">Itago ang Clip button</string>
-  <string name="morphe_hide_clip_button_user_dialog_message">Ang hide function na ito ay maaaring hindi gumana para sa ilang user account.</string>
+  <string name="morphe_hide_clip_button_summary">Maaaring hindi ito gumana para sa ilang mga user account.</string>
   <!-- 'Shop' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_shop_button_title">Itago ang Shop button</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
@@ -519,7 +555,7 @@ Kinakailangan na ibigay ang 'Caption cookies'"</string>
   <string name="morphe_show_settings_button_type_title">Aksyon ng buton ng Mga Setting</string>
   <string name="morphe_show_settings_button_type_summary">Binubuksan ang Morphe settings kapag naka-enable, o YouTube settings kapag naka-disable</string>
   <string name="morphe_swap_create_with_notifications_button_title">Pagpalitin ang button na Create sa button na Notifications</string>
-  <string name="morphe_swap_create_with_notifications_button_user_dialog_message">Kung hindi umepekto ang pagbabago sa setting na ito, subukang lumipat sa Incognito mode.</string>
+  <string name="morphe_swap_create_with_notifications_button_summary">Kung ang pagbabago sa setting na ito ay hindi magkaroon ng epekto, subukang lumipat sa Incognito mode.</string>
   <string name="morphe_hide_navigation_button_labels_title">Itago ang mga tatak ng navigation button</string>
   <string name="morphe_hide_navigation_bar_title">Itago ang navigation bar</string>
   <string name="morphe_hide_navigation_bar_user_dialog_message">"Lubos na itinatago nito ang navigation bar, kabilang ang tab na 'You'.
@@ -613,7 +649,6 @@ Upang ipakita ang menu ng 'Audio Track', palitan ang 'Spoof video streams' sa 'A
   <string name="morphe_ambient_mode_screen_summary">Pamahalaan ang visibility ng Ambient mode at mga paghihigpit sa kuryente</string>
   <string name="morphe_bypass_ambient_mode_restrictions_title">Bypass ang Ambient mode restrictions</string>
   <string name="morphe_bypass_ambient_mode_restrictions_summary">Pinapayagan ang Ambient mode na manatiling aktibo sa battery saver mode</string>
-  <string name="morphe_bypass_ambient_mode_restrictions_user_dialog_message">Ang pagpapagana nito ay maaaring magdulot ng mas malalang battery life.</string>
   <string name="morphe_disable_ambient_mode_title">I-disable ang Ambient mode</string>
   <string name="morphe_disable_fullscreen_ambient_mode_title">I-disable ang ambient mode sa fullscreen</string>
   <!-- layout.hide.infocards.hideInfocardsPatch -->
@@ -678,11 +713,10 @@ Upang ipakita ang menu ng 'Audio Track', palitan ang 'Spoof video streams' sa 'A
   <string name="morphe_hide_shorts_navigation_bar_title">Itago ang navigation bar</string>
   <!-- layout.hide.endscreensuggestedvideo.hideEndScreenSuggestedVideoPatch -->
   <string name="morphe_hide_end_screen_suggested_video_title">Itago ang suggested video ng end screen</string>
-  <string name="morphe_hide_end_screen_suggested_video_summary">Itinatago ang iminungkahing overlay ng video na lumalabas pagkatapos matapos ang video</string>
-  <string name="morphe_hide_end_screen_suggested_video_user_dialog_message">"Ang setting na ito ay gagana lamang kung naka-off ang 'Autoplay next video'.
+  <string name="morphe_hide_end_screen_suggested_video_summary">"Itinatago ang iminungkahing video overlay na lumalabas pagkatapos ng pagtatapos ng video.
 
-Maaari mong baguhin ito sa YouTube:
-Settings → Playback (o Autoplay) → Autoplay next video"</string>
+Gumagana lamang ang setting na ito kung naka-off ang autoplay. Maaari mo itong baguhin sa YouTube:
+Mga Setting → Playback (o Autoplay) → Autoplay ng susunod na video."</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">Itago ang mga kaugnay na video</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
@@ -803,6 +837,18 @@ Settings → Playback (o Autoplay) → Autoplay next video"</string>
   <string name="morphe_sb_general_uuid_invalid">Ang pribadong user ID ay dapat na hindi bababa sa 30 karakter ang haba</string>
   <string name="morphe_sb_general_api_url">Baguhin ang URL ng API</string>
   <string name="morphe_sb_general_api_url_summary">Ang address na ginagamit ng SponsorBlock para gumawa ng mga tawag sa server</string>
+  <string name="morphe_sb_channel_whitelist">Listahan ng mga pinahihintulutang channel</string>
+  <string name="morphe_sb_channel_whitelist_summary">Hindi pinagana ang SponsorBlock para sa mga pinahihintulutang channel</string>
+  <string name="morphe_sb_channel_whitelist_current_channel">Kasalukuyang channel:</string>
+  <string name="morphe_sb_channel_whitelist_add">Idagdag sa whitelist</string>
+  <string name="morphe_sb_channel_whitelist_remove">Alisin</string>
+  <string name="morphe_sb_channel_whitelist_channels_header">Mga channel na nasa whitelist</string>
+  <string name="morphe_sb_channel_whitelist_empty">Walang channel na nasa whitelist</string>
+  <string name="morphe_sb_channel_whitelist_channel_added">Idinagdag ang channel sa whitelist</string>
+  <string name="morphe_sb_channel_whitelist_channel_removed">Tinanggal ang channel sa whitelist</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel">Magpadala ng notification kapag nasa whitelisted channel</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel_summary">Nagpapakita ng notification kapag ang SponsorBlock ay hindi pinagana para sa isang whitelisted channel</string>
+  <string name="morphe_sb_channel_whitelisted_toast">Hindi pinagana ang SponsorBlock para sa channel na ito</string>
   <string name="morphe_sb_api_url_reset">I-reset ang API URL</string>
   <string name="morphe_sb_api_url_invalid">Ang API URL ay hindi balido</string>
   <string name="morphe_sb_api_url_changed">Nabago ang API URL</string>
@@ -978,6 +1024,8 @@ Automotive layout
 • Hindi magagamit ang Remix button at Sound button sa Shorts
 • Ang Shorts ay bumubukas sa regular na player
 • Hindi nakatiklop ang Video action bar"</string>
+  <string name="morphe_tablet_layout_in_player_title">Paganahin ang layout ng tablet sa player</string>
+  <string name="morphe_tablet_layout_in_player_summary">Ibinabalik ang lumang layout ng player</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof app version</string>
   <string name="morphe_spoof_app_version_summary">Dinadaya ang server upang isipin na gumagamit ka ng mas lumang bersyon ng app upang ibalik ang legacy UI features</string>
@@ -1043,9 +1091,7 @@ Limitasyon: Maaaring hindi gumana ang paggamit ng back button sa toolbar"</strin
   <string name="morphe_shorts_autoplay_background_summary">Awtomatikong umuusad sa susunod na Short habang nagpe-playback sa background</string>
   <!-- layout.miniplayer.miniplayerPatch -->
   <string name="morphe_miniplayer_disable_resuming_title">Huwag paganahin ang pagpapatuloy ng miniplayer</string>
-  <string name="morphe_miniplayer_disable_resuming_summary">Pinipigilan ang \'Continue watching\' miniplayer na lumabas sa pag-startup ng app</string>
-  <string name="morphe_miniplayer_disable_resuming_user_dialog_message">"• Ang \"Ipagpatuloy ang panonood\" ay isang feature ng YouTube Premium
-• Hindi mapipilitan ang setting na ito na i-on ang Premium feature na ito"</string>
+  <string name="morphe_miniplayer_disable_resuming_summary">Hindi pinapagana ang \'Continue watching\' miniplayer, isang tampok ng YouTube Premium na lumalabas sa paglunsad ng app.</string>
   <string name="morphe_miniplayer_screen_title">Miniplayer</string>
   <string name="morphe_miniplayer_screen_summary">I-customize ang hitsura at pag-uugali ng minimize video player</string>
   <string name="morphe_miniplayer_type_title">Uri ng miniplayer</string>
@@ -1063,8 +1109,6 @@ Limitasyon: Maaaring hindi gumana ang paggamit ng back button sa toolbar"</strin
   <string name="morphe_miniplayer_disable_horizontal_drag_title">I-disable ang horizontal drag gesture</string>
   <string name="morphe_miniplayer_disable_horizontal_drag_summary">Pinipigilan ang pagsasara ng miniplayer sa pamamagitan ng pag-swipe nito pahalang sa screen</string>
   <string name="morphe_miniplayer_hide_overlay_buttons_title">Itago ang mga overlay button</string>
-  <string name="morphe_miniplayer_hide_subtext_title">Itago ang mga subtext</string>
-  <string name="morphe_miniplayer_hide_rewind_forward_title">Itago ang mga skip forward at back button</string>
   <string name="morphe_miniplayer_width_dip_title">Default size</string>
   <string name="morphe_miniplayer_width_dip_summary">Itakda ang panimulang on-screen size, sa pixels</string>
   <string name="morphe_miniplayer_width_dip_invalid_toast">Dapat nasa pagitan ng %1$s at %2$s ang sukat ng pixel</string>
@@ -1152,9 +1196,9 @@ I-tap dito upang matuto nang higit pa tungkol sa DeArrow"</string>
   <string name="morphe_disable_notification_media_seekbar_summary">Pinipigilan ang pag-drag ng seekbar sa lock screen at notification panel</string>
   <!-- misc.gms.accountCredentialsInvalidTextPatch -->
   <string name="microg_offline_account_login_error">Kung kamakailan mo binago ang iyong mga detalye sa pag-login ng account, i-uninstall at i-reinstall ang MicroG.</string>
-  <!-- misc.links.bypassURLRedirectsPatch -->
-  <string name="morphe_bypass_url_redirects_title">I-bypass ang mga paglilipat ng URL</string>
-  <string name="morphe_bypass_url_redirects_summary">Binubuksan ang orihinal na URL nang direkta, na nilalampasan ang link ng pagsubaybay (youtube.com/redirect)</string>
+  <!-- misc.links.bypassLinkRedirectsPatch -->
+  <string name="morphe_bypass_link_redirects_title">Lumaktaw sa mga pagpapalit ng link</string>
+  <string name="morphe_bypass_link_redirects_summary">Binubuksan ang orihinal na link nang direkta, nilalaktawan ang link ng pagsubaybay (youtube.com/redirect)</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <string name="morphe_external_browser_title">Buksan ang mga link sa browser</string>
   <string name="morphe_external_browser_summary">Binubuksan ang mga link sa isang external browser sa halip na sa in-app browser</string>
@@ -1198,6 +1242,8 @@ I-tap dito upang matuto nang higit pa tungkol sa DeArrow"</string>
   <string name="morphe_remember_playback_speed_last_selected_toast_summary">Nagpapakita ng notification kapag nai-save ang isang bagong default na bilis ng pag-playback</string>
   <string name="morphe_playback_speed_default_title">Default na bilis ng pag-playback</string>
   <string name="morphe_remember_playback_speed_toast">Binago ang default playback speed sa: %s</string>
+  <string name="morphe_disable_playback_speed_music_title">Gamitin ang normal na bilis para sa musika</string>
+  <string name="morphe_disable_playback_speed_music_summary">Laging patugtugin ang mga music video sa bilis na 1.0x</string>
   <!-- video.codecs.disableVideoCodecsPatch -->
   <string name="morphe_disable_hdr_video_title">Patayin ang HDR video</string>
   <string name="morphe_force_avc_codec_title">Puwersahin ang AVC (H.264) codec</string>
@@ -1212,11 +1258,6 @@ Mga limitasyon:
 • Ang ilang device ay hindi mapipilitan ng AVC"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <string name="morphe_force_avc_codec_not_available">Upang gamitin ang feature na ito, itakda ang \'Spoof video streams\' sa Android VR o Android Studio</string>
-  <!-- interaction.seekbar.expandLivestreamDvrDurationPatch -->
-  <string name="morphe_expand_livestream_dvr_duration_title">Palawakin ang tagal ng livestream DVR</string>
-  <string name="morphe_expand_livestream_dvr_duration_summary">Pinapayagan kang i-rewind ang mga live broadcast hanggang 7 araw pabalik</string>
-  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_expand_livestream_dvr_duration_user_dialog_message">Ang setting na ito ay maaaring magdulot ng hindi inaasahang pag-uugali kung ang \'Spoof video streams\' ay hindi naka-enable.</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Ipakita ang advanced na menu ng kalidad ng video</string>
   <!-- video.quality.hidePremiumVideoQualityPatch -->

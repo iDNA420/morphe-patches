@@ -14,13 +14,12 @@ import static app.morphe.extension.shared.Utils.getFilterStrings;
 import static app.morphe.extension.youtube.shared.NavigationBar.NavigationButton;
 
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
+import android.view.ViewParent;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -34,6 +33,7 @@ import app.morphe.extension.shared.Logger;
 import app.morphe.extension.shared.StringTrieSearch;
 import app.morphe.extension.shared.Utils;
 import app.morphe.extension.youtube.patches.ChangeHeaderPatch;
+import app.morphe.extension.youtube.patches.components.LithoFilterPatch.BufferAsciiStrings;
 import app.morphe.extension.youtube.settings.Settings;
 import app.morphe.extension.youtube.shared.ConversionContext.ContextInterface;
 
@@ -398,6 +398,7 @@ public final class LayoutComponentsFilter extends Filter {
                        String accessibility,
                        String path,
                        byte[] buffer,
+                       BufferAsciiStrings asciiStrings,
                        StringFilterGroup matchedGroup,
                        FilterContentType contentType,
                        int contentIndex) {
@@ -447,7 +448,8 @@ public final class LayoutComponentsFilter extends Filter {
                     return summaryCardBuffer.check(buffer).isFiltered();
                 }
                 case HIDE_PRODUCT_AND_SUMMARY -> {
-                    return summaryCardBuffer.check(buffer).isFiltered() || productCardBuffer.check(buffer).isFiltered();
+                    return summaryCardBuffer.check(buffer).isFiltered()
+                            || productCardBuffer.check(buffer).isFiltered();
                 }
                 default -> {
                     return false;
@@ -528,26 +530,6 @@ public final class LayoutComponentsFilter extends Filter {
      */
     public static void hideCrowdfundingBox(View view) {
         Utils.hideViewBy0dpUnderCondition(Settings.HIDE_CROWDFUNDING_BOX, view);
-    }
-
-    /**
-     * Injection point.
-     */
-    public static void hideLiveChatDonatorsBar(View view) {
-        if (view == null || !Settings.HIDE_LIVE_CHAT_DONATORS_BAR.get()) {
-            return;
-        }
-
-        view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            @Override
-            public void onGlobalLayout() {
-                view.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-
-                if (view.getParent() instanceof RecyclerView shelfContainerRecycleView) {
-                    shelfContainerRecycleView.setVisibility(RecyclerView.GONE);
-                }
-            }
-        });
     }
 
     /**
@@ -896,5 +878,95 @@ public final class LayoutComponentsFilter extends Filter {
             Logger.printDebug(() -> "Remove search suggestion: " + searchTerm);
         }
         return isSearchHistory;
+    }
+
+    private static final List<String> accountMenuFilterStrings = getFilterStrings(Settings.HIDE_ACCOUNT_MENU_FILTER_STRINGS);
+    private static final int[] accountTopItemDepths = new int[]{3, 2}; // Start from the highest depth to avoid hiding the wrong parent first
+    private static final int[] accountBottomItemModernDepths = new int[]{4, 3}; // Start from the highest depth to avoid hiding the wrong parent first
+    private static final int[] accountBottomItemLegacyDepths = new int[]{3, 2}; // Start from the highest depth to avoid hiding the wrong parent first
+
+    /**
+     * Injection point.
+     */
+    public static void hideAccountTopItem(View view, CharSequence menuTitleCharSequence) {
+        hideAccountItem(view, menuTitleCharSequence, accountTopItemDepths);
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideAccountBottomItemModern(View view, CharSequence menuTitleCharSequence) {
+        hideAccountItem(view, menuTitleCharSequence, accountBottomItemModernDepths);
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideAccountBottomItemLegacy(View view, CharSequence menuTitleCharSequence) {
+        hideAccountItem(view, menuTitleCharSequence, accountBottomItemLegacyDepths);
+    }
+
+    private static void hideAccountItem(View textView, CharSequence menuTitleCharSequence, int[] depths) {
+        if (!Settings.HIDE_ACCOUNT_MENU.get() || menuTitleCharSequence == null) return;
+        if (accountMenuFilterStrings.isEmpty()) return;
+
+        String menuTitleString = menuTitleCharSequence.toString();
+
+        boolean matches = false;
+        String menuTitleLower = menuTitleString.toLowerCase();
+        for (String filter : accountMenuFilterStrings) {
+            if (menuTitleLower.contains(filter.toLowerCase())) {
+                matches = true;
+                break;
+            }
+        }
+        if (!matches) return;
+
+        // Not all versions have the same depth. So perform a scan
+        // along all available depths, to find the right one.
+        for (int depth : depths) {
+            ViewParent parent = Utils.getParentView(textView, depth);
+            if (parent instanceof View current) {
+                Utils.hideViewByLayoutParams(current);
+                current.setVisibility(View.GONE);
+                if (current.getLayoutParams() instanceof ViewGroup.MarginLayoutParams marginParams) {
+                    marginParams.setMargins(0, 0, 0, 0);
+                    current.setLayoutParams(marginParams);
+                }
+            }
+        }
+    }
+
+    /**
+     * Injection point.
+     */
+    public static boolean hideSnackbar() {
+        return Settings.HIDE_SNACKBAR.get();
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideLithoSnackBar(FrameLayout frameLayout) {
+        if (Settings.HIDE_SNACKBAR.get()) {
+            Utils.hideViewByLayoutParams(frameLayout);
+        }
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void handleLegacySnackbar(View view) {
+        if (Settings.HIDE_SNACKBAR.get()) {
+            Utils.hideViewByLayoutParams(view);
+            view.setVisibility(View.GONE);
+        }
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideSyncButton(View view) {
+        Utils.hideViewBy0dpUnderCondition(Settings.HIDE_SYNC_BUTTON, view);
     }
 }

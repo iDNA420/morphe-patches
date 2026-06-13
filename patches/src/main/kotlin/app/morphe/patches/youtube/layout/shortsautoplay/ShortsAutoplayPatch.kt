@@ -11,6 +11,7 @@ import app.morphe.patches.all.misc.resources.resourceMappingPatch
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.patches.youtube.misc.extension.sharedExtensionPatch
 import app.morphe.patches.youtube.misc.playservice.is_21_10_or_greater
+import app.morphe.patches.youtube.misc.playservice.is_21_17_or_greater
 import app.morphe.patches.youtube.misc.playservice.versionCheckPatch
 import app.morphe.patches.youtube.misc.settings.PreferenceScreen
 import app.morphe.patches.youtube.misc.settings.settingsPatch
@@ -46,17 +47,15 @@ val shortsAutoplayPatch = bytecodePatch(
 
     execute {
         PreferenceScreen.SHORTS.addPreferences(
-            SwitchPreference("morphe_shorts_autoplay"),
-        )
-
-        PreferenceScreen.SHORTS.addPreferences(
-            SwitchPreference("morphe_shorts_autoplay_background"),
+            SwitchPreference("morphe_shorts_autoplay", summary = true),
+            SwitchPreference("morphe_shorts_autoplay_background", summary = true)
         )
 
         // Main activity is used to check if app is in pip mode.
         YouTubeActivityOnCreateFingerprint.method.addInstruction(
             0,
-            "invoke-static/range { p0 .. p0 }, $EXTENSION_CLASS->setMainActivity(Landroid/app/Activity;)V",
+            "invoke-static/range { p0 .. p0 }, $EXTENSION_CLASS->" +
+                    "setMainActivity(Landroid/app/Activity;)V",
         )
 
         var reelEnumClass : String
@@ -103,6 +102,8 @@ val shortsAutoplayPatch = bytecodePatch(
             }
         }
 
+        if (is_21_17_or_greater) return@execute
+
         // As of YouTube 20.09, Google has removed the code for 'Autoplay' and 'Pause' from this method.
         // Manually restore the removed 'Autoplay' code.
         // Variable names are only a rough guess of what these methods do.
@@ -124,8 +125,8 @@ val shortsAutoplayPatch = bytecodePatch(
                         reference?.definingClass == definingClass &&
                         reference.type == reelSequenceControllerMethodReference.definingClass
             }
-            val getReelSequenceControllerReference =
-                getInstruction<ReferenceInstruction>(getReelSequenceControllerIndex).reference
+            val getReelSequenceControllerReference = getInstruction<ReferenceInstruction>(
+                getReelSequenceControllerIndex).reference
 
             // Add a helper method to avoid finding multiple free registers.
             // If enum is autoplay then method performs autoplay and returns null,

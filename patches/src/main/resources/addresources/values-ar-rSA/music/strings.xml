@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 ثوانٍ</string>
   <string name="morphe_crossfade_duration_9000ms">9 ثوانٍ</string>
   <string name="morphe_crossfade_duration_10000ms">10 ثوانٍ</string>
+  <string name="morphe_crossfade_duration_11000ms">11 ثوانٍ</string>
+  <string name="morphe_crossfade_duration_12000ms">12 ثوانٍ</string>
   <string name="morphe_music_crossfade_on_skip_title">التعتيم عند تخطي يدوي</string>
   <string name="morphe_music_crossfade_on_skip_summary">يطبّق تأثير التلاشي التدريجي عند الانتقال يدويًا إلى المسار التالي</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">التعتيم أثناء التقديم التلقائي</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">تم استئناف التلاشي التدريجي</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">وضع الفيديو غير متاح أثناء تمكين التلاشي التدريجي</string>
   <string name="morphe_music_crossfade_about_title">لمحة</string>
-  <string name="morphe_music_crossfade_about_summary">"التعتيم متاح مع YouTube Music 8.x
-
-اضغط مع الاستمرار على زر التشغيل العشوائي لتعطيل/تمكين
+  <string name="morphe_music_crossfade_about_summary">"اضغط مع الاستمرار على زر التشغيل العشوائي لتعطيل/تمكين الميزة
 
 تنفيذ الميزة بواسطة VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">تمكين التكرار الدائم</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">إخفاء زر البث</string>
   <string name="morphe_music_hide_history_button_title">إخفاء زر السجل</string>
   <string name="morphe_music_hide_notification_button_title">إخفاء زر الإشعارات</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">قوائم التشغيل</string>
   <string name="morphe_change_start_page_entry_search">البحث</string>
   <string name="morphe_change_start_page_entry_subscriptions">الاشتراكات</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">إخفاء شريط الفئات</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">تغيير لون المشغل المصغر</string>
   <string name="morphe_music_change_miniplayer_color_summary">يتطابق لون المشغل المصغر مع المشغل بملء الشاشة</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">عرض زر التالي في المشغل المصغر</string>
   <string name="morphe_music_miniplayer_previous_button_title">عرض زر السابق في المشغل المصغر</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">تمكين فرض المشغل المصغر</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">يمنع المشغل من التوسع تلقائيًا إلى ملء الشاشة عند بدء مسار جديد</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">تمكين الإيماءة بالإزاحة لإغلاق المشغل المصغر</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">يسمح بإغلاق المشغل المصغر عن طريق تمرير الإصبع للأسفل عليه</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">شريط التنقل</string>
   <string name="morphe_music_navigation_bar_screen_summary">اختر الأزرار التي تظهر في شريط التنقل السفلي</string>

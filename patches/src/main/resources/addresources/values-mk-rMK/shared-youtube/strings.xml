@@ -92,11 +92,6 @@ Second \"item\" text"</string>
   <string name="morphe_oauth2_toast_reset">Одјавени од Android VR</string>
   <string name="morphe_oauth2_toast_invalid">Невалиден токен за пријава во VR, обидете се да се најавите во VR повторно</string>
   <string name="morphe_spoof_video_streams_disable_player_js_update_title">Исклучи ажурирање на JavaScript на плеер</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_summary">"Заклучува го JavaScript на плеер во локален хаш наместо да презема ажурирања
-
-• Задолжителен е валиден JavaScript хаш на плеер.
-• Репродукцијата ќе пропадне ако JavaScript хашот на плеер биде неважеден во GVS."</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_user_dialog_message">Хашевите на JavaScript на плеер се валидни приближно еден месец, а застарените хашеви може да бидат неважедни од GVS.</string>
   <string name="morphe_spoof_video_streams_player_js_hash_value_title">JavaScript хаш на плеер</string>
   <string name="morphe_spoof_video_streams_player_js_hash_value_summary">Внесете валиден JavaScript хаш на плеер</string>
   <!-- misc.quic.disableQUICProtocolPatch -->

@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 detik</string>
   <string name="morphe_crossfade_duration_9000ms">9 detik</string>
   <string name="morphe_crossfade_duration_10000ms">10 detik</string>
+  <string name="morphe_crossfade_duration_11000ms">11 detik</string>
+  <string name="morphe_crossfade_duration_12000ms">12 detik</string>
   <string name="morphe_music_crossfade_on_skip_title">Pudar silang saat melewatkan manual</string>
   <string name="morphe_music_crossfade_on_skip_summary">Menerapkan efek pudar silang saat Anda melewati trek berikutnya secara manual</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Fade silang saat otomatis maju</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Pudar silang dilanjutkan</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Mode video tidak tersedia saat pudar silang diaktifkan</string>
   <string name="morphe_music_crossfade_about_title">Tentang</string>
-  <string name="morphe_music_crossfade_about_summary">"Pudar silang tersedia di YouTube Music 8.x
-
-Tekan lama tombol acak untuk menonaktifkan/mengaktifkan
+  <string name="morphe_music_crossfade_about_summary">"Tekan lama tombol acak untuk menonaktifkan/mengaktifkan
 
 Implementasi fitur oleh VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Aktifkan pengulangan permanen</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Sembunyikan tombol transmisi</string>
   <string name="morphe_music_hide_history_button_title">Sembunyikan tombol Riwayat</string>
   <string name="morphe_music_hide_notification_button_title">Sembunyikan tombol pemberitahuan</string>
@@ -92,17 +92,20 @@ Implementasi fitur oleh VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Daftar Putar</string>
   <string name="morphe_change_start_page_entry_search">Pencarian</string>
   <string name="morphe_change_start_page_entry_subscriptions">Langganan</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Sembunyikan bilah kategori</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Ubah warna pemutar mini</string>
   <string name="morphe_music_change_miniplayer_color_summary">Menyesuaikan warna pemutar mini dengan pemutar layar penuh</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Tampilkan tombol berikutnya di pemutar mini</string>
   <string name="morphe_music_miniplayer_previous_button_title">Tampilkan tombol sebelumnya di pemutar mini</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Aktifkan paksa pemutar mini</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Mencegah pemutar otomatis membesar ke layar penuh saat trek baru dimulai</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Aktifkan usap untuk menutup pemutar mini</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Mengizinkan untuk menutup pemutar mini dengan mengusapnya ke bawah</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Bilah navigasi</string>
   <string name="morphe_music_navigation_bar_screen_summary">Pilih tombol mana yang akan ditampilkan di bilah navigasi bawah</string>

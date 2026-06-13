@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 секунди</string>
   <string name="morphe_crossfade_duration_9000ms">9 секунди</string>
   <string name="morphe_crossfade_duration_10000ms">10 секунди</string>
+  <string name="morphe_crossfade_duration_11000ms">11 секунди</string>
+  <string name="morphe_crossfade_duration_12000ms">12 секунди</string>
   <string name="morphe_music_crossfade_on_skip_title">Избледняване при ръчно прескачане</string>
   <string name="morphe_music_crossfade_on_skip_summary">Прилага ефекта на кръстосаното избледняване, когато ръчно прескочите към следващата песен.</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Избледняване при автоматично превъртане</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Преливането е възобновено</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Видео режимът не е достъпен, докато преливането е активирано</string>
   <string name="morphe_music_crossfade_about_title">Относно</string>
-  <string name="morphe_music_crossfade_about_summary">"Избледняването е налично с YouTube Music 8.x.
+  <string name="morphe_music_crossfade_about_summary">"Натиснете и задръжте бутона за разбъркване, за да деактивирате/активирате
 
-Натиснете продължително бутона за разбъркване, за да го деактивирате/активирате
-
-Реализация на функцията от VazerOG"</string>
+Изпълнение на функцията от VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Включи постоянно повтаряне</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Бутон за предаване на Тв</string>
   <string name="morphe_music_hide_history_button_title">Скрийте бутона \"История\"</string>
   <string name="morphe_music_hide_notification_button_title">Бутон за Известия</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">Списъци</string>
   <string name="morphe_change_start_page_entry_search">Търсене</string>
   <string name="morphe_change_start_page_entry_subscriptions">Абонаменти</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Скриване на панела с Категории</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Смени цвет на миниплеъра</string>
   <string name="morphe_music_change_miniplayer_color_summary">Цвятът на миниплеера съвпада с цвятът на пълноекранния плеер</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Покажи следващия бутон в мини плейъра</string>
   <string name="morphe_music_miniplayer_previous_button_title">Показ предишен бутон в мини плейъра</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Активиране на принудителния мини плейър</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Предотвратява автоматичното разширяване на плейъра до цял екран, когато започне нова песен.</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Активиране на плъзгане за затваряне на миниплейъра</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Позволява затваряне на миниплейъра чрез плъзгане надолу по него</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Навигационна лента</string>
   <string name="morphe_music_navigation_bar_screen_summary">Изберете кои бутони да се показват в долната навигационна лента</string>

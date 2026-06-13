@@ -33,12 +33,8 @@ fun overrideThemeColors(lightThemeColorString: String?, darkThemeColorString: St
 
 private val settingsColorPatch = bytecodePatch {
     finalize {
-        if (lightThemeColor != null) {
-            ThemeLightColorResourceNameFingerprint.method.returnEarly(lightThemeColor!!)
-        }
-        if (darkThemeColor != null) {
-            ThemeDarkColorResourceNameFingerprint.method.returnEarly(darkThemeColor!!)
-        }
+        lightThemeColor?.let { ThemeLightColorResourceNameFingerprint.method.returnEarly(it) }
+        darkThemeColor?.let { ThemeDarkColorResourceNameFingerprint.method.returnEarly(it) }
     }
 }
 
@@ -109,9 +105,7 @@ fun settingsPatch (
 
     finalize {
         fun Node.addPreference(preference: BasePreference) {
-            preference.serialize(ownerDocument) { resource ->
-                // FIXME? Not needed anymore?
-//                addResource("values", resource)
+            preference.serialize(ownerDocument) { _ ->
             }.let { preferenceNode ->
                 insertFirst(preferenceNode)
             }

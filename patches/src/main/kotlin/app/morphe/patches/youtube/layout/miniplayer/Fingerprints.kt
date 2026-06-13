@@ -19,9 +19,6 @@ import com.android.tools.smali.dexlib2.Opcode
 
 internal const val MINIPLAYER_MODERN_FEATURE_KEY = 45622882L
 internal const val MINIPLAYER_MODERN_TYPE_1_FEATURE_KEY = 45623000L
-internal const val MINIPLAYER_MODERN_TYPE_2_FEATURE_KEY = 45623273L
-internal const val MINIPLAYER_MODERN_TYPE_3_FEATURE_KEY = 45623076L
-internal const val MINIPLAYER_MODERN_TYPE_4_FEATURE_KEY = 45674402L
 internal const val MINIPLAYER_DOUBLE_TAP_FEATURE_KEY = 45628823L
 internal const val MINIPLAYER_DRAG_DROP_FEATURE_KEY = 45628752L
 internal const val MINIPLAYER_HORIZONTAL_DRAG_FEATURE_KEY = 45658112L
@@ -65,13 +62,6 @@ private object MiniplayerModernViewParentFingerprint : Fingerprint(
     )
 )
 
-internal object MiniplayerModernAddViewListenerFingerprint : Fingerprint(
-    classFingerprint = MiniplayerModernViewParentFingerprint,
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
-    returnType = "V",
-    parameters = listOf("Landroid/view/View;"),
-)
-
 internal object MiniplayerModernCloseButtonFingerprint : Fingerprint(
     classFingerprint = MiniplayerModernViewParentFingerprint,
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
@@ -94,34 +84,12 @@ internal object MiniplayerModernExpandButtonFingerprint : Fingerprint(
     )
 )
 
-internal object MiniplayerModernForwardButtonFingerprint : Fingerprint(
-    classFingerprint = MiniplayerModernViewParentFingerprint,
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
-    returnType = "L",
-    parameters = listOf(),
-    filters = listOf(
-        resourceLiteral(ResourceType.ID, "modern_miniplayer_forward_button"),
-        opcode(Opcode.MOVE_RESULT_OBJECT, MatchAfterWithin(5))
-    )
-)
-
 internal object MiniplayerModernOverlayViewFingerprint : Fingerprint(
     classFingerprint = MiniplayerModernViewParentFingerprint,
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
     parameters = listOf(),
     filters = listOf(
         resourceLiteral(ResourceType.ID, "scrim_overlay"),
-        opcode(Opcode.MOVE_RESULT_OBJECT, MatchAfterWithin(5))
-    )
-)
-
-internal object MiniplayerModernRewindButtonFingerprint : Fingerprint(
-    classFingerprint = MiniplayerModernViewParentFingerprint,
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
-    returnType = "L",
-    parameters = listOf(),
-    filters = listOf(
-        resourceLiteral(ResourceType.ID, "modern_miniplayer_rewind_button"),
         opcode(Opcode.MOVE_RESULT_OBJECT, MatchAfterWithin(5))
     )
 )
@@ -199,7 +167,24 @@ internal object MiniplayerOnCloseHandlerFingerprint : Fingerprint(
     )
 )
 
+// 21.17+
 internal object MiniplayerSetIconsFingerprint : Fingerprint(
+    classFingerprint = Fingerprint(
+        accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+        returnType = "Landroid/graphics/drawable/Drawable;",
+        filters = listOf(
+            resourceLiteral(ResourceType.DRAWABLE, "floatybar_progress_circle_autonav")
+        )
+    ),
+    returnType = "V",
+    parameters = listOf("Landroid/graphics/drawable/Drawable;", "I"),
+    filters = listOf(
+        methodCall(smali = "Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V")
+    )
+)
+
+// 21.16 and lower
+internal object MiniplayerSetIconsLegacyFingerprint : Fingerprint(
     returnType = "V",
     parameters = listOf("I", "Ljava/lang/Runnable;"),
     filters = listOf(

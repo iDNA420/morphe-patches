@@ -33,7 +33,7 @@ Second \"item\" text"</string>
   <!-- ad.video.hideVideoAdsPatch -->
   <string name="morphe_music_hide_video_ads_title">Masquer les publicités vidéo</string>
   <!-- interaction.crossfade.crossfadePatch -->
-  <string name="morphe_music_crossfade_screen_title">Effacer la transition</string>
+  <string name="morphe_music_crossfade_screen_title">Fondu enchaîné</string>
   <string name="morphe_music_crossfade_screen_summary">Enchaîner harmonieusement les morceaux les uns avec les autres</string>
   <string name="morphe_music_crossfade_enabled_title">Activer le fondu enchaîné</string>
   <string name="morphe_music_crossfade_curve_title">Courbe de fondu</string>
@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 secondes</string>
   <string name="morphe_crossfade_duration_9000ms">9 secondes</string>
   <string name="morphe_crossfade_duration_10000ms">10 secondes</string>
+  <string name="morphe_crossfade_duration_11000ms">11 secondes</string>
+  <string name="morphe_crossfade_duration_12000ms">12 secondes</string>
   <string name="morphe_music_crossfade_on_skip_title">Fondu enchaîné lors des passages manuels</string>
   <string name="morphe_music_crossfade_on_skip_summary">Applique l\'effet de fondu enchaîné lorsque vous passez manuellement au morceau suivant</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Fondu enchaîné lors des passages automatiques</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Fondu enchaîné repris</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Le mode vidéo n\'est pas disponible lorsque le fondu enchaîné est activé</string>
   <string name="morphe_music_crossfade_about_title">À propos</string>
-  <string name="morphe_music_crossfade_about_summary">"Le fondu enchaîné est disponible avec YouTube Music 8.x
-
-Appuyez longuement sur le bouton 'Lecture aléatoire' pour le désactiver/l’activer
+  <string name="morphe_music_crossfade_about_summary">"Appuyez longuement sur le bouton 'Lecture aléatoire' pour désactiver/activer
 
 Implémentation de la fonctionnalité par VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Activer la lecture en boucle permanente</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Masquer le bouton \'Caster\'</string>
   <string name="morphe_music_hide_history_button_title">Masquer le bouton \'Historique\'</string>
   <string name="morphe_music_hide_notification_button_title">Masquer le bouton \'Notification\'</string>
@@ -92,17 +92,20 @@ Implémentation de la fonctionnalité par VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Playlists</string>
   <string name="morphe_change_start_page_entry_search">Rechercher</string>
   <string name="morphe_change_start_page_entry_subscriptions">Abonnements</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Masquer la barre des catégories</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Modifier la couleur du mini-lecteur</string>
   <string name="morphe_music_change_miniplayer_color_summary">La couleur du mini-lecteur correspond à la couleur du lecteur plein écran.</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Afficher le bouton \'Suivant\' sur le mini-lecteur</string>
   <string name="morphe_music_miniplayer_previous_button_title">Afficher le bouton \'Précédent\' sur le mini-lecteur</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Activer le mini-lecteur forcé</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Empêche le lecteur de passer automatiquement en plein écran lorsqu’un nouveau morceau commence</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Activer le balayage pour fermer le mini-lecteur</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Permet de fermer le mini-lecteur en effectuant un balayage vers le bas dessus</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Barre de navigation</string>
   <string name="morphe_music_navigation_bar_screen_summary">Choisissez les boutons qui apparaissent dans la barre de navigation inférieure</string>

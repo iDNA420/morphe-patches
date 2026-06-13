@@ -464,3 +464,196 @@ internal object CreateSearchSuggestionsFingerprint : Fingerprint(
     ),
     strings = listOf("ss_rds")
 )
+
+internal object ThumbnailAndEmojiPickerContainerFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    returnType = "Landroid/view/View;",
+    parameters = listOf(),
+    filters = listOf(
+        resourceLiteral(ResourceType.ID, "thumbnail_and_emoji_picker_container"),
+        methodCall(
+            opcode = Opcode.INVOKE_VIRTUAL,
+            name = "findViewById"
+        ),
+        opcode(Opcode.MOVE_RESULT_OBJECT, location = MatchAfterImmediately())
+    )
+)
+
+internal object InlineExtraButtonsContainerFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    returnType = "Landroid/view/ViewGroup;",
+    parameters = listOf(),
+    filters = listOf(
+        resourceLiteral(ResourceType.ID, "inline_extra_buttons_container"),
+        methodCall(
+            opcode = Opcode.INVOKE_VIRTUAL,
+            name = "findViewById"
+        ),
+        opcode(Opcode.MOVE_RESULT_OBJECT, location = MatchAfterImmediately())
+    )
+)
+
+internal object AccountListParentFingerprint : Fingerprint(
+    filters = listOf(
+        resourceLiteral(ResourceType.LAYOUT, "compact_list_item")
+    )
+)
+
+internal object AccountListFingerprint : Fingerprint(
+    classFingerprint = AccountListParentFingerprint,
+    accessFlags = listOf(AccessFlags.PROTECTED, AccessFlags.FINAL, AccessFlags.SYNTHETIC),
+    returnType = "V",
+    filters = listOf(
+        resourceLiteral(ResourceType.ATTR, "ytCallToAction")
+    )
+)
+
+internal object AccountMenuParentFingerprint : Fingerprint(
+    filters = listOf(
+        resourceLiteral(ResourceType.LAYOUT, "account_compact_link"),
+        opcode(Opcode.CONST_4, location = MatchAfterWithin(5)),
+        opcode(Opcode.INVOKE_VIRTUAL, location = MatchAfterWithin(5)),
+        opcode(Opcode.MOVE_RESULT_OBJECT, location = MatchAfterImmediately())
+    )
+)
+
+internal object AccountMenuFingerprint : Fingerprint(
+    classFingerprint = AccountMenuParentFingerprint,
+    returnType = "V",
+    filters = opcodesToFilters(
+        Opcode.INVOKE_STATIC,
+        Opcode.MOVE_RESULT_OBJECT,
+        Opcode.INVOKE_STATIC,
+        Opcode.IGET,
+        Opcode.AND_INT_LIT16
+    )
+)
+
+internal object AccountMenuLegacyParentFingerprint : Fingerprint(
+    filters = listOf(
+        resourceLiteral(ResourceType.LAYOUT, "compact_link"),
+        opcode(Opcode.CONST_4, location = MatchAfterWithin(5)),
+        opcode(Opcode.INVOKE_VIRTUAL, location = MatchAfterWithin(5)),
+        opcode(Opcode.MOVE_RESULT_OBJECT, location = MatchAfterImmediately())
+    )
+)
+
+internal object AccountMenuLegacyFingerprint : Fingerprint(
+    classFingerprint = AccountMenuLegacyParentFingerprint,
+    returnType = "V",
+    filters = opcodesToFilters(
+        Opcode.INVOKE_STATIC,
+        Opcode.MOVE_RESULT_OBJECT,
+        Opcode.INVOKE_STATIC,
+        Opcode.IGET,
+        Opcode.AND_INT_LIT16
+    )
+)
+
+internal object BottomUIContainerFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/app/common/ui/bottomui/BottomUiContainer;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
+    returnType = "V",
+    parameters = listOf("Landroid/view/View;", "L"),
+    filters = listOf(
+        methodCall(
+            definingClass = "this",
+            name = "removeAllViews"
+        )
+    )
+)
+
+internal object LithoSnackbarLayoutFingerprint : Fingerprint(
+    returnType = "Landroid/view/View;",
+    parameters = listOf(
+        "Landroid/view/LayoutInflater;",
+        "Landroid/view/ViewGroup;",
+        "Landroid/os/Bundle;"
+    ),
+    filters = listOf(
+        fieldAccess(
+            definingClass = "this",
+            opcode = Opcode.IPUT_OBJECT,
+            type = "Landroid/widget/FrameLayout;"
+        )
+    ),
+    strings = listOf(
+        "instance_action_bar_color",
+        "instance_status_bar_color",
+        "instance_activated_text_color",
+        "instance_secondary_text_color"
+    )
+)
+
+internal object MaterialSnackbarFingerprint : Fingerprint(
+    definingClass = $$"Lcom/google/android/material/snackbar/Snackbar$SnackbarLayout;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("Landroid/content/Context;", "Landroid/util/AttributeSet;"),
+    filters = listOf(
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>"
+        )
+    )
+)
+
+internal object AppSnackbarFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/app/common/ui/bottomui/AppSnackbar;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("Landroid/content/Context;"),
+    filters = listOf(
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>"
+        )
+    )
+)
+
+internal object YouTubeSnackbarFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/app/common/ui/bottomui/YouTubeSnackbar;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("Landroid/content/Context;", "Landroid/util/AttributeSet;", "I"),
+    filters = listOf(
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>"
+        )
+    )
+)
+
+internal object MealbarFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/apps/youtube/app/common/ui/bottomui/Mealbar;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("Landroid/content/Context;", "Landroid/util/AttributeSet;", "I"),
+    filters = listOf(
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>"
+        )
+    )
+)
+
+internal object QuantumSnackbarFingerprint : Fingerprint(
+    definingClass = "Lcom/google/android/libraries/quantum/snackbar/Snackbar;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("Landroid/content/Context;", "Landroid/util/AttributeSet;"),
+    filters = listOf(
+        methodCall(
+            opcode = Opcode.INVOKE_DIRECT,
+            name = "<init>"
+        )
+    )
+)
+
+internal object SyncButtonFingerprint : Fingerprint(
+    accessFlags = listOf(AccessFlags.PROTECTED, AccessFlags.FINAL),
+    filters = listOf(
+        resourceLiteral(ResourceType.LAYOUT, "sync_button"),
+        methodCall(
+            opcode = Opcode.INVOKE_VIRTUAL,
+            name = "inflate",
+            returnType = "Landroid/view/View;",
+        ),
+        opcode(Opcode.MOVE_RESULT_OBJECT, location = MatchAfterImmediately())
+    )
+)

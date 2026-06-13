@@ -68,6 +68,8 @@ Second \"item\" text"</string>
     <string name="morphe_crossfade_duration_8000ms">8 seconds</string>
     <string name="morphe_crossfade_duration_9000ms">9 seconds</string>
     <string name="morphe_crossfade_duration_10000ms">10 seconds</string>
+    <string name="morphe_crossfade_duration_11000ms">11 seconds</string>
+    <string name="morphe_crossfade_duration_12000ms">12 seconds</string>
     <string name="morphe_music_crossfade_on_skip_title">Crossfade on manual skip</string>
     <string name="morphe_music_crossfade_on_skip_summary">Applies the crossfade effect when you manually skip to the next track</string>
     <string name="morphe_music_crossfade_on_auto_advance_title">Crossfade on auto-advance</string>
@@ -78,16 +80,14 @@ Second \"item\" text"</string>
     <string name="morphe_music_crossfade_resumed_toast">Crossfade resumed</string>
     <string name="morphe_music_crossfade_video_mode_disabled_toast">Video mode is not available while crossfade is enabled</string>
     <string name="morphe_music_crossfade_about_title">About</string>
-    <string name="morphe_music_crossfade_about_summary">"Crossfade is available with YouTube Music 8.x
-
-Long press the shuffle button to disable/enable
+    <string name="morphe_music_crossfade_about_summary">"Long press the shuffle button to disable/enable
 
 Feature implementation by VazerOG"</string>
 
     <!-- interaction.permanentrepeat.permanentRepeatPatch -->
     <string name="morphe_music_play_permanent_repeat_title">Enable permanent repeat</string>
 
-    <!-- layout.buttons.hideButtons -->
+    <!-- layout.buttons.hideButtonsPatch -->
     <string name="morphe_music_hide_cast_button_title">Hide cast button</string>
     <string name="morphe_music_hide_history_button_title">Hide history button</string>
     <string name="morphe_music_hide_notification_button_title">Hide notification button</string>
@@ -106,20 +106,24 @@ Feature implementation by VazerOG"</string>
     <string name="morphe_change_start_page_entry_search">Search</string>
     <string name="morphe_change_start_page_entry_subscriptions">Subscriptions</string>
 
-    <!-- layout.compactheader.hideCategoryBar -->
+    <!-- layout.compactheader.hideCategoryBarPatch -->
     <string name="morphe_music_hide_category_bar_title">Hide category bar</string>
 
-    <!-- layout.miniplayer.changeMiniplayerColor -->
+    <!-- layout.miniplayer.changeMiniplayerColorPatch -->
     <string name="morphe_music_change_miniplayer_color_title">Change miniplayer color</string>
     <string name="morphe_music_change_miniplayer_color_summary">Matches the miniplayer color to the fullscreen player</string>
 
-    <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+    <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
     <string name="morphe_music_miniplayer_next_button_title">Show next button in miniplayer</string>
     <string name="morphe_music_miniplayer_previous_button_title">Show previous button in miniplayer</string>
 
-    <!-- layout.miniplayer.enableForcedMiniplayer -->
+    <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
     <string name="morphe_music_enable_forced_miniplayer_title">Enable forced miniplayer</string>
     <string name="morphe_music_enable_forced_miniplayer_summary">Prevents the player from automatically expanding to fullscreen when a new track starts</string>
+
+    <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+    <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Enable swipe to dismiss miniplayer</string>
+    <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Allows to dismiss the miniplayer by swiping down on it</string>
 
     <!-- layout.navigationbar.navigationBarPatch -->
     <string name="morphe_music_navigation_bar_screen_title">Navigation bar</string>

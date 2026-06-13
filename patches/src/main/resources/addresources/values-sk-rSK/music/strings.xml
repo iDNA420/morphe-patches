@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekúnd</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekúnd</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekúnd</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekúnd</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekúnd</string>
   <string name="morphe_music_crossfade_on_skip_title">Prechod pri manuálnom preskočení</string>
   <string name="morphe_music_crossfade_on_skip_summary">Aplikuje efekt prechodu medzi skladbami, keď manuálne preskočíte na ďalšiu skladbu</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Prechod pri automatickom postupe</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Prechodové zmiznutie zvuku obnovené</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Režim videa nie je dostupný, keď je zapnuté prechodové zmiznutie zvuku</string>
   <string name="morphe_music_crossfade_about_title">O aplikácii</string>
-  <string name="morphe_music_crossfade_about_summary">"Prechod je dostupný s YouTube Music 8.x
-
-Dlhým stlačením tlačidla náhodného výberu ho vypnete/zapnete
+  <string name="morphe_music_crossfade_about_summary">"Dlhým stlačením tlačidla náhodného výberu zapnete/vypnete funkciu.
 
 Implementácia funkcie od VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Zapnúť permanentné opakovanie prehrávania</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Skryť tlačidlo Prenos</string>
   <string name="morphe_music_hide_history_button_title">Skryť tlačidlo histórie</string>
   <string name="morphe_music_hide_notification_button_title">Skryť tlačidlo upozornení</string>
@@ -92,17 +92,20 @@ Implementácia funkcie od VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Zoznamy</string>
   <string name="morphe_change_start_page_entry_search">Hľadať</string>
   <string name="morphe_change_start_page_entry_subscriptions">Odbery</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Skryť panel kategórií</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Zmeniť farbu miniprehrávača</string>
   <string name="morphe_music_change_miniplayer_color_summary">Farba miniprehrávača zodpovedá farbe prehrávača na celú obrazovku</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Zobraziť tlačidlo \'Ďalšia skladba\' v miniprehrávači</string>
   <string name="morphe_music_miniplayer_previous_button_title">Zobraziť tlačidlo \'Predošlá skladba\' v miniprehrávači</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Povoliť vynútenie miniprehrávača</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Zabráni automatickému rozbaleniu prehrávača na celú obrazovku, keď sa začne nová skladba</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Povoliť zatiahnutie prstom na zatvorenie miniaplikácie</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Umožňuje zatvoriť miniaplikáciu ťahom smerom nadol</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigačný panel</string>
   <string name="morphe_music_navigation_bar_screen_summary">Vyberte, ktoré tlačidlá sa majú zobraziť na spodnej navigačnej lište</string>

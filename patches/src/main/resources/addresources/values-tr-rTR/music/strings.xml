@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 saniye</string>
   <string name="morphe_crossfade_duration_9000ms">9 saniye</string>
   <string name="morphe_crossfade_duration_10000ms">10 saniye</string>
+  <string name="morphe_crossfade_duration_11000ms">11 saniye</string>
+  <string name="morphe_crossfade_duration_12000ms">12 saniye</string>
   <string name="morphe_music_crossfade_on_skip_title">Manuel atlamada geçiş</string>
   <string name="morphe_music_crossfade_on_skip_summary">Sonraki parçaya manuel olarak atladığınızda geçiş efekti uygular</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Otomatik ilerlemede geçiş</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Geçiş devam ettirildi</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Geçiş etkinken video modu kullanılamaz</string>
   <string name="morphe_music_crossfade_about_title">Hakkında</string>
-  <string name="morphe_music_crossfade_about_summary">"Geçiş YouTube Music 8.x ile kullanılabilir
+  <string name="morphe_music_crossfade_about_summary">"Karıştırma düğmesine uzun basarak devre dışı bırak/etkinleştir
 
-Karıştırma düğmesine uzun basarak devre dışı bırak/etkinleştir
-
-VazerOG'den özellik uyarlaması"</string>
+Özellik VazerOG tarafından uygulanmıştır"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Kalıcı tekrarı etkinleştir</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Yayınla düğmesini gizle</string>
   <string name="morphe_music_hide_history_button_title">Geçmiş düğmesini gizle</string>
   <string name="morphe_music_hide_notification_button_title">Bildirim düğmesini gizle</string>
@@ -92,17 +92,20 @@ VazerOG'den özellik uyarlaması"</string>
   <string name="morphe_change_start_page_entry_playlists">Oynatma listeleri</string>
   <string name="morphe_change_start_page_entry_search">Arama</string>
   <string name="morphe_change_start_page_entry_subscriptions">Abonelikler</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Kategori çubuğunu gizle</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Mini oynatıcı rengini değiştir</string>
   <string name="morphe_music_change_miniplayer_color_summary">Mini oynatıcı rengini tam ekran oynatıcıyla eşleştirir</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Mini oynatıcıda sonraki düğmesini göster</string>
   <string name="morphe_music_miniplayer_previous_button_title">Mini oynatıcıda önceki düğmesini göster</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Zorunlu mini oynatıcıyı etkinleştir</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Yeni bir parça başladığında oynatıcının otomatik olarak tam ekrana geçmesini engeller</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Mini oynatıcıyı kaydırarak kapatmayı etkinleştir</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Mini oynatıcıyı kaydırarak kapatmanıza olanak tanır</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Gezinme çubuğu</string>
   <string name="morphe_music_navigation_bar_screen_summary">Alt gezinme çubuğunda hangi düğmelerin görüneceğini seçin</string>

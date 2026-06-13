@@ -32,6 +32,7 @@ import app.morphe.extension.youtube.settings.search.YouTubeSearchViewController;
  * Hooks {@link GoogleApiActivity} to inject a custom {@link YouTubePreferenceFragment}
  * with a toolbar and search functionality.
  */
+@SuppressWarnings("deprecation")
 public class YouTubeActivityHook extends BaseActivityHook {
 
     /**
@@ -41,7 +42,7 @@ public class YouTubeActivityHook extends BaseActivityHook {
      */
     private static final long MINIMUM_TIME_AFTER_FIRST_LAUNCH_BEFORE_ALLOWING_BOLD_ICONS = 30 * 1000; // 30 seconds.
 
-    private static final boolean USE_BOLD_ICONS = VersionCheckPatch.IS_20_31_OR_GREATER
+    public static final boolean USE_BOLD_ICONS = VersionCheckPatch.IS_20_31_OR_GREATER
             && !Settings.RESTORE_OLD_SETTINGS_MENUS.get()
             && (System.currentTimeMillis() - Settings.FIRST_TIME_APP_LAUNCHED.get())
                 > MINIMUM_TIME_AFTER_FIRST_LAUNCH_BEFORE_ALLOWING_BOLD_ICONS
@@ -122,7 +123,6 @@ public class YouTubeActivityHook extends BaseActivityHook {
      * @param toolbar  The configured toolbar.
      * @param fragment The PreferenceFragment associated with the activity.
      */
-    @SuppressWarnings("deprecation")
     @Override
     protected void onPostToolbarSetup(Activity activity, Toolbar toolbar, PreferenceFragment fragment) {
         if (fragment instanceof YouTubePreferenceFragment) {
@@ -134,7 +134,6 @@ public class YouTubeActivityHook extends BaseActivityHook {
     /**
      * Creates a new {@link YouTubePreferenceFragment} for the activity.
      */
-    @SuppressWarnings("deprecation")
     @Override
     protected PreferenceFragment createPreferenceFragment() {
         return new YouTubePreferenceFragment();

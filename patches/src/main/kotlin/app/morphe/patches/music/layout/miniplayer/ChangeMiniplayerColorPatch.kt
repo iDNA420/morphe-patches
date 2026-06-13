@@ -24,7 +24,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/music/patches/ChangeMiniplayerColorPatch;"
 
 @Suppress("unused")
-val changeMiniplayerColor = bytecodePatch(
+val changeMiniplayerColorPatch = bytecodePatch(
     name = "Change miniplayer color",
     description = "Adds an option to change the miniplayer background color to match the fullscreen player."
 ) {
@@ -38,7 +38,7 @@ val changeMiniplayerColor = bytecodePatch(
 
     execute {
         PreferenceScreen.PLAYER.addPreferences(
-            SwitchPreference("morphe_music_change_miniplayer_color"),
+            SwitchPreference("morphe_music_change_miniplayer_color", summary = true),
         )
 
         SwitchToggleColorFingerprint.let {

@@ -56,6 +56,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekunder</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekunder</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekunder</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekunder</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekunder</string>
   <string name="morphe_music_crossfade_on_skip_title">Övertoning vid manuell överhoppning</string>
   <string name="morphe_music_crossfade_on_skip_summary">Tillämpar övertoningseffekten när du hoppar till nästa spår manuellt</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Övertoning vid automatisk fortsättning</string>
@@ -66,14 +68,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Övertoningar återupptogs</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Videoläge är inte tillgängligt när övertoningar är aktiverade</string>
   <string name="morphe_music_crossfade_about_title">Om</string>
-  <string name="morphe_music_crossfade_about_summary">"Övertoningar är tillgängliga med YouTube Music 8.x
-
-Tryck länge på knappen Shuffla för att inaktivera/aktivera
-
-Funktionen implementerades av VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Aktivera permanent upprepning</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Dölj knappen Casta</string>
   <string name="morphe_music_hide_history_button_title">Dölj historikknappen</string>
   <string name="morphe_music_hide_notification_button_title">Dölj aviseringsknappen</string>
@@ -90,17 +87,18 @@ Funktionen implementerades av VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Spellistor</string>
   <string name="morphe_change_start_page_entry_search">Sök</string>
   <string name="morphe_change_start_page_entry_subscriptions">Prenumerationer</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Dölj kategorifält</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Ändra minispelarens färg</string>
   <string name="morphe_music_change_miniplayer_color_summary">Minispelarens färg matchar helskärmsspelaren</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Visa knappen Nästa i minispelaren</string>
   <string name="morphe_music_miniplayer_previous_button_title">Visa knappen Föregående i minispelaren</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Aktivera tvingad minispelare</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Förhindrar att spelaren automatiskt växlar till helskärmsläge när en ny låt startar</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigeringsfält</string>
   <string name="morphe_music_navigation_bar_screen_summary">Välj vilka knappar som visas i navigeringsfältet längst ned</string>

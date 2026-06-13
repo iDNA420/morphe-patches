@@ -59,6 +59,9 @@ Zmiany obejmują:
   <string name="morphe_hide_feed_flyout_menu_title">Włącz filtr menu strony głównej</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_title">Menu do ukrycia</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_summary">Wprowadź nazwy menu do filtrowania, każda w nowej linii</string>
+  <string name="morphe_hide_account_menu_title">Włącz filtr zakładki Ty / Biblioteka</string>
+  <string name="morphe_hide_account_menu_filter_strings_title">Filtr zakładki Ty / Biblioteka</string>
+  <string name="morphe_hide_account_menu_filter_strings_summary">Wprowadź nazwy elementów do filtrowania, każda w nowej linii</string>
   <string name="morphe_hide_album_cards_title">Ukryj karty albumów</string>
   <string name="morphe_hide_album_cards_summary">Ukrywa karty albumów pod opisem artysty</string>
   <string name="morphe_hide_artist_cards_title">Ukryj karty artystów</string>
@@ -111,9 +114,7 @@ Zmiany obejmują:
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">Ukryj YouTube Doodles</string>
   <string name="morphe_hide_youtube_doodles_summary">Ukrywa sezonowe i okolicznościowe animacje na logo YouTube</string>
-  <string name="morphe_hide_youtube_doodles_user_dialog_message">"YouTube Doodles pojawiają się przez kilka dni w roku w różnych częściach świata.
-
-Ich obecność może blokować widoczność własnych logo w nagłówku."</string>
+  <string name="morphe_hide_youtube_doodles_user_dialog_message">Wyświetlanie YouTube Doodles może blokować własne logo w nagłówku.</string>
   <string name="morphe_hide_channel_bar_title">Ukryj pasek kanału</string>
   <string name="morphe_hide_channel_watermark_title">Ukryj znak wodny kanału</string>
   <string name="morphe_hide_crowdfunding_box_title">Ukryj panele ze zbiórkami</string>
@@ -123,13 +124,14 @@ Ich obecność może blokować widoczność własnych logo w nagłówku."</strin
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the video player for certain videos. -->
   <string name="morphe_hide_join_membership_button_title">Ukryj przycisk Wesprzyj</string>
-  <string name="morphe_hide_live_chat_donators_bar_title">Ukryj pasek wspierających w czacie</string>
   <!-- 'Live chat replay' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears when in fullscreen for live streamed videos after opening live chat. -->
   <string name="morphe_hide_live_chat_replay_button_title">Ukryj przycisk \"Powtórka czatu na żywo\"</string>
   <string name="morphe_hide_live_chat_replay_button_summary">Ukrywa przycisk powtórki czatu w trybie pełnoekranowym</string>
   <string name="morphe_hide_medical_panels_title">Ukryj panele medyczne</string>
+  <string name="morphe_hide_snackbar_title">Ukryj dolne komunikaty</string>
   <string name="morphe_hide_subscribers_community_guidelines_title">Ukryj wytyczne dla subskrybentów</string>
+  <string name="morphe_hide_sync_button_title">Ukryj przycisk \"Zsynchronizuj z filmem\"</string>
   <string name="morphe_hide_timed_reactions_title">Ukryj reakcje czasowe</string>
   <string name="morphe_hide_timed_reactions_summary">Ukrywa funkcję umożliwiającą reagowanie emotikonami w sekcji komentarzy i na czacie na żywo</string>
   <string name="morphe_hide_video_title_title">Ukryj tytuł filmu</string>
@@ -188,10 +190,9 @@ Ich obecność może blokować widoczność własnych logo w nagłówku."</strin
   <string name="morphe_comments_screen_title">Komentarze</string>
   <string name="morphe_comments_screen_summary">Zdecyduj, które elementy będą wyświetlane w sekcji komentarzy</string>
   <string name="morphe_hide_comments_carousel_title">Włącz filtr karuzeli komentarzy</string>
-  <string name="morphe_hide_comments_carousel_user_dialog_message">"Uwaga:
-• Upewnij się, że wprowadzasz dokładną nazwę elementu karuzeli (np. Pytania, Podbij ten film, Słuchaj w YouTube Music itp.).
-• Ukrywanie elementów karuzeli może mieć nieoczekiwane skutki uboczne.
-• Jeśli wszystkie elementy karuzeli zostaną ukryte, cała sekcja komentarzy również zostanie ukryta."</string>
+  <string name="morphe_hide_comments_carousel_summary">"• Upewnij się, że wprowadzasz dokładną nazwę elementu karuzeli (np. Pytania, Podbij ten film, Słuchaj w YouTube Music itp.)
+• Ukrywanie elementów karuzeli może mieć nieoczekiwane skutki uboczne
+• Jeśli wszystkie elementy karuzeli zostaną ukryte, cała sekcja komentarzy również zostanie ukryta"</string>
   <string name="morphe_hide_comments_carousel_filter_strings_title">Karuzele do ukrycia</string>
   <string name="morphe_hide_comments_carousel_filter_strings_summary">Wprowadź nazwy elementów karuzeli do filtrowania, każda w nowej linii</string>
   <string name="morphe_hide_comments_ai_chat_summary_title">Ukryj podsumowanie czatu wygenerowane przez AI</string>
@@ -205,6 +206,7 @@ Ich obecność może blokować widoczność własnych logo w nagłówku."</strin
   <string name="morphe_hide_comments_create_a_short_button_title">Ukryj przycisk \"Utwórz Shortsa\"</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">Ukryj przyciski Emoji i Znaczniki czasu</string>
   <string name="morphe_hide_comments_info_button_title">Ukryj przycisk Informacje</string>
+  <string name="morphe_hide_comments_live_chat_donators_bar_title">Ukryj pasek wspierających w czacie</string>
   <string name="morphe_hide_comments_preview_comment_title">Ukryj podgląd komentarza</string>
   <string name="morphe_hide_comments_preview_comment_summary">Ukrywa podgląd komentarza pod filmem przed otwarciem pełnej sekcji komentarzy</string>
   <string name="morphe_hide_comments_thanks_button_title">Ukryj przycisk Podziękuj</string>
@@ -218,15 +220,15 @@ Ich obecność może blokować widoczność własnych logo w nagłówku."</strin
   <string name="morphe_custom_filter_strings_summary">Lista ścieżek elementów do ukrycia, każda w nowej linii</string>
   <string name="morphe_custom_filter_toast_invalid_syntax">Nieprawidłowy własny filtr: %s</string>
   <string name="morphe_hide_view_count_title">Ukryj liczbę wyświetleń</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_user_dialog_message'. -->
-  <string name="morphe_hide_view_count_user_dialog_message">"Ograniczenia:
-• Sekcje Shortsów, strony kanałów i wyniki wyszukiwania mogą nadal pokazywać liczbę wyświetleń.
-• Ta funkcja nie działa z interfejsem samochodowym."</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"Ograniczenia:
+• Sekcje Shortsów, strony kanałów i wyniki wyszukiwania mogą nadal pokazywać liczbę wyświetleń
+• Ta funkcja nie działa z interfejsem samochodowym"</string>
   <string name="morphe_hide_upload_time_title">Ukryj datę publikacji</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_user_dialog_message'. -->
-  <string name="morphe_hide_upload_time_user_dialog_message">"Ograniczenia:
-• Sekcje Shortsów, strony kanałów i wyniki wyszukiwania mogą nadal wyświetlać datę publikacji.
-• Ta funkcja nie działa z interfejsem samochodowym."</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"Ograniczenia:
+• Sekcje Shortsów, strony kanałów i wyniki wyszukiwania mogą nadal wyświetlać datę publikacji
+• Ta funkcja nie działa z interfejsem samochodowym"</string>
   <string name="morphe_hide_keyword_content_screen_title">Filtry słów</string>
   <string name="morphe_hide_keyword_content_screen_summary">Wybierz konkretne słowa lub frazy, aby ukryć filmy na stronie głównej i w wynikach wyszukiwania</string>
   <string name="morphe_hide_keyword_content_home_title">Ukryj filmy na stronie głównej</string>
@@ -270,16 +272,16 @@ Ograniczenia:
   <!-- ad.video.videoAdsPatch -->
   <string name="morphe_hide_video_ads_title">Ukryj reklamy w filmach</string>
   <!-- interaction.doubletap.doubleTapLengthPatch -->
-  <!-- interaction.copyvideourlbutton.copyVideoURLButtonPatch -->
-  <string name="morphe_share_copy_url_button_success">Skopiowano link do schowka</string>
-  <string name="morphe_share_copy_url_button_timestamp_success">Skopiowano link z czasem do schowka</string>
-  <string name="morphe_copy_video_url_button_title">Pokaż przycisk \"Kopiuj link do filmu\"</string>
-  <string name="morphe_copy_video_url_button_summary">Dotknij, aby skopiować adres filmu. Przytrzymaj, aby skopiować z czasem</string>
-  <string name="morphe_copy_video_url_button_timestamp_title">Kopiuj domyślnie z czasem</string>
-  <string name="morphe_copy_video_url_button_timestamp_summary">Odwraca działanie dotknięcia i przytrzymania dla przycisku \"Kopiuj link do filmu\"</string>
+  <!-- interaction.copyvideolink.copyVideoLinkButtonPatch -->
+  <string name="morphe_share_copy_link_button_success">Skopiowano link do schowka</string>
+  <string name="morphe_share_copy_link_with_timestamp_button_success">Skopiowano link z czasem do schowka</string>
+  <string name="morphe_copy_video_link_button_title">Pokaż przycisk \"Kopiuj link do filmu\"</string>
+  <string name="morphe_copy_video_link_button_summary">Dotknij, aby skopiować link do filmu. Przytrzymaj, aby skopiować z czasem</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_title">Kopiuj domyślnie z czasem</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">Odwraca działanie dotknięcia i przytrzymania dla przycisku \"Kopiuj link do filmu\"</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">Usuń komunikat z ostrzeżeniem dla widzów</string>
-  <string name="morphe_remove_viewer_discretion_dialog_user_dialog_message">Nie pomija to ograniczeń wiekowych, lecz akceptuje je automatycznie.</string>
+  <string name="morphe_remove_viewer_discretion_dialog_summary">Nie omija to ograniczeń wiekowych, lecz akceptuje je automatycznie</string>
   <!-- layout.hide.signintotv.disableSignInToTVPopupPatch -->
   <string name="morphe_disable_sign_in_to_tv_popup_title">Wyłącz komunikat o zalogowaniu się do TV</string>
   <!-- interaction.doubletap.disableDoubleTapActionsPatch -->
@@ -322,7 +324,7 @@ Upewnij się, że nazwa pakietu jest poprawna, a aplikacja została zainstalowan
   <string name="morphe_loop_video_range_invalid_time">Nieprawidłowy zakres czasu</string>
   <!-- interaction.playall.playAllButtonPatch -->
   <string name="morphe_play_all_button_title">Pokaż przycisk Odtwórz wszystko</string>
-  <string name="morphe_play_all_button_summary">"Dotknij, aby wygenerować playlistę wszystkich filmów z kanału, przytrzymaj, aby cofnąć
+  <string name="morphe_play_all_button_summary">"Dotknij, aby wygenerować playlistę wszystkich filmów z kanału. Przytrzymaj, aby cofnąć
 
 Uwaga: Może nie działać na transmisjach na żywo"</string>
   <string name="morphe_play_all_button_type_title">Tryb generowania playlisty</string>
@@ -345,9 +347,37 @@ Uwaga: Może nie działać na transmisjach na żywo"</string>
   <string name="morphe_dismiss_player_not_available_toast">Film jest niedostępny. Otwórz film ponownie ręcznie</string>
   <!-- interaction.savetowatchlater.saveToWatchLaterPatch -->
   <string name="morphe_save_to_watch_later_button_title">Pokaż przycisk Do obejrzenia</string>
+  <string name="morphe_save_to_watch_later_button_summary">Dotknij, aby zapisać do obejrzenia. Przytrzymaj, aby otworzyć opcje kolejki</string>
   <string name="morphe_save_to_watch_later_success_toast">Zapisano na playliście \"Do obejrzenia\"</string>
   <string name="morphe_save_to_watch_later_already_exists_toast">Film jest już na playliście \"Do obejrzenia\"</string>
   <string name="morphe_save_to_watch_later_error_toast">Nie udało się zapisać na playliście \"Do obejrzenia\"</string>
+  <string name="morphe_queue_restore_title">Zachowaj kolejkę po wyjściu</string>
+  <string name="morphe_queue_restore_summary">Kolejka nie zniknie po ponownym uruchomieniu aplikacji</string>
+  <string name="morphe_swap_save_and_queue_actions_title">Zamień akcje Zapisz i Kolejka</string>
+  <string name="morphe_swap_save_and_queue_actions_summary">Dotknij, aby wyświetlić opcje kolejki. Przytrzymaj, aby zapisać do obejrzenia później</string>
+  <string name="morphe_queue_manager_check_failed_auth">Nie zalogowano</string>
+  <string name="morphe_queue_manager_check_failed_playlist_id">Brak identyfikatora playlisty</string>
+  <string name="morphe_queue_manager_check_failed_queue">Kolejka jest pusta</string>
+  <string name="morphe_queue_manager_check_failed_video_id">Brak identyfikatora filmu</string>
+  <string name="morphe_queue_manager_check_failed_generic">Błąd: %s</string>
+  <string name="morphe_queue_manager_fetch_failed_add">Nie udało się dodać do kolejki</string>
+  <string name="morphe_queue_manager_fetch_failed_create">Nie udało się utworzyć kolejki</string>
+  <string name="morphe_queue_manager_fetch_failed_remove">Nie udało się usunąć z kolejki</string>
+  <string name="morphe_queue_manager_fetch_failed_save">Nie udało się zapisać kolejki</string>
+  <string name="morphe_queue_manager_fetch_succeeded_add">Dodano do kolejki</string>
+  <string name="morphe_queue_manager_fetch_succeeded_create">Utworzono kolejkę</string>
+  <string name="morphe_queue_manager_fetch_succeeded_remove">Usunięto z kolejki</string>
+  <string name="morphe_queue_manager_fetch_succeeded_save">Zapisano kolejkę na playliście %s</string>
+  <string name="morphe_queue_manager_playlist_title">Kolejka Morphe</string>
+  <string name="morphe_queue_manager_add_to_queue">Dodaj do kolejki</string>
+  <string name="morphe_queue_manager_add_to_queue_and_open_queue">Dodaj do kolejki i otwórz</string>
+  <string name="morphe_queue_manager_add_to_queue_and_play_video">Dodaj do kolejki i odtwórz</string>
+  <string name="morphe_queue_manager_add_to_queue_and_reload_video">Dodaj i odśwież film</string>
+  <string name="morphe_queue_manager_remove_from_queue">Usuń z kolejki</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_open_queue">Usuń i otwórz kolejkę</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_reload_video">Usuń i odśwież film</string>
+  <string name="morphe_queue_manager_open_queue">Otwórz kolejkę</string>
+  <string name="morphe_queue_manager_save_queue">Zapisz kolejkę na playliście</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
   <string name="morphe_open_channel_of_live_avatar_title">Otwieraj kanał awatara transmisji na żywo</string>
   <string name="morphe_open_channel_of_live_avatar_summary">Zapobiega otwieraniu transmisji na żywo po dotknięciu awatara kanału</string>
@@ -356,9 +386,15 @@ Uwaga: Może nie działać na transmisjach na żywo"</string>
   <string name="morphe_disable_precise_seeking_gesture_summary">Wyłącza tryb precyzyjnego przewijania, który aktywuje się po pociągnięciu paska postępu w górę</string>
   <!-- interaction.seekbar.livestreamDvrPatch -->
   <string name="morphe_livestream_dvr_title">Włącz przewijanie transmisji na żywo</string>
-  <string name="morphe_livestream_dvr_summary">Umożliwia przewijanie wszystkich transmisji na żywo, nawet tych, które normalnie to blokują</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_livestream_dvr_user_dialog_message">Włączenie tej opcji może powodować błędy podczas przewijania transmisji, jeśli opcja \"Fałszowanie strumieni filmów\" nie jest włączona.</string>
+  <string name="morphe_livestream_dvr_summary">"Umożliwia przewijanie wszystkich transmisji na żywo, nawet tych, które normalnie to blokują
+
+Uwaga: Jeśli opcja \"Fałszowanie strumieni filmów\" nie jest włączona, włączenie tej opcji może powodować błędy podczas przewijania transmisji"</string>
+  <string name="morphe_expand_livestream_dvr_duration_title">Wydłuż czas przewijania transmisji na żywo</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_expand_livestream_dvr_duration_summary">"Umożliwia przewijanie transmisji na żywo nawet do 7 dni wstecz
+
+Uwaga: Jeśli opcja \"Fałszowanie strumieni filmów\" nie jest włączona, włączenie tej opcji może powodować błędy podczas przewijania transmisji"</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Włącz przewijanie przesunięciem palca</string>
   <string name="morphe_slide_to_seek_summary">Włącza przewijanie przesunięciem palca zamiast odtwarzania w prędkości 2x po przytrzymaniu odtwarzacza</string>
@@ -453,7 +489,7 @@ Uwaga: Może nie działać na transmisjach na żywo"</string>
   <string name="morphe_hide_ask_button_title">Ukryj przycisk Zapytaj</string>
   <!-- 'Clip' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_clip_button_title">Ukryj przycisk Klip</string>
-  <string name="morphe_hide_clip_button_user_dialog_message">Ta funkcja ukrywania może nie działać na niektórych kontach.</string>
+  <string name="morphe_hide_clip_button_summary">Może nie działać na niektórych kontach</string>
   <!-- 'Shop' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_shop_button_title">Ukryj przycisk Sklep</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
@@ -519,7 +555,7 @@ Uwaga: Może nie działać na transmisjach na żywo"</string>
   <string name="morphe_show_settings_button_type_title">Działanie przycisku Ustawienia</string>
   <string name="morphe_show_settings_button_type_summary">Otwiera ustawienia Morphe, gdy funkcja jest włączona, lub ustawienia YouTube, gdy jest wyłączona</string>
   <string name="morphe_swap_create_with_notifications_button_title">Zamień przycisk Utwórz z przyciskiem Powiadomienia</string>
-  <string name="morphe_swap_create_with_notifications_button_user_dialog_message">Jeśli zmiana tego ustawienia nie przyniesie efektu, spróbuj przełączyć się w tryb incognito.</string>
+  <string name="morphe_swap_create_with_notifications_button_summary">Jeśli zmiana tego ustawienia nie przyniesie efektu, spróbuj przełączyć się w tryb incognito</string>
   <string name="morphe_hide_navigation_button_labels_title">Ukryj etykiety przycisków nawigacji</string>
   <string name="morphe_hide_navigation_bar_title">Ukryj pasek nawigacji</string>
   <string name="morphe_hide_navigation_bar_user_dialog_message">"To całkowicie ukrywa pasek nawigacji, w tym zakładkę \"Ty\".
@@ -613,7 +649,6 @@ Aby je wyświetlić, zmień \"Fałszowanie strumieni filmów\" na \"Android Reel
   <string name="morphe_ambient_mode_screen_summary">Zarządzaj widocznością oświetlenia kinowego i ograniczeniami zasilania</string>
   <string name="morphe_bypass_ambient_mode_restrictions_title">Omiń ograniczenia oświetlenia kinowego</string>
   <string name="morphe_bypass_ambient_mode_restrictions_summary">Umożliwia działanie oświetlenia kinowego w trybie oszczędzania baterii</string>
-  <string name="morphe_bypass_ambient_mode_restrictions_user_dialog_message">Włączenie tej opcji może skrócić czas pracy na baterii.</string>
   <string name="morphe_disable_ambient_mode_title">Wyłącz oświetlenie kinowe</string>
   <string name="morphe_disable_fullscreen_ambient_mode_title">Wyłącz oświetlenie kinowe w trybie pełnoekranowym</string>
   <!-- layout.hide.infocards.hideInfocardsPatch -->
@@ -678,11 +713,9 @@ Aby je wyświetlić, zmień \"Fałszowanie strumieni filmów\" na \"Android Reel
   <string name="morphe_hide_shorts_navigation_bar_title">Ukryj pasek nawigacji</string>
   <!-- layout.hide.endscreensuggestedvideo.hideEndScreenSuggestedVideoPatch -->
   <string name="morphe_hide_end_screen_suggested_video_title">Ukryj sugerowane filmy na końcu filmu</string>
-  <string name="morphe_hide_end_screen_suggested_video_summary">Ukrywa proponowane filmy pojawiające się po zakończeniu odtwarzania</string>
-  <string name="morphe_hide_end_screen_suggested_video_user_dialog_message">"Ta opcja działa tylko wtedy, gdy opcja \"Autoodtwarzanie następnego filmu\" jest wyłączona.
+  <string name="morphe_hide_end_screen_suggested_video_summary">"Ukrywa proponowane filmy pojawiające się po zakończeniu odtwarzania
 
-Możesz to zmienić w YouTube:
-Ustawienia → Odtwarzanie (lub Autoodtwarzanie) → Autoodtwarzanie następnego filmu"</string>
+To ustawienie działa tylko wtedy, gdy autoodtwarzanie jest wyłączone. Możesz to zmienić w YouTube: Ustawienia → Odtwarzanie → Autoodtwarzanie następnego filmu"</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">Ukryj powiązane filmy</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
@@ -803,6 +836,18 @@ Ustawienia → Odtwarzanie (lub Autoodtwarzanie) → Autoodtwarzanie następnego
   <string name="morphe_sb_general_uuid_invalid">Prywatny identyfikator użytkownika musi mieć co najmniej 30 znaków</string>
   <string name="morphe_sb_general_api_url">Zmień adres API</string>
   <string name="morphe_sb_general_api_url_summary">Adres, którego SponsorBlock używa do komunikacji z serwerem</string>
+  <string name="morphe_sb_channel_whitelist">Biała lista kanałów</string>
+  <string name="morphe_sb_channel_whitelist_summary">SponsorBlock jest wyłączony dla kanałów z białej listy</string>
+  <string name="morphe_sb_channel_whitelist_current_channel">Bieżący kanał:</string>
+  <string name="morphe_sb_channel_whitelist_add">Dodaj do białej listy</string>
+  <string name="morphe_sb_channel_whitelist_remove">Usuń</string>
+  <string name="morphe_sb_channel_whitelist_channels_header">Kanały na białej liście</string>
+  <string name="morphe_sb_channel_whitelist_empty">Brak kanałów na białej liście</string>
+  <string name="morphe_sb_channel_whitelist_channel_added">Dodano kanał do białej listy</string>
+  <string name="morphe_sb_channel_whitelist_channel_removed">Usunięto kanał z białej listy</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel">Powiadamiaj o kanałach z białej listy</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel_summary">Wyświetla powiadomienie, gdy SponsorBlock jest wyłączony dla kanału z białej listy</string>
+  <string name="morphe_sb_channel_whitelisted_toast">SponsorBlock wyłączony dla tego kanału</string>
   <string name="morphe_sb_api_url_reset">Adres API został zresetowany</string>
   <string name="morphe_sb_api_url_invalid">Adres API jest nieprawidłowy</string>
   <string name="morphe_sb_api_url_changed">Adres API został zmieniony</string>
@@ -978,6 +1023,8 @@ Układ samochodowy
 • Przyciski Remiks i Dźwięk nie są dostępne w Shortsach
 • Shortsy otwierają się w zwykłym odtwarzaczu
 • Pasek akcji filmu nie jest zwinięty"</string>
+  <string name="morphe_tablet_layout_in_player_title">Włącz układ tabletowy w odtwarzaczu</string>
+  <string name="morphe_tablet_layout_in_player_summary">Przywraca stary układ odtwarzacza</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Fałszuj wersję aplikacji</string>
   <string name="morphe_spoof_app_version_summary">Oszukuje serwer, że używasz starszej wersji aplikacji, aby przywrócić klasyczne elementy interfejsu</string>
@@ -1026,7 +1073,7 @@ Jeśli później zostanie to wyłączone, zalecane jest usunięcie danych aplika
   <string name="morphe_change_start_page_entry_watch_later">Do obejrzenia</string>
   <string name="morphe_change_start_page_entry_your_clips">Klipy</string>
   <string name="morphe_change_start_page_always_title">Zawsze zmieniaj stronę startową</string>
-  <string name="morphe_change_start_page_always_summary">"Zawsze przekierowuje na wybraną stronę startową, nie tylko przy uruchamianiu aplikacji
+  <string name="morphe_change_start_page_always_summary">"Zawsze przekierowuje na wybraną stronę startową, nie tylko przy starcie aplikacji
 
 Ograniczenie: Użycie przycisku wstecz na pasku narzędzi może nie działać"</string>
   <!-- layout.shortsnoresume.disableShortsResumingOnStartupPatch -->
@@ -1043,9 +1090,7 @@ Ograniczenie: Użycie przycisku wstecz na pasku narzędzi może nie działać"</
   <string name="morphe_shorts_autoplay_background_summary">Automatycznie przechodzi do następnego Shortsa podczas odtwarzania w tle</string>
   <!-- layout.miniplayer.miniplayerPatch -->
   <string name="morphe_miniplayer_disable_resuming_title">Wyłącz wznawianie filmu w miniodtwarzaczu</string>
-  <string name="morphe_miniplayer_disable_resuming_summary">Zapobiega wyświetlaniu miniodtwarzacza \"Kontynuuj oglądanie\" po uruchomieniu aplikacji</string>
-  <string name="morphe_miniplayer_disable_resuming_user_dialog_message">"• \"Oglądaj dalej\" to funkcja YouTube Premium
-• To ustawienie nie wymusza włączenia tej funkcji Premium"</string>
+  <string name="morphe_miniplayer_disable_resuming_summary">Wyłącza miniodtwarzacz \"Kontynuuj oglądanie\", funkcję YouTube Premium wyświetlaną przy starcie aplikacji</string>
   <string name="morphe_miniplayer_screen_title">Miniodtwarzacz</string>
   <string name="morphe_miniplayer_screen_summary">Dostosuj wygląd i zachowanie miniodtwarzacza</string>
   <string name="morphe_miniplayer_type_title">Typ miniodtwarzacza</string>
@@ -1063,8 +1108,6 @@ Ograniczenie: Użycie przycisku wstecz na pasku narzędzi może nie działać"</
   <string name="morphe_miniplayer_disable_horizontal_drag_title">Wyłącz gest przeciągania w poziomie</string>
   <string name="morphe_miniplayer_disable_horizontal_drag_summary">Zapobiega zamykaniu miniodtwarzacza poprzez przesunięcie go w poziomie poza ekran</string>
   <string name="morphe_miniplayer_hide_overlay_buttons_title">Ukryj przyciski w miniodtwarzaczu</string>
-  <string name="morphe_miniplayer_hide_subtext_title">Ukryj dodatkowe teksty</string>
-  <string name="morphe_miniplayer_hide_rewind_forward_title">Ukryj przyciski Przewiń do przodu i do tyłu</string>
   <string name="morphe_miniplayer_width_dip_title">Domyślny rozmiar</string>
   <string name="morphe_miniplayer_width_dip_summary">Ustaw początkowy rozmiar na ekranie w pikselach</string>
   <string name="morphe_miniplayer_width_dip_invalid_toast">Rozmiar musi mieścić się w przedziale od %1$s do %2$s pikseli</string>
@@ -1152,9 +1195,9 @@ Dotknij tutaj, aby dowiedzieć się więcej o DeArrow"</string>
   <string name="morphe_disable_notification_media_seekbar_summary">Zapobiega przeciąganiu paska postępu na ekranie blokady i w panelu powiadomień</string>
   <!-- misc.gms.accountCredentialsInvalidTextPatch -->
   <string name="microg_offline_account_login_error">Wystąpił błąd logowania, jeśli Twoje hasło zostało zmienione, spróbuj przeinstalować MicroG.</string>
-  <!-- misc.links.bypassURLRedirectsPatch -->
-  <string name="morphe_bypass_url_redirects_title">Omiń przekierowania linków</string>
-  <string name="morphe_bypass_url_redirects_summary">Otwiera oryginalny adres URL bezpośrednio, pomijając link śledzący (youtube.com/redirect)</string>
+  <!-- misc.links.bypassLinkRedirectsPatch -->
+  <string name="morphe_bypass_link_redirects_title">Omiń przekierowania linków</string>
+  <string name="morphe_bypass_link_redirects_summary">Otwiera oryginalny link bezpośrednio, omijając link śledzący (youtube.com/redirect)</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <string name="morphe_external_browser_title">Otwieraj linki w przeglądarce</string>
   <string name="morphe_external_browser_summary">Otwiera linki w zewnętrznej przeglądarce zamiast we wbudowanej</string>
@@ -1198,6 +1241,8 @@ Dotknij tutaj, aby dowiedzieć się więcej o DeArrow"</string>
   <string name="morphe_remember_playback_speed_last_selected_toast_summary">Wyświetla powiadomienie po zapisaniu nowej domyślnej prędkości odtwarzania</string>
   <string name="morphe_playback_speed_default_title">Domyślna prędkość odtwarzania</string>
   <string name="morphe_remember_playback_speed_toast">Zmieniono domyślną prędkość na: %s</string>
+  <string name="morphe_disable_playback_speed_music_title">Odtwarzaj muzykę z normalną prędkością</string>
+  <string name="morphe_disable_playback_speed_music_summary">Zawsze odtwarzaj teledyski z prędkością 1x</string>
   <!-- video.codecs.disableVideoCodecsPatch -->
   <string name="morphe_disable_hdr_video_title">Wyłącz filmy z HDR</string>
   <string name="morphe_force_avc_codec_title">Wymuś kodek AVC (H.264)</string>
@@ -1212,11 +1257,6 @@ Ograniczenia:
 • Niektóre urządzenia nie pozwalają na wymuszenie AVC"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <string name="morphe_force_avc_codec_not_available">Aby użyć tej funkcji, ustaw \"Fałszowanie strumieni filmów\" na Android VR lub Android Studio</string>
-  <!-- interaction.seekbar.expandLivestreamDvrDurationPatch -->
-  <string name="morphe_expand_livestream_dvr_duration_title">Wydłuż czas przewijania transmisji na żywo</string>
-  <string name="morphe_expand_livestream_dvr_duration_summary">Umożliwia przewijanie transmisji na żywo nawet do 7 dni wstecz</string>
-  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_expand_livestream_dvr_duration_user_dialog_message">To ustawienie może powodować błędy, jeśli opcja \"Fałszowanie strumieni filmów\" nie jest włączona.</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">Pokaż zaawansowane menu jakości filmu</string>
   <!-- video.quality.hidePremiumVideoQualityPatch -->

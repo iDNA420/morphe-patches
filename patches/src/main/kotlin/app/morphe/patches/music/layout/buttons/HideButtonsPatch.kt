@@ -21,7 +21,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/music/patches/HideButtonsPatch;"
 
 @Suppress("unused")
-val hideButtons = bytecodePatch(
+val hideButtonsPatch = bytecodePatch(
     name = "Hide buttons",
     description = "Adds options to hide the cast, history, notification, and search buttons."
 ) {
@@ -39,10 +39,10 @@ val hideButtons = bytecodePatch(
         val topBarMenuItemImageView = getResourceId(ResourceType.ID, "top_bar_menu_item_image_view")
 
         PreferenceScreen.GENERAL.addPreferences(
-            SwitchPreference("morphe_music_hide_cast_button", summaryKey = null),
-            SwitchPreference("morphe_music_hide_history_button", summaryKey = null),
-            SwitchPreference("morphe_music_hide_notification_button", summaryKey = null),
-            SwitchPreference("morphe_music_hide_search_button", summaryKey = null)
+            SwitchPreference("morphe_music_hide_cast_button"),
+            SwitchPreference("morphe_music_hide_history_button"),
+            SwitchPreference("morphe_music_hide_notification_button"),
+            SwitchPreference("morphe_music_hide_search_button")
         )
 
         // Region for hide history button in the top bar.

@@ -10,8 +10,6 @@ import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
-import app.morphe.patches.all.misc.resources.ResourceType
-import app.morphe.patches.all.misc.resources.getResourceId
 import app.morphe.patches.shared.misc.settings.preference.BasePreference
 import app.morphe.patches.shared.misc.settings.preference.InputType
 import app.morphe.patches.shared.misc.settings.preference.ListPreference
@@ -54,11 +52,6 @@ val miniplayerPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_YOUTUBE)
 
     execute {
-        getResourceId(
-            ResourceType.ID,
-            "modern_miniplayer_subtitle_text",
-        )
-
         val preferences = mutableSetOf<BasePreference>()
 
         preferences +=
@@ -72,13 +65,11 @@ val miniplayerPatch = bytecodePatch(
                 )
             }
 
-        preferences += SwitchPreference("morphe_miniplayer_disable_resuming")
-        preferences += SwitchPreference("morphe_miniplayer_disable_drag_and_drop")
-        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag")
-        preferences += SwitchPreference("morphe_miniplayer_disable_rounded_corners", summaryKey = null)
-        preferences += SwitchPreference("morphe_miniplayer_hide_subtext", summaryKey = null)
-        preferences += SwitchPreference("morphe_miniplayer_hide_overlay_buttons", summaryKey = null)
-        preferences += SwitchPreference("morphe_miniplayer_hide_rewind_forward", summaryKey = null)
+        preferences += SwitchPreference("morphe_miniplayer_disable_resuming", summary = true)
+        preferences += SwitchPreference("morphe_miniplayer_disable_drag_and_drop", summary = true)
+        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag", summary = true)
+        preferences += SwitchPreference("morphe_miniplayer_disable_rounded_corners")
+        preferences += SwitchPreference("morphe_miniplayer_hide_overlay_buttons")
         preferences += TextPreference("morphe_miniplayer_width_dip", inputType = InputType.NUMBER)
         preferences += NonInteractivePreference(
             key = "morphe_miniplayer_opacity",
@@ -299,26 +290,41 @@ val miniplayerPatch = bytecodePatch(
 
         // region fix minimal miniplayer using the wrong pause/play bold icons.
 
-        if (is_20_31_or_greater && !is_21_17_or_greater) {
-            // 21.17+ removed the code to set the non-bold miniplayer pause/play icon,
-            // and removed the non bold yt_fill_pause_white_36 icons.
-            MiniplayerSetIconsFingerprint.method.apply {
-                findInstructionIndicesReversedOrThrow(
-                    methodCall(
-                        opcode = Opcode.INVOKE_INTERFACE,
-                        returnType = "Z",
-                        parameters = listOf()
-                    )
-                ).forEach { index ->
-                    val register = getInstruction<OneRegisterInstruction>(index + 1).registerA
+        if (is_20_31_or_greater) {
+            if (is_21_17_or_greater) {
+                // 21.17+ removed the code to set the non-bold miniplayer pause/play icon,
+                // and removed the non bold yt_fill_pause_white_36 icons.
+                MiniplayerSetIconsFingerprint.let {
+                    it.method.apply {
+                        val setImageDrawableIndex = it.instructionMatches.first().index
 
-                    addInstructions(
-                        index + 2,
-                        """
-                            invoke-static { v$register }, $EXTENSION_CLASS->allowBoldIcons(Z)Z
-                            move-result v$register
-                        """
-                    )
+                        addInstruction(
+                            setImageDrawableIndex + 1,
+                            "invoke-static { p0, p2 }, $EXTENSION_CLASS->" +
+                                    "overrideMiniplayerActionButtonDrawable(Landroid/widget/ImageView;I)V",
+                        )
+                    }
+                }
+            } else {
+                // Fix bold icons always shown for 20.31 to 21.16
+                MiniplayerSetIconsLegacyFingerprint.method.apply {
+                    findInstructionIndicesReversedOrThrow(
+                        methodCall(
+                            opcode = Opcode.INVOKE_INTERFACE,
+                            returnType = "Z",
+                            parameters = listOf()
+                        )
+                    ).forEach { index ->
+                        val register = getInstruction<OneRegisterInstruction>(index + 1).registerA
+
+                        addInstructions(
+                            index + 2,
+                            """
+                                invoke-static { v$register }, $EXTENSION_CLASS->allowBoldIcons(Z)Z
+                                move-result v$register
+                            """
+                        )
+                    }
                 }
             }
         }
@@ -331,8 +337,6 @@ val miniplayerPatch = bytecodePatch(
             MiniplayerModernExpandButtonFingerprint to "hideMiniplayerExpandClose",
             MiniplayerModernCloseButtonFingerprint to "hideMiniplayerExpandClose",
             MiniplayerModernActionButtonFingerprint to "hideMiniplayerActionButton",
-            MiniplayerModernRewindButtonFingerprint to "hideMiniplayerRewindForward",
-            MiniplayerModernForwardButtonFingerprint to "hideMiniplayerRewindForward",
             MiniplayerModernOverlayViewFingerprint to "adjustMiniplayerOpacity"
         ).forEach { (fingerprint, methodName) ->
             fingerprint.method.apply {
@@ -345,12 +349,6 @@ val miniplayerPatch = bytecodePatch(
                 )
             }
         }
-
-        MiniplayerModernAddViewListenerFingerprint.method.addInstruction(
-            0,
-            "invoke-static { p1 }, $EXTENSION_CLASS->" +
-                "hideMiniplayerSubTexts(Landroid/view/View;)V",
-        )
 
         // endregion
     }

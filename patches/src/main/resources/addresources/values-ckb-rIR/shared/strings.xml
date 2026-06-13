@@ -45,20 +45,19 @@ Second \"item\" text"</string>
 • هەڵکەوتینێ دەربارەوێ بپارێزە بابەتەکە بۆ مێشەڕە
 • لێکۆڵینەوێک نەخوێندراوێتە سەرەتایەک و نیشانەیەک
 • دەستکارییەکانی باوک دەلێن سەردا دەستکارییەکانی منداڵێ نەبێت"</string>
-  <string name="morphe_settings_search_empty_history_title">ڕاسته‌ بدره‌، له‌گه‌عى ті بانه‌ لاسه‌ یاێت؟</string>
-  <string name="morphe_settings_search_empty_history_summary">بۆو زه‌مه‌نوه‌كه‌ ڕژازكه‌يه‌كه كه‌وه‌، وتاره‌يه‌ك بRoh رباشه‌كه‌ بهدینه‌ه تا هێلفه‌ر تهزتی بالانه‌كه‌ دا lepاهار بهنگرئ</string>
-  <string name="morphe_settings_search_history_title">تنتینگِ بهژوکى كه‌ سكيّاره مِن ركبتانكه‌كتانكه‌ كه‌ لاوه‌كانա տրա պեռթըն վեղտερ տሩթռլ</string>
+  <string name="morphe_settings_search_empty_history_summary">دقققبردانه ريستوريان دموسهيةريانه، دقققبردقاريان بررسوريانه إنترار إنترارقه</string>
+  <string name="morphe_settings_search_history_title">دۆزینەوەی مێشۆکەکان، تێکستی ڕاگەڕەیی دەربارەی مێشۆکانی دەستکارییەک.</string>
   <string name="morphe_show_menu_icons_title">نیشانەکانی ڕێکدالەکانی مورفە بنێرن</string>
   <string name="morphe_language_title">زمانی مورفە</string>
   <string name="morphe_language_user_dialog_message">"فريتة‌ي بة‌شي‌كه‌ي زوانه‌كانيش نه‌بوون، يان بة‌تەواوه‌ نه‌كه‌ون.\n\nبۆ وه‌رگێڕانێكی زوانه‌ تازه‌كان ياخود باشكردنێكی وه‌رگێڕانه‌كانی ئێستا، سه‌رداني morphe.software/translate بكه‌"</string>
   <string name="morphe_language_DEFAULT">زمانی ئەپ</string>
   <string name="morphe_pref_import_export_title">هێنانی / ئەگەڕانەوە</string>
-  <string name="morphe_pref_import_export_summary">هێنانی / ئەگەڕانەوە ڕێکدالەکانی مورفە</string>
+  <string name="morphe_pref_import_export_summary">هێنانی / دەربڕینی ڕێکخستنەکانی Morphe</string>
   <string name="morphe_settings_import_file_failed">نەگەشت بە هاتنەوەی ڕێکخستنەکان</string>
   <string name="morphe_settings_export_file_success">ئەم فێڵانەی دەستخاتن سەرکەوتێت</string>
   <string name="morphe_settings_export_file_failed">\"نەگەشت بە دەربازبوونی ڕێکخستنەکان\"</string>
   <!-- String is also duplicated in Reddit about preference -->
-  <string name="morphe_settings_about_links_body_version_current">هاتوو ئەڤدە ئەڤ ژ هەند سەركەفتو  %s <i> </i>ڕشتە هەبوو</string>
+  <string name="morphe_settings_about_links_body_version_current">طلوا جهأست إرا ءا ءعلوا ءأاءة الرسءات &lt;i&gt;%s&lt;/i&gt;</string>
   <string name="morphe_settings_about_links_dev_header">نوسین</string>
   <string name="morphe_settings_about_links_dev_body">صورو اين عميادي هستني استماران إسباقريانها إسباقالدها</string>
   <string name="morphe_settings_about_links_header">سەرچاوەکانی ڕەسمی</string>
@@ -101,4 +100,10 @@ Second \"item\" text"</string>
  • ڕەنگە پەخشکردنی پاشبنەما کار نەکات"</string>
   <!-- misc.gms.linkHandlingPatch -->
   <!-- misc.checks.experimentalAppNoticePatch -->
+  <string name="morphe_experimental_app_version_dialog_message">"ئةوه
+ئەپى وერსۆنى تاقیكەرەوەى ⚠️ &lt;b&gt;%1$s&lt;/b&gt; دةربخۆیت.
+&lt;br/&gt;&lt;br/&gt;
+🔧 ڕاهێنانی سەرنجدان: ئەپى بەرهەڵەكان یان خۆتێکزارى نادیار دەربخۆیت چونكە خەڵاتەكان دابةزین بۆ ئەم وერსۆنەى ئەپە.
+&lt;br/&gt;&lt;br/&gt;
+ئەگەر تؤیترین توشی هەر كێشەیەك نةبوونى، ئەوا &lt;b&gt;راكړه‌تەر&lt;/b&gt; و بؤ وერსۆنى مسه‌تەبی &lt;b&gt;%2$s&lt;/b&gt;✅ په‌چۆكه"</string>
 </resources>

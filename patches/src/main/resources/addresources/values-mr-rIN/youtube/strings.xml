@@ -59,6 +59,9 @@ Second \"item\" text"</string>
   <string name="morphe_hide_feed_flyout_menu_title">अ‍ॅक्टिव्ह फीड फ्लाईआउट मेनू फिल्टर</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_title">फीड फ्लाईआउट मेनू फिल्टर</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_summary">फिल्टर करण्यासाठी फ्लायआउट मेनूचे नाव प्रविष्ट करा, प्रत्येक ओळ नवीन ओळीने विभाजित करा</string>
+  <string name="morphe_hide_account_menu_title">लायब्ररी सक्षम करा / तुम्ही तळाशी मेनू फिल्टर करा</string>
+  <string name="morphe_hide_account_menu_filter_strings_title">लायब्ररी सक्षम करा / तुम्ही तळाशी मेनू फिल्टर करा</string>
+  <string name="morphe_hide_account_menu_filter_strings_summary">नवीन ओळींनी विभक्त केलेल्या फिल्टरसाठी लायब्ररी / तुम्ही तळाशी मेनू नावे प्रविष्ट करा</string>
   <string name="morphe_hide_album_cards_title">अल्बम कार्ड्स लपवा</string>
   <string name="morphe_hide_album_cards_summary">कलाकाराच्या वर्णनाखालील अल्बम कार्ड लपवते</string>
   <string name="morphe_hide_artist_cards_title">कलाकार कार्ड्स लपवा</string>
@@ -111,9 +114,7 @@ Second \"item\" text"</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">YouTube Doodles लपवा</string>
   <string name="morphe_hide_youtube_doodles_summary">YouTube लोगोवरील हंगामी आणि इव्हेंट-आधारित ॲनिमेशन लपवते</string>
-  <string name="morphe_hide_youtube_doodles_user_dialog_message">"YouTube डूडल्स दरवर्षी काही दिवस जगभरातील विविध भागांमध्ये दर्शविले जातात.
-
-YouTube डूडल्स दर्शविल्याने कस्टम हेडर दर्शविले जाण्याची शक्यता कमी होते."</string>
+  <string name="morphe_hide_youtube_doodles_user_dialog_message">YouTube Doodle दाखवल्याने कस्टम हेडर दिसण्यात येऊ शकतात.</string>
   <string name="morphe_hide_channel_bar_title">चॅनेल बार लपवा</string>
   <string name="morphe_hide_channel_watermark_title">चॅनेल वॉटरमार्क लपवा</string>
   <string name="morphe_hide_crowdfunding_box_title">क्राउडफंडिंग बॉक्स लपवा</string>
@@ -123,13 +124,14 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the video player for certain videos. -->
   <string name="morphe_hide_join_membership_button_title">\'जवळपास सामील व्हा\' बटण लपवा</string>
-  <string name="morphe_hide_live_chat_donators_bar_title">लाइव्ह चॅट देणगीदारांचा बार लपवा</string>
   <!-- 'Live chat replay' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears when in fullscreen for live streamed videos after opening live chat. -->
   <string name="morphe_hide_live_chat_replay_button_title">\'लाइव्ह चॅट रीप्ले\' बटण लपवा</string>
   <string name="morphe_hide_live_chat_replay_button_summary">फुलस्क्रीन मोडमध्ये चॅट रीप्ले बटण लपवते</string>
   <string name="morphe_hide_medical_panels_title">वैद्यकीय पॅनेल लपवा</string>
+  <string name="morphe_hide_snackbar_title">स्नॅकबार् लपवा</string>
   <string name="morphe_hide_subscribers_community_guidelines_title">सदस्य मार्गदर्शक तत्त्वे लपवा</string>
+  <string name="morphe_hide_sync_button_title">\"सिंक टू व्हिडिओ\" बटण लपवा</string>
   <string name="morphe_hide_timed_reactions_title">वेळेनुसार प्रतिक्रिया लपवा</string>
   <string name="morphe_hide_timed_reactions_summary">टिप्पणी विभागात आणि लाइव्ह चॅटमध्ये इमोजीसह प्रतिक्रिया देण्याची परवानगी देणारे वैशिष्ट्य लपवते</string>
   <string name="morphe_hide_video_title_title">व्हिडिओ शीर्षक लपवा</string>
@@ -188,10 +190,9 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_comments_screen_title">टिप्पण्या</string>
   <string name="morphe_comments_screen_summary">टिप्पणी विभागात कोणते घटक दिसतात ते निवडा</string>
   <string name="morphe_hide_comments_carousel_title">टिप्पणी कॅरोसेल फिल्टर सक्षम करा</string>
-  <string name="morphe_hide_comments_carousel_user_dialog_message">"टीप:
-• कृपयाCarousel item चा नेमका नाव (उदा. Ask, Hype this video, Listen on YouTube Music, इत्यादी) प्रविष्ट करा.
-• Carousel items लपवल्यास अनपेक्षित दुष्परिणाम होऊ शकतात.
-• जर सर्व carousel items लपवले असतील, तर संपूर्ण कमेंट्स विभाग देखील लपविला जाईल."</string>
+  <string name="morphe_hide_comments_carousel_summary">"•carousel item चे नाव तंतोतंत प्रविष्ट करा (उदा. विचारा, या व्हिडिओला हायप करा, YouTube Music वर ऐका, इत्यादी).
+• carousel item लपवल्यास अनपेक्षित परिणाम होऊ शकतात.
+• सर्व carousel item लपविल्यास, संपूर्ण कमेंट सेक्शन देखील लपविला जाईल."</string>
   <string name="morphe_hide_comments_carousel_filter_strings_title">टिप्पणी कॅरोसेल फिल्टर</string>
   <string name="morphe_hide_comments_carousel_filter_strings_summary">टिप्पणी कॅरोसेल नावांची फिल्टर करण्यासाठी प्रविष्ट करा, प्रत्येक ओळ नवीन ओळीने विभाजित करा</string>
   <string name="morphe_hide_comments_ai_chat_summary_title">एआय चॅट सारांश लपवा</string>
@@ -205,6 +206,7 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_hide_comments_create_a_short_button_title">\'शॉर्ट तयार करा\' बटण लपवा</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">इमोजी आणि टाइमस्टॅम्प बटणे लपवा</string>
   <string name="morphe_hide_comments_info_button_title">माहिती बटण लपवा</string>
+  <string name="morphe_hide_comments_live_chat_donators_bar_title">लाइव्ह चॅट देणगीदारांचा बार लपवा</string>
   <string name="morphe_hide_comments_preview_comment_title">पूर्वावलोकन टिप्पणी लपवा</string>
   <string name="morphe_hide_comments_preview_comment_summary">पूर्ण टिप्पणी विभाग उघडण्यापूर्वी व्हिडिओच्या खाली टिप्पणी पूर्वावलोकन लपवते</string>
   <string name="morphe_hide_comments_thanks_button_title">धन्यवाद बटण लपवा</string>
@@ -218,13 +220,13 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_custom_filter_strings_summary">फिल्टर करण्यासाठी घटक पाथ बिल्डर स्ट्रिंगची यादी, प्रत्येक ओळ नवीन ओळीने विभाजित करा</string>
   <string name="morphe_custom_filter_toast_invalid_syntax">अवैध कस्टम फिल्टर: %s</string>
   <string name="morphe_hide_view_count_title">व्ह्यू काउंट लपवा</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_user_dialog_message'. -->
-  <string name="morphe_hide_view_count_user_dialog_message">"मर्यादा:
-• शॉर्ट्स शेल्फ, चॅनेल पृष्ठे आणि शोध परिणामामध्ये व्ह्यूंची संख्या अजूनही दिसू शकते.
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"मर्यादा:
+• Shorts शेल्फ, चॅनेल पृष्ठे आणि शोध परिणाम दृश्य संख्या दर्शवू शकतात.
 • हे वैशिष्ट्य ऑटोमोटिव्ह लेआउटमध्ये कार्य करत नाही."</string>
   <string name="morphe_hide_upload_time_title">अपलोड वेळ लपवा</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_user_dialog_message'. -->
-  <string name="morphe_hide_upload_time_user_dialog_message">"मर्यादा:
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"मर्यादा:
 • शॉर्ट्स शेल्फ, चॅनेल पृष्ठे आणि शोध परिणामांमध्ये अपलोडचे वेळ अजूनही दिसू शकतो.
 • हे वैशिष्ट्य ऑटोमोटिव्ह लेआउटमध्ये कार्य करत नाही."</string>
   <string name="morphe_hide_keyword_content_screen_title">कीवर्ड फिल्टर</string>
@@ -264,16 +266,16 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <!-- ad.video.videoAdsPatch -->
   <string name="morphe_hide_video_ads_title">व्हिडिओ जाहिराती लपवा</string>
   <!-- interaction.doubletap.doubleTapLengthPatch -->
-  <!-- interaction.copyvideourlbutton.copyVideoURLButtonPatch -->
-  <string name="morphe_share_copy_url_button_success">URL क्लिपबोर्डवर कॉपी केले</string>
-  <string name="morphe_share_copy_url_button_timestamp_success">टाइमस्टॅम्पसह URL क्लिपबोर्डवर कॉपी केले</string>
-  <string name="morphe_copy_video_url_button_title">व्हिडिओ URL कॉपी बटण दर्शवा</string>
-  <string name="morphe_copy_video_url_button_summary">व्हिडिओ URL कॉपी करण्यासाठी टॅप करा, टाइमस्टॅम्पसह कॉपी करण्यासाठी टॅप करा आणि होल्ड करा</string>
-  <string name="morphe_copy_video_url_button_timestamp_title">डीफॉल्टनुसार टाइमस्टॅम्प कॉपी करा</string>
-  <string name="morphe_copy_video_url_button_timestamp_summary">‘व्हिडिओ URL कॉपी करा’ बटणाच्या टॅप आणि टॅप-अँड-होल्ड क्रिया उलटा करा</string>
+  <!-- interaction.copyvideolink.copyVideoLinkButtonPatch -->
+  <string name="morphe_share_copy_link_button_success">लिंक क्लिपबोर्डवर कॉपी केली</string>
+  <string name="morphe_share_copy_link_with_timestamp_button_success">टाइमस्टॅम्पसह लिंक क्लिपबोर्डवर कॉपी केली</string>
+  <string name="morphe_copy_video_link_button_title">व्हिडिओ लिंक कॉपी बटण दर्शवा</string>
+  <string name="morphe_copy_video_link_button_summary">व्हिडिओ लिंक कॉपी करण्यासाठी टॅप करा, टाइमस्टॅम्पसह कॉपी करण्यासाठी टॅप करून धरून ठेवा</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_title">डीफॉल्टनुसार टाइमस्टॅम्प कॉपी करा</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">\'कॉपी व्हिडिओ लिंक\' बटणाच्या टॅप आणि टॅप-अँड-होल्ड क्रिया उलटवते</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">व्ह्यूअर डिसक्रेसन संवाद काढून टाका</string>
-  <string name="morphe_remove_viewer_discretion_dialog_user_dialog_message">हे वय निर्बंध बायपास करत नाही. हे फक्त आपोआप स्वीकारते.</string>
+  <string name="morphe_remove_viewer_discretion_dialog_summary">हे वय प्रतिबंध टाळत नाही. हे फक्त ते आपोआप स्वीकारते.</string>
   <!-- layout.hide.signintotv.disableSignInToTVPopupPatch -->
   <string name="morphe_disable_sign_in_to_tv_popup_title">\'टीव्हीवर साइन इन करा\' पॉपअप अक्षम करा</string>
   <!-- interaction.doubletap.disableDoubleTapActionsPatch -->
@@ -331,6 +333,7 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_play_all_button_type_entry_8">स्ट्रीम केलेले व्हिडिओ फक्त (लोकप्रियतेनुसार क्रमवारी)</string>
   <string name="morphe_play_all_button_type_entry_9">सर्व सदस्यांच्या सामग्री फक्त</string>
   <string name="morphe_play_all_button_type_entry_10">सदस्यांचे फक्त व्हिडिओ</string>
+  <string name="morphe_play_all_button_type_entry_11">फक्त सदस्यांसाठी शॉर्ट्स</string>
   <string name="morphe_play_all_button_type_entry_12">सदस्यांचे फक्त थेट प्रवाह</string>
   <string name="morphe_play_all_button_not_available_toast">चॅनेल आयडी जुळत नसल्यामुळे प्लेलिस्ट तयार करणे शक्य नाही</string>
   <!-- interaction.reload.reloadVideoPatch -->
@@ -338,9 +341,37 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_dismiss_player_not_available_toast">व्हिडिओ आयडी उपलब्ध नाही. कृपया व्हिडिओ व्यक्तिचलितपणे रीलोड करा</string>
   <!-- interaction.savetowatchlater.saveToWatchLaterPatch -->
   <string name="morphe_save_to_watch_later_button_title">\'नंतर पाहण्यासाठी सेव्ह करा\' बटण दर्शवा</string>
+  <string name="morphe_save_to_watch_later_button_summary">टॅप करून नंतर पाहण्यासाठी सेव्ह करा, रांगेच्या पर्यायांसाठी टॅप आणि होल्ड करा</string>
   <string name="morphe_save_to_watch_later_success_toast">व्हिडिओ यशस्वीरित्या ‘नंतर पहा’ प्लेलिस्टमध्ये जतन केला गेला</string>
   <string name="morphe_save_to_watch_later_already_exists_toast">हा व्हिडिओ ‘नंतर पहा’ प्लेलिस्टमध्ये आधीच जतन केला आहे</string>
   <string name="morphe_save_to_watch_later_error_toast">हा व्हिडिओ ‘नंतर पहा’ प्लेलिस्टमध्ये जतन करू शकत नाही</string>
+  <string name="morphe_queue_restore_title">सत्रांमध्ये रांग ठेवा</string>
+  <string name="morphe_queue_restore_summary">ॲप रीस्टार्ट केल्यानंतर रांग ठेवल्या जाईल</string>
+  <string name="morphe_swap_save_and_queue_actions_title">स्वॅप सेव्ह आणि क्यू ॲक्शन</string>
+  <string name="morphe_swap_save_and_queue_actions_summary">क्यू पर्यायांसाठी टॅप करा, नंतर पाहण्यासाठी सेव्ह करण्यासाठी टॅप आणि होल्ड करा</string>
+  <string name="morphe_queue_manager_check_failed_auth">लॉग इन केलेले नाही</string>
+  <string name="morphe_queue_manager_check_failed_playlist_id">प्लेलिस्ट आयडी नाही</string>
+  <string name="morphe_queue_manager_check_failed_queue">क्यू रिकामी आहे</string>
+  <string name="morphe_queue_manager_check_failed_video_id">व्हिडिओ आयडी नाही</string>
+  <string name="morphe_queue_manager_check_failed_generic">अयशस्वी: %s</string>
+  <string name="morphe_queue_manager_fetch_failed_add">क्यू मध्ये जोडण्यात अयशस्वी</string>
+  <string name="morphe_queue_manager_fetch_failed_create">क्यू तयार करण्यात अयशस्वी</string>
+  <string name="morphe_queue_manager_fetch_failed_remove">क्यू मधून काढण्यात अयशस्वी</string>
+  <string name="morphe_queue_manager_fetch_failed_save">क्यू जतन करण्यात अयशस्वी</string>
+  <string name="morphe_queue_manager_fetch_succeeded_add">क्यू मध्ये जोडले</string>
+  <string name="morphe_queue_manager_fetch_succeeded_create">क्यू तयार केली</string>
+  <string name="morphe_queue_manager_fetch_succeeded_remove">क्यू मधून काढले</string>
+  <string name="morphe_queue_manager_fetch_succeeded_save">क्यू %s वर जतन केली</string>
+  <string name="morphe_queue_manager_playlist_title">Morphe Queue</string>
+  <string name="morphe_queue_manager_add_to_queue">क्यू मध्ये जोडा</string>
+  <string name="morphe_queue_manager_add_to_queue_and_open_queue">क्यू मध्ये जोडा आणि उघडा</string>
+  <string name="morphe_queue_manager_add_to_queue_and_play_video">क्यू मध्ये जोडा आणि प्ले करा</string>
+  <string name="morphe_queue_manager_add_to_queue_and_reload_video">व्हिडिओ जोडा आणि रीलोड करा</string>
+  <string name="morphe_queue_manager_remove_from_queue">क्यू मधून काढा</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_open_queue">क्यू मधून काढा आणि उघडा</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_reload_video">व्हिडिओ काढा आणि रीलोड करा</string>
+  <string name="morphe_queue_manager_open_queue">क्यू उघडा</string>
+  <string name="morphe_queue_manager_save_queue">प्लेलिस्टमध्ये क्यू जतन करा</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
   <string name="morphe_open_channel_of_live_avatar_title">लाइव्ह अवतारमधून चॅनेल उघडा</string>
   <string name="morphe_open_channel_of_live_avatar_summary">चॅनेलच्या अवतारवर टॅप केल्यावर लाइव्ह स्ट्रीम उघडण्यापासून प्रतिबंधित करते</string>
@@ -349,9 +380,15 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_disable_precise_seeking_gesture_summary">सीकबार (seekbar) वर खेचल्यावर सक्रिय होणारा अचूक शोध मोड अक्षम करा</string>
   <!-- interaction.seekbar.livestreamDvrPatch -->
   <string name="morphe_livestream_dvr_title">लाइव्हस्ट्रीम DVR सक्षम करा</string>
-  <string name="morphe_livestream_dvr_summary">सामान्यतः प्रतिबंधित असलेल्या लाइव्ह स्ट्रीमवर देखील शोधण्याची परवानगी देते</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_livestream_dvr_user_dialog_message">हे सक्षम केल्यामुळे ‘स्पूफ व्हिडिओ स्ट्रीम’ सक्षम नसल्यास, लाईव्हस्ट्रीम शोधण्यात अनपेक्षित वर्तन होऊ शकते.</string>
+  <string name="morphe_livestream_dvr_summary">"सर्व लाइव्हस्ट्रीमवर शोधण्याची परवानगी देते, अगदी त्या लाइव्हस्ट्रीमवर जिथे सामान्यतः ते प्रतिबंधित असते.
+
+टीप: जर 'स्पूफ व्हिडिओ स्ट्रीम' सक्षम नसेल, तर हे सक्षम केल्यास अनपेक्षित लाइव्हस्ट्रीम शोध वर्तन होऊ शकते."</string>
+  <string name="morphe_expand_livestream_dvr_duration_title">लाइव्हस्ट्रीम DVR कालावधी वाढवा</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_expand_livestream_dvr_duration_summary">"तुम्हाला मागील 7 दिवसांपर्यंतचे थेट प्रक्षेपण मागे घेण्यास अनुमती देते.
+
+टीप: जर 'स्पूफ व्हिडिओ स्ट्रीम' सक्षम नसेल, तर हे सक्षम केल्यास अनपेक्षित लाइव्हस्ट्रीम शोध वर्तन होऊ शकते."</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">स्लाइड टू सीक सक्षम करा</string>
   <string name="morphe_slide_to_seek_summary">व्हिडिओ प्लेयरवर दाबून धरल्यावर 2x वेगाने प्ले करण्याऐवजी स्लाइड टू सीक सक्षम करा</string>
@@ -446,7 +483,7 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_hide_ask_button_title">\'विचारा\'  बटण लपवा</string>
   <!-- 'Clip' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_clip_button_title">\'क्लिप\' बटण लपवा</string>
-  <string name="morphe_hide_clip_button_user_dialog_message">हे लपविणे फंक्शन काही वापरकर्ता खात्यांसाठी कार्य करू शकत नाही.</string>
+  <string name="morphe_hide_clip_button_summary">काही वापरकर्ता खात्यांसाठी हे कार्य करू शकत नाही.</string>
   <!-- 'Shop' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_shop_button_title">\'खरेदी\' (Shop) बटण लपवा</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
@@ -512,7 +549,7 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_show_settings_button_type_title">सेटिंग्स बटण क्रिया</string>
   <string name="morphe_show_settings_button_type_summary">सक्षम केल्यावर मोर्फ सेटिंग्ज उघडते, अक्षम केल्यावर YouTube सेटिंग्ज उघडते</string>
   <string name="morphe_swap_create_with_notifications_button_title">क्रिएट (Create) बटण आणि नोटिफिकेशन (Notifications) बटण बदला</string>
-  <string name="morphe_swap_create_with_notifications_button_user_dialog_message">जर हे सेटिंग प्रभावी होत नसेल, तर इनकॉग्निटो मोड वापरून पहा.</string>
+  <string name="morphe_swap_create_with_notifications_button_summary">जर ही सेटिंग बदलल्याचा परिणाम झाला नाही, तर इन्कॉग्निटो मोड वापरून पहा.</string>
   <string name="morphe_hide_navigation_button_labels_title">नेव्हिगेशन बटण लेबल्स लपवा</string>
   <string name="morphe_hide_navigation_bar_title">नेव्हिगेशन बार लपवा</string>
   <string name="morphe_hide_navigation_bar_user_dialog_message">"हे नेव्हिगेशन बार पूर्णपणे लपवते, ज्यात 'You' टॅब देखील समाविष्ट आहे.
@@ -606,7 +643,6 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_ambient_mode_screen_summary">एम्बियंट मोड दृश्यमानता आणि उर्जा निर्बंध व्यवस्थापित करा</string>
   <string name="morphe_bypass_ambient_mode_restrictions_title">ॲम्बियंट मोड निर्बंध बायपास करा</string>
   <string name="morphe_bypass_ambient_mode_restrictions_summary">बॅटरी सेव्हर मोडमध्ये एम्बियंट मोड सक्रिय राहण्याची परवानगी देते</string>
-  <string name="morphe_bypass_ambient_mode_restrictions_user_dialog_message">हे सक्षम केल्याने बॅटरीचे आयुष्य अधिक खालावू शकते.</string>
   <string name="morphe_disable_ambient_mode_title">ॲम्बियंट मोड अक्षम करा</string>
   <string name="morphe_disable_fullscreen_ambient_mode_title">पूर्ण स्क्रीनमध्ये एंबियंट मोड अक्षम करा</string>
   <!-- layout.hide.infocards.hideInfocardsPatch -->
@@ -670,11 +706,10 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_hide_shorts_navigation_bar_title">नेव्हिगेशन बार लपवा</string>
   <!-- layout.hide.endscreensuggestedvideo.hideEndScreenSuggestedVideoPatch -->
   <string name="morphe_hide_end_screen_suggested_video_title">ेंड स्क्रीन सुझावा व्हिडिओ लपवा</string>
-  <string name="morphe_hide_end_screen_suggested_video_summary">व्हिडिओ संपल्यानंतर दिसणारे प्रस्तावित व्हिडिओ ओव्हरले लपवा</string>
-  <string name="morphe_hide_end_screen_suggested_video_user_dialog_message">"हे सेटिंग फक्त 'पुढील व्हिडिओ ऑटोप्ले' बंद केल्यास कार्य करते.
+  <string name="morphe_hide_end_screen_suggested_video_summary">"व्हिडिओ संपल्यानंतर दिसणारे सूचना देणारे व्हिडिओ ओव्हरले लपवते.
 
-तुम्ही हे YouTube मध्ये बदलू शकता:
-सेटिंग्ज → प्लेबॅक (किंवा ऑटोप्ले) → पुढील व्हिडिओ ऑटोप्ले"</string>
+ही सेटिंग फक्त तेव्हाच कार्य करते जेव्हा ऑटोप्ले बंद केले जाते. तुम्ही ते YouTube मध्ये बदलू शकता:
+सेटिंग्ज → प्लेबॅक (किंवा ऑटोप्ले) → पुढील व्हिडिओ आपोआप प्ले करा."</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">संबंधित व्हिडिओ लपवा</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
@@ -795,6 +830,18 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_sb_general_uuid_invalid">खाजगी यूजर आयडी किमान ३० अक्षरे लांब असणे आवश्यक आहे</string>
   <string name="morphe_sb_general_api_url">API URL बदला</string>
   <string name="morphe_sb_general_api_url_summary">SponsorBlock सर्व्हरला कॉल करण्यासाठी वापरलेला पत्ता</string>
+  <string name="morphe_sb_channel_whitelist">चॅनेल व्हाईटलिस्ट</string>
+  <string name="morphe_sb_channel_whitelist_summary">SponsorBlock व्हाईटलिस्ट केलेल्या चॅनेलसाठी अक्षम आहे</string>
+  <string name="morphe_sb_channel_whitelist_current_channel">वर्तमान चॅनेल:</string>
+  <string name="morphe_sb_channel_whitelist_add">व्हाइटलिस्टमध्ये जोडा</string>
+  <string name="morphe_sb_channel_whitelist_remove">काढून टाका</string>
+  <string name="morphe_sb_channel_whitelist_channels_header">व्हाइटलिस्टेड चॅनेल</string>
+  <string name="morphe_sb_channel_whitelist_empty">व्हाइटलिस्टेड चॅनेल नाहीत</string>
+  <string name="morphe_sb_channel_whitelist_channel_added">चॅनेल व्हाइटलिस्टमध्ये जोडले</string>
+  <string name="morphe_sb_channel_whitelist_channel_removed">चॅनेल व्हाइटलिस्टमधून काढले</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel">व्हाइटलिस्टेड चॅनेलवर सूचित करा</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel_summary">जेव्हा व्हाइटलिस्टेड चॅनेलसाठी SponsorBlock अक्षम केले जाते तेव्हा सूचना दर्शवते</string>
+  <string name="morphe_sb_channel_whitelisted_toast">या चॅनेलसाठी SponsorBlock अक्षम केले</string>
   <string name="morphe_sb_api_url_reset">API URL रीसेट करा</string>
   <string name="morphe_sb_api_url_invalid">API URL अवैध आहे</string>
   <string name="morphe_sb_api_url_changed">API URL बदलला</string>
@@ -966,6 +1013,8 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
 • शॉर्ट्समध्ये रीमिक्स बटण आणि ध्वनी बटण उपलब्ध नाहीत
 • शॉर्ट्स नियमित प्लेयरमध्ये उघडतात
 • व्हिडिओ ॲक्शन बार कोसळलेला नाही"</string>
+  <string name="morphe_tablet_layout_in_player_title">प्लेअरमध्ये टॅबलेट लेआउट सक्षम करा</string>
+  <string name="morphe_tablet_layout_in_player_summary">जुना प्लेअर लेआउट पुनर्संचयित करते</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">ॲप आवृत्तीSpoof करा</string>
   <string name="morphe_spoof_app_version_summary">ॲप (App) आवृत्तीमध्ये बदल करा</string>
@@ -1031,9 +1080,7 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_shorts_autoplay_background_summary">पार्श्वभूमीवर (Background) प्लेबॅक (Playback) करताना पुढील शॉर्ट (Short) वर स्वयंचलितपणे जाते</string>
   <!-- layout.miniplayer.miniplayerPatch -->
   <string name="morphe_miniplayer_disable_resuming_title">मिनीप्लेअर पुन्हा सुरू करणे अक्षम करा</string>
-  <string name="morphe_miniplayer_disable_resuming_summary">ॲप सुरू झाल्यावर \'पुढे चालू ठेवा\' (Continue watching) मिनीप्लेअर (Miniplayer) दिसण्यापासून प्रतिबंधित (Prevent) करते</string>
-  <string name="morphe_miniplayer_disable_resuming_user_dialog_message">"• 'देखणे सुरू ठेवा' हे YouTube Premium चे वैशिष्ट्य आहे.
-• हे सेटिंग Premium वैशिष्ट्य सक्तीने चालू करू शकत नाही."</string>
+  <string name="morphe_miniplayer_disable_resuming_summary">\'Continue watching\' मिनीप्लेअर अक्षम करते, YouTube Premium चे वैशिष्ट्य जे ॲप सुरू झाल्यावर दिसते.</string>
   <string name="morphe_miniplayer_screen_title">मिनीप्लेअर</string>
   <string name="morphe_miniplayer_screen_summary">मिनीप्लेअरचे (Miniplayer) स्वरूप आणि वर्तन सानुकूलित (Customize) करा</string>
   <string name="morphe_miniplayer_type_title">मिनीप्लेअर प्रकार</string>
@@ -1051,8 +1098,6 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_miniplayer_disable_horizontal_drag_title"> horizontal ड्रॅग gesture अक्षम करा</string>
   <string name="morphe_miniplayer_disable_horizontal_drag_summary">मिनीप्लेअरला (Miniplayer) क्षैतिजरित्या (Horizontally) स्वाइप (Swipe) करून बंद करण्यापासून प्रतिबंधित (Prevent) करते</string>
   <string name="morphe_miniplayer_hide_overlay_buttons_title">ओव्हरले बटणे लपवा</string>
-  <string name="morphe_miniplayer_hide_subtext_title">सबटेक्स्ट लपवा</string>
-  <string name="morphe_miniplayer_hide_rewind_forward_title">पुढील आणि मागील बटणे लपवा</string>
   <string name="morphe_miniplayer_width_dip_title">डीआयपी (DIP) मध्ये डीफॉल्ट (Default) आकार</string>
   <string name="morphe_miniplayer_width_dip_summary">सुरुवातीचा आकार सेट करा, पिक्सेलमध्ये (Pixels)</string>
   <string name="morphe_miniplayer_width_dip_invalid_toast">पिक्सेल आकार %1$s आणि %2$s दरम्यान असणे आवश्यक आहे</string>
@@ -1136,9 +1181,9 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_disable_notification_media_seekbar_summary">लॉक स्क्रीन (Lock screen) आणि सूचना पॅनेलवर (Notification panel) SeekBar ला ड्रॅग (Drag) करण्यापासून प्रतिबंधित (Prevent) करते</string>
   <!-- misc.gms.accountCredentialsInvalidTextPatch -->
   <string name="microg_offline_account_login_error">तुम्ही नुकतेच तुमचे खाते लॉगिन तपशील बदलले असल्यास, MicroG अनइंस्टॉल आणि रीइंस्टॉल करा.</string>
-  <!-- misc.links.bypassURLRedirectsPatch -->
-  <string name="morphe_bypass_url_redirects_title">URL पुनर्निर्देशन बायपास करा</string>
-  <string name="morphe_bypass_url_redirects_summary">ट्रॅकिंग लिंक (youtube.com/redirect) बायपास करून, मूळ URL थेट उघडते</string>
+  <!-- misc.links.bypassLinkRedirectsPatch -->
+  <string name="morphe_bypass_link_redirects_title">लिंक रीडायरेक्ट्स बायपास करा</string>
+  <string name="morphe_bypass_link_redirects_summary">ट्रॅकिंग लिंक (youtube.com/redirect) बायपास करून मूळ लिंक थेट उघडते</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <string name="morphe_external_browser_title">ब्राउझरमध्ये लिंक उघडा</string>
   <string name="morphe_external_browser_summary">इन-ॲप ब्राउझरऐवजी (in-app browser) बाह्य ब्राउझरमध्ये (external browser) लिंक्स उघडते</string>
@@ -1182,6 +1227,8 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
   <string name="morphe_remember_playback_speed_last_selected_toast_summary">नवीन डीफॉल्ट प्लेबॅक वेग (playback speed) जतन झाल्यावर सूचना दर्शवते</string>
   <string name="morphe_playback_speed_default_title">डीफॉल्ट प्लेबॅक गती</string>
   <string name="morphe_remember_playback_speed_toast">डीफॉल्ट प्लेबॅक स्पीड बदलला: %s</string>
+  <string name="morphe_disable_playback_speed_music_title">संगीतासाठी सामान्य गती वापरा</string>
+  <string name="morphe_disable_playback_speed_music_summary">संगीत व्हिडिओ नेहमी 1.0x वेगाने प्ले करा</string>
   <!-- video.codecs.disableVideoCodecsPatch -->
   <string name="morphe_disable_hdr_video_title">एचडीआर व्हिडिओ अक्षम करा</string>
   <string name="morphe_force_avc_codec_title">AVC (H.264) कोडेक (Codec) सक्ती करा</string>
@@ -1196,11 +1243,6 @@ YouTube डूडल्स दर्शविल्याने कस्टम 
 • काही उपकरणे AVC ला सक्ती करू शकत नाहीत"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <string name="morphe_force_avc_codec_not_available">हे वैशिष्ट्य (Feature) वापरण्यासाठी, \'व्हिडिओ स्ट्रीम (Video streams) स्पूफ (Spoof) करा\' Android VR किंवा Android Studio वर सेट करा</string>
-  <!-- interaction.seekbar.expandLivestreamDvrDurationPatch -->
-  <string name="morphe_expand_livestream_dvr_duration_title">लाइव्हस्ट्रीम DVR कालावधी वाढवा</string>
-  <string name="morphe_expand_livestream_dvr_duration_summary">लाइव्ह (Live) प्रक्षेपणाची (Broadcast) मागील 7 दिवसांपर्यंत वगळण्याची परवानगी देते</string>
-  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_expand_livestream_dvr_duration_user_dialog_message">\'व्हिडिओ स्ट्रीम्स स्पूफ\' सक्षम नसल्यास हे सेटिंग अनपेक्षित वर्तन निर्माण करू शकते.</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">प्रगत व्हिडिओ गुणवत्ता मेनू दर्शवा</string>
   <!-- video.quality.hidePremiumVideoQualityPatch -->

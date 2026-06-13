@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 seconden</string>
   <string name="morphe_crossfade_duration_9000ms">9 seconden</string>
   <string name="morphe_crossfade_duration_10000ms">10 seconden</string>
+  <string name="morphe_crossfade_duration_11000ms">11 seconden</string>
+  <string name="morphe_crossfade_duration_12000ms">12 seconden</string>
   <string name="morphe_music_crossfade_on_skip_title">Crossfade bij handmatig overslaan</string>
   <string name="morphe_music_crossfade_on_skip_summary">Past het crossfade-effect toe wanneer je handmatig naar het volgende nummer springt</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Crossfade bij automatisch doorspoelen</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Crossfade hervat</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Videomodus is niet beschikbaar wanneer crossfade is ingeschakeld</string>
   <string name="morphe_music_crossfade_about_title">Over</string>
-  <string name="morphe_music_crossfade_about_summary">"Crossfade beschikbaar met YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"Houd de shuffle-knop ingedrukt om in/uit te schakelen
 
-Lang indrukken op de shuffle-knop om crossfade uit/aan te zetten.
-
-Feature implementatie door VazerOG"</string>
+Functie-implementatie door VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Permanent herhalen inschakelen</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Cast-knop verbergen</string>
   <string name="morphe_music_hide_history_button_title">Geschiedenisknop verbergen</string>
   <string name="morphe_music_hide_notification_button_title">Meldingsknop verbergen</string>
@@ -92,17 +92,20 @@ Feature implementatie door VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Afspeellijsten</string>
   <string name="morphe_change_start_page_entry_search">Zoeken</string>
   <string name="morphe_change_start_page_entry_subscriptions">Abonnementen</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Categoriebalk verbergen</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Wijzig miniplayerkleur</string>
   <string name="morphe_music_change_miniplayer_color_summary">Miniplayerkleur komt overeen met de volledigschermspeler</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Volgende knop weergeven in miniplayer</string>
   <string name="morphe_music_miniplayer_previous_button_title">Toon vorige knop in miniplayer</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Geforceerde miniplayer inschakelen</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Voorkomt dat de speler automatisch uitbreidt naar volledig scherm wanneer een nieuw nummer begint</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Schakel vegen om de miniplayer te sluiten in</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Hiermee kun je de miniplayer sluiten door er omlaag te vegen</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigatiebalk</string>
   <string name="morphe_music_navigation_bar_screen_summary">Kies welke knoppen er in de onderste navigatiebalk verschijnen</string>

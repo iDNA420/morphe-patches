@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 senîye</string>
   <string name="morphe_crossfade_duration_9000ms">9 senîye</string>
   <string name="morphe_crossfade_duration_10000ms">10 senîye</string>
+  <string name="morphe_crossfade_duration_11000ms">11 saniye</string>
+  <string name="morphe_crossfade_duration_12000ms">12 saniye</string>
   <string name="morphe_music_crossfade_on_skip_title">Veşartinê ser dîmenê destûrî</string>
   <string name="morphe_music_crossfade_on_skip_summary">Efêkta veguherîna hûrgulî dema ku hûn bi destan berê xwe bidin strana dinê çêdike</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Veşartinê ser pêşandanê otomatîk</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Navkirin dubare hat destpêkirin</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Moda vîdyoyê dema navkirinê çalak e, nayê xebitîn</string>
   <string name="morphe_music_crossfade_about_title">Derbarê</string>
-  <string name="morphe_music_crossfade_about_summary">"Girtina firqeyî bi YouTube Music 8.x re heye
+  <string name="morphe_music_crossfade_about_summary">"Karıştırma düğmesine uzun basarak devre dışı bırakın/etkinleştirin
 
-Dirêja şilikeki dirêj ser butona pêşveçûyî da tu pêştirîne/veşartinê bikin
-
-Birkirina taybetî bi VazerOG"</string>
+VazerOG tarafından özellik uygulaması"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Tekrar davim berdewam bike</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Keleka pêşandanê veşêre</string>
   <string name="morphe_music_hide_history_button_title">Keleka dîrokê veşêre</string>
   <string name="morphe_music_hide_notification_button_title">Keleka ragihandinê veşêre</string>
@@ -92,17 +92,20 @@ Birkirina taybetî bi VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Lîste-yên weşangez</string>
   <string name="morphe_change_start_page_entry_search">Bigere</string>
   <string name="morphe_change_start_page_entry_subscriptions">Refqandin</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Keleka kategoriya veşêre</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Rengê miniplayer-a biguhezîne</string>
   <string name="morphe_music_change_miniplayer_color_summary">Rengê lîstikvanê biçîk bi rengê lîstikvanê bi tevahî yê veguherîne</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">ин cейизиб губи миниплейаибда</string>
   <string name="morphe_music_miniplayer_previous_button_title">Seroka butona li miniplayerê de</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Serê pêşandanê tim miniplayer werekî jêdî were çalak kirin</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Îhtimalê veguherîna lîstikvan bi xweber bo tevahî parastin dema ku strana nû dest pê dike</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Mîkroşvanê biçîkirinê çalak bike</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Destûr dide ku mîkroşvan bi şûşkirina jorê de were girtin</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Keleka navigasyonê</string>
   <string name="morphe_music_navigation_bar_screen_summary">Hilbijêrînê ku kîjan butonan li ser barê navîgera jorîn xuya bibin</string>

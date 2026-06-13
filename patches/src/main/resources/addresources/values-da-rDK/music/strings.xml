@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekunder</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekunder</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekunder</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekunder</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekunder</string>
   <string name="morphe_music_crossfade_on_skip_title">Crossfade ved manuelt spring</string>
   <string name="morphe_music_crossfade_on_skip_summary">Anvender krydsfade-effekten, når du manuelt springer til næste nummer</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Crossfade ved automatisk afspilning</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Crossfade genoptaget</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Videotilstand er ikke tilgængelig, når crossfade er aktiveret</string>
   <string name="morphe_music_crossfade_about_title">Om</string>
-  <string name="morphe_music_crossfade_about_summary">"Crossfade er tilgængelig med YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"Tryk og hold på knappen til tilfældig afspilning for at deaktivere/aktivere
 
-Langt tryk på shuffle-knappen for at deaktivere/aktivere
-
-Feature implementering af VazerOG"</string>
+Funktionen er implementeret af VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Aktiver permanent gentagelse</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Skjul cast-knap</string>
   <string name="morphe_music_hide_history_button_title">Skjul historikknap</string>
   <string name="morphe_music_hide_notification_button_title">Skjul notifikationsknap</string>
@@ -92,17 +92,20 @@ Feature implementering af VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Playlister</string>
   <string name="morphe_change_start_page_entry_search">Søg</string>
   <string name="morphe_change_start_page_entry_subscriptions">Abonnementer</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Skjul kategorilinje</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Skift miniafspillerfarve</string>
   <string name="morphe_music_change_miniplayer_color_summary">Miniafspillerfarven matcher fuldskærmsafspilleren</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Vis næste-knap i miniafspiller</string>
   <string name="morphe_music_miniplayer_previous_button_title">Vis forrige-knap i miniafspiller</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Aktivér tvungen miniafspiller</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Forhindrer afspilleren i automatisk at udvide til fuldskærm, når et nyt nummer starter</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Aktivér swipe for at lukke miniafspilleren</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Giver mulighed for at lukke miniafspilleren ved at swipe ned på den</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigationslinje</string>
   <string name="morphe_music_navigation_bar_screen_summary">Vælg hvilke knapper der skal vises i nederste navigationslinje</string>

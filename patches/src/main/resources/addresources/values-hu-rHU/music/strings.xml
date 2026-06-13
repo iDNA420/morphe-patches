@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 másodperc</string>
   <string name="morphe_crossfade_duration_9000ms">9 másodperc</string>
   <string name="morphe_crossfade_duration_10000ms">10 másodperc</string>
+  <string name="morphe_crossfade_duration_11000ms">11 másodperc</string>
+  <string name="morphe_crossfade_duration_12000ms">12 másodperc</string>
   <string name="morphe_music_crossfade_on_skip_title">Áttűnés kézi léptetéskor</string>
   <string name="morphe_music_crossfade_on_skip_summary">Alkalmazza az áttűnés effektust, amikor kézzel léptetsz a következő számra</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Áttűnés automatikus léptetéskor</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Áttűnés folytatva</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Bekapcsolt áttűnés mellett a videómód nem használható</string>
   <string name="morphe_music_crossfade_about_title">Névjegy</string>
-  <string name="morphe_music_crossfade_about_summary">"Az áttűnés a YouTube Music 8.x verziójától érhető el.
-
-Az áttűnés ki- és bekapcsolásához tartsd nyomva a véletlenszerű lejátszás gombot.
+  <string name="morphe_music_crossfade_about_summary">"Tartsd lenyomva a keverés gombot a funkció letiltásához/engedélyezéséhez.
 
 A funkciót készítette: VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Állandó ismétlés bekapcsolása</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Átküldés gomb elrejtése</string>
   <string name="morphe_music_hide_history_button_title">Előzmények gomb elrejtése</string>
   <string name="morphe_music_hide_notification_button_title">Értesítés gomb elrejtése</string>
@@ -92,17 +92,20 @@ A funkciót készítette: VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Lejátszási listák</string>
   <string name="morphe_change_start_page_entry_search">Keresés</string>
   <string name="morphe_change_start_page_entry_subscriptions">Feliratkozások</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Kategóriasáv elrejtése</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Minilejátszó színének módosítása</string>
   <string name="morphe_music_change_miniplayer_color_summary">A minilejátszó színe illeszkedjen a teljes képernyős lejátszóhoz</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Következő gomb megjelenítése a mini lejátszóban</string>
   <string name="morphe_music_miniplayer_previous_button_title">Előző gomb megjelenítése a mini lejátszóban</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Kényszerített minilejátszó bekapcsolása</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Ne váltson automatikusan teljes képernyőre új szám indításakor</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Engedélyezze a miniplayer elhúzással való bezárását</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Lehetővé teszi a miniplayer bezárását a rajta végzett lefelé húzással</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigációs sáv</string>
   <string name="morphe_music_navigation_bar_screen_summary">Válaszd ki, mely gombok jelenjenek meg az alsó navigációs sávban</string>

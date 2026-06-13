@@ -10,17 +10,19 @@ import static app.morphe.extension.youtube.patches.MiniplayerPatch.MiniplayerTyp
 import static app.morphe.extension.youtube.patches.MiniplayerPatch.MiniplayerType.MODERN_4;
 
 import android.content.res.ColorStateList;
+import android.graphics.drawable.Drawable;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 import app.morphe.extension.shared.Logger;
+import app.morphe.extension.shared.ResourceUtils;
 import app.morphe.extension.shared.Utils;
 import app.morphe.extension.shared.settings.Setting;
 import app.morphe.extension.youtube.settings.Settings;
@@ -38,12 +40,6 @@ public final class MiniplayerPatch {
         DISABLED(false, null),
         /** Unmodified type, and same as un-patched. */
         DEFAULT(null, null),
-        /**
-         * Exactly the same as MINIMAL and only here for migration of user settings.
-         * Eventually this should be deleted.
-         */
-        @Deprecated
-        PHONE(false, null),
         MINIMAL(false, null),
         TABLET(true, null),
         MODERN_1(null, 1),
@@ -134,20 +130,20 @@ public final class MiniplayerPatch {
             Settings.MINIPLAYER_HIDE_OVERLAY_BUTTONS.get()
                     && Settings.MINIPLAYER_HIDE_OVERLAY_BUTTONS.isAvailable();
 
-    private static final boolean HIDE_SUBTEXT_ENABLED =
-            (CURRENT_TYPE == MODERN_1 || CURRENT_TYPE == MODERN_3 || CURRENT_TYPE == MODERN_4)
-                    && Settings.MINIPLAYER_HIDE_SUBTEXT.get();
-
-    // 19.25 is last version that uses forward/back buttons for phones,
-    // but buttons still show for tablets/foldable devices, and they don't work well so always hide.
-    private static final boolean HIDE_REWIND_FORWARD_ENABLED = CURRENT_TYPE == MODERN_1
-            && Settings.MINIPLAYER_HIDE_REWIND_FORWARD.get();
-
     private static final boolean MINIPLAYER_ROUNDED_CORNERS_ENABLED =
             CURRENT_TYPE.isModern() && !Settings.MINIPLAYER_DISABLE_ROUNDED_CORNERS.get();
 
     private static final boolean MINIPLAYER_HORIZONTAL_DRAG_ENABLED =
             DRAG_AND_DROP_ENABLED && !Settings.MINIPLAYER_DISABLE_HORIZONTAL_DRAG.get();
+
+    private static final Map<Integer, String> MINIMAL_PLAYER_DRAWABLES = Map.of(
+            ResourceUtils.getStringIdentifier("accessibility_pause"),
+            "yt_fill_pause_vd_theme_24",
+            ResourceUtils.getStringIdentifier("accessibility_play"),
+            "yt_fill_play_arrow_vd_theme_24",
+            ResourceUtils.getStringIdentifier("accessibility_replay"),
+            "yt_outline_replay_arrow_vd_theme_24"
+    );
 
     private static final int OPACITY_LEVEL;
 
@@ -206,20 +202,7 @@ public final class MiniplayerPatch {
         }
     }
 
-    public static final class MiniplayerHideSubtextsAvailability implements Setting.Availability {
-        @Override
-        public boolean isAvailable() {
-            MiniplayerType type = Settings.MINIPLAYER_TYPE.get();
-            return type == MODERN_3 || type == MODERN_4;
-        }
-
-        @Override
-        public List<Setting<?>> getParentSettings() {
-            return List.of(Settings.MINIPLAYER_TYPE);
-        }
-    }
-
-    public static final class MiniplayerHideRewindOrOverlayOpacityAvailability implements Setting.Availability {
+    public static final class MiniplayerOverlayOpacityAvailability implements Setting.Availability {
         @Override
         public boolean isAvailable() {
             MiniplayerType type = Settings.MINIPLAYER_TYPE.get();
@@ -425,22 +408,17 @@ public final class MiniplayerPatch {
     /**
      * Injection point.
      */
-    public static void hideMiniplayerRewindForward(View view) {
-        Utils.hideViewByRemovingFromParentUnderCondition(HIDE_REWIND_FORWARD_ENABLED, view);
-    }
+    public static void overrideMiniplayerActionButtonDrawable(ImageView view, int contentDescriptionId) {
+        if (!VersionCheckPatch.IS_21_17_OR_GREATER || CURRENT_TYPE != MINIMAL) {
+            return;
+        }
 
-    /**
-     * Injection point.
-     */
-    public static void hideMiniplayerSubTexts(View view) {
-        try {
-            // Different subviews are passed in, but only TextView is of interest here.
-            if (HIDE_SUBTEXT_ENABLED && view instanceof TextView) {
-                Logger.printDebug(() -> "Hiding subtext view");
-                Utils.hideViewByRemovingFromParentUnderCondition(true, view);
+        String drawableName = MINIMAL_PLAYER_DRAWABLES.get(contentDescriptionId);
+        if (drawableName != null) {
+            Drawable drawable = ResourceUtils.getDrawable(drawableName);
+            if (drawable != null) {
+                view.setImageDrawable(drawable);
             }
-        } catch (Exception ex) {
-            Logger.printException(() -> "hideMiniplayerSubTexts failure", ex);
         }
     }
 }

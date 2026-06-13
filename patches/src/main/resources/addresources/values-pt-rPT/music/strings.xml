@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 segundos</string>
   <string name="morphe_crossfade_duration_9000ms">9 segundos</string>
   <string name="morphe_crossfade_duration_10000ms">10 segundos</string>
+  <string name="morphe_crossfade_duration_11000ms">11 segundos</string>
+  <string name="morphe_crossfade_duration_12000ms">12 segundos</string>
   <string name="morphe_music_crossfade_on_skip_title">Desvanecimento ao pular manualmente</string>
   <string name="morphe_music_crossfade_on_skip_summary">Aplica o efeito de crossfade quando você pula manualmente para a próxima faixa</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Desvanecimento ao avançar automaticamente</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Crossfade retomado</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">O modo de vídeo não está disponível enquanto o crossfade estiver ativado</string>
   <string name="morphe_music_crossfade_about_title">Sobre</string>
-  <string name="morphe_music_crossfade_about_summary">"O desvanecimento está disponível com o YouTube Music 8.x
-
-Pressione longamente o botão de aleatorização para desativar/ativar
+  <string name="morphe_music_crossfade_about_summary">"Pressione e segure o botão de reprodução aleatória para desativar/ativar
 
 Implementação do recurso por VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Ativar repetição permanente</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Ocultar botão de transmissão</string>
   <string name="morphe_music_hide_history_button_title">Ocultar botão de histórico</string>
   <string name="morphe_music_hide_notification_button_title">Ocultar botão de notificação</string>
@@ -92,17 +92,20 @@ Implementação do recurso por VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Listas de reprodução</string>
   <string name="morphe_change_start_page_entry_search">Pesquisa</string>
   <string name="morphe_change_start_page_entry_subscriptions">Inscrições</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Ocultar barra de categorias</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Alterar a cor do minitocador</string>
   <string name="morphe_music_change_miniplayer_color_summary">A cor do minitocador corresponde à do reprodutor em tela cheia</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Mostrar botão próximo no miniplayer</string>
   <string name="morphe_music_miniplayer_previous_button_title">Mostrar botão anterior no miniplayer</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Ativar miniplayer forçado</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Impede que o player se expanda automaticamente para tela cheia quando uma nova faixa começa</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Ativar deslizar para descartar o miniplayer</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Permite descartar o miniplayer deslizando para baixo sobre ele</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Barra de navegação</string>
   <string name="morphe_music_navigation_bar_screen_summary">Escolha quais botões aparecem na barra de navegação inferior</string>

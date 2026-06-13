@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekundi</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekundi</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekundi</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekunde</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekunde</string>
   <string name="morphe_music_crossfade_on_skip_title">Прелаз при ручном прескакивању</string>
   <string name="morphe_music_crossfade_on_skip_summary">Primeni efekat preklapanja kada ručno preskočiš na sledeću numeru</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Прелаз при аутоматском прескакивању</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Prelazni efekat nastavljen</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Video režim nije dostupan dok je omogućen prelazni efekat</string>
   <string name="morphe_music_crossfade_about_title">O programu</string>
-  <string name="morphe_music_crossfade_about_summary">"Прелаз је доступан са YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"Pritisnite i zadržite dugme za nasumično puštanje kako biste onemogućili/omogućili
 
-Дугачак притисак на дугме за прескакање да бисте искључили/укључили
-
-Имплементација функције од ВazerOG"</string>
+Implementacija funkcije od strane VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Omogući trajno ponavljanje</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Sakrij dugme „Prebacuj”</string>
   <string name="morphe_music_hide_history_button_title">Sakrij dugme „Istorija”</string>
   <string name="morphe_music_hide_notification_button_title">Sakrij dugme „Obaveštenje”</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">Plejliste</string>
   <string name="morphe_change_start_page_entry_search">Pretraga</string>
   <string name="morphe_change_start_page_entry_subscriptions">Praćenja</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Sakrij traku kategorija</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Promeni boju mini-plejera</string>
   <string name="morphe_music_change_miniplayer_color_summary">Boja mini-plejera odgovara plejeru preko celog ekrana</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Prikaži dugme sledeće u mini playeru</string>
   <string name="morphe_music_miniplayer_previous_button_title">Prikaži prethodnu dugmad u mini playeru</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Omogući prisilni miniplejer</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Sprečava automatsko širenje plejera na ceo ekran kada nova numera počne</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Omogući prevlačenje kako bi se ukinuo mini plejer</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Omogućava uklanjanje mini plejera prevlačenjem prstom na dole po njemu</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Traka za navigaciju</string>
   <string name="morphe_music_navigation_bar_screen_summary">Izaberite koje dugmad se pojavljuju u donjoj navigacionoj traci</string>

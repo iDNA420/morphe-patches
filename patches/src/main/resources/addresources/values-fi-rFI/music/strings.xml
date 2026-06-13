@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekuntia</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekuntia</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekuntia</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekuntia</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekuntia</string>
   <string name="morphe_music_crossfade_on_skip_title">Himmennys manuaalisella ohituksella</string>
   <string name="morphe_music_crossfade_on_skip_summary">Käyttää yhdistämistehostetta, kun siirryt manuaalisesti seuraavaan kappaleeseen</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Himmennys automaattisella siirtymällä</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Crossfade-toiminto jatkettu</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Videon toimitila ei ole käytettävissä, kun crossfade on käytössä</string>
   <string name="morphe_music_crossfade_about_title">Tietoja</string>
-  <string name="morphe_music_crossfade_about_summary">"Himmennys on saatavilla YouTube Music 8.x:ssä.
+  <string name="morphe_music_crossfade_about_summary">"Paina ja pidä painettuna sekoituspainiketta poistaaksesi/ottaaksesi sen käyttöön
 
-Pitkä painallus sekoituspainikkeessa poistaa/ottaa käytöstä.
-
-Ominaisuuden toteutus VazerOG:n toimesta"</string>
+Ominaisuuden toteutti VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Ota pysyvä toisto käyttöön</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Piilota Cast-painike</string>
   <string name="morphe_music_hide_history_button_title">Piilota historia-painike</string>
   <string name="morphe_music_hide_notification_button_title">Piilota ilmoituspainike</string>
@@ -92,17 +92,20 @@ Ominaisuuden toteutus VazerOG:n toimesta"</string>
   <string name="morphe_change_start_page_entry_playlists">Soittolistat</string>
   <string name="morphe_change_start_page_entry_search">Haku</string>
   <string name="morphe_change_start_page_entry_subscriptions">Tilaukset</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Piilota kategoriapalkki</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Muuta minisoittimen väriä</string>
   <string name="morphe_music_change_miniplayer_color_summary">Minisoittimen väri vastaa kokoruudun soitinta</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Näytä seuraava -painike minisoittimessa</string>
   <string name="morphe_music_miniplayer_previous_button_title">Näytä edellinen painike minisoittimessa</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Ota pakotettu minisoitin käyttöön</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Estää soittimen automaattisen laajenemisen kokoruutuun, kun uusi kappale alkaa</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Ota käyttö päänäyttö pienoissoittimen sulkemiseen</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Mahdollistaa pienoissoittimen sulkemisen pyyhkäisemällä sitä alaspäin</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigointipalkki</string>
   <string name="morphe_music_navigation_bar_screen_summary">Valitse mitkä painikkeet näkyvät alavalikossa</string>

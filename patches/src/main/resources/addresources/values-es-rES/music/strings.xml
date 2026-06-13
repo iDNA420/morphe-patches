@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 segundos</string>
   <string name="morphe_crossfade_duration_9000ms">9 segundos</string>
   <string name="morphe_crossfade_duration_10000ms">10 segundos</string>
+  <string name="morphe_crossfade_duration_11000ms">11 segundos</string>
+  <string name="morphe_crossfade_duration_12000ms">12 segundos</string>
   <string name="morphe_music_crossfade_on_skip_title">Desvanecimiento al saltar manualmente</string>
   <string name="morphe_music_crossfade_on_skip_summary">Aplica el efecto de fundido cruzado cuando saltas manualmente a la siguiente pista</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Desvanecimiento al avanzar automáticamente</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Desvanecimiento cruzado reanudado</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">El modo de vídeo no está disponible mientras el desvanecimiento cruzado está activado</string>
   <string name="morphe_music_crossfade_about_title">Información</string>
-  <string name="morphe_music_crossfade_about_summary">"El desvanecimiento está disponible con YouTube Music 8.x
-
-Mantén pulsado el botón de aleatorización para desactivar/activar
+  <string name="morphe_music_crossfade_about_summary">"Mantenga pulsado el botón de reproducción aleatoria para desactivar/activar
 
 Implementación de la función por VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Habilitar repetición permanente</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Ocultar el botón de emisión</string>
   <string name="morphe_music_hide_history_button_title">Ocultar el botón \"Historial\"</string>
   <string name="morphe_music_hide_notification_button_title">Ocultar el botón de notificación</string>
@@ -92,17 +92,20 @@ Implementación de la función por VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Listas de reproducción</string>
   <string name="morphe_change_start_page_entry_search">Búsqueda</string>
   <string name="morphe_change_start_page_entry_subscriptions">Suscripciones</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Ocultar barra de categorías</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Cambiar color del reproductor en miniatura</string>
   <string name="morphe_music_change_miniplayer_color_summary">El color del reproductor en miniatura coincide con el del reproductor en pantalla completa</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Mostrar botón \"Siguiente\" en reproductor en miniatura</string>
   <string name="morphe_music_miniplayer_previous_button_title">Mostrar botón \"Anterior\" en reproductor en miniatura</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Activar reproductor en miniatura forzado</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Evita que el reproductor se expanda automáticamente a pantalla completa cuando comienza una nueva pista</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Activar el deslizamiento para descartar el reproductor minimizado</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Permite descartar el reproductor minimizado deslizando hacia abajo sobre él</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Barra de navegación</string>
   <string name="morphe_music_navigation_bar_screen_summary">Elige qué botones aparecen en la barra de navegación inferior</string>

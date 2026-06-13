@@ -45,7 +45,7 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_user_dialog_message">خەڵادانەوەی ئەم ناسنامەیە دەبێتە هۆی کێشە لە پەرباسەدا.</string>
   <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_title.
          "Sign in to Android VR" must use the same translation as morphe_spoof_video_streams_sign_in_android_vr_about_title -->
-  <string name="morphe_spoof_video_streams_no_clients_suggest_vr_toast">سعی بکە: گەڕانەوە سەر ڕاستگۆ > نیشانی ووردەی ئەندرۆید</string>
+  <string name="morphe_spoof_video_streams_no_clients_suggest_vr_toast">دۆخراوه‌ت: ڕاستکردنه‌وه‌ی ڕێگه‌ی ڤیدیو &gt; چوارده‌وه‌ی Android VR-ه‌ ده‌رباره‌ی نۆی‌ن</string>
   <string name="morphe_spoof_video_streams_client_type_title">ئەگەر سەرەکی</string>
   <!-- Ensure this translation matches the translation of morphe_spoof_video_streams_no_clients_suggest_vr_toast -->
   <string name="morphe_spoof_video_streams_sign_in_android_vr_about_title">نیشانی ووردەی ئەندرۆید</string>
@@ -68,35 +68,25 @@ Da te'îl bikin, li ser berdewam bikin xwarê"</string>
 3. بةبێ ئەگەر پێویست بوو، لە Google داخڵ بن. ئەگەر حساباته كۆمەڵةكانيان هەيە، حساباتی YouTube يان بيگرە
 4. دابەزینە 'Allow YouTube VR' ڕازەكان
 5. گەڕابە سەر ئەم بەرنامەیە دواتر كاتێك كە پێغەیە لەگەڵ 'Device connected' بەرنامەیە"</string>
-  <string name="morphe_spoof_video_streams_sign_in_android_vr_activation_code_dialog_open_website">Ve web sayt bike</string>
-  <string name="morphe_spoof_video_streams_sign_in_android_vr_toast_get_activation_code_failed">Serketina îsda kirina koda aktîvkirîyê ji holê qe</string>
-  <string name="morphe_spoof_video_streams_sign_in_android_vr_toast_get_authorization_code_failed">Serketina îsda kirina tîkena otantîkasyonê ji holê qe</string>
-  <string name="morphe_spoof_video_streams_sign_in_android_vr_success_dialog_title">Te\'îl kirin, serketî</string>
+  <string name="morphe_spoof_video_streams_sign_in_android_vr_activation_code_dialog_open_website">کردنەوەی ماڵپەڕ</string>
   <string name="morphe_spoof_video_streams_sign_in_android_vr_success_dialog_message">"‌ڕێكخستن هه‌ڵگیراوه
 
 • ڕێكخستنه‌كانی Morphe-ت ناهێننه‌وه‌/نه‌هاته‌وه‌ Android VR
 • كاتێكی ٦ مانگ ڕابێت، گۆگڵ ئەم ڕێكخستنە ده‌سڕێت
 • كاتێك وشه‌ختكه‌وتۆت، پێویسته‌ جارێكی تری ده‌رببێ بۆچون"</string>
-  <string name="morphe_oauth2_connection_failure_timeout">OAuth2 niha rê nade (API demê qe</string>
-  <string name="morphe_oauth2_connection_failure_status_400">Te\'îlkirina Android VR qe, hewildanek te\'îl kirin ji VR ser bike</string>
-  <string name="morphe_oauth2_connection_failure_status">OAuth2 niha rê nade (status %d)</string>
-  <string name="morphe_oauth2_connection_failure_generic">OAuth2 niha rê nade</string>
-  <string name="morphe_oauth2_connection_failure_auth_not_approved">Nabe te\'îl kirin ji VR, otantîkasyonê malperê pê qebûl nekirî</string>
-  <string name="morphe_oauth2_connection_failure_auth_error">Nabe te\'îl kirin ji VR: %s</string>
-  <string name="morphe_oauth2_toast_reset">Derkirî ji Android VR</string>
-  <string name="morphe_oauth2_toast_invalid">Tîkena te\'îlkirinê ji VR serdar nebû, hewildanek te\'îl kirin ji VR ser bike</string>
+  <string name="morphe_oauth2_connection_failure_timeout">OAuth2 بەردەست نیە ( کاتەکەی بەسەرچووە API)</string>
+  <string name="morphe_oauth2_connection_failure_status">OAuth2 هۊتا سەرلەشêره (ئاستی %d)</string>
+  <string name="morphe_oauth2_connection_failure_generic">OAuth2 بەشێوەیەکی کاتی بەردەست نیە</string>
+  <string name="morphe_oauth2_connection_failure_auth_not_approved">نەتوانم چواردوورە ببنێم، پشتەڕوایی ئەندازەی سایت پەسەند نەکرا</string>
+  <string name="morphe_oauth2_connection_failure_auth_error">نەتوانم لە VR چواردووەم: %s</string>
+  <string name="morphe_oauth2_toast_reset">ڳ0ڱڰڱڱڰڱ إواندرواد قوميرواد VR</string>
+  <string name="morphe_oauth2_toast_invalid">نسيحو دواكني ذيسنه لمن روسينه ، دواكه دوروسينه به امنهسي</string>
   <string name="morphe_spoof_video_streams_disable_player_js_update_title">ربووكردنا قوژگاری JavaScriptی خۆراك</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_summary">"جاڤاسکریپت  لێدەر قوفڵ دەکات بۆ هاشێکی ناوخۆیی لەجیاتی هێنانی نوێکردنەوەکان
-
-• هاشێکی جاڤاسکریپت لێدەری یاسایی پێویستە
-• پەخش کردنەوە سەرکەوتوو نابێت ئەگەر هاشی جاڤاسکریپت لێدەر لە GVS هەڵبوەشێنرێتەوە."</string>
-  <string name="morphe_spoof_video_streams_disable_player_js_update_user_dialog_message">هاشەکانی جاڤاسکریپت لێدەر بۆ ماوەی نزیکەی مانگێک کارپێکراوە، و هاشەکانی بەسەرچوو لەوانەیە لەلایەن GVS هەڵبوەشێنرێنەوە.</string>
-  <string name="morphe_spoof_video_streams_player_js_hash_value_title">Hashê JavaScript pêlkesera pêlvedinê</string>
-  <string name="morphe_spoof_video_streams_player_js_hash_value_summary">Hashê JavaScript pêlkesera pêlvedinê yê serdar avêjin</string>
+  <string name="morphe_spoof_video_streams_player_js_hash_value_title">ژیان JavaScript-ی خاس</string>
   <!-- misc.quic.disableQUICProtocolPatch -->
-  <string name="morphe_disable_quic_protocol_title">Protokol QUIC çavkanî bike</string>
+  <string name="morphe_disable_quic_protocol_title">پڕۆتۆكۆلی QUIC ڕاكوچە بكە</string>
   <!-- misc.audio.drc.disableDRCAudioPatch  -->
-  <string name="morphe_disable_drc_audio_title">DRC audio çavkanî bike</string>
+  <string name="morphe_disable_drc_audio_title">دەرکردنی دەنگی DRC</string>
   <!-- misc.audio.tracks.forceOriginalAudioPatch -->
   <string name="morphe_force_original_audio_title">به‌زانیشتنی زمانی دەنگی ئەسڵی</string>
   <string name="morphe_force_original_audio_summary">هەمیشە تراکی دەنگی ڕەسەنی ڤیدیۆکە لێدەدات لەجیاتی وەشانی دۆبلاژکراو</string>

@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 секунд</string>
   <string name="morphe_crossfade_duration_9000ms">9 секунд</string>
   <string name="morphe_crossfade_duration_10000ms">10 секунд</string>
+  <string name="morphe_crossfade_duration_11000ms">11 секунды</string>
+  <string name="morphe_crossfade_duration_12000ms">12 секунды</string>
   <string name="morphe_music_crossfade_on_skip_title">Плавный переход при ручном пропуске</string>
   <string name="morphe_music_crossfade_on_skip_summary">Применяет эффект кроссфейда при ручном переходе к следующему треку</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Плавный переход при автоматическом переходе</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Воспроизведение с переходом возобновлено</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Видеорежим недоступен при включенном плавном переходе</string>
   <string name="morphe_music_crossfade_about_title">Информация</string>
-  <string name="morphe_music_crossfade_about_summary">"Плавный переход доступен с YouTube Music 8.x
-
-Долгое нажатие на кнопку перемешивания позволяет отключить/включить функцию
+  <string name="morphe_music_crossfade_about_summary">"Длительное нажатие на кнопку перемешивания позволяет отключить/включить функцию
 
 Реализация функции VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Включить постоянный повтор</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Скрыть кнопку \"Трансляция\"</string>
   <string name="morphe_music_hide_history_button_title">Скрыть кнопку \"История\"</string>
   <string name="morphe_music_hide_notification_button_title">Скрыть кнопку уведомлений</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">Плейлисты</string>
   <string name="morphe_change_start_page_entry_search">Поиск</string>
   <string name="morphe_change_start_page_entry_subscriptions">Подписки</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Скрыть панель категорий</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Изменить цвет мини-плеера</string>
   <string name="morphe_music_change_miniplayer_color_summary">Цвет мини-плеера соответствует полноэкранному проигрывателю</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Показать кнопку \"Далее\" в мини плеере</string>
   <string name="morphe_music_miniplayer_previous_button_title">Показать предыдущую кнопку в мини плеере</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Включить принудительно мини плеер</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Предотвращает автоматическое разворачивание плеера на весь экран при запуске нового трека</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Включить смахивание для закрытия мини-плеера</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Позволяет закрыть мини-плеер, смахивая по нему вниз</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Панель навигации</string>
   <string name="morphe_music_navigation_bar_screen_summary">Выберите, какие кнопки должны отображаться на нижней навигационной панели</string>

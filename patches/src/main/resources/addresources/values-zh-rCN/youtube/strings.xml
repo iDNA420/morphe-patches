@@ -59,6 +59,9 @@ Second \"item\" text"</string>
   <string name="morphe_hide_feed_flyout_menu_title">启用信息流弹出菜单过滤器</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_title">信息流弹出菜单过滤器</string>
   <string name="morphe_hide_feed_flyout_menu_filter_strings_summary">输入要过滤的弹出菜单名称，以换行符分隔，每行一个</string>
+  <string name="morphe_hide_account_menu_title">启用资料库/您底部的菜单筛选</string>
+  <string name="morphe_hide_account_menu_filter_strings_title">启用资料库/您底部的菜单筛选</string>
+  <string name="morphe_hide_account_menu_filter_strings_summary">输入要筛选的资料库/您底部菜单名称，用换行符分隔</string>
   <string name="morphe_hide_album_cards_title">隐藏专辑卡片</string>
   <string name="morphe_hide_album_cards_summary">隐藏艺术家描述下方的专辑卡片</string>
   <string name="morphe_hide_artist_cards_title">隐藏艺人卡片</string>
@@ -111,9 +114,7 @@ Second \"item\" text"</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="morphe_hide_youtube_doodles_title">隐藏 YouTube 涂鸦</string>
   <string name="morphe_hide_youtube_doodles_summary">隐藏 YouTube logo上的季节性和活动相关的动画</string>
-  <string name="morphe_hide_youtube_doodles_user_dialog_message">"YouTube Doodles 每年在世界各地的一些天数内会显示。
-
-显示 YouTube Doodles 可能会阻止自定义标头显示。"</string>
+  <string name="morphe_hide_youtube_doodles_user_dialog_message">显示 YouTube 短视频可能会阻止自定义标题显示。</string>
   <string name="morphe_hide_channel_bar_title">隐藏频道栏</string>
   <string name="morphe_hide_channel_watermark_title">隐藏频道水印</string>
   <string name="morphe_hide_crowdfunding_box_title">隐藏众筹框</string>
@@ -123,13 +124,14 @@ Second \"item\" text"</string>
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the video player for certain videos. -->
   <string name="morphe_hide_join_membership_button_title">隐藏“加入”按钮</string>
-  <string name="morphe_hide_live_chat_donators_bar_title">隐藏直播捐赠者栏</string>
   <!-- 'Live chat replay' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears when in fullscreen for live streamed videos after opening live chat. -->
   <string name="morphe_hide_live_chat_replay_button_title">隐藏“直播聊天回放”按钮</string>
   <string name="morphe_hide_live_chat_replay_button_summary">隐藏全屏模式下的聊天记录重播按钮</string>
   <string name="morphe_hide_medical_panels_title">隐藏医疗面板</string>
+  <string name="morphe_hide_snackbar_title">隐藏小贴士</string>
   <string name="morphe_hide_subscribers_community_guidelines_title">隐藏订阅者指南</string>
+  <string name="morphe_hide_sync_button_title">隐藏“同步到视频”按钮</string>
   <string name="morphe_hide_timed_reactions_title">隐藏限时反应</string>
   <string name="morphe_hide_timed_reactions_summary">隐藏评论区和直播聊天中用表情符号互动的功能</string>
   <string name="morphe_hide_video_title_title">隐藏视频标题</string>
@@ -188,9 +190,7 @@ Second \"item\" text"</string>
   <string name="morphe_comments_screen_title">评论</string>
   <string name="morphe_comments_screen_summary">选择要在评论部分中显示的组件</string>
   <string name="morphe_hide_comments_carousel_title">启用评论轮播过滤</string>
-  <string name="morphe_hide_comments_carousel_user_dialog_message">"注意：
-
-• 确保输入轮播项的确切名称（例如，提问、热播此视频、在 YouTube Music 上收听等）。
+  <string name="morphe_hide_comments_carousel_summary">"• 确保输入轮播项的确切名称（例如，提问、热播此视频、在 YouTube Music 上收听等）。
 • 隐藏轮播项可能会产生意想不到的副作用。
 • 如果隐藏了所有轮播项，则整个评论区也会被隐藏。"</string>
   <string name="morphe_hide_comments_carousel_filter_strings_title">评论轮播过滤器</string>
@@ -206,6 +206,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_comments_create_a_short_button_title">隐藏“创建 Short”按钮</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">隐藏表情符号和时间戳按钮</string>
   <string name="morphe_hide_comments_info_button_title">隐藏信息按钮</string>
+  <string name="morphe_hide_comments_live_chat_donators_bar_title">隐藏直播捐赠者栏</string>
   <string name="morphe_hide_comments_preview_comment_title">隐藏评论预览</string>
   <string name="morphe_hide_comments_preview_comment_summary">隐藏在打开完整评论部分之前，视频下方的评论预览</string>
   <string name="morphe_hide_comments_thanks_button_title">隐藏感谢按钮</string>
@@ -219,15 +220,15 @@ Second \"item\" text"</string>
   <string name="morphe_custom_filter_strings_summary">用于过滤的组件路径生成器字符串列表，按换行符分隔</string>
   <string name="morphe_custom_filter_toast_invalid_syntax">非法自定义过滤器：%s</string>
   <string name="morphe_hide_view_count_title">隐藏观看次数</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_user_dialog_message'. -->
-  <string name="morphe_hide_view_count_user_dialog_message">"限制：
-• Shorts 专区、频道页面和搜索结果可能仍然会显示观看次数。
-• 此功能不适用于汽车模式。"</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"限制：
+• Shorts 栏目、频道页面和搜索结果可能仍会显示观看次数。
+• 此功能不适用于车载布局。"</string>
   <string name="morphe_hide_upload_time_title">隐藏上传时间</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_user_dialog_message'. -->
-  <string name="morphe_hide_upload_time_user_dialog_message">"限制：
-• Shorts 专区、频道页面和搜索结果可能仍会显示上传时间。
-• 此功能不适用于车载设备。"</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"限制：
+• Shorts 专区、频道页面和搜索结果可能仍会显示上传时间
+• 此功能不适用于车载设备"</string>
   <string name="morphe_hide_keyword_content_screen_title">关键词过滤</string>
   <string name="morphe_hide_keyword_content_screen_summary">选择隐藏信息流和搜索中的视频的特定词语或短语</string>
   <string name="morphe_hide_keyword_content_home_title">过滤首页视频</string>
@@ -271,16 +272,16 @@ Second \"item\" text"</string>
   <!-- ad.video.videoAdsPatch -->
   <string name="morphe_hide_video_ads_title">隐藏视频广告</string>
   <!-- interaction.doubletap.doubleTapLengthPatch -->
-  <!-- interaction.copyvideourlbutton.copyVideoURLButtonPatch -->
-  <string name="morphe_share_copy_url_button_success">URL 已复制到剪贴板</string>
-  <string name="morphe_share_copy_url_button_timestamp_success">包含时间戳的 URL 已复制到剪贴板</string>
-  <string name="morphe_copy_video_url_button_title">显示复制视频网址按钮</string>
-  <string name="morphe_copy_video_url_button_summary">点击复制视频网址，长按复制带时间戳的网址</string>
-  <string name="morphe_copy_video_url_button_timestamp_title">默认复制时间戳</string>
-  <string name="morphe_copy_video_url_button_timestamp_summary">反转“复制视频网址”按钮的点击和长按操作</string>
+  <!-- interaction.copyvideolink.copyVideoLinkButtonPatch -->
+  <string name="morphe_share_copy_link_button_success">链接已复制到剪贴板</string>
+  <string name="morphe_share_copy_link_with_timestamp_button_success">带有时间戳的链接已复制到剪贴板</string>
+  <string name="morphe_copy_video_link_button_title">显示复制视频链接按钮</string>
+  <string name="morphe_copy_video_link_button_summary">点击复制视频链接，长按复制带时间戳的链接</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_title">默认复制时间戳</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">反转“复制视频链接”按钮的点击和长按操作</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">移除“观看须知”对话框</string>
-  <string name="morphe_remove_viewer_discretion_dialog_user_dialog_message">这并不会绕过年龄限制，只是自动按下接受按钮。</string>
+  <string name="morphe_remove_viewer_discretion_dialog_summary">这并不会绕过年龄限制，只是自动按下接受按钮。</string>
   <!-- layout.hide.signintotv.disableSignInToTVPopupPatch -->
   <string name="morphe_disable_sign_in_to_tv_popup_title">禁用登录电视弹出窗口</string>
   <!-- interaction.doubletap.disableDoubleTapActionsPatch -->
@@ -346,9 +347,37 @@ Second \"item\" text"</string>
   <string name="morphe_dismiss_player_not_available_toast">视频 ID 不可用。请手动重新加载视频</string>
   <!-- interaction.savetowatchlater.saveToWatchLaterPatch -->
   <string name="morphe_save_to_watch_later_button_title">显示“稍后观看”保存按钮</string>
+  <string name="morphe_save_to_watch_later_button_summary">轻点以保存以供稍后观看，长按以获取队列选项</string>
   <string name="morphe_save_to_watch_later_success_toast">视频已成功保存到稍后观看播放列表</string>
   <string name="morphe_save_to_watch_later_already_exists_toast">此视频已保存到稍后观看播放列表</string>
   <string name="morphe_save_to_watch_later_error_toast">无法将此视频保存到稍后观看播放列表</string>
+  <string name="morphe_queue_restore_title">在会话之间保留队列</string>
+  <string name="morphe_queue_restore_summary">重启应用后队列仍会保留</string>
+  <string name="morphe_swap_save_and_queue_actions_title">交换保存和队列操作</string>
+  <string name="morphe_swap_save_and_queue_actions_summary">点击查看队列选项，长按保存以供稍后观看</string>
+  <string name="morphe_queue_manager_check_failed_auth">未登录</string>
+  <string name="morphe_queue_manager_check_failed_playlist_id">没有播放列表ID</string>
+  <string name="morphe_queue_manager_check_failed_queue">队列为空</string>
+  <string name="morphe_queue_manager_check_failed_video_id">没有视频ID</string>
+  <string name="morphe_queue_manager_check_failed_generic">失败：%s</string>
+  <string name="morphe_queue_manager_fetch_failed_add">添加到队列失败</string>
+  <string name="morphe_queue_manager_fetch_failed_create">创建队列失败</string>
+  <string name="morphe_queue_manager_fetch_failed_remove">从队列中移除失败</string>
+  <string name="morphe_queue_manager_fetch_failed_save">保存队列失败</string>
+  <string name="morphe_queue_manager_fetch_succeeded_add">已添加到队列</string>
+  <string name="morphe_queue_manager_fetch_succeeded_create">队列已创建</string>
+  <string name="morphe_queue_manager_fetch_succeeded_remove">已从队列中移除</string>
+  <string name="morphe_queue_manager_fetch_succeeded_save">队列已保存到 %s</string>
+  <string name="morphe_queue_manager_playlist_title">Morphe 队列</string>
+  <string name="morphe_queue_manager_add_to_queue">添加到队列</string>
+  <string name="morphe_queue_manager_add_to_queue_and_open_queue">添加到队列并打开</string>
+  <string name="morphe_queue_manager_add_to_queue_and_play_video">添加到队列并播放</string>
+  <string name="morphe_queue_manager_add_to_queue_and_reload_video">添加并重新加载视频</string>
+  <string name="morphe_queue_manager_remove_from_queue">从队列中移除</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_open_queue">移除并打开队列</string>
+  <string name="morphe_queue_manager_remove_from_queue_and_reload_video">移除并重新加载视频</string>
+  <string name="morphe_queue_manager_open_queue">打开队列</string>
+  <string name="morphe_queue_manager_save_queue">将队列保存到播放列表</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
   <string name="morphe_open_channel_of_live_avatar_title">从直播头像打开频道</string>
   <string name="morphe_open_channel_of_live_avatar_summary">防止点击频道头像时打开直播</string>
@@ -357,9 +386,15 @@ Second \"item\" text"</string>
   <string name="morphe_disable_precise_seeking_gesture_summary">禁用在向上拉动进度条时激活的精确搜索模式</string>
   <!-- interaction.seekbar.livestreamDvrPatch -->
   <string name="morphe_livestream_dvr_title">启用直播 DVR 功能</string>
-  <string name="morphe_livestream_dvr_summary">设置在触发调整之前所需的滑动距离</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_livestream_dvr_user_dialog_message">如果未配合启用“欺骗视频流”功能，启用此功能可能会导致意外的直播回溯行为。</string>
+  <string name="morphe_livestream_dvr_summary">"允许在所有直播中进行快进/倒退，即使是通常限制此功能的直播。
+
+注意：如果未启用“模拟视频流”，启用此功能可能会导致意外的直播快进/倒退行为。"</string>
+  <string name="morphe_expand_livestream_dvr_duration_title">扩展直播 DVR 时长</string>
+  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
+  <string name="morphe_expand_livestream_dvr_duration_summary">"允许将直播倒带最多 7 天。
+
+注意：如果未启用“模拟视频流”，启用此功能可能会导致意外的直播快进/倒退行为。"</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">启用滑动拖动进度条</string>
   <string name="morphe_slide_to_seek_summary">启用滑动以定位，而不是按住视频播放器时以 2 倍速度播放</string>
@@ -437,7 +472,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_comments_button_title">隐藏评论按钮</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
-  <string name="morphe_hide_report_button_title">隐藏保存按钮</string>
+  <string name="morphe_hide_report_button_title">隐藏举报按钮</string>
   <!-- 'Remix' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_remix_button_title">隐藏混剪按钮</string>
   <!-- 'Download' should be translated using the same localized wording YouTube displays for the button. -->
@@ -451,10 +486,10 @@ Second \"item\" text"</string>
   <string name="morphe_hide_thanks_button_title">隐藏感谢按钮</string>
   <!-- 'Ask' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears if the user IP is from a specific region such as the USA or EU. -->
-  <string name="morphe_hide_ask_button_title">隐藏播放列表按钮</string>
+  <string name="morphe_hide_ask_button_title">隐藏询问按钮</string>
   <!-- 'Clip' should be translated using the same localized wording YouTube displays for the button. -->
-  <string name="morphe_hide_clip_button_title">隐藏保存按钮</string>
-  <string name="morphe_hide_clip_button_user_dialog_message">此隐藏功能可能无法适用于某些用户帐户。</string>
+  <string name="morphe_hide_clip_button_title">隐藏混剪按钮</string>
+  <string name="morphe_hide_clip_button_summary">这对于某些用户帐户可能无法正常工作。</string>
   <!-- 'Shop' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_shop_button_title">隐藏商店按钮</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
@@ -468,9 +503,9 @@ Second \"item\" text"</string>
   <string name="morphe_hide_quick_actions_live_chat_button_title">隐藏“实时聊天”按钮</string>
   <string name="morphe_hide_quick_actions_mix_button_title">隐藏混剪按钮</string>
   <string name="morphe_hide_quick_actions_more_button_title">隐藏更多按钮</string>
-  <string name="morphe_hide_quick_actions_more_videos_button_title">隐藏主页按钮</string>
-  <string name="morphe_hide_quick_actions_playlist_button_title">隐藏 Shorts 按钮</string>
-  <string name="morphe_hide_quick_actions_save_button_title">隐藏订阅按钮</string>
+  <string name="morphe_hide_quick_actions_more_videos_button_title">隐藏“更多视频”按钮</string>
+  <string name="morphe_hide_quick_actions_playlist_button_title">隐藏播放列表按钮</string>
+  <string name="morphe_hide_quick_actions_save_button_title">隐藏保存按钮</string>
   <string name="morphe_hide_quick_actions_share_button_title">隐藏分享按钮</string>
   <string name="morphe_quick_actions_top_margin_title">快速操作顶部外边距</string>
   <string name="morphe_quick_actions_top_margin_summary">设置快速操作栏的顶部外边距（0-32 dp）</string>
@@ -520,7 +555,7 @@ Second \"item\" text"</string>
   <string name="morphe_show_settings_button_type_title">设置按钮操作</string>
   <string name="morphe_show_settings_button_type_summary">启用时打开 Morphe 设置，禁用时打开 YouTube 设置</string>
   <string name="morphe_swap_create_with_notifications_button_title">交换“创建”按钮与“通知”按钮</string>
-  <string name="morphe_swap_create_with_notifications_button_user_dialog_message">如果更改此设置无法生效，请尝试切换到无痕模式。</string>
+  <string name="morphe_swap_create_with_notifications_button_summary">如果更改此设置没有生效，请尝试切换到无痕模式。</string>
   <string name="morphe_hide_navigation_button_labels_title">隐藏导航栏按钮标签</string>
   <string name="morphe_hide_navigation_bar_title">隐藏导航栏</string>
   <string name="morphe_hide_navigation_bar_user_dialog_message">"这会完全隐藏导航栏，包括“您”标签。
@@ -614,7 +649,6 @@ Second \"item\" text"</string>
   <string name="morphe_ambient_mode_screen_summary">管理环境模式的可见性和功耗限制</string>
   <string name="morphe_bypass_ambient_mode_restrictions_title">绕过氛围模式限制</string>
   <string name="morphe_bypass_ambient_mode_restrictions_summary">允许环境模式在省电模式下保持活动状态</string>
-  <string name="morphe_bypass_ambient_mode_restrictions_user_dialog_message">启用此选项可能会导致电池寿命变差。</string>
   <string name="morphe_disable_ambient_mode_title">禁用氛围模式</string>
   <string name="morphe_disable_fullscreen_ambient_mode_title">在全屏时禁用氛围模式</string>
   <!-- layout.hide.infocards.hideInfocardsPatch -->
@@ -679,11 +713,10 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shorts_navigation_bar_title">隐藏导航栏</string>
   <!-- layout.hide.endscreensuggestedvideo.hideEndScreenSuggestedVideoPatch -->
   <string name="morphe_hide_end_screen_suggested_video_title">隐藏片尾推荐视频</string>
-  <string name="morphe_hide_end_screen_suggested_video_summary">隐藏视频结束后出现的推荐视频叠加层</string>
-  <string name="morphe_hide_end_screen_suggested_video_user_dialog_message">"此设置仅在关闭\"自动播放下一个视频\"时有效。
+  <string name="morphe_hide_end_screen_suggested_video_summary">"隐藏视频结束时显示的推荐视频叠加层。
 
-您可以在YouTube中更改此设置：
-设置 → 播放（或自动播放） → 自动播放下一个视频"</string>
+此设置仅在关闭自动播放时有效。您可以在 YouTube 中更改它：
+设置 → 播放 (或自动播放) → 自动播放下一个视频"</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">隐藏相关视频</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
@@ -804,6 +837,18 @@ Second \"item\" text"</string>
   <string name="morphe_sb_general_uuid_invalid">私人用户 ID 必须至少 30 个字符长</string>
   <string name="morphe_sb_general_api_url">更改 API URL</string>
   <string name="morphe_sb_general_api_url_summary">SponsorBlock 用于向服务器发出调用的地址</string>
+  <string name="morphe_sb_channel_whitelist">频道白名单</string>
+  <string name="morphe_sb_channel_whitelist_summary">SponsorBlock已为白名单中的频道禁用</string>
+  <string name="morphe_sb_channel_whitelist_current_channel">当前频道：</string>
+  <string name="morphe_sb_channel_whitelist_add">添加到白名单</string>
+  <string name="morphe_sb_channel_whitelist_remove">移除</string>
+  <string name="morphe_sb_channel_whitelist_channels_header">已白名单的频道</string>
+  <string name="morphe_sb_channel_whitelist_empty">没有添加任何频道到白名单</string>
+  <string name="morphe_sb_channel_whitelist_channel_added">频道已添加到白名单</string>
+  <string name="morphe_sb_channel_whitelist_channel_removed">频道已从白名单移除</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel">在白名单频道开启通知</string>
+  <string name="morphe_sb_toast_on_whitelisted_channel_summary">当为白名单频道禁用 SponsorBlock 时，显示通知</string>
+  <string name="morphe_sb_channel_whitelisted_toast">SponsorBlock 已为该频道禁用</string>
   <string name="morphe_sb_api_url_reset">已重置 API URL</string>
   <string name="morphe_sb_api_url_invalid">API URL 无效</string>
   <string name="morphe_sb_api_url_changed">已更改 API URL</string>
@@ -981,6 +1026,8 @@ Second \"item\" text"</string>
 • Shorts 中未提供 Remix 按钮和 Sound 按钮
 • Shorts 在常规播放器中打开
 • 视频操作栏未折叠"</string>
+  <string name="morphe_tablet_layout_in_player_title">在播放器中启用平板电脑布局</string>
+  <string name="morphe_tablet_layout_in_player_summary">恢复旧版播放器布局</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">伪装应用程序版本</string>
   <string name="morphe_spoof_app_version_summary">欺骗服务器，使其认为您正在使用较旧的应用程序版本以恢复旧版 UI 功能</string>
@@ -1046,9 +1093,7 @@ Second \"item\" text"</string>
   <string name="morphe_shorts_autoplay_background_summary">在后台播放时自动前进到下一个 Shorts</string>
   <!-- layout.miniplayer.miniplayerPatch -->
   <string name="morphe_miniplayer_disable_resuming_title">禁用恢复迷你播放器</string>
-  <string name="morphe_miniplayer_disable_resuming_summary">防止在应用启动时显示“继续观看”迷你播放器</string>
-  <string name="morphe_miniplayer_disable_resuming_user_dialog_message">"• “继续观看”是 YouTube Premium 的一项功能
-• 此设置无法强制启用此 Premium 功能"</string>
+  <string name="morphe_miniplayer_disable_resuming_summary">禁用“继续观看”迷你播放器，这是 YouTube Premium 的一项功能，该功能会在应用启动时显示。</string>
   <string name="morphe_miniplayer_screen_title">小型播放器</string>
   <string name="morphe_miniplayer_screen_summary">自定义最小化视频播放器的外观和行为</string>
   <string name="morphe_miniplayer_type_title">小型播放器类型</string>
@@ -1066,8 +1111,6 @@ Second \"item\" text"</string>
   <string name="morphe_miniplayer_disable_horizontal_drag_title">禁用水平拖动手势</string>
   <string name="morphe_miniplayer_disable_horizontal_drag_summary">防止通过水平滑动离开屏幕来关闭迷你播放器</string>
   <string name="morphe_miniplayer_hide_overlay_buttons_title">隐藏悬浮窗按钮</string>
-  <string name="morphe_miniplayer_hide_subtext_title">隐藏副标题</string>
-  <string name="morphe_miniplayer_hide_rewind_forward_title">隐藏快进和快退按钮</string>
   <string name="morphe_miniplayer_width_dip_title">默认大小</string>
   <string name="morphe_miniplayer_width_dip_summary">设置启动时屏幕上的大小，以像素为单位</string>
   <string name="morphe_miniplayer_width_dip_invalid_toast">像素大小必须介于 %1$s 和 %2$s 之间</string>
@@ -1155,9 +1198,9 @@ Second \"item\" text"</string>
   <string name="morphe_disable_notification_media_seekbar_summary">防止在锁屏和通知面板上拖动进度条</string>
   <!-- misc.gms.accountCredentialsInvalidTextPatch -->
   <string name="microg_offline_account_login_error">如果您最近更改了帐户登录详细信息，请卸载并重新安装 MicroG。</string>
-  <!-- misc.links.bypassURLRedirectsPatch -->
-  <string name="morphe_bypass_url_redirects_title">绕过 URL 重定向</string>
-  <string name="morphe_bypass_url_redirects_summary">直接打开原始网址，绕过跟踪链接 (youtube.com/redirect)</string>
+  <!-- misc.links.bypassLinkRedirectsPatch -->
+  <string name="morphe_bypass_link_redirects_title">绕过链接重定向</string>
+  <string name="morphe_bypass_link_redirects_summary">直接打开原始链接，绕过跟踪链接 (youtube.com/redirect)</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <string name="morphe_external_browser_title">在浏览器中打开链接</string>
   <string name="morphe_external_browser_summary">在外部浏览器而不是应用内浏览器中打开链接</string>
@@ -1201,6 +1244,8 @@ Second \"item\" text"</string>
   <string name="morphe_remember_playback_speed_last_selected_toast_summary">保存新的默认播放速度时显示通知</string>
   <string name="morphe_playback_speed_default_title">默认播放速度</string>
   <string name="morphe_remember_playback_speed_toast">已将默认播放速度更改为：%s</string>
+  <string name="morphe_disable_playback_speed_music_title">使用正常速度播放音乐</string>
+  <string name="morphe_disable_playback_speed_music_summary">始终以1.0倍速播放音乐视频</string>
   <!-- video.codecs.disableVideoCodecsPatch -->
   <string name="morphe_disable_hdr_video_title">禁用 HDR 视频</string>
   <string name="morphe_force_avc_codec_title">强制 AVC (H.264) 编解码器</string>
@@ -1215,11 +1260,6 @@ Second \"item\" text"</string>
 • 某些设备无法强制使用 AVC"</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <string name="morphe_force_avc_codec_not_available">使用此功能时，将“欺骗视频流”设置为 Android VR 或 Android Studio</string>
-  <!-- interaction.seekbar.expandLivestreamDvrDurationPatch -->
-  <string name="morphe_expand_livestream_dvr_duration_title">扩展直播 DVR 时长</string>
-  <string name="morphe_expand_livestream_dvr_duration_summary">允许在直播期间最多倒退 7 天</string>
-  <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_expand_livestream_dvr_duration_user_dialog_message">如果未启用“欺骗视频流”，此设置可能会导致意外行为。</string>
   <!-- video.quality.advancedVideoQualityMenuPatch -->
   <string name="morphe_advanced_video_quality_menu_title">显示高级视频画质菜单</string>
   <!-- video.quality.hidePremiumVideoQualityPatch -->

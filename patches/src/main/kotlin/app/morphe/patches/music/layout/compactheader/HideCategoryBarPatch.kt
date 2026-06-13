@@ -13,7 +13,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/music/patches/HideCategoryBarPatch;"
 
 @Suppress("unused")
-val hideCategoryBar = bytecodePatch(
+val hideCategoryBarPatch = bytecodePatch(
     name = "Hide category bar",
     description = "Adds an option to hide the category bar at the top of the homepage."
 ) {
@@ -26,7 +26,7 @@ val hideCategoryBar = bytecodePatch(
 
     execute {
         PreferenceScreen.GENERAL.addPreferences(
-            SwitchPreference("morphe_music_hide_category_bar", summaryKey = null),
+            SwitchPreference("morphe_music_hide_category_bar"),
         )
 
         ChipCloudFingerprint.method.apply {

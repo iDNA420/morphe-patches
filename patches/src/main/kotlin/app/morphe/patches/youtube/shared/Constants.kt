@@ -18,12 +18,17 @@ internal object Constants {
         ),
         targets = listOf(
             AppTarget(
-                version = "21.21.80",
+                version = "21.24.360",
+                minSdk = 29,
+                isExperimental = true
+            ),
+            AppTarget(
+                version = "21.23.480",
                 minSdk = 28,
                 isExperimental = true
             ),
             AppTarget(
-                version = "21.20.400",
+                version = "21.22.164",
                 minSdk = 28,
                 isExperimental = true
             ),
@@ -34,11 +39,6 @@ internal object Constants {
             ),
             AppTarget(
                 version = "20.51.39",
-                minSdk = 28
-            ),
-            AppTarget(
-                // TODO: Remove this version
-                version = "20.47.62",
                 minSdk = 28
             ),
             AppTarget(

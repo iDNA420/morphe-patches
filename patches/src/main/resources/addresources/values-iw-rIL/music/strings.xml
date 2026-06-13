@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 שניות</string>
   <string name="morphe_crossfade_duration_9000ms">9 שניות</string>
   <string name="morphe_crossfade_duration_10000ms">10 שניות</string>
+  <string name="morphe_crossfade_duration_11000ms">11 שניות</string>
+  <string name="morphe_crossfade_duration_12000ms">12 שניות</string>
   <string name="morphe_music_crossfade_on_skip_title">דעיכה בעת דילוג ידני</string>
   <string name="morphe_music_crossfade_on_skip_summary">מפעיל את אפקט ה-crossfade כשאתה מדלג באופן ידני לרצועה הבאה</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">דעיכה בעת מעבר אוטומטי</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">המעבר בין השירים התחדש</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">מצב וידאו אינו זמין כאשר מעבר בין השירים מופעל</string>
   <string name="morphe_music_crossfade_about_title">אודות</string>
-  <string name="morphe_music_crossfade_about_summary">"דעיכה זמינה עם YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"לחץ לחיצה ארוכה על כפתור הערבוב כדי לבטל/להפעיל
 
-לחיצה ארוכה על כפתור ה-shuffle כדי לבטל/להפעיל
-
-יישום התכונה על ידי VazerOG"</string>
+מימוש תכונה על ידי VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">אפשר חזרה קבועה</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">הסתר לחצן שידור</string>
   <string name="morphe_music_hide_history_button_title">הסתר לחצן היסטוריה</string>
   <string name="morphe_music_hide_notification_button_title">הסתר לחצן התראה</string>
@@ -92,17 +92,20 @@ Second \"item\" text"</string>
   <string name="morphe_change_start_page_entry_playlists">פלייליסטים</string>
   <string name="morphe_change_start_page_entry_search">חיפוש</string>
   <string name="morphe_change_start_page_entry_subscriptions">מינויים</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">הסתר סרגל קטגוריות</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">שנה צבע מיני-נגן</string>
   <string name="morphe_music_change_miniplayer_color_summary">צבע המיני-נגן תואם לנגן במסך מלא</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">הצג כפתור הבא בנגן המיני</string>
   <string name="morphe_music_miniplayer_previous_button_title">לחצן קודם בנגן מיני</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">הפעלת נגן מיני מאולץ</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">מונע מהנגן להתרחב אוטומטית למסך מלא כאשר רצועה חדשה מתחילה</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">אפשר ניגוב כדי לסגור את הנגן הממוזער</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">מאפשר לסגור את הנגן הממוזער על ידי החלקה כלפי מטה עליו</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">סרגל ניווט</string>
   <string name="morphe_music_navigation_bar_screen_summary">בחר אילו כפתורים יופיעו בסרגל הניווט התחתון</string>

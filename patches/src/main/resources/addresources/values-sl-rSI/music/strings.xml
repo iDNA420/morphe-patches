@@ -58,6 +58,8 @@ Second \"item\" text"</string>
   <string name="morphe_crossfade_duration_8000ms">8 sekund</string>
   <string name="morphe_crossfade_duration_9000ms">9 sekund</string>
   <string name="morphe_crossfade_duration_10000ms">10 sekund</string>
+  <string name="morphe_crossfade_duration_11000ms">11 sekund</string>
+  <string name="morphe_crossfade_duration_12000ms">12 sekund</string>
   <string name="morphe_music_crossfade_on_skip_title">Vklop križnega prehoda ob ročnem preskoku</string>
   <string name="morphe_music_crossfade_on_skip_summary">Uporabi prehod, ko ročno preskočite na naslednjo skladbo</string>
   <string name="morphe_music_crossfade_on_auto_advance_title">Vklop križnega prehoda ob samodejnem preskoku</string>
@@ -68,14 +70,12 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_resumed_toast">Prehod se nadaljuje</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Video način ni na voljo, ko je prehod omogočen</string>
   <string name="morphe_music_crossfade_about_title">O nas</string>
-  <string name="morphe_music_crossfade_about_summary">"Križni prehod je na voljo z YouTube Music 8.x
+  <string name="morphe_music_crossfade_about_summary">"Dolgo pritisnite gumb za naključni vrstni red za onemogočenje/omogočenje
 
-Dolgo držite gumb za pomikanje, da omogočite/onemogočite
-
-Implementacija funkcije s strani VazerOG"</string>
+Izvedba funkcije s strani VazerOG"</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Omogoči trajno ponavljanje</string>
-  <!-- layout.buttons.hideButtons -->
+  <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">Skrij gumb za predvajanje</string>
   <string name="morphe_music_hide_history_button_title">Skrij gumb zgodovine</string>
   <string name="morphe_music_hide_notification_button_title">Skrij gumb obvestila</string>
@@ -92,17 +92,20 @@ Implementacija funkcije s strani VazerOG"</string>
   <string name="morphe_change_start_page_entry_playlists">Seznami predvajanja</string>
   <string name="morphe_change_start_page_entry_search">Iskanje</string>
   <string name="morphe_change_start_page_entry_subscriptions">Naročnine</string>
-  <!-- layout.compactheader.hideCategoryBar -->
+  <!-- layout.compactheader.hideCategoryBarPatch -->
   <string name="morphe_music_hide_category_bar_title">Skrij vrstico s kategorijami</string>
-  <!-- layout.miniplayer.changeMiniplayerColor -->
+  <!-- layout.miniplayer.changeMiniplayerColorPatch -->
   <string name="morphe_music_change_miniplayer_color_title">Spremeni barvo mini predvajalnika</string>
   <string name="morphe_music_change_miniplayer_color_summary">Uskladi barvo mini predvajalnika z barvo predvajalnika na celotnem zaslonu</string>
-  <!-- layout.miniplayer.miniplayerNextPreviousButtons -->
+  <!-- layout.miniplayer.miniplayerNextPreviousButtonsPatch -->
   <string name="morphe_music_miniplayer_next_button_title">Pokaži gumb za naslednjo skladbo v mini predvajalniku</string>
   <string name="morphe_music_miniplayer_previous_button_title">Pokaži gumb za prejšnjo skladbo v mini predvajalniku</string>
-  <!-- layout.miniplayer.enableForcedMiniplayer -->
+  <!-- layout.miniplayer.enableForcedMiniplayerPatch -->
   <string name="morphe_music_enable_forced_miniplayer_title">Omogoči prisiljen mini predvajalnik</string>
   <string name="morphe_music_enable_forced_miniplayer_summary">Preprečuje, da bi se predvajalnik samodejno povečal na celoten zaslon, ko se začne nova skladba</string>
+  <!-- layout.miniplayer.enableSwipeToDismissMiniplayerPatch -->
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_title">Omogoči potegnite za odstranitev mini predvajalnika</string>
+  <string name="morphe_music_enable_swipe_to_dismiss_miniplayer_summary">Omogoča odstranitev mini predvajalnika s potegom navzdol po njem</string>
   <!-- layout.navigationbar.navigationBarPatch -->
   <string name="morphe_music_navigation_bar_screen_title">Navigacijska vrstica</string>
   <string name="morphe_music_navigation_bar_screen_summary">Izberite, kateri gumbi se pojavijo v spodnji navigacijski vrstici</string>

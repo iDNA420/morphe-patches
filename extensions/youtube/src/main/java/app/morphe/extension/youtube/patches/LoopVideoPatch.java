@@ -27,7 +27,7 @@ public class LoopVideoPatch {
     public static volatile boolean rangeEndIsVideoEnd = false;
 
     /** Video ID at the time the range was set. Used to clear range when the video changes. */
-    private static volatile String rangeVideoId = "";
+    public static volatile String rangeVideoId = "";
 
     private static volatile long lastSeekTimeMs = 0;
     private static final long SEEK_COOLDOWN_MS = 2000;

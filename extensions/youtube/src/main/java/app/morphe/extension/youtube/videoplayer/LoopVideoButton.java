@@ -13,7 +13,6 @@ package app.morphe.extension.youtube.videoplayer;
 import static app.morphe.extension.shared.StringRef.str;
 import static app.morphe.extension.youtube.patches.LegacyPlayerControlsPatch.RESTORE_OLD_PLAYER_BUTTONS;
 import static app.morphe.extension.youtube.settings.Settings.DO_NOT_REMEMBER_LOOP_VIDEO;
-import static app.morphe.extension.youtube.settings.Settings.LOOP_VIDEO;
 import static app.morphe.extension.youtube.settings.Settings.LOOP_VIDEO_BUTTON;
 
 import android.app.Dialog;
@@ -71,6 +70,8 @@ public class LoopVideoButton {
             RESTORE_OLD_PLAYER_BUTTONS
                     ? "morphe_loop_video_button_range"
                     : "morphe_loop_video_button_range_bold");
+    private static final String videoRangeInvalidTimeStringName =
+            "morphe_loop_video_range_invalid_time";
 
     /**
      * Injection point.
@@ -95,14 +96,24 @@ public class LoopVideoButton {
         }
     }
 
+    public static void setLoopButton(boolean newState) {
+        Settings.LOOP_VIDEO.save(newState);
+
+        if (!newState) {
+            LoopVideoPatch.clearRange();
+        }
+    }
+
     /**
      * Injection point.
      */
     public static void resetLoopButton() {
         if (LOOP_VIDEO_BUTTON.get() && DO_NOT_REMEMBER_LOOP_VIDEO.get()) {
-            LOOP_VIDEO.save(false);
+            setLoopButton(false);
         }
     }
+
+
 
     /**
      * Short click: toggle loop on/off. Turning off also clears any active range.
@@ -112,11 +123,7 @@ public class LoopVideoButton {
         Utils.verifyOnMainThread();
 
         final boolean newState = !Settings.LOOP_VIDEO.get();
-        Settings.LOOP_VIDEO.save(newState);
-
-        if (!newState) {
-            LoopVideoPatch.clearRange();
-        }
+        setLoopButton(newState);
 
         Utils.showToastShort(str(newState
                 ? "morphe_loop_video_button_toast_on"
@@ -182,7 +189,7 @@ public class LoopVideoButton {
     private static void applyRange(String startInput, String endInput, long videoLengthMs) {
         final long startMs = parseTime(startInput);
         if (startMs < 0) {
-            Utils.showToastShort(str("morphe_loop_video_range_invalid_time"));
+            Utils.showToastShort(str(videoRangeInvalidTimeStringName));
             return;
         }
 
@@ -190,14 +197,14 @@ public class LoopVideoButton {
         boolean endIsVideoEnd = endInput.trim().isEmpty();
         if (endIsVideoEnd) {
             if (videoLengthMs <= 0) {
-                Utils.showToastShort(str("morphe_loop_video_range_invalid_time"));
+                Utils.showToastShort(str(videoRangeInvalidTimeStringName));
                 return;
             }
             endMs = videoLengthMs;
         } else {
             final long parsed = parseTime(endInput);
             if (parsed < 0) {
-                Utils.showToastShort(str("morphe_loop_video_range_invalid_time"));
+                Utils.showToastShort(str(videoRangeInvalidTimeStringName));
                 return;
             }
             if (videoLengthMs > 0 && parsed >= videoLengthMs) {
@@ -209,8 +216,13 @@ public class LoopVideoButton {
         }
 
         if (endMs <= startMs) {
-            Utils.showToastShort(str("morphe_loop_video_range_invalid_time"));
+            Utils.showToastShort(str(videoRangeInvalidTimeStringName));
             return;
+        }
+
+        // Resets the loop range state, if set, to avoid possible errors
+        if (!LoopVideoPatch.rangeVideoId.isEmpty()) {
+            setLoopButton(false);
         }
 
         LoopVideoPatch.setRange(startMs, endMs, endIsVideoEnd);
@@ -218,13 +230,6 @@ public class LoopVideoButton {
         Utils.showToastShort(str("morphe_loop_video_range_toast_on",
                 formatTime(startMs), formatTime(endMs)));
         updateButtonIcon();
-    }
-
-    /**
-     * Called when the range is cleared externally (video change or "Clear" button).
-     */
-    public static void onRangeCleared() {
-        Utils.runOnMainThread(LoopVideoButton::updateButtonIcon);
     }
 
     private static int getTargetIcon() {
@@ -237,6 +242,13 @@ public class LoopVideoButton {
         LegacyPlayerControlButton localInstance = legacy;
         if (localInstance == null) return;
         localInstance.setIcon(getTargetIcon());
+    }
+
+    /**
+     * Called when the range is cleared externally (video change or "Clear" button).
+     */
+    public static void onRangeCleared() {
+        Utils.runOnMainThread(LoopVideoButton::updateButtonIcon);
     }
 
     private static void animateButtonTransition(View buttonView, int newIcon) {
