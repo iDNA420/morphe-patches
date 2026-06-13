@@ -32,15 +32,19 @@ jobs:
           if [ "${{ github.ref_name }}" = "dev" ]; then
             suffix="pre"
           fi
-          echo "tag=v${v}-${suffix}" >> "$GITHUB_OUTPUT"
+          base="v${v}-${suffix}"
 
-      - name: Fail if tag already exists
-        run: |
           git fetch --tags --force
-          if git rev-parse "refs/tags/${{ steps.version.outputs.tag }}" >/dev/null 2>&1; then
-            echo "Tag ${{ steps.version.outputs.tag }} already exists. Bump 'version' in gradle.properties before releasing."
-            exit 1
+
+          if ! git rev-parse "refs/tags/${base}" >/dev/null 2>&1; then
+            tag="${base}"
+          else
+            n=$(git tag -l "${base}.*" \
+                  | sed -n "s|^${base}\.\([0-9]\+\)$|\1|p" \
+                  | sort -n | tail -1)
+            tag="${base}.$(( ${n:-0} + 1 ))"
           fi
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
 
       - name: Setup Java
         uses: actions/setup-java@v5
