@@ -8,22 +8,23 @@ package app.morphe.patches.reddit.layout.trendingtoday
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.InstructionLocation.MatchAfterImmediately
-import app.morphe.patcher.StringComparisonType
 import app.morphe.patcher.fieldAccess
+import app.morphe.patcher.methodCall
 import app.morphe.patcher.opcode
-import app.morphe.patcher.parametersMatch
 import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
 // 2026.16.0+
 internal object LocaleLanguageManagerConstructorFingerprint : Fingerprint(
-    name = "<init>",
     returnType = "V",
+    parameters = listOf("Landroid/content/Context;", "Landroid/content/res/Configuration;"),
     filters = listOf(
-        string("CN"),
-        string("zh"),
-        string("繁體中文")
+        methodCall(smali = "Landroid/content/Context;->getApplicationContext()Landroid/content/Context;"),
+        methodCall(smali = "Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;"),
+        methodCall(smali = "Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V"),
+        fieldAccess(smali = "Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;"),
+        string("UI_LANGUAGE_TAG")
     )
 )
 
