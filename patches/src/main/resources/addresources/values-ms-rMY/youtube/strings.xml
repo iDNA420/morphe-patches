@@ -105,6 +105,7 @@ Perubahan termasuk:
           This button usually appears in the video player for certain videos. -->
   <!-- 'Live chat replay' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears when in fullscreen for live streamed videos after opening live chat. -->
+  <string name="morphe_hide_sync_button_title">Sorokkan butang \'Segerakkan ke video\'</string>
   <!-- 'Community' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- 'Join' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- 'Store' should be translated using the same localized wording YouTube displays for the button. -->
@@ -130,6 +131,11 @@ Perubahan termasuk:
   <!-- ad.video.videoAdsPatch -->
   <!-- interaction.doubletap.doubleTapLengthPatch -->
   <!-- interaction.copyvideolink.copyVideoLinkButtonPatch -->
+  <string name="morphe_share_copy_link_button_success">Pautan disalin ke papan keratan</string>
+  <string name="morphe_share_copy_link_with_timestamp_button_success">Pautan dengan cap masa disalin ke papan keratan</string>
+  <string name="morphe_copy_video_link_button_title">Tunjukkan butang \'Salin pautan video\'</string>
+  <string name="morphe_copy_video_link_button_summary">Ketik untuk menyalin pautan video, ketik dan tahan untuk menyalin dengan cap masa</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">Membalikkan tindakan ketik serta ketik dan tahan bagi butang \'Salin pautan video\'</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_summary">Ini tidak akan memirau sekatan umur dan hanya menerimanya secara automatik</string>
   <!-- layout.hide.signintotv.disableSignInToTVPopupPatch -->
@@ -141,6 +147,7 @@ Perubahan termasuk:
   <!-- interaction.playall.playAllButtonPatch -->
   <!-- interaction.reload.reloadVideoPatch -->
   <!-- interaction.savetowatchlater.saveToWatchLaterPatch -->
+  <string name="morphe_queue_manager_playlist_title">Baris gilir Morphe</string>
   <!-- interaction.livering.openChannelOfLiveAvatarPatch -->
   <!-- interaction.seekbar.disablePreciseSeekingGesturePatch -->
   <!-- interaction.seekbar.livestreamDvrPatch -->
@@ -249,6 +256,7 @@ Catatan: Jika 'Perdaya strim video' dilumpuhkan, mendayakannya mungkin menyebabk
   <!-- layout.hide.time.hideTimestampPatch -->
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_summary">Melaraskan tahap kelutsinaran (0 ialah lut sinar, 100 ialah legap)</string>
@@ -277,6 +285,8 @@ Catatan: Jika 'Perdaya strim video' dilumpuhkan, mendayakannya mungkin menyebabk
   <!-- A segment start and end time, such as "02:10 to 03:40". -->
   <!-- Shown in the settings preferences, and translations can be any text length. -->
   <!-- layout.formfactor.changeFormFactorPatch -->
+  <string name="morphe_tablet_layout_in_player_title">Dayakan tata letak tablet di pemain</string>
+  <string name="morphe_tablet_layout_in_player_summary">Pulihkan tataletak pemain lama</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <!-- misc.sharesheet.openSystemShareSheetPatch -->
   <!-- layout.music.overrideYouTubeMusicButtonsPatch -->
@@ -307,6 +317,8 @@ Catatan: Jika 'Perdaya strim video' dilumpuhkan, mendayakannya mungkin menyebabk
   <!-- misc.medianotification.mediaNotificationControlsPatch -->
   <!-- misc.gms.accountCredentialsInvalidTextPatch -->
   <!-- misc.links.bypassLinkRedirectsPatch -->
+  <string name="morphe_bypass_link_redirects_title">Memirau ubah hala pautan</string>
+  <string name="morphe_bypass_link_redirects_summary">Membuka pautan asli secara terus, memirau pautan penjejakan (youtube.com/redirect)</string>
   <!-- misc.links.openLinksExternallyPatch -->
   <!-- video.quality.rememberVideoQualityPatch -->
   <!-- Translations should match the language used in 'morphe_custom_playback_speeds_auto'. -->
@@ -314,6 +326,8 @@ Catatan: Jika 'Perdaya strim video' dilumpuhkan, mendayakannya mungkin menyebabk
   <!-- video.quality.button.videoQualityDialogButtonPatch -->
   <!-- video.speed.custom.customPlaybackSpeedPatch -->
   <!-- video.speed.remember.rememberPlaybackSpeedPatch -->
+  <string name="morphe_disable_playback_speed_music_title">Gunakan kelajuan biasa untuk muzik</string>
+  <string name="morphe_disable_playback_speed_music_summary">Sentiasa mainkan video muzik pada kelajuan 1.0x</string>
   <!-- video.codecs.disableVideoCodecsPatch -->
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
   <!-- video.quality.advancedVideoQualityMenuPatch -->

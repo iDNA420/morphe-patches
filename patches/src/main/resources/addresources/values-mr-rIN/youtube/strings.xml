@@ -726,6 +726,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">पोर्ट्रेट फक्त</string>
   <string name="morphe_exit_fullscreen_entry_3">लँडस्केप फक्त</string>
   <string name="morphe_exit_fullscreen_entry_4">पोर्ट्रेट (Portrait) आणि लँडस्केप (Landscape)</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">पूर्ण स्क्रीन हावभाव</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">प्लेअर हावभाव पूर्ण स्क्रीन मोडमध्ये प्रवेश करण्यासाठी किंवा बाहेर पडण्यासाठी</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">पोर्ट्रेट स्वाइप-अप हावभाव अक्षम करा</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">पोर्ट्रेट स्वाइप-डाउन हावभाव अक्षम करा</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">लँडस्केप स्वाइप-डाउन हावभाव अक्षम करा</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">पूर्णस्क्रीन पोर्ट्रेटमध्ये व्हिडिओ उघडा</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

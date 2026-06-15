@@ -735,6 +735,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">세로 모드에서만</string>
   <string name="morphe_exit_fullscreen_entry_3">가로 모드에서만</string>
   <string name="morphe_exit_fullscreen_entry_4">세로 및 가로 모드</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">전체 화면 제스처</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">전체 화면 모드에 진입하거나 종료하는 플레이어 제스처를 설정할 수 있습니다</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">위로 스와이프하여 전체 화면 진입 제스처 비활성화하기</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">아래로 스와이프하여 전체 화면 진입 제스처 비활성화하기</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">아래로 스와이프하여 전체 화면 종료 제스처 비활성화하기</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">동영상을 전체 화면 세로 모드로 열기</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

@@ -733,6 +733,12 @@ Beállítások → Lejátszás (vagy Automatikus lejátszás) → Következő vi
   <string name="morphe_exit_fullscreen_entry_2">Csak portré mód</string>
   <string name="morphe_exit_fullscreen_entry_3">Csak tájkép mód</string>
   <string name="morphe_exit_fullscreen_entry_4">Portré és tájkép</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Teljes képernyős gesztusok</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Lejátszói gesztusok a teljes képernyős módba való belépéshez vagy kilépéshez</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">A teljes képernyős felhúzásos gesztus letiltása</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Portré gesztus letiltása – lefelé húzás</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Tájkép gesztus letiltása – lefelé húzás</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Nyissa meg a videókat teljes képernyős portréban</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

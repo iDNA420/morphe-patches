@@ -733,6 +733,12 @@ Impostazioni → Riproduzione (o Autoplay) → Riproduci il video successivo aut
   <string name="morphe_exit_fullscreen_entry_2">Solo verticale</string>
   <string name="morphe_exit_fullscreen_entry_3">Solo orizzontale</string>
   <string name="morphe_exit_fullscreen_entry_4">Verticale e orizzontale</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesti a schermo intero</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gesti del lettore per entrare o uscire dalla modalità a schermo intero</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Disabilita il gesto di scorrimento verso l\'alto in verticale</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Disabilita gesto di scorrimento verso il basso in verticale</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Disabilita gesto di scorrimento verso il basso in orizzontale</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Apri i video in verticale a schermo intero</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

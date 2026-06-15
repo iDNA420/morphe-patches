@@ -400,7 +400,7 @@ Remarque : si l'option 'Falsifier les flux vidéo' n'est pas activée, l'activat
   <string name="morphe_slide_to_seek_summary">Active le glissement pour rechercher au lieu de la lecture en 2× lors d’un appui long sur le lecteur vidéo</string>
   <!-- interaction.seekbar.enableTapToSeekPatch -->
   <string name="morphe_tap_to_seek_title">Activer l\'appui pour rechercher</string>
-  <string name="morphe_tap_to_seek_summary">Touchez simplement la barre de progression pour accéder directement à cette position sans la faire glisser</string>
+  <string name="morphe_tap_to_seek_summary">Appuyez simplement sur la barre de progression pour accéder directement à cette position sans la faire glisser</string>
   <!-- interaction.swipecontrols.swipeControlsPatch -->
   <string name="morphe_swipe_brightness_title">Activer les gestes de luminosité</string>
   <string name="morphe_swipe_brightness_summary">Balayez verticalement sur le côté gauche du mode plein écran pour régler la luminosité</string>
@@ -425,16 +425,16 @@ Remarque : si l'option 'Falsifier les flux vidéo' n'est pas activée, l'activat
   <string name="morphe_swipe_overlay_background_opacity_summary">Ajustez le niveau de transparence (0 est transparent, 100 est opaque)</string>
   <string name="morphe_swipe_overlay_background_opacity_invalid_toast">L\'opacité du balayage doit être entre 0-100</string>
   <string name="morphe_swipe_overlay_progress_brightness_color_title">Couleur de l\'overlay du balayage de luminosité</string>
-  <string name="morphe_swipe_overlay_progress_brightness_color_summary">Définissez la couleur de la barre de progression des contrôles de luminosité</string>
+  <string name="morphe_swipe_overlay_progress_brightness_color_summary">Définir la couleur de la barre de progression des contrôles de luminosité</string>
   <string name="morphe_swipe_overlay_progress_volume_color_title">Couleur de l\'overlay du balayage du volume</string>
-  <string name="morphe_swipe_overlay_progress_volume_color_summary">Définissez la couleur de la barre de progression des contrôles de volume</string>
+  <string name="morphe_swipe_overlay_progress_volume_color_summary">Définir la couleur de la barre de progression des contrôles de volume</string>
   <string name="morphe_swipe_overlay_progress_speed_color_title">Couleur de l\'overlay de la vitesse de balayage</string>
-  <string name="morphe_swipe_overlay_progress_speed_color_summary">Définissez la couleur de la barre de progression des contrôles de vitesse de lecture</string>
+  <string name="morphe_swipe_overlay_progress_speed_color_summary">Définir la couleur de la barre de progression des contrôles de vitesse de lecture</string>
   <string name="morphe_swipe_text_overlay_size_title">Taille du texte de l\'overlay de balayage</string>
   <string name="morphe_swipe_text_overlay_size_summary">Ajustez la taille du texte à l\'écran (1-30)</string>
   <string name="morphe_swipe_text_overlay_size_invalid_toast">La taille du texte doit être comprise entre 1-30</string>
   <string name="morphe_swipe_threshold_title">Seuil de magnitude du balayage</string>
-  <string name="morphe_swipe_threshold_summary">Définissez la distance de balayage nécessaire avant qu\'un ajustement ne soit déclenché</string>
+  <string name="morphe_swipe_threshold_summary">Définir la distance de balayage nécessaire avant qu\'un ajustement ne soit déclenché</string>
   <string name="morphe_swipe_volume_sensitivity_title">Sensibilité du balayage de volume</string>
   <string name="morphe_swipe_volume_sensitivity_summary">Des valeurs plus élevées augmentent le changement de volume par balayage</string>
   <string name="morphe_swipe_brightness_sensitivity_title">Sensibilité du balayage de luminosité</string>
@@ -734,6 +734,12 @@ Paramètres → Lecture (ou Lecture automatique) → Lecture automatique de la v
   <string name="morphe_exit_fullscreen_entry_2">Portrait uniquement</string>
   <string name="morphe_exit_fullscreen_entry_3">Paysage uniquement</string>
   <string name="morphe_exit_fullscreen_entry_4">Portrait et paysage</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gestes en mode plein écran</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gestes du lecteur pour entrer ou quitter le mode plein écran</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Désactiver le geste de balayage vers le haut en mode portrait</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Désactiver le geste de balayage vers le bas en mode portrait</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Désactiver le geste de balayage vers le bas en mode paysage</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Ouvrir les vidéos en plein écran portrait</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
@@ -800,7 +806,7 @@ Paramètres → Lecture (ou Lecture automatique) → Lecture automatique de la v
   <string name="morphe_sb_general_skiptoast">Afficher une notification d\'annulation de saut</string>
   <string name="morphe_sb_general_skiptoast_summary">Affiche une notification permettant d’annuler un saut automatique en appuyant dessus</string>
   <string name="morphe_sb_toast_on_skip_duration">Durée de la notification de saut</string>
-  <string name="morphe_sb_toast_on_skip_duration_summary">Définissez la durée pendant laquelle la notification d’annulation reste visible</string>
+  <string name="morphe_sb_toast_on_skip_duration_summary">Définir la durée pendant laquelle la notification d’annulation reste visible</string>
   <string name="morphe_sb_duration_1s">1 seconde</string>
   <string name="morphe_sb_duration_2s">2 secondes</string>
   <string name="morphe_sb_duration_3s">3 secondes</string>
@@ -1125,7 +1131,7 @@ Limitation : L'utilisation du bouton retour dans la barre d'outils peut ne pas f
   <string name="morphe_splash_screen_animation_style_entry_3">Monochrome</string>
   <string name="morphe_seekbar_custom_color_title">Activer une couleur personnalisée pour la barre de progression</string>
   <string name="morphe_seekbar_custom_color_primary_title">Couleur de la barre de progression</string>
-  <string name="morphe_seekbar_custom_color_primary_summary">Définissez la couleur principale de la barre de progression de la vidéo</string>
+  <string name="morphe_seekbar_custom_color_primary_summary">Définir la couleur principale de la barre de progression de la vidéo</string>
   <string name="morphe_seekbar_custom_color_accent_title">Couleur d\'accentuation de la barre de progression</string>
   <string name="morphe_seekbar_custom_color_accent_summary">Définir la couleur secondaire de la barre de progression de la vidéo</string>
   <string name="morphe_seekbar_custom_color_invalid">Valeur invalide pour la couleur de la barre de progression</string>

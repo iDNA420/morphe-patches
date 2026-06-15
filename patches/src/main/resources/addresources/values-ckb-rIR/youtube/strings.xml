@@ -376,6 +376,7 @@ Second \"item\" text"</string>
   <string name="morphe_disable_player_popup_panels_title">خه‌مه‌كانی ڕێخه‌ڵه‌ت خه‌مه‌كان ڕه‌نگ ده‌كه‌ن.</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">نه‌كردوه‌</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">ڤیدێۆکان لە شاشە گەورەکەدا بە ڕووت و دەستەقەڵەو بکە</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

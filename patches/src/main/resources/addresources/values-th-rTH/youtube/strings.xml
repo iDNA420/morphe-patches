@@ -733,6 +733,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">แนวตั้งเท่านั้น</string>
   <string name="morphe_exit_fullscreen_entry_3">แนวนอนเท่านั้น</string>
   <string name="morphe_exit_fullscreen_entry_4">แนวตั้งและแนวนอน</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">ท่าทางแบบเต็มหน้าจอ</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">ท่าทางของผู้เล่นเพื่อเข้าหรือออกจากโหมดเต็มหน้าจอ</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">ปิดใช้งานท่าทางปัดขึ้นในโหมดแนวตั้ง</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">ปิดการใช้งานท่าทางปัดลงในโหมดแนวตั้ง</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ปิดการใช้งานท่าทางปัดลงในโหมดแนวนอน</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">เปิดวิดีโอในโหมดเต็มหน้าจอสแนวตั้ง</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

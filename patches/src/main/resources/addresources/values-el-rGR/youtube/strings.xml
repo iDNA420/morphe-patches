@@ -733,6 +733,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">Μόνο κάθετη</string>
   <string name="morphe_exit_fullscreen_entry_3">Μόνο οριζόντια</string>
   <string name="morphe_exit_fullscreen_entry_4">Κατακόρυφη και οριζόντια</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Ζητήματα πλήρους οθόνης</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Ζητήματα χειρισμών του προγράμματος αναπαραγωγής για είσοδο ή έξοδο από λειτουργία πλήρους οθόνης</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα πάνω σε κατακόρυφο προσανατολισμό</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα κάτω σε κατακόρυφη προβολή</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα κάτω σε οριζόντια προβολή</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Άνοιγμα των βίντεο σε πλήρη οθόνη με κατακόρυφη προβολή</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

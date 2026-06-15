@@ -729,6 +729,12 @@ Stillingar → Spilun (eða Sjálfvædd spilun) → Sjálfvædd næsta myndband"
   <string name="morphe_exit_fullscreen_entry_2">Portrett aðeins</string>
   <string name="morphe_exit_fullscreen_entry_3">Landslagsaðeins</string>
   <string name="morphe_exit_fullscreen_entry_4">Portrait og landscape</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Fullskjárshreyfingar</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Hreyfingar á meðlesanda til að fara inn eða út úr fullskjásstillingu</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Gerja óvirkt hreyfingu til að draga upp úr fullskjá</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Gerðu portrettsniður snertihreyfinguna óvirkja</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Gerðu landslagsniður snertihreyfinguna óvirkja</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Opna alltaf vídeó í staðstöðu </string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

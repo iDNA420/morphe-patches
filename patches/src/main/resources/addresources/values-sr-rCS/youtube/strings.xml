@@ -733,6 +733,12 @@ Postavke → Reprodukcija (ili Automatsko puštanje) → Automatski pusti slede�
   <string name="morphe_exit_fullscreen_entry_2">Portretni režim</string>
   <string name="morphe_exit_fullscreen_entry_3">Pejzažni režim</string>
   <string name="morphe_exit_fullscreen_entry_4">Uspravno i vodoravno</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gestovi punog ekrana</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gestovi plejera za ulazak ili izlazak iz režima punog ekrana</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Onemogući gest povlačenja nagore u portretnom režimu</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Isključi gest povlačenja prema dole u portretnom režimu</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Isključi gest povlačenja prema dole u pejzažnom režimu</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Otvori videe preko celog ekrana uspravno</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

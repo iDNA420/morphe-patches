@@ -733,6 +733,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">דיוקן בלבד</string>
   <string name="morphe_exit_fullscreen_entry_3">נוף בלבד</string>
   <string name="morphe_exit_fullscreen_entry_4">לאורך ולרוחב</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">מחוות מסך מלא</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">מחוות נגן לכניסה או יציאה ממצב מסך מלא</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">השבת מחוות החלקה כלפי מעלה במצב פורטרט</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">השבת מחוות החלקה כלפי מטה במצב פורטרט</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">השבת מחוות החלקה כלפי מטה במצב לנדסקייפ</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">פתח סרטונים במסך מלא לאורך</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

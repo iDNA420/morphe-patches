@@ -664,6 +664,7 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">Само портретен режим</string>
   <string name="morphe_exit_fullscreen_entry_3">Само хоризонтален режим</string>
   <string name="morphe_exit_fullscreen_entry_4">Портрет и пејзаж</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Отвори видеа во портретен цел екран</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

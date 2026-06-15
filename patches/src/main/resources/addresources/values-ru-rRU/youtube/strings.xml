@@ -735,6 +735,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">Портрет</string>
   <string name="morphe_exit_fullscreen_entry_3">Ландшафт</string>
   <string name="morphe_exit_fullscreen_entry_4">Портрет и ландшафт</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Жесты полноэкранного режима</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Жесты проигрывателя для входа или выхода из полноэкранного режима</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Отключить жест свайпа вверх в портретном режиме</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Отключить жест смахивания вниз в портретной ориентации</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Отключить жест смахивания вниз в альбомной ориентации</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Открыть видео в полноэкранной портретной ориентации</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

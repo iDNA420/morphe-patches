@@ -736,6 +736,12 @@ Settings → Playback (an Autoplay) → Autoplay next video"</string>
   <string name="morphe_exit_fullscreen_entry_2">Tênîşîn tenê</string>
   <string name="morphe_exit_fullscreen_entry_3">Horîzontal tenê</string>
   <string name="morphe_exit_fullscreen_entry_4">Portrait and landscape</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Têkelên tevna tîkê</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Têkelên neşrîyê da ku biçîne an derkeve modê tîkê</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Devêrê têkelê neşrîyê parçebûyî</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Portret mod da xêrkirina destûrê sekinîn</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Portreta horizontal da xêrkirina destûrê sekinîn</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Vîdyoyên li portreya qerezalîyê veke.</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

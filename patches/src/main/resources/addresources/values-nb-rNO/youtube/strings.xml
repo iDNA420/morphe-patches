@@ -733,6 +733,12 @@ Innstillinger → Avspilling (eller Autoplay) → Spill av neste video automatis
   <string name="morphe_exit_fullscreen_entry_2">Stående format</string>
   <string name="morphe_exit_fullscreen_entry_3">Liggende format</string>
   <string name="morphe_exit_fullscreen_entry_4">Stående og liggende</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Fullskjermbevegelser</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Spillerbevegelser for å gå inn eller ut av fullskjermmodus</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktiver sveip opp-bevegelse i stående modus</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktiver sveip-ned-gesten i stående modus</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktiver sveip-ned-gesten i liggende modus</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Åpne videoer i fullskjermmodus i stående format</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

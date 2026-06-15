@@ -735,6 +735,12 @@ Configuración → Reproducción (o Reproducción automática) → Reproducción
   <string name="morphe_exit_fullscreen_entry_2">Solo vertical</string>
   <string name="morphe_exit_fullscreen_entry_3">Solo horizontal</string>
   <string name="morphe_exit_fullscreen_entry_4">Vertical y horizontal</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gestos de pantalla completa</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gestos del reproductor para entrar o salir del modo de pantalla completa</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Desactivar gesto de deslizar hacia arriba en modo vertical</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Desactivar gesto de deslizar hacia abajo en modo vertical</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Desactivar gesto de deslizar hacia abajo en modo horizontal</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Abrir vídeos en pantalla completa en vertical</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

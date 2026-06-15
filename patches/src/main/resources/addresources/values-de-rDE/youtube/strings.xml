@@ -733,6 +733,12 @@ Einstellungen → Wiedergabe (oder Automatische Wiedergabe) → Nächstes Video 
   <string name="morphe_exit_fullscreen_entry_2">Nur Hochformat</string>
   <string name="morphe_exit_fullscreen_entry_3">Nur Querformat</string>
   <string name="morphe_exit_fullscreen_entry_4">Hoch- und Querformat</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesten für Vollbildansicht</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Spielergesten zum Ein- oder Ausblenden des Vollbildmodus</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktivieren der Wischgeste nach oben im Hochformat</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Porträtmodus</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Landschaftsmodus</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Videos im Vollbild-Hochformat öffnen</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

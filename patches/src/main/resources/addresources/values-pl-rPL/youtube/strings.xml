@@ -732,6 +732,12 @@ To ustawienie działa tylko wtedy, gdy autoodtwarzanie jest wyłączone. Możesz
   <string name="morphe_exit_fullscreen_entry_2">Tylko w trybie pionowym</string>
   <string name="morphe_exit_fullscreen_entry_3">Tylko w trybie poziomym</string>
   <string name="morphe_exit_fullscreen_entry_4">W trybie pionowym i poziomym</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesty trybu pełnoekranowego</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gesty odtwarzacza do wchodzenia lub wychodzenia z trybu pełnoekranowego</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Wyłącz gest przeciągnięcia w górę w trybie pionowym</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Wyłącz gest przeciągnięcia w dół w trybie pionowym</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Wyłącz gest przeciągnięcia w dół w trybie poziomym</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Otwieraj filmy w trybie pełnoekranowym</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

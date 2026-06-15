@@ -733,6 +733,12 @@ Asetukset → Toisto (tai Automaattinen toisto) → Toista seuraava video"</stri
   <string name="morphe_exit_fullscreen_entry_2">Pysty</string>
   <string name="morphe_exit_fullscreen_entry_3">Vaaka</string>
   <string name="morphe_exit_fullscreen_entry_4">Pysty ja vaaka</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Koko näytön eleet</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Soittimen eleet siirtyä koko näytön tilaan tai poistua siitä</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Poista käytöstä pystysuuntainen ylöspäin pyyhkäisy ele</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Poista muotokuvasuuntaisen sivunäppäilyele</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Poista maisemakuvauksen sivunäppäilyele</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Avaa videot koko näytöllä pystyasennossa</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

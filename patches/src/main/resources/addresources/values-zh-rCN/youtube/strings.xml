@@ -733,6 +733,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">仅纵向</string>
   <string name="morphe_exit_fullscreen_entry_3">仅横向</string>
   <string name="morphe_exit_fullscreen_entry_4">纵向和横向显示</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">全屏手势</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">使用手势进入或退出全屏模式</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">禁用向上滑动返回手势</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">禁用竖屏下滑手势</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">禁用横屏下滑手势</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">以全屏纵向模式打开视频</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

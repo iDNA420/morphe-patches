@@ -35,9 +35,9 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.31.0](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.31.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;114 patches total
+> **[v1.32.0-dev.1](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;115 patches total
 <details>
-<summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;69 patches</summary>
+<summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;70 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -63,6 +63,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 | [Disable QUIC protocol](#disable-quic-protocol) | Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol. |  |
 | [Disable Shorts resuming on startup](#disable-shorts-resuming-on-startup) | Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched. |  |
 | [Disable double tap actions](#disable-double-tap-actions) | Adds an option to disable player double tap gestures. |  |
+| [Disable fullscreen gestures](#disable-fullscreen-gestures) | Adds options to selectively disable gestures for entering and exiting fullscreen mode. |  |
 | [Disable haptic feedback](#disable-haptic-feedback) | Adds an option to disable haptic feedback in the player for various actions. |  |
 | [Disable layout updates](#disable-layout-updates) | Adds an option to disable server side layout updates and use an older UI. |  |
 | [Disable player popup panels](#disable-player-popup-panels) | Adds an option to disable panels (such as live chat) from opening automatically. |  |
@@ -125,7 +126,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 
 **🎯 Supported versions:**
 
-| 🧪&nbsp;9.22.53 | 🧪&nbsp;9.21.51 | 🧪&nbsp;9.20.52 | 8.51.51 | 8.47.56 | 7.29.52 |
+| 🧪&nbsp;9.23.52 | 🧪&nbsp;9.22.53 | 🧪&nbsp;9.21.51 | 8.51.51 | 8.47.56 | 7.29.52 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |

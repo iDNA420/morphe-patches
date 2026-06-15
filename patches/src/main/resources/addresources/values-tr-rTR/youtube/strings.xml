@@ -733,6 +733,12 @@ Ayarlar → Oynatma (veya Otomatik Oynatma) → Sonraki videoyu otomatik oynat"<
   <string name="morphe_exit_fullscreen_entry_2">Sadece dikey mod</string>
   <string name="morphe_exit_fullscreen_entry_3">Sadece yatay mod</string>
   <string name="morphe_exit_fullscreen_entry_4">Dikey ve yatay</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Tam ekran hareketleri</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Tam ekran moduna girmek veya çıkmak için oynatıcı hareketleri</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Dikey modda yukarı kaydırma hareketini devre dışı bırak</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Dikey modda aşağı kaydırma hareketini devre dışı bırak</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Yatay modda aşağı kaydırma hareketini devre dışı bırak</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Videoları tam ekran dikey modda aç</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

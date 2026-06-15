@@ -733,6 +733,12 @@ Mga Setting → Playback (o Autoplay) → Autoplay ng susunod na video."</string
   <string name="morphe_exit_fullscreen_entry_2">Portrait only</string>
   <string name="morphe_exit_fullscreen_entry_3">Landscape only</string>
   <string name="morphe_exit_fullscreen_entry_4">Portrait at landscape</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Mga galaw para sa buong screen</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Mga galaw ng player para pumasok o lumabas sa fullscreen mode</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Huwag paganahin ang portrait swipe-up gesture</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Huwag paganahin ang kilos ng pag-swipe pababa sa portrait mode</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Huwag paganahin ang kilos ng pag-swipe pababa sa landscape mode</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Buksan ang mga video sa fullscreen portrait</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

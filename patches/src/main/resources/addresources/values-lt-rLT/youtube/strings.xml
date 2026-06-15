@@ -150,6 +150,7 @@ Second \"item\" text"</string>
   <!-- layout.hide.time.hideTimestampPatch -->
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <!-- layout.returnyoutubedislike.returnYouTubeDislikePatch -->

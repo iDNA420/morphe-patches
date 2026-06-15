@@ -732,6 +732,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">Портретний</string>
   <string name="morphe_exit_fullscreen_entry_3">Альбомний</string>
   <string name="morphe_exit_fullscreen_entry_4">Портретний і альбомний</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Повноекранні жести</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Жести плеєра для входу та виходу з повноекранного режиму</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Вимкнути жест свайпу вгору у портретному режимі</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Вимкнути жест свайпу вниз у портретному режимі</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Вимкнути жест свайпу вниз у ландшафтному режимі</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Відкривати відео в портретному режимі</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

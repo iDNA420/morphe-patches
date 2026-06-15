@@ -17,7 +17,7 @@ Second \"item\" text"</string>
 -->
 <resources>
   <string name="morphe_screen_ads_title">Quảng cáo</string>
-  <string name="morphe_hide_post_ads_title">Ẩn quảng cáo bảng tin</string>
+  <string name="morphe_hide_post_ads_title">Ẩn quảng cáo trong bảng tin</string>
   <string name="morphe_hide_comment_ads_title">Ẩn quảng cáo bình luận</string>
   <string name="morphe_screen_navigation_bar_title">Thanh điều hướng</string>
   <string name="morphe_hide_answers_button_title">Ẩn nút Trả lời</string>
@@ -46,7 +46,7 @@ Hạn chế: Có thể không ẩn được các khoảng trống trong giao di�
   <string name="morphe_remove_notification_dialog_title">Xóa hộp thoại gợi ý thông báo</string>
   <string name="morphe_remove_notification_dialog_summary">Tự động tắt hộp thoại gợi ý thông báo khi vào subreddit</string>
   <string name="morphe_show_view_count_title">Hiện số lượt xem trên bài đăng</string>
-  <string name="morphe_show_view_count_summary">Hạn chế: Chỉ khả dụng nếu API trả về dữ liệu lượt xem</string>
+  <string name="morphe_show_view_count_summary">Hạn chế: Chỉ khả dụng nếu API trả về số lượt xem</string>
   <string name="morphe_remove_nsfw_dialog_title">Xóa hộp thoại cảnh báo NSFW</string>
   <string name="morphe_remove_nsfw_dialog_summary">Tự động chấp nhận cảnh báo nội dung NSFW khi vào subreddit</string>
   <string name="morphe_screen_miscellaneous_title">Khác</string>

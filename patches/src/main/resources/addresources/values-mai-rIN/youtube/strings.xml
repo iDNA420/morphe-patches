@@ -425,6 +425,7 @@ Second \"item\" text"</string>
   <string name="morphe_disable_player_popup_panels_title">प्लेयर पपअप प्यानलहरू अक्षम गर्नुहोस्</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">निष्क्रिय</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">पूर्णस्क्रिन पोर्ट्रेटमा भिडियोहरू खोल्नुहोस्</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

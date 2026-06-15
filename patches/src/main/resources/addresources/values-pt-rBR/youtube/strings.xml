@@ -732,6 +732,12 @@ Configurações → Reprodução (ou Reprodução automática) → Reproduzir o 
   <string name="morphe_exit_fullscreen_entry_2">Paisagem apenas</string>
   <string name="morphe_exit_fullscreen_entry_3">Ambos</string>
   <string name="morphe_exit_fullscreen_entry_4">Retrato e paisagem</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gestos de tela cheia</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gestos do player para entrar ou sair do modo de tela cheia</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Desativar gesto de deslizar para cima na vertical</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Desativar gesto de deslizar para baixo na vertical</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Desativar gesto de deslizar para baixo na horizontal</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Abrir vídeos em tela cheia retrato</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

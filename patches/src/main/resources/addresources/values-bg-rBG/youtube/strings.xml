@@ -731,6 +731,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">Само портретна ориентация</string>
   <string name="morphe_exit_fullscreen_entry_3">Само пейзажна ориентация</string>
   <string name="morphe_exit_fullscreen_entry_4">Портрет и пейзаж</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Гъвкави жестове за цял екран</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Жестове на плейъра за влизане или излизане от режим на цял екран</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Деактивиране на жестовото движение на плъзгане нагоре в портретен режим</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Деактивиране на жестовото плъзгане надолу в портретен режим</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Деактивиране на жестовото плъзгане надолу в хоризонтален режим</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Скрий дублиране на видеа</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

@@ -733,6 +733,12 @@ Socruithe → Athsheinm (nó Uathsheinm) → Uathsheinm an chéad fhíseán eile
   <string name="morphe_exit_fullscreen_entry_2">Portráid amháin</string>
   <string name="morphe_exit_fullscreen_entry_3">Tírdhreach amháin</string>
   <string name="morphe_exit_fullscreen_entry_4">Portráid agus tírdhreach</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">gesteanna lánscáileáin</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">gothaí an peataigh chun dul isteach nó imeacht as mód lánscáileáin</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Díchumasaigh gotha ​​svaidhpeáil ardaithe portráide</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Díchumasaigh gotha ​​svaidhpeáil síos portráid</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Díchumasaigh gotha ​​tarraingt síos tírdhreach</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Oscail físeáin i bportráid lánscáileáin</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

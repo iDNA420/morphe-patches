@@ -734,6 +734,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">縦画面のみ</string>
   <string name="morphe_exit_fullscreen_entry_3">横画面のみ</string>
   <string name="morphe_exit_fullscreen_entry_4">縦画面 &amp; 横画面</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">フルスクリーンジェスチャー</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">フルスクリーンモードに入るまたは終了するためのプレイヤーのジェスチャー</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">ポートレートスワイプアップジェスチャーを無効にする</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">ポートレート方向のスワイプダウンジェスチャーを無効にする</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ランドスケープ方向のスワイプダウンジェスチャーを無効にする</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">縦画面の全画面表示で動画を開く</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

@@ -609,6 +609,7 @@ Tənzimləmələrə daxil olmaq üçün Ümumi → Alətlər Cərgəsi→ Tənzi
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">Qapalı</string>
   <string name="morphe_exit_fullscreen_entry_4">Şaquli və üfüqi</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Videoları şaquli tam ekranda aç</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

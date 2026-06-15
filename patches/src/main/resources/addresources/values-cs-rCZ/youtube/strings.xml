@@ -733,6 +733,12 @@ Nastavení → Přehrávání (nebo Automatické přehrávání) → Automaticky
   <string name="morphe_exit_fullscreen_entry_2">Na výšku</string>
   <string name="morphe_exit_fullscreen_entry_3">Na šířku</string>
   <string name="morphe_exit_fullscreen_entry_4">Na výšku i na šířku</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesta pro celou obrazovku</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gesta přehrávače pro vstup nebo výstup z režimu celé obrazovky</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Zakázat gesta při přejetí prstem nahoru v portrétním režimu</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Zakázat gesto přejetím dolů na výšku</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Zakázat gesto přejetím dolů na šířku</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Otevřít videa v režimu na celou obrazovku na výšku</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

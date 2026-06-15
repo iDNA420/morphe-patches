@@ -612,6 +612,7 @@ Om du vill att menyn Ljudspår ska visas ändrar du Förfalska videostreamar til
   <string name="morphe_exit_fullscreen_entry_2">Endast stående</string>
   <string name="morphe_exit_fullscreen_entry_3">Endast liggande</string>
   <string name="morphe_exit_fullscreen_entry_4">Stående och liggande</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Öppna videor i stående helskärmsläge</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

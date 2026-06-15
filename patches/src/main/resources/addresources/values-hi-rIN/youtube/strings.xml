@@ -733,6 +733,12 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">पोर्ट्रेट ओनली</string>
   <string name="morphe_exit_fullscreen_entry_3">लैंडस्केप ओनली</string>
   <string name="morphe_exit_fullscreen_entry_4">पोर्ट्रेट और लैंडस्केप</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">फ़ुलस्क्रीन जेस्चर</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">फ़ुलस्क्रीन मोड में प्रवेश करने या बाहर निकलने के लिए प्लेयर जेस्चर</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">पोर्ट्रेट स्वाइप-अप जेस्चर को अक्षम करें</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">पोर्ट्रेट स्वाइप-डाउन इशारा अक्षम करें</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">लैंडस्केप स्वाइप-डाउन इशारा अक्षम करें</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">फुलस्क्रीन पोर्ट्रेट में वीडियो खोलें</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

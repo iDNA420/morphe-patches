@@ -565,6 +565,7 @@ Info: Možda neće raditi na prijenosima uživo"</string>
   <string name="morphe_disable_player_popup_panels_title">Onemogući skočne panele playera</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">Onemogućeno</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Prikazuj video u punoglasnom režimu</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
