@@ -389,6 +389,8 @@ public final class NavigationBarPatch {
 
     private static final String SETTING_BUTTON_ENUM_NAME = "SETTINGS_CAIRO";
 
+    private static final boolean HIDE_TOOLBAR_CAST_BUTTON = Settings.HIDE_TOOLBAR_CAST_BUTTON.get();
+
     private static final boolean HIDE_TOOLBAR_CREATE_BUTTON = Settings.HIDE_TOOLBAR_CREATE_BUTTON.get();
 
     private static final boolean HIDE_TOOLBAR_NOTIFICATION_BUTTON = Settings.HIDE_TOOLBAR_NOTIFICATION_BUTTON.get();
@@ -410,6 +412,23 @@ public final class NavigationBarPatch {
     }
 
     private static WeakReference<SettingsController> settingsControllerRef = new WeakReference<>(null);
+
+    /**
+     * Injection point.
+     */
+    public static boolean hideCastButton(boolean original) {
+        return !HIDE_TOOLBAR_CAST_BUTTON && original;
+    }
+
+    /**
+     * Injection point.
+     */
+    public static void hideCastButton(MenuItem menuItem) {
+        if (HIDE_TOOLBAR_CAST_BUTTON) {
+            menuItem.setVisible(false);
+            menuItem.setEnabled(false);
+        }
+    }
 
     /**
      * Injection point.
