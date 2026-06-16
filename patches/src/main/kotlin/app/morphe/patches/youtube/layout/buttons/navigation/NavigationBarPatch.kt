@@ -356,6 +356,7 @@ val navigationBarPatch = bytecodePatch(
 
         val toolbarPreferences = mutableSetOf(
             SwitchPreference("morphe_hide_toolbar_cast_button"),
+            SwitchPreference("morphe_hide_toolbar_chat_button"),
             SwitchPreference("morphe_hide_toolbar_create_button"),
             SwitchPreference("morphe_hide_toolbar_microphone_button"),
             SwitchPreference("morphe_hide_toolbar_notification_button"),
@@ -379,6 +380,7 @@ val navigationBarPatch = bytecodePatch(
         hookToolBar("$EXTENSION_CLASS->hideCreateButton")
         hookToolBar("$EXTENSION_CLASS->hideNotificationButton")
         hookToolBar("$EXTENSION_CLASS->hideSearchButton")
+        hookToolBar("$EXTENSION_CLASS->hideChatButton")
 
         //
         // Hide cast button
