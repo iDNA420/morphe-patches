@@ -234,6 +234,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_home_title">ホームの動画をキーワードで除外</string>
   <string name="morphe_hide_keyword_content_search_title">検索結果の動画をキーワードで除外</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">登録チャンネルの動画をキーワードで除外</string>
+  <string name="morphe_hide_keyword_content_comments_title">キーワードでコメントを非表示</string>
   <string name="morphe_hide_keyword_content_phrases_title">キーワード</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,7 +244,7 @@ Second \"item\" text"</string>
 
 単語の途中に大文字が含まれる場合は、大文字のまま入力する必要があります (例: iPhone、TikTok、LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">キーワード フィルタリングについて</string>
-  <string name="morphe_hide_keyword_content_about_summary">"ホーム / 登録チャンネル / 検索結果でキーワードに合致する動画を除外します
+  <string name="morphe_hide_keyword_content_about_summary">"ホーム / 登録チャンネル / 検索でキーワードに合致する動画を除外します
 
 制限事項:
 • ショート動画はチャンネル名の合致では除外できない
@@ -580,6 +581,7 @@ Second \"item\" text"</string>
   <string name="morphe_toolbar_screen_title">ツールバー</string>
   <string name="morphe_toolbar_screen_summary">ツールバーに表示するコンポーネントを設定します</string>
   <string name="morphe_hide_toolbar_cast_button_title">キャストボタンを非表示</string>
+  <string name="morphe_hide_toolbar_chat_button_title">チャットボタンを非表示</string>
   <string name="morphe_hide_toolbar_create_button_title">作成ボタンを非表示</string>
   <string name="morphe_hide_toolbar_microphone_button_title">音声検索ボタンを非表示</string>
   <string name="morphe_hide_toolbar_notification_button_title">通知ボタンを非表示</string>
@@ -735,11 +737,11 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_3">横画面のみ</string>
   <string name="morphe_exit_fullscreen_entry_4">縦画面 &amp; 横画面</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <string name="morphe_disable_fullscreen_gestures_title">フルスクリーンジェスチャー</string>
-  <string name="morphe_disable_fullscreen_gestures_summary">フルスクリーンモードに入るまたは終了するためのプレイヤーのジェスチャー</string>
-  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">ポートレートスワイプアップジェスチャーを無効にする</string>
-  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">ポートレート方向のスワイプダウンジェスチャーを無効にする</string>
-  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ランドスケープ方向のスワイプダウンジェスチャーを無効にする</string>
+  <string name="morphe_disable_fullscreen_gestures_title">全画面表示ジェスチャー</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">プレーヤーの全画面表示モードを開始 / 終了するスワイプ ジェスチャー</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">縦画面での上へのスワイプ ジェスチャーを無効化</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">縦画面での下へのスワイプ ジェスチャーを無効化</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">横画面での下へのスワイプ ジェスチャーを無効化</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">縦画面の全画面表示で動画を開く</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

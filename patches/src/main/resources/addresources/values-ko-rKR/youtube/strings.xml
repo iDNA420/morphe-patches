@@ -234,6 +234,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_home_title">홈 탭에서 키워드 필터 활성화하기</string>
   <string name="morphe_hide_keyword_content_search_title">검색 결과에서 키워드 필터 활성화하기</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">구독 탭에서 키워드 필터 활성화하기</string>
+  <string name="morphe_hide_keyword_content_comments_title">댓글 섹션에서 키워드 필터 활성화하기</string>
   <string name="morphe_hide_keyword_content_phrases_title">키워드 필터</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,11 +244,11 @@ Second \"item\" text"</string>
 
 대문자가 있는 단어는 대소문자를 함께 입력해야 합니다 (예: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">키워드 필터링 정보</string>
-  <string name="morphe_hide_keyword_content_about_summary">"홈 / 구독 / 검색 결과가 필터링되어 키워드 구문과 일치하는 콘텐츠가 숨겨집니다
+  <string name="morphe_hide_keyword_content_about_summary">"홈 / 구독 / 검색 결과 / 댓글 섹션에서 키워드 구문과 일치하는 콘텐츠가 필터링되어 숨겨집니다
 
 제한 사항:
 • 채널 이름으로 Shorts는 숨길 수 없습니다
-• 일부 UI 구성요소는 숨겨지지 않을 수 있습니다
+• 일부 UI 구성 요소는 숨겨지지 않을 수 있습니다
 • 필터링 키워드를 검색하면 검색 결과가 표시되지 않을 수 있습니다"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">전체 단어 일치시키기</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
@@ -278,7 +279,7 @@ Second \"item\" text"</string>
   <string name="morphe_copy_video_link_button_title">동영상 링크 복사 버튼 표시하기</string>
   <string name="morphe_copy_video_link_button_summary">버튼을 탭하여 동영상 링크를 복사할 수 있고, 길게 탭하면 타임스탬프가 표기된 링크가 복사됩니다</string>
   <string name="morphe_copy_video_link_with_timestamp_button_title">기본적으로 타임스탬프 복사하기</string>
-  <string name="morphe_copy_video_link_with_timestamp_button_summary">동영상 링크 복사 버튼의 \'탭하기\'와 \'길게 탭하기\' 동작을 서로 변경합니다</string>
+  <string name="morphe_copy_video_link_with_timestamp_button_summary">동영상 링크 복사 버튼의 \'탭하기\'와 \'길게 탭하기\' 작업을 서로 변경합니다</string>
   <!-- interaction.dialog.removeViewerDiscretionDialogPatch -->
   <string name="morphe_remove_viewer_discretion_dialog_title">시청 경고 다이얼로그 제거하기</string>
   <string name="morphe_remove_viewer_discretion_dialog_summary">이 설정은 다이얼로그를 자동으로 허용하기만 하며 연령 제한(성인인증 절차)을 우회할 수 없습니다</string>
@@ -355,7 +356,7 @@ Second \"item\" text"</string>
   <string name="morphe_save_to_watch_later_error_toast">이 동영상을 \'나중에 볼 동영상\' 재생목록에 저장할 수 없습니다</string>
   <string name="morphe_queue_restore_title">세션 간에 현재 재생목록 유지하기</string>
   <string name="morphe_queue_restore_summary">앱을 다시 시작한 후에도 현재 재생목록이 유지됩니다</string>
-  <string name="morphe_swap_save_and_queue_actions_title">저장과 현재 재생목록 동작 교환하기</string>
+  <string name="morphe_swap_save_and_queue_actions_title">저장과 현재 재생목록 작업 교환하기</string>
   <string name="morphe_swap_save_and_queue_actions_summary">버튼을 탭하여 현재 재생목록 옵션을 실행할 수 있고, 길게 탭하면 나중에 볼 동영상에 저장됩니다</string>
   <string name="morphe_queue_manager_check_failed_auth">로그인하지 않았습니다</string>
   <string name="morphe_queue_manager_check_failed_playlist_id">재생목록 ID가 없습니다</string>
@@ -459,12 +460,12 @@ Second \"item\" text"</string>
   <string name="morphe_swipe_change_video_title">스와이프 제스처로 동영상 전환하기</string>
   <string name="morphe_swipe_change_video_summary">전체 화면 모드에서 스와이프하여 다음 또는 이전 동영상으로 건너뜁니다</string>
   <!-- layout.buttons.action.hideButtonsPatch -->
-  <string name="morphe_action_buttons_screen_title">동작 버튼</string>
-  <string name="morphe_action_buttons_screen_summary">동영상 플레이어 세로 모드와 전체 화면 모드에서 표시할 동작 버튼을 설정할 수 있습니다</string>
+  <string name="morphe_action_buttons_screen_title">작업 버튼</string>
+  <string name="morphe_action_buttons_screen_summary">동영상 플레이어 세로 모드와 전체 화면 모드에서 표시할 작업 버튼을 설정할 수 있습니다</string>
   <string name="morphe_portrait_buttons">세로 모드 버튼</string>
   <string name="morphe_disable_like_subscribe_glow_title">빛나는 \'좋아요\' / \'구독\' 비활성화하기</string>
   <string name="morphe_disable_like_subscribe_glow_summary">크리에이터가 좋아요 및 구독 버튼을 언급할 경우에 해당 버튼이 빛나지 않도록 합니다</string>
-  <string name="morphe_hide_action_bar_title">동작 버튼바 숨기기</string>
+  <string name="morphe_hide_action_bar_title">작업 버튼바 숨기기</string>
   <string name="morphe_hide_like_dislike_button_title">좋아요 및 싫어요 버튼 숨기기</string>
   <!-- 'Share' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_share_button_title">공유 버튼 숨기기</string>
@@ -481,7 +482,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_download_button_title">오프라인 저장 버튼 숨기기</string>
   <!-- 'Hype' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on videos uploaded by the logged-in user. -->
-  <string name="morphe_hide_hype_button_title">Hype 버튼 숨기기</string>
+  <string name="morphe_hide_hype_button_title">Hype / 띄우기 버튼 숨기기</string>
   <!-- 'Promote' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_promote_button_title">프로모션 버튼 숨기기</string>
   <!-- 'Thanks' should be translated using the same localized wording YouTube displays for the button. -->
@@ -497,7 +498,7 @@ Second \"item\" text"</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">저장 버튼 숨기기</string>
   <string name="morphe_fullscreen_buttons">전체 화면 버튼</string>
-  <string name="morphe_hide_quick_actions_title">동작 버튼바 숨기기</string>
+  <string name="morphe_hide_quick_actions_title">작업 버튼바 숨기기</string>
   <string name="morphe_hide_quick_actions_ask_button_title">질문하기 버튼 숨기기</string>
   <string name="morphe_hide_quick_actions_comments_button_title">댓글 버튼 숨기기</string>
   <string name="morphe_hide_quick_actions_dislike_button_title">싫어요 버튼 숨기기</string>
@@ -509,8 +510,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_quick_actions_playlist_button_title">재생목록 버튼 숨기기</string>
   <string name="morphe_hide_quick_actions_save_button_title">저장 버튼 숨기기</string>
   <string name="morphe_hide_quick_actions_share_button_title">공유 버튼 숨기기</string>
-  <string name="morphe_quick_actions_top_margin_title">빠른 동작 상단 여백</string>
-  <string name="morphe_quick_actions_top_margin_summary">재생바에서 빠른 동작 버튼바까지의 간격을 설정할 수 있습니다 (0~32 dp)</string>
+  <string name="morphe_quick_actions_top_margin_title">빠른 작업 상단 여백</string>
+  <string name="morphe_quick_actions_top_margin_summary">재생바에서 빠른 작업 버튼바까지의 간격을 설정할 수 있습니다 (0~32 dp)</string>
   <!-- layout.captions.captionsPatch -->
   <string name="morphe_captions_screen_title">자막</string>
   <string name="morphe_captions_screen_summary">자동 자막 및 자막 쿠키를 관리할 수 있습니다</string>
@@ -554,7 +555,7 @@ Second \"item\" text"</string>
   <string name="morphe_show_search_button_index_title">검색 버튼 위치</string>
   <string name="morphe_show_settings_button_title">설정 버튼 표시하기</string>
   <string name="morphe_show_settings_button_index_title">설정 버튼 위치</string>
-  <string name="morphe_show_settings_button_type_title">설정 버튼 동작</string>
+  <string name="morphe_show_settings_button_type_title">설정 버튼 작업</string>
   <string name="morphe_show_settings_button_type_summary">활성화하면 Morphe 설정이 열리고, 비활성화하면 YouTube 설정을 열립니다</string>
   <string name="morphe_swap_create_with_notifications_button_title">만들기 버튼과 알림 버튼의 위치 교환하기</string>
   <string name="morphe_swap_create_with_notifications_button_summary">이 설정을 변경해도 적용되지 않는 경우에는 시크릿 모드로 전환해 보세요</string>
@@ -581,14 +582,15 @@ Second \"item\" text"</string>
   <string name="morphe_toolbar_screen_title">툴바</string>
   <string name="morphe_toolbar_screen_summary">툴바에 표시할 구성 요소를 설정할 수 있습니다</string>
   <string name="morphe_hide_toolbar_cast_button_title">크롬캐스트 버튼 숨기기</string>
+  <string name="morphe_hide_toolbar_chat_button_title">메시지 버튼 숨기기</string>
   <string name="morphe_hide_toolbar_create_button_title">만들기 버튼 숨기기</string>
   <string name="morphe_hide_toolbar_microphone_button_title">음성 검색 버튼 숨기기</string>
   <string name="morphe_hide_toolbar_notification_button_title">알림 버튼 숨기기</string>
   <string name="morphe_hide_toolbar_search_button_title">검색 버튼 숨기기</string>
   <string name="morphe_show_toolbar_settings_button_title">설정 버튼 표시하기</string>
   <string name="morphe_show_toolbar_settings_button_index_title">설정 버튼 위치</string>
-  <string name="morphe_show_toolbar_settings_button_type_title">설정 버튼 동작</string>
-  <string name="morphe_show_toolbar_settings_button_type_summary">활성화하면 버튼을 탭했을 경우에 Morphe 설정이 열리고, 길게 탭했을 경우에 YouTube 설정이 열립니다. 비활성화하면 동작이 반대로 바뀝니다</string>
+  <string name="morphe_show_toolbar_settings_button_type_title">설정 버튼 작업</string>
+  <string name="morphe_show_toolbar_settings_button_type_summary">활성화하면 버튼을 탭했을 경우에 Morphe 설정이 열리고, 길게 탭했을 경우에 YouTube 설정이 열립니다. 비활성화하면 작업이 반대로 바뀝니다</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->
   <string name="morphe_hide_player_flyout_title">메뉴 구성요소</string>
   <string name="morphe_hide_player_flyout_summary">메뉴 구성요소에 표시할 구성 요소를 설정할 수 있습니다</string>
@@ -738,9 +740,9 @@ Second \"item\" text"</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
   <string name="morphe_disable_fullscreen_gestures_title">전체 화면 제스처</string>
   <string name="morphe_disable_fullscreen_gestures_summary">전체 화면 모드에 진입하거나 종료하는 플레이어 제스처를 설정할 수 있습니다</string>
-  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">위로 스와이프하여 전체 화면 진입 제스처 비활성화하기</string>
-  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">아래로 스와이프하여 전체 화면 진입 제스처 비활성화하기</string>
-  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">아래로 스와이프하여 전체 화면 종료 제스처 비활성화하기</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">위로 스와이프하여 전체 화면 전환 제스처 비활성화하기 (플레이어 내부)</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">아래로 스와이프하여 전체 화면 전환 제스처 비활성화하기 (플레이어 하단)</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">아래로 스와이프하여 전체 화면 종료 제스처 비활성화하기 (전체 화면)</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">동영상을 전체 화면 세로 모드로 열기</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
@@ -1024,14 +1026,14 @@ Second \"item\" text"</string>
 • 커뮤니티 게시물이 숨겨집니다
 • '피드에서 재생' 설정을 사용할 수 없습니다
 • Shorts에서 믹스 버튼과 사운드 버튼을 사용할 수 없습니다
-• 플레이어 동작 버튼바가 접히지 않습니다
+• 플레이어 작업 버튼바가 접히지 않습니다
 
 오토모티브 레이아웃
 • 피드가 주제 및 채널별로 구성됩니다
 • '피드에서 재생' 설정을 사용할 수 없습니다
 • Shorts에서 믹스 버튼과 사운드 버튼은 사용할 수 없습니다
 • Shorts가 일반 플레이어에서 열립니다
-• 플레이어 동작 버튼바가 접히지 않습니다"</string>
+• 플레이어 작업 버튼바가 접히지 않습니다"</string>
   <string name="morphe_tablet_layout_in_player_title">플레이어에서 태블릿 레이아웃 활성화하기</string>
   <string name="morphe_tablet_layout_in_player_summary">이전 플레이어 레이아웃으로 복원합니다</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->

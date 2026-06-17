@@ -234,6 +234,7 @@ I cambiamenti riguarderanno:
   <string name="morphe_hide_keyword_content_home_title">Nascondi i video della Home in base alle parole chiave</string>
   <string name="morphe_hide_keyword_content_search_title">Nascondi i risultati della ricerca per parole chiave</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Nascondi i video della scheda Iscrizioni in base alle parole chiave</string>
+  <string name="morphe_hide_keyword_content_comments_title">Nascondi commenti per parole chiave</string>
   <string name="morphe_hide_keyword_content_phrases_title">Parole chiave da nascondere</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,7 +244,7 @@ Le parole chiave possono essere qualsiasi testo visualizzato nei titoli dei vide
 
 Le parole con lettere maiuscole al centro dovranno corrispondere in maniera esatta (ad esempio: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Informazioni sul filtraggio delle parole chiave</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Home/Iscrizioni/Risultati di ricerca sono filtrati per nascondere i contenuti che corrispondono alle parole chiave
+  <string name="morphe_hide_keyword_content_about_summary">"Home / Iscrizioni / Ricerca / Commenti sono filtrati per nascondere i contenuti che corrispondono a frasi con parole chiave
 
 Limitazioni:
 • Gli Shorts non possono essere nascosti in base al nome del canale
@@ -579,6 +580,7 @@ Per accedere alle Impostazioni, attiva il pulsante Impostazioni tramite Generale
   <string name="morphe_toolbar_screen_title">Barra degli strumenti</string>
   <string name="morphe_toolbar_screen_summary">Scegli quali componenti mostrare nella barra degli strumenti</string>
   <string name="morphe_hide_toolbar_cast_button_title">Nascondi il pulsante Trasmetti</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Nascondi il pulsante Chat</string>
   <string name="morphe_hide_toolbar_create_button_title">Nascondi il pulsante Crea</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Nascondi il pulsante Microfono</string>
   <string name="morphe_hide_toolbar_notification_button_title">Nascondi il pulsante Notifiche</string>

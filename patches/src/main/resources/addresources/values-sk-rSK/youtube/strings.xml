@@ -234,6 +234,7 @@ Zmeny zahŕňajú:
   <string name="morphe_hide_keyword_content_home_title">Skryť videá na domovskej stránke pomocou kľúčových slov</string>
   <string name="morphe_hide_keyword_content_search_title">Skryť výsledky vyhľadávania pomocou kľúčových slov</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skryť videá sekcie Odberov pomocou kľúčových slov</string>
+  <string name="morphe_hide_keyword_content_comments_title">Skryť komentáre podľa kľúčových slov</string>
   <string name="morphe_hide_keyword_content_phrases_title">Kľúčové slová na skrytie</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Kľúčové slová môžu byť akýkoľvek text zobrazený v názvoch videí ale
 
 Slová s veľkými písmenami uprostred sa musia presne zhodovať (napr. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">O filtrovaní kľúčových slov</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Domovská stránka / Odbery / Výsledky vyhľadávania sú filtrované tak, aby skryli obsah, ktorý zodpovedá kľúčovým slovám.
+  <string name="morphe_hide_keyword_content_about_summary">"Domov / Odbery / Hľadanie / Komentáre sú filtrované, aby sa skryli príspevky, ktoré zodpovedajú kľúčovým frázam
 
 Obmedzenia:
-• Shorts nie je možné skryť podľa názvu kanála.
-• Niektoré prvky používateľského rozhrania nemusia byť skryté.
-• Vyhľadávanie kľúčového slova nemusí zobrazovať žiadne výsledky."</string>
+• Shorts sa nedajú skryť podľa názvu kanála
+• Niektoré prvky používateľského rozhrania sa nemusia dať skryť
+• Hľadanie kľúčového slova nemusí vrátiť žiadne výsledky"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Zhodovať celé slová</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Ohraničením kľúčového slova/frázy do úvodzoviek zabránite čiastočnej zhode titulov videí a názvov kanálov&lt;br&gt;&lt;br&gt;Napríklad,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; skryje video: &lt;b&gt;Ako funguje AI?&lt;/b&gt;&lt;br&gt;ale neskryje: &lt;b&gt;Čo znamená fair use?&lt;/b&gt;</string>
@@ -579,6 +580,7 @@ Na prístup k nastaveniam povoľte tlačidlo Nastavenia v časti Všeobecné →
   <string name="morphe_toolbar_screen_title">Panel nástrojov</string>
   <string name="morphe_toolbar_screen_summary">Skryť footer položky ponuky \'Zvuková stopa\'</string>
   <string name="morphe_hide_toolbar_cast_button_title">Skryť tlačidlo Prenos</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Skryť tlačidlo Chat</string>
   <string name="morphe_hide_toolbar_create_button_title">Skryť tlačidlo Create</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Skryť tlačidlo mikrofónu</string>
   <string name="morphe_hide_toolbar_notification_button_title">Skryť tlačidlo upozornení</string>

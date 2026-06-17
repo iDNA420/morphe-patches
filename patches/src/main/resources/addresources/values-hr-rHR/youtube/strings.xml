@@ -245,12 +245,6 @@ Ključne riječi mogu biti bilo koji tekst prikazan u nazivima videozapisa ili n
 
 Slova iz velikih slova u sredini riječi moraju točno odgovarati (npr: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">O ključnom filtriranju</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Domaćinstvo / Pretplate / Rezultati pretrage su filtrirani da sakriju sadržaj koji odgovara ključnim riječima
-
-Ograničenja:
-• Shorts ne mogu biti skriveni po imenu kanala
-• Neke UI komponente možda nisu sakrivene
-• Pretraživanje za ključnu riječ možda neće prikazati rezultate"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Pokupljati cijeli ključ/frazu</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Stavljanje ključne riječi/fraze u dvostruke navodnike spriječit će djelomična podudaranja naslova videozapisa i naziva kanala&lt;br&gt;&lt;br&gt;Na primjer,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sakrit će videozapis: &lt;b&gt;Kako funkcionira umjetna inteligencija?&lt;/b&gt;&lt;br&gt;ali neće sakriti: &lt;b&gt;Što znači poštena upotreba?&lt;/b&gt;</string>
@@ -474,6 +468,7 @@ Info: Možda neće raditi na prijenosima uživo"</string>
   <string name="morphe_disable_translucent_navigation_bar_light_title">Translucentna navigacijska traka je opaka</string>
   <string name="morphe_disable_translucent_navigation_bar_dark_title">Tamna transluzentna navigacijska traka je opaka</string>
   <string name="morphe_toolbar_screen_title">Traka</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Sakrij tipku Chat </string>
   <string name="morphe_hide_toolbar_create_button_title">Sakrij tipku Izradi</string>
   <string name="morphe_show_toolbar_settings_button_type_title">Radnja tipke Postavke</string>
   <!-- layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch -->

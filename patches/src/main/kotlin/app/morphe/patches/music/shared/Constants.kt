@@ -33,11 +33,11 @@ internal object Constants {
                 isExperimental = true,
             ),
             AppTarget(
-                version = "8.51.51",
-                minSdk = 26,
+                version = "9.15.51",
+                minSdk = 26
             ),
             AppTarget(
-                version = "8.47.56", // TODO: Remove this version
+                version = "8.51.51",
                 minSdk = 26,
             ),
             AppTarget(

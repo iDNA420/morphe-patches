@@ -234,6 +234,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_home_title">কীওয়ার্ড ব্যবহার করে প্রধান পাতার ভিডিও লুকান</string>
   <string name="morphe_hide_keyword_content_search_title">কীওয়ার্ড ব্যবহার করে অনুসন্ধান ফলাফল লুকান</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">কীওয়ার্ড ব্যবহার করে সাবস্ক্রিপশন ভিডিও লুকান</string>
+  <string name="morphe_hide_keyword_content_comments_title">কীওয়ার্ড ব্যবহার করে মন্তব্য লুকান</string>
   <string name="morphe_hide_keyword_content_phrases_title">লুকানোর জন্য কীওয়ার্ড</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,9 +244,9 @@ Second \"item\" text"</string>
 
 শব্দগুলির মধ্যে বড় হাতের অক্ষর থাকলে সেগুলি অবশ্যই সঠিকভাবে লিখতে হবে (যেমন: iPhone, TikTok, LeBlanc)।"</string>
   <string name="morphe_hide_keyword_content_about_title">কীওয়ার্ড ফিল্টারিং সম্পর্কে</string>
-  <string name="morphe_hide_keyword_content_about_summary">"হোম / সাবস্ক্রিপশন / অনুসন্ধানের ফলাফলগুলি কিওয়ার্ড বাক্যাংশের সাথে মিলে যাওয়া সামগ্রী লুকানোর জন্য ফিল্টার করা হয়
+  <string name="morphe_hide_keyword_content_about_summary">"হোম / সাবস্ক্রিপশন / অনুসন্ধান / মন্তব্যগুলি কিওয়ার্ড বাক্যাংশের সাথে মিলে যাওয়া সামগ্রী লুকানোর জন্য ফিল্টার করা হয়
 
-সীমাবদ্ধতা
+সীমাবদ্ধতা:
 • চ্যানেলের নাম দ্বারা Shorts লুকানো যাবে না
 • কিছু UI উপাদান লুকানো নাও হতে পারে
 • কোনও কিওয়ার্ড অনুসন্ধান করলে কোনও ফলাফল নাও দেখাতে পারে"</string>
@@ -579,6 +580,7 @@ Second \"item\" text"</string>
   <string name="morphe_toolbar_screen_title">টুলবার</string>
   <string name="morphe_toolbar_screen_summary">টুলবারে কোন উপাদানগুলো প্রদর্শিত হবে তা নির্বাচন করুন</string>
   <string name="morphe_hide_toolbar_cast_button_title">কাস্ট বোতামটি লুকান</string>
+  <string name="morphe_hide_toolbar_chat_button_title">চ্যাট বাটন লুকিয়ে রাখুন</string>
   <string name="morphe_hide_toolbar_create_button_title">শেয়ার বোতামটি লুকান</string>
   <string name="morphe_hide_toolbar_microphone_button_title">মাইক্রোফোন বাটন লুকান</string>
   <string name="morphe_hide_toolbar_notification_button_title">বিজ্ঞপ্তি বাটন লুকান</string>
@@ -734,11 +736,11 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_3">শুধু ল্যান্ডস্কেপ</string>
   <string name="morphe_exit_fullscreen_entry_4">আনুভূমিক এবং ল্যান্ডস্কেপ</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <string name="morphe_disable_fullscreen_gestures_title">ফুলস্ক্রিন অঙ্গভঙ্গি</string>
-  <string name="morphe_disable_fullscreen_gestures_summary">ফুলস্ক্রিন মোডে প্রবেশ বা প্রস্থান করার জন্য প্লেয়ারের অঙ্গভঙ্গি</string>
-  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">পোর্ট্রেট সোয়াইপ-আপ অঙ্গভঙ্গি নিষ্ক্রিয় করুন</string>
-  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">পোর্ট্রেট সোয়াইপ-ডাউন অঙ্গভঙ্গি নিষ্ক্রিয় করুন</string>
-  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ল্যান্ডস্কেপ সোয়াইপ-ডাউন অঙ্গভঙ্গি নিষ্ক্রিয় করুন</string>
+  <string name="morphe_disable_fullscreen_gestures_title">পুরো স্ক্রিন জুড়ে জেসচার ব্যবহার করুন</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">ভিডিও প্লেয়ারে পুরো স্ক্রিন চালু বা বন্ধ করতে জেসচার ব্যবহার করুন</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">পোর্ট্রেট মোডে ওপরের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">পোর্ট্রেট মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ল্যান্ডস্কেপ মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">পূর্ণ পর্দায় ভিডিও খুলুন</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

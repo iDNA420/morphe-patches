@@ -1,3 +1,23 @@
+## [1.32.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.1...v1.32.0-dev.2) (2026-06-17)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Bypass link redirects:** Resolve patch not working on community posts and video descriptions ([#1755](https://github.com/MorpheApp/morphe-patches/issues/1755)) ([c5c6376](https://github.com/MorpheApp/morphe-patches/commit/c5c6376546efdc90cbf89f7f5554880432161b22))
+* **YouTube - Copy video link button:** Wrong localization resource name ([dbddc1a](https://github.com/MorpheApp/morphe-patches/commit/dbddc1a55ea37e90bb7bfae221dd86a4a042b5fb))
+* **YouTube - Override YouTube Music buttons:** Target app opens when clicking on 'YouTube Music' button inside explore menu ([#1707](https://github.com/MorpheApp/morphe-patches/issues/1707)) ([1f08df2](https://github.com/MorpheApp/morphe-patches/commit/1f08df24848bce582919e21b4b3e3f7bb6ebe5ab))
+* **YouTube - Remove viewer discretion dialog:** In-app video downloader does not work for Premium users ([#1756](https://github.com/MorpheApp/morphe-patches/issues/1756)) ([3353302](https://github.com/MorpheApp/morphe-patches/commit/3353302753352388dbeef9454bb7902cdeb9eae0))
+
+### ✨ New Features
+
+* **YouTube - Hide layout components:** Add "Hide video comments by keywords" setting ([#1759](https://github.com/MorpheApp/morphe-patches/issues/1759)) ([d076c2b](https://github.com/MorpheApp/morphe-patches/commit/d076c2b3b7c561952fa2ae94be5d4de3119439af))
+* **YouTube - Navigation bar:** Restore "Hide Cast button" setting in toolbar ([c27e63e](https://github.com/MorpheApp/morphe-patches/commit/c27e63ecb464b1e85e6ff97f13e21cc641a99fe7))
+* **YouTube:** Hide toolbar chat button ([32ee079](https://github.com/MorpheApp/morphe-patches/commit/32ee07910d9d80a8f3eac3b6f0dd0968a6c6c81d))
+
+### 🚀 Updated App Support
+
+* **Reddit:** Add experimental support for `2026.24.0` ([eb47573](https://github.com/MorpheApp/morphe-patches/commit/eb4757326ef90cf6cf9865b12bd451603cb8a111))
+* **YouTube Music:** Add support for `9.15.51` ([4ef13c7](https://github.com/MorpheApp/morphe-patches/commit/4ef13c7a0475c1b9f3aeac3613711df81806b461))
+
 ## [1.32.0-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.31.0...v1.32.0-dev.1) (2026-06-15)
 
 ### 🐛 Bug Fixes

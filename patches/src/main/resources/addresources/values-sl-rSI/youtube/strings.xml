@@ -232,6 +232,7 @@ Spremembe vključujejo:
   <string name="morphe_hide_keyword_content_home_title">Skrij video posnetke na začetnem zaslonu s ključnimi besedami</string>
   <string name="morphe_hide_keyword_content_search_title">Skrij iskalne rezultate s ključnimi besedami</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skrij video posnetke naročnin s ključnimi besedami</string>
+  <string name="morphe_hide_keyword_content_comments_title">Skrij komentarje po ključnih besedah</string>
   <string name="morphe_hide_keyword_content_phrases_title">Ključne besede za skritje</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -241,12 +242,12 @@ Ključne besede so lahko katerokoli besedilo, prikazano v naslovih videoposnetko
 
 Besede z velikimi črkami na sredini se morajo točno ujemati (npr. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">O filtriranju po ključnih besedah</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Domov / Naročnine / Rezultati iskanja so filtrirani, da se skrije vsebina, ki ustreza frazam ključnih besed.
+  <string name="morphe_hide_keyword_content_about_summary">"Domača stran / Naročnine / Iskanje / Komentarji so filtrirani, da skrijejo vsebino, ki ustreza ključnim besedam
 
 Omejitve:
-• Shorts se ne morejo skriti po imenu kanala.
-• Nekatere komponente uporabniškega vmesnika se morda ne bodo skrile.
-• Iskanje ključne besede morda ne bo vrnilo rezultatov."</string>
+• Kratki videoposnetki se ne morejo skriti po imenu kanala
+• Nekatere komponente uporabniškega vmesnika morda ne bodo skrite
+• Iskanje ključne besede morda ne bo pokazalo rezultatov"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Usklajevanje celih besed</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Omejitev ključne besede/fraze z dvojnimi narekovaji prepreči delno ujemanje naslovov videa in imen kanalov&lt;br&gt;&lt;br&gt;Na primer,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; bo skril video: &lt;b&gt;Kako deluje AI?&lt;/b&gt;&lt;br&gt;a ne bo skril: &lt;b&gt;Kaj pomeni poštena raba?&lt;/b&gt;</string>
@@ -577,6 +578,7 @@ Za dostop do Nastavitev omogočite gumb Nastavitve prek Splošno → Vrstica →
   <string name="morphe_toolbar_screen_title">Orodje.</string>
   <string name="morphe_toolbar_screen_summary">Skrij podnapisna stopala menija \'Zvok\'</string>
   <string name="morphe_hide_toolbar_cast_button_title">Skrij gumb za prenos</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Skrij gumb Klepet</string>
   <string name="morphe_hide_toolbar_create_button_title">Skrij gumb »Ustvari«</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Skrij gumb za mikrofon</string>
   <string name="morphe_hide_toolbar_notification_button_title">Skrij gumb za obvestila</string>

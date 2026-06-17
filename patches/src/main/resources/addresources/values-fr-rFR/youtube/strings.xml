@@ -234,6 +234,7 @@ Les changements incluent :
   <string name="morphe_hide_keyword_content_home_title">Masquer les vidéos de \'Accueil\' par mot-clé</string>
   <string name="morphe_hide_keyword_content_search_title">Masquer les résultats de recherche par mot-clé</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Masquer les vidéos de \'Abonnements\' par mots-clés</string>
+  <string name="morphe_hide_keyword_content_comments_title">Masquer les commentaires par mots-clés</string>
   <string name="morphe_hide_keyword_content_phrases_title">Mots-clés à masquer</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,7 +244,7 @@ Les mots-clés peuvent être n’importe quel texte affiché dans les titres des
 
 Les mots contenant des lettres majuscules au milieu doivent correspondre exactement (ex. : iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">À propos du filtrage par mot-clé</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Accueil / Abonnements / Les résultats de recherche sont filtrés pour masquer le contenu correspondant aux expressions par mots-clés
+  <string name="morphe_hide_keyword_content_about_summary">"Accueil / Abonnements / Recherche / Commentaires sont filtrés pour masquer le contenu correspondant aux expressions par mots-clés
 
 Limitations :
 • Les Shorts ne peuvent pas être masqués par nom de chaîne
@@ -579,6 +580,7 @@ Pour accéder aux paramètres, activez le bouton 'Paramètres' via Général →
   <string name="morphe_toolbar_screen_title">Barre d\'outils</string>
   <string name="morphe_toolbar_screen_summary">Choisissez les composants qui apparaissent dans la barre d’outils</string>
   <string name="morphe_hide_toolbar_cast_button_title">Masquer le bouton \'Caster\'</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Masquer le bouton \'Discuter\'</string>
   <string name="morphe_hide_toolbar_create_button_title">Masquer le bouton \'Créer\'</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Masquer le bouton \'Micro\'</string>
   <string name="morphe_hide_toolbar_notification_button_title">Masquer le bouton \'Notifications\'</string>

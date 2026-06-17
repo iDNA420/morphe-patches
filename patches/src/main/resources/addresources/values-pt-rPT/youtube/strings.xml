@@ -234,6 +234,7 @@ As mudanças incluem:
   <string name="morphe_hide_keyword_content_home_title">Esconder vídeos de ecrã inicial com palavras-chave</string>
   <string name="morphe_hide_keyword_content_search_title">Esconder resultados da busca por palavras-chave</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Esconder vídeos de assinaturas com palavras-chave</string>
+  <string name="morphe_hide_keyword_content_comments_title">Ocultar comentários por palavras-chave</string>
   <string name="morphe_hide_keyword_content_phrases_title">Palavras-chave a esconder</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,10 +244,10 @@ Palavras-chave podem ser qualquer texto exibido nos títulos dos vídeos ou nome
 
 Palavras com letras maiúsculas no meio devem corresponder exatamente (por exemplo, iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Sobre a filtragem por palavra-chave</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Início / Inscrições / Os resultados da pesquisa são filtrados para ocultar conteúdo que corresponda a frases de palavras-chave
+  <string name="morphe_hide_keyword_content_about_summary">"Home / Assinaturas / Pesquisa / Comentários são filtrados para ocultar conteúdo que corresponda a frases de palavras-chave
 
 Limitações:
-• Os Shorts não podem ser ocultados pelo nome do canal
+• Shorts não podem ser ocultados pelo nome do canal
 • Alguns componentes da interface do usuário podem não estar ocultos
 • A pesquisa por uma palavra-chave pode não mostrar resultados"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Combinar palavras inteiras</string>
@@ -579,6 +580,7 @@ Para acessar as configurações, habilite o botão Configurações via Geral →
   <string name="morphe_toolbar_screen_title">Barra de ferramentas</string>
   <string name="morphe_toolbar_screen_summary">Escolha quais componentes aparecem na barra de ferramentas</string>
   <string name="morphe_hide_toolbar_cast_button_title">Ocultar botão Transmitir</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Ocultar botão de chat</string>
   <string name="morphe_hide_toolbar_create_button_title">Ocultar botão de criar</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Ocultar botão \'Microfone\'</string>
   <string name="morphe_hide_toolbar_notification_button_title">Ocultar botão \'Notificações\'</string>

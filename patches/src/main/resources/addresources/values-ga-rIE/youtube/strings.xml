@@ -234,6 +234,7 @@ I measc na n-athruithe tá:
   <string name="morphe_hide_keyword_content_home_title">Folaigh físeáin Baile de réir eochairfhocail</string>
   <string name="morphe_hide_keyword_content_search_title">Folaigh torthaí cuardaigh de réir eochairfhocail</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Folaigh físeáin Síntiúis de réir eochairfhocail</string>
+  <string name="morphe_hide_keyword_content_comments_title">Ceileann sonraí cománta de réir eochairfhocail</string>
   <string name="morphe_hide_keyword_content_phrases_title">Eochairfhocail le cur i bhfolach</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Is féidir le heochairfhocail a bheith in aon téacs a thaispeántar i dteidil f
 
 Ní mór focail a bhfuil litreacha móra sa lár acu a bheith ag teacht go díreach (m.sh.: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Maidir le scagadh eochairfhocal</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Baile / Síntiúis / Déantar torthaí cuardaigh a scagadh chun ábhar a mheaitseálann frásaí eochairfhocail a cheilt
+  <string name="morphe_hide_keyword_content_about_summary">"Baile / Síntiúis / Tá cuardach agus comántaí scagtha chun ábhar a cheilt a comhthéiteann frásaí eochairfhocail
 
 Teorainneacha:
-• Ní féidir Shorts a chur i bhfolach de réir ainm cainéil
-• Ní fhéadfar cuid de chomhpháirteanna UI a chur i bhfolach
-• D'fhéadfadh gan aon torthaí a thaispeáint má chuirtear cuardach ar fhocal eochair"</string>
+• Ní féidir Shorts a cheilt de réir ainm cainéil
+• Ní fhéadfar roinnt comhpháirteanna UI a cheilt
+• D'fhéadfadh nach dtaispeánfar torthaí má chuirtear cuardach ar fhocal eochair"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Meaitseáil focail iomlána</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Má bhaineann tú eochairfhocal/frása le comharthaí athfhriotail dhúbailte, cuirfear cosc ​​ar mheaitseáil pháirteach de theidil físeáin agus ainmneacha cainéal&lt;br&gt;&lt;br&gt;Mar shampla,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; ceilteoidh sé an físeán: &lt;b&gt;Conas a oibríonn AI?&lt;/b&gt;&lt;br&gt;ach ní cheiltfidh sé: &lt;b&gt;Cad is brí le hainm féinig?&lt;/b&gt;</string>
@@ -579,6 +580,7 @@ Chun rochtain a fháil ar Socruithe, cumasaigh an cnaipe Socruithe trí Ghinear�
   <string name="morphe_toolbar_screen_title">Barra Uirlisí</string>
   <string name="morphe_toolbar_screen_summary">Roghnaigh cé na comhpháirteanna a thaispeántar sa bharra uirlisí</string>
   <string name="morphe_hide_toolbar_cast_button_title">Folaigh an cnaipe Cast</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Folaigh cnaipe Comhrá</string>
   <string name="morphe_hide_toolbar_create_button_title">Folaigh an cnaipe Cruthaigh</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Folaigh an cnaipe Micreafón</string>
   <string name="morphe_hide_toolbar_notification_button_title">Folaigh an cnaipe Fógraí</string>
@@ -734,11 +736,11 @@ Socruithe → Athsheinm (nó Uathsheinm) → Uathsheinm an chéad fhíseán eile
   <string name="morphe_exit_fullscreen_entry_3">Tírdhreach amháin</string>
   <string name="morphe_exit_fullscreen_entry_4">Portráid agus tírdhreach</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <string name="morphe_disable_fullscreen_gestures_title">gesteanna lánscáileáin</string>
-  <string name="morphe_disable_fullscreen_gestures_summary">gothaí an peataigh chun dul isteach nó imeacht as mód lánscáileáin</string>
-  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Díchumasaigh gotha ​​svaidhpeáil ardaithe portráide</string>
-  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Díchumasaigh gotha ​​svaidhpeáil síos portráid</string>
-  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Díchumasaigh gotha ​​tarraingt síos tírdhreach</string>
+  <string name="morphe_disable_fullscreen_gestures_title">Gothaí lánscáileáin</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gothaí imreora chun dul isteach nó imeacht as mód lánscáileáin</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Díchumasaigh gotha ​​svaidhpeála suas portráide</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Díchumasaigh gotha ​​svaidhpeála síos portráide</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Díchumasaigh gotha ​​svaidhpeála tírdhreacha</string>
   <!-- layout.player.fullscreen.openVideosFullscreen -->
   <string name="morphe_open_videos_fullscreen_portrait_title">Oscail físeáin i bportráid lánscáileáin</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->

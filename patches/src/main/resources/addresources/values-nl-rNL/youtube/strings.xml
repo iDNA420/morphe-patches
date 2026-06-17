@@ -234,6 +234,7 @@ Wijzigingen zijn:
   <string name="morphe_hide_keyword_content_home_title">Home-video\'s verbergen door keywords</string>
   <string name="morphe_hide_keyword_content_search_title">Zoekresultaten verbergen door keywords</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Abonnementsvideo\'s verbergen door keywords</string>
+  <string name="morphe_hide_keyword_content_comments_title">Verberg reacties op trefwoorden</string>
   <string name="morphe_hide_keyword_content_phrases_title">Keywords om te verbergen</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,7 +244,7 @@ Zoekwoorden kunnen elke tekst zijn die in videotitels of kanaalnamen wordt weerg
 
 Woorden met hoofdletters in het midden moeten exact worden ingevoerd (bijv.: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Over keyword filtering</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Home / Abonnementen / Zoekresultaten worden gefilterd om inhoud te verbergen die overeenkomt met trefwoordzinnen
+  <string name="morphe_hide_keyword_content_about_summary">"Startpagina / Abonnementen / Zoeken / Reacties worden gefilterd om inhoud te verbergen die overeenkomt met trefwoordzinnen
 
 Beperkingen:
 • Shorts kunnen niet worden verborgen op kanaalnaam
@@ -579,6 +580,7 @@ Om Instellingen te openen, schakelt u de knop Instellingen in via Algemeen → W
   <string name="morphe_toolbar_screen_title">Balkon</string>
   <string name="morphe_toolbar_screen_summary">Verberg \'Audiotrack\'-menuvoet</string>
   <string name="morphe_hide_toolbar_cast_button_title">Verberg Cast-knop</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Chat knop verbergen</string>
   <string name="morphe_hide_toolbar_create_button_title">Knop Maken verbergen</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Verberg Microfoon-knop</string>
   <string name="morphe_hide_toolbar_notification_button_title">Verberg Meldingen-knop</string>

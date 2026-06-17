@@ -234,6 +234,7 @@ Breytingarnar fela í sér:
   <string name="morphe_hide_keyword_content_home_title">Fela heimavídeó eftir leitarorð</string>
   <string name="morphe_hide_keyword_content_search_title">Fela leitar niðurstöður eftir leitarorð</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Fela áskriftarvídeó eftir leitarorð</string>
+  <string name="morphe_hide_keyword_content_comments_title">Fela kommenta með leitarorð</string>
   <string name="morphe_hide_keyword_content_phrases_title">Leitarorð til að fela</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Keykiliorð geta verið hvaða texti er sýndur í vídeó titlum eða rásarnö
 
 Orð með táknmyndum í miðjunni þurfa nákvæma samsvörun (til dæmis: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Um leitarorðasíu</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Heim / Áskriftir / Leitar niðurstöður eru síaðar til að fela efni sem samsvarar leitarorðum.
+  <string name="morphe_hide_keyword_content_about_summary">"Heim / Áskriftir / Leit / Kommenta eru síuð til að fela efni sem samsvarar leitarorðum
 
-Takmarkanir:
-• Stuttar myndbönd er ekki hægt að fela eftir rás.
-• Sum UI þættir eru kannski ekki felldir.
-• Leit að leitarorði gæti skilað engum niðurstöðum"</string>
+Takmörk:
+• Shorts shorts mynda ekki hægt að fela eftir rásarnafni
+• Sum UI þættir gætu ekki verið feldir
+• Leit að leitarorði getur sýnt engin niðurstöðu"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Nota heildarorð</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Það að umluta lyfsorði eða setningu með tvöföldum qoðum kemur í veg fyrir að hlutaðeigandi samsvaranir verði fundnar í myndskeiðaheildum og nafnheimilum&lt;br&gt;&lt;br&gt;Til dæmis,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; mun hinda myndskeiðinu: &lt;b&gt;Hvernig virkar AI?&lt;/b&gt;&lt;br&gt;en mun ekki hinda: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
@@ -575,6 +576,7 @@ Til þess að fá access til stillingarinnar skaltu koma á stillinguna í gegnu
   <string name="morphe_toolbar_screen_title">Tólaborð</string>
   <string name="morphe_toolbar_screen_summary">Veldu hvaða þættir birtast á verkfærastikunni</string>
   <string name="morphe_hide_toolbar_cast_button_title">Felur Cast hnappinn</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Fela chat á hnappinn</string>
   <string name="morphe_hide_toolbar_create_button_title">Felur Búa til hnappinn</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Felur Hljóðnema hnappinn</string>
   <string name="morphe_hide_toolbar_notification_button_title">Felur Tilkynninga hnappinn</string>

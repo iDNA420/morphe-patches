@@ -234,6 +234,7 @@ Kasama sa mga pagbabago ang:
   <string name="morphe_hide_keyword_content_home_title">Itago ang mga video ng bahay sa pamamagitan ng mga keyword</string>
   <string name="morphe_hide_keyword_content_search_title">Itago ang mga resulta ng paghahanap sa pamamagitan ng mga keyword</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Itago ang mga video sa Mga Subscription sa pamamagitan ng mga keyword</string>
+  <string name="morphe_hide_keyword_content_comments_title">Itago ang mga komento ayon sa mga keyword</string>
   <string name="morphe_hide_keyword_content_phrases_title">Mga Keyword na itatago</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Ang mga keyword ay maaaring anumang teksto na ipinapakita sa mga pamagat ng vide
 
 Ang mga salita na may malalaking titik sa gitna ay dapat na tumugma nang eksakto (halimbawa: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Tungkol sa keyword filtering</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Bahay / Mga Subscription / Ang mga resulta ng paghahanap ay fini-filter upang itago ang nilalaman na tumutugma sa mga parirala ng keyword 
+  <string name="morphe_hide_keyword_content_about_summary">"Bahay / Mga Subscription / Paghahanap / Ang mga komento ay nasala upang itago ang nilalamang tumutugma sa mga parirala ng keyword
 
-Mga Limitasyon: 
-• Hindi maitatago ang shorts sa pamamagitan ng pangalan ng channel 
-• Maaaring hindi maitago ang ilang bahagi ng UI 
-• Ang paghahanap para sa isang keyword ay maaaring walang mga resulta"</string>
+Mga Limitasyon:
+• Hindi maitatago ang Shorts sa pamamagitan ng pangalan ng channel
+• Maaaring hindi maitago ang ilang bahagi ng UI
+• Ang paghahanap para sa isang keyword ay maaaring walang resulta"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Itugma ang buong salita</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Mapipigilan ang mga bahagyang pagtutugma ng mga pamagat ng video at pangalan ng channel kung pinapaligiran ang isang keyword/parirala na may dobleng panipi&lt;br&gt;&lt;br&gt;Halimbawa, ang&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; ay magtatago ng video: &lt;b&gt;Paano gumagana ang AI?&lt;/b&gt;&lt;br&gt;ngunit hindi magtatago:&lt;b&gt;Ano ang ibig sabihin ng patas na paggamit?&lt;/b&gt;</string>
@@ -579,6 +580,7 @@ Upang ma-access ang Settings, i-enable ang Settings button sa pamamagitan ng Gen
   <string name="morphe_toolbar_screen_title">Toolbar</string>
   <string name="morphe_toolbar_screen_summary">Pumili kung aling mga component ang lilitaw sa flyout menu</string>
   <string name="morphe_hide_toolbar_cast_button_title">Itago ang \'Audio Track\' menu</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Itago ang Chat button</string>
   <string name="morphe_hide_toolbar_create_button_title">Itago ang Create button</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Itago ang Microphone button</string>
   <string name="morphe_hide_toolbar_notification_button_title">Itago ang Notifications button</string>

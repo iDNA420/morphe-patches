@@ -234,6 +234,7 @@ Veranderings sluit in:
   <string name="morphe_hide_keyword_content_home_title">Verberg Tuisfideo\'s met sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_search_title">Verberg soekresultate met sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Verberg Subscriptions video\'s volgens sleutelwoorde</string>
+  <string name="morphe_hide_keyword_content_comments_title">Verberg kommentare volgens sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_phrases_title">Sleutelwoorde om te verberg</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Sleutelwoorde kan enige teks wees wat in video-titels of kanaalname verskyn
 
 Woorde met hoofletters in die middel moet presies ooreenstem (bv. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Oor sleutelwoordfiltering</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Tuis / Subskripsies / Soek resultate is gefilter om inhoud wat ooreenstem met sleutelwoord frases te verberg.
+  <string name="morphe_hide_keyword_content_about_summary">"Tuis / Subskripsies / Soek / Kommentare word gefiltreer om inhoud te verberg wat ooreenstem met sleutelwoordfrases
 
 Beperkings:
-• Shorts kan nie deur kanaalnaam weggesteek word nie
-• Sommige UI-komponente kan nie weggesteek word nie
-• Om na 'n sleutelwoord te soek kan geen resultate toon nie"</string>
+• Shorts kan nie volgens kanaalnaam verberg word nie
+• Sekere gebruikerskoppelvlakkomponente kan nie verberg word nie
+• As u na 'n sleutelwoord soek, kan dit geen resultate toon nie"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Pas hele woorde by</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Deur \'n sleutelwoord/frase tussen aanhalingstekens te plaas, word gedeeltelike ooreenkomste van videotitels en kanaalname vermy&lt;br&gt;&lt;br&gt;Byvoorbeeld,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sal die video verberg: &lt;b&gt;Hoe werk AI?&lt;/b&gt;&lt;br&gt;maar sal nie verberg: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
@@ -579,6 +580,7 @@ Om Instellings te open, aktiveer die Instellings-knoppie via Algemeen → Toolba
   <string name="morphe_toolbar_screen_title">Wenkbalk</string>
   <string name="morphe_toolbar_screen_summary">Kies watter komponente in die lêertooskassie vertoon moet word</string>
   <string name="morphe_hide_toolbar_cast_button_title">Hide \'Audio Track\' menu footer</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Verberg Chat-knoppie</string>
   <string name="morphe_hide_toolbar_create_button_title">Verberg Skep-knoppie</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Hide Captions menu</string>
   <string name="morphe_hide_toolbar_notification_button_title">Hide Captions menu footer</string>
