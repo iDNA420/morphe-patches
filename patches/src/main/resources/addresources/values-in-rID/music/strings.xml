@@ -69,10 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">Pudar silang dijeda untuk sesi ini</string>
   <string name="morphe_music_crossfade_resumed_toast">Pudar silang dilanjutkan</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Mode video tidak tersedia saat pudar silang diaktifkan</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">Pudar silang dijeda saat melakukan casting atau mirroring audio. Pudar silang saat casting/mirroring tidak stabil dan mungkin tidak dapat diperbaiki</string>
   <string name="morphe_music_crossfade_about_title">Tentang</string>
-  <string name="morphe_music_crossfade_about_summary">"Tekan lama tombol acak untuk menonaktifkan/mengaktifkan
+  <string name="morphe_music_crossfade_about_summary">Cara kerja pudar silang — dan kapan pudar silang tidak berfungsi</string>
+  <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
+  <string name="morphe_music_crossfade_about_how_title">Cara kerjanya</string>
+  <string name="morphe_music_crossfade_about_how_summary">"Pudar silang menggabungkan akhir satu lagu dengan bagian awal lagu berikutnya, dengan secara bertahap meredupkan volume lagu pertama saat volume lagu berikutnya mulai naik sesuai durasi dan kurva yang Anda pilih.
 
-Implementasi fitur oleh VazerOG"</string>
+Hal ini berjalan secara otomatis (ketika lagu berakhir dengan sendirinya) dan saat Anda melompat ke lagu berikutnya secara manual — masing-masing memiliki tombol pengatur di bagian atas. Pada mode otomatis, proses perpaduan dimulai beberapa detik sebelum lagu berakhir.
+
+Membutuhkan YouTube Music versi 9.x atau yang lebih baru."</string>
+  <string name="morphe_music_crossfade_about_best_title">Paling baik digunakan dengan</string>
+  <string name="morphe_music_crossfade_about_best_summary">Pemutaran lagu ke lagu secara normal dan pemutaran otomatis ke lagu berikutnya, pengulangan satu lagu (lagu tersebut beralih secara bertahap ke lagu yang sama), serta pemutaran audio lokal — speaker ponsel, headphone berkabel, Bluetooth, atau USB.</string>
+  <string name="morphe_music_crossfade_about_quirks_title">Tidak berfungsi dengan sempurna</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"Video musik diputar sebagai audio saja saat crossfade aktif (tekan lama tombol acak untuk menjeda jika Anda ingin melihat videonya)
+
+Lagu yang lebih pendek dari durasi fade Anda mungkin melewati fade
+
+Layar kunci atau notifikasi dapat secara singkat menampilkan status yang basi di tengah transisi"</string>
+  <string name="morphe_music_crossfade_about_known_title">Masalah yang diketahui</string>
+  <string name="morphe_music_crossfade_about_known_summary">"Video musik yang ditetapkan sebagai lagu pertama — atau yang dimulai dari luar antrean saat ini — mungkin secara singkat ditampilkan sebagai video sebelum mode audio-only aktif
+
+Menghentikan crossfade untuk menonton video musik dapat menyebabkan beberapa video menjadi hitam (yang audionya berasal dari video itu sendiri). Menghentikan crossfade sebelum Anda memilih lagu dapat menghindarinya"</string>
+  <string name="morphe_music_crossfade_about_unsupported_title">Tidak berfungsi sama sekali</string>
+  <string name="morphe_music_crossfade_about_unsupported_summary">"Casting atau mirroring audio (Chromecast, screen atau audio mirroring) — crossfade dijeda karena tidak stabil di sana dan mungkin tidak dapat diperbaiki.
+
+YouTube Music 8.x — crossfade hanya berjalan di 9.x dan yang lebih baru"</string>
+  <string name="morphe_music_crossfade_about_credit_title">Kredit</string>
+  <string name="morphe_music_crossfade_about_credit_summary">Fitur Crossfade oleh VazerOG</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Aktifkan pengulangan permanen</string>
   <!-- layout.buttons.hideButtonsPatch -->

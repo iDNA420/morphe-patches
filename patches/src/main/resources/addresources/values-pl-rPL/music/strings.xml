@@ -69,10 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">Przenikanie wstrzymane w tej sesji</string>
   <string name="morphe_music_crossfade_resumed_toast">Przenikanie wznowione</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Tryb teledysku niedostępny podczas przenikania</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">Funkcja crossfade jest zatrzymana podczas przesyłania strumieniowego lub kopiowania dźwięku. Crossfade podczas przesyłania strumieniowego/kopiowania jest niestabilny i może nigdy nie zostać naprawiony</string>
   <string name="morphe_music_crossfade_about_title">Informacje</string>
-  <string name="morphe_music_crossfade_about_summary">"Przytrzymaj przycisk losowania, aby włączyć lub wyłączyć
+  <string name="morphe_music_crossfade_about_summary">Jak działa crossfade — i kiedy nie działa</string>
+  <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
+  <string name="morphe_music_crossfade_about_how_title">Jak to działa</string>
+  <string name="morphe_music_crossfade_about_how_summary">"Crossfade nakłada końcówkę jednego utworu na początek następnego, stopniowo wyciszając jeden utwór, w miarę włączania się drugiego utworu przez określony czas trwania i krzywą.
 
-Implementacja funkcji przez VazerOG"</string>
+Funkcja ta działa w trybie automatycznego przechodzenia (gdy utwór kończy się samoczynnie) oraz podczas ręcznego pomijania — każdy z nich ma własny przełącznik powyżej. W przypadku automatycznego przechodzenia mieszanie rozpoczyna się na kilka sekund przed końcem utworu.
+
+Wymaga YouTube Music w wersji 9.x lub nowszej."</string>
+  <string name="morphe_music_crossfade_about_best_title">Najlepsze efekty daje z</string>
+  <string name="morphe_music_crossfade_about_best_summary">Normalne odtwarzanie utworu po utworze i automatyczne przechodzenie, powtarzanie jednego utworu (utwór przechodzi w sam siebie) oraz dźwięk lokalny — głośnik telefonu, słuchawki przewodowe, Bluetooth lub USB.</string>
+  <string name="morphe_music_crossfade_about_quirks_title">Nie działa do końca</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"Filmy muzyczne odtwarzane są tylko z dźwiękiem podczas włączonego crossfade'a (długo naciśnij przycisk losowego odtwarzania, aby wstrzymać, jeśli chcesz zobaczyć film).
+
+Utwory krótsze niż czas trwania funkcji zanikania mogą pominąć zanikanie.
+
+Ekran blokady lub powiadomienie mogą na krótko wyświetlić nieaktualny stan podczas przejścia"</string>
+  <string name="morphe_music_crossfade_about_known_title">Znane problemy</string>
+  <string name="morphe_music_crossfade_about_known_summary">"Film muzyczny ustawiony jako pierwszy utwór — lub rozpoczęty spoza bieżącej kolejki — może na krótko wyświetlić się jako wideo, zanim przełączy się w tryb odtwarzania tylko dźwięku.
+
+Wstrzymanie crossfade'a w celu obejrzenia teledysku może spowodować, że niektóre teledyski staną się czarne (te, których dźwięk pochodzi bezpośrednio z wideo). Wstrzymanie crossfade'a przed wybraniem utworu pozwala tego uniknąć"</string>
+  <string name="morphe_music_crossfade_about_unsupported_title">Nie działa w ogóle</string>
+  <string name="morphe_music_crossfade_about_unsupported_summary">"Odtwarzanie przez przesyłanie lub kopiowanie dźwięku (Chromecast, lustrzane odbicie ekranu lub dźwięku) — crossfade wstrzymuje się, ponieważ jest tam niestabilne i możliwe, że nigdy nie zostanie naprawione.
+
+YouTube Music 8.x — crossfade działa tylko w wersji 9.x i nowszych"</string>
+  <string name="morphe_music_crossfade_about_credit_title">Podziękowania</string>
+  <string name="morphe_music_crossfade_about_credit_summary">Funkcja crossfade autorstwa VazerOG</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Włącz ciągłe zapętlanie</string>
   <!-- layout.buttons.hideButtonsPatch -->
