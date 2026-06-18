@@ -69,10 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">이 세션에서 크로스페이드를 일시 중지하였습니다</string>
   <string name="morphe_music_crossfade_resumed_toast">크로스페이드를 다시 시작하였습니다</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">크로스페이드가 활성화된 동안에는 동영상 모드를 사용할 수 없습니다</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">오디오 재생 중 캐스팅 또는 미러링 시 크로스페이드가 일시 중지됩니다. 캐스팅/미러링에서의 크로스페이드는 불안정하며 수정되지 않을 수 있습니다.</string>
   <string name="morphe_music_crossfade_about_title">정보</string>
-  <string name="morphe_music_crossfade_about_summary">"셔플 버튼을 길게 탭하여 크로스페이드를 비활성화하거나 활성화할 수 있습니다
+  <string name="morphe_music_crossfade_about_summary">크로스페이드 작동 방식 및 작동하지 않는 경우</string>
+  <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
+  <string name="morphe_music_crossfade_about_how_title">작동 방식</string>
+  <string name="morphe_music_crossfade_about_how_summary">"크로스페이드는 하나의 곡 끝부분과 다음 곡 시작 부분을 겹치게 하여, 지정된 지속 시간 및 곡선에 따라 하나의 곡 볼륨을 줄이면서 다른 곡 볼륨을 높입니다.
 
-VazerOG에 의해 이 기능이 구현되었습니다"</string>
+자동 재생(곡이 자체적으로 끝날 때) 및 수동 스킵에서 작동하며, 각각 상단에 자체 토글이 있습니다. 자동 재생 시 블렌딩은 곡이 끝나기 몇 초 전에 시작됩니다.
+
+YouTube Music 9.x 이상이 필요합니다."</string>
+  <string name="morphe_music_crossfade_about_best_title">최적의 사용 환경</string>
+  <string name="morphe_music_crossfade_about_best_summary">일반적인 곡 대 곡 재생, 자동 재생, 반복 재생(곡이 자체적으로 크로스페이드), 로컬 오디오(휴대폰 스피커, 유선 헤드폰, Bluetooth 또는 USB)에서 가장 효과적입니다.</string>
+  <string name="morphe_music_crossfade_about_quirks_title">완벽하게 작동하지 않음</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"크로스페이드가 켜져 있는 동안 뮤직 비디오는 오디오만 재생됩니다(비디오를 보려면 셔플을 길게 누르면 일시정지).
+
+페이드 지속 시간보다 짧은 노래는 페이드를 건너뛸 수 있습니다.
+
+잠금 화면 또는 알림에 전환 중 일시적인 상태가 표시될 수 있습니다."</string>
+  <string name="morphe_music_crossfade_about_known_title">알려진 문제</string>
+  <string name="morphe_music_crossfade_about_known_summary">"재생 목록의 첫 번째 곡으로 설정되거나, 현재 재생 목록 외부에서 시작된 뮤직 비디오는 오디오만 재생 모드가 시작되기 전에 잠시 비디오로 표시될 수 있습니다.
+
+크로스페이드를 일시 정지하여 뮤직 비디오를 시청하면 일부 비디오 화면이 검은색으로 표시될 수 있습니다(오디오가 비디오 자체에서 나오는 경우). 노래를 선택하기 전에 크로스페이드를 일시 정지하면 이를 방지할 수 있습니다."</string>
+  <string name="morphe_music_crossfade_about_unsupported_title">전혀 작동하지 않음</string>
+  <string name="morphe_music_crossfade_about_unsupported_summary">"오디오 캐스팅 또는 미러링(Chromecast, 화면 또는 오디오 미러링) — 크로스페이드는 불안정하며 수정되지 않을 수 있으므로 일시 중지됩니다.
+
+YouTube Music 8.x — 크로스페이드는 9.x 이상에서만 실행됩니다."</string>
+  <string name="morphe_music_crossfade_about_credit_title">크레딧</string>
+  <string name="morphe_music_crossfade_about_credit_summary">VazerOG의 크로스페이드 기능</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">영구적인 반복 활성화하기</string>
   <!-- layout.buttons.hideButtonsPatch -->
