@@ -513,6 +513,8 @@ Note: If \'Spoof video streams\' is not enabled, enabling this may cause unexpec
     <string name="morphe_hide_stop_ads_button_title">Hide \'Stop ads\' button</string>
     <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
     <string name="morphe_hide_comments_button_title">Hide Comments button</string>
+    <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+    <string name="morphe_hide_connect_button_title">Hide Connect button</string>
     <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
     <string name="morphe_hide_report_button_title">Hide Report button</string>
@@ -537,6 +539,7 @@ Note: If \'Spoof video streams\' is not enabled, enabling this may cause unexpec
     <string name="morphe_hide_shop_button_title">Hide Shop button</string>
     <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
     <string name="morphe_hide_save_button_title">Hide Save button</string>
+    <string name="morphe_hide_more_button_title">Hide More button</string>
 
     <string name="morphe_fullscreen_buttons">Fullscreen buttons</string>
     <string name="morphe_hide_quick_actions_title">Hide action bar</string>
@@ -1100,16 +1103,19 @@ Tablet layout
 • Community posts are hidden
 • Playback in feeds setting is not available
 • Remix button and Sound button are not available in Shorts
-• Video action bar is not collapsed
+• Non collapsed old video action bar is shown
 
 Automotive layout
 • Feed is organized by topics and channels
 • Playback in feeds setting is not available
 • Remix button and Sound button are not available in Shorts
 • Shorts open in the regular player
-• Video action bar is not collapsed"</string>
+• Non collapsed old video action bar is shown"</string>
     <string name="morphe_tablet_layout_in_player_title">Enable tablet layout in player</string>
-    <string name="morphe_tablet_layout_in_player_summary">Restores the old player layout</string>
+    <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+    <string name="morphe_tablet_layout_in_player_summary">"Restores the old player layout
+
+Limitations: If 'Restore old video action bar' is turned off, 'More videos' overlay may not be available"</string>
 
     <!-- layout.spoofappversion.spoofAppVersionPatch -->
     <string name="morphe_spoof_app_version_title">Spoof app version</string>
@@ -1408,4 +1414,10 @@ Video playback with AV1 may stutter or drop frames."</string>
     <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Force original audio is not available</string>
     <string name="morphe_spoof_video_streams_player_js_variant_title">Player JavaScript variant</string>
     <string name="morphe_spoof_video_streams_stats_for_nerds_title">Show spoofing in Stats for nerds</string>
+
+    <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+    <string name="morphe_restore_old_video_action_bar_title">Restore old video action bar</string>
+    <string name="morphe_restore_old_video_action_bar_summary">"Fixes dislikes not shown and video action buttons cannot be hidden
+
+Limitations: Reverts to old style 'More videos' overlay"</string>
 </resources>
