@@ -741,8 +741,11 @@ Configurações → Reprodução (ou Reprodução automática) → Reproduzir o 
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Desativar gesto de deslizar para cima em retrato</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Desativar gesto de deslizar para baixo na vertical</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Desativar gesto de deslizar para baixo na horizontal</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Abrir vídeos em retrato em ecrã cheio</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Abrir vídeos em tela cheia</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Desativado</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Retrato</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Paisagem</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Opacidade do jogador</string>
   <string name="morphe_player_overlay_opacity_summary">Ajuste o nível de transparência (0 é transparente, 100 é opaco)</string>

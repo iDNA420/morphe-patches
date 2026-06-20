@@ -741,8 +741,11 @@ Instellingen → Weergave (of automatisch afspelen) → Volgende video automatis
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Schakel swipe-up gebaar in portretmodus uit</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Schakel gebaar vegen omlaag in portretmodus uit</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Schakel gebaar vegen omlaag in landschapmodus uit</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Video\'s openen in volledig scherm staand</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Video\'s openen in volledig schermmodus</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Uitgeschakeld</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portret</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landschap</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Speler-overlaytransparantie</string>
   <string name="morphe_player_overlay_opacity_summary">Pas het transparantieniveau aan (0 is transparant, 100 is ondoorzichtig)</string>

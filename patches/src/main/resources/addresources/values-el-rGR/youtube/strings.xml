@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα πάνω σε κατακόρυφο προσανατολισμό</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα κάτω σε κατακόρυφη προβολή</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Απενεργοποίηση χειρονομίας σάρωσης προς τα κάτω σε οριζόντια προβολή</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Άνοιγμα των βίντεο σε πλήρη οθόνη με κατακόρυφη προβολή</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Άνοιγμα βίντεο σε πλήρη οθόνη</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Απενεργοποιημένο</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Κατακόρυφη</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Οριζόντια</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Αδιαφάνεια φόντου οθόνης αναπαραγωγής</string>
   <string name="morphe_player_overlay_opacity_summary">Ρυθμίστε το επίπεδο διαφάνειας (0 είναι διαφανές, 100 είναι αδιαφανές)</string>

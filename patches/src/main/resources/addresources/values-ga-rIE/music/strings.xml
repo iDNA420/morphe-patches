@@ -69,34 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">Traschéimniú curtha ar sos don seisiún seo</string>
   <string name="morphe_music_crossfade_resumed_toast">Atosaíodh traschéimniú</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Níl mód físe ar fáil agus traschéimniú cumasaithe</string>
-  <string name="morphe_music_crossfade_cast_unstable_toast">Tá an crossfade ar sos agus ábhair á craoladh nó á scagadh. Tá crossfade thar craoladh/scagadh neamhstábil agus ní féidir é a cheartú go deo.</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">Tá an traschéimniú ar sos agus fuaim á teilgean nó á scáthánú. Tá an traschéimniú thar theilgean/scáthánú éagobhsaí agus b\'fhéidir nach féidir é a dheisiú choíche.</string>
   <string name="morphe_music_crossfade_about_title">Maidir</string>
-  <string name="morphe_music_crossfade_about_summary">Conas a oibríonn crossfade — agus cathain a nach n-oibríonn sé.</string>
+  <string name="morphe_music_crossfade_about_summary">Conas a oibríonn traschéimniú — agus cathain nach n-oibríonn sé</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
   <string name="morphe_music_crossfade_about_how_title">Conas a oibríonn sé</string>
-  <string name="morphe_music_crossfade_about_how_summary">"Forlúpaíonn crossfade deireadh amhrán le tús an chéile, ag dul in oladh amhrán amháin de réir mar a thagann an ceann eile ar aghaidh ar feadh an fad agus an cruinne seo a roghnaigh tú.
+  <string name="morphe_music_crossfade_about_how_summary">"Forluíonn traschéimniú deireadh amhráin amháin le tús an chéad cheann eile, ag céimniú ceann amháin síos de réir mar a thagann an ceann eile suas thar an fad agus an cuar roghnaithe agat.
 
-Oibríonn sé ar athrú uathobríoch (nuair a críochnaíonn amhrán ar a féin) agus ar léimeanna manual — tá toggail ar leith acu acu thuas. Ar athrú uathobríoch, tosóidh an meascán roinnt nóiméad roimh dheireadh an tsinn.
+Ritheann sé ar uath-ardú (nuair a chríochnaíonn amhrán leis féin) agus ar scipeálacha láimhe - tá a lasc féin ag gach ceann thuas. Ar uath-ardú tosaíonn an cumasc cúpla soicind sula gcríochnaíonn an t-amhrán.
 
-Teastaíonn YouTube Music 9.x nó níos déanaí."</string>
-  <string name="morphe_music_crossfade_about_best_title">Oibríonn sé go maith le</string>
-  <string name="morphe_music_crossfade_about_best_summary">Seinn amhrán go seinn amhrán gnáth agus athrú uathoibríoch, athrú ar an amhrán céanna (forlúpaíonn an t-amhrán isteach sa chéile féin), agus fuaim áitiúil — cainteoir fón, cluasfhóin sreangaithe, Bluetooth, nó USB.</string>
-  <string name="morphe_music_crossfade_about_quirks_title">Ní oibríonn sé go cruinn</string>
-  <string name="morphe_music_crossfade_about_quirks_summary">"Ní bhíonn físeáin ceoil á sheoladh ach le fuaime amháin nuair a bhíonn crossfade ar siúl (coinnigh shuffle síos ar feadh nóiméad chun stop a chur dá mian leat an físeán).
+Teastaíonn YouTube Music 9.x nó níos nuaí."</string>
+  <string name="morphe_music_crossfade_about_best_title">Oibríonn sé is fearr le</string>
+  <string name="morphe_music_crossfade_about_best_summary">Athsheinm gnáth amhrán go hamhrán agus uath-ardú, athdhéanamh a haon (tá an t-amhrán ag céimniú isteach ann féin), agus fuaim áitiúil — cainteoir fóin, cluasáin sreangaithe, Bluetooth, nó USB.</string>
+  <string name="morphe_music_crossfade_about_quirks_title">Ní oibríonn sé i gceart go hiomlán</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"Seinneann físeáin cheoil mar fhuaim amháin agus an tras-chéimniú ar siúl (brúigh ar an gcnaipe suaite le sos a chur air más mian leat an físeán a fheiceáil)
 
-Seans go mbéarfaidh amhráin atá níos giorra ná an fad fadúcháin an fadúchán.
+D’fhéadfadh amhráin atá níos giorra ná fad do chéimnithe an céimniú a scipeáil
 
-Is féidir le scáileán glas nó eolas a thaispeáint go bréife staid shéalaithe i lár an athrú."</string>
-  <string name="morphe_music_crossfade_about_known_title">Eascairt ar a dtugtar</string>
-  <string name="morphe_music_crossfade_about_known_summary">"Seans go dtéidh físeán ceoil a shocrú mar an chéad amhrán – nó amhrán a thosú ón taobh amuigh den sraitheanna reatha – a thaispeáint go bréife mar fhíseán roimh an modh fuaime amháin a thosnú.
+Féadfaidh an scáileán glasála nó an fógra staid sheanda a thaispeáint go hachomair i lár an aistrithe"</string>
+  <string name="morphe_music_crossfade_about_known_title">Fadhbanna aitheanta</string>
+  <string name="morphe_music_crossfade_about_known_summary">"Féadfar físeán ceoil atá socraithe mar an chéad amhrán — nó ceann a thosaigh lasmuigh den scuaine reatha — a thaispeáint go hachomair mar fhíseán sula dtosaíonn mód fuaime amháin i bhfeidhm.
 
-Is féidir le crossfade a stopadh chun físeán ceoil a fheiceáil a dhéanamh roinnt físeán dearg (ceann a thagann a fhuaim ón físeán féin). Cabhraíonn crossfade a stopadh roimh roghnú an tsnáithín le seachaint é."</string>
+Má chuirtear sos ar an traschéimniú chun féachaint ar fhíseán ceoil, is féidir go bhfágfaidh sé sin roinnt físeáin dubh (na cinn a dtagann a bhfuaim ón bhfíseán féin). Má chuirtear sos ar an traschéimniú sula roghnaíonn tú an t-amhrán, seachnaítear é."</string>
   <string name="morphe_music_crossfade_about_unsupported_title">Ní oibríonn sé ar chor ar bith</string>
-  <string name="morphe_music_crossfade_about_unsupported_summary">"Caitheamh nó comhrá fuaime (Chromecast, scáileán nó comhrá fuaime) – pauzéann crossfade mar go bhfuil sé neamhleanúnach ann agus b’fhéidir go ndéanfar é a bhearradh.
+  <string name="morphe_music_crossfade_about_unsupported_summary">"Fuaim a chasadh nó a scáthánú (Chromecast, scáthánú scáileáin nó fuaime) — cuirtear sos ar an traschéimniú mar gheall ar a easpa cobhsaíochta agus b'fhéidir nach féidir é a dheisiú choíche.
 
-YouTube Music 8.x – oibríonn crossfade ar 9.x agus níos déanaí amháin"</string>
+YouTube Music 8.x — ní ritheann an traschéimniú ach ar 9.x agus níos nuaí."</string>
   <string name="morphe_music_crossfade_about_credit_title">Creidmheas</string>
-  <string name="morphe_music_crossfade_about_credit_summary">Gné crossfade le VazerOG</string>
+  <string name="morphe_music_crossfade_about_credit_summary">Gné traschéimnithe le VazerOG</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Cumasaigh athrá buan</string>
   <!-- layout.buttons.hideButtonsPatch -->

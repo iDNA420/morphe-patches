@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">停用向上滑動手勢</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">停用直立螢幕滑下勢態</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">停用橫向螢幕滑下勢態</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">以全螢幕開啟影片</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">以全螢幕模式開啟影片</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">已停用</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">直立</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">橫向</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">播放器覆蓋透明度</string>
   <string name="morphe_player_overlay_opacity_summary">調整疊加層的透明度（0 為透明，100 為不透明）</string>

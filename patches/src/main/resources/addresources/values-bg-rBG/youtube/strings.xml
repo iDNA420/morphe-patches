@@ -739,8 +739,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Деактивиране на жестовото движение на плъзгане нагоре в портретен режим</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Деактивиране на жестовото плъзгане надолу в портретен режим</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Деактивиране на жестовото плъзгане надолу в хоризонтален режим</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Скрий дублиране на видеа</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Отваряне на видеа в режим на цял екран</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Забранено</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Портрет</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Пейзаж</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Скрий дублиране на видеа</string>
   <string name="morphe_player_overlay_opacity_summary">Регулирайте нивото на прозрачност (0 е прозрачно, 100 е непрозрачно)</string>

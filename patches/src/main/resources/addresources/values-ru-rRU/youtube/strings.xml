@@ -743,8 +743,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Отключить жест свайпа вверх в портретном режиме</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Отключить жест смахивания вниз в портретной ориентации</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Отключить жест смахивания вниз в альбомной ориентации</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Открыть видео в полноэкранной портретной ориентации</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Открыть видео в полноэкранном режиме</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Выключено</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Портрет</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Ландшафт</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Затемнение плеера при нажатии</string>
   <string name="morphe_player_overlay_opacity_summary">Настройте уровень прозрачности (0 — прозрачный, 100 — непрозрачный)</string>

@@ -69,9 +69,9 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">このセッションでのクロスフェードを一時停止します</string>
   <string name="morphe_music_crossfade_resumed_toast">クロスフェードを再開しました</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">クロスフェードが有効になっている間は、動画モードは利用できません</string>
-  <string name="morphe_music_crossfade_cast_unstable_toast">オーディオのキャストまたはミラーリング中は、クロスフェードが一時停止されます。キャスト/ミラー時のクロスフェードは不安定であり、修正できない場合があります。</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">キャストまたはミラーリング中は、動作が不安定なためクロスフェードを一時停止します。この問題は将来的にも解決できない可能があります</string>
   <string name="morphe_music_crossfade_about_title">クロスフェードについて</string>
-  <string name="morphe_music_crossfade_about_summary">クロスフェードの仕組みと、機能しない場合について</string>
+  <string name="morphe_music_crossfade_about_summary">クロスフェードの仕組みと利用できない場合について</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
   <string name="morphe_music_crossfade_about_how_title">仕組み</string>
   <string name="morphe_music_crossfade_about_how_summary">"クロスフェードは、ある曲の終わりと次の曲の始まりを重ね合わせ、選択した時間とカーブで一方の曲の音量を下げながら、もう一方の曲の音量を上げていきます。

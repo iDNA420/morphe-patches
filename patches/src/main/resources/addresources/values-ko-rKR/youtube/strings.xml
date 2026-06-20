@@ -743,8 +743,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">위로 스와이프하여 전체 화면 전환 제스처 비활성화하기 (플레이어 내부)</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">아래로 스와이프하여 전체 화면 전환 제스처 비활성화하기 (플레이어 하단)</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">아래로 스와이프하여 전체 화면 종료 제스처 비활성화하기 (전체 화면)</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">동영상을 전체 화면 세로 모드로 열기</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">전체 화면 모드로 동영상 열기</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">사용 안 함</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">세로 모드</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">가로 모드</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">플레이어 오버레이 불투명도</string>
   <string name="morphe_player_overlay_opacity_summary">투명도를 설정할 수 있습니다 (0: 투명, 100: 불투명)</string>

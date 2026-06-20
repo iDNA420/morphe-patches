@@ -257,7 +257,8 @@ Catatan: Jika 'Perdaya strim video' dilumpuhkan, mendayakannya mungkin menyebabk
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_entry_1">Dilumpuhkan</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_summary">Melaraskan tahap kelutsinaran (0 ialah lut sinar, 100 ialah legap)</string>
   <!-- layout.returnyoutubedislike.returnYouTubeDislikePatch -->

@@ -35,14 +35,14 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.32.0-dev.3](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;115 patches total
+> **[v1.32.0-dev.4](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;115 patches total
 <details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;70 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 🧪&nbsp;21.24.360 | 🧪&nbsp;21.23.480 | 🧪&nbsp;21.22.164 | 🧪&nbsp;21.05.265 | 20.51.39 | 20.31.42 | 20.21.37 |
+| 🧪&nbsp;21.25.523 | 🧪&nbsp;21.24.360 | 🧪&nbsp;21.23.480 | 🧪&nbsp;21.05.265 | 20.51.39 | 20.31.42 | 20.21.37 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -97,7 +97,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 | [Open channel of live avatar](#open-channel-of-live-avatar) | Adds an option to prevent a channel's current live video from opening when tapping its avatar. |  |
 | [Open links externally](#open-links-externally) | Adds an option to always open links in your browser instead of with the in-app browser. |  |
 | [Open system share sheet](#open-system-share-sheet) | Adds an option to always open the system share sheet instead of the in-app share sheet. |  |
-| [Open videos fullscreen](#open-videos-fullscreen) | Adds an option to open videos in full screen portrait mode. |  |
+| [Open videos fullscreen](#open-videos-fullscreen) | Adds options to automatically open videos in fullscreen portrait or landscape mode. |  |
 | [Override YouTube Music buttons](#override-youtube-music-buttons) | Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client. |  |
 | [Play all](#play-all) | Adds an option to play all the videos from a channel and to display play all button in the video player. |  |
 | [Playback speed](#playback-speed) | Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player. |  |

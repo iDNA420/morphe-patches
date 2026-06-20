@@ -664,8 +664,8 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_3">Само хоризонтален режим</string>
   <string name="morphe_exit_fullscreen_entry_4">Портрет и пејзаж</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Отвори видеа во портретен цел екран</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_entry_1">Оневозможено</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Непроѕирност на прекривката на плеер</string>
   <string name="morphe_player_overlay_opacity_summary">Прилагодете ја провидноста (0 е провидно, 100 е непровидно)</string>

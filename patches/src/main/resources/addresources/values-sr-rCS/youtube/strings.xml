@@ -741,8 +741,11 @@ Postavke → Reprodukcija (ili Automatsko puštanje) → Automatski pusti slede�
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Onemogući gest povlačenja nagore u portretnom režimu</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Isključi gest povlačenja prema dole u portretnom režimu</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Isključi gest povlačenja prema dole u pejzažnom režimu</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Otvori videe preko celog ekrana uspravno</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Otvorite video zapise u režimu punog ekrana</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Onemogućen</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Uspravno</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Vodoravno</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Neprozirnost preklopa plejera</string>
   <string name="morphe_player_overlay_opacity_summary">Podesi nivo prozirnosti (0 je providno, 100 je neprovidno)</string>

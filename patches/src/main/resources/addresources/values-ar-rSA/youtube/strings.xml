@@ -743,8 +743,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">تعطيل إيماءة التمرير لأعلى في الوضع الرأسي</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">تعطيل إيماءة التمرير لأسفل في الوضع الرأسي</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">تعطيل إيماءة التمرير لأسفل في الوضع الأفقي</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">فتح الفيديوهات في ملء الشاشة</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">فتح الفيديوهات بوضع ملء الشاشة</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">معطّل</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">بالطول</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">بالعرض</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">شفافية واجهة المشغل</string>
   <string name="morphe_player_overlay_opacity_summary">ضبط مستوى الشفافية (0 شفاف، 100 معتم)</string>

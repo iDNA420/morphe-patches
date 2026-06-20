@@ -741,8 +741,11 @@ Socruithe → Athsheinm (nó Uathsheinm) → Uathsheinm an chéad fhíseán eile
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Díchumasaigh gotha ​​svaidhpeála suas portráide</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Díchumasaigh gotha ​​svaidhpeála síos portráide</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Díchumasaigh gotha ​​svaidhpeála tírdhreacha</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Oscail físeáin i bportráid lánscáileáin</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Oscail físeáin i mód lánscáileáin</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Díchumasaithe</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portráid</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Tírdhreach</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Teimhneacht fhorleagan imreora</string>
   <string name="morphe_player_overlay_opacity_summary">Coigeartaigh an leibhéal trédhearcachta (is é 0 trédhearcach, is é 100 teimhneach)</string>

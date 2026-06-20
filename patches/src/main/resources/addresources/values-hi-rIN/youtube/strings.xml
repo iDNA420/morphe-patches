@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">पोर्ट्रेट स्वाइप-अप जेस्चर को अक्षम करें</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">पोर्ट्रेट स्वाइप-डाउन इशारा अक्षम करें</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">लैंडस्केप स्वाइप-डाउन इशारा अक्षम करें</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">फुलस्क्रीन पोर्ट्रेट में वीडियो खोलें</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">फ़ुलस्क्रीन मोड में वीडियो खोलें</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">अक्षम</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">पोर्ट्रेट</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">लैंडस्केप</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">प्लेयर ओवरले अस्पष्टता</string>
   <string name="morphe_player_overlay_opacity_summary">ओवरले पारदर्शिता स्तर समायोजित करें (0 पारदर्शी है, 100 अपारदर्शी है)</string>

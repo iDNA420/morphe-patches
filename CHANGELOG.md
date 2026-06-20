@@ -1,3 +1,13 @@
+## [1.32.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.3...v1.32.0-dev.4) (2026-06-20)
+
+### ✨ New Features
+
+* **YouTube - Open videos fullscreen:** Add landscape mode option ([#1770](https://github.com/MorpheApp/morphe-patches/issues/1770)) ([c2e78f1](https://github.com/MorpheApp/morphe-patches/commit/c2e78f14c4539479213623cb62587f02051ff421))
+
+### 🚀 Updated App Support
+
+* **YouTube:** Add experimental support for `21.25.523` ([773b386](https://github.com/MorpheApp/morphe-patches/commit/773b386ba8d8bb0c831dee82880b0fcdbbd58b75))
+
 ## [1.32.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.2...v1.32.0-dev.3) (2026-06-18)
 
 ### 🐛 Bug Fixes

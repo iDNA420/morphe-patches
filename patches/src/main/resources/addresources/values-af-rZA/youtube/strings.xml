@@ -741,8 +741,11 @@ Instellings → Weergawe (of outoplay) → Speel volgende video outomaties"</str
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktiveer portret opwaartse swipe gebaar</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktiveer portret-afglingsgebare</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktiveer landskap-afglingsgebare</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Open video\'s in volskerm portret</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Maak video\'s in volledig skermmodus oop</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktiveer</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portret</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landskap</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Speler oorlegslaag deursigtigheid</string>
   <string name="morphe_player_overlay_opacity_summary">Pas die deursigtigheidsvlak aan (0 is deursigtig, 100 is ondeursigtig)</string>

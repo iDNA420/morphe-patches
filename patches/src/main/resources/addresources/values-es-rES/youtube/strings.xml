@@ -743,8 +743,11 @@ Configuración → Reproducción (o Reproducción automática) → Reproducción
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Desactivar gesto de deslizar hacia arriba en modo vertical</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Desactivar gesto de deslizar hacia abajo en modo vertical</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Desactivar gesto de deslizar hacia abajo en modo horizontal</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Abrir vídeos en pantalla completa en vertical</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Abrir vídeos en modo de pantalla completa</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Desactivado</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Vertical</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Horizontal</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Opacidad de superposición del reproductor</string>
   <string name="morphe_player_overlay_opacity_summary">Ajuste el nivel de transparencia (0 es transparente, 100 es opaco)</string>

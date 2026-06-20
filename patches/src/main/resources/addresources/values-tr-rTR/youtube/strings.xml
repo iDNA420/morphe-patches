@@ -234,7 +234,7 @@ Değişiklikler şunları içerir:
   <string name="morphe_hide_keyword_content_home_title">Ana sayfadaki videoları anahtar kelimelerle gizle</string>
   <string name="morphe_hide_keyword_content_search_title">Arama sonuçlarını anahtar kelimelerle gizle</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Aboneliklerdeki videoları anahtar kelimelerle gizle</string>
-  <string name="morphe_hide_keyword_content_comments_title">Anahtar kelimelerle yorumları gizle</string>
+  <string name="morphe_hide_keyword_content_comments_title">Yorumları anahtar kelimelerle gizle</string>
   <string name="morphe_hide_keyword_content_phrases_title">Gizlenecek anahtar kelimeler</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -741,8 +741,11 @@ Ayarlar → Oynatma (veya Otomatik Oynatma) → Sonraki videoyu otomatik oynat"<
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Dikey modda yukarı kaydırma hareketini devre dışı bırak</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Dikey modda aşağı kaydırma hareketini devre dışı bırak</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Yatay modda aşağı kaydırma hareketini devre dışı bırak</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Videoları tam ekran dikey modda aç</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Videoları tam ekran modda aç</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Devre dışı</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Dikey</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Yatay</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Oynatıcı katmanı opaklığı</string>
   <string name="morphe_player_overlay_opacity_summary">Şeffaflık düzeyini ayarlayın (0 şeffaf, 100 opak)</string>

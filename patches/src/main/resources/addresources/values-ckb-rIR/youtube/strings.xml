@@ -377,8 +377,8 @@ Second \"item\" text"</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">نه‌كردوه‌</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">ڤیدێۆکان لە شاشە گەورەکەدا بە ڕووت و دەستەقەڵەو بکە</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_entry_1">لەکارخراو</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">زینەی دەربانەی خەڵاتکار</string>
   <string name="morphe_player_overlay_opacity_summary">ءيجست سير رنغدي - (0 ري رنحانًح, 100 ري دواق)</string>

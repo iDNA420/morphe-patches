@@ -740,8 +740,11 @@ To ustawienie działa tylko wtedy, gdy autoodtwarzanie jest wyłączone. Możesz
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Wyłącz gest przeciągnięcia w górę w trybie pionowym</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Wyłącz gest przeciągnięcia w dół w trybie pionowym</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Wyłącz gest przeciągnięcia w dół w trybie poziomym</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Otwieraj filmy w trybie pełnoekranowym</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Otwieraj filmy w trybie pełnoekranowym</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Wyłączony</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">W trybie pionowym</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">W trybie poziomym</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Przezroczystość nakładki odtwarzacza</string>
   <string name="morphe_player_overlay_opacity_summary">Dostosuj poziom przezroczystości (0 to pełna przezroczystość, 100 to brak przezroczystości)</string>

@@ -561,8 +561,8 @@ Info: Možda neće raditi na prijenosima uživo"</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">Onemogućeno</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Prikazuj video u punoglasnom režimu</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_entry_1">Onemogućeno</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Prikaži dugmice za zvuk</string>
   <string name="morphe_player_overlay_opacity_invalid_toast">Vrijednost opacnosti mora biti između 0-100</string>

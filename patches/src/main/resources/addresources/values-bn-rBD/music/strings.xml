@@ -69,34 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">এই সেশনের জন্য ক্রসফেড সাময়িকভাবে বন্ধ করা হয়েছে</string>
   <string name="morphe_music_crossfade_resumed_toast">ক্রসফেড পুনরায় শুরু করা হয়েছে</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">ক্রসফেড চালু থাকা অবস্থায় ভিডিও মোড উপলব্ধ নয়</string>
-  <string name="morphe_music_crossfade_cast_unstable_toast">কাস্টিং বা অডিও মিররিং করার সময় ক্রসফেড পজ করা হয়েছে। কাস্ট/মিররের উপরে ক্রসফেড অস্থির এবং সম্ভবত এটি ঠিক করা যাবে না।</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">কাস্টিং বা অডিও মিররিং করার সময় ক্রসফেড সাময়িকভাবে বন্ধ থাকে। কাস্ট অথবা মিরর চলাকালীন ক্রসফেড ফিচারটি কিছুটা অস্থিতিশীল এবং এটি হয়তো কখনোই পুরোপুরি ঠিক করা সম্ভব নাও হতে পারে।</string>
   <string name="morphe_music_crossfade_about_title">মর্ফ সম্পর্কে</string>
-  <string name="morphe_music_crossfade_about_summary">ক্রসফেড কীভাবে কাজ করে — এবং কখন এটি কাজ করে না</string>
+  <string name="morphe_music_crossfade_about_summary">ক্রসফেড যেভাবে কাজ করে — এবং এটি যখন কাজ করে না</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
-  <string name="morphe_music_crossfade_about_how_title">এটি কিভাবে কাজ করে</string>
-  <string name="morphe_music_crossfade_about_how_summary">"ক্রসফেড একটি গানের শেষ অংশকে পরবর্তী গানের শুরুর অংশের সাথে ওভারল্যাপ করে, আপনার নির্বাচিত সময়কাল এবং কার্ভের উপর একটি গান ফেড আউট হওয়ার সাথে সাথে অন্যটি ফেড ইন করে।
+  <string name="morphe_music_crossfade_about_how_title">এটি যেভাবে কাজ করে</string>
+  <string name="morphe_music_crossfade_about_how_summary">"ক্রসফেড ফিচারটি আপনার পছন্দ করা সময় এবং কার্ভ অনুযায়ী একটি গানের ভলিউম কমিয়ে অন্য গানটি চালু করার মাধ্যমে প্রথম গানের শেষের সাথে পরের গানের শুরুকে মিলিয়ে দেয়।
 
-এটি অটো-অ্যাডভান্সের (যখন একটি গান নিজে থেকে শেষ হয়) এবং ম্যানুয়াল স্কিপের উপর চলে — উভয়ের উপরে নিজস্ব টগল রয়েছে। অটো-অ্যাডভান্সের ক্ষেত্রে, গান শেষ হওয়ার কয়েক সেকেন্ড আগে ব্লেন্ড শুরু হয়।
+এটি অটো-অ্যাডভান্স (যখন একটি গান নিজে থেকেই শেষ হয়) এবং ম্যানুয়াল স্কিপ — উভয় ক্ষেত্রেই কাজ করে। ওপরের টগলগুলো থেকে প্রতিটির জন্য আলাদা সেটিংস বেছে নেওয়া যাবে। অটো-অ্যাডভান্সের ক্ষেত্রে গানটি শেষ হওয়ার কয়েক সেকেন্ড আগেই মিশ্রণটি শুরু হয়ে যায়।
 
-YouTube Music 9.x বা নতুন সংস্করণের প্রয়োজন।"</string>
-  <string name="morphe_music_crossfade_about_best_title">সেরা কাজ করে</string>
-  <string name="morphe_music_crossfade_about_best_summary">সাধারণ গান থেকে গানে প্লেব্যাক এবং অটো-অ্যাডভান্স, রিপিট-ওয়ান (গানটি নিজেই ক্রসফেড করে), এবং স্থানীয় অডিও — ফোন স্পিকার, তারযুক্ত হেডফোন, ব্লুটুথ বা USB-এর সাথে।</string>
-  <string name="morphe_music_crossfade_about_quirks_title">ঠিকমতো কাজ করছে না</string>
-  <string name="morphe_music_crossfade_about_quirks_summary">"ক্রসফেড চালু থাকা অবস্থায় মিউজিক ভিডিওগুলি শুধুমাত্র অডিও হিসাবে প্লে হবে (ভিডিওটি বন্ধ করতে শাফেল বোতামটি টিপুন)
+এর জন্য ইউটিউব মিউজিক ৯.এক্স (YouTube Music 9.x) বা এর চেয়ে নতুন সংস্করণের প্রয়োজন হবে।"</string>
+  <string name="morphe_music_crossfade_about_best_title">সবচেয়ে ভালো কাজ করে যার সাথে</string>
+  <string name="morphe_music_crossfade_about_best_summary">স্বাভাবিকভাবে একের পর এক গান বাজালে এবং অটো-অ্যাডভান্সের ক্ষেত্রে, রিপিট-ওয়ান (যেখানে গানটি নিজের সাথেই ক্রসফেড হয়) চালু থাকলে, এবং লোকাল অডিও — যেমন ফোনের স্পিকার, তারযুক্ত হেডফোন, ব্লুটুথ কিংবা ইউএসবি-র মাধ্যমে শোনার সময়।</string>
+  <string name="morphe_music_crossfade_about_quirks_title">ঠিকঠাক কাজ করছে না</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"ক্রসফেড চালু থাকা অবস্থায় মিউজিক ভিডিওগুলো শুধু অডিও হিসেবে চলবে (ভিডিও দেখতে চাইলে শাফেল বাটনে লং-প্রেস করে এটি পজ করে নিন)
 
-আপনার ফেড ডিউরেশনের চেয়ে ছোট গানগুলি ফেড এড়িয়ে যেতে পারে
+আপনার সেট করা ফেড টাইমের চেয়ে ছোট গানের ক্ষেত্রে ফেড স্কিপ হতে পারে
 
-ট্রানজিশনের মাঝে মাঝে লক স্ক্রীন বা নোটিফিকেশন এ ভুল তথ্য দেখা যেতে পারে"</string>
-  <string name="morphe_music_crossfade_about_known_title">পরিচিত সমস্যা</string>
-  <string name="morphe_music_crossfade_about_known_summary">"প্রথম গান হিসাবে একটি মিউজিক ভিডিও সেট করা থাকলে - অথবা বর্তমান কিউ-এর বাইরে থেকে শুরু করা হলে - এটি অডিও-অনলি মোড চালু হওয়ার আগে ভিডিও হিসাবে দেখানো যেতে পারে
+গান পরিবর্তনের মাঝামাঝি সময়ে লক স্ক্রিন বা নোটিফিকেশনে সাময়িকভাবে আগের তথ্য দেখাতে পারে"</string>
+  <string name="morphe_music_crossfade_about_known_title">পরিচিত সমস্যাগুলো</string>
+  <string name="morphe_music_crossfade_about_known_summary">"প্রথম গান হিসেবে কোনো মিউজিক ভিডিও প্লে করলে — অথবা বর্তমান কিউ-এর (Queue) বাইরে থেকে কোনো গান শুরু করলে — অডিও-অনলি মোড চালু হওয়ার আগে সেটি অল্প সময়ের জন্য ভিডিও হিসেবে দেখা যেতে পারে
 
-মিউজিক ভিডিও দেখার জন্য ক্রসফেড থামানো হলে কিছু ভিডিও কালো হয়ে যেতে পারে (যেগুলির অডিও ভিডিও থেকে আসে)। গানটি নির্বাচন করার আগে ক্রসফেড থামিয়ে রাখলে এটি এড়ানো যায়"</string>
-  <string name="morphe_music_crossfade_about_unsupported_title">একেবারেই কাজ করছে না</string>
-  <string name="morphe_music_crossfade_about_unsupported_summary">"কাস্টিং বা অডিও মিররিং (Chromecast, স্ক্রিন বা অডিও মিররিং) — ক্রসফেড বিরতি নেয় কারণ এটি সেখানে অস্থির এবং সম্ভবত সমাধান করা নাও যেতে পারে।
+মিউজিক ভিডিও দেখার জন্য ক্রসফেড পজ করলে কিছু ভিডিওর স্ক্রিন কালো হয়ে থাকতে পারে (বিশেষ করে যেসব ভিডিওর অডিও সরাসরি ভিডিও ফাইল থেকেই আসে)। গানটি প্লে করার আগেই ক্রসফেড পজ করে নিলে এই সমস্যাটি এড়ানো সম্ভব"</string>
+  <string name="morphe_music_crossfade_about_unsupported_title">একদমই কাজ করছে না</string>
+  <string name="morphe_music_crossfade_about_unsupported_summary">"অডিও কাস্ট বা মিরর করার সময় (যেমন ক্রোমকাস্ট, স্ক্রিন বা অডিও মিররিং) — ক্রসফেড সাময়িকভাবে বন্ধ থাকে, কারণ এই মোডে এটি ঠিকঠাক কাজ করে না এবং সমস্যাটি হয়তো কখনোই পুরোপুরি ঠিক করা যাবে না।
 
-YouTube Music 8.x — ক্রসফেড শুধুমাত্র 9.x এবং তার পরের সংস্করণে চলবে"</string>
-  <string name="morphe_music_crossfade_about_credit_title">ক্রেডিট</string>
-  <string name="morphe_music_crossfade_about_credit_summary">VazerOG দ্বারা ক্রসফেড ফিচার</string>
+ইউটিউব মিউজিক ৮.এক্স (YouTube Music 8.x) সংস্করণে — ক্রসফেড ফিচারটি কেবল ৯.এক্স বা এর চেয়ে নতুন সংস্করণে কাজ করে"</string>
+  <string name="morphe_music_crossfade_about_credit_title">কৃতজ্ঞতা স্বীকার</string>
+  <string name="morphe_music_crossfade_about_credit_summary">VazerOG-এর তৈরি ক্রসফেড ফিচার</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">স্থায়ী পুনরাবৃত্তি সক্ষম করুন</string>
   <!-- layout.buttons.hideButtonsPatch -->

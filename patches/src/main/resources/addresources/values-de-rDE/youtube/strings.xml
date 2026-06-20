@@ -741,8 +741,11 @@ Einstellungen → Wiedergabe (oder Automatische Wiedergabe) → Nächstes Video 
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktivieren der Wischgeste nach oben im Hochformat</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Porträtmodus</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Landschaftsmodus</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Videos im Vollbild-Hochformat öffnen</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Videos im Vollbildmodus öffnen</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktiviert</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Hochformat</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Querformat</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Spieler-Überlagerung Deckkraft</string>
   <string name="morphe_player_overlay_opacity_summary">Passen Sie die Transparenz an (0 ist transparent, 100 ist opak)</string>

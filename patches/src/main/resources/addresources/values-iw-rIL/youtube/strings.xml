@@ -740,8 +740,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">השבת מחוות החלקה כלפי מעלה במצב פורטרט</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">השבת מחוות החלקה כלפי מטה במצב פורטרט</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">השבת מחוות החלקה כלפי מטה במצב לנדסקייפ</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">פתח סרטונים במסך מלא לאורך</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">פתח סרטונים במצב מסך מלא</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">מושבת</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">לאורך</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">לרוחב</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">אטימות שכבת-על של נגן</string>
   <string name="morphe_player_overlay_opacity_summary">התאם את רמת השקיפות (0 הוא שקוף, 100 הוא אטום)</string>

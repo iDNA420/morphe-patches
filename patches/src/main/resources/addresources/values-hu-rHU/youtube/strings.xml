@@ -741,8 +741,11 @@ Beállítások → Lejátszás (vagy Automatikus lejátszás) → Következő vi
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">A teljes képernyős felhúzásos gesztus letiltása</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Portré gesztus letiltása – lefelé húzás</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Tájkép gesztus letiltása – lefelé húzás</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Nyissa meg a videókat teljes képernyős portréban</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Videók megnyitása teljes képernyős módban</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Kikapcsolva</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portré</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Tájkép</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Lejátszó fedőrétegének átlátszatlansága</string>
   <string name="morphe_player_overlay_opacity_summary">Állítsa be az átlátszó szintet (0 átlátszó, 100 opák)</string>

@@ -420,8 +420,7 @@ Second \"item\" text"</string>
   <!-- layout.player.fullscreen.exitFullscreenPatch -->
   <string name="morphe_exit_fullscreen_entry_1">निष्क्रिय</string>
   <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">पूर्णस्क्रिन पोर्ट्रेटमा भिडियोहरू खोल्नुहोस्</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">प्लेयर ओभरले अपारदर्शिता</string>
   <string name="morphe_player_overlay_opacity_invalid_toast">प्लेयर ओभरले अपारदर्शिता 0-100 बीचमा हुनुपर्छ</string>

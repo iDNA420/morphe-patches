@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">ปิดใช้งานท่าทางปัดขึ้นในโหมดแนวตั้ง</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">ปิดการใช้งานท่าทางปัดลงในโหมดแนวตั้ง</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ปิดการใช้งานท่าทางปัดลงในโหมดแนวนอน</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">เปิดวิดีโอในโหมดเต็มหน้าจอสแนวตั้ง</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">เปิดวิดีโอในโหมดเต็มหน้าจอ</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">ปิดการใช้งานอยู่</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">แนวตั้ง</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">แนวนอน</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">ความโปร่งใสของการซ้อนทับของเครื่องเล่น</string>
   <string name="morphe_player_overlay_opacity_summary">ปรับระดับความโปร่งใส (0 คือโปร่งใส, 100 คือทึบแสง)</string>

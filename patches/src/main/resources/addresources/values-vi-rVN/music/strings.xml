@@ -69,34 +69,34 @@ Second \"item\" text"</string>
   <string name="morphe_music_crossfade_paused_toast">Hiệu ứng chuyển bài đã tạm dừng cho phiên phát này</string>
   <string name="morphe_music_crossfade_resumed_toast">Hiệu ứng chuyển bài đã được bật lại</string>
   <string name="morphe_music_crossfade_video_mode_disabled_toast">Không thể dùng chế độ video khi đang bật hiệu ứng chuyển bài</string>
-  <string name="morphe_music_crossfade_cast_unstable_toast">Chế độ chuyển tiếp mờ dần bị tạm dừng khi đang phát hoặc truyền phát âm thanh. Chế độ chuyển tiếp mờ dần khi phát/truyền phát không ổn định và có thể không bao giờ khắc phục được.</string>
+  <string name="morphe_music_crossfade_cast_unstable_toast">Hiệu ứng chuyển bài sẽ tạm dừng khi truyền hoặc chiếu âm thanh. Trong trường hợp này, tính năng có thể không bao giờ được khắc phục hoàn toàn</string>
   <string name="morphe_music_crossfade_about_title">Giới thiệu</string>
-  <string name="morphe_music_crossfade_about_summary">Cách thức hoạt động của chế độ chuyển tiếp mờ dần — và khi nào nó không hoạt động</string>
+  <string name="morphe_music_crossfade_about_summary">Bấm vào đây để biết khi nào hiệu ứng chuyển bài hoạt động và khi nào không</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
-  <string name="morphe_music_crossfade_about_how_title">Cách thức hoạt động</string>
-  <string name="morphe_music_crossfade_about_how_summary">"Chế độ chuyển tiếp mờ dần chồng lấp phần cuối của một bài hát với phần bắt đầu của bài hát tiếp theo, làm mờ dần một bài hát này trong khi bài hát kia dần xuất hiện trong khoảng thời gian và đường cong bạn đã chọn.
+  <string name="morphe_music_crossfade_about_how_title">Cơ chế hoạt động</string>
+  <string name="morphe_music_crossfade_about_how_summary">"Hiệu ứng chuyển bài sẽ giảm âm lượng đoạn cuối bài hát hiện tại, sau đó ghép với đoạn đầu bài hát tiếp theo được tăng âm lượng lên, tùy theo thời lượng và hiệu ứng chuyển mà bạn đã chọn.
 
-Chế độ này hoạt động trên tính năng tự động phát (khi một bài hát kết thúc tự động) và trên các lần bỏ qua thủ công — mỗi tính năng có một công tắc riêng ở trên. Khi tự động phát, sự hòa trộn bắt đầu vài giây trước khi bài hát kết thúc.
+Tính năng này hoạt động khi tự động chuyển bài (lúc nghe hết bài hát) và khi bạn tự chuyển bài khác - mỗi chế độ đều có một cài đặt riêng phía trên. Khi tự động chuyển bài, hiệu ứng sẽ bắt đầu vài giây trước khi bài hát kết thúc.
 
-Đòi hỏi YouTube Music 9.x hoặc mới hơn."</string>
-  <string name="morphe_music_crossfade_about_best_title">Hoạt động tốt nhất với</string>
-  <string name="morphe_music_crossfade_about_best_summary">Phát lại bài hát thông thường và tự động phát, lặp lại một bài hát (bài hát chuyển tiếp vào chính nó) và âm thanh cục bộ — loa điện thoại, tai nghe có dây, Bluetooth hoặc USB.</string>
-  <string name="morphe_music_crossfade_about_quirks_title">Không hoạt động hoàn toàn chính xác</string>
-  <string name="morphe_music_crossfade_about_quirks_summary">"Video nhạc phát chỉ có âm thanh khi bật tính năng chuyển tiếp (nhấn và giữ nút xáo trộn để tạm dừng nếu bạn muốn xem video)
+Yêu cầu YT Music 9.x hoặc mới hơn."</string>
+  <string name="morphe_music_crossfade_about_best_title">Hiệu quả nhất khi</string>
+  <string name="morphe_music_crossfade_about_best_summary">Nghe nhạc thông thường, khi tự động chuyển bài, hay đang lặp một bài hát (phát đi phát lại một bài) và nghe trực tiếp từ loa điện thoại, tai nghe có dây, Bluetooth hoặc USB.</string>
+  <string name="morphe_music_crossfade_about_quirks_title">Chưa thực sự tốt</string>
+  <string name="morphe_music_crossfade_about_quirks_summary">"Video nhạc sẽ chỉ phát nhạc khi bật hiệu ứng chuyển bài (bấm giữ nút trộn bài để tạm dừng nếu bạn muốn xem video)
 
-Các bài hát ngắn hơn thời lượng chuyển tiếp có thể bỏ qua hiệu ứng chuyển tiếp
+Các bài hát ngắn hơn thời lượng chuyển bài có thể bỏ qua hiệu ứng chuyển bài
 
-Màn hình khóa hoặc thông báo có thể hiển thị trạng thái cũ trong thời gian ngắn trong quá trình chuyển đổi"</string>
-  <string name="morphe_music_crossfade_about_known_title">Các vấn đề đã biết</string>
-  <string name="morphe_music_crossfade_about_known_summary">"Một video nhạc được đặt làm bài hát đầu tiên – hoặc một video được bắt đầu từ bên ngoài hàng đợi hiện tại – có thể hiển thị dưới dạng video trong thời gian ngắn trước khi chế độ chỉ có âm thanh được kích hoạt
+Màn hình khóa hoặc thông báo có thể hiển thị trạng thái cũ trong quá trình chuyển bài"</string>
+  <string name="morphe_music_crossfade_about_known_title">Lỗi đã biết</string>
+  <string name="morphe_music_crossfade_about_known_summary">"Video nhạc ở đầu hàng chờ - hoặc không phát từ hàng chờ có thể xuất hiện dưới dạng video trong chốt lát trước khi chuyển sang chế độ âm thanh
 
-Tạm dừng chuyển tiếp để xem video nhạc có thể khiến một số video bị đen (những video có âm thanh trực tiếp từ video). Tạm dừng chuyển tiếp trước khi bạn chọn bài hát sẽ tránh được điều này"</string>
+Tạm dừng hiệu ứng chuyển bài để xem video âm nhạc có thể khiến một số video hiển thị màn hình đen (đặc biệt là những video lấy âm thanh trực tiếp từ chính luồng video). Để tránh lỗi này, hãy dừng hiệu ứng chuyển bài trước khi phát bài hát"</string>
   <string name="morphe_music_crossfade_about_unsupported_title">Không hoạt động chút nào</string>
-  <string name="morphe_music_crossfade_about_unsupported_summary">"Truyền hoặc phản chiếu âm thanh (Chromecast, phản chiếu màn hình hoặc âm thanh) – tính năng chuyển tiếp sẽ tạm dừng vì nó không ổn định ở đó và có thể không bao giờ được khắc phục.
+  <string name="morphe_music_crossfade_about_unsupported_summary">"Truyền hoặc chiếu âm thanh (Chromecast, chiếu màn hình hoặc âm thanh) – hiệu ứng chuyển tiếp sẽ tạm dừng vì nó không ổn định trong trường hợp này và có thể không bao giờ được khắc phục hoàn toàn.
 
-YouTube Music 8.x – tính năng chuyển tiếp chỉ chạy trên 9.x trở lên"</string>
+YouTube Music 8.x – hiệu ứng chuyển tiếp chỉ chạy trên 9.x trở lên"</string>
   <string name="morphe_music_crossfade_about_credit_title">Đóng góp</string>
-  <string name="morphe_music_crossfade_about_credit_summary">Tính năng chuyển tiếp do VazerOG tạo ra</string>
+  <string name="morphe_music_crossfade_about_credit_summary">Hiệu ứng chuyển bài do VazerOG phát triển</string>
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <string name="morphe_music_play_permanent_repeat_title">Bật lặp lại vĩnh viễn</string>
   <!-- layout.buttons.hideButtonsPatch -->

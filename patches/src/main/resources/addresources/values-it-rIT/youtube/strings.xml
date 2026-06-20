@@ -741,8 +741,11 @@ Impostazioni → Riproduzione (o Autoplay) → Riproduci il video successivo aut
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Disabilita il gesto di scorrimento verso l\'alto in verticale</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Disabilita gesto di scorrimento verso il basso in verticale</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Disabilita gesto di scorrimento verso il basso in orizzontale</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Apri i video in verticale a schermo intero</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Apri i video a schermo intero</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Disattivato</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Verticale</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Orizzontale</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Opacità sovrapposizione del lettore</string>
   <string name="morphe_player_overlay_opacity_summary">Regola il livello di trasparenza (0 è trasparente, 100 è opaco)</string>

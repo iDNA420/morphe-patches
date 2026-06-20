@@ -741,8 +741,11 @@ Promene uključuju:
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Онемогући гест за превлачење нагоре у портретном режиму</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Онемогући гест превлачења надоле у портретном режиму</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Онемогући гест превлачења надоле у ландскептном режиму</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Отвори видее преко целог екрана усправно</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Отвори видео записе у режиму пуног екрана</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Онемогућен</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Усправно</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Водоравно</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Непрозирност преклопа плејера</string>
   <string name="morphe_player_overlay_opacity_summary">Прилагодите ниво провидности (0 је провидно, 100 је непровидно)</string>

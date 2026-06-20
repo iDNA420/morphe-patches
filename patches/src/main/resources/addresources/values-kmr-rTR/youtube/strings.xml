@@ -744,8 +744,11 @@ Settings → Playback (an Autoplay) → Autoplay next video"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Devêrê têkelê neşrîyê parçebûyî</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Portret mod da xêrkirina destûrê sekinîn</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Portreta horizontal da xêrkirina destûrê sekinîn</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Vîdyoyên li portreya qerezalîyê veke.</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Vîdyoyên bi modê tîrêjê vekin</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Vemirandî</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portre</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landin</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Şewitîya zeviyayê pêşandanê.</string>
   <string name="morphe_player_overlay_opacity_summary">Astê şeffafiyê bistîne (0 şeffaf e, 100 neşeffaf e)</string>

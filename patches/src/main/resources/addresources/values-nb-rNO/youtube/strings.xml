@@ -741,8 +741,11 @@ Innstillinger → Avspilling (eller Autoplay) → Spill av neste video automatis
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktiver sveip opp-bevegelse i stående modus</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktiver sveip-ned-gesten i stående modus</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktiver sveip-ned-gesten i liggende modus</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Åpne videoer i fullskjermmodus i stående format</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Åpne videoer i fullskjermmodus</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktivert</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portrett</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landskap</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Spilleroverleggs opasitet</string>
   <string name="morphe_player_overlay_opacity_summary">Juster gjennomsiktighetsnivået (0 er gjennomsiktig, 100 er ugjennomsiktig)</string>

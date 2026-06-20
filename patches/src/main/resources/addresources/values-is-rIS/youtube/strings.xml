@@ -737,8 +737,11 @@ Stillingar → Spilun (eða Sjálfvædd spilun) → Sjálfvædd næsta myndband"
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Gerja óvirkt hreyfingu til að draga upp úr fullskjá</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Gerðu portrettsniður snertihreyfinguna óvirkja</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Gerðu landslagsniður snertihreyfinguna óvirkja</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Opna alltaf vídeó í staðstöðu </string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Opna myndband í fullskjáhamri</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Gerilt</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portrett</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landsláttur</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Spilar murargyga </string>
   <string name="morphe_player_overlay_opacity_summary">Stilltu gegnsærastefnu (0 er gagnsætt, 100 er ógegnsætt)</string>

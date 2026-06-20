@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">পোর্ট্রেট মোডে ওপরের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">পোর্ট্রেট মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ল্যান্ডস্কেপ মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">পূর্ণ পর্দায় ভিডিও খুলুন</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">পূর্ণ পর্দায় ভিডিও খুলুন</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">নিষ্ক্রিয় হয়েছে</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">আনুভূমিক</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">ল্যান্ডস্কেপ</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">প্লেয়ার ওভারলে অস্বচ্ছতা</string>
   <string name="morphe_player_overlay_opacity_summary">ওভারলে স্বচ্ছতার স্তর সামঞ্জস্য করুন (0 স্বচ্ছ, 100 অস্বচ্ছ)</string>

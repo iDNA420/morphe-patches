@@ -741,8 +741,11 @@ Indstillinger → Afspilning (eller Automatisk afspilning) → Afspil næste vid
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktiver swipe-op-gestus i portrættilstand</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktiver gestus med nedadstræk i portrættilstand</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktiver gestus med nedadstræk i landskabsttilstand</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Åbn videoer i fuldskærm portræt</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Åbn videoer i fuldskærmstilstand</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktiveret</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portræt</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landskab</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Spiller overlay gennemsigtighed</string>
   <string name="morphe_player_overlay_opacity_summary">Juster gennemsigtighedsniveauet (0 er gennemsigtigt, 100 er uigennemsigtigt)</string>

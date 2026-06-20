@@ -741,8 +741,11 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_pulled_up_gesture_title">禁用向上滑动返回手势</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">禁用竖屏下滑手势</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">禁用横屏下滑手势</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">以全屏纵向模式打开视频</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">以全屏模式打开视频</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">已禁用</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">纵向显示</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">横向显示</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">播放器叠加层不透明度</string>
   <string name="morphe_player_overlay_opacity_summary">调整透明度 (0 为透明，100 为不透明)</string>
