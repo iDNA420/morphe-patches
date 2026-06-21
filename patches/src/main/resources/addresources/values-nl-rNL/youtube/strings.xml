@@ -471,6 +471,8 @@ Let op: als 'Video streams spoofen' niet is ingeschakeld, kan het inschakelen hi
   <string name="morphe_hide_stop_ads_button_title">Verberg \'Stop advertenties\'-knop</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Verberg de knop \"Reacties\"</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Verberg de knop \"Connect\"</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Verberg Rapporteer-knop</string>
@@ -495,6 +497,7 @@ Let op: als 'Video streams spoofen' niet is ingeschakeld, kan het inschakelen hi
   <string name="morphe_hide_shop_button_title">Verberg Winkelknop</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Verberg Opslaan-knop</string>
+  <string name="morphe_hide_more_button_title">Verberg de knop \"Meer\"</string>
   <string name="morphe_fullscreen_buttons">Volledig scherm knoppen</string>
   <string name="morphe_hide_quick_actions_title">Acties verbergen</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Verberg Vraag-knop</string>
@@ -1021,22 +1024,25 @@ Als u geen markering wilt indienen, tikt u op Annuleren en markeert u de tweede 
   <string name="morphe_change_form_factor_entry_2">Telefoon</string>
   <string name="morphe_change_form_factor_entry_3">Tablet</string>
   <string name="morphe_change_form_factor_entry_4">Auto</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Wijzigingen omvatten:
+  <string name="morphe_change_form_factor_user_dialog_message">"Wijzigingen:
 
-Tablet lay-out
-• Communityberichten zijn verborgen
+Tablet-layout
+• Community-posts zijn verborgen
 • Afspelen in feeds-instelling is niet beschikbaar
-• Remix-knop en Geluidsknop zijn niet beschikbaar in Shorts
-• Videobalk is niet ingeklapt
+• Remix-knop en Geluid-knop zijn niet beschikbaar in Shorts
+• Oude video-actiebalk wordt niet samengevouwen weergegeven
 
-Auto lay-out
-• Feed is georganiseerd per onderwerpen en kanalen
+Automotive-layout
+• Feed is georganiseerd per onderwerp en kanaal
 • Afspelen in feeds-instelling is niet beschikbaar
-• Remix-knop en Geluidsknop zijn niet beschikbaar in Shorts
-• Shorts openen in de reguliere speler
-• Videobalk is niet ingeklapt"</string>
+• Remix-knop en Geluid-knop zijn niet beschikbaar in Shorts
+• Shorts worden geopend in de normale speler
+• Oude video-actiebalk wordt niet samengevouwen weergegeven"</string>
   <string name="morphe_tablet_layout_in_player_title">Schakel tabletindeling in de speler in</string>
-  <string name="morphe_tablet_layout_in_player_summary">Herstelt de oude spelerlay-out</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Herstelt de oude lay-out van de speler
+
+Beperkingen: Als 'Oude video-actiebalk herstellen' is uitgeschakeld, is de overlay 'Meer video's' mogelijk niet beschikbaar."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">App-versie vervalsen</string>
   <string name="morphe_spoof_app_version_summary">Misleidt de server om te denken dat je een oudere app-versie gebruikt om verouderde visuele functies terug te zetten</string>
@@ -1292,4 +1298,9 @@ Het afspelen van video met AV1 kan haperen of frames overslaan."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Oorspronkelijke audio forceren is niet beschikbaar</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Player JavaScript variant</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Toon spoofing in Stats for nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Herstel oude videobeweringsbalk</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Verhelpt problemen met niet-weergegeven dislikes en actieknoppen van video's die niet kunnen worden verborgen
+
+Beperkingen: Keert terug naar de oude stijl van de 'Meer video's'-overlay"</string>
 </resources>

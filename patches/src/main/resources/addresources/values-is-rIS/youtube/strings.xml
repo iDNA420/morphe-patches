@@ -469,6 +469,8 @@ Athugið: Ef 'Spoofa myndband streymi' er ekki virkjað getur þetta valkosti va
   <string name="morphe_hide_stop_ads_button_title">Felur \'Hættir auglýsingum\' hnappinn</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Felur Athugasmdir hnappinn</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Fela Connect hnappinn</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Felur Tilkynna hnappinn</string>
@@ -493,6 +495,7 @@ Athugið: Ef 'Spoofa myndband streymi' er ekki virkjað getur þetta valkosti va
   <string name="morphe_hide_shop_button_title">Felur Kaup hnappinn</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Felur Vista hnappinn</string>
+  <string name="morphe_hide_more_button_title">Fela More hnappinn</string>
   <string name="morphe_fullscreen_buttons">Hópvinnar</string>
   <string name="morphe_hide_quick_actions_title">Fela áhrif áhnamma</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Felur Spyrja hnappinn</string>
@@ -1017,22 +1020,25 @@ Ef þú ert ekki að senda dull, bancrið og mörkið dulirð"</string>
   <string name="morphe_change_form_factor_entry_2">Sími</string>
   <string name="morphe_change_form_factor_entry_3">Tafla</string>
   <string name="morphe_change_form_factor_entry_4">Bíll</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Breytur innihalda:
+  <string name="morphe_change_form_factor_user_dialog_message">"Breytingar eru:
 
-Spjallarplata
-• Samfélagsfyrirlögn eru f Báðar
-• Spilun í straumum er ekki fáanlegur
-• Remix hnappurinn og Hljóðhnappurinn eru ekki er í Boði í Shorts
-• Vídeóáhrifastjórnstikurinn er ekki Brottfallinn
+Spjaldtækjastíll
+• Samfélagspóstur eru feldir
+• Stillingin 'Spilun í straumum' er ekki í boði
+• Remix hnappurinn og Hljóð hnappurinn eru ekki í boði í Shorts
+• Gamla aðgerðastika myndbandsins, ekki brotin saman, er sýnd
 
-Akstur
-• Straumurinn er skipulagður með mál og rásir
-• Spilun í straumum er ekki fáanlegur
-• Remix hnappurinn og Hljóðhnappurinn eru ekki er í Boði í Shorts
-• Shorts opnast í reglulegum spilaranum
-• Vídeóáhrifastjórnstikurinn er ekki Brottfallinn"</string>
+Bílstýringastíll
+• Straumurinn er skipulagður eftir þemu og rásum
+• Stillingin 'Spilun í straumum' er ekki í boði
+• Remix hnappurinn og Hljóð hnappurinn eru ekki í boði í Shorts
+• Shorts opnast í venjulega spilaranum
+• Gamla aðgerðastika myndbandsins, ekki brotin saman, er sýnd"</string>
   <string name="morphe_tablet_layout_in_player_title">Virkja taflalýsing í spilara</string>
-  <string name="morphe_tablet_layout_in_player_summary">Endurheimtir gamla útlit spilarans</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Endurstaðsetur gamla útlit spilarans
+
+Takmörkunir: Ef \"Endurstaðsetja gamla áttavísi myndbandsins\" er slökkt, gæti yfirlag \"Fleiri myndböð\" verið ófáanlegt"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spofta útgáfu forritsins</string>
   <string name="morphe_spoof_app_version_summary">Breytir netþjóninum til að halda í hugan það að þú ert að nota eldri útgáfu af forritinu til að endurheimta gamla notendaviðmóti</string>
@@ -1290,4 +1296,9 @@ Myndbandsspilun með AV1 getur hakka eða orðið með rammalegsfall."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Ekki er hægt til þess að neyða upprunalegt hljóð</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">JavaScript breyturinnar</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Sýnir forgerð á tölfræðinni fyrir nerda</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Endurstaða gamla myndavélarinnar</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Leiðrétt vandamál með það sem finnst ekki í ólán og ekki er hægt að fela myndavélarhnappana
+
+Takmörk: Snýr aftur að eldra útliti 'Fleiri myndir' lagskiptingarinnar"</string>
 </resources>

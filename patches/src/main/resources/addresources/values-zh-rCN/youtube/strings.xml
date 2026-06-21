@@ -471,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">隐藏“停止广告”按钮</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">隐藏评论按钮</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">隐藏关联按钮</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">隐藏举报按钮</string>
@@ -495,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">隐藏商店按钮</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">隐藏保存按钮</string>
+  <string name="morphe_hide_more_button_title">隐藏更多按钮</string>
   <string name="morphe_fullscreen_buttons">全屏按钮</string>
   <string name="morphe_hide_quick_actions_title">隐藏操作栏</string>
   <string name="morphe_hide_quick_actions_ask_button_title">隐藏询问按钮</string>
@@ -1027,18 +1030,21 @@ Second \"item\" text"</string>
 
 平板电脑布局
 • 社区帖子已隐藏
-• 订阅源中的播放设置不可用
-• Shorts 中未提供 Remix 按钮和 Sound 按钮
-• 视频操作栏未折叠
+• 消息流中播放不可用
+• Shorts 中没有混音按钮和声音按钮
+• 显示未折叠的旧视频操作栏
 
-车载布局
-• 订阅源按主题和频道组织
-• 订阅源中的播放设置不可用
-• Shorts 中未提供 Remix 按钮和 Sound 按钮
+汽车布局
+• 消息流按主题和频道组织
+• 消息流中播放不可用
+• Shorts 中没有混音按钮和声音按钮
 • Shorts 在常规播放器中打开
-• 视频操作栏未折叠"</string>
+• 显示未折叠的旧视频操作栏"</string>
   <string name="morphe_tablet_layout_in_player_title">在播放器中启用平板电脑布局</string>
-  <string name="morphe_tablet_layout_in_player_summary">恢复旧版播放器布局</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"恢复旧版播放器布局
+
+限制：如果关闭“恢复旧版视频操作栏”，则可能无法使用“更多视频”叠加层"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">伪装应用程序版本</string>
   <string name="morphe_spoof_app_version_summary">欺骗服务器，使其认为您正在使用较旧的应用程序版本以恢复旧版 UI 功能</string>
@@ -1296,4 +1302,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• 强制原始音频不可用</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">播放器JavaScript变种</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">在“极客统计”中显示欺骗信息</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">恢复旧版视频操作栏</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"修复无法显示不喜欢次数以及无法隐藏视频操作按钮的问题。
+
+限制：恢复到旧版“更多视频”叠加层"</string>
 </resources>

@@ -225,6 +225,7 @@ Second \"item\" text"</string>
   <!-- 'Stop ads' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">خۆشکردنەوەی کۆمێنتەکان</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <!-- 'Remix' should be translated using the same localized wording YouTube displays for the button. -->
@@ -574,13 +575,7 @@ Second \"item\" text"</string>
   <string name="morphe_change_form_factor_entry_2">تەلەفۆن</string>
   <string name="morphe_change_form_factor_entry_3">تەبلێت</string>
   <string name="morphe_change_form_factor_entry_4">ئۆتۆمۆبێل</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"گۆڕانكارییەکان دەگرنەوە:
-
-ڕووسەتی تابلێت
-• وتەکان خراوتن دەکرێت
-• ڕاچۆ لە ڕژێناندا نادرێت
-• پشکنەکان و دکۆی دەنگی لە Shorts دا نادرێت
-• باری ئەودرە داخراو نەیە"</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">نسخەی سەرەکیی ئەپ وێنۆ بکە</string>
   <string name="morphe_spoof_app_version_user_dialog_message">"نسخەی ئەپ دەگێڕدرێتەوە بۆ ئەندازەیەکی کۆتری یوتوب.
@@ -744,4 +739,5 @@ Second \"item\" text"</string>
   <!-- "Force original audio" should match the language used in 'morphe_force_original_audio_title'. -->
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• دەنگی سەرەکیی تایبەت ناخۆش بە دەستەبەرە</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">ژیان JavaScript-ی خاس</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
 </resources>

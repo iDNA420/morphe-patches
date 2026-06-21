@@ -359,6 +359,7 @@ Kontrollera att paketnamnet är korrekt och att appen är installerad"</string>
   <string name="morphe_hide_stop_ads_button_title">Dölj knappen Stoppa annonser</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Dölj knappen Kommentarer</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Dölj knappen Rapportera</string>
@@ -871,21 +872,7 @@ Om du inte vill skicka in en höjdpunkt trycker du på Avbryt och markerar den a
   <string name="morphe_change_form_factor_entry_2">Telefon</string>
   <string name="morphe_change_form_factor_entry_3">Surfplatta</string>
   <string name="morphe_change_form_factor_entry_4">Bil</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Ändringar som ingår:
-
-Layout för surfplatta
-• Community-inlägg döljs
-• Inställningen Uppspelning i flöden är inte tillgänglig
-• Knappen Remixa och knappen Ljud är inte tillgängliga i Shorts
-• Åtgärdsfältet för videor är inte komprimerat
-
-Billayout
-• Flödet sorteras efter ämnen och kanaler
-• Inställningen Uppspelning i flöden är inte tillgänglig
-• Knappen Remixa och knappen Ljud är inte tillgängliga i Shorts
-• Shorts-videor öppnas i vanliga spelaren
-• Åtgärdsfältet för videor är inte komprimerat
-"</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Förfalska appversionen</string>
   <string name="morphe_spoof_app_version_summary">Lurar servern att tro att du använder en äldre appversion för att återställa äldre funktioner i användargränssnittet</string>
@@ -1133,4 +1120,5 @@ Videouppspelning med AV1 kan hacka eller tappa bildrutor."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Tvinga ursprungligt ljud är inte tillgängligt</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">JavaScript-variant av spelaren</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Visa förfalskningen i Statistik för nördar</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
 </resources>

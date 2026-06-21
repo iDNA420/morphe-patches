@@ -471,6 +471,8 @@ Promene uključuju:
   <string name="morphe_hide_stop_ads_button_title">Саскриј дугме „Заустави рекламе”</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Сакриј дугме „Коментари”</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Сакриј дугме „Повежи се”</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Саскриј дугме „Пријави”</string>
@@ -495,6 +497,7 @@ Promene uključuju:
   <string name="morphe_hide_shop_button_title">Сакриј дугме „Продавница”</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Саскриј дугме „Сачувај”</string>
+  <string name="morphe_hide_more_button_title">Сакриј дугме „Више”</string>
   <string name="morphe_fullscreen_buttons">Дугмад у пуном екрану</string>
   <string name="morphe_hide_quick_actions_title">Сакриј траку са акцијама</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Саскриј дугме „Питај”</string>
@@ -1019,22 +1022,25 @@ Vaš korisnički ID je kao lozinka i nikada ga ne treba deliti."</string>
   <string name="morphe_change_form_factor_entry_2">Телефон</string>
   <string name="morphe_change_form_factor_entry_3">Таблет</string>
   <string name="morphe_change_form_factor_entry_4">Аутомобилски</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Измене укључују:
+  <string name="morphe_change_form_factor_user_dialog_message">"Промене укључују:
 
 Изглед за таблете
-• Обичаване поруке су скривене
-• Подешавање репродукције у каналима недоступно
-• Дугме за ремикс и дугме за звук нису доступна у Shorts
-• Видео трака акција није савијена
+• Објаве заједнице су сакривене
+• Подешавање за репродукцију у фиду није доступно
+• Дугме „Ремикс” и дугме „Звук” нису доступни у Shorts-у
+• Стара трака са акцијама видеа није срушена
 
-Изглед за аутомобиле
-• Канали су организовани по темама и каналима
-• Подешавање репродукције у каналима недоступно
-• Дугме за ремикс и дугме за звук нису доступна у Shorts
-• Shorts се отварају у редовном плејеру
-• Видео трака акција није савијена"</string>
+Изглед за автомобиле
+• Фид је организован по темама и каналима
+• Подешавање за репродукцију у фиду није доступно
+• Дугме „Ремикс” и дугме „Звук” нису доступни у Shorts-у
+• Shorts се отварају у уобичајеном плејеру
+• Стара трака са акцијама видеа није срушена"</string>
   <string name="morphe_tablet_layout_in_player_title">Укључи таблет распоред у плејеру</string>
-  <string name="morphe_tablet_layout_in_player_summary">Враћа стари изглед плејера</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Враћа стари распоред плејера
+
+Ограничења: Ако је „Враћање старе траке са алаткама за видео“ искључено, преклоп „Више видео снимака“ можда неће бити доступан"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Лажирана верзија апликације</string>
   <string name="morphe_spoof_app_version_summary">Триковање сервера да мисли да користите старију верзију апликације како би се обновиле старије визуелне функције</string>
@@ -1292,4 +1298,9 @@ Vaš korisnički ID je kao lozinka i nikada ga ne treba deliti."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Присиљавање оригиналног звука није доступно</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Varijanta JavaScript playera</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Прикажи лажирање у Статистици за зналце</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Врати стару траку радњи видеа</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Поправља проблем приказа непожљених видео снимака и немогућност сакривања дугмади за радње видеа
+
+Ограничења: Враћа се на стари стил прекривања „Више видео снимака“"</string>
 </resources>

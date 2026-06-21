@@ -18,7 +18,7 @@ Second \"item\" text"</string>
 <resources>
   <!-- misc.settings.settingsPatch -->
   <!-- In languages where "About" is ambiguous, translate this as "About Morphe" (i.e., About this app). -->
-  <string name="morphe_settings_screen_00_about_title">Información</string>
+  <string name="morphe_settings_screen_00_about_title">Acerca de</string>
   <string name="morphe_settings_screen_01_ads_title">Anuncios</string>
   <string name="morphe_settings_screen_02_alt_thumbnails_title">Miniaturas alternativas</string>
   <string name="morphe_settings_screen_03_feed_title">Feed</string>
@@ -473,6 +473,8 @@ Nota: Si no se ha activado \"Falsificar transmisiones de vídeo\", activar esta 
   <string name="morphe_hide_stop_ads_button_title">Ocultar botón \'Dejar de mostrar anuncios\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Ocultar botón \"Comentarios\"</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Ocultar botón \"Conectar\"</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Ocultar botón \'Denunciar\'</string>
@@ -497,6 +499,7 @@ Nota: Si no se ha activado \"Falsificar transmisiones de vídeo\", activar esta 
   <string name="morphe_hide_shop_button_title">Ocultar botón \"Tienda\"</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Ocultar botón \'Preguntar\'</string>
+  <string name="morphe_hide_more_button_title">Ocultar botón \"Más\"</string>
   <string name="morphe_fullscreen_buttons">Botones de pantalla completa</string>
   <string name="morphe_hide_quick_actions_title">Ocultar la barra de acción</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Ocultar botón \'Chat en directo\'</string>
@@ -544,7 +547,7 @@ Deben proporcionarse 'Cookies de subtítulos'"</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_hide_home_button_title">Ocultar botón Notificaciones</string>
   <!-- 'Shorts' should be translated using the same localized wording YouTube displays for the tab. -->
-  <string name="morphe_hide_shorts_button_title">Mostrar botón Ajustes</string>
+  <string name="morphe_hide_shorts_button_title">Ocultar botón \"Shorts\"</string>
   <!-- 'Create' has no display name. Translate normally. -->
   <string name="morphe_hide_create_button_title">Ocultar botón \"Crear\"</string>
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays for the tab. -->
@@ -1023,22 +1026,25 @@ Si no vas a enviar un destacado, pulsa Cancelar y marca la segunda ubicación."<
   <string name="morphe_change_form_factor_entry_2">Teléfono</string>
   <string name="morphe_change_form_factor_entry_3">Tablet</string>
   <string name="morphe_change_form_factor_entry_4">Automóvil</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Cambios incluyen:
+  <string name="morphe_change_form_factor_user_dialog_message">"Los cambios incluyen:
 
-Diseño para tabletas
+Diseño para tablet
 • Las publicaciones de la comunidad están ocultas
-• La configuración de reproducción en los feeds no está disponible
-• El botón de Remix y el botón de Sonido no están disponibles en Shorts
-• La barra de acción del video no se contrae
+• La configuración de reproducción en feeds no está disponible
+• El botón Remix y el botón Sonido no están disponibles en Shorts
+• Se muestra la barra de acciones de video antiguo sin cerrar
 
 Diseño para automóviles
 • El feed está organizado por temas y canales
-• La configuración de reproducción en los feeds no está disponible
-• El botón de Remix y el botón de Sonido no están disponibles en Shorts
+• La configuración de reproducción en feeds no está disponible
+• El botón Remix y el botón Sonido no están disponibles en Shorts
 • Shorts se abre en el reproductor regular
-• La barra de acción del video no se contrae"</string>
+• Se muestra la barra de acciones de video antiguo sin cerrar"</string>
   <string name="morphe_tablet_layout_in_player_title">Habilitar diseño para tablet en el reproductor</string>
-  <string name="morphe_tablet_layout_in_player_summary">Restaura el diseño anterior del reproductor</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Restaura el antiguo diseño del reproductor
+
+Limitaciones: Si se desactiva \"Restaurar la antigua barra de acciones de video\", es posible que la superposición de \"Más videos\" no esté disponible"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Falsificar versión de la app</string>
   <string name="morphe_spoof_app_version_summary">Engaña al servidor para que piense que estás usando una versión más antigua de la aplicación para restaurar funciones de la IU heredadas</string>
@@ -1296,4 +1302,9 @@ La reproducción de vídeo con AV1 se puede atascar o perder fotogramas."</strin
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Forzar audio original no está disponible</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Variante de JavaScript del reproductor</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Mostrar manipulación en Estadísticas para nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Restaurar antigua barra de acciones de vídeo</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Corrige que no se muestren los \"No me gusta\" y que no se puedan ocultar los botones de acción de vídeo
+
+Limitaciones: Vuelve al antiguo estilo de superposición de \"Más vídeos\""</string>
 </resources>

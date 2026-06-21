@@ -471,6 +471,8 @@ Notă: Dacă „Spoof video streams” nu este activat, activarea acesteia poate
   <string name="morphe_hide_stop_ads_button_title">Ascunde butonul Chat live</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Ascunde butonul Comentarii</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Ascunde butonul Conectare</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Ascunde butonul Mai multe</string>
@@ -495,6 +497,7 @@ Notă: Dacă „Spoof video streams” nu este activat, activarea acesteia poate
   <string name="morphe_hide_shop_button_title">Ascunde butonul Cumpără</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Cookie-urile sunt folosite pentru a autentifica cererile API pentru text în timp real pentru subtitrări</string>
+  <string name="morphe_hide_more_button_title">Ascunde butonul Mai multe</string>
   <string name="morphe_fullscreen_buttons">Butoane modul ecran complet</string>
   <string name="morphe_hide_quick_actions_title">Ascunde bara de acțiune</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Recuperează și salvează automat cookie-urile dacă sunt valide</string>
@@ -1023,20 +1026,23 @@ Dacă nu trimiteți o evidențiere, apăsați Anulare și marcați a doua locaț
   <string name="morphe_change_form_factor_entry_4">Automatizări</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Modificările includ:
 
-Aspectul pentru tabletă
-• Postările comunității sunt ascunse
-• Setarea Redare în fluxuri nu este disponibilă
-• Butonul Remix și Butonul Sunet nu sunt disponibile în Shorts
-• Bara de acțiuni video nu este pliată
+Aspect tabletă
+• Postările din Comunitate sunt ascunse
+• Setarea de redare în fluxuri nu este disponibilă
+• Butoanele Remix și Sunet nu sunt disponibile în Shorts
+• Bara de acțiuni video veche, neprăbușită, este afișată
 
-Aspectul pentru Automotive
-• Fluxul este organizat pe teme și canale
-• Setarea Redare în fluxuri nu este disponibilă
-• Butonul Remix și Butonul Sunet nu sunt disponibile în Shorts
-• Shorts se deschid în playerul normal
-• Bara de acțiuni video nu este pliată"</string>
+Aspect auto
+• Fluxul este organizat pe subiecte și canale
+• Setarea de redare în fluxuri nu este disponibilă
+• Butoanele Remix și Sunet nu sunt disponibile în Shorts
+• Shorts se deschid în playerul obișnuit
+• Bara de acțiuni video veche, neprăbușită, este afișată"</string>
   <string name="morphe_tablet_layout_in_player_title">Activează aspectul tabletă în player</string>
-  <string name="morphe_tablet_layout_in_player_summary">Restabilește aspectul vechi al playerului</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Restabilește aspectul vechi al playerului
+
+Limitări: Dacă \"Restaurare bară de acțiuni video veche\" este dezactivată, suprapunerea \"Mai multe videoclipuri\" s-ar putea să nu fie disponibilă"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Falsifică versiunea aplicației</string>
   <string name="morphe_spoof_app_version_summary">Păcălește serverul să creadă că utilizezi o versiune mai veche a aplicației pentru a restabili funcțiile UI moștenite</string>
@@ -1294,4 +1300,9 @@ Redarea video cu AV1 poate sacada sau pierde cadre."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Forțarea sunetului original nu este disponibilă</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Varianta JavaScript a playerului</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Extinde durata DVR pentru transmisiuni live până la 7 zile în trecut</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Restaurare bara de acțiune video veche</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Corectează problema neafisarii dislike-urilor și imposibilitatea de a ascunde butoanele de acțiune video.
+
+Limitări: Revine la stilul vechi al suprapunerii „Mai multe videoclipuri”"</string>
 </resources>

@@ -471,6 +471,8 @@ Megjegyzés: Ha a „Videófolyamok hamisítása” nincs engedélyezve, akkor e
   <string name="morphe_hide_stop_ads_button_title">„Hirdetések leállítása” gomb elrejtése</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Hozzászólások gomb elrejtése</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Rejtse el a Csatlakozás gombot</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Jelentés gomb elrejtése</string>
@@ -495,6 +497,7 @@ Megjegyzés: Ha a „Videófolyamok hamisítása” nincs engedélyezve, akkor e
   <string name="morphe_hide_shop_button_title">Shop gomb elrejtése</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Mentés gomb elrejtése</string>
+  <string name="morphe_hide_more_button_title">Rejtse el a Továbbiak gombot</string>
   <string name="morphe_fullscreen_buttons">Teljes képernyős gombok</string>
   <string name="morphe_hide_quick_actions_title">A műveletsáv elrejtése</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Kérdés gomb elrejtése</string>
@@ -1020,22 +1023,25 @@ Ha nem szeretne kiemelést küldeni, nyomja meg a Mégse gombot, és jelölje me
   <string name="morphe_change_form_factor_entry_2">Telefon</string>
   <string name="morphe_change_form_factor_entry_3">Táblagép</string>
   <string name="morphe_change_form_factor_entry_4">Autóipari</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"A módosítások a következők:
+  <string name="morphe_change_form_factor_user_dialog_message">"A változtatások a következők:
 
 Táblagépes elrendezés
-• A közösségi bejegyzések el vannak rejtve
-• A feed-ben történő lejátszás beállítás nem érhető el
-• A Remix gomb és a Hang gomb nem érhető el a Shortsban
-• A videó műveleti sáv nem omlik össze
+• A közösségi bejegyzések rejtve vannak
+• A hírcsatornában történő lejátszás beállítás nem érhető el
+• A Keverés gomb és a Hang gomb nem érhető el a Shortoknál
+• A régi videósáv nem összecsukott formában jelenik meg
 
-Autóelrendezés
-• A feed témák és csatornák szerint van szervezve
-• A feed-ben történő lejátszás beállítás nem érhető el
-• A Remix gomb és a Hang gomb nem érhető el a Shortsban
-• A Shorts a hagyományos lejátszóban nyílnak meg
-• A videó műveleti sáv nem omlik össze"</string>
+Autós elrendezés
+• A hírcsatorna témák és csatornák szerint van rendezve
+• A hírcsatornában történő lejátszás beállítás nem érhető el
+• A Keverés gomb és a Hang gomb nem érhető el a Shortoknál
+• A Shortok a szokásos lejátszóban nyílnak meg
+• A régi videósáv nem összecsukott formában jelenik meg"</string>
   <string name="morphe_tablet_layout_in_player_title">Tablet elrendezés engedélyezése a lejátszóban</string>
-  <string name="morphe_tablet_layout_in_player_summary">Visszaállítja a régi lejátszó elrendezést</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Visszaállítja a régi lejátszó elrendezést
+
+Korlátozások: Ha a \"Régi videósáv helyreállítása\" ki van kapcsolva, a \"További videók\" felülbélyegzés nem jelenhet meg."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Alkalmazásverzió hamisítása</string>
   <string name="morphe_spoof_app_version_summary">A szervert becsapja, hogy úgy gondolja, egy régebbi alkalmazásverziót használ a korábbi UI funkciók helyreállításához</string>
@@ -1291,4 +1297,9 @@ Az AV1-es videólejátszás akadozhat vagy képkockákat ejthet."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Eredeti hang kényszerítése nem érhető el</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Lejátszó JavaScript változata</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Megmutatja a hamisítást a Statisztikákban</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Régi videós eszköztár visszaállítása</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Javítja a negatív értékelések megjelenítésének problémáját és lehetővé teszi a videós gombok elrejtését.
+
+Korlátozások: Visszatér a régi stílusú \"További videók\" átfedéshez."</string>
 </resources>

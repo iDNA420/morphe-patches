@@ -471,6 +471,8 @@ Poznámka: Ak nie je povolené \"Maskovanie streamov videa\", povolenie tejto fu
   <string name="morphe_hide_stop_ads_button_title">Skryť tlačidlo Zastaviť reklamy</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Skryť tlačidlo Komentáre</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Skryť tlačidlo Pripojiť</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Skryť tlačidlo Nahlásiť</string>
@@ -495,6 +497,7 @@ Poznámka: Ak nie je povolené \"Maskovanie streamov videa\", povolenie tejto fu
   <string name="morphe_hide_shop_button_title">Skryť tlačidlo Obchodu</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Skryť tlačidlo Uložiť</string>
+  <string name="morphe_hide_more_button_title">Skryť tlačidlo Viac</string>
   <string name="morphe_fullscreen_buttons">Tlačidlá na celú obrazovku</string>
   <string name="morphe_hide_quick_actions_title">Skryť akčný panel</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Skryť tlačidlo Pýtať</string>
@@ -1021,7 +1024,7 @@ Ak neodosielate zvýraznenie, klepnite na Zrušiť a označte druhú polohu"</st
   <string name="morphe_change_form_factor_entry_2">Telefón</string>
   <string name="morphe_change_form_factor_entry_3">Tablet</string>
   <string name="morphe_change_form_factor_entry_4">Automobil</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Zmeny zahrňujú:
+  <string name="morphe_change_form_factor_user_dialog_message">"Zmeny zahŕňajú:
 
 Rozloženie pre tablet
 • Komunitné príspevky sú skryté
@@ -1036,7 +1039,10 @@ Rozloženie pre automobil
 • Shorts sa prehrávajú v obyčajnom prehrávači
 • Panel akcií videa je rozbalený"</string>
   <string name="morphe_tablet_layout_in_player_title">Povoliť rozloženie tabletu v prehrávači</string>
-  <string name="morphe_tablet_layout_in_player_summary">Obnoví staré rozloženie prehrávača</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Obnovuje staré rozloženie prehrávača
+
+Obmedzenia: Ak je vypnutá možnosť „Obnoviť starú lištu akcií videa“, vrstva „Ďalšie videá“ nemusí byť dostupná."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Sfalšovať verziu aplikácie</string>
   <string name="morphe_spoof_app_version_summary">Oklame server, aby si myslel, že používate staršiu verziu aplikácie na obnovenie starších funkcií používateľského rozhrania</string>
@@ -1294,4 +1300,9 @@ Pri prehrávaní pomocou AV1 sa video môže zasekávať alebo vynechávať sní
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Vynútenie pôvodného zvuku nie je k dispozícii</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Variant JavaScriptu prehrávača</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Pridá tlačidlo na hodnotenie segmentov nahor alebo nadol</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Obnoviť starú akčnú lištu videa</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Opravy pre nezobrazovanie „Nepáči sa“ a nemožnosť skryť tlačidlá akcie videa
+
+Obmedzenia: Návrat k starému štýlu prekrytia „Ďalšie videá“"</string>
 </resources>

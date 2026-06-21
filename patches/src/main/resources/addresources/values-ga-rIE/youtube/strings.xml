@@ -471,6 +471,8 @@ Nóta: Mura bhfuil 'Sruthanna físe bréige' cumasaithe, d'fhéadfadh sé seo io
   <string name="morphe_hide_stop_ads_button_title">Folaigh an cnaipe \'Stop fógraí\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Cnaipe Folaigh Tráchtanna</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Folaigh cnaipe Connect</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Cnaipe Folaigh Tuairisc</string>
@@ -495,6 +497,7 @@ Nóta: Mura bhfuil 'Sruthanna físe bréige' cumasaithe, d'fhéadfadh sé seo io
   <string name="morphe_hide_shop_button_title">Folaigh cnaipe Siopa</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Folaigh an cnaipe Sábháil</string>
+  <string name="morphe_hide_more_button_title">Folaigh cnaipe More</string>
   <string name="morphe_fullscreen_buttons">Cnaipí lánscáileáin</string>
   <string name="morphe_hide_quick_actions_title">Folaigh barra gníomhaíochta</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Folaigh an cnaipe Iarr</string>
@@ -1036,7 +1039,10 @@ Leagan amach na ngluaisteán
 • Oscail Shorts sa ghnáthimreoir
 • Níl an barra gníomhaíochta físe fillte"</string>
   <string name="morphe_tablet_layout_in_player_title">Cumasaigh leagan amach táibléid sa seinnteoir</string>
-  <string name="morphe_tablet_layout_in_player_summary">Athchóiríonn sé leagan amach an imreoir sean</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Athraíonn sé an leagan amach seanchluiche na n-imeachtaí
+
+Sriananna: Má tá \"Athraigh barra gnímh fístí seanchluiche\" múchta, ní bheidh an réitilt 'Tuilleadh físeáin' ar fáil"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Leagan aip bréige</string>
   <string name="morphe_spoof_app_version_summary">Meallann sé an freastalaí le go gceapfá go bhfuil tú ag úsáid seanleagan den aip chun gnéithe oidhreachta den chomhéadan úsáideora a athbhunú.</string>
@@ -1294,4 +1300,9 @@ D’fhéadfadh sé go mbeadh stad nó go gcaillfí frámaí ag athsheinm físe l
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Níl an fuaim bhunaidh iallach ar fáil</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Leagan JavaScript an imreora</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Taispeáin spoofáil i Staitisticí do nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Barra gníomhaíochta físe seanchaisme a athchóiriú</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Ceartaíonn sé an fhadhb nach dtaispeántar míthaitneamh agus nach féidir cnaipí gníomhaíochta físe a cheile a cheile
+
+Sriananna: Fillte ar ais chun an fhoirm ‘Féidearthanais bhreise’ seanchaisme"</string>
 </resources>

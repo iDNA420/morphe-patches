@@ -471,6 +471,8 @@ Hinweis: Wenn „Videostreams spoofen“ nicht aktiviert ist, kann das Aktiviere
   <string name="morphe_hide_stop_ads_button_title">Werbefreigabe-Schaltfläche ausblenden</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Kommentar-Button ausblenden</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Verstecke Connect-Button</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Melden-Schaltfläche ausblenden</string>
@@ -495,6 +497,7 @@ Hinweis: Wenn „Videostreams spoofen“ nicht aktiviert ist, kann das Aktiviere
   <string name="morphe_hide_shop_button_title">Shop-Button ausblenden</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Mix-Schaltfläche ausblenden</string>
+  <string name="morphe_hide_more_button_title">Mehr-Button ausblenden</string>
   <string name="morphe_fullscreen_buttons">Vollbild-Buttons</string>
   <string name="morphe_hide_quick_actions_title">Aktionsleiste ausblenden</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Frage-Button ausblenden</string>
@@ -1024,19 +1027,22 @@ Wenn Sie keine Markierung senden, tippen Sie auf Abbrechen und markieren Sie die
   <string name="morphe_change_form_factor_user_dialog_message">"Änderungen umfassen:
 
 Tablet-Layout
-• Community-Beiträge sind ausgeblendet
-• Wiedergabe in Feeds-Einstellungen ist nicht verfügbar
-• Remix-Taste und Sound-Taste sind in Shorts nicht verfügbar
-• Video-Aktionenleiste ist nicht zusammengeklappt
+• Community-Beiträge werden ausgeblendet
+• Wiedergabe in Feeds-Einstellung ist nicht verfügbar
+• Remix-Button und Sound-Button sind in Shorts nicht verfügbar
+• Nicht zusammengeklappte alte Video-Aktionsleiste wird angezeigt
 
 Automobil-Layout
 • Feed ist nach Themen und Kanälen organisiert
-• Wiedergabe in Feeds-Einstellungen ist nicht verfügbar
-• Remix-Taste und Sound-Taste sind in Shorts nicht verfügbar
-• Shorts öffnen im regulären Player
-• Video-Aktionenleiste ist nicht zusammengeklappt"</string>
+• Wiedergabe in Feeds-Einstellung ist nicht verfügbar
+• Remix-Button und Sound-Button sind in Shorts nicht verfügbar
+• Shorts werden im regulären Player geöffnet
+• Nicht zusammengeklappte alte Video-Aktionsleiste wird angezeigt"</string>
   <string name="morphe_tablet_layout_in_player_title">Tablet-Layout im Player aktivieren</string>
-  <string name="morphe_tablet_layout_in_player_summary">Stellt das alte Player-Layout wieder her</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Stellt das alte Player-Layout wieder her
+
+Einschränkungen: Wenn \"Alte Video-Aktionsleiste wiederherstellen\" deaktiviert ist, ist die \"Weitere Videos\"-Überlagerung möglicherweise nicht verfügbar."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof-App-Version</string>
   <string name="morphe_spoof_app_version_summary">Täuscht den Server dazu, dass Sie eine ältere App-Version verwenden, um Legacy-UI-Funktionen wiederherzustellen</string>
@@ -1294,4 +1300,9 @@ Die Videowiedergabe mit AV1 kann stottern oder Bilder überspringen."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Originalton erzwingen ist nicht verfügbar</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Player-JavaScript-Variante</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Fälschen in Statistiken für Nerds anzeigen</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Alte Video-Aktionsleiste wiederherstellen</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Behebt Probleme mit nicht angezeigten Dislikes und nicht ausblendbaren Video-Aktionsschaltflächen
+
+Einschränkungen: Kehrt zum alten Stil der \"Weitere Videos\"-Überlagerung zurück"</string>
 </resources>

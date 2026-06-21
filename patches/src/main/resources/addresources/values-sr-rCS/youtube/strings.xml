@@ -471,6 +471,8 @@ Napomena: Ako \"Lažiranje video tokova\" nije omogućeno, omogućavanje ovog mo
   <string name="morphe_hide_stop_ads_button_title">Sakrij dugme „Zaustavi reklame”</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Sakrij dugme „Komentari”</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Sakrij dugme „Poveži se”</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Sakrij dugme „Prijavi”</string>
@@ -495,6 +497,7 @@ Napomena: Ako \"Lažiranje video tokova\" nije omogućeno, omogućavanje ovog mo
   <string name="morphe_hide_shop_button_title">Sakrij dugme „Prodavnica”</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Sakrij dugme „Čuvaj”</string>
+  <string name="morphe_hide_more_button_title">Sakrij dugme „Više”</string>
   <string name="morphe_fullscreen_buttons">Dugmad za puni ekran</string>
   <string name="morphe_hide_quick_actions_title">Sakrij traku sa akcijama</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Sakrij dugme „Pitaj”</string>
@@ -1021,22 +1024,25 @@ Ako ne šaljete isticanje, dodirnite Otkaži i označite drugu lokaciju."</strin
   <string name="morphe_change_form_factor_entry_2">Telefon</string>
   <string name="morphe_change_form_factor_entry_3">Tablet</string>
   <string name="morphe_change_form_factor_entry_4">Automobilski</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Izmene uključuju:
+  <string name="morphe_change_form_factor_user_dialog_message">"Promene uključuju:
 
-Tablet raspored
-• Obaveštenja zajednice su skrivena
-• Podešavanje reprodukcije u feedu nije dostupno
-• Taster za miksanje i taster za zvuk nisu dostupni u Shorts
-• Traka sa akcijama za video nije uzeta.
+Tablet izgled
+• Objava u zajednici su sakrivene
+• Podesavanje za reprodukciju u feedu nije dostupno
+• Dugme „Remiks” i dugme „Zvuk” nisu dostupni u Shorts-u
+• Stara traka sa akcijama videa nije smanjena
 
-Automobilski raspored
+Izgled za automobil
 • Feed je organizovan po temama i kanalima
-• Podešavanje reprodukcije u feedu nije dostupno
-• Taster za miksanje i taster za zvuk nisu dostupni u Shorts
-• Shorts se otvaraju u redovnom plejeru
-• Traka sa akcijama za video nije uzeta."</string>
+• Podesavanje za reprodukciju u feedu nije dostupno
+• Dugme „Remiks” i dugme „Zvuk” nisu dostupni u Shorts-u
+• Shorts se otvaraju u standardnom plejeru
+• Stara traka sa akcijama videa nije smanjena"</string>
   <string name="morphe_tablet_layout_in_player_title">Omogući izgled za tablet u plejeru</string>
-  <string name="morphe_tablet_layout_in_player_summary">Vraća stari izgled plejera</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Vraća stari izgled plejera
+
+Ograničenja: Ako je opcija \"Vrati staru traku sa akcijama za video\" isključena, preklapanje \"Još videa\" možda neće biti dostupno"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Lažirana verzija aplikacije</string>
   <string name="morphe_spoof_app_version_summary">Prevara server da misli da koristiš stariju verziju aplikacije kako bi povratio legacy UI funkcije</string>
@@ -1294,4 +1300,9 @@ Reprodukcija videa s AV1 može zastajkivati ili preskakati kadrove."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Prisiljavanje originalnog zvuka nije dostupno</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Varijanta JavaScript igračnog programa</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Prikaži lažiranje u statistici za znalce</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Vraća staru traku radnji videa</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Popravlja prikazivanje lajkova i skrivanje dugmadi u traci radnji videa
+
+Ograničenja: Vraća se na stari stil prekrivanja 'Više videa'"</string>
 </resources>

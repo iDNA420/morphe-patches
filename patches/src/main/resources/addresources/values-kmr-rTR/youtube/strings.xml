@@ -473,6 +473,8 @@ Not: Ger 'Herikînên vîdyoyê' nebe, vekirina vê dikare têkiliyên nehevdît
   <string name="morphe_hide_stop_ads_button_title">Butona rawestgehek dîmenî veşêrin</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Butona şîroveyê veşêrin</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Butona Verbijîrê Veşêrin</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Raportkirina butonê veşêrin</string>
@@ -497,6 +499,7 @@ Not: Ger 'Herikînên vîdyoyê' nebe, vekirina vê dikare têkiliyên nehevdît
   <string name="morphe_hide_shop_button_title">Butona dikanê veşêrin</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Butona tomar kirinê veşêrin</string>
+  <string name="morphe_hide_more_button_title">Butona Zêdetir Veşêrin</string>
   <string name="morphe_fullscreen_buttons">Biçikên tûjî</string>
   <string name="morphe_hide_quick_actions_title">Çekûlbarê bigihîne</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Butona pirsê veşêrin</string>
@@ -1025,22 +1028,25 @@ Ger hûn ne dixwin ronahîyek, bikirtînin Betal kirin û cîhê duyemîn nîşa
   <string name="morphe_change_form_factor_entry_2">Telefon</string>
   <string name="morphe_change_form_factor_entry_3">Tabled</string>
   <string name="morphe_change_form_factor_entry_4">Otomobîl</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Gûherînên tê de:
+  <string name="morphe_change_form_factor_user_dialog_message">"Guherîn tê de:
 
-Qeşeyê mezin
-• Postên Civakê veşartin
-• Astîmê lêbelgîrkirinê di danînên belavê de nîne
-• Dema bi Shortsê re, rêzika lîstinê û konteynerek Dengê nîn in
-• Barê çalakiyê ya vîdyoyê pêşîne nedin
+Saziya tabletan
+• Postên Civatê veşartî ne
+• Sazkirina lêkirina di xwarê de nepejirê
+• Butona Remix û Butona Dengê di Shorts de nepejirê
+• Bara kirrûbêja vîdyoya kevin ku nehatibe girtin nîşan dide
 
-Qeşeyê otomotîvê
-• Belavê bi waran û kanalên ku tê de rêz kirin
-• Astîmê lêbelgîrkirinê di danînên belavê de nîne
-• Dema bi Shortsê re, rêzika lîstinê û konteynerek Dengê nîn in
-• Shorts di xîlstokê asayî de vekirin
-• Barê çalakiyê ya vîdyoyê pêşîne nedin"</string>
+Saziya otomobîlan
+• Xwarê li gor navnîşanan û kanalên hatine rêzekirin.
+• Sazkirina lêkirina di xwarê de nepejirê
+• Butona Remix û Butona Dengê di Shorts de nepejirê
+• Shorts di lîstikvanê normal de vekirin
+• Bara kirrûbêja vîdyoya kevin ku nehatibe girtin nîşan dide"</string>
   <string name="morphe_tablet_layout_in_player_title">Rêvekirina sêwirana tabletê di lîstikvan de</string>
-  <string name="morphe_tablet_layout_in_player_summary">Mîzegeha layouta lîstikvanê yê kevnar vegerîne</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Pêşvekirina sêwirêşa lîstikvanê yê kevn
+
+Sînorkirin: Ger 'Pêşvekirina barra çalakiyê ya vîdyoya kevn' be jî nebe, dabeşa 'Vîdyoyên din' neyê dîtin."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Versona asayî</string>
   <string name="morphe_spoof_app_version_summary">Serverê qedexe dike ku bi hesinkirina guhertoyek kevnertirîn ya app-ê, taybetmendiyên berê yên UI-yê vegerîne</string>
@@ -1298,4 +1304,9 @@ Lêxistina video bi AV1 dikare kîzbirin an kêmuçêkî framean bike."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Hişandinê orîjinal audio tune</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Warianta JavaScriptê lîstikvanê</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Şopînkirina li Stats for nerds nîşan bide</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Çêkirina dîskê ya pelê vîdyoya kevnê</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Çêkirina kêşeya ku nehatî nîşandan û pêşîlîgirê pelê vîdyoyê ne dikare veşêrin
+
+Sînorkirin: Vegere ser şiklê 'Zêdetir vîdyo' yê yê kevnê"</string>
 </resources>

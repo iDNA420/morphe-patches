@@ -471,6 +471,8 @@ Not: 'Video akışlarını taklit et' etkin değilse, bu özelliği etkinleştir
   <string name="morphe_hide_stop_ads_button_title">\'Reklamları durdur\' düğmesini gizle</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Yorumlar düğmesini gizle</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Bağlan düğmesini gizle</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Bildir düğmesini gizle</string>
@@ -495,6 +497,7 @@ Not: 'Video akışlarını taklit et' etkin değilse, bu özelliği etkinleştir
   <string name="morphe_hide_shop_button_title">Alışveriş düğmesini gizle</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Kaydet düğmesini gizle</string>
+  <string name="morphe_hide_more_button_title">Daha düğmesini gizle</string>
   <string name="morphe_fullscreen_buttons">Tam ekran düğmeleri</string>
   <string name="morphe_hide_quick_actions_title">Eylem çubuğunu gizle</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Soru düğmesini gizle</string>
@@ -1025,18 +1028,21 @@ Bir vurgu göndermiyorsanız, İptal'e dokunun ve ikinci konumu işaretleyin"</s
 
 Tablet düzeni
 • Topluluk gönderileri gizlenmiştir
-• Akış ayarlarında oynatma mevcut değildir
-• Remix düğmesi ve Ses düğmesi Shorts'ta mevcut değildir
-• Video eylem çubuğu daraltılmamıştır
+• Akışta oynatma ayarı kullanılamıyor
+• Shorts'ta Remix düğmesi ve Ses düğmesi bulunmuyor
+• Eski video işlem çubuğu daraltılmamış şekilde gösteriliyor
 
 Otomotiv düzeni
 • Akış konulara ve kanallara göre düzenlenmiştir
-• Akış ayarlarında oynatma mevcut değildir
-• Remix düğmesi ve Ses düğmesi Shorts'ta mevcut değildir
-• Shorts normal oynatıcıda açılır
-• Video eylem çubuğu daraltılmamıştır"</string>
+• Akışta oynatma ayarı kullanılamıyor
+• Shorts'ta Remix düğmesi ve Ses düğmesi bulunmuyor
+• Shorts normal oynatıcıda açılıyor
+• Eski video işlem çubuğu daraltılmamış şekilde gösteriliyor"</string>
   <string name="morphe_tablet_layout_in_player_title">Oynatıcıda tablet düzenini etkinleştir</string>
-  <string name="morphe_tablet_layout_in_player_summary">Eski oynatıcı düzenini geri yükler</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Eski oynatıcı düzenini geri yükler
+
+Kısıtlamalar: \"Eski video işlem çubuğunu geri yükle\" devre dışı bırakılırsa, \"Daha fazla video\" katmanı kullanılamayabilir."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Uygulama sürümünü taklit et</string>
   <string name="morphe_spoof_app_version_summary">Sunucuya daha eski bir uygulama sürümü kullandığınızı düşündürerek eski arayüz özelliklerini geri yükler</string>
@@ -1294,4 +1300,9 @@ AV1 ile video oynatma takılabilir veya kare atlayabilir."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Orijinal sesi zorlama mevcut değil</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Oynatıcı JavaScript varyantı</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Meraklısı için istatistikler\'de takliti göster</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Eski video eylem çubuğunu geri yükle</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Dislike'ların gösterilmemesi ve video eylem düğmelerinin gizlenememesi sorununu düzeltir.
+
+Sınırlamalar: Eski 'Daha fazla video' katmanı görünümüne geri döner."</string>
 </resources>

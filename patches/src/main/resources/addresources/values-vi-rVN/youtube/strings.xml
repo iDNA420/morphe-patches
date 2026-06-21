@@ -470,6 +470,8 @@ Lưu ý: Nếu bạn chưa bật \"Giả mạo luồng phát video\", tính năn
   <string name="morphe_hide_stop_ads_button_title">Ẩn nút \"Dừng quảng cáo\"</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Ẩn nút Bình luận</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Ẩn nút Kết nối</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Ẩn nút Báo vi phạm</string>
@@ -494,6 +496,7 @@ Lưu ý: Nếu bạn chưa bật \"Giả mạo luồng phát video\", tính năn
   <string name="morphe_hide_shop_button_title">Ẩn nút Mua sắm</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Ẩn nút Lưu</string>
+  <string name="morphe_hide_more_button_title">Ẩn nút Thêm</string>
   <string name="morphe_fullscreen_buttons">Nút ở chế độ toàn màn hình</string>
   <string name="morphe_hide_quick_actions_title">Ẩn thanh thao tác</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Ẩn nút Đặt câu hỏi</string>
@@ -742,7 +745,7 @@ Cài đặt → Phát (hoặc Tự động phát) → tự động phát video t
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Tắt cử chỉ vuốt từ trên xuống ở chế độ màn hình ngang</string>
   <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
   <string name="morphe_open_videos_fullscreen_title">Mở video ở chế độ toàn màn hình</string>
-  <string name="morphe_open_videos_fullscreen_entry_1">Đang tắt</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Tắt</string>
   <string name="morphe_open_videos_fullscreen_entry_2">Chế độ dọc</string>
   <string name="morphe_open_videos_fullscreen_entry_3">Chế độ ngang</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
@@ -1034,7 +1037,10 @@ Giao diện màn hình ô tô
 • Mở Shorts bằng trình phát thường
 • Thanh thao tác video không thu gọn được"</string>
   <string name="morphe_tablet_layout_in_player_title">Bật bố cục máy tính bảng trong trình phát</string>
-  <string name="morphe_tablet_layout_in_player_summary">Khôi phục giao diện trình phát cũ</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Khôi phục bố cục trình phát cũ
+
+Giới hạn: Nếu tùy chọn \"Khôi phục thanh tác vụ video cũ\" bị tắt, lớp phủ \"Thêm video\" có thể không khả dụng"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
   <string name="morphe_spoof_app_version_summary">Khiến server nghĩ rằng bạn đang sử dụng phiên bản cũ để khôi phục giao diện cũ</string>
@@ -1292,4 +1298,9 @@ Phát video bằng AV1 có thể bị giật hoặc tụt khung hình."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Buộc âm thanh gốc không khả dụng</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Biến thể JavaScript của trình phát</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Hiện thông tin giả mạo trong Thống kê chi tiết</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Khôi phục thanh thao tác video mở rộng</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Sửa lỗi dislike không hiển thị và nút thao tác video không thể ẩn
+
+Giới hạn: Trả lại giao diện 'Thêm video' kiểu cũ"</string>
 </resources>

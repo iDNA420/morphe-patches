@@ -471,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">Promote বোতামটি লুকান</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">কমেন্টস বোতামটি লুকান</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">কানেক্ট বোতামটি লুকান</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Clip বোতামটি লুকান</string>
@@ -495,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">শপ বোতামটি লুকান</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">স্বয়ংক্রিয় ক্যাপশন এবং ক্যাপশন কুকিজ পরিচালনা করুন</string>
+  <string name="morphe_hide_more_button_title">আরও বোতামটি লুকান</string>
   <string name="morphe_fullscreen_buttons">পূর্ণস্ক্রীন বোতামগুলি</string>
   <string name="morphe_hide_quick_actions_title">অ্যাকশন বার লুকান</string>
   <string name="morphe_hide_quick_actions_ask_button_title">সবসময় দেখান</string>
@@ -742,10 +745,10 @@ Second \"item\" text"</string>
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">পোর্ট্রেট মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">ল্যান্ডস্কেপ মোডে নিচের দিকে সোয়াইপ জেসচার বন্ধ করুন</string>
   <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
-  <string name="morphe_open_videos_fullscreen_title">পূর্ণ পর্দায় ভিডিও খুলুন</string>
-  <string name="morphe_open_videos_fullscreen_entry_1">নিষ্ক্রিয় হয়েছে</string>
-  <string name="morphe_open_videos_fullscreen_entry_2">আনুভূমিক</string>
-  <string name="morphe_open_videos_fullscreen_entry_3">ল্যান্ডস্কেপ</string>
+  <string name="morphe_open_videos_fullscreen_title">ভিডিওগুলো ফুলস্ক্রিনে চালু করুন</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">বন্ধ রাখুন</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">লম্বালম্বি রাখুন</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">আড়াআড়ি রাখুন</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">প্লেয়ার ওভারলে অস্বচ্ছতা</string>
   <string name="morphe_player_overlay_opacity_summary">ওভারলে স্বচ্ছতার স্তর সামঞ্জস্য করুন (0 স্বচ্ছ, 100 অস্বচ্ছ)</string>
@@ -1020,22 +1023,25 @@ Second \"item\" text"</string>
   <string name="morphe_change_form_factor_entry_2">ফোন</string>
   <string name="morphe_change_form_factor_entry_3">ট্যাবলেট</string>
   <string name="morphe_change_form_factor_entry_4">অটোমোটিভ</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"যেসব পরিবর্তন এসেছে:
+  <string name="morphe_change_form_factor_user_dialog_message">"পরিবর্তনগুলোর মধ্যে রয়েছে:
 
 ট্যাবলেট লেআউট
-• কমিউনিটি পোস্টগুলো হাইড বা লুকানো থাকবে
-• ফিডে ভিডিও চালু রাখার সেটিংটি পাওয়া যাবে না
-• শর্টস-এ রিমিক্স এবং সাউন্ড বাটন থাকবে না
-• ভিডিওর অ্যাকশন বারটি ছোট করা হয়নি
+• কমিউনিটি পোস্টগুলো লুকানো আছে
+• ফিডে প্লেব্যাক সেটিংটি পাওয়া যাবে না
+• শর্টস-এ রিমিক্স এবং সাউন্ড বোতামগুলো নেই
+• পুরনো ভিডিও অ্যাকশন বারটি সংকুচিত করা হয়নি
 
 অটোমোটিভ লেআউট
-• ফিডটি টপিক এবং চ্যানেলের ভিত্তিতে সাজানো হয়েছে
-• ফিডে ভিডিও চালু রাখার সেটিংটি পাওয়া যাবে না
-• শর্টস-এ রিমিক্স এবং সাউন্ড বাটন থাকবে না
-• শর্টস ভিডিওগুলো নরমাল প্লেয়ারেই চালু হবে
-• ভিডিওর অ্যাকশন বারটি ছোট করা হয়নি"</string>
+• ফিডটি বিষয় এবং চ্যানেল অনুযায়ী সাজানো হয়েছে
+• ফিডে প্লেব্যাক সেটিংটি পাওয়া যাবে না
+• শর্টস-এ রিমিক্স এবং সাউন্ড বোতামগুলো নেই
+• শর্টস ভিডিওগুলো সাধারণ প্লেয়ারে খুলবে
+• পুরনো ভিডিও অ্যাকশন বারটি সংকুচিত করা হয়নি"</string>
   <string name="morphe_tablet_layout_in_player_title">প্লেয়ারে ট্যাবলেট লেআউট চালু করুন</string>
-  <string name="morphe_tablet_layout_in_player_summary">পুরোনো প্লেয়ার লেআউট ফিরিয়ে আনুন</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"পুরোনো প্লেয়ার লেআউট পুনরুদ্ধার করে
+
+সীমাবদ্ধতা: যদি 'পুরোনো ভিডিও অ্যাকশন বার পুনরুদ্ধার করুন' বন্ধ করা থাকে, তাহলে 'আরো ভিডিও' ওভারলে উপলব্ধ নাও হতে পারে।"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">অ্যাপের সংস্করণ স্পুফ করুন</string>
   <string name="morphe_spoof_app_version_summary">পুরোনো ইউজার ইন্টারফেস (UI) ফিচারগুলো ফিরিয়ে আনতে সার্ভারকে এমনভাবে বিভ্রান্ত করে যেন মনে হয় আপনি অ্যাপের একটি পুরোনো সংস্করণ ব্যবহার করছেন</string>
@@ -1293,4 +1299,9 @@ AV1 সহ ভিডিও প্লেব্যাক আটকে যেতে
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• মূল অডিও জোরপূর্বক উপলব্ধ নেই</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">প্লেয়ার জাভাস্ক্রিপ্ট ভেরিয়েন্ট</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Stats for nerds-এ স্পুফিং দেখান</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">পুরানো ভিডিও অ্যাকশন বার পুনরুদ্ধার করুন</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"ডিসলাইক দেখানো না হওয়া এবং ভিডিও অ্যাকশন বাটন লুকানো না যাওয়ার সমস্যা সমাধান করা হয়েছে
+
+সীমাবদ্ধতা: পুরনো স্টাইলের 'আরও ভিডিও' ওভারলেতে ফিরে যায়।"</string>
 </resources>

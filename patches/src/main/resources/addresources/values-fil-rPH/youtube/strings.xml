@@ -471,6 +471,8 @@ Paalala: Kung ang 'Spoof video streams' ay hindi pinagana, ang pagpapagana nito 
   <string name="morphe_hide_stop_ads_button_title">Itago ang \'Stop ads\' button</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Itago ang Comments button</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Itago ang button na Sumali</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Itago ang Report button</string>
@@ -495,6 +497,7 @@ Paalala: Kung ang 'Spoof video streams' ay hindi pinagana, ang pagpapagana nito 
   <string name="morphe_hide_shop_button_title">Itago ang Shop button</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Itago ang Save button</string>
+  <string name="morphe_hide_more_button_title">Itago ang button na Higit pa</string>
   <string name="morphe_fullscreen_buttons">Mga button ng fullscreen</string>
   <string name="morphe_hide_quick_actions_title">Itago ang action bar</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Itago ang Ask button</string>
@@ -1023,20 +1026,23 @@ Kung hindi ka nagsumite ng highlight, pindutin ang Kanselahin at markahan ang pa
   <string name="morphe_change_form_factor_entry_4">Automotive</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Kasama sa mga pagbabago:
 
-Tablet layout
-• Nakatago ang mga post ng komunidad
-• Hindi magagamit ang playback sa feeds setting
-• Hindi magagamit ang Remix button at Sound button sa Shorts
-• Hindi nakatiklop ang Video action bar
+Layout ng Tablet
+• Nakatago ang mga post sa Komunidad
+• Hindi available ang setting ng pag-playback sa feed
+• Hindi available ang button na Remix at Sound button sa Shorts
+• Ipinapakita ang lumang video action bar na hindi nakatiklop
 
-Automotive layout
-• Nakapag-ayos ang feed ayon sa mga paksa at channel
-• Hindi magagamit ang playback sa feeds setting
-• Hindi magagamit ang Remix button at Sound button sa Shorts
-• Ang Shorts ay bumubukas sa regular na player
-• Hindi nakatiklop ang Video action bar"</string>
+Layout ng Automotive
+• Ang feed ay nakaayos ayon sa mga paksa at channel
+• Hindi available ang setting ng pag-playback sa feed
+• Hindi available ang button na Remix at Sound button sa Shorts
+• Bukas ang Shorts sa regular na player
+• Ipinapakita ang lumang video action bar na hindi nakatiklop"</string>
   <string name="morphe_tablet_layout_in_player_title">Paganahin ang layout ng tablet sa player</string>
-  <string name="morphe_tablet_layout_in_player_summary">Ibinabalik ang lumang layout ng player</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Ibinabalik ang lumang layout ng player
+
+Limitasyon: Kung naka-off ang \"Ibalik ang lumang action bar ng video\", maaaring hindi available ang overlay na \"Higit pang mga video\""</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof app version</string>
   <string name="morphe_spoof_app_version_summary">Dinadaya ang server upang isipin na gumagamit ka ng mas lumang bersyon ng app upang ibalik ang legacy UI features</string>
@@ -1294,4 +1300,9 @@ Ang pag-playback ng video gamit ang AV1 ay maaaring mag-stutter o mag-drop ng mg
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Hindi available ang Force original audio</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Variant ng JavaScript ng Player</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Ipakita ang spoofing sa Stats for nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Ibalik ang lumang video action bar</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Inaayos ang hindi pagpapakita ng dislikes at hindi maitagong mga button ng video action
+
+Limitasyon: Ibabalik sa lumang estilo ng 'Higit pang mga video' na overlay"</string>
 </resources>

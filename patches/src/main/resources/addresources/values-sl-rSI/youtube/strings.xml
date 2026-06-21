@@ -469,6 +469,8 @@ Opomba: Če »Ponarejanje video tokov« ni omogočeno, lahko omogočenje tega po
   <string name="morphe_hide_stop_ads_button_title">Skrij gumb \'Ustavi oglase\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Skrij gumb za komentarje</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Skrij gumb Poveži</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Skrij gumb \'Prijavi\'</string>
@@ -493,6 +495,7 @@ Opomba: Če »Ponarejanje video tokov« ni omogočeno, lahko omogočenje tega po
   <string name="morphe_hide_shop_button_title">Skrij gumb za trgovino</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Skrij gumb \'Shrani\'</string>
+  <string name="morphe_hide_more_button_title">Skrij gumb Več</string>
   <string name="morphe_fullscreen_buttons">Gumbi v celozaslonskem načinu</string>
   <string name="morphe_hide_quick_actions_title">Skrij akcijsko vrstico</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Skrij gumb \'Vprašaj\'</string>
@@ -1021,20 +1024,23 @@ Pripravljeni na oddajo?"</string>
   <string name="morphe_change_form_factor_entry_4">Avto</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Spremembe vključujejo:
 
-Razporeditev za tablice
-• Objava skupnosti je skrita
+Postava za tablice
+• Skrite objave skupnosti
 • Nastavitev predvajanja v virih ni na voljo
-• Gumb za mešanje in gumb za zvok nista na voljo v Shorts.
-• Vidna vrstica z dejanji videa ni zamrznjena
+• Gumb Remix in gumb Zvok nista na voljo v Shortsu
+• Prikaže se staro dejanje z videoposnetkom, ki ni zmanjšano
 
-Razporeditev za avto
-• Viri so organizirani po temah in kanalih
+Postava za avtomobilski zaslon
+• Vir je organiziran po temah in kanalih
 • Nastavitev predvajanja v virih ni na voljo
-• Gumb za mešanje in gumb za zvok nista na voljo v Shorts.
-• Shorts se odpirajo v običajnem predvajalniku.
-• Vidna vrstica z dejanji videa ni zamrznjena"</string>
+• Gumb Remix in gumb Zvok nista na voljo v Shortsu
+• Shorts se odprejo v rednem predvajalniku
+• Prikaže se staro dejanje z videoposnetkom, ki ni zmanjšano"</string>
   <string name="morphe_tablet_layout_in_player_title">Omogoči postavitev za tablične računalnike v predvajalniku</string>
-  <string name="morphe_tablet_layout_in_player_summary">Obnovi prejšnjo postavitev predvajalnika</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Vračanje prejšnje postavitve predvajalnika
+
+Omejitve: Če je možnost »Ponastavi staro vrstico orodij za video« onemogočena, morda ne bo na voljo prekritja »Več videoposnetkov«"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Posnami različico aplikacije</string>
   <string name="morphe_spoof_app_version_summary">Triki strežnika, da misli, da uporabljate starejšo različico aplikacije, da obnovite funkcije starejše uporabniške izkušnje</string>
@@ -1292,4 +1298,9 @@ Predvajanje AV1 videa se lahko zamika ali izgublja okvirje."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Sila izvirnega zvoka ni na voljo</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Različica JavaScript predvajalnika</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Prikaži navidezne podatke v statističnih podatkih za nerde</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Ponovni prikaz starega videoposnetka z orodjarno</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Popravlja težavo s prikazom nevšečnosti in onemogočanjem skritja gumbov za videoposnetke.
+
+Omejitve: Vrnitev na prejšnji slog nadložnega menija 'Več videoposnetkov'"</string>
 </resources>

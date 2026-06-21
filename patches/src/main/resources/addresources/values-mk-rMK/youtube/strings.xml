@@ -406,6 +406,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">Прикријте го копчето \'Stop ads\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Прикријте го копчето за Коментари</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Прикријте го копчето за Пријавување</string>
@@ -930,20 +931,7 @@ Second \"item\" text"</string>
   <string name="morphe_change_form_factor_entry_2">Пребарување</string>
   <string name="morphe_change_form_factor_entry_3">Шопинг</string>
   <string name="morphe_change_form_factor_entry_4">Спорт</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Промените вклучуваат:
-
-Таблет изглед
-• Скриени се објавите од заедницата
-• Не е достапна поставката за репродукција во Feed
-• Копчето за ремикс и копчето Звук не се достапни во Shorts
-• Лентата со алатки за видео не е преклопена
-
-Изглед за автомобили
-• Feed е организиран по теми и канали
-• Не е достапна поставката за репродукција во Feed
-• Копчето за ремикс и копчето Звук не се достапни во Shorts
-• Shorts се отвораат во стандардниот плеер
-• Лентата со алатки за видео не е преклопена"</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Трендинг</string>
   <string name="morphe_spoof_app_version_summary">Преглос на вештата и да ја врати во коврот</string>
@@ -1187,4 +1175,5 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Недостапен принуден оригинален звук</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Варијанта на JavaScript на плеерот</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Прикажи лажирање во Статистика за гикови</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
 </resources>

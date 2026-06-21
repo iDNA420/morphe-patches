@@ -471,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">隱藏「停止廣告」按鈕</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">隱藏「留言」按鈕</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">隱藏「連線」按鈕</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">隱藏舉報按鈕</string>
@@ -495,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">隱藏「商店」按鈕</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">隱藏「儲存」按鈕</string>
+  <string name="morphe_hide_more_button_title">隱藏「更多」按鈕</string>
   <string name="morphe_fullscreen_buttons">全螢幕模式按鈕</string>
   <string name="morphe_hide_quick_actions_title">隱藏動作列</string>
   <string name="morphe_hide_quick_actions_ask_button_title">隱藏「問」按鈕</string>
@@ -1035,7 +1038,10 @@ Second \"item\" text"</string>
 • Shorts 在常規播放器中開啟
 • 影片動作欄未摺疊"</string>
   <string name="morphe_tablet_layout_in_player_title">在播放器中啟用平板版面配置</string>
-  <string name="morphe_tablet_layout_in_player_summary">還原舊版播放器版面配置</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"還原舊版播放器配置
+
+限制：如果已關閉「還原舊版視訊動作列」，則可能無法使用「更多影片」疊加層。"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">偽裝應用程式版本</string>
   <string name="morphe_spoof_app_version_summary">欺騙伺服器，讓它以為您正在使用較舊的應用程式版本，以還原舊版 UI 功能</string>
@@ -1295,4 +1301,9 @@ AV1 視訊播放可能會卡頓或丟格。"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• 強制原始音訊不可用</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">播放器 JavaScript 變種</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">擴展直播 DVR 期間最長七天</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">還原舊版影片動作列</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"修正無法顯示不喜歡以及無法隱藏影片動作按鈕
+
+限制：恢復到舊式「更多影片」疊加層"</string>
 </resources>

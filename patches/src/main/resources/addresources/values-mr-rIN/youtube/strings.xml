@@ -471,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">\'ॲड थांबवा\' बटण लपवा</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">\'टिप्पण्या\' (Comments) बटण लपवा</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">\'कनेक्ट\' बटण लपवा</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">\'रिपोर्ट\' बटण लपवा</string>
@@ -495,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">\'खरेदी\' (Shop) बटण लपवा</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">\'सेव्ह\' बटण लपवा</string>
+  <string name="morphe_hide_more_button_title">\'अधिक\' बटण लपवा</string>
   <string name="morphe_fullscreen_buttons">फुलस्क्रीन बटणे</string>
   <string name="morphe_hide_quick_actions_title">क्रिया बार लपवा</string>
   <string name="morphe_hide_quick_actions_ask_button_title">\'विचारा\' बटण लपवा</string>
@@ -1016,22 +1019,25 @@ Second \"item\" text"</string>
   <string name="morphe_change_form_factor_entry_2">फोन</string>
   <string name="morphe_change_form_factor_entry_3">टॅबलेट</string>
   <string name="morphe_change_form_factor_entry_4">ऑटोमोटिव्ह</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"बदल खालीलप्रमाणे:
+  <string name="morphe_change_form_factor_user_dialog_message">"बदल समाविष्ट आहेत:
 
-टॅब्लेट लेआउट
-• समुदाय पोस्ट्स लपविलेले आहेत
-• फीडमध्ये प्लेबॅक सेटिंग उपलब्ध नाही
-• शॉर्ट्समध्ये रीमिक्स बटण आणि ध्वनी बटण उपलब्ध नाहीत
-• व्हिडिओ ॲक्शन बार कोसळलेला नाही
+टॅबलेट लेआउट
+• समुदाय पोस्ट लपविल्या आहेत
+• फीडमधील प्लेबॅक सेटिंग उपलब्ध नाही
+• शॉर्ट्समध्ये रीमिक्स बटण आणि साउंड बटण उपलब्ध नाही
+• जुना व्हिडिओ ॲक्शन बार कोसळलेला नाही
 
 ऑटोमोटिव्ह लेआउट
-• फीड विषय आणि चॅनेलनुसार आयोजित केले आहे
-• फीडमध्ये प्लेबॅक सेटिंग उपलब्ध नाही
-• शॉर्ट्समध्ये रीमिक्स बटण आणि ध्वनी बटण उपलब्ध नाहीत
+• फीड विषयानुसार आणि चॅनेलनुसार आयोजित केले जाते
+• फीडमधील प्लेबॅक सेटिंग उपलब्ध नाही
+• शॉर्ट्समध्ये रीमिक्स बटण आणि साउंड बटण उपलब्ध नाही
 • शॉर्ट्स नियमित प्लेयरमध्ये उघडतात
-• व्हिडिओ ॲक्शन बार कोसळलेला नाही"</string>
+• जुना व्हिडिओ ॲक्शन बार कोसळलेला नाही"</string>
   <string name="morphe_tablet_layout_in_player_title">प्लेअरमध्ये टॅबलेट लेआउट सक्षम करा</string>
-  <string name="morphe_tablet_layout_in_player_summary">जुना प्लेअर लेआउट पुनर्संचयित करते</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"जुने प्लेयर लेआउट पुनर्संचयित करते
+
+मर्यादा: जर 'जुने व्हिडिओ ॲक्शन बार पुनर्संचयित करा' बंद केले असेल, तर 'अधिक व्हिडिओ' ओव्हरले उपलब्ध नसेल."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">ॲप आवृत्तीSpoof करा</string>
   <string name="morphe_spoof_app_version_summary">ॲप (App) आवृत्तीमध्ये बदल करा</string>
@@ -1285,4 +1291,9 @@ AV1 सह व्हिडिओ प्लेबॅक स्टटर किं
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• मूळ ऑडिओ सक्ती उपलब्ध नाही</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">प्लेअर जावास्क्रिप्ट प्रकार</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">नेर्ड्ससाठी आकडेवारीमध्ये स्पूफिंग दाखवा.</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">व्हिडिओ ॲक्शन बार पूर्वीसारखे पुनर्संचयित करा</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"डिस्लाईक्स (Dislikes) न दिसण्याची आणि व्हिडिओ ॲक्शन बटणे लपवली जाऊ शकत नसल्याची समस्या ठीक करते.
+
+मर्यादा: 'अधिक व्हिडिओ' (More videos)overlay जुन्या शैलीत परत येते."</string>
 </resources>

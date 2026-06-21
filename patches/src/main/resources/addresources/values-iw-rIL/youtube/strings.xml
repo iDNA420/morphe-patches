@@ -471,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">הסתר כפתור \'ערבב\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">הסתר לחצן תגובות</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">הסתר לחצן חיבור</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">הסתר כפתור \'עוד סרטונים\'</string>
@@ -495,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">הסתר לחצן חנות</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">הסתר את הכותרת של תפריט \'כתוביות\'</string>
+  <string name="morphe_hide_more_button_title">הסתר לחצן נוסף</string>
   <string name="morphe_fullscreen_buttons">כפתורים במצב מסך מלא</string>
   <string name="morphe_hide_quick_actions_title">הסתר סרגל פעולות</string>
   <string name="morphe_hide_quick_actions_ask_button_title">הסתר תפריט \'הגדרות נוספות\' / \'עוד\'</string>
@@ -1022,18 +1025,21 @@ Second \"item\" text"</string>
 
 פריסת טאבלט
 • פוסטים קהילתיים מוסתרים
-• הגדרת השמעה במקורות אינה זמינה
-• כפתור 'מיזוג' וכפתור 'סאונד' אינם זמינים ב-Shorts
-• שורת הפעולות של הווידאו אינה מקופלת
+• הגדרת השמעה בפידים אינה זמינה
+• לחצן רמיקס ולחצן סאונד אינם זמינים ב-Shorts
+• סרגל הפעולות הישן שאינו מקופל מוצג
 
 פריסת רכב
-• המקורות מאורגנים לפי נושאים וערוצים
-• הגדרת השמעה במקורות אינה זמינה
-• כפתור 'מיזוג' וכפתור 'סאונד' אינם זמינים ב-Shorts
+• הפיד מאורגן לפי נושאים וערוצים
+• הגדרת השמעה בפידים אינה זמינה
+• לחצן רמיקס ולחצן סאונד אינם זמינים ב-Shorts
 • Shorts נפתחים בנגן הרגיל
-• שורת הפעולות של הווידאו אינה מקופלת"</string>
+• סרגל הפעולות הישן שאינו מקופל מוצג"</string>
   <string name="morphe_tablet_layout_in_player_title">הפעל פריסת טאבלט בנגן</string>
-  <string name="morphe_tablet_layout_in_player_summary">משחזר את פריסת הנגן הישנה</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"משחזר את הפריסה הישנה של הנגן
+
+מגבלות: אם \"שחזר סרגל פעולות וידאו ישן\" כבוי, ייתכן ש-\"עוד סרטונים\" לא יהיה זמין"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">זייף גרסת יישום</string>
   <string name="morphe_spoof_app_version_summary">מרמה את השרת לחשוב שאתה משתמש בגרסת אפליקציה ישנה יותר כדי לשחזר תכונות ממשק משתמש מדור קודם</string>
@@ -1291,4 +1297,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• כפיית שמע מקורי אינה זמינה</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">גירסת JavaScript של השחקן</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">הצג זיוף בנתונים לגיקים</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">שחזור סרגל פעולות וידאו ישן</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"מתקן בעיות בתצוגת 'לא אהבתי' ואי אפשרות להסתיר כפתורי פעולות וידאו.
+
+מגבלות: חוזר לסגנון ישן של שכבת 'עוד סרטונים'"</string>
 </resources>

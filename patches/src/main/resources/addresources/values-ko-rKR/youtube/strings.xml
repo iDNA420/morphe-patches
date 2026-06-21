@@ -473,6 +473,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">광고 중지 버튼 숨기기</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">댓글 버튼 숨기기</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">연결 버튼 숨기기</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">신고 버튼 숨기기</string>
@@ -497,6 +499,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">쇼핑 버튼 숨기기</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">저장 버튼 숨기기</string>
+  <string name="morphe_hide_more_button_title">더보기 버튼 숨기기</string>
   <string name="morphe_fullscreen_buttons">전체 화면 버튼</string>
   <string name="morphe_hide_quick_actions_title">작업 버튼바 숨기기</string>
   <string name="morphe_hide_quick_actions_ask_button_title">질문하기 버튼 숨기기</string>
@@ -1027,18 +1030,21 @@ Second \"item\" text"</string>
 
 태블릿 레이아웃
 • 커뮤니티 게시물이 숨겨집니다
-• '피드에서 재생' 설정을 사용할 수 없습니다
-• Shorts에서 믹스 버튼과 사운드 버튼을 사용할 수 없습니다
-• 플레이어 작업 버튼바가 접히지 않습니다
+• 피드에서 재생 설정을 사용할 수 없습니다
+• Shorts에서 리믹스 버튼과 사운드 버튼을 사용할 수 없습니다
+• 접히지 않는 플레이어 작업 버튼바가 표시됩니다
 
 오토모티브 레이아웃
 • 피드가 주제 및 채널별로 구성됩니다
-• '피드에서 재생' 설정을 사용할 수 없습니다
-• Shorts에서 믹스 버튼과 사운드 버튼은 사용할 수 없습니다
-• Shorts가 일반 플레이어에서 열립니다
-• 플레이어 작업 버튼바가 접히지 않습니다"</string>
+• 피드에서 재생 설정을 사용할 수 없습니다
+• Shorts에서 리믹스 버튼과 사운드 버튼을 사용할 수 없습니다
+• Shorts가 일반 플레이어에서 제생됩니다
+• 접히지 않는 플레이어 작업 버튼바가 표시됩니다"</string>
   <string name="morphe_tablet_layout_in_player_title">플레이어에서 태블릿 레이아웃 활성화하기</string>
-  <string name="morphe_tablet_layout_in_player_summary">이전 플레이어 레이아웃으로 복원합니다</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"이전 플레이어 레이아웃으로 복원합니다
+
+제한 사항: '이전 동영상 작업 버튼바 복원하기'을 비활성화하면, 관련 동영상 오버레이를 사용할 수 없을 수 있습니다"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">앱 버전 속이기</string>
   <string name="morphe_spoof_app_version_summary">서버가 사용 중인 앱 버전을 더 오래된 버전으로 인식하도록 속여, 이전 레이아웃 기능을 다시 복원합니다</string>
@@ -1296,4 +1302,9 @@ AV1이 사용된 동영상 재생이 끊기거나 프레임이 손실될 수 있
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• 원본 오디오를 강제로 활성화할 수 없습니다</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">플레이어 자바스크립트 변형</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">전문 통계에서 속이기 정보 표시하기</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">이전 동영상 작업 버튼바 복원하기</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"싫어요 수가 표시되지 않거나 동영상 작업 버튼을 숨길 수 없는 문제를 수정합니다
+
+제한 사항: 이전 스타일의 관련 동영상 오버레이가 복원됩니다"</string>
 </resources>

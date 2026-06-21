@@ -471,6 +471,8 @@ Let wel: As 'Spoof video streams' nie geaktiveer is nie, kan die aktivering hier
   <string name="morphe_hide_stop_ads_button_title">Hide Comments button</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Hide Report button</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Verberg Koppel-knoppie</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Hide Remix button</string>
@@ -495,6 +497,7 @@ Let wel: As 'Spoof video streams' nie geaktiveer is nie, kan die aktivering hier
   <string name="morphe_hide_shop_button_title">Hide Shop button</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Hide Save button</string>
+  <string name="morphe_hide_more_button_title">Verberg Meer-knoppie</string>
   <string name="morphe_fullscreen_buttons">Volskerm knoppies</string>
   <string name="morphe_hide_quick_actions_title">Verberg aksie balk</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Verberg Vra-knoppie</string>
@@ -1023,20 +1026,23 @@ As jy nie 'n hoogtepunt indien nie, tik Kanselleer en merk die tweede plek"</str
   <string name="morphe_change_form_factor_entry_4">Outomaties</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Veranderings sluit in:
 
-Tablet uitleg
-• Gemeenskap plasings is versteek
-• Speel in voedsels instelling is nie beskikbaar nie
-• Remix knoppie en Klank knoppie is nie in Shorts beskikbaar nie
-• Video aksiebalk is nie ingeklap nie
+Tablet-uitleg
+• Gemeenskap-plasings is weggesteek
+• Afspeel in feeds instelling is nie beskikbaar nie
+• Remix-knoppie en Klank-knoppie is nie beskikbaar in Shorts nie
+• Nie-gekolapseerde ou video aksiebalk word vertoon
 
-Motorvoertuig uitleg
-• Voedsel is georganiseer volgens onderwerpe en kanale
-• Speel in voedsels instelling is nie beskikbaar nie
-• Remix knoppie en Klank knoppie is nie in Shorts beskikbaar nie
-• Shorts open in die gewone speler
-• Video aksiebalk is nie ingeklap nie"</string>
+Motor-uitleg
+• Feed is georganiseer volgens onderwerpe en kanale
+• Afspeel in feeds instelling is nie beskikbaar nie
+• Remix-knoppie en Klank-knoppie is nie beskikbaar in Shorts nie
+• Shorts oop in die gewone speler
+• Nie-gekolapseerde ou video aksiebalk word vertoon"</string>
   <string name="morphe_tablet_layout_in_player_title">Aktiveer tablet-uitleg in die speler</string>
-  <string name="morphe_tablet_layout_in_player_summary">Herstel die ou speleruitleg</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Herstel die ou speleruitleg
+
+Beperkings: Indien \"Herstel ou video-aktiwiteitsbalk\" afgeskakel is, is moontlik nie die \"Meer video's\"-laag beskikbaar nie."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof app weergawe</string>
   <string name="morphe_spoof_app_version_summary">Wenke die bediener om te dink dat jy \'n ouer weergawe van die app gebruik om erfgoed UI-funksies te herstel</string>
@@ -1294,4 +1300,9 @@ Videoweergawe met AV1 kan hakkel of rame laat val."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Forceer oorspronklike klank is nie beskikbaar nie</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Speler JavaScript variant</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Wys vervalsing in Statistiek vir nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Herstel ou video-aksiebalk</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Regstel dat nie-likes nie vertoon word nie en video-aksieknoppies nie versteek kan word nie
+
+Beperkings: Keer terug na die ou styl 'Meer video's'-laag"</string>
 </resources>

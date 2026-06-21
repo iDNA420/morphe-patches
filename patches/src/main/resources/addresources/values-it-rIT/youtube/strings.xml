@@ -471,6 +471,8 @@ Nota: se 'Spoof video streams' non è abilitato, l'abilitazione di questa funzio
   <string name="morphe_hide_stop_ads_button_title">Nascondi il pulsante \'Interrompi annunci\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Nascondi il pulsante Commenti</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Nascondi il pulsante Connect</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Nascondi il pulsante Segnala</string>
@@ -495,6 +497,7 @@ Nota: se 'Spoof video streams' non è abilitato, l'abilitazione di questa funzio
   <string name="morphe_hide_shop_button_title">Nascondi il pulsante Negozio</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Nascondi il pulsante Salva</string>
+  <string name="morphe_hide_more_button_title">Nascondi il pulsante Altro</string>
   <string name="morphe_fullscreen_buttons">Pulsanti a schermo intero</string>
   <string name="morphe_hide_quick_actions_title">Nascondi la barra delle azioni</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Nascondi pulsante Chiedi</string>
@@ -1032,11 +1035,14 @@ Layout per tablet
 Layout per auto
 • Il feed è organizzato per argomenti e canali
 • L'impostazione di riproduzione nei feed non è disponibile
-• Il pulsante Remix e il pulsante Audio non sono disponibili sugli Shorts
+• Il pulsante Remix e il pulsante Audio non sono disponibili in Shorts
 • Gli Shorts si aprono nel lettore video normale
 • La barra delle azioni video non è collassata"</string>
   <string name="morphe_tablet_layout_in_player_title">Abilita layout per tablet nel lettore</string>
-  <string name="morphe_tablet_layout_in_player_summary">Ripristina il layout precedente del lettore</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Ripristina il layout del lettore precedente
+
+Limitazioni: se l'opzione \"Ripristina la barra delle azioni video precedente\" è disattivata, l'overlay \"Altri video\" potrebbe non essere disponibile"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Simula la versione dell\'app</string>
   <string name="morphe_spoof_app_version_summary">Inganna il server facendogli pensare di stare utilizzando una versione precedente dell\'app, per ripristinare le funzionalità dell\'interfaccia utente precedente</string>
@@ -1294,4 +1300,9 @@ La riproduzione video con AV1 potrebbe rallentare o perdere fotogrammi."</string
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• L\'audio originale forzato non è disponibile</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Variante JavaScript del lettore</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Mostra informazioni falsificazione nelle statistiche per nerd</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Ripristina la barra delle azioni video precedente</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Corregge la mancata visualizzazione dei \"Mi piace non mi piace\" e l'impossibilità di nascondere i pulsanti delle azioni video
+
+Limitazioni: ritorna alla vecchia visualizzazione \"Altri video\""</string>
 </resources>

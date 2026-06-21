@@ -1,3 +1,17 @@
+## [1.32.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.4...v1.32.0-dev.5) (2026-06-21)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Navigation bar:** Prevent navigation bar animation when swiping to dismiss miniplayer ([#1800](https://github.com/MorpheApp/morphe-patches/issues/1800)) ([dcc4c0c](https://github.com/MorpheApp/morphe-patches/commit/dcc4c0c28ac600ca057c8720f5e71f8c712011ac))
+
+### ✨ New Features
+
+* **YouTube - Hide video action buttons:** Add "Restore old video action bar", "Hide Connect button", and "Hide More button" settings ([#1780](https://github.com/MorpheApp/morphe-patches/issues/1780)) ([0481899](https://github.com/MorpheApp/morphe-patches/commit/0481899aef98c45aa3cc88c9e3ff5cc8387fb4c5))
+
+### 🚀 Updated App Support
+
+* **Reddit:** Add experimental support for `2026.25.0` ([d1a8fcc](https://github.com/MorpheApp/morphe-patches/commit/d1a8fccf5dfbec51eec36d1f49cdf2a9fe50847d))
+
 ## [1.32.0-dev.4](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.3...v1.32.0-dev.4) (2026-06-20)
 
 ### ✨ New Features

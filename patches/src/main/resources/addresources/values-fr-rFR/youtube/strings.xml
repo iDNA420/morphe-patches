@@ -471,6 +471,8 @@ Remarque : si l'option 'Falsifier les flux vidéo' n'est pas activée, l'activat
   <string name="morphe_hide_stop_ads_button_title">Masquer le bouton \'Zéro annonce\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Masquer le bouton \'Commentaires\'</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Masquer le bouton \'Connecter\'</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Masquer le bouton \'Signaler\'</string>
@@ -495,6 +497,7 @@ Remarque : si l'option 'Falsifier les flux vidéo' n'est pas activée, l'activat
   <string name="morphe_hide_shop_button_title">Masquer le bouton \'Magasin\'</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Masquer le bouton \'Enregistrer\'</string>
+  <string name="morphe_hide_more_button_title">Masquer le bouton \'Plus\'</string>
   <string name="morphe_fullscreen_buttons">Boutons en plein écran</string>
   <string name="morphe_hide_quick_actions_title">Masquer la barre d\'action</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Masquer le bouton \'Demander\'</string>
@@ -1024,20 +1027,23 @@ Si vous ne soumettez pas de point clé, appuyez sur 'Annuler' et marquez le deux
   <string name="morphe_change_form_factor_entry_4">Automobile</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Les changements incluent :
 
-Mise en page Tablette
-• Les posts communautaires sont masquées
-• Le lecture dans les paramètres de flux n'est pas disponible
-• Le bouton 'Remix' et le bouton 'Son' ne sont pas disponibles dans les Shorts
-• La barre d’actions de la vidéo n’est pas réduite
+Disposition tablette
+• Les posts destinés à la communauté sont masquées
+• Le paramètre de lecture dans les flux n’est pas disponible
+• Le bouton 'Remixer' et le bouton 'Son' ne sont pas disponibles dans les Shorts
+• L’ancienne barre d’actions vidéo non réduite est affichée
 
-Mise en page Automobile
-• Le flux est organisé par sujets et par chaînes
-• Le lecture dans les paramètres de flux n'est pas disponible
-• Le bouton 'Remix' et le bouton 'Son' ne sont pas disponibles dans les Shorts
-• Les Shorts s'ouvrent dans le lecteur normal
-• La barre d’actions de la vidéo n’est pas réduite"</string>
+Disposition automobile
+• Le flux est organisé par thèmes et chaînes
+• Le paramètre de lecture dans les flux n’est pas disponible
+• Le bouton 'Remixer' et le bouton 'Son' ne sont pas disponibles dans les Shorts
+• Les Shorts s’ouvrent dans le lecteur normal
+• L’ancienne barre d’actions vidéo non réduite est affichée"</string>
   <string name="morphe_tablet_layout_in_player_title">Activer la disposition tablette dans le lecteur</string>
-  <string name="morphe_tablet_layout_in_player_summary">Restaure l\'ancienne disposition du lecteur</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Restaure l’ancienne disposition du lecteur
+
+Limitations : Si 'Restaurer l’ancienne barre d’actions vidéo' est désactivé, l'overlay 'Plus de vidéos' peut ne pas être disponible"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Falsifier la version de l\'application</string>
   <string name="morphe_spoof_app_version_summary">Fait croire au serveur que vous utilisez une ancienne version de l\'application afin de restaurer des fonctionnalités d\'interface héritées</string>
@@ -1144,7 +1150,7 @@ Limitation : L'utilisation du bouton retour dans la barre d'outils peut ne pas f
   <!-- layout.branding.header.changeHeaderPatch -->
   <string name="morphe_header_logo_title">Logo d\'en-tête</string>
   <string name="morphe_header_logo_entry_1">Par défaut</string>
-  <string name="morphe_header_logo_entry_2">Standard</string>
+  <string name="morphe_header_logo_entry_2">Normal</string>
   <!-- Translations should match the language used in 'morphe_custom_branding_icon_entry_3'. -->
   <string name="morphe_header_logo_entry_5">Personnalisé</string>
   <!-- layout.thumbnails.bypassImageRegionRestrictionsPatch -->
@@ -1295,4 +1301,9 @@ La lecture de vidéos en AV1 peut présenter des saccades ou des pertes d’imag
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Forcer la langue audio d\'origine n\'est pas disponible</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Variante JavaScript du lecteur</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Afficher la falsification dans les \'Statistiques avancées\'</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Restaurer l’ancienne barre d’actions vidéo</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Corrige le problème des je n'aime pas non affichés et des boutons d’actions de la vidéo qui ne peuvent pas être masqués
+
+Limitations : Rétablit l’ancien style d'overlay 'Plus de vidéos'"</string>
 </resources>

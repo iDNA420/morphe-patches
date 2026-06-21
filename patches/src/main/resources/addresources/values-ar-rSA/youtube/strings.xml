@@ -472,6 +472,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">إخفاء زر \'إيقاف الإعلانات\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">إخفاء زر التعليقات</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">إخفاء زر الاتصال</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">إخفاء زر الإبلاغ</string>
@@ -496,6 +498,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">إخفاء زر المتجر</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">إخفاء زر حفظ</string>
+  <string name="morphe_hide_more_button_title">إخفاء زر المزيد</string>
   <string name="morphe_fullscreen_buttons">أزرار ملء الشاشة</string>
   <string name="morphe_hide_quick_actions_title">إخفاء شريط الإجراءات</string>
   <string name="morphe_hide_quick_actions_ask_button_title">إخفاء زر طرح سؤال</string>
@@ -582,7 +585,7 @@ Second \"item\" text"</string>
   <string name="morphe_toolbar_screen_title">شريط الأدوات</string>
   <string name="morphe_toolbar_screen_summary">اختر المكونات التي تظهر في شريط الأدوات</string>
   <string name="morphe_hide_toolbar_cast_button_title">إخفاء زر البث</string>
-  <string name="morphe_hide_toolbar_chat_button_title">إخفاء زر المحادثة</string>
+  <string name="morphe_hide_toolbar_chat_button_title">إخفاء زر دردشة</string>
   <string name="morphe_hide_toolbar_create_button_title">إخفاء زر الإنشاء</string>
   <string name="morphe_hide_toolbar_microphone_button_title">إخفاء زر الميكروفون</string>
   <string name="morphe_hide_toolbar_notification_button_title">إخفاء زر الإشعارات</string>
@@ -1030,17 +1033,20 @@ Second \"item\" text"</string>
 تصميم الجهاز اللوحي
 • يتم إخفاء مشاركات المجتمع
 • إعداد التشغيل في الخلاصات غير متوفر
-• زر ريمكس و زر الصوت غير متوفرين في Shorts
+• زر ريمكس وزر الصوت غير متوفرين في Shorts
 • شريط إجراءات الفيديو غير مطوي
 
 تصميم Automotive
 • الخلاصة مُنظمة حسب المواضيع والقنوات
 • إعداد التشغيل في الخلاصات غير متوفر
-• زر ريمكس و زر الصوت غير متوفرين في Shorts
+• زر ريمكس وزر الصوت غير متوفرين في Shorts
 • فيديوهات Shorts تفتح في المشغل العادي
 • شريط إجراءات الفيديو غير مطوي"</string>
   <string name="morphe_tablet_layout_in_player_title">تمكين تخطيط الجهاز اللوحي في المشغل</string>
-  <string name="morphe_tablet_layout_in_player_summary">يستعيد تخطيط المشغل القديم</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"استعادة تخطيط المشغل القديم
+
+القيود: إذا تم إيقاف تشغيل 'استعادة شريط إجراءات الفيديو القديم'، فقد لا يتوفر عنصر 'المزيد من الفيديوهات'"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">إصدار تطبيق وهمي</string>
   <string name="morphe_spoof_app_version_summary">يجعل الخادم يعتقد أنك تستخدم إصدارًا أقدم من التطبيق لاستعادة ميزات الواجهة القديمة</string>
@@ -1298,4 +1304,9 @@ Second \"item\" text"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• فرض الصوت الأصلي غير متاح</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">متغير JavaScript الخاص بالمشغل</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">عرض التمويه في إحصاءات تقنية</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">استعادة شريط إجراءات الفيديو القديم</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"إصلاح عدم ظهور الإعجابات وعدم القدرة على إخفاء أزرار إجراءات الفيديو
+
+القيود: يعود إلى نمط 'المزيد من الفيديوهات' القديم"</string>
 </resources>
