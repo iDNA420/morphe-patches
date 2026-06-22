@@ -472,7 +472,7 @@ Nóta: Mura bhfuil 'Sruthanna físe bréige' cumasaithe, d'fhéadfadh sé seo io
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Cnaipe Folaigh Tráchtanna</string>
   <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
-  <string name="morphe_hide_connect_button_title">Folaigh cnaipe Connect</string>
+  <string name="morphe_hide_connect_button_title">Folaigh an cnaipe Connect</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Cnaipe Folaigh Tuairisc</string>
@@ -1024,25 +1024,25 @@ Mura bhfuil buaicphointe á chur isteach agat, tapáil Cealaigh agus marcáil an
   <string name="morphe_change_form_factor_entry_2">Guthán</string>
   <string name="morphe_change_form_factor_entry_3">Táibléad</string>
   <string name="morphe_change_form_factor_entry_4">Gluaisteán</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"Áirítear leis na hathruithe:
+  <string name="morphe_change_form_factor_user_dialog_message">"I measc na n-athruithe tá:
 
-Leagan amach táibléid
+Leagan amach táibléad
 • Tá poist phobail i bhfolach
-• Níl an socrú athsheinm i bhfothaí ar fáil
-• Níl an cnaipe athmheasctha ná an cnaipe fuaime ar fáil i Shorts
-• Níl an barra gníomhaíochta físe fillte
+• Níl fáil ar athsheinm i socrú fothaí
+• Níl an cnaipe Remix agus an cnaipe Fuaim ar fáil i Shorts
+• Taispeántar seanbharra gníomhaíochta físeáin nár thit
 
 Leagan amach na ngluaisteán
-• Tá an fotha eagraithe de réir topaicí agus bealaí
-• Níl an socrú athsheinm i bhfothaí ar fáil
-• Níl an cnaipe athmheasctha ná an cnaipe fuaime ar fáil i Shorts
-• Oscail Shorts sa ghnáthimreoir
-• Níl an barra gníomhaíochta físe fillte"</string>
+• Eagraítear beathú de réir topaicí agus cainéil
+• Níl fáil ar athsheinm i socrú fothaí
+• Níl an cnaipe Remix agus an cnaipe Fuaim ar fáil i Shorts
+• Osclaítear shorts san imreoir rialta
+• Taispeántar seanbharra gníomhaíochta físeáin nár thit"</string>
   <string name="morphe_tablet_layout_in_player_title">Cumasaigh leagan amach táibléid sa seinnteoir</string>
   <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
-  <string name="morphe_tablet_layout_in_player_summary">"Athraíonn sé an leagan amach seanchluiche na n-imeachtaí
+  <string name="morphe_tablet_layout_in_player_summary">"Athchóiríonn sé leagan amach sean-imreoir
 
-Sriananna: Má tá \"Athraigh barra gnímh fístí seanchluiche\" múchta, ní bheidh an réitilt 'Tuilleadh físeáin' ar fáil"</string>
+Teorainneacha: Má tá ‘Athchóirigh seanbharra gníomhaíochta na bhfíseán’ múchta, seans nach mbeidh forleagan ‘Tuilleadh físeáin’ ar fáil"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Leagan aip bréige</string>
   <string name="morphe_spoof_app_version_summary">Meallann sé an freastalaí le go gceapfá go bhfuil tú ag úsáid seanleagan den aip chun gnéithe oidhreachta den chomhéadan úsáideora a athbhunú.</string>
@@ -1301,8 +1301,8 @@ D’fhéadfadh sé go mbeadh stad nó go gcaillfí frámaí ag athsheinm físe l
   <string name="morphe_spoof_video_streams_player_js_variant_title">Leagan JavaScript an imreora</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Taispeáin spoofáil i Staitisticí do nerds</string>
   <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
-  <string name="morphe_restore_old_video_action_bar_title">Barra gníomhaíochta físe seanchaisme a athchóiriú</string>
-  <string name="morphe_restore_old_video_action_bar_summary">"Ceartaíonn sé an fhadhb nach dtaispeántar míthaitneamh agus nach féidir cnaipí gníomhaíochta físe a cheile a cheile
+  <string name="morphe_restore_old_video_action_bar_title">Athchóirigh an seanbharra gníomhaíochta físeáin</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Ní thaitnítear le ceartúcháin agus ní féidir cnaipí gnímh físeáin a chur i bhfolach
 
-Sriananna: Fillte ar ais chun an fhoirm ‘Féidearthanais bhreise’ seanchaisme"</string>
+Teorainneacha: Filltear ar fhorleagan sean-stíl 'Tuilleadh físeáin'"</string>
 </resources>

@@ -29,7 +29,7 @@ Second \"item\" text"</string>
   <string name="morphe_settings_screen_08_swipe_controls_title">Kontrol usap</string>
   <string name="morphe_settings_screen_11_misc_title">Lain-lain</string>
   <string name="morphe_settings_screen_12_video_title">Video</string>
-  <string name="morphe_restore_old_settings_menus_title">Pulihkan menu pengaturan lama YouTube</string>
+  <string name="morphe_restore_old_settings_menus_title">Kembalikan menu pengaturan lama YouTube</string>
   <!-- misc.backgroundplayback.backgroundPlaybackPatch -->
   <string name="morphe_remove_background_playback_restrictions_title">Hapus pembatasan pemutaran latar belakang</string>
   <string name="morphe_shorts_disable_background_playback_title">Nonaktifkan pemutaran di latar belakang</string>
@@ -100,7 +100,7 @@ Perubahan termasuk:
           This button usually appears when searching for a YouTube creator. -->
   <string name="morphe_hide_show_more_button_title">Sembunyikan tombol \'Tampilkan selengkapnya\'</string>
   <string name="morphe_hide_show_more_button_summary">Menyembunyikan tombol perluas di bawah video pada hasil pencarian</string>
-  <string name="morphe_hide_subscribed_channels_bar_title">Sembunyikan bilah saluran langganan</string>
+  <string name="morphe_hide_subscribed_channels_bar_title">Sembunyikan bilah saluran yang telah disubscribe</string>
   <string name="morphe_hide_surveys_title">Sembunyikan survei</string>
   <string name="morphe_hide_surveys_summary">Sembunyikan survei dan pengingat mengenai akurasi rekomendasi feed</string>
   <string name="morphe_hide_ticket_shelf_title">Sembunyikan rak tiket</string>
@@ -414,7 +414,7 @@ Catatan: Jika 'Palsukan aliran video' tidak diaktifkan, mengaktifkan ini dapat m
   <string name="morphe_swipe_press_to_engage_title">Aktifkan tekan untuk gerakan usap</string>
   <string name="morphe_swipe_press_to_engage_summary">Diperlukan menekan dan menahan tombol sebelum gerakan mengusap dikenali</string>
   <string name="morphe_swipe_haptic_feedback_title">Aktifkan umpan balik getar</string>
-  <string name="morphe_swipe_save_and_restore_brightness_title">Simpan dan pulihkan kecerahan</string>
+  <string name="morphe_swipe_save_and_restore_brightness_title">Simpan dan kembalikan kecerahan</string>
   <string name="morphe_swipe_save_and_restore_brightness_summary">Menyimpan tingkat kecerahan saat masuk / keluar dari mode layar penuh</string>
   <string name="morphe_swipe_lowest_value_enable_auto_brightness_title">Aktifkan gerakan kecerahan otomatis</string>
   <string name="morphe_swipe_lowest_value_enable_auto_brightness_summary">Mengusap pengaturan kecerahan ke nilai terendah akan mengaktifkan fitur kecerahan otomatis sistem</string>
@@ -548,7 +548,7 @@ Catatan: Jika 'Palsukan aliran video' tidak diaktifkan, mengaktifkan ini dapat m
   <!-- 'Create' has no display name. Translate normally. -->
   <string name="morphe_hide_create_button_title">Sembunyikan tombol Buat</string>
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays for the tab. -->
-  <string name="morphe_hide_subscriptions_button_title">Sembunyikan tombol Subscription</string>
+  <string name="morphe_hide_subscriptions_button_title">Sembunyikan tombol Langganan</string>
   <!-- 'Notifications' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_hide_notifications_button_title">Sembunyikan tombol Notifikasi</string>
   <string name="morphe_show_search_button_title">Tampilkan tombol Pencarian</string>
@@ -1051,7 +1051,7 @@ Ini akan mengubah tampilan dan fitur aplikasi, tetapi efek samping yang tidak di
 
 Jika kemudian dimatikan, disarankan untuk menghapus data aplikasi untuk mencegah bug UI."</string>
   <string name="morphe_spoof_app_version_target_title">Target versi app yang dipalsukan</string>
-  <string name="morphe_spoof_app_version_target_entry_20_39">20.39.41 - Pulihkan simpanan lama ke daftar putar</string>
+  <string name="morphe_spoof_app_version_target_entry_20_39">20.39.41 - Kembalikan penyimpanan lama ke daftar putar</string>
   <string name="morphe_spoof_app_version_target_entry_20_28">20.28.41 - Nonaktifkan ikon tebal</string>
   <string name="morphe_spoof_app_version_target_entry_20_13">20.13.41 - Kembalikan nama saluran di bawah pemutar video</string>
   <!-- misc.sharesheet.openSystemShareSheetPatch -->
@@ -1158,7 +1158,7 @@ Batasan: Menggunakan tombol kembali pada toolbar mungkin tidak berfungsi"</strin
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_alt_thumbnail_home_title">Tab Untuk Beranda</string>
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays for the tab. -->
-  <string name="morphe_alt_thumbnail_subscription_title">Tab Untuk Subscription</string>
+  <string name="morphe_alt_thumbnail_subscription_title">Tab Untuk Langganan</string>
   <!-- 'You' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_alt_thumbnail_library_title">Tab Untuk Anda</string>
   <string name="morphe_alt_thumbnail_player_title">Untuk daftar putar &amp; rekomendasi pemutar</string>
@@ -1189,7 +1189,7 @@ Ketuk di sini untuk mempelajari lebih lanjut tentang DeArrow"</string>
   <string name="morphe_alt_thumbnail_dearrow_error_generic">DeArrow sementara tidak tersedia</string>
   <!-- misc.announcements.announcementsPatch -->
   <!-- misc.playercontrols.playerControlsPatch -->
-  <string name="morphe_restore_old_player_buttons_title">Pulihkan gaya tombol pemutar lama</string>
+  <string name="morphe_restore_old_player_buttons_title">Kembalikan gaya tombol pemutar lama</string>
   <string name="morphe_restore_old_player_buttons_summary">Mengembalikan tampilan tombol pemutar video yang tebal ke gaya visual yang lebih lama, lebih ramping</string>
   <!-- misc.dimensions.spoof.spoofDeviceDimensionsPatch -->
   <string name="morphe_spoof_device_dimensions_title">Palsukan dimensi perangkat</string>
@@ -1243,7 +1243,7 @@ Ketuk di sini untuk mempelajari lebih lanjut tentang DeArrow"</string>
   <string name="morphe_video_quality_dialog_button_summary">Ketuk dan tahan untuk mereset kualitas ke bawaan</string>
   <!-- video.speed.custom.customPlaybackSpeedPatch -->
   <string name="morphe_custom_speed_menu_title">Menu kecepatan pemutaran khusus</string>
-  <string name="morphe_restore_old_speed_menu_title">Pulihkan menu kecepatan pemutaran lama</string>
+  <string name="morphe_restore_old_speed_menu_title">Kembalikan menu kecepatan pemutaran lama</string>
   <string name="morphe_custom_playback_speeds_title">Kecepatan pemutaran khusus</string>
   <string name="morphe_custom_playback_speeds_summary">Pilih pilihan kecepatan pemutaran yang Anda inginkan</string>
   <string name="morphe_custom_playback_speeds_invalid">Kecepatan pemutaran khusus harus kurang dari %s</string>

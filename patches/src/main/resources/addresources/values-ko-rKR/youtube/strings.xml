@@ -522,7 +522,7 @@ Second \"item\" text"</string>
   <string name="morphe_auto_captions_style_title">자동 자막 표시 여부</string>
   <string name="morphe_auto_captions_style_entry_1">항상 표시</string>
   <string name="morphe_auto_captions_style_entry_2">표시 안 함</string>
-  <string name="morphe_auto_captions_style_entry_3">음소거 시 표시</string>
+  <string name="morphe_auto_captions_style_entry_3">음소거 해제 시 표시</string>
   <string name="morphe_auto_captions_style_entry_4">음소거 시 표시</string>
   <string name="morphe_auto_captions_style_legacy_entry_1">자동 자막을 표시</string>
   <string name="morphe_auto_captions_style_legacy_entry_2">자동 자막을 표시 안 함</string>
@@ -727,8 +727,8 @@ Second \"item\" text"</string>
   <!-- layout.hide.relatedvideos.hideRelatedVideosPatch -->
   <string name="morphe_hide_player_related_videos_title">관련 동영상 숨기기</string>
   <!-- layout.hide.relatedvideooverlay.hideRelatedVideoOverlayPatch -->
-  <string name="morphe_hide_player_related_videos_overlay_title">관련 동영상 오버레이 숨기기</string>
-  <string name="morphe_hide_player_related_videos_overlay_summary">전체 화면 모드에서 위로 스와이프할 경우에 표시되는 관련 동영상 오버레이를 숨깁니다</string>
+  <string name="morphe_hide_player_related_videos_overlay_title">\'동영상 더보기\' 오버레이 숨기기</string>
+  <string name="morphe_hide_player_related_videos_overlay_summary">전체 화면 모드에서 위로 스와이프할 경우에 표시되는 \'동영상 더보기\' 오버레이를 숨깁니다</string>
   <!-- layout.hide.time.hideTimestampPatch -->
   <string name="morphe_hide_timestamp_title">동영상 타임스탬프 숨기기</string>
   <!-- layout.panels.popup.disablePlayerPopupPanelsPatch -->
@@ -1042,9 +1042,9 @@ Second \"item\" text"</string>
 • 접히지 않는 플레이어 작업 버튼바가 표시됩니다"</string>
   <string name="morphe_tablet_layout_in_player_title">플레이어에서 태블릿 레이아웃 활성화하기</string>
   <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
-  <string name="morphe_tablet_layout_in_player_summary">"이전 플레이어 레이아웃으로 복원합니다
+  <string name="morphe_tablet_layout_in_player_summary">"이전 플레이어 레이아웃을 복원합니다
 
-제한 사항: '이전 동영상 작업 버튼바 복원하기'을 비활성화하면, 관련 동영상 오버레이를 사용할 수 없을 수 있습니다"</string>
+제한 사항: '이전 동영상 작업 버튼바 복원하기'를 비활성화하면, '동영상 더보기' 오버레이를 사용할 수 없을 수 있습니다"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">앱 버전 속이기</string>
   <string name="morphe_spoof_app_version_summary">서버가 사용 중인 앱 버전을 더 오래된 버전으로 인식하도록 속여, 이전 레이아웃 기능을 다시 복원합니다</string>
@@ -1306,5 +1306,5 @@ AV1이 사용된 동영상 재생이 끊기거나 프레임이 손실될 수 있
   <string name="morphe_restore_old_video_action_bar_title">이전 동영상 작업 버튼바 복원하기</string>
   <string name="morphe_restore_old_video_action_bar_summary">"싫어요 수가 표시되지 않거나 동영상 작업 버튼을 숨길 수 없는 문제를 수정합니다
 
-제한 사항: 이전 스타일의 관련 동영상 오버레이가 복원됩니다"</string>
+제한 사항: 이전 '동영상 더보기' 오버레이가 복원됩니다"</string>
 </resources>

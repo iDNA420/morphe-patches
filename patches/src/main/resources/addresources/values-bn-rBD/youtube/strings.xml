@@ -472,7 +472,7 @@ Second \"item\" text"</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">কমেন্টস বোতামটি লুকান</string>
   <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
-  <string name="morphe_hide_connect_button_title">কানেক্ট বোতামটি লুকান</string>
+  <string name="morphe_hide_connect_button_title">কানেক্ট বাটনটি লুকিয়ে রাখুন</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Clip বোতামটি লুকান</string>
@@ -497,7 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">শপ বোতামটি লুকান</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">স্বয়ংক্রিয় ক্যাপশন এবং ক্যাপশন কুকিজ পরিচালনা করুন</string>
-  <string name="morphe_hide_more_button_title">আরও বোতামটি লুকান</string>
+  <string name="morphe_hide_more_button_title">\'আরো দেখুন\' বাটনটি লুকিয়ে রাখুন</string>
   <string name="morphe_fullscreen_buttons">পূর্ণস্ক্রীন বোতামগুলি</string>
   <string name="morphe_hide_quick_actions_title">অ্যাকশন বার লুকান</string>
   <string name="morphe_hide_quick_actions_ask_button_title">সবসময় দেখান</string>
@@ -1023,25 +1023,25 @@ Second \"item\" text"</string>
   <string name="morphe_change_form_factor_entry_2">ফোন</string>
   <string name="morphe_change_form_factor_entry_3">ট্যাবলেট</string>
   <string name="morphe_change_form_factor_entry_4">অটোমোটিভ</string>
-  <string name="morphe_change_form_factor_user_dialog_message">"পরিবর্তনগুলোর মধ্যে রয়েছে:
+  <string name="morphe_change_form_factor_user_dialog_message">"পরিবর্তনগুলোর মধ্যে রয়েছে:
 
 ট্যাবলেট লেআউট
-• কমিউনিটি পোস্টগুলো লুকানো আছে
-• ফিডে প্লেব্যাক সেটিংটি পাওয়া যাবে না
-• শর্টস-এ রিমিক্স এবং সাউন্ড বোতামগুলো নেই
-• পুরনো ভিডিও অ্যাকশন বারটি সংকুচিত করা হয়নি
+• কমিউনিটি পোস্টগুলো লুকিয়ে রাখা হয়েছে
+• ফিডে প্লেব্যাক সেটিংসটি উপলব্ধ নেই
+• শর্টসে রিমিক্স বাটন এবং সাউন্ড বাটন উপলব্ধ নেই
+• পুরনো ভিডিও অ্যাকশন বারটি প্রসারিত অবস্থায় দেখানো হয়েছে
 
 অটোমোটিভ লেআউট
-• ফিডটি বিষয় এবং চ্যানেল অনুযায়ী সাজানো হয়েছে
-• ফিডে প্লেব্যাক সেটিংটি পাওয়া যাবে না
-• শর্টস-এ রিমিক্স এবং সাউন্ড বোতামগুলো নেই
-• শর্টস ভিডিওগুলো সাধারণ প্লেয়ারে খুলবে
-• পুরনো ভিডিও অ্যাকশন বারটি সংকুচিত করা হয়নি"</string>
+• ফিডটি বিভিন্ন বিষয় এবং চ্যানেলের ভিত্তিতে সাজানো হয়েছে
+• ফিডে প্লেব্যাক সেটিংসটি উপলব্ধ নেই
+• শর্টসে রিমিক্স বাটন এবং সাউন্ড বাটন উপলব্ধ নেই
+• শর্টসগুলো নিয়মিত প্লেয়ারে ওপেন হবে
+• পুরনো ভিডিও অ্যাকশন বারটি প্রসারিত অবস্থায় দেখানো হয়েছে"</string>
   <string name="morphe_tablet_layout_in_player_title">প্লেয়ারে ট্যাবলেট লেআউট চালু করুন</string>
   <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
-  <string name="morphe_tablet_layout_in_player_summary">"পুরোনো প্লেয়ার লেআউট পুনরুদ্ধার করে
+  <string name="morphe_tablet_layout_in_player_summary">"পুরানো প্লেয়ার লেআউট ফিরিয়ে আনুন
 
-সীমাবদ্ধতা: যদি 'পুরোনো ভিডিও অ্যাকশন বার পুনরুদ্ধার করুন' বন্ধ করা থাকে, তাহলে 'আরো ভিডিও' ওভারলে উপলব্ধ নাও হতে পারে।"</string>
+সীমাবদ্ধতা: 'পুরানো ভিডিও অ্যাকশন বার ফিরিয়ে আনুন' অপশনটি বন্ধ থাকলে, 'আরও ভিডিও' ওভারলেটি পাওয়া নাও যেতে পারে"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">অ্যাপের সংস্করণ স্পুফ করুন</string>
   <string name="morphe_spoof_app_version_summary">পুরোনো ইউজার ইন্টারফেস (UI) ফিচারগুলো ফিরিয়ে আনতে সার্ভারকে এমনভাবে বিভ্রান্ত করে যেন মনে হয় আপনি অ্যাপের একটি পুরোনো সংস্করণ ব্যবহার করছেন</string>
@@ -1300,8 +1300,8 @@ AV1 সহ ভিডিও প্লেব্যাক আটকে যেতে
   <string name="morphe_spoof_video_streams_player_js_variant_title">প্লেয়ার জাভাস্ক্রিপ্ট ভেরিয়েন্ট</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Stats for nerds-এ স্পুফিং দেখান</string>
   <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
-  <string name="morphe_restore_old_video_action_bar_title">পুরানো ভিডিও অ্যাকশন বার পুনরুদ্ধার করুন</string>
-  <string name="morphe_restore_old_video_action_bar_summary">"ডিসলাইক দেখানো না হওয়া এবং ভিডিও অ্যাকশন বাটন লুকানো না যাওয়ার সমস্যা সমাধান করা হয়েছে
+  <string name="morphe_restore_old_video_action_bar_title">পুরনো ভিডিও অ্যাকশন বারটি পূর্বাবস্থায় ফিরিয়ে আনুন</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"ডিসলাইক না দেখানো এবং ভিডিও অ্যাকশন বাটনগুলো লুকিয়ে রাখা না যাওয়ার সমস্যার সমাধান করা হয়েছে
 
-সীমাবদ্ধতা: পুরনো স্টাইলের 'আরও ভিডিও' ওভারলেতে ফিরে যায়।"</string>
+সীমাবদ্ধতা: পুরনো স্টাইলের 'আরো ভিডিও' ওভারলে-তে ফিরে যাবে"</string>
 </resources>

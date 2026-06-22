@@ -32,10 +32,9 @@ val disablePlayerPopupPanelsPatch = bytecodePatch(
         EngagementPanelControllerFingerprint.method.addInstructionsWithLabels(
             0,
             """
-                invoke-static { }, $EXTENSION_CLASS->disablePlayerPopupPanels()Z
+                invoke-static/range { p3 .. p4 }, $EXTENSION_CLASS->disablePlayerPopupPanels(ZZ)Z
                 move-result v0
                 if-eqz v0, :player_popup_panels
-                if-eqz p4, :player_popup_panels
                 const/4 v0, 0x0
                 return-object v0
                 :player_popup_panels

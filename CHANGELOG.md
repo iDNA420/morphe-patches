@@ -1,3 +1,17 @@
+## [1.32.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.6...v1.32.0-dev.7) (2026-06-22)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Change form factor:** Prevent app crash when using tablet mode in `onResume` state ([#1803](https://github.com/MorpheApp/morphe-patches/issues/1803)) ([4b0de25](https://github.com/MorpheApp/morphe-patches/commit/4b0de256e74f6eeb279ba164146fb9a01f2f8176))
+* **YouTube - Hide layout components:** Resolve "Hide horizontal shelves" hiding other components ([#930](https://github.com/MorpheApp/morphe-patches/issues/930)) ([3c53157](https://github.com/MorpheApp/morphe-patches/commit/3c5315774896dc78ab5ad4d7b44380f9a21d3312))
+
+## [1.32.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.5...v1.32.0-dev.6) (2026-06-22)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Disable player popup panels:** Patch doesn't work in some circumstances ([6d6018c](https://github.com/MorpheApp/morphe-patches/commit/6d6018cf4a4ee6f79a283001aebe5b9d21767741))
+* **YouTube - Spoof video streams:** Always allow details fetching ([6bc0eee](https://github.com/MorpheApp/morphe-patches/commit/6bc0eeefe02fa89a5d0669698ceb2fffc5bc51c7))
+
 ## [1.32.0-dev.5](https://github.com/MorpheApp/morphe-patches/compare/v1.32.0-dev.4...v1.32.0-dev.5) (2026-06-21)
 
 ### 🐛 Bug Fixes

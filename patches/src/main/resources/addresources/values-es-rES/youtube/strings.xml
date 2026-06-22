@@ -545,7 +545,7 @@ Deben proporcionarse 'Cookies de subtítulos'"</string>
   <string name="morphe_navigation_buttons_screen_title">Botones de navegación</string>
   <string name="morphe_navigation_buttons_screen_summary">Ocultar botón Micrófono</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
-  <string name="morphe_hide_home_button_title">Ocultar botón Notificaciones</string>
+  <string name="morphe_hide_home_button_title">Ocultar botón Inicio</string>
   <!-- 'Shorts' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="morphe_hide_shorts_button_title">Ocultar botón \"Shorts\"</string>
   <!-- 'Create' has no display name. Translate normally. -->
@@ -588,7 +588,7 @@ Para acceder a los ajustes, activa el botón de ajustes a través de General →
   <string name="morphe_hide_toolbar_chat_button_title">Ocultar botón \"Chat\"</string>
   <string name="morphe_hide_toolbar_create_button_title">Ocultar botón \"Crear\"</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Solo vertical</string>
-  <string name="morphe_hide_toolbar_notification_button_title">Solo horizontal</string>
+  <string name="morphe_hide_toolbar_notification_button_title">Ocultar botón de Notificaciones</string>
   <string name="morphe_hide_toolbar_search_button_title">Ocultar botón \"Buscar\"</string>
   <string name="morphe_show_toolbar_settings_button_title">Ajuste el nivel de transparencia (0 es transparente, 100 es opaco)</string>
   <string name="morphe_show_toolbar_settings_button_index_title">Establezca el color de la barra de progreso del superposición del reproductor</string>
