@@ -245,15 +245,13 @@ public class SpoofVideoStreamsPatch {
     /**
      * Injection point.
      * Turns off a feature flag that interferes with spoofing.
+     * Note: Always keep this enabled to allow other patches to work properly.
      */
     public static boolean useMediaFetchHotConfigReplacement(boolean original) {
         if (original) {
             Logger.printDebug(() -> "useMediaFetchHotConfigReplacement is set on");
         }
 
-        if (!SPOOF_VIDEO_STREAMS) {
-            return original;
-        }
         return false;
     }
 
@@ -290,15 +288,13 @@ public class SpoofVideoStreamsPatch {
     /**
      * Injection point.
      * Turns off a feature flag that interferes with video playback.
+     * Note: Always keep this enabled to allow other patches to work properly.
      */
     public static boolean useMediaSessionFeatureFlag(boolean original) {
         if (original) {
             Logger.printDebug(() -> "useMediaSessionFeatureFlag is set on");
         }
 
-        if (!SPOOF_VIDEO_STREAMS) {
-            return original;
-        }
         return false;
     }
 
@@ -306,6 +302,8 @@ public class SpoofVideoStreamsPatch {
      * Injection point.
      */
     public static void fetchStreams(String url, Map<String, String> requestHeaders) {
+        currentVideoRequestHeader = requestHeaders;
+
         if (SPOOF_VIDEO_STREAMS) {
             try {
                 Uri uri = Uri.parse(url);
@@ -329,8 +327,6 @@ public class SpoofVideoStreamsPatch {
                     Logger.printException(() -> "Ignoring request with no ID: " + url);
                     return;
                 }
-
-                currentVideoRequestHeader = requestHeaders;
 
                 StreamOrDetailsDataRequest.fetchStreamRequest(id, currentVideoRequestHeader);
             } catch (Exception ex) {
