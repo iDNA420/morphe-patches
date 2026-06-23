@@ -745,7 +745,7 @@ Ayarlar → Oynatma (veya Otomatik Oynatma) → Sonraki videoyu otomatik oynat"<
   <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Dikey modda aşağı kaydırma hareketini devre dışı bırak</string>
   <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Yatay modda aşağı kaydırma hareketini devre dışı bırak</string>
   <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
-  <string name="morphe_open_videos_fullscreen_title">Videoları tam ekran modda aç</string>
+  <string name="morphe_open_videos_fullscreen_title">Videoları tam ekran modunda aç</string>
   <string name="morphe_open_videos_fullscreen_entry_1">Devre dışı</string>
   <string name="morphe_open_videos_fullscreen_entry_2">Dikey</string>
   <string name="morphe_open_videos_fullscreen_entry_3">Yatay</string>
