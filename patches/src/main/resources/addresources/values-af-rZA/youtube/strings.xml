@@ -234,6 +234,7 @@ Veranderings sluit in:
   <string name="morphe_hide_keyword_content_home_title">Verberg Tuisfideo\'s met sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_search_title">Verberg soekresultate met sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Verberg Subscriptions video\'s volgens sleutelwoorde</string>
+  <string name="morphe_hide_keyword_content_comments_title">Verberg kommentare volgens sleutelwoorde</string>
   <string name="morphe_hide_keyword_content_phrases_title">Sleutelwoorde om te verberg</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Sleutelwoorde kan enige teks wees wat in video-titels of kanaalname verskyn
 
 Woorde met hoofletters in die middel moet presies ooreenstem (bv. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Oor sleutelwoordfiltering</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Tuis / Subskripsies / Soek resultate is gefilter om inhoud wat ooreenstem met sleutelwoord frases te verberg.
+  <string name="morphe_hide_keyword_content_about_summary">"Tuis / Subskripsies / Soek / Kommentare word gefiltreer om inhoud te verberg wat ooreenstem met sleutelwoordfrases
 
 Beperkings:
-• Shorts kan nie deur kanaalnaam weggesteek word nie
-• Sommige UI-komponente kan nie weggesteek word nie
-• Om na 'n sleutelwoord te soek kan geen resultate toon nie"</string>
+• Shorts kan nie volgens kanaalnaam verberg word nie
+• Sekere gebruikerskoppelvlakkomponente kan nie verberg word nie
+• As u na 'n sleutelwoord soek, kan dit geen resultate toon nie"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Pas hele woorde by</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Deur \'n sleutelwoord/frase tussen aanhalingstekens te plaas, word gedeeltelike ooreenkomste van videotitels en kanaalname vermy&lt;br&gt;&lt;br&gt;Byvoorbeeld,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sal die video verberg: &lt;b&gt;Hoe werk AI?&lt;/b&gt;&lt;br&gt;maar sal nie verberg: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
@@ -470,6 +471,8 @@ Let wel: As 'Spoof video streams' nie geaktiveer is nie, kan die aktivering hier
   <string name="morphe_hide_stop_ads_button_title">Hide Comments button</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Hide Report button</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Verberg Koppel-knoppie</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Hide Remix button</string>
@@ -494,6 +497,7 @@ Let wel: As 'Spoof video streams' nie geaktiveer is nie, kan die aktivering hier
   <string name="morphe_hide_shop_button_title">Hide Shop button</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Hide Save button</string>
+  <string name="morphe_hide_more_button_title">Verberg Meer-knoppie</string>
   <string name="morphe_fullscreen_buttons">Volskerm knoppies</string>
   <string name="morphe_hide_quick_actions_title">Verberg aksie balk</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Verberg Vra-knoppie</string>
@@ -579,6 +583,7 @@ Om Instellings te open, aktiveer die Instellings-knoppie via Algemeen → Toolba
   <string name="morphe_toolbar_screen_title">Wenkbalk</string>
   <string name="morphe_toolbar_screen_summary">Kies watter komponente in die lêertooskassie vertoon moet word</string>
   <string name="morphe_hide_toolbar_cast_button_title">Hide \'Audio Track\' menu footer</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Verberg Chat-knoppie</string>
   <string name="morphe_hide_toolbar_create_button_title">Verberg Skep-knoppie</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Hide Captions menu</string>
   <string name="morphe_hide_toolbar_notification_button_title">Hide Captions menu footer</string>
@@ -733,8 +738,17 @@ Instellings → Weergawe (of outoplay) → Speel volgende video outomaties"</str
   <string name="morphe_exit_fullscreen_entry_2">Portretmodus slegs</string>
   <string name="morphe_exit_fullscreen_entry_3">Landskapmodus slegs</string>
   <string name="morphe_exit_fullscreen_entry_4">Portret en landskap</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Open video\'s in volskerm portret</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Volskerm gebare</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Speler gebare om in of uit volskerm modus te gaan</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktiveer portret opwaartse swipe gebaar</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktiveer portret-afglingsgebare</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktiveer landskap-afglingsgebare</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Maak video\'s in volledig skermmodus oop</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktiveer</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Portret</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Landskap</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Speler oorlegslaag deursigtigheid</string>
   <string name="morphe_player_overlay_opacity_summary">Pas die deursigtigheidsvlak aan (0 is deursigtig, 100 is ondeursigtig)</string>
@@ -1012,20 +1026,23 @@ As jy nie 'n hoogtepunt indien nie, tik Kanselleer en merk die tweede plek"</str
   <string name="morphe_change_form_factor_entry_4">Outomaties</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Veranderings sluit in:
 
-Tablet uitleg
-• Gemeenskap plasings is versteek
-• Speel in voedsels instelling is nie beskikbaar nie
-• Remix knoppie en Klank knoppie is nie in Shorts beskikbaar nie
-• Video aksiebalk is nie ingeklap nie
+Tablet-uitleg
+• Gemeenskap-plasings is weggesteek
+• Afspeel in feeds instelling is nie beskikbaar nie
+• Remix-knoppie en Klank-knoppie is nie beskikbaar in Shorts nie
+• Nie-gekolapseerde ou video aksiebalk word vertoon
 
-Motorvoertuig uitleg
-• Voedsel is georganiseer volgens onderwerpe en kanale
-• Speel in voedsels instelling is nie beskikbaar nie
-• Remix knoppie en Klank knoppie is nie in Shorts beskikbaar nie
-• Shorts open in die gewone speler
-• Video aksiebalk is nie ingeklap nie"</string>
+Motor-uitleg
+• Feed is georganiseer volgens onderwerpe en kanale
+• Afspeel in feeds instelling is nie beskikbaar nie
+• Remix-knoppie en Klank-knoppie is nie beskikbaar in Shorts nie
+• Shorts oop in die gewone speler
+• Nie-gekolapseerde ou video aksiebalk word vertoon"</string>
   <string name="morphe_tablet_layout_in_player_title">Aktiveer tablet-uitleg in die speler</string>
-  <string name="morphe_tablet_layout_in_player_summary">Herstel die ou speleruitleg</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Herstel die ou speleruitleg
+
+Beperkings: Indien \"Herstel ou video-aktiwiteitsbalk\" afgeskakel is, is moontlik nie die \"Meer video's\"-laag beskikbaar nie."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof app weergawe</string>
   <string name="morphe_spoof_app_version_summary">Wenke die bediener om te dink dat jy \'n ouer weergawe van die app gebruik om erfgoed UI-funksies te herstel</string>
@@ -1283,4 +1300,9 @@ Videoweergawe met AV1 kan hakkel of rame laat val."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Forceer oorspronklike klank is nie beskikbaar nie</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Speler JavaScript variant</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Wys vervalsing in Statistiek vir nerds</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Herstel ou video-aksiebalk</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Regstel dat nie-likes nie vertoon word nie en video-aksieknoppies nie versteek kan word nie
+
+Beperkings: Keer terug na die ou styl 'Meer video's'-laag"</string>
 </resources>

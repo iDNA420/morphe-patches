@@ -233,6 +233,7 @@ Ví dụ:
   <string name="morphe_hide_keyword_content_home_title">Ẩn video Trang chủ theo từ khóa</string>
   <string name="morphe_hide_keyword_content_search_title">Ẩn kết quả tìm kiếm bằng từ khóa</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Ẩn video kênh đăng ký bằng từ khóa</string>
+  <string name="morphe_hide_keyword_content_comments_title">Ẩn bình luận theo từ khóa</string>
   <string name="morphe_hide_keyword_content_phrases_title">Từ khóa để ẩn</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -242,12 +243,12 @@ Từ khóa ở đây là bất kỳ văn bản nào mà bạn thấy trong tiêu
 
 Từ có chữ in hoa ở giữa phải được nhập chính xác (ví dụ: iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Giới thiệu về bộ lọc từ khóa</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Trang chủ/Kênh đăng ký/Kết quả tìm kiếm được lọc để ẩn nội dung khớp với cụm từ khóa
+  <string name="morphe_hide_keyword_content_about_summary">"Trang chủ / Kênh đăng ký / Tìm kiếm / Bình luận được lọc để ẩn nội dung khớp với cụm từ khóa
 
 Hạn chế:
 • Không thể ẩn Shorts theo tên kênh
 • Một số thành phần giao diện có thể không bị ẩn
-• Tìm kiếm từ khóa có thể không hiện kết quả nào"</string>
+• Khi tìm kiếm từ khóa đó có thể không cho kết quả nào"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Khớp toàn bộ từ</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Đặt từ hoặc cụm từ cần lọc trong dấu ngoặc kép sẽ ngăn chặn các kết quả chỉ trùng một phần với tiêu đề video và tên kênh&lt;br&gt;&lt;br&gt;Ví dụ,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sẽ ẩn video: &lt;b&gt;AI hoạt động ra sao?&lt;/b&gt;&lt;br&gt;nhưng sẽ không ẩn: &lt;b&gt;Hai lai nghĩa là gì?&lt;/b&gt;</string>
@@ -469,6 +470,8 @@ Lưu ý: Nếu bạn chưa bật \"Giả mạo luồng phát video\", tính năn
   <string name="morphe_hide_stop_ads_button_title">Ẩn nút \"Dừng quảng cáo\"</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Ẩn nút Bình luận</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Ẩn nút Kết nối</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Ẩn nút Báo vi phạm</string>
@@ -493,6 +496,7 @@ Lưu ý: Nếu bạn chưa bật \"Giả mạo luồng phát video\", tính năn
   <string name="morphe_hide_shop_button_title">Ẩn nút Mua sắm</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Ẩn nút Lưu</string>
+  <string name="morphe_hide_more_button_title">Ẩn nút Thêm</string>
   <string name="morphe_fullscreen_buttons">Nút ở chế độ toàn màn hình</string>
   <string name="morphe_hide_quick_actions_title">Ẩn thanh thao tác</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Ẩn nút Đặt câu hỏi</string>
@@ -578,6 +582,7 @@ Cần cung cấp \"Cookie phụ đề\""</string>
   <string name="morphe_toolbar_screen_title">Thanh công cụ</string>
   <string name="morphe_toolbar_screen_summary">Chọn những thành phần sẽ xuất hiện trên thanh công cụ</string>
   <string name="morphe_hide_toolbar_cast_button_title">Ẩn nút truyền</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Ẩn nút Trò chuyện</string>
   <string name="morphe_hide_toolbar_create_button_title">Ẩn nút Tạo</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Ẩn nút Micro</string>
   <string name="morphe_hide_toolbar_notification_button_title">Ẩn nút Thông báo</string>
@@ -732,8 +737,17 @@ Cài đặt → Phát (hoặc Tự động phát) → tự động phát video t
   <string name="morphe_exit_fullscreen_entry_2">Chỉ dọc</string>
   <string name="morphe_exit_fullscreen_entry_3">Chỉ ngang</string>
   <string name="morphe_exit_fullscreen_entry_4">Chế độ dọc và ngang</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Mở video trong chế độ toàn màn hình dọc</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Cử chỉ toàn màn hình</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Vuốt để vào hoặc thoát khỏi chế độ toàn màn hình của trình phát</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Tắt cử chỉ vuốt từ dưới lên ở chế độ màn hình dọc</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Tắt cử chỉ vuốt từ trên xuống ở chế độ màn hình dọc</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Tắt cử chỉ vuốt từ trên xuống ở chế độ màn hình ngang</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Mở video ở chế độ toàn màn hình</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Tắt</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Chế độ dọc</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Chế độ ngang</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Độ mờ của lớp phủ trình phát</string>
   <string name="morphe_player_overlay_opacity_summary">Điều chỉnh độ trong suốt (0 là trong suốt, 100 là mờ)</string>
@@ -1023,7 +1037,10 @@ Giao diện màn hình ô tô
 • Mở Shorts bằng trình phát thường
 • Thanh thao tác video không thu gọn được"</string>
   <string name="morphe_tablet_layout_in_player_title">Bật bố cục máy tính bảng trong trình phát</string>
-  <string name="morphe_tablet_layout_in_player_summary">Khôi phục giao diện trình phát cũ</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Khôi phục bố cục trình phát cũ
+
+Giới hạn: Nếu tùy chọn \"Khôi phục thanh tác vụ video cũ\" bị tắt, lớp phủ \"Thêm video\" có thể không khả dụng"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
   <string name="morphe_spoof_app_version_summary">Khiến server nghĩ rằng bạn đang sử dụng phiên bản cũ để khôi phục giao diện cũ</string>
@@ -1281,4 +1298,9 @@ Phát video bằng AV1 có thể bị giật hoặc tụt khung hình."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Buộc âm thanh gốc không khả dụng</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Biến thể JavaScript của trình phát</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Hiện thông tin giả mạo trong Thống kê chi tiết</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Khôi phục thanh thao tác video mở rộng</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Sửa lỗi dislike không hiển thị và nút thao tác video không thể ẩn
+
+Giới hạn: Trả lại giao diện 'Thêm video' kiểu cũ"</string>
 </resources>

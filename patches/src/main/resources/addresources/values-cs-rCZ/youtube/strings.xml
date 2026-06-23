@@ -234,6 +234,7 @@ Změny zahrnují:
   <string name="morphe_hide_keyword_content_home_title">Skrýt domovská videa podle klíčových slov</string>
   <string name="morphe_hide_keyword_content_search_title">Skrýt výsledky vyhledávání podle klíčových slov</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skrýt videa z odběrů podle klíčových slov</string>
+  <string name="morphe_hide_keyword_content_comments_title">Skrýt komentáře podle klíčových slov</string>
   <string name="morphe_hide_keyword_content_phrases_title">Klíčová slova ke skrytí</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Klíčová slova mohou být jakýkoli text zobrazený v názvech videí nebo ná
 
 Slova s velkými písmeny uprostřed musí odpovídat přesně (např. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">O filtrování klíčových slov</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Domů / Přihlášení / Výsledky vyhledávání jsou filtrovány tak, aby se skryl obsah, který odpovídá klíčovým frázím
+  <string name="morphe_hide_keyword_content_about_summary">"Domů / Přihlášení / Vyhledávání / Komentáře jsou filtrovány, aby se skryl obsah, který odpovídá klíčovým frázím
 
 Omezení:
 • Krátká videa nelze skrýt podle názvu kanálu
-• Některé komponenty uživatelského rozhraní nemusí být skryty
-• Hledání klíčového slova nemusí zobrazit žádné výsledky"</string>
+• Některé prvky uživatelského rozhraní nemusí být skryty
+• Vyhledávání klíčového slova nemusí zobrazit žádné výsledky"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Shoda celých slov</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Ohraničení klíčového slova/fráze dvojitými uvozovkami zabrání částečným shodám s názvy videí a názvy kanálů&lt;br&gt;&lt;br&gt;Například,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; skryje video: &lt;b&gt;Jak AI funguje?&lt;/b&gt;&lt;br&gt;ale neskryje: &lt;b&gt;Co znamená fair use?&lt;/b&gt;</string>
@@ -470,6 +471,8 @@ Poznámka: Pokud není povolena možnost \"Spoof video streams\", povolení tét
   <string name="morphe_hide_stop_ads_button_title">Skrýt tlačítko \'Zastavit reklamy\'</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Skrýt tlačítko Komentáře</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Skrýt tlačítko Připojit</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Skrýt tlačítko Nahlásit</string>
@@ -494,6 +497,7 @@ Poznámka: Pokud není povolena možnost \"Spoof video streams\", povolení tét
   <string name="morphe_hide_shop_button_title">Skrýt tlačítko Obchod</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Skrývá kontextové informační zprávy v sekci komentářů</string>
+  <string name="morphe_hide_more_button_title">Skrýt tlačítko Více</string>
   <string name="morphe_fullscreen_buttons">Tlačítka v režimu celé obrazovky</string>
   <string name="morphe_hide_quick_actions_title">Skrýt panel akcí</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Skrývá náhled komentáře pod videem před otevřením celé sekce komentářů</string>
@@ -579,6 +583,7 @@ Pro přístup k Nastavení povolte tlačítko Nastavení přes Obecné → Nást
   <string name="morphe_toolbar_screen_title">Nárazovka</string>
   <string name="morphe_toolbar_screen_summary">Skrýt menu Další nastavení / Více</string>
   <string name="morphe_hide_toolbar_cast_button_title">Skrýt tlačítko Odeslat</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Skrýt tlačítko chatu</string>
   <string name="morphe_hide_toolbar_create_button_title">Skrýt menu Smyčka videa</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Skrýt menu Režim Ambient</string>
   <string name="morphe_hide_toolbar_notification_button_title">Skrýt menu Stabilní hlasitost</string>
@@ -733,8 +738,17 @@ Nastavení → Přehrávání (nebo Automatické přehrávání) → Automaticky
   <string name="morphe_exit_fullscreen_entry_2">Na výšku</string>
   <string name="morphe_exit_fullscreen_entry_3">Na šířku</string>
   <string name="morphe_exit_fullscreen_entry_4">Na výšku i na šířku</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Otevřít videa v režimu na celou obrazovku na výšku</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesta pro celou obrazovku</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Gesta přehrávače pro vstup nebo výstup z režimu celé obrazovky</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Zakázat gesta při přejetí prstem nahoru v portrétním režimu</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Zakázat gesto přejetím dolů na výšku</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Zakázat gesto přejetím dolů na šířku</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Otevřít videa v režimu na celou obrazovku</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Vypnuto</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Na výšku</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Na šířku</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Průhlednost překrytí přehrávače</string>
   <string name="morphe_player_overlay_opacity_summary">Upravte úroveň průhlednosti (0 je průhledná, 100 je neprůhledná)</string>
@@ -1012,20 +1026,23 @@ Pokud neodesíláte zvýraznění, klepněte na Zrušit a označte druhou polohu
   <string name="morphe_change_form_factor_entry_4">Automobilový</string>
   <string name="morphe_change_form_factor_user_dialog_message">"Změny zahrnují:
 
-Rozložení pro tablet
-• Komunitní příspěvky jsou skryté
+Rozložení pro tablety
+• Příspěvky komunity jsou skryté
 • Nastavení přehrávání v kanálech není k dispozici
-• Tlačítko Remix a tlačítko Zvuk nejsou k dispozici ve Shorts
-• Akční lišta videa není složená
+• Tlačítko Remix a tlačítko Zvuk nejsou k dispozici v Shortech
+• Zobrazena je stará akční lišta videa, která není zmenšená
 
-Rozložení pro automobil
-• Kanál je uspořádán podle témat a kanálů
+Rozložení pro automobily
+• Kanál je organizován podle témat a kanálů
 • Nastavení přehrávání v kanálech není k dispozici
-• Tlačítko Remix a tlačítko Zvuk nejsou k dispozici ve Shorts
+• Tlačítko Remix a tlačítko Zvuk nejsou k dispozici v Shortech
 • Shorts se otevírají v běžném přehrávači
-• Akční lišta videa není složená"</string>
+• Zobrazena je stará akční lišta videa, která není zmenšená"</string>
   <string name="morphe_tablet_layout_in_player_title">Povolit rozložení tabletu v přehrávači</string>
-  <string name="morphe_tablet_layout_in_player_summary">Obnoví původní rozložení přehrávače</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Obnoví staré rozložení přehrávače
+
+Omezení: Pokud je vypnutá možnost \"Obnovit starou lištu nástrojů videa\", překrytí \"Další videa\" nemusí být k dispozici"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Napodobit verzi aplikace</string>
   <string name="morphe_spoof_app_version_summary">Triky serveru podvede, aby si myslel, že používáte starší verzi aplikace, a obnovil tak dědictví UI funkcí</string>
@@ -1283,4 +1300,9 @@ Přehrávání videa s AV1 se může sekat nebo vypadávat snímky."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Vynutit původní zvuk není k dispozici</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Varianta JavaScript pro přehrávač</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Zobrazit podvádění ve statistikách pro nadšence</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Obnovit starou akční lištu videa</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Opravuje problém se nezobrazovanými dislajky a nemožností skrýt tlačítka akcí videa.
+
+Omezení: Vrací se ke staršímu překryvu 'Další videa'"</string>
 </resources>

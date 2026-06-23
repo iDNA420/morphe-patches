@@ -234,6 +234,7 @@ Folgende Änderungen werden vorgenommen:
   <string name="morphe_hide_keyword_content_home_title">Home-Videos nach Schlüsselwörtern ausblenden</string>
   <string name="morphe_hide_keyword_content_search_title">Suchergebnisse mit Schlüsselwörtern ausblenden</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Abonnement-Videos mit Schlüsselwörtern ausblenden</string>
+  <string name="morphe_hide_keyword_content_comments_title">Kommentare nach Schlüsselwörtern ausblenden</string>
   <string name="morphe_hide_keyword_content_phrases_title">Zu versteckende Stichwörter</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Schlüsselwörter können beliebige Texte sein, die in Videotiteln oder Kanalnam
 
 Wörter mit Großbuchstaben in der Mitte müssen exakt übereinstimmen (z. B. iPhone, TikTok, LeBlanc)"</string>
   <string name="morphe_hide_keyword_content_about_title">Über Keyword-Filterung</string>
-  <string name="morphe_hide_keyword_content_about_summary">"Startseite / Abonnements / Suchergebnisse werden gefiltert, um Inhalte auszublenden, die mit Stichwortphrasen übereinstimmen
+  <string name="morphe_hide_keyword_content_about_summary">"Startseite / Abonnements / Suche / Kommentare werden gefiltert, um Inhalte auszublenden, die mit Schlüsselwortphrasen übereinstimmen
 
 Einschränkungen:
 • Shorts können nicht nach Kanalnamen ausgeblendet werden
 • Einige UI-Komponenten können nicht ausgeblendet werden
-• Die Suche nach einem Stichwort kann zu keinen Ergebnissen führen"</string>
+• Die Suche nach einem Schlüsselwort kann zu keinen Ergebnissen führen"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">Ganze Wörter abgleichen</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Durch das Umschließen mit doppelten Anführungszeichen wird verhindert, dass teilweise Videotitel und Kanalnamen&lt;br&gt;&lt;br&gt;Zum Beispiel&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; wird folgendes Video ausblenden: &lt;b&gt;Wie funktioniert AI?&lt;/b&gt;&lt;br&gt;aber folgendes nicht: &lt;b&gt;Was bedeutet Fair Use?&lt;/b&gt;</string>
@@ -470,6 +471,8 @@ Hinweis: Wenn „Videostreams spoofen“ nicht aktiviert ist, kann das Aktiviere
   <string name="morphe_hide_stop_ads_button_title">Werbefreigabe-Schaltfläche ausblenden</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">Kommentar-Button ausblenden</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">Verstecke Connect-Button</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">Melden-Schaltfläche ausblenden</string>
@@ -494,6 +497,7 @@ Hinweis: Wenn „Videostreams spoofen“ nicht aktiviert ist, kann das Aktiviere
   <string name="morphe_hide_shop_button_title">Shop-Button ausblenden</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">Mix-Schaltfläche ausblenden</string>
+  <string name="morphe_hide_more_button_title">Mehr-Button ausblenden</string>
   <string name="morphe_fullscreen_buttons">Vollbild-Buttons</string>
   <string name="morphe_hide_quick_actions_title">Aktionsleiste ausblenden</string>
   <string name="morphe_hide_quick_actions_ask_button_title">Frage-Button ausblenden</string>
@@ -579,6 +583,7 @@ Um auf Einstellungen zuzugreifen, aktivieren Sie die Einstellungen Schaltfläche
   <string name="morphe_toolbar_screen_title">Leiste</string>
   <string name="morphe_toolbar_screen_summary">Ambient-Modus-Menü ausblenden</string>
   <string name="morphe_hide_toolbar_cast_button_title">Cast-Button ausblenden</string>
+  <string name="morphe_hide_toolbar_chat_button_title">Chat-Button ausblenden</string>
   <string name="morphe_hide_toolbar_create_button_title">Erstellen-Button ausblenden</string>
   <string name="morphe_hide_toolbar_microphone_button_title">Wiedergabegeschwindigkeit-Menü ausblenden</string>
   <string name="morphe_hide_toolbar_notification_button_title">Lock Screen-Menü ausblenden</string>
@@ -733,8 +738,17 @@ Einstellungen → Wiedergabe (oder Automatische Wiedergabe) → Nächstes Video 
   <string name="morphe_exit_fullscreen_entry_2">Nur Hochformat</string>
   <string name="morphe_exit_fullscreen_entry_3">Nur Querformat</string>
   <string name="morphe_exit_fullscreen_entry_4">Hoch- und Querformat</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">Videos im Vollbild-Hochformat öffnen</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">Gesten für Vollbildansicht</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">Spielergesten zum Ein- oder Ausblenden des Vollbildmodus</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">Deaktivieren der Wischgeste nach oben im Hochformat</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Porträtmodus</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">Deaktivieren der Wischbewegung von oben nach unten im Landschaftsmodus</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">Videos im Vollbildmodus öffnen</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">Deaktiviert</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">Hochformat</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">Querformat</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">Spieler-Überlagerung Deckkraft</string>
   <string name="morphe_player_overlay_opacity_summary">Passen Sie die Transparenz an (0 ist transparent, 100 ist opak)</string>
@@ -1013,19 +1027,22 @@ Wenn Sie keine Markierung senden, tippen Sie auf Abbrechen und markieren Sie die
   <string name="morphe_change_form_factor_user_dialog_message">"Änderungen umfassen:
 
 Tablet-Layout
-• Community-Beiträge sind ausgeblendet
-• Wiedergabe in Feeds-Einstellungen ist nicht verfügbar
-• Remix-Taste und Sound-Taste sind in Shorts nicht verfügbar
-• Video-Aktionenleiste ist nicht zusammengeklappt
+• Community-Beiträge werden ausgeblendet
+• Wiedergabe in Feeds-Einstellung ist nicht verfügbar
+• Remix-Button und Sound-Button sind in Shorts nicht verfügbar
+• Nicht zusammengeklappte alte Video-Aktionsleiste wird angezeigt
 
 Automobil-Layout
 • Feed ist nach Themen und Kanälen organisiert
-• Wiedergabe in Feeds-Einstellungen ist nicht verfügbar
-• Remix-Taste und Sound-Taste sind in Shorts nicht verfügbar
-• Shorts öffnen im regulären Player
-• Video-Aktionenleiste ist nicht zusammengeklappt"</string>
+• Wiedergabe in Feeds-Einstellung ist nicht verfügbar
+• Remix-Button und Sound-Button sind in Shorts nicht verfügbar
+• Shorts werden im regulären Player geöffnet
+• Nicht zusammengeklappte alte Video-Aktionsleiste wird angezeigt"</string>
   <string name="morphe_tablet_layout_in_player_title">Tablet-Layout im Player aktivieren</string>
-  <string name="morphe_tablet_layout_in_player_summary">Stellt das alte Player-Layout wieder her</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"Stellt das alte Player-Layout wieder her
+
+Einschränkungen: Wenn \"Alte Video-Aktionsleiste wiederherstellen\" deaktiviert ist, ist die \"Weitere Videos\"-Überlagerung möglicherweise nicht verfügbar."</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">Spoof-App-Version</string>
   <string name="morphe_spoof_app_version_summary">Täuscht den Server dazu, dass Sie eine ältere App-Version verwenden, um Legacy-UI-Funktionen wiederherzustellen</string>
@@ -1283,4 +1300,9 @@ Die Videowiedergabe mit AV1 kann stottern oder Bilder überspringen."</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• Originalton erzwingen ist nicht verfügbar</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">Player-JavaScript-Variante</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">Fälschen in Statistiken für Nerds anzeigen</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">Alte Video-Aktionsleiste wiederherstellen</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"Behebt Probleme mit nicht angezeigten Dislikes und nicht ausblendbaren Video-Aktionsschaltflächen
+
+Einschränkungen: Kehrt zum alten Stil der \"Weitere Videos\"-Überlagerung zurück"</string>
 </resources>

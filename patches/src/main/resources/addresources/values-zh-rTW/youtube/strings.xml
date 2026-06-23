@@ -234,6 +234,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_home_title">依關鍵字隱藏首頁影片</string>
   <string name="morphe_hide_keyword_content_search_title">依關鍵字隱藏搜尋結果</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">依關鍵字隱藏訂閱內容影片</string>
+  <string name="morphe_hide_keyword_content_comments_title">隱藏包含關鍵字的留言</string>
   <string name="morphe_hide_keyword_content_phrases_title">要隱藏的關鍵字</string>
   <!-- For localization, it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
          This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
@@ -243,12 +244,12 @@ Second \"item\" text"</string>
 
 中間有大寫字母的詞語必須輸入完全相同的大小寫（例如：iPhone、TikTok、YouTube）"</string>
   <string name="morphe_hide_keyword_content_about_title">關於關鍵字篩選</string>
-  <string name="morphe_hide_keyword_content_about_summary">"首頁/訂閱/搜尋結果會根據篩選條件，隱藏包含關鍵字詞組的相關內容
+  <string name="morphe_hide_keyword_content_about_summary">"「首頁/訂閱/搜尋/留言」將會篩選內容，以隱藏符合關鍵字詞組的相關內容
 
-限制
-• Shorts 無法透過頻道名稱篩選隱藏
-• 某些使用者介面可能無法隱藏
-• 搜尋關鍵字可能顯示無結果"</string>
+限制：
+• 無法依頻道名稱隱藏 Shorts
+• 部分 UI 元件可能無法隱藏
+• 搜尋關鍵字可能無法顯示結果"</string>
   <string name="morphe_hide_keyword_content_about_whole_words_title">比對整個字詞</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">將關鍵字或詞組用雙引號括起來，可以防止影片標題和頻道名稱的部分相符&lt;br&gt;&lt;br&gt;例如：&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; 會隱藏影片：&lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;但不會隱藏：&lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
@@ -470,6 +471,8 @@ Second \"item\" text"</string>
   <string name="morphe_hide_stop_ads_button_title">隱藏「停止廣告」按鈕</string>
   <!-- Button does not have any text and is only shown as an icon, and only when the video information area is collapsed to a compact state. -->
   <string name="morphe_hide_comments_button_title">隱藏「留言」按鈕</string>
+  <!-- 'Connect' should be translated using the same localized wording YouTube displays for the button. -->
+  <string name="morphe_hide_connect_button_title">隱藏「連線」按鈕</string>
   <!-- 'Report' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears on live streamed videos. -->
   <string name="morphe_hide_report_button_title">隱藏舉報按鈕</string>
@@ -494,6 +497,7 @@ Second \"item\" text"</string>
   <string name="morphe_hide_shop_button_title">隱藏「商店」按鈕</string>
   <!-- 'Save' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="morphe_hide_save_button_title">隱藏「儲存」按鈕</string>
+  <string name="morphe_hide_more_button_title">隱藏「更多」按鈕</string>
   <string name="morphe_fullscreen_buttons">全螢幕模式按鈕</string>
   <string name="morphe_hide_quick_actions_title">隱藏動作列</string>
   <string name="morphe_hide_quick_actions_ask_button_title">隱藏「問」按鈕</string>
@@ -579,6 +583,7 @@ Second \"item\" text"</string>
   <string name="morphe_toolbar_screen_title">工具列</string>
   <string name="morphe_toolbar_screen_summary">選擇要在工具列中顯示哪些元件</string>
   <string name="morphe_hide_toolbar_cast_button_title">隱藏「投放」按鈕</string>
+  <string name="morphe_hide_toolbar_chat_button_title">隱藏聊天按鈕</string>
   <string name="morphe_hide_toolbar_create_button_title">隱藏「建立」按鈕</string>
   <string name="morphe_hide_toolbar_microphone_button_title">隱藏麥克風按鈕</string>
   <string name="morphe_hide_toolbar_notification_button_title">隱藏通知按鈕</string>
@@ -733,8 +738,17 @@ Second \"item\" text"</string>
   <string name="morphe_exit_fullscreen_entry_2">直立</string>
   <string name="morphe_exit_fullscreen_entry_3">橫向</string>
   <string name="morphe_exit_fullscreen_entry_4">直立和橫向</string>
-  <!-- layout.player.fullscreen.openVideosFullscreen -->
-  <string name="morphe_open_videos_fullscreen_portrait_title">以全螢幕開啟影片</string>
+  <!-- layout.player.fullscreen.disableFullscreenGesturesPatch -->
+  <string name="morphe_disable_fullscreen_gestures_title">全螢幕手勢</string>
+  <string name="morphe_disable_fullscreen_gestures_summary">使用手勢進入或退出全螢幕模式</string>
+  <string name="morphe_disable_fullscreen_pulled_up_gesture_title">停用向上滑動手勢</string>
+  <string name="morphe_disable_fullscreen_sliding_down_gesture_title">停用直立螢幕滑下勢態</string>
+  <string name="morphe_disable_fullscreen_dragged_down_gesture_title">停用橫向螢幕滑下勢態</string>
+  <!-- layout.player.fullscreen.openVideosFullscreenPatch -->
+  <string name="morphe_open_videos_fullscreen_title">以全螢幕模式開啟影片</string>
+  <string name="morphe_open_videos_fullscreen_entry_1">已停用</string>
+  <string name="morphe_open_videos_fullscreen_entry_2">直立</string>
+  <string name="morphe_open_videos_fullscreen_entry_3">橫向</string>
   <!-- layout.player.overlay.customPlayerOverlayOpacityPatch -->
   <string name="morphe_player_overlay_opacity_title">播放器覆蓋透明度</string>
   <string name="morphe_player_overlay_opacity_summary">調整疊加層的透明度（0 為透明，100 為不透明）</string>
@@ -1024,7 +1038,10 @@ Second \"item\" text"</string>
 • Shorts 在常規播放器中開啟
 • 影片動作欄未摺疊"</string>
   <string name="morphe_tablet_layout_in_player_title">在播放器中啟用平板版面配置</string>
-  <string name="morphe_tablet_layout_in_player_summary">還原舊版播放器版面配置</string>
+  <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
+  <string name="morphe_tablet_layout_in_player_summary">"還原舊版播放器配置
+
+限制：如果已關閉「還原舊版視訊動作列」，則可能無法使用「更多影片」疊加層。"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">偽裝應用程式版本</string>
   <string name="morphe_spoof_app_version_summary">欺騙伺服器，讓它以為您正在使用較舊的應用程式版本，以還原舊版 UI 功能</string>
@@ -1284,4 +1301,9 @@ AV1 視訊播放可能會卡頓或丟格。"</string>
   <string name="morphe_spoof_video_streams_about_no_force_original_audio">• 強制原始音訊不可用</string>
   <string name="morphe_spoof_video_streams_player_js_variant_title">播放器 JavaScript 變種</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">擴展直播 DVR 期間最長七天</string>
+  <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
+  <string name="morphe_restore_old_video_action_bar_title">還原舊版影片動作列</string>
+  <string name="morphe_restore_old_video_action_bar_summary">"修正無法顯示不喜歡以及無法隱藏影片動作按鈕
+
+限制：恢復到舊式「更多影片」疊加層"</string>
 </resources>
