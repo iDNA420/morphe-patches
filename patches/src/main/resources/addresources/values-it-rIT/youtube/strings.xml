@@ -116,6 +116,7 @@ I cambiamenti riguarderanno:
   <string name="morphe_hide_youtube_doodles_summary">Nasconde le animazioni stagionali e basate su eventi sul logo di YouTube</string>
   <string name="morphe_hide_youtube_doodles_user_dialog_message">Mostrare i Doodle di YouTube potrebbe impedire la visualizzazione degli header personalizzati.</string>
   <string name="morphe_hide_channel_bar_title">Nascondi barra del canale</string>
+  <string name="morphe_vot_tts_sample">Sono io, Mario. È ora di trasformarsi!</string>
   <string name="morphe_hide_channel_watermark_title">Nascondi la filigrana del canale</string>
   <string name="morphe_hide_crowdfunding_box_title">Nascondi il riquadro Raccolta fondi</string>
   <string name="morphe_hide_emergency_box_title">Nascondi riquadri di emergenza</string>

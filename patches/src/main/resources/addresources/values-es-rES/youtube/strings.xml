@@ -89,6 +89,7 @@ Los cambios incluyen:
   <string name="morphe_hide_latest_videos_button_summary">Oculta el banner azul de \"Vídeos recientes\" que aparece en la parte superior del feed Inicio</string>
   <string name="morphe_hide_mix_playlists_title">Ocultar listas de reproducción Mix</string>
   <string name="morphe_hide_movies_section_title">Ocultar sección de películas</string>
+  <string name="morphe_vot_tts_sample">¡Es la hora de metamorfosearse!</string>
   <!-- 'Notify me' should be translated using the same localized wording YouTube displays for the button.
           This button usually appears in the Subscriptions feed for future livestreams or unreleased videos. -->
   <string name="morphe_hide_notify_me_button_title">Ocultar botón \"Notificarme\"</string>
