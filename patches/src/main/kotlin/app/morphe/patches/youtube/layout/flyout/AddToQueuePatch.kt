@@ -194,7 +194,7 @@ val addToQueuePatch = bytecodePatch(
                     """
                 )
 
-                val charCheckIndex = it.instructionMatches[5].index
+                val charCheckIndex = it.instructionMatches[4].index
                 val enumClassRegister = it.instructionMatches[1].getInstruction<OneRegisterInstruction>().registerA
                 val charCheckRegister = getInstruction<OneRegisterInstruction>(charCheckIndex).registerA
                 val freeRegister = findFreeRegister(
@@ -203,8 +203,8 @@ val addToQueuePatch = bytecodePatch(
                     enumClassRegister
                 )
 
-                val enumIntField = it.instructionMatches[7].getInstruction<ReferenceInstruction>().reference
-                val enumMethodCall = it.instructionMatches[8].getInstruction<ReferenceInstruction>().reference
+                val enumIntField = it.instructionMatches[6].getInstruction<ReferenceInstruction>().reference
+                val enumMethodCall = it.instructionMatches[7].getInstruction<ReferenceInstruction>().reference
 
                 addInstructions(
                     charCheckIndex,
