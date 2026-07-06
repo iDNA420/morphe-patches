@@ -77,8 +77,6 @@ val miniplayerPatch = bytecodePatch(
         preferences += SwitchPreference("morphe_miniplayer_disable_resuming", summary = true)
         preferences += SwitchPreference("morphe_miniplayer_disable_drag_and_drop", summary = true)
         preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag", summary = true)
-        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag_playback", summary = true)
-        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_reposition", summary = true)
         preferences += SwitchPreference("morphe_miniplayer_disable_rounded_corners")
         preferences += SwitchPreference("morphe_miniplayer_hide_overlay_buttons")
         preferences += TextPreference("morphe_miniplayer_width_dip", inputType = InputType.NUMBER)
@@ -86,6 +84,8 @@ val miniplayerPatch = bytecodePatch(
             key = "morphe_miniplayer_opacity",
             tag = "app.morphe.extension.shared.settings.preference.SeekBarPreference",
         )
+        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag_playback", summary = true)
+        preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_reposition", summary = true)
 
         PreferenceScreen.PLAYER.addPreferences(
             PreferenceScreenPreference(
