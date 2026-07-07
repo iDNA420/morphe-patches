@@ -293,8 +293,8 @@ val miniplayerPatch = bytecodePatch(
         )
 
         Fingerprint(
-            definingClass = MiniplayerHorizontalDragPlaybackFingerprint
-                .instructionMatches[2].getMethodCalled().definingClass,
+            definingClass = MiniplayerHorizontalDragPlaybackFingerprint.instructionMatches[2]
+                .getMethodCalled().definingClass,
             name = "onAnimationEnd",
         ).method.addInstructionsWithLabels(
             0,

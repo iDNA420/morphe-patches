@@ -181,7 +181,8 @@ val lithoFilterPatch = bytecodePatch(
 
         // There's a method in the same class that gets the value of 'buttonViewModel.accessibilityText'.
         // As this class is abstract, we need to find another method that uses a method call.
-        val accessibilityTextFingerprint = Fingerprint(
+        // Find the method call that gets the value of 'buttonViewModel.accessibilityText'.
+        val accessibilityTextMethod = Fingerprint(
             returnType = "V",
             filters = listOf(
                 methodCall(
@@ -198,13 +199,9 @@ val lithoFilterPatch = bytecodePatch(
                 // 'public final synthetic' or 'public final bridge synthetic'.
                 AccessFlags.SYNTHETIC.isSet(method.accessFlags)
             }
-        )
+        ).instructionMatches.first().instruction.getReference<MethodReference>()!!
 
-        // Find the method call that gets the value of 'buttonViewModel.accessibilityText'.
-        val accessibilityTextMethod = accessibilityTextFingerprint.instructionMatches.first()
-            .instruction.getReference<MethodReference>()!!
-
-        val componentCreateFingerprint = Fingerprint(
+        Fingerprint(
             returnType = "L",
             filters = listOf(
                 opcode(Opcode.IF_EQZ),
@@ -216,9 +213,7 @@ val lithoFilterPatch = bytecodePatch(
                 string("Element missing correct type extension"),
                 string("Element missing type")
             )
-        )
-
-        componentCreateFingerprint.let {
+        ).let {
             it.method.apply {
                 val insertIndex = it.instructionMatches[2].index
                 val buttonViewModelIndex = it.instructionMatches[1].index

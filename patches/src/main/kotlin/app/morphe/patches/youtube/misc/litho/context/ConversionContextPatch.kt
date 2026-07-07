@@ -89,7 +89,7 @@ val conversionContextPatch = bytecodePatch(
             // in which case a helper method is added to the abstract class.
 
             // Since fields cannot be accessed directly in an abstract class, abstract methods are linked.
-            val conversionContextIdentifierFingerprint = Fingerprint(
+            val identifierMethodName = Fingerprint(
                 definingClass = conversionContextClassDef.type,
                 parameters = listOf(),
                 returnType = STRING_TYPE,
@@ -103,8 +103,9 @@ val conversionContextPatch = bytecodePatch(
                         location = MatchAfterImmediately()
                     )
                 )
-            )
-            val conversionContextStringBuilderFingerprint = Fingerprint(
+            ).method.name
+
+            val stringBuilderMethodName = Fingerprint(
                 definingClass = conversionContextClassDef.type,
                 parameters = listOf(),
                 returnType = STRING_BUILDER_TYPE,
@@ -118,10 +119,7 @@ val conversionContextPatch = bytecodePatch(
                         location = MatchAfterImmediately()
                     )
                 )
-            )
-
-            val stringBuilderMethodName = conversionContextStringBuilderFingerprint.method.name
-            val identifierMethodName = conversionContextIdentifierFingerprint.method.name
+            ).method.name
 
             conversionContextClassDef = mutableClassDefBy(conversionContextClassDef.superclass!!)
 
