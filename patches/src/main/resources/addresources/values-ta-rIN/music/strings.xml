@@ -29,6 +29,8 @@ Second \"item\" text"</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <!-- layout.buttons.hideButtonsPatch -->
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
   <!-- layout.startpage.changeStartPagePatch -->
   <!-- layout.compactheader.hideCategoryBarPatch -->
   <!-- layout.miniplayer.changeMiniplayerColorPatch -->

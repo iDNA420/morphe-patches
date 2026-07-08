@@ -108,6 +108,47 @@ YouTube Music 8.x – a keresztátmenet csak a 9.x és újabb verziókon fut."</
   <string name="morphe_music_hide_history_button_title">Előzmények gomb elrejtése</string>
   <string name="morphe_music_hide_notification_button_title">Értesítés gomb elrejtése</string>
   <string name="morphe_music_hide_search_button_title">Keresés gomb elrejtése</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Szövegpanelek</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Megosztás gomb elrejtése</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Fordítás gomb elrejtése</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Előugró menü</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Válassza ki, mely komponensek jelenjenek meg a lejátszó és a sorban lévő menükben</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">3 oszlopos komponens elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">A \"Tetszik\" és \"Nem tetszik\" gombok elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">\"Ízlés egyezés\" menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Rejtse el a \"Hozzáadás a \"Később hallgatni\" lejátszási listához\" menüt</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Rejtse el a \"Hozzáadás a sorhoz\" menüt</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Feliratok elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Lejálisták törlése menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">A sor elvetése menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Ne ajánld ezt a művészt menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Letöltés elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Lejálista szerkesztése menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Menj a zeneszámok albumához menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Menj a művészhez menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Menj az epizódhoz menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Menj a podcast-hoz menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Súgó menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Epizód lejátszottként jelölése menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Nem érdekel menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Rögzítés a gyorshíváshoz menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Következő lejátszás menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Minőség menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Eltávolítás a könyvtárból menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Eltávolítás a lejálistából menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Bejelentés elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Epizód mentése későbbre / Mentés a könyvtárba menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Mentés lejálistába menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Megosztás menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Kevert lejátszás menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Alvás időzítő menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Rádió indítása menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">A technikaiak statisztikái menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Feliratkozás menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Eltávolítás a gyorshívásból menü elrejtése</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Dal kreditjeinek megtekintése menü elrejtése</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Kezdőlap</string>
   <string name="morphe_change_start_page_entry_default">Alapértelmezett</string>

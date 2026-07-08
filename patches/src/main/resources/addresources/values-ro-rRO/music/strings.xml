@@ -108,6 +108,47 @@ YouTube Music 8.x — estomparea încrucișată funcționează doar pe 9.x și v
   <string name="morphe_music_hide_history_button_title">Ascunde butonul de istoric</string>
   <string name="morphe_music_hide_notification_button_title">Ascunde butonul de notificare</string>
   <string name="morphe_music_hide_search_button_title">Ascunde butonul de căutare</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Panou versuri</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Ascunde butonul Distribuie</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Ascunde butonul Traducere</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Meniu flyout</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Alegeți ce componente apar în meniurile flyout ale playerului și cozii.</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Ascunde componenta cu 3 coloane</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Ascunde butoanele \'Like\' și \'Dislike\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Ascunde meniul \'Potrivire gusturi\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Ascunde meniul \'Adaugă la lista de redare \'Ascultă mai târziu\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Ascunde meniul \'Adaugă la coadă\'</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Ascunde meniul \'Subtitrări\'</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Ascunde meniul \'Șterge lista de redare\'</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Ascunde meniul \'Elimină coada\'</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Ascunde meniul \'Nu recomanda acest artist\'</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Ascunde meniul \'Descărcare\'</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Ascunde meniul \'Editează lista de redare\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Ascunde meniul \'Accesează albumul\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Ascunde meniul \'Accesează artistul\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Ascunde meniul \'Accesează episodul\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Ascunde meniul \'Accesează podcastul\'</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Ascunde meniul \'Ajutor\'</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Ascunde meniul \'Marchează episodul ca redat\'</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Ascunde meniul \'Nu sunt interesat\'</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Ascunde meniul \'Adaugă în apelare rapidă\'</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Ascunde meniul \'Redă următorul\'</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Ascunde meniul \'Calitate\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Ascunde meniul \'Elimină din bibliotecă\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Ascunde meniul \'Elimină din lista de redare\'</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Ascunde meniul \'Raportează\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Ascunde meniul \'Salvează episodul pentru mai târziu\' / \'Salvează în bibliotecă\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Ascunde meniul \'Salvează în lista de redare\'</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Ascunde meniul \'Distribuie\'</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Ascunde meniul \'Redare aleatorie\'</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Ascunde meniul \'Temporizator de somn\'</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Ascunde meniul \'Pornește radioul\'</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Ascunde meniul \'Statistici pentru pasionați\'</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Ascunde meniul \'Abonează-te\'</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Ascunde meniul \'Elimină din apelare rapidă\'</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Ascunde meniul \'Vizualizează creditele melodiei\'</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Pagină de pornire</string>
   <string name="morphe_change_start_page_entry_default">Implicit</string>

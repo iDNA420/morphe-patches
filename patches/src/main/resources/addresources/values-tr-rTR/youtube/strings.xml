@@ -97,9 +97,19 @@ Değişiklikler şunları içerir:
   <string name="morphe_hide_surveys_title">Anketleri gizle</string>
   <string name="morphe_hide_surveys_summary">Akış öneri doğruluğuyla ilgili anketleri ve hatırlatmaları gizler</string>
   <string name="morphe_hide_ticket_shelf_title">Bilet rafını gizle</string>
+  <string name="morphe_hide_upload_time_title">Yüklenme zamanını gizle</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"Sınırlamalar:
+• Shorts rafları, kanal sayfaları ve arama sonuçları yine de yüklenme zamanını gösterebilir
+• Bu özellik otomotiv düzeniyle çalışmaz"</string>
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_video_recommendation_labels_title">Video öneri etiketlerini gizle</string>
   <string name="morphe_hide_video_recommendation_labels_summary">Arama sonuçlarındaki \'İnsanların izlediği diğer videolar\' ve \'Şunlar da hoşunuza gidebilir\' etiketlerini gizler</string>
+  <string name="morphe_hide_view_count_title">İzlenme sayısını gizle</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"Sınırlamalar:
+• Shorts rafları, kanal sayfaları ve arama sonuçları yine de görüntülenme sayısını gösterebilir
+• Bu özellik otomotiv düzeniyle çalışmaz"</string>
   <string name="morphe_hide_web_search_results_title">Web arama sonuçlarını gizle</string>
   <string name="morphe_hide_web_search_results_summary">Arama sonuçlarından \'Web\'den sonuçlar\' bölümünü gizler</string>
   <string name="morphe_hide_you_may_like_section_title">Aramadaki \'Hoşunuza gidebilecekler\' kısmını gizle</string>
@@ -158,11 +168,12 @@ Değişiklikler şunları içerir:
   <string name="morphe_hide_transcript_section_title">Transkript bölümünü gizle</string>
   <string name="morphe_hide_video_details_section_title">Video ayrıntıları bölümünü gizle</string>
   <string name="morphe_hide_filter_bar_screen_title">Filtreleme çubuğu</string>
-  <string name="morphe_hide_filter_bar_screen_summary">Kaydırılabilir kategori çiplerinin nerede gizleneceğini seçin</string>
-  <string name="morphe_hide_filter_bar_feed_in_feed_title">Akışta gizle</string>
-  <string name="morphe_hide_filter_bar_feed_in_related_videos_title">İlgili videolarda gizle</string>
-  <string name="morphe_hide_filter_bar_feed_in_search_title">Arama sonuçlarında gizle</string>
-  <string name="morphe_hide_filter_bar_feed_in_history_title">İzleme geçmişinde gizle</string>
+  <string name="morphe_hide_filter_bar_screen_summary">Kaydırılabilir filtre çubuğunun nerede gizleneceğini seçin</string>
+  <string name="morphe_hide_filter_bar_in_comments_title">Yorumlarda gizle</string>
+  <string name="morphe_hide_filter_bar_in_feed_title">Akışta gizle</string>
+  <string name="morphe_hide_filter_bar_in_related_videos_title">İlgili videolarda gizle</string>
+  <string name="morphe_hide_filter_bar_in_search_title">Arama sonuçlarında gizle</string>
+  <string name="morphe_hide_filter_bar_in_history_title">İzleme geçmişinde gizleCleLle</string>
   <string name="morphe_channel_screen_title">Kanal sayfası</string>
   <string name="morphe_channel_screen_summary">Kanal sayfasında hangi bileşenlerin görüneceğini seçin</string>
   <string name="morphe_hide_channel_tab_title">Kanal sekmesi filtresini etkinleştir</string>
@@ -199,30 +210,15 @@ Değişiklikler şunları içerir:
   <string name="morphe_hide_comments_community_guidelines_title">Topluluk kurallarını gizle</string>
   <string name="morphe_hide_comments_create_a_short_button_title">\'Short oluştur\' düğmesini gizle</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">Emoji ve Zaman damgası düğmelerini gizle</string>
+  <string name="morphe_hide_comments_filter_bar_options_title">Filtre çubuğu seçeneklerini gizle</string>
+  <string name="morphe_hide_comments_filter_bar_options_summary">\'En popüler\' ve \'En yeni\' dışındaki tüm filtre çubuğu seçeneklerini gizler</string>
   <string name="morphe_hide_comments_info_button_title">Bilgi düğmesini gizle</string>
   <string name="morphe_hide_comments_live_chat_donators_bar_title">Canlı sohbet bağışçıları çubuğunu gizle</string>
   <string name="morphe_hide_comments_preview_comment_title">Ön izlenen yorumu gizle</string>
   <string name="morphe_hide_comments_preview_comment_summary">Tam yorumlar bölümünü açmadan önce videonun altındaki yorum ön izlemesini gizler</string>
   <string name="morphe_hide_comments_thanks_button_title">Teşekkürler düğmesini gizle</string>
-  <string name="morphe_sanitize_comments_category_bar_title">Kategori çubuğunu temizle</string>
-  <string name="morphe_sanitize_comments_category_bar_summary">\'En popüler\' ve \'En yeni\' dışındaki tüm yorum sıralama seçeneklerini gizler</string>
-  <string name="morphe_custom_filter_screen_title">Özel filtre</string>
-  <string name="morphe_custom_filter_screen_summary">Herhangi bir bileşeni gizlemek için özel filtreler yapılandırın</string>
-  <string name="morphe_custom_filter_title">Özel filtreyi etkinleştir</string>
-  <string name="morphe_custom_filter_strings_title">Özel filtre</string>
-  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
-  <string name="morphe_custom_filter_strings_summary">Filtrelenecek bileşen yolu oluşturucu dizelerinin yeni satırlarla ayrılmış listesi</string>
-  <string name="morphe_custom_filter_toast_invalid_syntax">Geçersiz özel filtre: %s</string>
-  <string name="morphe_hide_view_count_title">İzlenme sayısını gizle</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
-  <string name="morphe_hide_view_count_summary">"Sınırlamalar:
-• Shorts rafları, kanal sayfaları ve arama sonuçları yine de görüntülenme sayısını gösterebilir
-• Bu özellik otomotiv düzeniyle çalışmaz"</string>
-  <string name="morphe_hide_upload_time_title">Yüklenme zamanını gizle</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
-  <string name="morphe_hide_upload_time_summary">"Sınırlamalar:
-• Shorts rafları, kanal sayfaları ve arama sonuçları yine de yüklenme zamanını gösterebilir
-• Bu özellik otomotiv düzeniyle çalışmaz"</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_title">Öne çıkan arama bağlantılarını düzenle</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_summary">Öne çıkan arama bağlantılarını düzenler, yalnızca orijinal düz metni bırakır</string>
   <string name="morphe_hide_keyword_content_screen_title">Anahtar kelime filtresi</string>
   <string name="morphe_hide_keyword_content_screen_summary">Akışta ve aramada videoları gizlemek için belirli kelimeler veya ifadeler seçin</string>
   <string name="morphe_hide_keyword_content_home_title">Ana sayfadaki videoları anahtar kelimelerle gizle</string>
@@ -1098,7 +1094,7 @@ Sınırlamalar:
   <!-- video.quality.prioritizeVideoQualityPatch -->
   <string name="morphe_prioritize_video_quality_title">Video kalitesini öncelikle</string>
   <string name="morphe_prioritize_video_quality_summary">Kodek verimliliğinden ziyade en yüksek video kalitesine öncelik verir</string>
-  <!-- misc.fix.playback.spoofVideoStreamsPatch -->
+  <!-- misc.spoof.spoofVideoStreamsPatch -->
   <string name="morphe_spoof_video_streams_av1_title">Android VR AV1\'e izin ver</string>
   <string name="morphe_spoof_video_streams_av1_summary">Android VR istemcisi kullanılırken yazılımsal AV1 kod çözmeye izin verir</string>
   <string name="morphe_spoof_video_streams_av1_user_dialog_message">"Bu ayarı etkinleştirmek yazılım tabanlı AV1 kod çözmeyi kullanabilir.

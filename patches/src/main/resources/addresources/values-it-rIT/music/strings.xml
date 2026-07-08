@@ -108,6 +108,47 @@ YouTube Music 8.x: il crossfade funziona solo su 9.x e versioni successive"</str
   <string name="morphe_music_hide_history_button_title">Nascondi pulsante cronologia</string>
   <string name="morphe_music_hide_notification_button_title">Nascondi pulsante notifica</string>
   <string name="morphe_music_hide_search_button_title">Nascondi pulsante ricerca</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Pannello testi</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Nascondi il pulsante di condivisione dei testi</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Nascondi il pulsante di traduzione dei testi</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Menù a comparsa</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Scegli quali componenti mostrare nei menù del lettore e della coda</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Nascondi componente a 3 colonne</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Nascondi i pulsanti \'Mi piace\' e \'Non mi piace\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Nascondi il menù \'Corrispondenza di gusti\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Nascondi il menù \'Aggiungi alla playlist \'Ascolta più tardi\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Nascondi il menù \'Aggiungi alla coda\'</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Nascondi il menù \'Sottotitoli\'</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Nascondi il menù \'Elimina playlist\'</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Nascondi il menù \'Ignora coda\'</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Nascondi il menù \'Non consigliare questo artista\'</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Nascondi il menù \'Scarica\'</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Nascondi il menù \'Modifica playlist\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Nascondi il menù \'Vai all\'album\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Nascondi il menù \'Vai all\'artista\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Nascondi il menù \'Vai all\'episodio\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Nascondi il menù \'Vai al podcast\'</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Nascondi il menù \'Aiuto\'</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Nascondi il menù \'Segna l\'episodio come ascoltato\'</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Nascondi il menù \'Non interessato\'</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Nascondi il menù \'Aggiungi al quadrante rapido\'</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Nascondi il menù \'Riproduci successivo\'</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Nascondi il menù \'Qualità\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Nascondi il menù \'Rimuovi dalla libreria\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Nascondi il menù \'Rimuovi dalla playlist\'</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Nascondi il menù \'Segnala\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Nascondi il menù \'Salva episodio per dopo\' / \'Salva nella libreria\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Nascondi il menù \'Salva nella playlist\'</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Nascondi il menù \'Condividi\'</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Nascondi il menù \'Riproduzione casuale\'</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Nascondi il menù \'Timer di sospensione\'</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Nascondi il menù \'Avvia radio\'</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Nascondi il menù \'Statistiche per appassionati\'</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Nascondi il menù \'Iscriviti\'</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Nascondi il menù \'Rimuovi dal quadrante rapido\'</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Nascondi il menù \'Visualizza crediti della canzone\'</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Pagina iniziale</string>
   <string name="morphe_change_start_page_entry_default">Predefinito</string>

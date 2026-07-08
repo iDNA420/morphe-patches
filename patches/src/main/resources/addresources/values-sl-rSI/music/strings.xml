@@ -108,6 +108,47 @@ YouTube Music 8.x – prehod deluje samo v 9.x in novejših različicah."</strin
   <string name="morphe_music_hide_history_button_title">Skrij gumb zgodovine</string>
   <string name="morphe_music_hide_notification_button_title">Skrij gumb obvestila</string>
   <string name="morphe_music_hide_search_button_title">Skrij gumb za iskanje</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Plošč plošč besedil</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Skrij gumb za deljenje besedila</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Skrij gumb za prevajanje besedila</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Izpovedni meni</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Izberite, kateri elementi se bodo prikazali v menijih predvajalnika in vrste čakalnice</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Skrij 3-stolpčni komponento</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Skrij gumbe \'Všeč\' in \'Ni všeč\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Skrij meni \'Ujemanje okusa\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Skrij \'Dodaj na seznam poslušanja\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Skrij \'Dodaj v vrsto\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Skrij \'Podnapisi\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Skrij \'Izbriši predvajalni seznam\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Skrij \'Zavrni vrsto\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Skrij \'Ne priporočaj tega izvajalca\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Skrij \'Prenos\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Skrij \'Uredi predvajalni seznam\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Skrij \'Pojdi na album\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Skrij \'Pojdi na izvajalca\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Skrij \'Pojdi na epizodo\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Skrij \'Pojdi na posnetek\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Skrij \'Pomoč\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Skrij \'Označite epizodo kot predvajano\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Skrij \'Me ni zanimalo\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Skrij \'Prilepi na hitri izbor\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Skrij \'Predvajaj naslednje\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Skrij \'Kakovost\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Skrij \'Odstrani iz knjižnice\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Skrij \'Odstrani iz predvajalnega seznama\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Skrij \'Pritožba\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Skrij \'Shrani epizodo za kasneje\' / \'Shrani v knjižnico\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Skrij \'Shrani v predvajalni seznam\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Skrij \'Deli\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Skrij \'Naključni predvajalnik\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Skrij \'Časovač mirovanja\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Skrij \'Začni radio\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Skrij \'Statistika za nerdje\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Skrij \'Naroči se\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Skrij \'Odstrani s hitrega izbira\' meni</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Skrij \'Oglej si avtorje skladbe\' meni</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Začetni zaslon</string>
   <string name="morphe_change_start_page_entry_default">Privzeto</string>

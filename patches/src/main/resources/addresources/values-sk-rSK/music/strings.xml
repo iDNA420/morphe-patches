@@ -108,6 +108,47 @@ YouTube Music 8.x – crossfade funguje iba vo verzii 9.x a novších"</string>
   <string name="morphe_music_hide_history_button_title">Skryť tlačidlo histórie</string>
   <string name="morphe_music_hide_notification_button_title">Skryť tlačidlo upozornení</string>
   <string name="morphe_music_hide_search_button_title">Skryť tlačidlo vyhľadávania</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Panel s textom piesne</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Skryť tlačidlo zdieľať</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Skryť tlačidlo prekladu</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Rozbaľovacie menu</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Vyberte, ktoré komponenty sa zobrazia v menu prehrávača a fronty</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Skryť 3-stĺpcovú komponentu</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Skryť tlačidlá \'Páči sa mi\' a \'Nepáči sa mi\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Skryť menu \'Zhoda chutí\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Skryť položku menu \'Pridať do zoznamu \'Počúvať neskôr\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Skryť položku menu \'Pridať do fronty\'</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Skryť menu \'Titulky\'</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Skryť menu \'Odstrániť zoznam skladieb\'</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Skryť menu \'Odmietnuť front\'</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Skryť menu \'Odporučiť tohto interpreta\'</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Skryť menu \'Stiahnuť\'</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Skryť menu \'Upraviť zoznam skladieb\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Skryť menu \'Prejsť na album\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Skryť menu \'Prejsť na interpreta\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Skryť menu \'Prejsť na epizódu\'</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Skryť menu \'Prejsť na podcast\'</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Skryť menu \'Pomoc\'</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Skryť menu \'Označiť epizódu ako prehranú\'</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Skryť menu \'Nezaujíma ma\'</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Skryť menu \'Připnout na rychlú voľbu\'</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Skryť menu \'Prehrať ďalej\'</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Skryť menu \'Kvalita\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Skryť menu \'Odstrániť z knižnice\'</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Skryť menu \'Odstrániť zo zoznamu skladieb\'</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Skryť menu \'Nahlásiť\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Skryť menu \'Uložiť epizódu na neskôr\' / \'Uložiť do knižnice\'</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Skryť menu \'Uložiť do zoznamu skladieb\'</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Skryť menu \'Zdieľať\'</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Skryť menu \'Náhodná hra\'</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Skryť menu \'Časovač vypnutia\'</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Skryť menu \'Spustiť rádio\'</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Skryť menu \'Štatistiky pre znalcov\'</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Skryť menu \'Prihlásiť sa k odberu\'</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Skryť menu \'Odstrániť z rýchlej voľby\'</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Skryť menu \'Zobraziť autorské práva skladby\'</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Úvodná stránka</string>
   <string name="morphe_change_start_page_entry_default">Predvolené</string>

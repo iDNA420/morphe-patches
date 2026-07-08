@@ -108,6 +108,47 @@ YouTube Music 8.x – hiệu ứng chuyển tiếp chỉ chạy trên 9.x trở 
   <string name="morphe_music_hide_history_button_title">Ẩn nút lịch sử</string>
   <string name="morphe_music_hide_notification_button_title">Ẩn nút thông báo</string>
   <string name="morphe_music_hide_search_button_title">Ẩn nút tìm kiếm</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Bảng lời nhạc</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Ẩn nút chia sẻ lời nhạc</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Ẩn nút dịch lời nhạc</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Menu tuỳ chọn</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Chọn những thành phần sẽ xuất hiện trong menu tùy chọn.</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Ẩn thành phần 3 cột</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Ẩn nút \'Thích\' và \'Không thích\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Ẩn menu \'Kết hợp khẩu vị\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Ẩn menu Thêm vào danh sách chờ trong Các tập để nghe sau</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Ẩn menu \'Thêm vào danh sách chờ\'</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Ẩn menu Phụ đề</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Ẩn menu Xoá danh sách phát</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Ẩn menu Loại khỏi danh sách chờ</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Ẩn menu Không đề xuất nghệ sĩ này</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Ẩn menu Tải xuống</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Ẩn menu Chỉnh sửa danh sách phát</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Ẩn menu Chuyển đến đĩa nhạc</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Ẩn menu Chuyển đến trang nghệ sĩ</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Ẩn mục Chuyển đến tập podcast</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Ẩn menu Chuyển đến podcast</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Ẩn menu Trợ giúp</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Ẩn menu Đánh dấu là đã phát</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Ẩn menu Không quan tâm</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Ẩn menu Ghim vào kệ Phát nhanh</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Ẩn menu Phát video tiếp theo</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Ẩn menu Chất lượng</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Ẩn menu Xóa khỏi thư viện</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Ẩn menu Xóa khỏi danh sách phát</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Ẩn menu Báo vi phạm</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Ẩn menu Lưu tập để xem sau / Lưu vào thư viện</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Ẩn menu Lưu vào danh sách phát</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Ẩn menu Chia sẻ</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Ẩn menu Phát ngẫu nhiên</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Ẩn menu Hẹn giờ ngủ</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Ẩn menu Bắt đầu radio</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Ẩn menu Thống kê chi tiết</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Ẩn menu Đăng ký</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Ẩn menu Bỏ ghim khỏi kệ Phát nhanh</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Ẩn menu Xem thông tin ghi công của bài hát</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Trang bắt đầu</string>
   <string name="morphe_change_start_page_entry_default">Mặc định</string>

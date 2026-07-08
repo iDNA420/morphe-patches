@@ -108,6 +108,47 @@ YouTube Music 8.x - crossfade werkt alleen op 9.x en nieuwer"</string>
   <string name="morphe_music_hide_history_button_title">Geschiedenisknop verbergen</string>
   <string name="morphe_music_hide_notification_button_title">Meldingsknop verbergen</string>
   <string name="morphe_music_hide_search_button_title">Zoekknop verbergen</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Tekstpaneel</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Verberg deelknop voor songteksten</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Verberg vertaalknop voor songteksten</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Uitklapmenu</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Kies welke componenten er in de speler en wachtrijmenu\'s verschijnen</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Verberg 3-kolomcomponent</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Verberg de knoppen \'Vind ik leuk\' en \'Vind ik niet leuk\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Verberg het menu \'Smaakovereenkomst\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Verberg \'Toevoegen aan \'Luister later\'\' playlist menu</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Verberg \'Toevoegen aan wachtrij\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Ondertitels verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Afspeellijst verwijderen</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Wachtrij sluiten</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Artiest niet aanraden</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Downloaden verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Afspeellijst bewerken</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Naar album gaan</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Naar artiest gaan</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Naar aflevering gaan</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Naar podcast gaan</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Help menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Aflevering markeren als afgespeeld</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Niet geïnteresseerd</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Vastzetten aan snelkiezer</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Volgende afspelen</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Kwaliteit menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Verwijderen uit bibliotheek</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Verwijderen uit afspeellijst</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Melden verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Opslaan voor later / Opslaan in bibliotheek</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Opslaan in afspeellijst</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Delen menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Willekeurig afspelen menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Slaaptimer verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Radiostart menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Stats for nerds menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Abonneren menu verbergen</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Loskoppelen van snelkiezer</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Song credits bekijken</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Startpagina</string>
   <string name="morphe_change_start_page_entry_default">Standaard</string>

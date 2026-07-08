@@ -108,6 +108,47 @@ YouTube Music 8.x — vervaag loop slegs op 9.x en nuwer"</string>
   <string name="morphe_music_hide_history_button_title">Versteek geskiedenis-knoppie</string>
   <string name="morphe_music_hide_notification_button_title">Versteek kennisgewing-knoppie</string>
   <string name="morphe_music_hide_search_button_title">Versteek soek-knoppie</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Lirieke paneel</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Verberg lirieke deel knoppie</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Verberg lirieke vertaal knoppie</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Vloumenu</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Kies watter komponente in die speler- en tou-vloumenus verskyn</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Verberg 3-kolom komponent</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Verberg \'Like\' en \'Dislike\' knoppe</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Verberg \'Taste match\' spyskaart</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Verberg \'Voeg by \'Later luister\' snlys\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Verberg \'Voeg by tou\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Versteek \'Captions\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Versteek \'Playlist verwyder\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Versteek \'Waglys prys\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Versteek \'Moenie hierdie kunstenaar aanbeveel nie\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Versteek \'Aflaai\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Versteek \'Playlist wysig\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Versteek \'Gaan na album\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Versteek \'Gaan na kunstenaar\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Versteek \'Gaan na episode\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Versteek \'Gaan na podcast\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Versteek \'Help\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Versteek \'Merk episode as gespeel\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Versteek \'Nie belangestel nie\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Versteek \'Spyskaart vaspen aan spoedskakel\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Versteek \'Speel volgende\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Versteek \'Kwaliteit\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Versteek \'Verwyder van biblioteek\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Versteek \'Verwyder van playlist\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Versteek \'Rapporteer\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Versteek \'Spaark episode vir later\' / \'Spaark na biblioteek\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Versteek \'Spaark na playlist\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Versteek \'Deel\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Versteek \'Willekeurige afspeellys\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Versteek \'Slaaptimer\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Versteek \'Begin radio\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Versteek \'Statistieke vir nerds\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Versteek \'Abonneer\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Versteek \'Ontkoppel van spoedskakel\' menu</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Versteek \'Besigtig liedjie-krediete\' menu</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Beginblad</string>
   <string name="morphe_change_start_page_entry_default">Verstek</string>

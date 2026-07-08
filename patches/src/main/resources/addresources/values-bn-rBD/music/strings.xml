@@ -108,6 +108,47 @@ Second \"item\" text"</string>
   <string name="morphe_music_hide_history_button_title">ইতিহাস বোতাম লুকান</string>
   <string name="morphe_music_hide_notification_button_title">বিজ্ঞপ্তি বাটন লুকান</string>
   <string name="morphe_music_hide_search_button_title">অনুসন্ধান বাটন লুকান</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">লিরিক্স প্যানেল</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">লাইভ চ্যাট বাটনটি লুকান</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">লিরিক্স অনুবাদ বাটন লুকান</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">ফ্লাইআউট মেনু</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">প্লেয়ার এবং সারি ফ্লাইআউট মেনুতে কোন উপাদানগুলি প্রদর্শিত হবে তা নির্বাচন করুন</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">3-কলাম উপাদানটি লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">\'Like\' এবং \'Dislike\' বোতামগুলি লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">\'Taste match\' মেনু লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">\'শুনুন\'-এর প্লেলিস্টে যোগ করুন মেনু লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">\'সারিতে যোগ করুন\' মেনু লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">ক্যাপশন লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">প্লেলিস্ট হাইড করুন</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">কুইউ খারিজ করুন</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">এই শিল্পীকে সুপারিশ করা বন্ধ করুন</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">ডাউনলোডগুলো হাইড করাও</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">প্লেলিস্ট সম্পাদনা করুন</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">অ্যালবামে যান</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">শিল্পী তে যান</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">এপিসোডে যান</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">পডকাস্টে যান</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">সাহায্য মেনু লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">এপিসোডটি বাজানো হয়েছে হিসাবে চিহ্নিত করুন</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">আগ্রহ নেই</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">স্পীড ডায়ালে পিন করুন</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">পরবর্তী প্লে করুন</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">ভিডিও গুণমান মেনু লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">লাইব্রেরি থেকে সরান</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">প্লেলিস্ট থেকে সরান</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">রিপোর্ট লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">পরে দেখার জন্য সেভ করুন / লাইব্রেরিতে সেভ করুন</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">প্লেলিস্টে সেভ করুন</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">শেয়ার করুন</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">শাফেল প্লে করুন</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">স্লিপ টাইমার লুকান</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">রেডিও শুরু করুন</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">নার্ডদের জন্য পরিসংখ্যান</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">সাবস্ক্রাইব করুন</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">স্পীড ডায়াল থেকে আনপিন করুন</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">গানের ক্রেডিট দেখুন</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">শুরুর পৃষ্ঠা</string>
   <string name="morphe_change_start_page_entry_default">পূর্ব-নির্ধারিত</string>

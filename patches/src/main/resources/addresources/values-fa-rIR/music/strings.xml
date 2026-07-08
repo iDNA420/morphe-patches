@@ -36,6 +36,8 @@ Second \"item\" text"</string>
   <string name="morphe_music_play_permanent_repeat_title">فعال سازی تکرار دائمی</string>
   <!-- layout.buttons.hideButtonsPatch -->
   <string name="morphe_music_hide_cast_button_title">دکمه مخفی کردن کست</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
   <!-- layout.startpage.changeStartPagePatch -->
   <!-- layout.compactheader.hideCategoryBarPatch -->
   <!-- layout.miniplayer.changeMiniplayerColorPatch -->

@@ -160,4 +160,12 @@ Second \"item\" text"</string>
 這有助於在建立自訂篩選器時識別元件。
 
 然而，啟用這項功能也會記錄部分使用者資料，例如你的 IP 位址。"</string>
+  <!-- Custom filter -->
+  <string name="morphe_custom_filter_screen_title">自訂篩選器</string>
+  <string name="morphe_custom_filter_screen_summary">設定自訂篩選器以隱藏任何元件</string>
+  <string name="morphe_custom_filter_title">啟用自訂篩選器</string>
+  <string name="morphe_custom_filter_strings_title">自訂篩選器</string>
+  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
+  <string name="morphe_custom_filter_strings_summary">以換行符號分隔的元件路徑建構器字串清單，用於篩選</string>
+  <string name="morphe_custom_filter_toast_invalid_syntax">無效的自訂篩選器：%s</string>
 </resources>

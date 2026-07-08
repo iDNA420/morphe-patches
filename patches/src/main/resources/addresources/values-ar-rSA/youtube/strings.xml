@@ -97,9 +97,19 @@ Second \"item\" text"</string>
   <string name="morphe_hide_surveys_title">إخفاء الاستطلاعات</string>
   <string name="morphe_hide_surveys_summary">إخفاء استطلاعات الرأي والتنبيهات حول دقّة توصية الخلاصة</string>
   <string name="morphe_hide_ticket_shelf_title">إخفاء رف التذاكر</string>
+  <string name="morphe_hide_upload_time_title">إخفاء وقت التحميل</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"القيود:
+• قد تظل أرفف Shorts، صفحات القناة، ونتائج البحث تُظهر أوقات التحميل
+• لا تعمل مع تخطيط Automotive"</string>
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_video_recommendation_labels_title">إخفاء تسميات توصيات الفيديو</string>
   <string name="morphe_hide_video_recommendation_labels_summary">يخفي علامات \'شاهد المستخدمون أيضًا\' و \'قد يعجبك أيضًا\' في نتائج البحث</string>
+  <string name="morphe_hide_view_count_title">إخفاء عدد المشاهدات</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"القيود:
+• قد تظل أرفف Shorts، صفحات القناة، ونتائج البحث تُظهر أعداد المشاهدات
+• لا تعمل مع تخطيط Automotive"</string>
   <string name="morphe_hide_web_search_results_title">إخفاء نتائج بحث الويب</string>
   <string name="morphe_hide_web_search_results_summary">يخفي قسم \'النتائج من الويب\' من نتائج البحث</string>
   <string name="morphe_hide_you_may_like_section_title">إخفاء قسم \'قد يعجبك\'</string>
@@ -158,11 +168,12 @@ Second \"item\" text"</string>
   <string name="morphe_hide_transcript_section_title">إخفاء قسم النص</string>
   <string name="morphe_hide_video_details_section_title">إخفاء قسم \'تفاصيل الفيديو\'</string>
   <string name="morphe_hide_filter_bar_screen_title">شريط الفئة</string>
-  <string name="morphe_hide_filter_bar_screen_summary">اختر أين يتم إخفاء شريط الفئة القابل للتمرير</string>
-  <string name="morphe_hide_filter_bar_feed_in_feed_title">إخفاء في الخلاصات</string>
-  <string name="morphe_hide_filter_bar_feed_in_related_videos_title">إخفاء في الفيديوهات ذات الصلة</string>
-  <string name="morphe_hide_filter_bar_feed_in_search_title">إخفاء في نتائج البحث</string>
-  <string name="morphe_hide_filter_bar_feed_in_history_title">إخفاء في السجلّ</string>
+  <string name="morphe_hide_filter_bar_screen_summary">اختر مكان إخفاء شريط التصفية المتحرك</string>
+  <string name="morphe_hide_filter_bar_in_comments_title">إخفاء في التعليقات</string>
+  <string name="morphe_hide_filter_bar_in_feed_title">إخفاء في الخلاصات</string>
+  <string name="morphe_hide_filter_bar_in_related_videos_title">إخفاء في الفيديوهات ذات الصلة</string>
+  <string name="morphe_hide_filter_bar_in_search_title">إخفاء في نتائج البحث</string>
+  <string name="morphe_hide_filter_bar_in_history_title">إخفاء في السجلّ</string>
   <string name="morphe_channel_screen_title">صفحة القناة</string>
   <string name="morphe_channel_screen_summary">اختر المكونات التي تظهر في صفحة القناة</string>
   <string name="morphe_hide_channel_tab_title">تمكين تصفية علامة تبويب القناة</string>
@@ -199,30 +210,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_comments_community_guidelines_title">إخفاء إرشادات المجتمع</string>
   <string name="morphe_hide_comments_create_a_short_button_title">إخفاء زر \'إنشاء Short\'</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">إخفاء أزرار الرموز التعبيرية والطابع الزمني</string>
+  <string name="morphe_hide_comments_filter_bar_options_title">إخفاء خيارات شريط التصفية</string>
+  <string name="morphe_hide_comments_filter_bar_options_summary">يخفي جميع خيارات فرز التعليقات باستثناء ‘الأهم‘ و ‘أحدث التعليقات‘</string>
   <string name="morphe_hide_comments_info_button_title">إخفاء زر المعلومات</string>
   <string name="morphe_hide_comments_live_chat_donators_bar_title">إخفاء شريط مُتبرِّعي المحادثة المباشرة</string>
   <string name="morphe_hide_comments_preview_comment_title">إخفاء تعليق المعاينة</string>
   <string name="morphe_hide_comments_preview_comment_summary">يخفي تعليق المعاينة أسفل الفيديو قبل فتح قسم التعليقات الكامل</string>
   <string name="morphe_hide_comments_thanks_button_title">إخفاء زر شكرًا</string>
-  <string name="morphe_sanitize_comments_category_bar_title">تنظيف شريط الفئات</string>
-  <string name="morphe_sanitize_comments_category_bar_summary">يخفي جميع خيارات فرز التعليقات باستثناء ‘الأهم‘ و ‘أحدث التعليقات‘</string>
-  <string name="morphe_custom_filter_screen_title">فلتر مخصص</string>
-  <string name="morphe_custom_filter_screen_summary">تكوين فلاتر مخصصة لإخفاء أي مكون</string>
-  <string name="morphe_custom_filter_title">تمكين الفلتر المخصص</string>
-  <string name="morphe_custom_filter_strings_title">فلتر مخصص</string>
-  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
-  <string name="morphe_custom_filter_strings_summary">قائمة سلاسل منشئ مسار المكونات المراد تصفيتها مفصولة بسطر جديد</string>
-  <string name="morphe_custom_filter_toast_invalid_syntax">فلتر مخصص غير صالح: %s</string>
-  <string name="morphe_hide_view_count_title">إخفاء عدد المشاهدات</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
-  <string name="morphe_hide_view_count_summary">"القيود:
-• قد تظل أرفف Shorts، صفحات القنوات، ونتائج البحث تُظهر أعداد المشاهدات
-• هذه الميزة لا تعمل مع تخطيط Automotive"</string>
-  <string name="morphe_hide_upload_time_title">إخفاء وقت التحميل</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
-  <string name="morphe_hide_upload_time_summary">"القيود:
-• قد تظل أرفف Shorts، صفحات القنوات، ونتائج البحث تُظهر أوقات التحميل
-• هذه الميزة لا تعمل مع تخطيط Automotive"</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_title">تنظيف روابط البحث المميزة</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_summary">ينظف روابط البحث المميزة، ويترك فقط النص الأصلي العادي</string>
   <string name="morphe_hide_keyword_content_screen_title">تصفية الكلمات المفتاحية</string>
   <string name="morphe_hide_keyword_content_screen_summary">اختر كلمات أو عبارات محددة لإخفاء الفيديوهات في الخلاصات ونتائج البحث</string>
   <string name="morphe_hide_keyword_content_home_title">إخفاء فيديوهات الصفحة الرئيسية بواسطة الكلمات المفتاحية</string>
@@ -1103,7 +1099,7 @@ Mistral Nemo هو الخيار الأرخص، بينما توفر Gemma 4 أعل
   <!-- video.quality.prioritizeVideoQualityPatch -->
   <string name="morphe_prioritize_video_quality_title">إعطاء الأولوية لجودة فيديو</string>
   <string name="morphe_prioritize_video_quality_summary">يعطي الأولوية لأعلى جودة فيديو متاحة على كفاءة الترميز</string>
-  <!-- misc.fix.playback.spoofVideoStreamsPatch -->
+  <!-- misc.spoof.spoofVideoStreamsPatch -->
   <string name="morphe_spoof_video_streams_av1_title">السماح بـ Android VR AV1</string>
   <string name="morphe_spoof_video_streams_av1_summary">يسمح بفك ترميز AV1 برمجيًا عند استخدام العميل Android VR</string>
   <string name="morphe_spoof_video_streams_av1_user_dialog_message">"قد يؤدي تمكين هذا الإعداد إلى استخدام فك تشفير AV1 البرمجي.
@@ -1123,7 +1119,7 @@ Mistral Nemo هو الخيار الأرخص، بينما توفر Gemma 4 أعل
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">عرض التمويه في إحصاءات تقنية</string>
   <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
   <string name="morphe_restore_old_video_action_bar_title">استعادة شريط إجراءات الفيديو القديم</string>
-  <string name="morphe_restore_old_video_action_bar_summary">"إصلاح عدم ظهور الإعجابات وعدم القدرة على إخفاء أزرار إجراءات الفيديو
+  <string name="morphe_restore_old_video_action_bar_summary">"يُصلح عدم ظهور لم يعجبني وعدم إمكانية إخفاء أزرار إجراءات الفيديو
 
 القيود: يعود إلى نمط 'المزيد من الفيديوهات' القديم"</string>
 </resources>

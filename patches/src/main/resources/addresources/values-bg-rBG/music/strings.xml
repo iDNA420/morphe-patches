@@ -108,6 +108,47 @@ YouTube Music 8.x — кросфейдът работи само в 9.x и по-
   <string name="morphe_music_hide_history_button_title">Скрийте бутона \"История\"</string>
   <string name="morphe_music_hide_notification_button_title">Бутон за Известия</string>
   <string name="morphe_music_hide_search_button_title">Скриване на бутона за Търсене</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Панел с текстове</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Скриване на бутона за споделяне на текст</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Скриване на бутона за превод на текст</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Изскачащо меню</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Изберете кои компоненти да се показват в менютата на плейъра и опашката</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Скрий 3-колонен компонент</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Скрий бутоните \'Харесвам\' и \'Не харесвам\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Скрий меню \'Съответствие във вкуса\'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Скрий меню \"Добавяне към плейлиста \'Слушайте по-късно\'\"</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Скрий меню \"Добавяне към опашката\"</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Скрий меню \'Надписи\'</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Скрий меню \"Изтрий плейлист\"</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Скрий меню \"Затвори опашката\"</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Скрий меню \'Не препоръчвай този изпълнител\'</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Скрий менюто \"Изтегляне\"</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Скрий меню \"Редактиране на плейлист\"</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Скрий менюто \"Отиди към албум\"</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Скрий менюто \"Отиди към изпълнител\"</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Скрий менюто \"Отиди към епизод\"</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Скрий менюто \"Отиди към подкаст\"</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Скрий менюто \"Помощ\"</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Скрий менюто \"Маркирай епизода като изслушан\"</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Скрий менюто \"Не ме интересува\"</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Скрий менюто \"Закачи към бърз набор\"</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Скрий менюто \"Следващ\"</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Скрий менюто \"Качество\"</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Скрий менюто \"Премахни от библиотеката\"</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Скрий менюто \"Премахни от плейлиста\"</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Скрий менюто \"Докладвай\"</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Скрий менюто \"Запази епизода за по-късно / Запази в библиотеката\"</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Скрий менюто \"Запази в плейлиста\"</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Скрий менюто \"Споделяне\"</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Скрий менюто \"Разбъркване\"</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Скрий менюто \"Таймер за заспиване\"</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Скрий менюто \"Стартирай радио\"</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Скрий менюто \"Статистики за гийкове\"</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Скрий менюто \"Абонирай се\"</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Скрий менюто \"Премахни от бърз набор\"</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Скрий менюто \"Виж информация за песента\"</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Начална страница</string>
   <string name="morphe_change_start_page_entry_default">По подразбиране</string>

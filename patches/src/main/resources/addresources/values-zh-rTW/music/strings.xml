@@ -108,6 +108,47 @@ YouTube Music 8.x — 淡出效果僅在 9.x 及更高版本中運行"</string>
   <string name="morphe_music_hide_history_button_title">隱藏歷史記錄按鈕</string>
   <string name="morphe_music_hide_notification_button_title">隱藏通知按鈕</string>
   <string name="morphe_music_hide_search_button_title">隱藏搜尋按鈕</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">歌詞面板</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">隱藏分享按鈕</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">隱藏翻譯按鈕</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">介面選單</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">選擇要在播放器和佇列彈出式選單中顯示哪些組件</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">隱藏三欄式元件</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">隱藏「喜歡」和「不喜歡」按鈕</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">隱藏「品味相符」選單</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">隱藏「新增至「稍後收聽」播放清單」選單</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">隱藏「新增至佇列」選單</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">隱藏「字幕」選單</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">隱藏「刪除播放清單」選單</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">隱藏「清除佇列」選單</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">隱藏「不要推薦此藝人」選單</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">隱藏「下載」選單</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">隱藏「編輯播放清單」選單</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">隱藏「前往專輯」選單</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">隱藏「前往藝人」選單</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">隱藏「前往節目」選單</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">隱藏「前往播客」選單</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">隱藏「說明」選單</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">隱藏「標示節目為已播放」選單</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">隱藏「不感興趣」選單</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">隱藏「固定到快速撥號」選單</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">隱藏「播放下一首」選單</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">隱藏「畫質」選單</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">隱藏「從媒體庫中移除」選單</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">隱藏「從播放清單中移除」選單</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">隱藏「舉報」選單</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">隱藏「稍後儲存節目」/「儲存到媒體庫」選單</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">隱藏「儲存到播放清單」選單</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">隱藏「分享」選單</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">隱藏「隨機播放」選單</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">隱藏「睡眠計時器」選單</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">隱藏「開始廣播」選單</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">隱藏「極客統計」選單</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">隱藏「訂閱」選單</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">隱藏「從快速撥號解除固定」選單</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">隱藏「檢視歌曲資訊」選單</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">開始頁面</string>
   <string name="morphe_change_start_page_entry_default">預設</string>

@@ -108,6 +108,47 @@ YouTube Music 8.x – crossfade kjører bare på 9.x og nyere"</string>
   <string name="morphe_music_hide_history_button_title">Skjul historikk-knapp</string>
   <string name="morphe_music_hide_notification_button_title">Skjul varslingsknapp</string>
   <string name="morphe_music_hide_search_button_title">Skjul søkeknapp</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">Tekstpanel</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">Skjul dele-knapp for tekst</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">Skjul oversettelses-knapp for tekst</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">Utfellbar meny</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">Velg hvilke komponenter som skal vises i avspilleren og kø-flyutmenyen</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">Skjul 3-kolonnekomponenten</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">Skjul \"Liker\" og \"Misliker\"-knappene</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">Skjul \"Smakstilpasning\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">Skjul \'Legg til i «Lytt senere»-spilleliste\'-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">Skjul \'Legg til i kø\'-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">Skjul \"Spillelister\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">Skjul \"Slett spilleliste\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">Skjul \"Avslå kø\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">Skjul \"Ikke anbefal denne artisten\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">Skjul \"Last ned\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">Skjul \"Rediger spilleliste\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">Skjul \"Gå til album\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">Skjul \"Gå til artist\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">Skjul \"Gå til episode\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">Skjul \"Gå til podcast\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">Skjul \"Hjelp\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">Skjul \"Merk episode som avspilt\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">Skjul \"Ikke interessert\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">Skjul \"Fest til hurtigvalg\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">Skjul \"Spill neste\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">Skjul \"Kvalitet\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">Skjul \"Fjern fra biblioteket\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">Skjul \"Fjern fra spillelisten\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">Skjul \"Rapportér\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">Skjul \"Lagre episode for senere\" / \"Lagre til bibliotek\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">Skjul \"Lagre til spilleliste\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">Skjul \"Del\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">Skjul \"Shuffle play\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">Skjul \"Sleep timer\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">Skjul \"Start radio\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">Skjul \"Stats for nerds\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">Skjul \"Abonner\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">Skjul \"Fjern fra hurtigvalg\"-menyen</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">Skjul \"Vis sangkreditt\"-menyen</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">Startside</string>
   <string name="morphe_change_start_page_entry_default">Standard</string>

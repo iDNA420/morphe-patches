@@ -107,6 +107,18 @@ YouTube Music 8.x — การเฟดข้ามจะทำงานบน 
   <string name="morphe_music_hide_history_button_title">ซ่อนปุ่มประวัติ</string>
   <string name="morphe_music_hide_notification_button_title">ซ่อนปุ่มการแจ้งเตือน</string>
   <string name="morphe_music_hide_search_button_title">ซ่อนปุ่มค้นหา</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">แผงเนื้อเพลง</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">ซ่อนปุ่มแชร์</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">ซ่อนปุ่มแปล</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">เมนูแบบเลื่อนลง</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">เลือกส่วนประกอบที่จะแสดงในเมนูแบบเลื่อนลงของผู้เล่นและคิว</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">ซ่อนส่วนประกอบ 3 คอลัมน์</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">ซ่อนปุ่ม \'ถูกใจ\' และ \'ไม่ถูกใจ\'</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">ซ่อนเมนู \'การจับคู่รสนิยม\' </string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">ซ่อนเมนู \'เพิ่มลงในรายการเล่น \'ฟังภายหลัง\' \'</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">ซ่อนเมนู \'เพิ่มลงในคิว\' </string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">หน้าเริ่มต้น</string>
   <string name="morphe_change_start_page_entry_default">ค่าเริ่มต้น</string>

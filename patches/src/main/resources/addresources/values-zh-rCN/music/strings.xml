@@ -108,6 +108,47 @@ YouTube Music 8.x —— 交叉淡入仅在 9.x 及更高版本上运行"</strin
   <string name="morphe_music_hide_history_button_title">隐藏历史记录按钮</string>
   <string name="morphe_music_hide_notification_button_title">隐藏通知按钮</string>
   <string name="morphe_music_hide_search_button_title">隐藏搜索按钮</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <string name="morphe_music_hide_lyrics_panel_category_title">歌词面板</string>
+  <string name="morphe_music_hide_lyrics_share_button_title">隐藏分享按钮</string>
+  <string name="morphe_music_hide_lyrics_translate_button_title">隐藏翻译按钮</string>
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
+  <string name="morphe_music_hide_flyout_menu_components_screen_title">弹出菜单</string>
+  <string name="morphe_music_hide_flyout_menu_components_screen_summary">选择在播放器和队列的弹出菜单中显示哪些组件</string>
+  <string name="morphe_music_hide_flyout_menu_3_column_component_title">隐藏 3 列组件</string>
+  <string name="morphe_music_hide_flyout_menu_like_dislike_title">隐藏「赞」和「踩」按钮</string>
+  <string name="morphe_music_hide_flyout_menu_taste_match_title">隐藏“品味匹配”菜单</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_listen_later_title">隐藏“添加到‘稍后收听’播放列表”菜单</string>
+  <string name="morphe_music_hide_flyout_menu_add_to_queue_title">隐藏“添加到队列”菜单</string>
+  <string name="morphe_music_hide_flyout_menu_captions_title">隐藏「字幕」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_delete_playlist_title">隐藏「删除播放列表」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_dismiss_queue_title">隐藏「清除队列」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_dont_recommend_artist_title">隐藏「不再推荐此艺术家」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_download_title">隐藏「下载」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_edit_playlist_title">隐藏「编辑播放列表」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_album_title">隐藏「前往专辑」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_artist_title">隐藏「前往艺术家」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_episode_title">隐藏「前往剧集」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_go_to_podcast_title">隐藏「前往播客」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_help_title">隐藏「帮助」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_mark_episode_as_played_title">隐藏「标记剧集为已播放」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_not_interested_title">隐藏「不感兴趣」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_pin_to_speed_dial_title">隐藏「添加到快速拨号」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_play_next_title">隐藏「下一首播放」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_quality_title">隐藏「音质」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_library_title">隐藏「从资料库中移除」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_remove_from_playlist_title">隐藏「从播放列表中移除」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_report_title">隐藏「举报」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_save_episode_for_later_save_to_library_title">隐藏「稍后保存剧集」/「保存到资料库」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_save_to_playlist_title">隐藏「保存到播放列表」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_share_title">隐藏「分享」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_shuffle_play_title">隐藏「随机播放」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_sleep_timer_title">隐藏「睡眠定时器」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_start_radio_title">隐藏「开始广播」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_stats_for_nerds_title">隐藏「极客统计」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_subscribe_title">隐藏「订阅」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_unpin_from_speed_dial_title">隐藏「从快速拨号移除」菜单</string>
+  <string name="morphe_music_hide_flyout_menu_view_song_credit_title">隐藏「查看歌曲信息」菜单</string>
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">开始页面</string>
   <string name="morphe_change_start_page_entry_default">默认</string>

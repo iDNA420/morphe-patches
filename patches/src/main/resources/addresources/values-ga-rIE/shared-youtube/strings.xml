@@ -160,4 +160,12 @@ Teipfidh ar an athsheinm má tá hais JavaScript an imreora as dáta."</string>
 Is féidir leis seo cabhrú le comhpháirteanna a aithint agus scagairí saincheaptha á gcruthú.
 
 Mar sin féin, má chumasaíonn tú é seo, logálfar roinnt sonraí úsáideora freisin amhail do sheoladh IP."</string>
+  <!-- Custom filter -->
+  <string name="morphe_custom_filter_screen_title">Scagaire saincheaptha</string>
+  <string name="morphe_custom_filter_screen_summary">Cumraigh scagairí saincheaptha chun aon chomhpháirt a cheilt</string>
+  <string name="morphe_custom_filter_title">Cumasaigh scagaire saincheaptha</string>
+  <string name="morphe_custom_filter_strings_title">Scagaire saincheaptha</string>
+  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
+  <string name="morphe_custom_filter_strings_summary">Liosta de theaghráin thógálaí cosáin chomhpháirte le scagadh, scartha le línte nua</string>
+  <string name="morphe_custom_filter_toast_invalid_syntax">Scagaire saincheaptha neamhbhailí: %s</string>
 </resources>

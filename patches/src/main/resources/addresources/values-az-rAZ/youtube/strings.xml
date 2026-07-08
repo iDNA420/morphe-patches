@@ -97,9 +97,13 @@ Dəyişikliklər ehtiva edir:
   <string name="morphe_hide_surveys_title">Sorğuları gizlət</string>
   <string name="morphe_hide_surveys_summary">Axın tövsiyəsi dəqiqliyi haqqında təftişləri və xatırlatmaları gizlət</string>
   <string name="morphe_hide_ticket_shelf_title">Bilet bölməsin gizlət</string>
+  <string name="morphe_hide_upload_time_title">Yüklənilmə vaxtını gizlət</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_video_recommendation_labels_title">Video tövsiyə etiketlərini gizlət</string>
   <string name="morphe_hide_video_recommendation_labels_summary">Axtarış nəticələrində \"İnsanlar həmçinin izləyiblər\" və \"Bunu da bəyənə bilərsiniz\" etiketlərini gizlədir</string>
+  <string name="morphe_hide_view_count_title">Baxış sayını gizlət</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
   <string name="morphe_hide_web_search_results_title">Veb axtarış nəticələrini gizlət</string>
   <string name="morphe_hide_web_search_results_summary">Axtarış nəticələrindən \"Vebdən nəticə\" bölməsini gizlədir</string>
   <string name="morphe_hide_you_may_like_section_title">\"Bəyənə bilərsiniz\" bölməsini gizlət</string>
@@ -158,11 +162,6 @@ Dəyişikliklər ehtiva edir:
   <string name="morphe_hide_transcript_section_title">Transkript bölməsini gizlət</string>
   <string name="morphe_hide_video_details_section_title">\"Video detalları\" bölməsini gizlət</string>
   <string name="morphe_hide_filter_bar_screen_title">Filtr çubuğu</string>
-  <string name="morphe_hide_filter_bar_screen_summary">Sürüşdürmə kateqoriyası hissəcikləri harada gizlədilir seç</string>
-  <string name="morphe_hide_filter_bar_feed_in_feed_title">Axınlarda gizlət</string>
-  <string name="morphe_hide_filter_bar_feed_in_related_videos_title">Əlaqəli videolarda gizlət</string>
-  <string name="morphe_hide_filter_bar_feed_in_search_title">Axtarış nəticələrində gizlət</string>
-  <string name="morphe_hide_filter_bar_feed_in_history_title">Baxış tarixçəsində gizlət</string>
   <string name="morphe_channel_screen_title">Kanal səhifəsi</string>
   <string name="morphe_channel_screen_summary">Kanal səhifəsində hansı elementlər görünür seç</string>
   <string name="morphe_hide_channel_tab_title">Kanal tabel filtrini aktivləşdir</string>
@@ -204,25 +203,6 @@ Dəyişikliklər ehtiva edir:
   <string name="morphe_hide_comments_preview_comment_title">Önbaxış şərhin gizlət</string>
   <string name="morphe_hide_comments_preview_comment_summary">Bütün şərh bölməsin açmazdan əvvəl videonun aşağısında şərh önizləməsini gizlədir</string>
   <string name="morphe_hide_comments_thanks_button_title">Təşəkkür Düyməsini Gizlət</string>
-  <string name="morphe_sanitize_comments_category_bar_title">Kateqoriya tabelin təmizlə</string>
-  <string name="morphe_sanitize_comments_category_bar_summary">\"Yuxarı\" və \"Ən Yeni\" istisna olmaqla, bütün şərh çeşidləmə seçimlərini gizlədir</string>
-  <string name="morphe_custom_filter_screen_title">Şəxsi filtr</string>
-  <string name="morphe_custom_filter_screen_summary">Hər hansı elementi gizlətmək üçün fərdi filtrləri tənzimlə</string>
-  <string name="morphe_custom_filter_title">Fərdi filtri aktivləşdir</string>
-  <string name="morphe_custom_filter_strings_title">Fərdi filtr</string>
-  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
-  <string name="morphe_custom_filter_strings_summary">Yeni cərgələrlə ayrılan, filtr üçün element yol qurucusu sətirlərinin siyahısı</string>
-  <string name="morphe_custom_filter_toast_invalid_syntax">Etibarsız fərdi filtr: %s</string>
-  <string name="morphe_hide_view_count_title">Baxış sayını gizlət</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
-  <string name="morphe_hide_view_count_summary">"Məhdudiyyətlər:
-• Shorts cərgələri, kanal səhifələri və axtarış nəticələri baxış sayını yenə də göstərə bilər
-• Bu xüsusiyyət avtomobil tərtibatı ilə işləmir"</string>
-  <string name="morphe_hide_upload_time_title">Yüklənilmə vaxtını gizlət</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
-  <string name="morphe_hide_upload_time_summary">"Məhdudiyyətlər:
-• Shorts cərgələri, kanal səhifələri və axtarış nəticələri yüklənmə vaxtlarını hələ də göstərə bilər
-• Bu xüsusiyyət avtomobil tərtibatı ilə işləmir"</string>
   <string name="morphe_hide_keyword_content_screen_title">Açar söz çeşidləyici</string>
   <string name="morphe_hide_keyword_content_screen_summary">Videoları axınlarda və axtarışda gizlətmək üçün xüsusi sözlər və ya ifadələr seç</string>
   <string name="morphe_hide_keyword_content_home_title">Ev videolarını açar sözlərə görə gizlət</string>
@@ -938,7 +918,7 @@ Məhdudiyyətlər:
   <string name="morphe_hide_premium_video_quality_title">Premium keyfiyyət seçimlərini gizlət</string>
   <!-- video.quality.prioritizeVideoQualityPatch -->
   <string name="morphe_prioritize_video_quality_title">Video keyfiyyətini üstələ</string>
-  <!-- misc.fix.playback.spoofVideoStreamsPatch -->
+  <!-- misc.spoof.spoofVideoStreamsPatch -->
   <string name="morphe_spoof_video_streams_av1_title">Android VR AV1-ə icazə ver</string>
   <string name="morphe_spoof_video_streams_av1_summary">Android VR qəbuledici istifadə edərkən AV1 təminatını dekodlamağa icazə verir</string>
   <string name="morphe_spoof_video_streams_av1_user_dialog_message">"Bu tənzimləməni aktivləşdirmə proqram təminatlı AV1 kodlayıcı istifadə edə bilər.

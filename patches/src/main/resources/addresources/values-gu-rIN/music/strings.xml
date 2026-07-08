@@ -29,6 +29,8 @@ Second \"item\" text"</string>
   <!-- Banner row has no text; it shows a full-width graphic via a custom layout. -->
   <!-- interaction.permanentrepeat.permanentRepeatPatch -->
   <!-- layout.buttons.hideButtonsPatch -->
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_entry_default">ડિફૉલ્ટ</string>
   <string name="morphe_change_start_page_entry_search">શોધો</string>

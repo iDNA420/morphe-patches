@@ -105,6 +105,8 @@ YouTube Music 8.x — क्रॉसफेड केवल 9.x आ नय व�
   <string name="morphe_music_hide_history_button_title">इतिहास बटन छिपाएं</string>
   <string name="morphe_music_hide_notification_button_title">सूचना बटन छिपाएं</string>
   <string name="morphe_music_hide_search_button_title">खोज बटन छिपाएं</string>
+  <!-- layout.hide.general.hideMusicComponentsPatch -->
+  <!-- flyoutmenu.components.hideFlyoutMenuComponentsPatch -->
   <!-- layout.startpage.changeStartPagePatch -->
   <string name="morphe_change_start_page_title">आरंभ पृष्ठ</string>
   <string name="morphe_change_start_page_entry_default">डिफ़ॉल्ट</string>

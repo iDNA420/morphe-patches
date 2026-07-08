@@ -97,9 +97,19 @@ Second \"item\" text"</string>
   <string name="morphe_hide_surveys_title">隱藏問卷調查</string>
   <string name="morphe_hide_surveys_summary">隱藏關於資訊流推薦準確度的調查和提示</string>
   <string name="morphe_hide_ticket_shelf_title">隱藏票券架</string>
+  <string name="morphe_hide_upload_time_title">隱藏「上傳時間」</string>
+  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
+  <string name="morphe_hide_upload_time_summary">"限制：
+• Shorts 專區、頻道頁面和搜尋結果可能仍會顯示上傳時間
+• 此功能不適用於汽車版面配置"</string>
   <!-- 'People also watched' and 'You might also like' should be translated using the same localized wording YouTube displays for the label. -->
   <string name="morphe_hide_video_recommendation_labels_title">隱藏影片推薦標籤</string>
   <string name="morphe_hide_video_recommendation_labels_summary">隱藏搜尋結果中的「其他人也觀看」和「你可能也喜歡」標籤</string>
+  <string name="morphe_hide_view_count_title">隱藏觀看次數</string>
+  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
+  <string name="morphe_hide_view_count_summary">"限制：
+• Shorts 專區、頻道頁面和搜尋結果可能仍會顯示觀看次數
+• 此功能不適用於汽車版面配置"</string>
   <string name="morphe_hide_web_search_results_title">隱藏網頁搜尋結果</string>
   <string name="morphe_hide_web_search_results_summary">隱藏搜尋結果中的「來自網路的結果」區段</string>
   <string name="morphe_hide_you_may_like_section_title">隱藏「你可能會喜歡」區塊</string>
@@ -158,11 +168,12 @@ Second \"item\" text"</string>
   <string name="morphe_hide_transcript_section_title">隱藏「轉錄稿」區段</string>
   <string name="morphe_hide_video_details_section_title">隱藏「影片詳細資料」區段</string>
   <string name="morphe_hide_filter_bar_screen_title">篩選列</string>
-  <string name="morphe_hide_filter_bar_screen_summary">選擇隱藏滾動分類晶片的位置</string>
-  <string name="morphe_hide_filter_bar_feed_in_feed_title">在動態中隱藏</string>
-  <string name="morphe_hide_filter_bar_feed_in_related_videos_title">隱藏相關影片</string>
-  <string name="morphe_hide_filter_bar_feed_in_search_title">在搜尋結果中隱藏</string>
-  <string name="morphe_hide_filter_bar_feed_in_history_title">在觀看記錄中隱藏</string>
+  <string name="morphe_hide_filter_bar_screen_summary">選擇要在哪裡隱藏滾動篩選列</string>
+  <string name="morphe_hide_filter_bar_in_comments_title">在留言中隱藏</string>
+  <string name="morphe_hide_filter_bar_in_feed_title">在動態中隱藏</string>
+  <string name="morphe_hide_filter_bar_in_related_videos_title">隱藏相關影片</string>
+  <string name="morphe_hide_filter_bar_in_search_title">在搜尋結果中隱藏</string>
+  <string name="morphe_hide_filter_bar_in_history_title">在觀看記錄中隱藏</string>
   <string name="morphe_channel_screen_title">頻道頁面</string>
   <string name="morphe_channel_screen_summary">選擇要在頻道頁面上顯示哪些元件</string>
   <string name="morphe_hide_channel_tab_title">啟用頻道標籤篩選</string>
@@ -199,30 +210,15 @@ Second \"item\" text"</string>
   <string name="morphe_hide_comments_community_guidelines_title">隱藏社群守則</string>
   <string name="morphe_hide_comments_create_a_short_button_title">隱藏「建立 Short」按鈕</string>
   <string name="morphe_hide_comments_emoji_and_timestamp_buttons_title">隱藏表情符號和時間戳記按鈕</string>
+  <string name="morphe_hide_comments_filter_bar_options_title">隱藏篩選列選項</string>
+  <string name="morphe_hide_comments_filter_bar_options_summary">隱藏篩選列選項，僅保留「熱門」和「最新」</string>
   <string name="morphe_hide_comments_info_button_title">隱藏資訊按鈕</string>
   <string name="morphe_hide_comments_live_chat_donators_bar_title">隱藏直播聊天捐款者欄</string>
   <string name="morphe_hide_comments_preview_comment_title">隱藏留言預覽</string>
   <string name="morphe_hide_comments_preview_comment_summary">隱藏在開啟完整的評論區之前，影片下方的評論預覽</string>
   <string name="morphe_hide_comments_thanks_button_title">隱藏「感謝」按鈕</string>
-  <string name="morphe_sanitize_comments_category_bar_title">清理類別欄</string>
-  <string name="morphe_sanitize_comments_category_bar_summary">隱藏除了「熱門」和「最新」之外的所有評論排序選項</string>
-  <string name="morphe_custom_filter_screen_title">自訂篩選器</string>
-  <string name="morphe_custom_filter_screen_summary">設定自訂篩選器以隱藏任何元件</string>
-  <string name="morphe_custom_filter_title">啟用自訂篩選器</string>
-  <string name="morphe_custom_filter_strings_title">自訂篩選器</string>
-  <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
-  <string name="morphe_custom_filter_strings_summary">列出要篩選的元件路徑建構器字串，使用換行符號進行分隔</string>
-  <string name="morphe_custom_filter_toast_invalid_syntax">無效的自訂篩選器：%s</string>
-  <string name="morphe_hide_view_count_title">隱藏觀看次數</string>
-  <!-- Translations should match the language used in 'morphe_hide_upload_time_summary'. -->
-  <string name="morphe_hide_view_count_summary">"限制：
-• Shorts 專區、頻道頁面和搜尋結果可能仍會顯示觀看次數
-• 此功能不適用於汽車版面配置"</string>
-  <string name="morphe_hide_upload_time_title">隱藏「上傳時間」</string>
-  <!-- Translations should match the language used in 'morphe_hide_view_count_summary'. -->
-  <string name="morphe_hide_upload_time_summary">"限制：
-• Shorts 專區、頻道頁面和搜尋結果可能仍會顯示上傳時間
-• 此功能不適用於汽車版面配置"</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_title">修飾醒目搜尋連結</string>
+  <string name="morphe_sanitize_comments_highlighted_search_links_summary">修飾醒目搜尋連結，僅保留原始純文字</string>
   <string name="morphe_hide_keyword_content_screen_title">關鍵字篩選</string>
   <string name="morphe_hide_keyword_content_screen_summary">選擇要根據關鍵字或頻道名稱在動態消息和搜尋中隱藏影片</string>
   <string name="morphe_hide_keyword_content_home_title">依關鍵字隱藏首頁影片</string>
@@ -855,9 +851,9 @@ Second \"item\" text"</string>
 • 影片動作欄未摺疊"</string>
   <string name="morphe_tablet_layout_in_player_title">在播放器中啟用平板版面配置</string>
   <!-- "Restore old video action bar" must be translated the same as morphe_restore_old_video_action_bar_title -->
-  <string name="morphe_tablet_layout_in_player_summary">"還原舊版播放器配置
+  <string name="morphe_tablet_layout_in_player_summary">"還原舊版播放器版面
 
-限制：如果已關閉「還原舊版視訊動作列」，則可能無法使用「更多影片」疊加層。"</string>
+限制：如果關閉「還原舊版影片動作列」，則「更多影片」疊加層可能無法使用。"</string>
   <!-- layout.spoofappversion.spoofAppVersionPatch -->
   <string name="morphe_spoof_app_version_title">偽裝應用程式版本</string>
   <string name="morphe_spoof_app_version_summary">欺騙伺服器，讓它以為您正在使用較舊的應用程式版本，以還原舊版 UI 功能</string>
@@ -1098,7 +1094,7 @@ Second \"item\" text"</string>
   <!-- video.quality.prioritizeVideoQualityPatch -->
   <string name="morphe_prioritize_video_quality_title">優先影片品質</string>
   <string name="morphe_prioritize_video_quality_summary">優先考慮可用的最高視訊畫質，而非編碼器效率</string>
-  <!-- misc.fix.playback.spoofVideoStreamsPatch -->
+  <!-- misc.spoof.spoofVideoStreamsPatch -->
   <string name="morphe_spoof_video_streams_av1_title">允許 Android VR AV1</string>
   <string name="morphe_spoof_video_streams_av1_summary">啟動 Return YouTube Dislike</string>
   <string name="morphe_spoof_video_streams_av1_user_dialog_message">"啟用此設定可能會使用軟體 AV1 解碼。
@@ -1118,7 +1114,7 @@ AV1 視訊播放可能會卡頓或丟格。"</string>
   <string name="morphe_spoof_video_streams_stats_for_nerds_title">擴展直播 DVR 期間最長七天</string>
   <!-- misc.fix.videoactionbar.restoreOldVideoActionBarPatch -->
   <string name="morphe_restore_old_video_action_bar_title">還原舊版影片動作列</string>
-  <string name="morphe_restore_old_video_action_bar_summary">"修正無法顯示不喜歡以及無法隱藏影片動作按鈕
+  <string name="morphe_restore_old_video_action_bar_summary">"修正無法顯示不喜歡和隱藏影片動作按鈕的問題
 
-限制：恢復到舊式「更多影片」疊加層"</string>
+限制：恢復為舊式「更多影片」疊加層"</string>
 </resources>
