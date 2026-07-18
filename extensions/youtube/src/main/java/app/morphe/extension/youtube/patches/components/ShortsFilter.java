@@ -87,7 +87,6 @@ public final class ShortsFilter extends Filter {
     private final ByteArrayFilterGroup channelProfileShelfHeader;
 
     private final StringFilterGroup autoDubbedLabel;
-    private final StringFilterGroup fullVideoLinkLabel;
     private final StringFilterGroup joinButton;
     private final StringFilterGroup shelfHeaderIdentifier;
     private final StringFilterGroup shelfHeaderPath;
@@ -193,6 +192,11 @@ public final class ShortsFilter extends Filter {
                 "reel_pivot_button"
         );
 
+        StringFilterGroup fullVideoLinkLabel = new StringFilterGroup(
+                Settings.HIDE_SHORTS_FULL_VIDEO_LINK_LABEL,
+                "reel_multi_format_link"
+        );
+
         StringFilterGroup infoPanel = new StringFilterGroup(
                 Settings.HIDE_SHORTS_INFO_PANEL,
                 "shorts_info_panel_overview"
@@ -229,11 +233,6 @@ public final class ShortsFilter extends Filter {
                 "badge.e"
         );
 
-        fullVideoLinkLabel = new StringFilterGroup(
-                Settings.HIDE_SHORTS_FULL_VIDEO_LINK_LABEL,
-                "reel_multi_format_link"
-        );
-
         joinButton = new StringFilterGroup(
                 Settings.HIDE_SHORTS_JOIN_BUTTON,
                 "sponsor_button"
@@ -249,6 +248,10 @@ public final class ShortsFilter extends Filter {
                         Settings.HIDE_SHORTS_AI_BUTTON,
                         "yt_outline_info_circle",
                         "yt_outline_experimental_info_circle"
+                ),
+                new ByteArrayFilterGroup(
+                        Settings.HIDE_SHORTS_FULL_VIDEO_LINK_LABEL,
+                        "yt_fill_experimental_play"
                 ),
                 new ByteArrayFilterGroup(
                         Settings.HIDE_SHORTS_SOUND_METADATA_LABEL,
@@ -469,8 +472,7 @@ public final class ShortsFilter extends Filter {
             }
 
             if (matchedGroup == reelCarousel) {
-                return fullVideoLinkLabel.check(accessibility).isFiltered() ||
-                        reelCarouselBuffer.check(buffer).isFiltered();
+                return reelCarouselBuffer.check(buffer).isFiltered();
             }
 
             if (matchedGroup == shortsCompactFeedVideo) {
