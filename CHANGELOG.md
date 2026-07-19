@@ -1,3 +1,10 @@
+## [1.36.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.36.0-dev.2...v1.36.0-dev.3) (2026-07-19)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Spoof video streams:** Updated visionOS spoof user agent to support AV1 ([acfafc8](https://github.com/MorpheApp/morphe-patches/commit/acfafc82145804a570cdf6e3f2503731ff58ff06))
+* **YouTube Music:** Resolve patching experimental app versions ([b6b2b15](https://github.com/MorpheApp/morphe-patches/commit/b6b2b15dc63e6a1e6ace7fbfc07cc366d5b25127))
+
 ## [1.36.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.36.0-dev.1...v1.36.0-dev.2) (2026-07-19)
 
 ### 🐛 Bug Fixes
