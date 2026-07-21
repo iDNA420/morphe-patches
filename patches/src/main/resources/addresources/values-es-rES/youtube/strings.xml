@@ -457,15 +457,15 @@ Información: Es posible que no funcione en transmisiones en directo"</string>
   <string name="morphe_livestream_dvr_title">Activar DVR de transmisión en vivo</string>
   <string name="morphe_livestream_dvr_summary">Permite buscar en todas las transmisiones en vivo, incluso en aquellas que normalmente restringen esta función</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_livestream_dvr_not_available">"Es posible que 'Activar DVR para transmisiones en vivo' no esté disponible
+  <string name="morphe_livestream_dvr_not_available">"Es posible que \"Activar DVR para transmisiones en directo\" no esté disponible
 
-Para solucionar esto, active 'Simular flujos de video' y cambie 'Cliente predeterminado' a 'TV'"</string>
+Para solucionar esto, active \"Falsificar transmisiones de vídeo\" y cambie \"Cliente predeterminado\" a \"TV\""</string>
   <string name="morphe_expand_livestream_dvr_duration_title">Expandir duración del DVR de transmisión en directo</string>
-  <string name="morphe_expand_livestream_dvr_duration_summary">Le permite rebobinar las emisiones en vivo hasta 7 días en el pasado</string>
+  <string name="morphe_expand_livestream_dvr_duration_summary">Te permite rebobinar las transmisiones en directo hasta 7 días atrás</string>
   <!-- 'Spoof video streams' should be the same translation used for 'morphe_spoof_video_streams_screen_title'. -->
-  <string name="morphe_expand_livestream_dvr_duration_not_available">"Es posible que 'Expandir duración del DVR para transmisión en vivo' no esté disponible
+  <string name="morphe_expand_livestream_dvr_duration_not_available">"Es posible que \"Expandir duración del DVR para transmisión en directo\" no esté disponible
 
-Para solucionar este problema, active 'Simular transmisiones de video' y cambie el 'Cliente predeterminado' a 'TV'"</string>
+Para solucionar este problema, active \"Falsificar transmisiones de vídeo\" y cambie el \"Cliente predeterminado\" a \"TV\""</string>
   <!-- interaction.seekbar.enableSlideToSeekPatch -->
   <string name="morphe_slide_to_seek_title">Activar deslizar para buscar</string>
   <string name="morphe_slide_to_seek_summary">Habilita el deslizamiento para buscar en lugar de reproducir a 2x velocidad al pulsar y mantener presionado el reproductor de vídeo</string>

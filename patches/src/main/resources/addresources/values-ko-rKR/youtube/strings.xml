@@ -362,7 +362,7 @@ Second \"item\" text"</string>
 
 API 키는 절대로 다른 사람과 공유해서는 안 됩니다. API 키에 접근할 수 있는 사람은 누구나 사용자의 OpenRouter 크레딧을 사용할 수 있습니다"</string>
   <string name="morphe_vot_openrouter_credits_title">OpenRouter 크레딧 한도 도달</string>
-  <string name="morphe_vot_openrouter_credits_message">OpenRouter 크레딧 한도에 도달하였습니다. OpenRouter.ai에서 잔액을 충전하거나 API 키의 사용 한도를 늘리세요.</string>
+  <string name="morphe_vot_openrouter_credits_message">OpenRouter 크레딧 한도에 도달하였습니다. OpenRouter.ai에서 잔액을 충전하거나 API 키의 사용 한도를 늘리세요</string>
   <string name="morphe_vot_openrouter_open_website">OpenRouter.ai 열기</string>
   <string name="morphe_vot_openrouter_error">OpenRouter 번역을 사용할 수 없습니다 (HTTP %s)</string>
   <string name="morphe_vot_mymemory_quota_title">MyMemory 일일 사용 한도 도달</string>
@@ -673,7 +673,7 @@ API 키는 절대로 다른 사람과 공유해서는 안 됩니다. API 키에 
           'Android Studio' must be kept untranslated. -->
   <string name="morphe_hide_player_flyout_audio_track_not_available">"'오디오 트랙' 메뉴가 숨겨져 있습니다
 
-'오디오 트랙' 메뉴를 표시하려면, '동영상 스트림 속이기'를 활성화하고 '기본 클라이언트'를 'Android Studio'가 아닌 다른 클라이언트로 변경하세요"</string>
+'오디오 트랙' 메뉴를 표시하려면, '동영상 스트림 속이기'에서 '기본 클라이언트'를 'Android Studio'를 제외한 다른 클라이언트로 변경하세요"</string>
   <string name="morphe_hide_player_flyout_audio_track_footer_title">오디오 트랙 설정 메뉴 하단 설명 숨기기</string>
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
   <string name="morphe_hide_player_flyout_captions_title">자막 메뉴 숨기기</string>

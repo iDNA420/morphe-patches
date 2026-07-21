@@ -37,7 +37,7 @@ Second \"item\" text"</string>
   <string name="morphe_disable_screenshot_popup_summary">Desactiva la ventana emergente que aparece al tomar una captura de pantalla</string>
   <string name="morphe_hide_ask_button_title">Ocultar botón de preguntar</string>
   <string name="morphe_hide_ask_button_summary">Oculta el botón de preguntar en la barra de búsqueda</string>
-  <string name="morphe_force_system_font_title">Fuente de sistema forzada</string>
+  <string name="morphe_force_system_font_title">Forzar fuente del sistema</string>
   <string name="morphe_force_system_font_summary">Utilice la fuente del sistema del dispositivo en lugar de Reddit Sans o Roboto. Activar esta opción también desactiva la fuente personalizada.</string>
   <string name="morphe_custom_font_title">Fuente personalizada</string>
   <string name="morphe_custom_font_summary">Cargue un archivo de fuente TTF u OTF personalizado desde la ruta a continuación. Activar esta opción también desactiva Forzar fuente del sistema.</string>
