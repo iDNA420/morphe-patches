@@ -68,10 +68,16 @@ val miniplayerPatch = bytecodePatch(
         val preferences = mutableSetOf<BasePreference>()
 
         if (is_20_37_or_greater) {
-            // 21.29 removed all modern miniplayers except modern 3
-//            if (!is_21_29_or_greater) {
+            // 21.29 removed all modern miniplayers except modern 4
+            if (!is_21_29_or_greater) {
                 preferences += ListPreference("morphe_miniplayer_type")
-//            }
+            } else {
+                // TODO: Eventually remove this message
+                preferences += NonInteractivePreference(
+                    key = "morphe_miniplayer_type",
+                    summaryKey = "morphe_miniplayer_not_available_summary"
+                )
+            }
         } else {
             preferences += ListPreference(
                 key = "morphe_miniplayer_type",
@@ -84,12 +90,14 @@ val miniplayerPatch = bytecodePatch(
         preferences += SwitchPreference("morphe_miniplayer_disable_drag_and_drop", summary = true)
         preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag", summary = true)
         preferences += SwitchPreference("morphe_miniplayer_disable_rounded_corners")
-        preferences += SwitchPreference("morphe_miniplayer_hide_overlay_buttons")
+        if (!is_21_29_or_greater) {
+            preferences += SwitchPreference("morphe_miniplayer_hide_overlay_buttons")
+        }
         preferences += TextPreference("morphe_miniplayer_width_dip", inputType = InputType.NUMBER)
         if (!is_21_29_or_greater) {
             preferences += NonInteractivePreference(
                 key = "morphe_miniplayer_opacity",
-                tag = "app.morphe.extension.shared.settings.preference.SeekBarPreference",
+                tag = "app.morphe.extension.shared.settings.preference.SeekBarPreference"
             )
         }
         preferences += SwitchPreference("morphe_miniplayer_disable_horizontal_drag_playback", summary = true)
@@ -99,8 +107,8 @@ val miniplayerPatch = bytecodePatch(
             PreferenceScreenPreference(
                 key = "morphe_miniplayer_screen",
                 sorting = PreferenceScreenPreference.Sorting.UNSORTED,
-                preferences = preferences,
-            ),
+                preferences = preferences
+            )
         )
 
         fun MutableMethod.insertMiniplayerBooleanOverride(index: Int, methodName: String) {
