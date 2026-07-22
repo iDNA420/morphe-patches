@@ -305,16 +305,19 @@ public class SpoofVideoStreamsPatch {
             try {
                 Uri uri = Uri.parse(url);
                 String path = uri.getPath();
-                if (path == null || !path.contains("player")) {
+                if (path == null) {
                     return;
                 }
 
                 // 'get_drm_license' has no video ID and appears to happen when waiting for a paid video to start.
-                // 'heartbeat' has no video  and appears to be only after playback has started.
+                // 'heartbeat' has no video and appears to be only after playback has started.
                 // 'refresh' has no video ID and appears to happen when waiting for a livestream to start.
                 // 'ad_break' has no video ID.
-                if (path.contains("get_drm_license") || path.contains("heartbeat")
-                        || path.contains("refresh") || path.contains("ad_break")) {
+                if (!path.contains("player") ||
+                        path.contains("get_drm_license") ||
+                        path.contains("heartbeat") ||
+                        path.contains("refresh") ||
+                        path.contains("ad_break")) {
                     Logger.printDebug(() -> "Ignoring path: " + path);
                     return;
                 }

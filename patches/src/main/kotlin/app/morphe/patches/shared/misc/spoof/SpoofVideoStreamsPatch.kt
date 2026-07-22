@@ -419,7 +419,7 @@ internal fun spoofVideoStreamsPatch(
             )
         }
 
-        // endregion
+        //endregion
 
         // region turn off stream config replacement feature flag.
 
