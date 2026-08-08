@@ -1,3 +1,15 @@
+## [1.39.1](https://github.com/MorpheApp/morphe-patches/compare/v1.39.0...v1.39.1) (2026-08-08)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Add to queue:** Flyout menu not available in fullscreen ([b270824](https://github.com/MorpheApp/morphe-patches/commit/b270824072a4fc0f8df758ab48ca8090c3965323))
+
+## [1.39.1-dev.1](https://github.com/MorpheApp/morphe-patches/compare/v1.39.0...v1.39.1-dev.1) (2026-08-08)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Add to queue:** Flyout menu not available in fullscreen ([b270824](https://github.com/MorpheApp/morphe-patches/commit/b270824072a4fc0f8df758ab48ca8090c3965323))
+
 ## [1.39.0](https://github.com/MorpheApp/morphe-patches/compare/v1.38.0...v1.39.0) (2026-08-08)
 
 ### 🐛 Bug Fixes
