@@ -560,6 +560,8 @@ Info: May not work on live streams"</string>
     <string name="morphe_queue_add_flyout_menu_summary">Adds an additional flyout item. Enable this if \"Add to queue\" is not shown</string>
     <string name="morphe_ads_channel_whitelist_flyout_menu_title">Ad whitelist in flyout menu</string>
     <string name="morphe_ads_channel_whitelist_flyout_menu_summary">Adds a flyout item that lets ads play on the channel of that video</string>
+    <!-- "Spoof video streams" must use the same translation as morphe_spoof_video_streams_screen_title -->
+    <string name="morphe_ads_channel_whitelist_flyout_user_dialog_message">This feature may require using PotHelper or changing \"Spoof video stream client\" to TV to Android VR sign-in.</string>
     <string name="morphe_playback_speed_channel_whitelist_flyout_menu_title">Speed whitelist in flyout menu</string>
     <string name="morphe_playback_speed_channel_whitelist_flyout_menu_summary">Adds a flyout item that always plays the channel of that video at 1.0x speed</string>
     <string name="morphe_queue_manager_check_failed_auth">Not logged in</string>
