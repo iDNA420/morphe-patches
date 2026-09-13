@@ -1,3 +1,16 @@
+## [1.43.0-dev.3](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.2...v1.43.0-dev.3) (2026-09-13)
+
+### 🐛 Bug Fixes
+
+* **Theme:** Show the color the app draws when a color the user picked needs an overlay the app cannot register ([a4c1539](https://github.com/MorpheApp/morphe-patches/commit/a4c1539ac45233862f2b7594f322328a33b5d218))
+* **Theme:** Use the nearest palette color when the app is not given an overlay manager ([#2926](https://github.com/MorpheApp/morphe-patches/issues/2926)) ([86e146c](https://github.com/MorpheApp/morphe-patches/commit/86e146c54bad8450265f2ac2d734722fd682794c))
+* **YouTube - Disable fullscreen gestures:** Restore pinch-to-zoom past fill on `21.36`+ ([#2876](https://github.com/MorpheApp/morphe-patches/issues/2876)) ([dd76cc1](https://github.com/MorpheApp/morphe-patches/commit/dd76cc1198fffb42d99f993ae03bd6e6cdcb4cf7))
+
+### ✨ New Features
+
+* **YouTube - Fullscreen video scale:** Add option to show scale button only in fullscreen ([#2878](https://github.com/MorpheApp/morphe-patches/issues/2878)) ([f4bb073](https://github.com/MorpheApp/morphe-patches/commit/f4bb07318ee181502b00eb8e009aed7df42b78bc))
+* **YouTube - Spoof app version:** Add "Restore old captions behavior" spoof target ([eea2f2a](https://github.com/MorpheApp/morphe-patches/commit/eea2f2a052bb64bbf763a0eaa8323f95506c9faa))
+
 ## [1.43.0-dev.2](https://github.com/MorpheApp/morphe-patches/compare/v1.43.0-dev.1...v1.43.0-dev.2) (2026-09-12)
 
 ### 🐛 Bug Fixes
