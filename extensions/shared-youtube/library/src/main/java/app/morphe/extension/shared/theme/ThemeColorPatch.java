@@ -951,7 +951,9 @@ public class ThemeColorPatch {
                     ? ThemeColorDark.values()
                     : ThemeColorLight.values())[index];
 
-            if (color.isCustom()) {
+            // Without an overlay the app draws the nearest color of the palette and not the one
+            // the user picked, and the resource variant below is what it actually shows.
+            if (color.isCustom() && isCustomColorSupported()) {
                 return customColor(dark);
             }
 
