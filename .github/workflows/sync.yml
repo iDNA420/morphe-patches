@@ -8,28 +8,74 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     strategy:
       fail-fast: false
       matrix:
-        branch: [main, dev]
+        branch:
+          - main
+          - dev
 
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
           ref: ${{ matrix.branch }}
           token: ${{ secrets.PAT_TOKEN }}
           fetch-depth: 0
 
-      - name: Sync with upstream/${{ matrix.branch }}
+      - name: Fetch upstream
+        env:
+          BRANCH: ${{ matrix.branch }}
         run: |
           git remote add upstream https://github.com/MorpheApp/morphe-patches.git
-          git fetch upstream ${{ matrix.branch }}
+          git fetch upstream "$BRANCH"
 
+      - name: Check for changes
+        id: changes
+        env:
+          BRANCH: ${{ matrix.branch }}
+        run: |
+          LOCAL_SHA=$(git rev-parse "$BRANCH")
+          UPSTREAM_SHA=$(git rev-parse "upstream/$BRANCH")
+
+          echo "Local:    $LOCAL_SHA"
+          echo "Upstream: $UPSTREAM_SHA"
+
+          if [ "$LOCAL_SHA" = "$UPSTREAM_SHA" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Already up to date."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected."
+          fi
+
+      - name: Sync with upstream
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          BRANCH: ${{ matrix.branch }}
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          echo "Resetting ${{ matrix.branch }} to upstream/${{ matrix.branch }}"
+          git reset --hard "upstream/$BRANCH"
 
-          git reset --hard upstream/${{ matrix.branch }}
+          git push --force-with-lease origin "$BRANCH"
 
-          git push --force-with-lease origin ${{ matrix.branch }}
+      - name: Trigger release build
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          BRANCH: ${{ matrix.branch }}
+        run: |
+          SHA=$(git rev-parse "upstream/$BRANCH")
+
+          echo "Triggering release build"
+          echo "Branch: $BRANCH"
+          echo "SHA:    $SHA"
+
+          gh api "repos/${{ github.repository }}/dispatches" \
+            --method POST \
+            -f event_type=assemble-release \
+            -f "client_payload[branch]=$BRANCH" \
+            -f "client_payload[sha]=$SHA"

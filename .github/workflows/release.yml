@@ -1,56 +1,102 @@
 name: Assemble and Release
 
 on:
-  push:
-      branches:
-        - dev
-        - main
+  repository_dispatch:
+    types:
+      - assemble-release
+
   workflow_dispatch:
+    inputs:
+      branch:
+        description: Branch to build
+        required: true
+        default: main
+        type: choice
+        options:
+          - main
+          - dev
+
+concurrency:
+  group: release-${{ github.event.client_payload.branch || inputs.branch }}
+  cancel-in-progress: true
 
 jobs:
   release:
     name: Release
+
     permissions:
       contents: write
       id-token: write
       attestations: write
+
     runs-on: ubuntu-latest
+
     steps:
+      - name: Determine build target
+        id: target
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_BRANCH: ${{ github.event.client_payload.branch }}
+          DISPATCH_SHA: ${{ github.event.client_payload.sha }}
+          MANUAL_BRANCH: ${{ inputs.branch }}
+        run: |
+          if [ "$EVENT_NAME" = "repository_dispatch" ]; then
+            branch="$DISPATCH_BRANCH"
+            sha="$DISPATCH_SHA"
+          else
+            branch="$MANUAL_BRANCH"
+            sha=""
+          fi
+
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
       - name: Checkout
         uses: actions/checkout@v6
         with:
+          ref: ${{ steps.target.outputs.sha || steps.target.outputs.branch }}
           fetch-depth: 0
 
       - name: Compute tag
         id: version
+        env:
+          BRANCH: ${{ steps.target.outputs.branch }}
         run: |
           v=$(grep -E '^version\s*=' gradle.properties | sed 's/.*=[[:space:]]*//')
+
           if [ -z "$v" ]; then
-            echo "Could not read 'version' from gradle.properties"; exit 1
+            echo "Could not read 'version' from gradle.properties"
+            exit 1
           fi
+
           suffix="release"
-          if [ "${{ github.ref_name }}" = "dev" ]; then
+
+          if [ "$BRANCH" = "dev" ]; then
             suffix="pre"
           fi
+
           base="v${v}-${suffix}"
 
           git fetch --tags --force
 
           if ! git rev-parse "refs/tags/${base}" >/dev/null 2>&1; then
-            tag="${base}"
+            tag="$base"
           else
             n=$(git tag -l "${base}.*" \
-                  | sed -n "s|^${base}\.\([0-9]\+\)$|\1|p" \
-                  | sort -n | tail -1)
+              | sed -n "s|^${base}\.\([0-9]\+\)$|\1|p" \
+              | sort -n \
+              | tail -1)
+
             tag="${base}.$(( ${n:-0} + 1 ))"
           fi
-          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: 'temurin'
-          java-version: '21'
+          distribution: temurin
+          java-version: "21"
 
       - name: Cache Gradle
         uses: burrunan/gradle-cache-action@v3
@@ -63,29 +109,36 @@ jobs:
       - name: Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew :patches:buildAndroid --no-daemon
+        run: |
+          ./gradlew :patches:buildAndroid --no-daemon
 
       - name: Create tag
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
         run: |
-          git tag "${{ steps.version.outputs.tag }}"
-          git push origin "${{ steps.version.outputs.tag }}"
+          git tag "$TAG"
+          git push origin "$TAG"
 
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.version.outputs.tag }}
+          BRANCH: ${{ steps.target.outputs.branch }}
         run: |
           prerelease=""
-          if [ "${{ github.ref_name }}" = "dev" ]; then
+
+          if [ "$BRANCH" = "dev" ]; then
             prerelease="--prerelease"
           fi
-          gh release create "${{ steps.version.outputs.tag }}" \
+
+          gh release create "$TAG" \
             patches/build/libs/patches-*.mpp \
-            --title "${{ steps.version.outputs.tag }}" \
+            --title "$TAG" \
             --generate-notes \
             $prerelease
 
       - name: Attest
         uses: actions/attest-build-provenance@v3
         with:
-          subject-name: 'Morphe Patches ${{ steps.version.outputs.tag }}'
+          subject-name: "Morphe Patches ${{ steps.version.outputs.tag }}"
           subject-path: patches/build/libs/patches-*.mpp
