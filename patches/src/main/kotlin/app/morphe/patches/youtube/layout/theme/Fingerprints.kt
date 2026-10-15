@@ -65,6 +65,17 @@ internal object CarbonColorThemeFeatureFlagFingerprint : Fingerprint(
     )
 )
 
+/**
+ * 21.29+
+ */
+internal object MetapanelForceDarkThemeFeatureFlagFingerprint : Fingerprint(
+    returnType = "Z",
+    parameters = listOf(),
+    filters = listOf(
+        literal(45813114L)
+    )
+)
+
 internal object SplashScreenStyleFingerprint : Fingerprint(
     definingClass = YOUTUBE_MAIN_ACTIVITY_CLASS_TYPE,
     name = "onCreate",
