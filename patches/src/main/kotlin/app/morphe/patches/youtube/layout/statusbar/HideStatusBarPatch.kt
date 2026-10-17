@@ -17,6 +17,7 @@ import app.morphe.patches.youtube.misc.settings.settingsPatch
 import app.morphe.patches.youtube.shared.Constants.COMPATIBILITY_YOUTUBE
 import app.morphe.patches.youtube.shared.YouTubeActivityOnCreateFingerprint
 import com.android.tools.smali.dexlib2.iface.instruction.FiveRegisterInstruction
+import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/youtube/patches/HideStatusBarPatch;"
 
@@ -52,6 +53,22 @@ val hideStatusBarPatch = bytecodePatch(
                 addInstruction(
                     index + 1,
                     "invoke-static { v$viewRegister }, $EXTENSION_CLASS->hideStatusBarBackground(Landroid/view/View;)V"
+                )
+            }
+        }
+
+        // The top bars are laid out with the stable insets, which keep the height of the hidden status bar.
+        SystemWindowInsetsChangedFingerprint.let {
+            it.method.apply {
+                val insetsRegister = it.instructionMatches.first()
+                    .getInstruction<FiveRegisterInstruction>().registerC
+                val viewIndex = it.instructionMatches.last().index
+                val viewRegister = getInstruction<TwoRegisterInstruction>(viewIndex).registerA
+
+                addInstruction(
+                    viewIndex + 1,
+                    "invoke-static { v$insetsRegister, v$viewRegister }, " +
+                            "$EXTENSION_CLASS->setSystemWindowInsetTop(Landroid/graphics/Rect;Landroid/view/View;)V"
                 )
             }
         }
