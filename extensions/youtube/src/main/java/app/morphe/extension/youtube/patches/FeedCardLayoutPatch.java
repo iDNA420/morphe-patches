@@ -146,16 +146,6 @@ public class FeedCardLayoutPatch {
         byte[] patch_getElementBytes();
     }
 
-    public interface RecyclerViewInterface {
-        // Method is added during patching.
-        Object patch_getLayoutManager();
-    }
-
-    public interface FlowLayoutManagerInterface {
-        // Method is added during patching.
-        void patch_removeVerticalSpacing();
-    }
-
     private static final boolean CARD_LAYOUT = Settings.FEED_CARD_LAYOUT.get() != FeedCardLayout.CLASSIC;
     private static final boolean ACTION_BUTTONS = Settings.FEED_CARD_LAYOUT.get() == FeedCardLayout.CARDS_WITH_ACTION_BUTTONS;
 
@@ -445,13 +435,6 @@ public class FeedCardLayoutPatch {
      */
     public static void onChildAdded(RecyclerView recyclerView, View child) {
         try {
-            // The items of the feed have their own spacing, with the cards and with the classic layout.
-            if (recyclerView.getId() == getFeedId()
-                    && recyclerView instanceof RecyclerViewInterface feed
-                    && feed.patch_getLayoutManager() instanceof FlowLayoutManagerInterface layoutManager) {
-                layoutManager.patch_removeVerticalSpacing();
-            }
-
             if (!CARD_LAYOUT || child == null) {
                 return;
             }

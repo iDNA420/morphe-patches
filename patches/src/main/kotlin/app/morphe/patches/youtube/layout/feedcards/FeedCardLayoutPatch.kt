@@ -31,7 +31,6 @@ import app.morphe.patches.youtube.shared.Constants.COMPATIBILITY_YOUTUBE
 import app.morphe.patches.youtube.shared.hookVideoIntentCommand
 import app.morphe.patches.youtube.shared.openVideoIntentPatch
 import app.morphe.util.getReference
-import app.morphe.util.indexOfFirstInstruction
 import app.morphe.util.indexOfFirstInstructionReversedOrThrow
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -46,12 +45,6 @@ private const val EXTENSION_CLASS =
 
 private const val EXTENSION_ELEMENT_ITEM_INTERFACE =
     "Lapp/morphe/extension/youtube/patches/FeedCardLayoutPatch\$ElementItemInterface;"
-
-private const val EXTENSION_RECYCLER_VIEW_INTERFACE =
-    "Lapp/morphe/extension/youtube/patches/FeedCardLayoutPatch\$RecyclerViewInterface;"
-
-private const val EXTENSION_FLOW_LAYOUT_MANAGER_INTERFACE =
-    "Lapp/morphe/extension/youtube/patches/FeedCardLayoutPatch\$FlowLayoutManagerInterface;"
 
 private const val RECYCLER_VIEW_CLASS = "Landroid/support/v7/widget/RecyclerView;"
 
@@ -176,74 +169,6 @@ val feedCardLayoutPatch = bytecodePatch(
                                 invoke-super { p0, p1 }, Landroid/view/ViewGroup;->onDraw(Landroid/graphics/Canvas;)V
                                 invoke-static { p0, p1 }, $onListDraw
                                 return-void
-                            """
-                        )
-                    }
-                )
-            }
-        }
-
-        // Some lists, such as the Subscriptions feed, add a vertical spacing between all the items,
-        // also around the hidden items.
-        FlowLayoutManagerConstructorFingerprint.matchOrNull()?.let {
-            val verticalSpacingField = it.instructionMatches.last().getFieldAccessed()
-            // Older app versions set the spacing only in the constructor.
-            val setVerticalSpacingMethod = it.classDef.methods.firstOrNull { method ->
-                method.parameterTypes == listOf("I") && method.returnType == "V" &&
-                        method.indexOfFirstInstruction {
-                            opcode == Opcode.IPUT && getReference<FieldReference>() == verticalSpacingField
-                        } >= 0
-            } ?: return@let
-
-            it.classDef.apply {
-                interfaces.add(EXTENSION_FLOW_LAYOUT_MANAGER_INTERFACE)
-
-                methods.add(
-                    ImmutableMethod(
-                        type,
-                        "patch_removeVerticalSpacing",
-                        listOf(),
-                        "V",
-                        AccessFlags.PUBLIC.value or AccessFlags.FINAL.value,
-                        null,
-                        null,
-                        MutableMethodImplementation(2),
-                    ).toMutable().apply {
-                        addInstructions(
-                            0,
-                            """
-                                const/4 v0, 0x0
-                                invoke-virtual { p0, v0 }, $setVerticalSpacingMethod
-                                return-void
-                            """
-                        )
-                    }
-                )
-            }
-
-            mutableClassDefBy(RECYCLER_VIEW_CLASS).apply {
-                val layoutManagerField = fields.single { field ->
-                    !AccessFlags.STATIC.isSet(field.accessFlags) && field.type == it.classDef.superclass
-                }
-
-                interfaces.add(EXTENSION_RECYCLER_VIEW_INTERFACE)
-
-                methods.add(
-                    ImmutableMethod(
-                        type,
-                        "patch_getLayoutManager",
-                        listOf(),
-                        "Ljava/lang/Object;",
-                        AccessFlags.PUBLIC.value or AccessFlags.FINAL.value,
-                        null,
-                        null,
-                        MutableMethodImplementation(2),
-                    ).toMutable().apply {
-                        addInstructions(
-                            0,
-                            """
-                                iget-object v0, p0, $layoutManagerField
-                                return-object v0
                             """
                         )
                     }
