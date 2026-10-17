@@ -85,6 +85,10 @@ public final class HideStatusBarPatch {
      * with {@link #setSystemWindowInsetTop(Rect, View)}.
      */
     public static boolean useEdgeToEdgeTopBar(boolean original) {
+        if (!Settings.FIX_STATUS_BAR_LAYOUT.get()) {
+            return original;
+        }
+
         Boolean value = edgeToEdgeTopBar;
         if (value == null) {
             synchronized (HideStatusBarPatch.class) {
@@ -107,6 +111,10 @@ public final class HideStatusBarPatch {
      * top bar crashes the app (https://github.com/MorpheApp/morphe-patches/issues/3805).
      */
     public static boolean useStatusBarScrollColor(boolean original) {
+        if (!Settings.FIX_STATUS_BAR_LAYOUT.get()) {
+            return original;
+        }
+
         Boolean edgeToEdge = edgeToEdgeTopBar;
         return original && (edgeToEdge == null || edgeToEdge);
     }

@@ -36,7 +36,8 @@ val hideStatusBarPatch = bytecodePatch(
 
     execute {
         PreferenceScreen.GENERAL.addPreferences(
-            SwitchPreference("morphe_hide_status_bar", summary = true)
+            SwitchPreference("morphe_hide_status_bar", summary = true),
+            SwitchPreference("morphe_fix_status_bar_layout", summary = true)
         )
 
         // https://github.com/MorpheApp/morphe-patches/issues/2969
