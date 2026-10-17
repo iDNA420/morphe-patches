@@ -99,6 +99,7 @@ import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.MetadataR
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.RendererContext;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShelfHeaderData;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShelfHeaderModel;
+import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsShelfModel;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsVideoCellData;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsVideoCellModel;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.SubscriptionConfig;
@@ -166,6 +167,7 @@ public class FeedCardLayoutPatch {
     private static final String SHELF_HEADER_TEMPLATE = "shelf_header.eml";
     private static final String HORIZONTAL_SHELF_TEMPLATE = "horizontal_shelf.eml";
     private static final String SHORTS_VIDEO_CELL_TEMPLATE = "shorts_video_cell.eml";
+    private static final String SHORTS_SHELF_TEMPLATE = "shorts_shelf.eml";
 
     private static final int LOCKUP_CONTENT_TYPE_VIDEO = 1;
     private static final int LOCKUP_CONTENT_TYPE_PLAYLIST = 2;
@@ -272,7 +274,7 @@ public class FeedCardLayoutPatch {
     private static final ByteTrieSearch elementSearch = new ByteTrieSearch(
             CARD_LAYOUT
                     ? ByteTrieSearch.convertStringsToBytes(CLASSIC_TEMPLATE, SHELF_HEADER_TEMPLATE,
-                    HORIZONTAL_SHELF_TEMPLATE, SHORTS_VIDEO_CELL_TEMPLATE)
+                    HORIZONTAL_SHELF_TEMPLATE, SHORTS_VIDEO_CELL_TEMPLATE, SHORTS_SHELF_TEMPLATE)
                     : ByteTrieSearch.convertStringsToBytes(CARD_TEMPLATE)
     );
     private static final ByteTrieSearch cardElementSearch = new ByteTrieSearch(
@@ -415,6 +417,8 @@ public class FeedCardLayoutPatch {
                     converted = setHorizontalShelfCard(componentType, model.getHorizontalShelfModel());
                 } else if (isTemplate(uri, SHORTS_VIDEO_CELL_TEMPLATE) && model.hasShortsVideoCellModel()) {
                     converted = setShortsCellLabel(componentType, model.getShortsVideoCellModel());
+                } else if (isTemplate(uri, SHORTS_SHELF_TEMPLATE) && model.hasShortsShelfModel()) {
+                    converted = setShortsShelfCard(componentType, model.getShortsShelfModel());
                 }
             } else if (isTemplate(uri, CARD_TEMPLATE) && model.hasLockupModel()) {
                 converted = convertToClassic(componentType, model.getLockupModel());
@@ -1370,6 +1374,22 @@ public class FeedCardLayoutPatch {
                 .setModel(ElementModel.newBuilder().setHorizontalShelfModel(shelf.toBuilder()
                         .setData(data.toBuilder()
                                 .setHeader(modernShelfHeader(data.getHeader())))))
+                .build();
+    }
+
+    /**
+     * The shelves of Shorts in a carousel, such as in the search results, have the modern header
+     * like the other shelves, and the shelf is a card with the header and the Shorts.
+     */
+    @Nullable
+    private static ComponentType setShortsShelfCard(ComponentType componentType, ShortsShelfModel shelf) {
+        if (!shelf.hasHeader()) {
+            return null;
+        }
+
+        return componentType.toBuilder()
+                .setModel(ElementModel.newBuilder().setShortsShelfModel(shelf.toBuilder()
+                        .setHeader(modernShelfHeader(shelf.getHeader()))))
                 .build();
     }
 
