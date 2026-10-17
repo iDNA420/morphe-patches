@@ -22,6 +22,7 @@ import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patcher.util.Document
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
+import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.patches.youtube.misc.addon.EXTENSION_ADD_ON_API_CLASS_DESCRIPTOR
 import app.morphe.patches.youtube.misc.addon.LEGACY_BUTTON_SLOTS_RESOURCE_DIRECTORY
@@ -34,7 +35,7 @@ import app.morphe.patches.youtube.misc.playservice.is_21_04_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_05_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_08_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_15_or_greater
-import app.morphe.patches.youtube.misc.playservice.is_21_29_or_greater
+import app.morphe.patches.youtube.misc.playservice.is_21_30_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_36_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_38_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_41_or_greater
@@ -49,8 +50,11 @@ import app.morphe.util.findInstructionIndicesReversed
 import app.morphe.util.inputStreamFromBundledResource
 import app.morphe.util.insertLiteralOverride
 import app.morphe.util.matchSingle
+import com.android.tools.smali.dexlib2.AccessFlags
+import com.android.tools.smali.dexlib2.builder.MutableMethodImplementation
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
+import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
 import org.w3c.dom.Node
 import java.lang.ref.WeakReference
 
@@ -271,6 +275,9 @@ fun initializeLegacyBottomControl(descriptor: String) {
 
 internal const val EXTENSION_CLASS = "Lapp/morphe/extension/youtube/patches/LegacyPlayerControlsPatch;"
 
+private const val EXTENSION_METAPANEL_FLAGS_INTERFACE =
+    $$"Lapp/morphe/extension/youtube/patches/LegacyPlayerControlsPatch$MetapanelFlagsInterface;"
+
 private lateinit var inflateTopControlMethodRef : WeakReference<MutableMethod>
 private var inflateTopControlInsertIndex = -1
 private var inflateTopControlRegister = -1
@@ -302,23 +309,82 @@ val legacyPlayerControlsPatch = bytecodePatch(
         }
 
         if (is_21_08_or_greater) {
-            // The elevated player shows the video metadata without a background over the
-            // ambient mode colors, so the light theme text can not be read.
-            // The metadata panel also has its own forced dark and light themes, which do not depend
-            // on the elevated player. With the forced dark theme and the elevated player off, the
-            // white text is drawn on the light background of the watch page, so turn all of them off
-            // and the metadata panel uses the app theme.
-            arrayOf(
-                ElevatedPlayerFeatureFlagFingerprint to true,
-                MetapanelForceDarkThemeFeatureFlagFingerprint to is_21_29_or_greater,
-                MetapanelForceLightThemeFeatureFlagFingerprint to is_21_38_or_greater
-            ).forEach { (fingerprint, applyChanges) ->
-                if (applyChanges) {
-                    fingerprint.matchAll().forEach {
-                        it.method.insertLiteralOverride(
-                            it.instructionMatches.first().index,
-                            false
-                        )
+            // The elevated player is kept only if the video metadata panel has its own theme for it.
+            ElevatedPlayerFeatureFlagFingerprint.matchAll().forEach {
+                // Overrides every read of the flag in the method.
+                it.method.insertLiteralOverride(
+                    it.instructionMatches.first().index,
+                    "$EXTENSION_CLASS->useElevatedPlayer(Z)Z"
+                )
+            }
+
+            if (is_21_30_or_greater) {
+                // The dark (21.29+) and light (21.38+) metadata panel themes are read
+                // by the same class as the elevated player flag since 21.30.
+                val forceDarkThemeMethod = MetapanelForceDarkThemeFeatureFlagFingerprint.method
+                val forceLightThemeMethod = if (is_21_38_or_greater) {
+                    MetapanelForceLightThemeFeatureFlagFingerprint.method
+                } else {
+                    null
+                }
+
+                mutableClassDefBy(forceDarkThemeMethod.definingClass).apply {
+                    fun flagMethodReference(method: MutableMethod): String {
+                        if (method.definingClass != type || method.returnType != "Z"
+                            || method.parameterTypes.isNotEmpty() || AccessFlags.STATIC.isSet(method.accessFlags)
+                        ) {
+                            throw PatchException("Unexpected metadata panel flag method: $method")
+                        }
+                        return "$type->${method.name}()Z"
+                    }
+
+                    val useForceLightTheme = forceLightThemeMethod?.let {
+                        """
+                            invoke-virtual { p0 }, ${flagMethodReference(it)}
+                            move-result v0
+                        """
+                    } ?: ""
+
+                    interfaces.add(EXTENSION_METAPANEL_FLAGS_INTERFACE)
+                    methods.add(
+                        ImmutableMethod(
+                            type,
+                            "patch_isMetapanelThemed",
+                            listOf(),
+                            "Z",
+                            AccessFlags.PUBLIC.value or AccessFlags.FINAL.value,
+                            null,
+                            null,
+                            MutableMethodImplementation(2),
+                        ).toMutable().apply {
+                            addInstructionsWithLabels(
+                                0,
+                                """
+                                    invoke-virtual { p0 }, ${flagMethodReference(forceDarkThemeMethod)}
+                                    move-result v0
+                                    if-nez v0, :themed
+                                    $useForceLightTheme
+                                    :themed
+                                    return v0
+                                """
+                            )
+                        }
+                    )
+
+                    // The flag methods reuse the register of 'this' after reading the flag,
+                    // so the class is handed to the extension at the start of each method.
+                    ElevatedPlayerFeatureFlagFingerprint.matchAll().forEach { match ->
+                        match.method.apply {
+                            if (definingClass != type || AccessFlags.STATIC.isSet(accessFlags)) {
+                                throw PatchException("Unexpected elevated player flag method: $this")
+                            }
+
+                            addInstruction(
+                                0,
+                                "invoke-static { p0 }, $EXTENSION_CLASS->" +
+                                        "setMetapanelFlags($EXTENSION_METAPANEL_FLAGS_INTERFACE)V"
+                            )
+                        }
                     }
                 }
             }

@@ -10,6 +10,8 @@ package app.morphe.extension.youtube.patches;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.annotation.Nullable;
+
 import app.morphe.extension.shared.Logger;
 import app.morphe.extension.shared.Utils;
 import app.morphe.extension.shared.settings.Setting;
@@ -82,6 +84,57 @@ public class LegacyPlayerControlsPatch {
      */
     public static boolean getOriginalNewPlayerOverlays(boolean overridden) {
         return newPlayerOverlaysOriginal;
+    }
+
+    /**
+     * Added to the class of the video metadata panel feature flags (21.30+).
+     */
+    public interface MetapanelFlagsInterface {
+        // Method is added during patching.
+        /**
+         * @return If the video metadata panel has its own dark or light theme.
+         */
+        boolean patch_isMetapanelThemed();
+    }
+
+    @Nullable
+    private static volatile MetapanelFlagsInterface metapanelFlags;
+
+    /**
+     * Injection point.
+     * Called before the elevated player flag is read.
+     */
+    public static void setMetapanelFlags(MetapanelFlagsInterface flags) {
+        metapanelFlags = flags;
+    }
+
+    /**
+     * Injection point.
+     * <p>
+     * The elevated player shows the video metadata over the ambient mode colors of the player.
+     * YouTube gives the metadata panel its own dark (or light) theme for it. Without either of them,
+     * the light theme text can not be read over the dark colors, so the elevated player is turned off
+     * (https://github.com/MorpheApp/morphe-patches/issues/3703).
+     * With a forced theme the elevated player is kept, because the metadata is then themed for it
+     * and can not be read over the background of the watch page
+     * (https://github.com/MorpheApp/morphe-patches/issues/3809).
+     */
+    public static boolean useElevatedPlayer(boolean original) {
+        if (!allowModernPlayerLayoutFlags(original)) {
+            return false;
+        }
+
+        MetapanelFlagsInterface flags = metapanelFlags;
+        if (flags == null) {
+            // 21.29 and older, which have no themes for the metadata panel of the elevated player.
+            return true;
+        }
+
+        final boolean themed = flags.patch_isMetapanelThemed();
+        if (!themed) {
+            Logger.printDebug(() -> "Elevated player turned off, the metadata panel has no theme");
+        }
+        return themed;
     }
 
     /**
