@@ -99,6 +99,7 @@ import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.MetadataR
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.RendererContext;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShelfHeaderData;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShelfHeaderModel;
+import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.GridVideoModel;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsShelfModel;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsVideoCellData;
 import app.morphe.extension.youtube.innertube.FeedCardLayoutOuterClass.ShortsVideoCellModel;
@@ -158,6 +159,7 @@ public class FeedCardLayoutPatch {
     private static final String HORIZONTAL_SHELF_TEMPLATE = "horizontal_shelf.eml";
     private static final String SHORTS_VIDEO_CELL_TEMPLATE = "shorts_video_cell.eml";
     private static final String SHORTS_SHELF_TEMPLATE = "shorts_shelf.eml";
+    private static final String GRID_VIDEO_TEMPLATE = "grid_video_wrapper.eml";
 
     private static final int LOCKUP_CONTENT_TYPE_VIDEO = 1;
     private static final int LOCKUP_CONTENT_TYPE_PLAYLIST = 2;
@@ -248,6 +250,14 @@ public class FeedCardLayoutPatch {
      */
     private static final char SHORTS_CELL_LABEL_MARKER = '\uFEFF';
     /**
+     * Invisible character at the end of the label of the other shelf headers, such as in the channel home.
+     */
+    private static final char VIDEO_SHELF_HEADER_LABEL_MARKER = '\u2060';
+    /**
+     * Invisible character at the end of the label of the videos of the vertical shelves below a shelf header.
+     */
+    private static final char VIDEO_SHELF_ROW_LABEL_MARKER = '\u2061';
+    /**
      * Icon of the Shorts shelf header, which the modern header of the card layout doesn't show.
      */
     private static final String SHORTS_SHELF_ICON = "ic_youtube_shorts";
@@ -264,7 +274,8 @@ public class FeedCardLayoutPatch {
     private static final ByteTrieSearch elementSearch = new ByteTrieSearch(
             CARD_LAYOUT
                     ? ByteTrieSearch.convertStringsToBytes(CLASSIC_TEMPLATE, SHELF_HEADER_TEMPLATE,
-                    HORIZONTAL_SHELF_TEMPLATE, SHORTS_VIDEO_CELL_TEMPLATE, SHORTS_SHELF_TEMPLATE)
+                    HORIZONTAL_SHELF_TEMPLATE, SHORTS_VIDEO_CELL_TEMPLATE, SHORTS_SHELF_TEMPLATE,
+                    GRID_VIDEO_TEMPLATE)
                     : ByteTrieSearch.convertStringsToBytes(CARD_TEMPLATE)
     );
     private static final ByteTrieSearch cardElementSearch = new ByteTrieSearch(
@@ -320,6 +331,11 @@ public class FeedCardLayoutPatch {
     /**
      * Edges of the last Shorts shelf card, for the header of a shelf whose Shorts are not in the list yet.
      */
+    /**
+     * Videos of vertical shelves that were below a shelf header, to keep drawing the card
+     * after the header is scrolled out of the list.
+     */
+    private static final Map<View, Boolean> videoShelfRows = new WeakHashMap<>();
     private static int shortsCardLeft;
     private static int shortsCardRight;
     @Nullable
@@ -409,6 +425,8 @@ public class FeedCardLayoutPatch {
                     converted = setShortsCellLabel(componentType, model.getShortsVideoCellModel());
                 } else if (isTemplate(uri, SHORTS_SHELF_TEMPLATE) && model.hasShortsShelfModel()) {
                     converted = setShortsShelfCard(componentType, model.getShortsShelfModel());
+                } else if (isTemplate(uri, GRID_VIDEO_TEMPLATE) && model.hasGridVideoModel()) {
+                    converted = setVideoShelfRowLabel(componentType, model.getGridVideoModel());
                 }
             } else if (isTemplate(uri, CARD_TEMPLATE) && model.hasLockupModel()) {
                 converted = convertToClassic(componentType, model.getLockupModel());
@@ -606,6 +624,15 @@ public class FeedCardLayoutPatch {
                     continue;
                 }
 
+                // First visible video of a vertical shelf of videos.
+                if (isVideoShelfRow(item)) {
+                    View above = findItemAbove(list, item);
+                    if (above == null || !isVideoShelfRow(above)) {
+                        drawVideoShelfCard(list, above, item, canvas);
+                    }
+                    continue;
+                }
+
                 // First visible row of a Shorts shelf.
                 if (isShortsRow(item)) {
                     View above = findItemAbove(list, item);
@@ -653,6 +680,48 @@ public class FeedCardLayoutPatch {
         } catch (Exception ex) {
             Logger.printException(() -> "onListDraw failure", ex);
         }
+    }
+
+    /**
+     * The videos of a vertical shelf are below the shelf header, and the shelf is one card
+     * with the header and the videos. The videos are also used in lists without a shelf header,
+     * so a card is drawn only if the videos are below a shelf header, or were below one before
+     * the header was scrolled out of the list.
+     */
+    private static void drawVideoShelfCard(RecyclerView list, @Nullable View above, View firstRow, Canvas canvas) {
+        final boolean belowHeader = above != null && isVideoShelfHeader(above);
+        if (!belowHeader && above != null) {
+            // Not a shelf. The views are recycled, so they are no longer videos of a shelf.
+            for (View item = firstRow; item != null && isVideoShelfRow(item); item = findItemBelow(list, item)) {
+                videoShelfRows.remove(item);
+            }
+            return;
+        }
+        if (!belowHeader && !videoShelfRows.containsKey(firstRow)) {
+            return;
+        }
+
+        float bottom = firstRow.getY() + firstRow.getHeight();
+        View item = firstRow;
+        while (item != null && isVideoShelfRow(item)) {
+            videoShelfRows.put(item, Boolean.TRUE);
+            bottom = item.getY() + item.getHeight();
+            item = findItemBelow(list, item);
+        }
+
+        final float top = belowHeader ? above.getY() : firstRow.getY();
+        final float x = firstRow.getX();
+        final int horizontalPadding = Dim.dp(CARD_HORIZONTAL_PADDING_DP);
+        canvas.drawRoundRect(x + horizontalPadding, top, x + firstRow.getWidth() - horizontalPadding, bottom,
+                CARD_CORNER_RADIUS, CARD_CORNER_RADIUS, getShelfPaint(list.getContext()));
+    }
+
+    private static boolean isVideoShelfRow(View item) {
+        return hasLabelMarker(item, VIDEO_SHELF_ROW_LABEL_MARKER, 0);
+    }
+
+    private static boolean isVideoShelfHeader(View item) {
+        return hasLabelMarker(item, VIDEO_SHELF_HEADER_LABEL_MARKER, 0);
     }
 
     /**
@@ -1309,7 +1378,14 @@ public class FeedCardLayoutPatch {
     private static ComponentType setModernShelfHeader(ComponentType componentType, ShelfHeaderModel header) {
         ShelfHeaderData data = header.getData();
         if (!data.getIcon().toString(StandardCharsets.ISO_8859_1).contains(SHORTS_SHELF_ICON)) {
-            return null;
+            // The other shelf headers keep their own style, and are only found in the lists by their label,
+            // to draw a card behind the videos below them.
+            return componentType.toBuilder()
+                    .setModel(ElementModel.newBuilder().setShelfHeaderModel(header.toBuilder()
+                            .setData(data.toBuilder()
+                                    .setTitle(data.getTitle() + VIDEO_SHELF_HEADER_LABEL_MARKER)
+                                    .setAccessibilityText(data.getAccessibilityText() + VIDEO_SHELF_HEADER_LABEL_MARKER))))
+                    .build();
         }
 
         return componentType.toBuilder()
@@ -1357,6 +1433,17 @@ public class FeedCardLayoutPatch {
                 .setModel(ElementModel.newBuilder().setHorizontalShelfModel(shelf.toBuilder()
                         .setData(data.toBuilder()
                                 .setHeader(modernShelfHeader(data.getHeader())))))
+                .build();
+    }
+
+    /**
+     * The label of the videos of the vertical shelves ends with an invisible character,
+     * to draw the shelf below the header as a card.
+     */
+    private static ComponentType setVideoShelfRowLabel(ComponentType componentType, GridVideoModel video) {
+        return componentType.toBuilder()
+                .setModel(ElementModel.newBuilder().setGridVideoModel(video.toBuilder()
+                        .setAccessibilityText(video.getAccessibilityText() + VIDEO_SHELF_ROW_LABEL_MARKER)))
                 .build();
     }
 
