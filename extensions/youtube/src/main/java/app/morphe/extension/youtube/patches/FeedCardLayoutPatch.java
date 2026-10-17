@@ -192,6 +192,11 @@ public class FeedCardLayoutPatch {
      */
     private static final int CARD_HORIZONTAL_PADDING_DP = 12;
     private static final int CARD_VERTICAL_PADDING_DP = 6;
+    /**
+     * The videos of the vertical shelves are laid out almost to the edges of the list,
+     * with the menu button near the right edge, so their card is wider than the other cards.
+     */
+    private static final int VIDEO_SHELF_HORIZONTAL_PADDING_DP = 4;
 
     private static final CardOutlineProvider CARD_OUTLINE = new CardOutlineProvider(
             Dim.dp(CARD_HORIZONTAL_PADDING_DP), Dim.dp(CARD_VERTICAL_PADDING_DP));
@@ -199,10 +204,18 @@ public class FeedCardLayoutPatch {
      * Outline of the items of the feed that are not converted, such as the cards that YouTube sends.
      */
     private static final CardOutlineProvider FEED_ITEM_OUTLINE = new CardOutlineProvider(0, 0);
-    private static final ShortsCellOutlineProvider SHORTS_CELL_OUTLINE = new ShortsCellOutlineProvider(false, false);
-    private static final ShortsCellOutlineProvider SHORTS_CELL_BOTTOM_LEFT_OUTLINE = new ShortsCellOutlineProvider(true, false);
-    private static final ShortsCellOutlineProvider SHORTS_CELL_BOTTOM_RIGHT_OUTLINE = new ShortsCellOutlineProvider(false, true);
-    private static final ShortsCellOutlineProvider SHORTS_CELL_BOTTOM_OUTLINE = new ShortsCellOutlineProvider(true, true);
+    /**
+     * Clips of the Shorts of the Shorts shelves, by their rounded corners
+     * (top left, top right, bottom left and bottom right bits).
+     */
+    private static final ShortsCellOutlineProvider[] SHORTS_CELL_OUTLINES = new ShortsCellOutlineProvider[16];
+    static {
+        for (int corners = 0; corners < SHORTS_CELL_OUTLINES.length; corners++) {
+            SHORTS_CELL_OUTLINES[corners] = new ShortsCellOutlineProvider(
+                    (corners & 8) != 0, (corners & 4) != 0, (corners & 2) != 0, (corners & 1) != 0);
+        }
+    }
+    private static final ShortsCellOutlineProvider SHORTS_CELL_OUTLINE = SHORTS_CELL_OUTLINES[0];
 
     private static final int BUTTON_STYLE_MONO = 9;
     private static final int BUTTON_TYPE_TEXT = 3;
@@ -637,7 +650,7 @@ public class FeedCardLayoutPatch {
                 if (isShortsRow(item)) {
                     View above = findItemAbove(list, item);
                     if (above == null || !isShortsRow(above)) {
-                        drawShortsShelfCard(list, above != null && isShelfHeader(above) ? above : null,
+                        drawShortsShelfCard(list, getShortsShelfHeader(above),
                                 item, canvas);
                     }
                     continue;
@@ -711,9 +724,18 @@ public class FeedCardLayoutPatch {
 
         final float top = belowHeader ? above.getY() : firstRow.getY();
         final float x = firstRow.getX();
-        final int horizontalPadding = Dim.dp(CARD_HORIZONTAL_PADDING_DP);
+        final int horizontalPadding = Dim.dp(VIDEO_SHELF_HORIZONTAL_PADDING_DP);
         canvas.drawRoundRect(x + horizontalPadding, top, x + firstRow.getWidth() - horizontalPadding, bottom,
                 CARD_CORNER_RADIUS, CARD_CORNER_RADIUS, getShelfPaint(list.getContext()));
+    }
+
+    /**
+     * @return The header of the Shorts shelf, which is the Shorts shelf header or another shelf header
+     *         above the Shorts, or null if the item above the Shorts is not a shelf header.
+     */
+    @Nullable
+    private static View getShortsShelfHeader(@Nullable View above) {
+        return above != null && (isShelfHeader(above) || isVideoShelfHeader(above)) ? above : null;
     }
 
     private static boolean isVideoShelfRow(View item) {
@@ -743,11 +765,10 @@ public class FeedCardLayoutPatch {
         int right = Integer.MIN_VALUE;
         final float top = header != null ? header.getY() : firstRow.getY();
         float bottom = firstRow.getY();
-        List<View> lastRowCells = new ArrayList<>();
+        List<List<View>> rowCells = new ArrayList<>(rows.size());
         int[] rowLocation = new int[2];
         int[] cellLocation = new int[2];
-        for (int i = 0; i < rows.size(); i++) {
-            View row = rows.get(i);
+        for (View row : rows) {
             row.getLocationOnScreen(rowLocation);
             List<View> cells = new ArrayList<>();
             findShortsCells(row, cells, 0);
@@ -758,13 +779,7 @@ public class FeedCardLayoutPatch {
                 right = Math.max(right, cellLeft + cell.getWidth());
                 bottom = Math.max(bottom, row.getY() + cellLocation[1] - rowLocation[1] + cell.getHeight());
             }
-            if (i == rows.size() - 1) {
-                lastRowCells = cells;
-            } else {
-                for (View cell : cells) {
-                    setShortsCellOutline(cell, SHORTS_CELL_OUTLINE);
-                }
-            }
+            rowCells.add(cells);
         }
         if (left >= right) {
             return;
@@ -772,18 +787,21 @@ public class FeedCardLayoutPatch {
         shortsCardLeft = left;
         shortsCardRight = right;
 
-        // The outer Shorts of the last row have the bottom corners of the card.
-        rows.get(rows.size() - 1).getLocationOnScreen(rowLocation);
-        for (View cell : lastRowCells) {
-            cell.getLocationOnScreen(cellLocation);
-            final int cellLeft = cellLocation[0] - rowLocation[0];
-            final boolean leftCorner = cellLeft <= left;
-            final boolean rightCorner = cellLeft + cell.getWidth() >= right;
-            setShortsCellOutline(cell, leftCorner && rightCorner
-                    ? SHORTS_CELL_BOTTOM_OUTLINE
-                    : leftCorner ? SHORTS_CELL_BOTTOM_LEFT_OUTLINE
-                    : rightCorner ? SHORTS_CELL_BOTTOM_RIGHT_OUTLINE
-                    : SHORTS_CELL_OUTLINE);
+        // The outer Shorts have the outer corners of the card: the bottom corners in the last row,
+        // and the top corners in the first row if the shelf has no header above the Shorts.
+        for (int i = 0; i < rows.size(); i++) {
+            final boolean topRow = i == 0 && header == null;
+            final boolean bottomRow = i == rows.size() - 1;
+            rows.get(i).getLocationOnScreen(rowLocation);
+            for (View cell : rowCells.get(i)) {
+                cell.getLocationOnScreen(cellLocation);
+                final int cellLeft = cellLocation[0] - rowLocation[0];
+                final boolean leftColumn = cellLeft <= left;
+                final boolean rightColumn = cellLeft + cell.getWidth() >= right;
+                final int corners = (topRow && leftColumn ? 8 : 0) | (topRow && rightColumn ? 4 : 0)
+                        | (bottomRow && leftColumn ? 2 : 0) | (bottomRow && rightColumn ? 1 : 0);
+                setShortsCellOutline(cell, SHORTS_CELL_OUTLINES[corners]);
+            }
         }
 
         if (canvas == null) {
@@ -817,7 +835,7 @@ public class FeedCardLayoutPatch {
             if (item.getHeight() > 0 && isShortsRow(item)) {
                 View above = findItemAbove(list, item);
                 if (above == null || !isShortsRow(above)) {
-                    drawShortsShelfCard(list, null, item, null);
+                    drawShortsShelfCard(list, getShortsShelfHeader(above), item, null);
                 }
             }
         }
@@ -933,24 +951,36 @@ public class FeedCardLayoutPatch {
      * The rounded rectangle extends beyond the view on the sides that have no rounded corners.
      */
     private static final class ShortsCellOutlineProvider extends ViewOutlineProvider {
+        private final boolean topLeft;
+        private final boolean topRight;
         private final boolean bottomLeft;
         private final boolean bottomRight;
 
-        ShortsCellOutlineProvider(boolean bottomLeft, boolean bottomRight) {
+        ShortsCellOutlineProvider(boolean topLeft, boolean topRight, boolean bottomLeft, boolean bottomRight) {
+            this.topLeft = topLeft;
+            this.topRight = topRight;
             this.bottomLeft = bottomLeft;
             this.bottomRight = bottomRight;
         }
 
+        /**
+         * The outline has one radius for all the corners, so the sides without rounded corners
+         * are moved out of the view, which keeps their corners square.
+         */
         @Override
         public void getOutline(View view, Outline outline) {
             final int width = view.getWidth();
             final int height = view.getHeight();
-            if (!bottomLeft && !bottomRight) {
+            if (!topLeft && !topRight && !bottomLeft && !bottomRight) {
                 outline.setRect(0, 0, width, height);
                 return;
             }
-            outline.setRoundRect(bottomLeft ? 0 : -CARD_CORNER_RADIUS, -CARD_CORNER_RADIUS,
-                    bottomRight ? width : width + CARD_CORNER_RADIUS, height, CARD_CORNER_RADIUS);
+            outline.setRoundRect(
+                    topLeft || bottomLeft ? 0 : -CARD_CORNER_RADIUS,
+                    topLeft || topRight ? 0 : -CARD_CORNER_RADIUS,
+                    topRight || bottomRight ? width : width + CARD_CORNER_RADIUS,
+                    bottomLeft || bottomRight ? height : height + CARD_CORNER_RADIUS,
+                    CARD_CORNER_RADIUS);
         }
     }
 
