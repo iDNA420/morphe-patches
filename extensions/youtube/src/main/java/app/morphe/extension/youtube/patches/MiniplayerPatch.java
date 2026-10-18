@@ -172,6 +172,17 @@ public final class MiniplayerPatch {
             && (MINIMAL_BAR_SELECTED || !Settings.MINIPLAYER_DISABLE_HORIZONTAL_DRAG.get());
 
     /**
+     * {@code ANIMATION_CATEGORY_WATCH_TRANSITION}.
+     */
+    private static final int ANIMATION_CATEGORY_WATCH_TRANSITION = 1;
+    /**
+     * Ordinals of {@code ANIMATION_DECISION_ON}, {@code _THROTTLED} and {@code _OFF}.
+     */
+    private static final int ANIMATION_DECISION_ON = 1;
+    private static final int ANIMATION_DECISION_THROTTLED = 2;
+    private static final int ANIMATION_DECISION_OFF = 3;
+
+    /**
      * Keyed by the content description string name, as resolving the ids here can give 0 for
      * all of them on some installs, and duplicate keys make the map crash the app at launch.
      */
@@ -565,6 +576,26 @@ public final class MiniplayerPatch {
      */
     public static boolean getMaximizeAnimation() {
         return MINIPLAYER_HORIZONTAL_DRAG_ENABLED;
+    }
+
+    /**
+     * Injection point.
+     * <p>
+     * Category and decision values of YouTube's adaptive animation hints.
+     * The server can throttle or turn off the watch transition, and then maximizing the
+     * miniplayer has no animation and minimizing the player flashes a black screen.
+     *
+     * @param category Proto value of the animation category.
+     * @param decision Ordinal of the animation decision.
+     */
+    public static int getAnimationDecision(int category, int decision) {
+        if (category == ANIMATION_CATEGORY_WATCH_TRANSITION
+                && (decision == ANIMATION_DECISION_THROTTLED || decision == ANIMATION_DECISION_OFF)) {
+            Logger.printDebug(() -> "Overriding watch transition animation decision: " + decision);
+            return ANIMATION_DECISION_ON;
+        }
+
+        return decision;
     }
 
     /**

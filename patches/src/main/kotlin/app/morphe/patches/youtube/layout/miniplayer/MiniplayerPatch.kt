@@ -439,6 +439,31 @@ val miniplayerPatch = bytecodePatch(
 
         // endregion
 
+        // region Watch transition animation.
+
+        // The server can tell the app to skip the animation between the miniplayer and the
+        // maximized player, and then the player jumps between them and the screen flashes black.
+        AnimationMaybeAnimateFingerprint.let {
+            it.method.apply {
+                val index = it.instructionMatches[1].index
+                val decisionRegister = getInstruction<OneRegisterInstruction>(index).registerA
+                val categoryField = AnimationDecisionForCategoryFingerprint.instructionMatches[1]
+                    .getInstruction<ReferenceInstruction>().reference
+                val free = findFreeRegister(index + 1, decisionRegister)
+
+                addInstructions(
+                    index + 1,
+                    """
+                        iget v$free, p1, $categoryField
+                        invoke-static { v$free, v$decisionRegister }, $EXTENSION_CLASS->getAnimationDecision(II)I
+                        move-result v$decisionRegister
+                    """
+                )
+            }
+        }
+
+        // endregion
+
         if (!is_21_30_or_greater) {
             MiniplayerModernConstructorFingerprint.insertMiniplayerFeatureFlagBooleanOverride(
                 MINIPLAYER_ANIMATED_EXPAND_FEATURE_KEY,
