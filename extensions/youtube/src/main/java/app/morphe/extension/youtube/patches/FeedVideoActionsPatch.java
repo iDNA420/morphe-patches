@@ -50,6 +50,7 @@ import java.util.regex.Pattern;
 
 import app.morphe.extension.shared.Logger;
 import app.morphe.extension.shared.ResourceUtils;
+import app.morphe.extension.shared.Utils;
 import app.morphe.extension.shared.spoof.SpoofAppVersionPatch;
 import app.morphe.extension.youtube.patches.utils.FeedVideoCards;
 import app.morphe.extension.youtube.patches.utils.FlyoutUtils;
@@ -1091,28 +1092,21 @@ public final class FeedVideoActionsPatch {
         if (text == null || text.isEmpty()) {
             return null;
         }
-        List<View> views = new ArrayList<>();
-        views.add(itemList);
-        for (int v = 0; v < views.size(); v++) {
-            View view = views.get(v);
-            if (view instanceof TextView textView && text.contentEquals(textView.getText())) {
-                // The item is the clickable view that contains the text.
-                View item = textView;
-                while (!item.isClickable()) {
-                    if (item == itemList || !(item.getParent() instanceof View parent)) {
-                        return null;
-                    }
-                    item = parent;
-                }
-                return item == itemList ? null : item;
-            }
-            if (view instanceof ViewGroup group) {
-                for (int i = 0, count = group.getChildCount(); i < count; i++) {
-                    views.add(group.getChildAt(i));
-                }
-            }
+        TextView textView = Utils.getChildView(itemList, true, view ->
+                view instanceof TextView candidate && text.contentEquals(candidate.getText()));
+        if (textView == null) {
+            return null;
         }
-        return null;
+
+        // The item is the clickable view that contains the text.
+        View item = textView;
+        while (!item.isClickable()) {
+            if (item == itemList || !(item.getParent() instanceof View parent)) {
+                return null;
+            }
+            item = parent;
+        }
+        return item == itemList ? null : item;
     }
 
     /**

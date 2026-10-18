@@ -128,13 +128,13 @@ internal object PivotBarChangedFingerprint : Fingerprint(
     )
 )
 
+/**
+ * Feature flags of the translucent navigation bar. 21.29 and older read each of them with a single
+ * accessor method, newer targets read them inline in many classes, sometimes more than once in
+ * the same method.
+ */
 internal object TranslucentNavigationBarFeatureFlagsFingerprint : Fingerprint(
     filters = listOf(
-        /**
-        * Feature flags of the translucent navigation bar. 21.29 and older read each of them with a single
-        * accessor method, newer targets read them inline in many classes, sometimes more than once in
-        * the same method.
-        */
         anyInstruction(
             literal(45630927L), // Blurred, translucent background of the navigation bar.
             literal(45632194L), // Navigation bar also covers the system navigation buttons.

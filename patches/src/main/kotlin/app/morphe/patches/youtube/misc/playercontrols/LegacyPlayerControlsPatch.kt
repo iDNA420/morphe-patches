@@ -54,6 +54,7 @@ import app.morphe.util.findInstructionIndicesReversed
 import app.morphe.util.getReference
 import app.morphe.util.inputStreamFromBundledResource
 import app.morphe.util.insertLiteralOverride
+import app.morphe.util.matchAllMethodIndicesForEach
 import app.morphe.util.matchSingle
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -358,10 +359,10 @@ val legacyPlayerControlsPatch = bytecodePatch(
                         0,
                         """
                             move-object/from16 v0, p0
-                            iget-object v1, v0, $type->${conversionContextField.name}:${conversionContextField.type}
+                            iget-object v1, v0, $conversionContextField
                         """ + imageFields.joinToString("") { field ->
                             """
-                                iget-object v2, v0, $type->${field.name}:${field.type}
+                                iget-object v2, v0, $field
                                 invoke-static { v1, v2 }, $EXTENSION_CLASS->registerImage(Ljava/lang/Object;Ljava/lang/Object;)V
                             """
                         }
@@ -408,11 +409,9 @@ val legacyPlayerControlsPatch = bytecodePatch(
                 MetapanelForceLightThemeFeatureFlagFingerprint to is_21_38_or_greater
             ).forEach { (fingerprint, applyChanges) ->
                 if (applyChanges) {
-                    fingerprint.matchAll().forEach {
-                        it.method.insertLiteralOverride(
-                            it.instructionMatches.first().index,
-                            false
-                        )
+                    // A constant override only replaces the read at its index, so every read is overridden.
+                    fingerprint.matchAllMethodIndicesForEach { index ->
+                        insertLiteralOverride(index, false)
                     }
                 }
             }

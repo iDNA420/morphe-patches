@@ -183,7 +183,7 @@ internal object ElementsImageTintFingerprint : Fingerprint(
             location = MatchFirst()
         ),
         methodCall(
-            smali = "Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff\$Mode;)V"
+            smali = $$"Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V"
         )
     )
 )

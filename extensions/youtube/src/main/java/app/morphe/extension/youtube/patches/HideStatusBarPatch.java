@@ -94,9 +94,10 @@ public final class HideStatusBarPatch {
             synchronized (HideStatusBarPatch.class) {
                 value = edgeToEdgeTopBar;
                 if (value == null) {
-                    value = original && !Settings.HIDE_STATUS_BAR.get();
+                    final boolean used = original && !Settings.HIDE_STATUS_BAR.get();
+                    value = used;
                     edgeToEdgeTopBar = value;
-                    Logger.printDebug(() -> "Edge to edge top bar: " + original);
+                    Logger.printDebug(() -> "Edge to edge top bar: " + used + " (original: " + original + ")");
                 }
             }
         }
