@@ -435,6 +435,9 @@ public final class NavigationBar {
             goingBackCancelled = false;
 
             String lastEnumName = lastYTNavigationEnumName;
+            // The enum is of this tab only. The 'You' tab has no enum, and it's
+            // created right after the Create tab of the newer layout.
+            lastYTNavigationEnumName = null;
 
             for (NavigationButton buttonType : NavigationButton.values()) {
                 if (buttonType.ytEnumNames.contains(lastEnumName)) {
@@ -652,7 +655,12 @@ public final class NavigationBar {
          * Create new video tab.
          * This tab will never be in a selected state, even if the Create video UI is on screen.
          */
-        CREATE("CREATION_TAB_LARGE", "CREATION_TAB_LARGE_CAIRO"),
+        CREATE(
+                "CREATION_TAB_LARGE",
+                "CREATION_TAB_LARGE_CAIRO",
+                // Newer layout, where the tab is a regular tab next to the 'You' tab.
+                "ADD_CIRCLE_OUTLINE"
+        ),
         /**
          * Only shown when 'Show Search' is turned on.
          */

@@ -15,9 +15,9 @@ import app.morphe.patcher.InstructionLocation.MatchAfterWithin
 import app.morphe.patcher.checkCast
 import app.morphe.patcher.methodCall
 import app.morphe.patcher.opcode
-import app.morphe.patcher.string
 import app.morphe.patcher.resource.ResourceType
 import app.morphe.patcher.resourceLiteral
+import app.morphe.patcher.string
 import app.morphe.patches.youtube.layout.buttons.navigation.navigationBarPatch
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
@@ -82,13 +82,17 @@ internal object NavigationEnumFingerprint : Fingerprint(
 )
 
 internal object PivotBarButtonsCreateDrawableViewFingerprint : Fingerprint(
-    definingClass = "Lcom/google/android/libraries/youtube/rendering/ui/pivotbar/PivotBar;",
+    classFingerprint = Fingerprint(
+        definingClass = "Lcom/google/android/libraries/youtube/rendering/ui/pivotbar/PivotBar;",
+        filters = listOf(
+            string("Could not load default drawable for pivot bar tab.")
+        )
+    ),
     accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
     returnType = "Landroid/view/View;",
-    custom = { method, _ ->
-        // Only one view creation method has a Drawable parameter.
-        method.parameterTypes.firstOrNull() == "Landroid/graphics/drawable/Drawable;"
-    }
+    parameters = listOf(
+        "L", "Z" ,"I", "L"
+    )
 )
 
 internal object PivotBarButtonsCreateResourceStyledViewFingerprint : Fingerprint(
