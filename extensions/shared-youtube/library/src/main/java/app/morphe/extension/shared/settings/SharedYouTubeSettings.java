@@ -72,8 +72,8 @@ public class SharedYouTubeSettings extends BaseSettings {
     public static final BooleanSetting DISABLE_NOTIFICATION_MEDIA_SEEKBAR = new BooleanSetting("morphe_disable_notification_media_seekbar", FALSE, true);
     public static final BooleanSetting HIDE_NOTIFICATION_MEDIA_PREV_NEXT = new BooleanSetting("morphe_hide_notification_media_prev_next", FALSE, true);
     public static final BooleanSetting SEEK_NOTIFICATION_MEDIA_PREV_NEXT = new BooleanSetting("morphe_seek_notification_media_prev_next", FALSE, true, parentNot(HIDE_NOTIFICATION_MEDIA_PREV_NEXT));
-    public static final IntegerSetting SEEK_NOTIFICATION_MEDIA_REWIND_LENGTH = new IntegerSetting("morphe_seek_notification_media_rewind_length", 10, parent(SEEK_NOTIFICATION_MEDIA_PREV_NEXT));
-    public static final IntegerSetting SEEK_NOTIFICATION_MEDIA_FAST_FORWARD_LENGTH = new IntegerSetting("morphe_seek_notification_media_fast_forward_length", 10, parent(SEEK_NOTIFICATION_MEDIA_PREV_NEXT));
+    public static final IntegerSetting SEEK_NOTIFICATION_MEDIA_REWIND_LENGTH = new IntegerSetting("morphe_seek_notification_media_rewind_length", 10, true, parent(SEEK_NOTIFICATION_MEDIA_PREV_NEXT));
+    public static final IntegerSetting SEEK_NOTIFICATION_MEDIA_FAST_FORWARD_LENGTH = new IntegerSetting("morphe_seek_notification_media_fast_forward_length", 10, true, parent(SEEK_NOTIFICATION_MEDIA_PREV_NEXT));
 
     public static final BooleanSetting CHECK_WATCH_HISTORY_DOMAIN_NAME = new BooleanSetting("morphe_check_watch_history_domain_name", TRUE, false, false);
 
@@ -89,7 +89,7 @@ public class SharedYouTubeSettings extends BaseSettings {
     // Custom branding
     public static final EnumSetting<SplashScreenAnimationStyle> SPLASH_SCREEN_STYLE = new EnumSetting<>("morphe_splash_screen_style", SplashAnimationPatch.getDefaultStyle(), true);
     public static final EnumSetting<BrandingTheme> CUSTOM_BRANDING_ICON = new EnumSetting<>("morphe_custom_branding_icon", CustomBrandingPatch.getDefaultIconStyle(), true, "morphe_custom_branding_icon_user_dialog_message");
-    public static final EnumSetting<NotificationIconTheme> CUSTOM_BRANDING_NOTIFICATION_ICON = new EnumSetting<>("morphe_custom_branding_notification_icon", NotificationIconTheme.FOLLOW, true);
+    public static final EnumSetting<NotificationIconTheme> CUSTOM_BRANDING_NOTIFICATION_ICON = new EnumSetting<>("morphe_custom_branding_notification_icon", NotificationIconTheme.FOLLOW, true, "morphe_custom_branding_icon_user_dialog_message");
     public static final IntegerSetting CUSTOM_BRANDING_NAME = new IntegerSetting("morphe_custom_branding_name", CustomBrandingPatch.getDefaultAppNameIndex(), true);
     public static final StringSetting CUSTOM_BRANDING_ICON_PATCHED = new StringSetting("morphe_custom_branding_icon_patched", "", false, false);
 
@@ -103,7 +103,6 @@ public class SharedYouTubeSettings extends BaseSettings {
     public static final BooleanSetting SANITIZE_SHARING_LINKS = new BooleanSetting("morphe_sanitize_sharing_links", TRUE);
     public static final BooleanSetting REPLACE_MUSIC_LINKS_WITH_YOUTUBE = new BooleanSetting("morphe_replace_music_with_youtube", FALSE);
     public static final BooleanSetting REPLACE_LINKS_WITH_SHORTENER = new BooleanSetting("morphe_replace_links_with_shortener", FALSE);
-    public static final BooleanSetting OPEN_SYSTEM_SHARE_SHEET = new BooleanSetting("morphe_open_system_share_sheet", FALSE);
 
     // Video quality
     public static final IntegerSetting VIDEO_QUALITY_DEFAULT_WIFI = new IntegerSetting("morphe_video_quality_default_wifi", -2);
@@ -134,6 +133,7 @@ public class SharedYouTubeSettings extends BaseSettings {
     // YouTube Music only.
     public static final BooleanSetting EXTERNAL_DOWNLOADER_MENU = new BooleanSetting("morphe_external_downloader_menu", FALSE, DOWNLOAD_MODE.availability(DownloadMode.DEFAULT, DownloadMode.IN_APP));
     public static final StringSetting EXTERNAL_DOWNLOADER_PACKAGE_NAME = new StringSetting("morphe_external_downloader_name", "com.deniscerri.ytdl" /* YTDLnis */, new ExternalDownloaderAvailability());
+    public static final BooleanSetting DOWNLOAD_FORCE_4K = new BooleanSetting("morphe_download_force_4k", FALSE, DOWNLOAD_MODE.availability(DownloadMode.IN_APP));
     // YouTube only saves videos in the app with these download modes.
     // YouTube Music also saves songs with smart downloads, with any download mode.
     public static final StringSetting EXPORT_DOWNLOAD_FOLDER = new StringSetting("morphe_export_download_folder", "",
@@ -153,7 +153,7 @@ public class SharedYouTubeSettings extends BaseSettings {
     // Return YouTube Dislike
     public static final BooleanSetting RYD_ENABLED = new BooleanSetting("morphe_ryd_enabled", TRUE, true);
     public static final StringSetting RYD_USER_ID = new StringSetting("morphe_ryd_user_id", "", false, false);
-    public static final BooleanSetting RYD_DISLIKE_PERCENTAGE = new BooleanSetting("morphe_ryd_dislike_percentage", FALSE, parent(RYD_ENABLED));
+    public static final BooleanSetting RYD_DISLIKE_PERCENTAGE = new BooleanSetting("morphe_ryd_dislike_percentage", FALSE, true, parent(RYD_ENABLED));
     public static final BooleanSetting RYD_ESTIMATED_LIKE = new BooleanSetting("morphe_ryd_estimated_like", TRUE, true, parent(RYD_ENABLED));
     public static final BooleanSetting RYD_TOAST_ON_CONNECTION_ERROR = new BooleanSetting("morphe_ryd_toast_on_connection_error", TRUE, parent(RYD_ENABLED));
     public static final StringSetting GMS_CORE_IGNORED_VERSION = new StringSetting("morphe_gms_core_update_dialog_ignored_version", "", false, false);
